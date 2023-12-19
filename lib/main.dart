@@ -7,6 +7,7 @@ import 'package:iteo_libraries_example/core/di/di_config.dart';
 import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
+import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 import 'package:iteo_libraries_example/presentation/widget/providers/app_colors_provider.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/app_colors.dart';
 import 'package:provider/provider.dart';
@@ -48,8 +49,13 @@ class MyApp extends StatelessWidget {
     );
   }
 
+  /// Theme.of(context).extension<AppTheme>()!
   ThemeData _theme(AppColors colors) {
+    final appTheme = colors is LightThemeAppColors
+        ? AppTheme.light
+        : AppTheme.dark;
     return ThemeData(
+      extensions: [appTheme],
       scaffoldBackgroundColor: colors.background,
       brightness: colors.brightness,
       textSelectionTheme: TextSelectionThemeData(

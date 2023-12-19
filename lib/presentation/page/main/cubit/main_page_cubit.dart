@@ -34,7 +34,6 @@ class MainPageCubit extends Cubit<MainPageState> {
   }
 
   void _onAppThemeTypeChanged(AppThemeType type) {
-    print('ANDRII listen: $type');
     emit(MainPageState.idle(savedAppThemeType: type));
   }
 

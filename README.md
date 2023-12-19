@@ -11,4 +11,4 @@ A new Flutter project.
 ### Example
 `flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/main/*.dart'`
 
-fvm flutter packages run build_runner build --delete-conflicting-outputs
+flutter pub run build_runner build --delete-conflicting-outputs

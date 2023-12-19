@@ -8,19 +8,19 @@ part of 'app_theme.dart';
 // TailorAnnotationsGenerator
 // **************************************************************************
 
-class AppBarTheme extends ThemeExtension<AppBarTheme> {
-  const AppBarTheme({
+class AppBarThemeColor extends ThemeExtension<AppBarThemeColor> {
+  const AppBarThemeColor({
     required this.background,
   });
 
   final Color background;
 
-  static final AppBarTheme light = AppBarTheme(
-    background: _$AppBarTheme.background[0],
+  static final AppBarThemeColor light = AppBarThemeColor(
+    background: _$AppBarThemeColor.background[0],
   );
 
-  static final AppBarTheme dark = AppBarTheme(
-    background: _$AppBarTheme.background[1],
+  static final AppBarThemeColor dark = AppBarThemeColor(
+    background: _$AppBarThemeColor.background[1],
   );
 
   static final themes = [
@@ -29,18 +29,19 @@ class AppBarTheme extends ThemeExtension<AppBarTheme> {
   ];
 
   @override
-  AppBarTheme copyWith({
+  AppBarThemeColor copyWith({
     Color? background,
   }) {
-    return AppBarTheme(
+    return AppBarThemeColor(
       background: background ?? this.background,
     );
   }
 
   @override
-  AppBarTheme lerp(covariant ThemeExtension<AppBarTheme>? other, double t) {
-    if (other is! AppBarTheme) return this as AppBarTheme;
-    return AppBarTheme(
+  AppBarThemeColor lerp(
+      covariant ThemeExtension<AppBarThemeColor>? other, double t) {
+    if (other is! AppBarThemeColor) return this as AppBarThemeColor;
+    return AppBarThemeColor(
       background: Color.lerp(background, other.background, t)!,
     );
   }
@@ -49,7 +50,7 @@ class AppBarTheme extends ThemeExtension<AppBarTheme> {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is AppBarTheme &&
+            other is AppBarThemeColor &&
             const DeepCollectionEquality()
                 .equals(background, other.background));
   }
@@ -63,19 +64,19 @@ class AppBarTheme extends ThemeExtension<AppBarTheme> {
   }
 }
 
-class Background extends ThemeExtension<Background> {
-  const Background({
+class BackgroundColor extends ThemeExtension<BackgroundColor> {
+  const BackgroundColor({
     required this.background,
   });
 
   final Color background;
 
-  static final Background light = Background(
-    background: _$Background.background[0],
+  static final BackgroundColor light = BackgroundColor(
+    background: _$BackgroundColor.background[0],
   );
 
-  static final Background dark = Background(
-    background: _$Background.background[1],
+  static final BackgroundColor dark = BackgroundColor(
+    background: _$BackgroundColor.background[1],
   );
 
   static final themes = [
@@ -84,18 +85,19 @@ class Background extends ThemeExtension<Background> {
   ];
 
   @override
-  Background copyWith({
+  BackgroundColor copyWith({
     Color? background,
   }) {
-    return Background(
+    return BackgroundColor(
       background: background ?? this.background,
     );
   }
 
   @override
-  Background lerp(covariant ThemeExtension<Background>? other, double t) {
-    if (other is! Background) return this as Background;
-    return Background(
+  BackgroundColor lerp(
+      covariant ThemeExtension<BackgroundColor>? other, double t) {
+    if (other is! BackgroundColor) return this as BackgroundColor;
+    return BackgroundColor(
       background: Color.lerp(background, other.background, t)!,
     );
   }
@@ -104,7 +106,7 @@ class Background extends ThemeExtension<Background> {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is Background &&
+            other is BackgroundColor &&
             const DeepCollectionEquality()
                 .equals(background, other.background));
   }
@@ -118,8 +120,8 @@ class Background extends ThemeExtension<Background> {
   }
 }
 
-class ButtonStyle extends ThemeExtension<ButtonStyle> {
-  const ButtonStyle({
+class ButtonStyleColor extends ThemeExtension<ButtonStyleColor> {
+  const ButtonStyleColor({
     required this.background,
     required this.buttonInactiveText,
     required this.buttonText,
@@ -131,18 +133,18 @@ class ButtonStyle extends ThemeExtension<ButtonStyle> {
   final Color buttonText;
   final Color inactive;
 
-  static final ButtonStyle light = ButtonStyle(
-    background: _$ButtonStyle.background[0],
-    buttonInactiveText: _$ButtonStyle.buttonInactiveText[0],
-    buttonText: _$ButtonStyle.buttonText[0],
-    inactive: _$ButtonStyle.inactive[0],
+  static final ButtonStyleColor light = ButtonStyleColor(
+    background: _$ButtonStyleColor.background[0],
+    buttonInactiveText: _$ButtonStyleColor.buttonInactiveText[0],
+    buttonText: _$ButtonStyleColor.buttonText[0],
+    inactive: _$ButtonStyleColor.inactive[0],
   );
 
-  static final ButtonStyle dark = ButtonStyle(
-    background: _$ButtonStyle.background[1],
-    buttonInactiveText: _$ButtonStyle.buttonInactiveText[1],
-    buttonText: _$ButtonStyle.buttonText[1],
-    inactive: _$ButtonStyle.inactive[1],
+  static final ButtonStyleColor dark = ButtonStyleColor(
+    background: _$ButtonStyleColor.background[1],
+    buttonInactiveText: _$ButtonStyleColor.buttonInactiveText[1],
+    buttonText: _$ButtonStyleColor.buttonText[1],
+    inactive: _$ButtonStyleColor.inactive[1],
   );
 
   static final themes = [
@@ -151,13 +153,13 @@ class ButtonStyle extends ThemeExtension<ButtonStyle> {
   ];
 
   @override
-  ButtonStyle copyWith({
+  ButtonStyleColor copyWith({
     Color? background,
     Color? buttonInactiveText,
     Color? buttonText,
     Color? inactive,
   }) {
-    return ButtonStyle(
+    return ButtonStyleColor(
       background: background ?? this.background,
       buttonInactiveText: buttonInactiveText ?? this.buttonInactiveText,
       buttonText: buttonText ?? this.buttonText,
@@ -166,9 +168,10 @@ class ButtonStyle extends ThemeExtension<ButtonStyle> {
   }
 
   @override
-  ButtonStyle lerp(covariant ThemeExtension<ButtonStyle>? other, double t) {
-    if (other is! ButtonStyle) return this as ButtonStyle;
-    return ButtonStyle(
+  ButtonStyleColor lerp(
+      covariant ThemeExtension<ButtonStyleColor>? other, double t) {
+    if (other is! ButtonStyleColor) return this as ButtonStyleColor;
+    return ButtonStyleColor(
       background: Color.lerp(background, other.background, t)!,
       buttonInactiveText:
           Color.lerp(buttonInactiveText, other.buttonInactiveText, t)!,
@@ -181,7 +184,7 @@ class ButtonStyle extends ThemeExtension<ButtonStyle> {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is ButtonStyle &&
+            other is ButtonStyleColor &&
             const DeepCollectionEquality()
                 .equals(background, other.background) &&
             const DeepCollectionEquality()
@@ -203,8 +206,8 @@ class ButtonStyle extends ThemeExtension<ButtonStyle> {
   }
 }
 
-class ElevateButton extends ThemeExtension<ElevateButton> {
-  const ElevateButton({
+class ElevateButtonColor extends ThemeExtension<ElevateButtonColor> {
+  const ElevateButtonColor({
     required this.elevatedBackground,
     required this.elevatedBorder,
     required this.elevatedSelectedBackground,
@@ -220,22 +223,24 @@ class ElevateButton extends ThemeExtension<ElevateButton> {
   final Color elevatedSelectedText;
   final Color elevatedText;
 
-  static final ElevateButton light = ElevateButton(
-    elevatedBackground: _$ElevateButton.elevatedBackground[0],
-    elevatedBorder: _$ElevateButton.elevatedBorder[0],
-    elevatedSelectedBackground: _$ElevateButton.elevatedSelectedBackground[0],
-    elevatedSelectedBorder: _$ElevateButton.elevatedSelectedBorder[0],
-    elevatedSelectedText: _$ElevateButton.elevatedSelectedText[0],
-    elevatedText: _$ElevateButton.elevatedText[0],
+  static final ElevateButtonColor light = ElevateButtonColor(
+    elevatedBackground: _$ElevateButtonColor.elevatedBackground[0],
+    elevatedBorder: _$ElevateButtonColor.elevatedBorder[0],
+    elevatedSelectedBackground:
+        _$ElevateButtonColor.elevatedSelectedBackground[0],
+    elevatedSelectedBorder: _$ElevateButtonColor.elevatedSelectedBorder[0],
+    elevatedSelectedText: _$ElevateButtonColor.elevatedSelectedText[0],
+    elevatedText: _$ElevateButtonColor.elevatedText[0],
   );
 
-  static final ElevateButton dark = ElevateButton(
-    elevatedBackground: _$ElevateButton.elevatedBackground[1],
-    elevatedBorder: _$ElevateButton.elevatedBorder[1],
-    elevatedSelectedBackground: _$ElevateButton.elevatedSelectedBackground[1],
-    elevatedSelectedBorder: _$ElevateButton.elevatedSelectedBorder[1],
-    elevatedSelectedText: _$ElevateButton.elevatedSelectedText[1],
-    elevatedText: _$ElevateButton.elevatedText[1],
+  static final ElevateButtonColor dark = ElevateButtonColor(
+    elevatedBackground: _$ElevateButtonColor.elevatedBackground[1],
+    elevatedBorder: _$ElevateButtonColor.elevatedBorder[1],
+    elevatedSelectedBackground:
+        _$ElevateButtonColor.elevatedSelectedBackground[1],
+    elevatedSelectedBorder: _$ElevateButtonColor.elevatedSelectedBorder[1],
+    elevatedSelectedText: _$ElevateButtonColor.elevatedSelectedText[1],
+    elevatedText: _$ElevateButtonColor.elevatedText[1],
   );
 
   static final themes = [
@@ -244,7 +249,7 @@ class ElevateButton extends ThemeExtension<ElevateButton> {
   ];
 
   @override
-  ElevateButton copyWith({
+  ElevateButtonColor copyWith({
     Color? elevatedBackground,
     Color? elevatedBorder,
     Color? elevatedSelectedBackground,
@@ -252,7 +257,7 @@ class ElevateButton extends ThemeExtension<ElevateButton> {
     Color? elevatedSelectedText,
     Color? elevatedText,
   }) {
-    return ElevateButton(
+    return ElevateButtonColor(
       elevatedBackground: elevatedBackground ?? this.elevatedBackground,
       elevatedBorder: elevatedBorder ?? this.elevatedBorder,
       elevatedSelectedBackground:
@@ -265,9 +270,10 @@ class ElevateButton extends ThemeExtension<ElevateButton> {
   }
 
   @override
-  ElevateButton lerp(covariant ThemeExtension<ElevateButton>? other, double t) {
-    if (other is! ElevateButton) return this as ElevateButton;
-    return ElevateButton(
+  ElevateButtonColor lerp(
+      covariant ThemeExtension<ElevateButtonColor>? other, double t) {
+    if (other is! ElevateButtonColor) return this as ElevateButtonColor;
+    return ElevateButtonColor(
       elevatedBackground:
           Color.lerp(elevatedBackground, other.elevatedBackground, t)!,
       elevatedBorder: Color.lerp(elevatedBorder, other.elevatedBorder, t)!,
@@ -285,7 +291,7 @@ class ElevateButton extends ThemeExtension<ElevateButton> {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is ElevateButton &&
+            other is ElevateButtonColor &&
             const DeepCollectionEquality()
                 .equals(elevatedBackground, other.elevatedBackground) &&
             const DeepCollectionEquality()
@@ -314,19 +320,19 @@ class ElevateButton extends ThemeExtension<ElevateButton> {
   }
 }
 
-class Text extends ThemeExtension<Text> {
-  const Text({
+class TextColor extends ThemeExtension<TextColor> {
+  const TextColor({
     required this.color,
   });
 
   final Color color;
 
-  static final Text light = Text(
-    color: _$Text.color[0],
+  static final TextColor light = TextColor(
+    color: _$TextColor.color[0],
   );
 
-  static final Text dark = Text(
-    color: _$Text.color[1],
+  static final TextColor dark = TextColor(
+    color: _$TextColor.color[1],
   );
 
   static final themes = [
@@ -335,18 +341,18 @@ class Text extends ThemeExtension<Text> {
   ];
 
   @override
-  Text copyWith({
+  TextColor copyWith({
     Color? color,
   }) {
-    return Text(
+    return TextColor(
       color: color ?? this.color,
     );
   }
 
   @override
-  Text lerp(covariant ThemeExtension<Text>? other, double t) {
-    if (other is! Text) return this as Text;
-    return Text(
+  TextColor lerp(covariant ThemeExtension<TextColor>? other, double t) {
+    if (other is! TextColor) return this as TextColor;
+    return TextColor(
       color: Color.lerp(color, other.color, t)!,
     );
   }
@@ -355,7 +361,7 @@ class Text extends ThemeExtension<Text> {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is Text &&
+            other is TextColor &&
             const DeepCollectionEquality().equals(color, other.color));
   }
 
@@ -368,8 +374,8 @@ class Text extends ThemeExtension<Text> {
   }
 }
 
-class Icon extends ThemeExtension<Icon> {
-  const Icon({
+class IconColor extends ThemeExtension<IconColor> {
+  const IconColor({
     required this.color,
     required this.orange,
   });
@@ -377,14 +383,14 @@ class Icon extends ThemeExtension<Icon> {
   final Color color;
   final Color orange;
 
-  static final Icon light = Icon(
-    color: _$Icon.color[0],
-    orange: _$Icon.orange[0],
+  static final IconColor light = IconColor(
+    color: _$IconColor.color[0],
+    orange: _$IconColor.orange[0],
   );
 
-  static final Icon dark = Icon(
-    color: _$Icon.color[1],
-    orange: _$Icon.orange[1],
+  static final IconColor dark = IconColor(
+    color: _$IconColor.color[1],
+    orange: _$IconColor.orange[1],
   );
 
   static final themes = [
@@ -393,20 +399,20 @@ class Icon extends ThemeExtension<Icon> {
   ];
 
   @override
-  Icon copyWith({
+  IconColor copyWith({
     Color? color,
     Color? orange,
   }) {
-    return Icon(
+    return IconColor(
       color: color ?? this.color,
       orange: orange ?? this.orange,
     );
   }
 
   @override
-  Icon lerp(covariant ThemeExtension<Icon>? other, double t) {
-    if (other is! Icon) return this as Icon;
-    return Icon(
+  IconColor lerp(covariant ThemeExtension<IconColor>? other, double t) {
+    if (other is! IconColor) return this as IconColor;
+    return IconColor(
       color: Color.lerp(color, other.color, t)!,
       orange: Color.lerp(orange, other.orange, t)!,
     );
@@ -416,7 +422,7 @@ class Icon extends ThemeExtension<Icon> {
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is Icon &&
+            other is IconColor &&
             const DeepCollectionEquality().equals(color, other.color) &&
             const DeepCollectionEquality().equals(orange, other.orange));
   }
@@ -441,12 +447,12 @@ class AppTheme extends ThemeExtension<AppTheme> {
     required this.text,
   });
 
-  final AppBarTheme appBarTheme;
-  final Background backgroundColor;
-  final ButtonStyle button;
-  final ElevateButton elevateButtonStyle1;
-  final Icon icon;
-  final Text text;
+  final AppBarThemeColor appBarTheme;
+  final BackgroundColor backgroundColor;
+  final ButtonStyleColor button;
+  final ElevateButtonColor elevateButtonStyle1;
+  final IconColor icon;
+  final TextColor text;
 
   static final AppTheme light = AppTheme(
     appBarTheme: _$AppTheme.appBarTheme[0],
@@ -473,12 +479,12 @@ class AppTheme extends ThemeExtension<AppTheme> {
 
   @override
   AppTheme copyWith({
-    AppBarTheme? appBarTheme,
-    Background? backgroundColor,
-    ButtonStyle? button,
-    ElevateButton? elevateButtonStyle1,
-    Icon? icon,
-    Text? text,
+    AppBarThemeColor? appBarTheme,
+    BackgroundColor? backgroundColor,
+    ButtonStyleColor? button,
+    ElevateButtonColor? elevateButtonStyle1,
+    IconColor? icon,
+    TextColor? text,
   }) {
     return AppTheme(
       appBarTheme: appBarTheme ?? this.appBarTheme,
@@ -494,14 +500,14 @@ class AppTheme extends ThemeExtension<AppTheme> {
   AppTheme lerp(covariant ThemeExtension<AppTheme>? other, double t) {
     if (other is! AppTheme) return this as AppTheme;
     return AppTheme(
-      appBarTheme: appBarTheme.lerp(other.appBarTheme, t) as AppBarTheme,
+      appBarTheme: appBarTheme.lerp(other.appBarTheme, t) as AppBarThemeColor,
       backgroundColor:
-          backgroundColor.lerp(other.backgroundColor, t) as Background,
-      button: button.lerp(other.button, t) as ButtonStyle,
+          backgroundColor.lerp(other.backgroundColor, t) as BackgroundColor,
+      button: button.lerp(other.button, t) as ButtonStyleColor,
       elevateButtonStyle1: elevateButtonStyle1.lerp(
-          other.elevateButtonStyle1, t) as ElevateButton,
-      icon: icon.lerp(other.icon, t) as Icon,
-      text: text.lerp(other.text, t) as Text,
+          other.elevateButtonStyle1, t) as ElevateButtonColor,
+      icon: icon.lerp(other.icon, t) as IconColor,
+      text: text.lerp(other.text, t) as TextColor,
     );
   }
 
@@ -537,10 +543,10 @@ class AppTheme extends ThemeExtension<AppTheme> {
 
 extension AppThemeBuildContextProps on BuildContext {
   AppTheme get appTheme => Theme.of(this).extension<AppTheme>()!;
-  AppBarTheme get appBarTheme => appTheme.appBarTheme;
-  Background get backgroundColor => appTheme.backgroundColor;
-  ButtonStyle get button => appTheme.button;
-  ElevateButton get elevateButtonStyle1 => appTheme.elevateButtonStyle1;
-  Icon get icon => appTheme.icon;
-  Text get text => appTheme.text;
+  AppBarThemeColor get appBarTheme => appTheme.appBarTheme;
+  BackgroundColor get backgroundColor => appTheme.backgroundColor;
+  ButtonStyleColor get button => appTheme.button;
+  ElevateButtonColor get elevateButtonStyle1 => appTheme.elevateButtonStyle1;
+  IconColor get icon => appTheme.icon;
+  TextColor get text => appTheme.text;
 }

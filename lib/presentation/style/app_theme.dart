@@ -5,17 +5,17 @@ part 'app_theme.tailor.dart';
 
 
 @tailorComponent
-class _$AppBarTheme {
+class _$AppBarThemeColor {
   static List<Color> background = [const Color(0xFFFFFFFF), const Color(0xFF27272E)];
 }
 
 @tailorComponent
-class _$Background {
+class _$BackgroundColor {
   static List<Color> background = [const Color(0xFFFFFFFF), const Color(0xFF27272E)];
 }
 
 @tailorComponent
-class _$ButtonStyle {
+class _$ButtonStyleColor {
   static List<Color> background = [const Color(0xFFFF6500), const Color(0xFFFF6500)];
   static List<Color> inactive = [const Color(0xFFFFD1B3), const Color(0xFF3D3D43)];
   static List<Color> buttonText = [const Color(0xFFFFFFFF), const Color(0xFFFFFFFF)];
@@ -23,7 +23,7 @@ class _$ButtonStyle {
 }
 
 @tailorComponent
-class _$ElevateButton {
+class _$ElevateButtonColor {
   static List<Color> elevatedBackground = [const Color(0xFFFFFFFF), const Color(0xFF27272E)];
   static List<Color> elevatedSelectedBackground = [const Color(0xFF27272E), const Color(0xFFFFFFFF)];
 
@@ -35,12 +35,12 @@ class _$ElevateButton {
 }
 
 @tailorComponent
-class _$Text {
-  static List<Color> color = [const Color(0xFF27272E), const Color(0xFFFFFFFF)];
+class _$TextColor {
+  static List<Color> color = [const Color(0xFFFF6500), const Color(0xFFFFFFFF)];
 }
 
 @tailorComponent
-class _$Icon {
+class _$IconColor {
   static List<Color> color = [const Color(0xFF27272E), const Color(0xFFFFFFFF)];
   static List<Color> orange = [const Color(0xFFFF6500), const Color(0xFFFF6500)];
 }
@@ -48,15 +48,15 @@ class _$Icon {
 @tailor
 class _$AppTheme {
   @themeExtension
-  static List<AppBarTheme> appBarTheme = [AppBarTheme.light, AppBarTheme.dark];
+  static List<AppBarThemeColor> appBarTheme = [AppBarThemeColor.light, AppBarThemeColor.dark];
   @themeExtension
-  static List<Background> backgroundColor = [Background.light, Background.dark];
+  static List<BackgroundColor> backgroundColor = [BackgroundColor.light, BackgroundColor.dark];
   @themeExtension
-  static List<ButtonStyle> button = [ButtonStyle.light, ButtonStyle.dark];
+  static List<ButtonStyleColor> button = [ButtonStyleColor.light, ButtonStyleColor.dark];
   @themeExtension
-  static List<ElevateButton> elevateButtonStyle1 = [ElevateButton.light, ElevateButton.dark];
+  static List<ElevateButtonColor> elevateButtonStyle1 = [ElevateButtonColor.light, ElevateButtonColor.dark];
   @themeExtension
-  static List<Text> text = [Text.light, Text.dark];
+  static List<TextColor> text = [TextColor.light, TextColor.dark];
   @themeExtension
-  static List<Icon> icon = [Icon.light, Icon.dark];
+  static List<IconColor> icon = [IconColor.light, IconColor.dark];
 }

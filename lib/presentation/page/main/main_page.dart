@@ -4,6 +4,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/presentation/page/main/cubit/main_page_cubit.dart';
+import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 
 @RoutePage()
 class MainPage extends HookWidget {
@@ -14,7 +15,7 @@ class MainPage extends HookWidget {
     final cubit = useBloc<MainPageCubit>();
     final state = useBlocBuilder(cubit);
 
-    print('ANDRII state: $state');
+    final colors = Theme.of(context).extension<AppTheme>()!;
 
     return Scaffold(
       appBar: AppBar(
@@ -24,10 +25,14 @@ class MainPage extends HookWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+            const Text('Text color from theme'),
+            const SizedBox(height: 50),
+            Text(
+              'Text color from thene extension',
+              style: TextStyle(color: colors.text.color),
             ),
             Spacer(),
+
             state.maybeWhen(
               orElse: () => const SizedBox.shrink(),
               idle: (savedAppThemeType) => Column(
@@ -64,7 +69,6 @@ class RadioButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('ANDRII appThemeType: $appThemeType');
     return ListTile(
       title: Text(appThemeType.name),
       leading: Radio<AppThemeType>(
