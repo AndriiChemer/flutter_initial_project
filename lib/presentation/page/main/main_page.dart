@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
+import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/page/main/cubit/main_page_cubit.dart';
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 
@@ -32,7 +33,15 @@ class MainPage extends HookWidget {
               style: TextStyle(color: colors.text.color),
             ),
             Spacer(),
-
+            ElevatedButton(
+              child: Text("Open sealed cubit"),
+              style: ElevatedButton.styleFrom(
+                foregroundColor: colors.elevateButtonStyle1.elevatedBackground,
+                elevation: 0,
+              ),
+              onPressed: () => context.router.push(const SettingsRoute()),
+            ),
+            const SizedBox(height: 100),
             state.maybeWhen(
               orElse: () => const SizedBox.shrink(),
               idle: (savedAppThemeType) => Column(

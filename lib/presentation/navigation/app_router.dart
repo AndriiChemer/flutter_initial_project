@@ -1,5 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
+import 'package:iteo_libraries_example/presentation/page/settings/settings_page.dart';
 
 part 'app_router.gr.dart';
 
@@ -11,6 +12,9 @@ class AppRouter extends _$AppRouter {
     AutoRoute(
       initial: true,
       page: MainRoute.page,
+    ),
+    AutoRoute(
+      page: SettingsRoute.page,
     ),
   ];
 }
