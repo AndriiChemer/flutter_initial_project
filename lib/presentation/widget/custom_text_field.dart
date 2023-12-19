@@ -162,7 +162,7 @@ class CustomTextField extends HookWidget {
               labelStyle: typo.style8.copyWith(color: colors.subtypo),
               labelText: labelText,
               floatingLabelStyle:
-                  labelStyle ?? typo.style13.copyWith(color: colors.subtypo),
+                  labelStyle ?? typo.style9.copyWith(color: colors.subtypo),
               floatingLabelBehavior: floatingLabelBehavior,
               prefix: (prefixText?.isNotEmpty ?? false)
                   ? _PrefixText(prefixText: prefixText!)

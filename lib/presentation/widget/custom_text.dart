@@ -1,7 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart' as Widgets;
-import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
+import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/app_typo.dart';
 
 const evenTextHeightBehavior = TextHeightBehavior(
@@ -100,17 +99,6 @@ class CustomText extends StatelessWidget {
     this.autoSize = false,
   }) : _withTypo = ((typo) => typo.style6);
 
-  CustomText.style6Underline(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style6Underline);
-
   CustomText.style7(
     this.data, {
     super.key,
@@ -121,17 +109,6 @@ class CustomText extends StatelessWidget {
     this.textAlign,
     this.autoSize = false,
   }) : _withTypo = ((typo) => typo.style7);
-
-  CustomText.style7Underline(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style7Underline);
 
   CustomText.style8(
     this.data, {
@@ -155,7 +132,7 @@ class CustomText extends StatelessWidget {
     this.autoSize = false,
   }) : _withTypo = ((typo) => typo.style9);
 
-  CustomText.style10(
+  CustomText.style6Underline(
     this.data, {
     super.key,
     this.softWrap,
@@ -164,139 +141,7 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style10);
-
-  CustomText.style10Strikethrough(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style10Strikethrough);
-
-  CustomText.style10Underline(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style10Underline);
-
-  CustomText.style11(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style11);
-
-  CustomText.style11Italic(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style11Italic);
-
-  CustomText.style12(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style12);
-
-  CustomText.style13(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style13);
-
-  CustomText.style14(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style14);
-
-  CustomText.style15(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style15);
-
-  CustomText.style16(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style16);
-
-  CustomText.style16Strikethrough(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style16Strikethrough);
-
-  CustomText.style17(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style17);
-
-  CustomText.styleOverlay(
-    this.data, {
-    super.key,
-    this.softWrap,
-    this.overflow,
-    this.maxLines,
-    this.color,
-    this.textAlign,
-    this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.styleOverlay);
+  }) : _withTypo = ((typo) => typo.style6Underline);
 
   final String data;
   final bool? softWrap;
@@ -309,8 +154,8 @@ class CustomText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final style = _withTypo(context.text).copyWith(color: color ?? Colors.red);
-    AppTypo;
+    final style = _withTypo(context.typo).copyWith(color: color ?? context.colors.typo);
+
     if (autoSize) {
       return AutoSizeText(
         data,
@@ -319,18 +164,18 @@ class CustomText extends StatelessWidget {
         maxLines: maxLines,
         textAlign: textAlign,
         minFontSize: 5,
-        // style: style,
+        style: style,
       );
     }
 
-    return Widgets.Text(
+    return Text(
       data,
       softWrap: softWrap,
       overflow: overflow,
       maxLines: maxLines,
       textHeightBehavior: evenTextHeightBehavior,
       textAlign: textAlign,
-      // style: style,
+      style: style,
     );
   }
 }

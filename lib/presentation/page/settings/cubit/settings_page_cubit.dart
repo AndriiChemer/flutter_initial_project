@@ -1,8 +1,8 @@
-import 'package:bloc/bloc.dart';
+import 'package:iteo_libraries_example/presentation/widget/cubit/safe_cubit.dart';
 
 part 'settings_page_state.dart';
 
-class SettingsPageCubit extends Cubit<SettingsPageState> {
+class SettingsPageCubit extends SafeCubit<SettingsPageState> {
   SettingsPageCubit() : super(SettingsPageLoading());
 
   int _count = 0;

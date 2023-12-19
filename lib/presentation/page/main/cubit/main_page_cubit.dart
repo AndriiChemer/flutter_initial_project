@@ -1,16 +1,15 @@
 import 'dart:async';
-
-import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/save_app_theme_type_use_case.dart';
+import 'package:iteo_libraries_example/presentation/widget/cubit/safe_cubit.dart';
 
 part 'main_page_state.dart';
 part 'main_page_cubit.freezed.dart';
 
-class MainPageCubit extends Cubit<MainPageState> {
+class MainPageCubit extends SafeCubit<MainPageState> {
   MainPageCubit(
     this._saveAppThemeType,
     this._getAppThemeTypeStream,

@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/core/di/di_config.dart';
@@ -10,22 +11,34 @@ import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 import 'package:iteo_libraries_example/presentation/widget/providers/app_colors_provider.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/app_colors.dart';
+import 'package:iteo_libraries_example/presentation/widget/theme/app_shadows.dart';
+import 'package:iteo_libraries_example/presentation/widget/theme/app_typo.dart';
 import 'package:provider/provider.dart';
 
 FutureOr<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
-  await configureDependencies();
-  final appRouter = AppRouter();
-
   await runZonedGuarded(() async {
+    WidgetsFlutterBinding.ensureInitialized();
+
+    await configureDependencies();
+    final appRouter = AppRouter();
+
     runApp(
       HookedBlocConfigProvider(
         injector: () => getIt.get,
-        child: ChangeNotifierProvider(
-          create: (_) => AppColorsProvider(
-            getIt<GetAppThemeTypeStreamUseCase>(),
-          ),
+        child: MultiProvider(
+          providers: [
+            ChangeNotifierProvider(
+              create: (_) => AppColorsProvider(
+                getIt<GetAppThemeTypeStreamUseCase>(),
+              ),
+            ),
+            ProxyProvider<AppColorsProvider, AppTypo>(
+              update: (_, value, __) => AppTypo(value.colors),
+            ),
+            ProxyProvider<AppColorsProvider, AppShadows>(
+              update: (_, value, __) => AppShadows(value.colors),
+            ),
+          ],
           child: MyApp(appRouter),
         ),
       ),
