@@ -1,0 +1,25 @@
+{
+  "snackbar_wrapper": {
+    "unknown_error": {
+      "title": "Ups...",
+      "message": "Coś poszło nie tak"
+    }
+  },
+  "setting_page": {
+    "title": "Ustawienia",
+    "loading": "Loading",
+    "extension_color": "Text color from thene extension",
+    "error": {
+      "title": "Ups...",
+      "message": "Testowy błąd"
+    },
+    "warning": {
+      "title": "Uwaga!",
+      "message": "Testowy warning"
+    },
+    "buttons": {
+      "show_error": "Pokaż błąd",
+      "show_warning": "Pokaż warning"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/core/di/di_config.dart';
@@ -15,13 +15,17 @@ import 'package:iteo_libraries_example/presentation/widget/theme/app_shadows.dar
 import 'package:iteo_libraries_example/presentation/widget/theme/app_typo.dart';
 import 'package:provider/provider.dart';
 
+const appLocale = Locale('pl');
+
 FutureOr<void> main() async {
   await runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
 
     await configureDependencies();
     final appRouter = AppRouter();
+    await EasyLocalization.ensureInitialized();
 
+    print('ANDRII appRouter: $appRouter');
     runApp(
       HookedBlocConfigProvider(
         injector: () => getIt.get,
@@ -39,7 +43,13 @@ FutureOr<void> main() async {
               update: (_, value, __) => AppShadows(value.colors),
             ),
           ],
-          child: MyApp(appRouter),
+          child: EasyLocalization(
+            path: 'assets/translations',
+            supportedLocales: const [appLocale],
+            startLocale: appLocale,
+            fallbackLocale: appLocale,
+            child: MyApp(appRouter),
+          ),
         ),
       ),
     );
@@ -57,6 +67,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
       theme: _theme(context.colors),
       routerConfig: appRouter.config(),
     );

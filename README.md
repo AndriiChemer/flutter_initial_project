@@ -12,3 +12,19 @@ A new Flutter project.
 `flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/main/*.dart'`
 
 flutter pub run build_runner build --delete-conflicting-outputs
+
+flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/widget/*.dart'
+
+fvm flutter packages pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/widget/*.dart'
+
+
+
+### Problem with build_runner
+https://sulthanalihsan.medium.com/failed-to-build-build-runner-method-not-found-fallthrougherror-pub-semver-a21f5dcdb7ad 
+```
+flutter clean
+flutter packages pub get
+```
+
+### Translations
+`flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart`

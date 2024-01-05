@@ -11,3 +11,19 @@ class SettingsPageIdle extends SettingsPageState {
 
   final AppThemeType savedAppThemeType;
 }
+
+class SettingsPageShowError extends SettingsPageState {
+  SettingsPageShowError({
+    required this.properties,
+  });
+
+  final SnackbarProperties properties;
+}
+
+class SettingsPageShowWarning extends SettingsPageState {
+  SettingsPageShowWarning({
+    required this.properties,
+  });
+
+  final SnackbarProperties properties;
+}

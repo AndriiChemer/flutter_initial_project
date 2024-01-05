@@ -5,7 +5,8 @@ import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/page/main/cubit/main_page_cubit.dart';
-import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
+import 'package:iteo_libraries_example/presentation/widget/export.dart';
+import 'package:iteo_libraries_example/presentation/widget/hook/use_snackbar_controller.dart';
 
 @RoutePage()
 class MainPage extends HookWidget {
@@ -15,51 +16,21 @@ class MainPage extends HookWidget {
   Widget build(BuildContext context) {
     final cubit = useBloc<MainPageCubit>();
     final state = useBlocBuilder(cubit);
+    final snackbarController = useSnackbarController();
 
-    final colors = Theme.of(context).extension<AppTheme>()!;
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Main Page'),
-        actions: [
-          IconButton(
-            onPressed: () => context.router.push(const SettingsRoute()),
-            icon: const Icon(Icons.settings),
-          ),
-        ],
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('Text color from theme'),
-            const SizedBox(height: 50),
-            Text(
-              'Text color from thene extension',
-              style: TextStyle(color: colors.text.color),
-            ),
-            Spacer(),
-            ElevatedButton(
-              child: Text("Open sealed cubit"),
-              style: ElevatedButton.styleFrom(
-                foregroundColor: colors.elevateButtonStyle1.elevatedBackground,
-                elevation: 0,
-              ),
+    return SnackbarWrapper(
+      snackbarController: snackbarController,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text('Main Page'),
+          actions: [
+            IconButton(
               onPressed: () => context.router.push(const SettingsRoute()),
-            ),
-            const SizedBox(height: 100),
-            state.maybeWhen(
-              orElse: () => const SizedBox.shrink(),
-              idle: (savedAppThemeType) => Column(
-                children: AppThemeType.values.map((item) => RadioButton(
-                  appThemeType: item,
-                  selectedAppThemeType: savedAppThemeType,
-                  action: cubit.setAppThemeType,
-                )).toList(),
-              ),
+              icon: const Icon(Icons.settings),
             ),
           ],
         ),
+        body: Center(),
       ),
     );
   }
@@ -83,7 +54,6 @@ class RadioButton extends StatelessWidget {
       title: Text(appThemeType.name),
       leading: Radio<AppThemeType>(
         value: appThemeType,
-
         groupValue: selectedAppThemeType,
         onChanged: action,
       ),
