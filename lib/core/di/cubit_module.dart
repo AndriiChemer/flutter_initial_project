@@ -12,5 +12,8 @@ Future<void> injectCubitModule(GetIt getIt) async {
       getIt<GetAppThemeTypeStreamUseCase>(),
   ));
 
-  getIt.registerFactory<SettingsPageCubit>(() => SettingsPageCubit());
+  getIt.registerFactory<SettingsPageCubit>(() => SettingsPageCubit(
+    getIt<SaveAppThemeTypeUseCase>(),
+    getIt<GetAppThemeTypeStreamUseCase>(),
+  ));
 }

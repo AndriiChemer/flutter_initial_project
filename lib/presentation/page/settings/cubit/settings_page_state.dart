@@ -6,10 +6,8 @@ class SettingsPageLoading extends SettingsPageState {}
 
 class SettingsPageIdle extends SettingsPageState {
   SettingsPageIdle({
-    required this.count,
-    required this.title,
+    required this.savedAppThemeType,
   });
 
-  final int count;
-  final String title;
+  final AppThemeType savedAppThemeType;
 }

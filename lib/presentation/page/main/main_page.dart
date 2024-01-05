@@ -21,6 +21,12 @@ class MainPage extends HookWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Main Page'),
+        actions: [
+          IconButton(
+            onPressed: () => context.router.push(const SettingsRoute()),
+            icon: const Icon(Icons.settings),
+          ),
+        ],
       ),
       body: Center(
         child: Column(
