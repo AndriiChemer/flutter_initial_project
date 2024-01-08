@@ -5,6 +5,9 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
+import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
+import 'package:iteo_libraries_example/presentation/page/more/more_page.dart';
+import 'package:iteo_libraries_example/presentation/page/user_form/user_form_page.dart';
 
 enum BottomNavigationPages {
   home,
@@ -18,43 +21,74 @@ class MainPage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final selectedPage = useState(BottomNavigationPages.home);
+    final title = _mapBottomNavigationBar(selectedPage.value).label ?? '';
 
-    return AutoTabsRouter.pageView(
-      routes: BottomNavigationPages.values.map(_mapPage).toList(),
-      builder: (context, child, _) {
-        final tabsRouter = AutoTabsRouter.of(context);
-        final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
-        return Scaffold(
-          appBar: AppBar(
-            title: Text(label ?? ''),
-            actions: [
-              IconButton(
-                onPressed: () => context.router.push(const SettingsRoute()),
-                icon: const Icon(Icons.settings),
-              ),
-            ],
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(title),
+        actions: [
+          IconButton(
+            onPressed: () => context.router.push(const SettingsRoute()),
+            icon: const Icon(Icons.settings),
           ),
-          body: child,
-          bottomNavigationBar: BottomNavigationBar(
-            currentIndex: tabsRouter.activeIndex,
-            onTap: (index) => tabsRouter.setActiveIndex(index),
-            items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
-          ),
-        );
-      },
+        ],
+      ),
+      body: _mapPage(selectedPage.value),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
+        onTap: (index) => selectedPage.value = BottomNavigationPages.values[index],
+        items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
+      ),
     );
+
+    // return AutoTabsRouter.tabBar(
+    //   routes: BottomNavigationPages.values.map(_mapPage).toList(),
+    //   builder: (context, child, _) {
+    //     final tabsRouter = AutoTabsRouter.of(context);
+    //     final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
+    //     return Scaffold(
+    //       appBar: AppBar(
+    //         title: Text(label ?? ''),
+    //         actions: [
+    //           IconButton(
+    //             onPressed: () => context.router.push(const SettingsRoute()),
+    //             icon: const Icon(Icons.settings),
+    //           ),
+    //         ],
+    //       ),
+    //       body: child,
+    //       bottomNavigationBar: BottomNavigationBar(
+    //         currentIndex: tabsRouter.activeIndex,
+    //         onTap: (index) => tabsRouter.setActiveIndex(index),
+    //         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
+    //       ),
+    //     );
+    //   },
+    // );
   }
 
-  PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
+  Widget _mapPage(BottomNavigationPages page) {
     switch(page) {
       case BottomNavigationPages.home:
-        return const HomeRoute();
+        return const HomePage();
       case BottomNavigationPages.userForms:
-        return const UserFormRoute();
+        return const UserFormPage();
       case BottomNavigationPages.more:
-        return const MoreRoute();
+        return const MorePage();
     }
   }
+
+  // PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
+  //   switch(page) {
+  //     case BottomNavigationPages.home:
+  //       return const HomeRoute();
+  //     case BottomNavigationPages.userForms:
+  //       return const UserFormRoute();
+  //     case BottomNavigationPages.more:
+  //       return const MoreRoute();
+  //   }
+  // }
 
   BottomNavigationBarItem _mapBottomNavigationBar(BottomNavigationPages page) {
     switch(page) {

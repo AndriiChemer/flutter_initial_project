@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:iteo_libraries_example/presentation/page/more/widget/animation_float_button.dart';
 
 @RoutePage()
 class MorePage extends HookWidget {
@@ -8,49 +9,25 @@ class MorePage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isUiBuildState = useState(false);
-    useEffect(() {
-      WidgetsBinding.instance.addPostFrameCallback((_) => isUiBuildState.value = true);
-      return () {
-        print('ANDRII close');
-      };
-    }, ['hello']);
-    return Stack(
+    return const Stack(
       children: [
-        AnimatedPositioned(
-          duration: const Duration(milliseconds: 400),
-          bottom: isUiBuildState.value ? 180 : -20,
-          right: 20,
-          child: FloatingActionButton(
-            backgroundColor: const Color.fromRGBO(82, 170, 94, 1.0),
-            tooltip: 'Increment',
-            onPressed: (){},
-            child: const Icon(Icons.remove, color: Colors.white, size: 28),
-          ),
+        AnimatedFloatButton(
+          duration: Duration(milliseconds: 300),
+          bottom: 180,
+          title: 'Button 1',
+          icon: Icon(Icons.remove),
         ),
-
-        AnimatedPositioned(
-          duration: const Duration(milliseconds: 300),
-          bottom: isUiBuildState.value ? 100 : -20,
-          right: 20,
-          child: FloatingActionButton(
-            backgroundColor: const Color.fromRGBO(82, 170, 94, 1.0),
-            tooltip: 'Increment',
-            onPressed: (){},
-            child: const Icon(Icons.start, color: Colors.white, size: 28),
-          ),
+        AnimatedFloatButton(
+          duration: Duration(milliseconds: 250),
+          bottom: 100,
+          title: 'Button 2',
+          icon: Icon(Icons.start),
         ),
-
-        AnimatedPositioned(
-          duration: const Duration(milliseconds: 200),
-          bottom: isUiBuildState.value ? 20 : -20,
-          right: 20,
-          child: FloatingActionButton(
-            backgroundColor: const Color.fromRGBO(82, 170, 94, 1.0),
-            tooltip: 'Increment',
-            onPressed: (){},
-            child: const Icon(Icons.add, color: Colors.white, size: 28),
-          ),
+        AnimatedFloatButton(
+          duration: Duration(milliseconds: 200),
+          bottom: 20,
+          title: 'Button 1',
+          icon: Icon(Icons.add),
         ),
       ],
     );
