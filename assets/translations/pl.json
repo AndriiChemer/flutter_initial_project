@@ -2,31 +2,31 @@
   "snackbar_wrapper": {
     "unknown_error": {
       "title": "Ups...",
-      "message": "Coś poszło nie tak"
+      "message": "Something went wrong"
     }
   },
   "main_page": {
     "navigation": {
       "home": "Home",
       "user_form": "User Forms",
-      "more": "User Forms"
+      "more": "More"
     }
   },
   "setting_page": {
-    "title": "Ustawienia",
+    "title": "Settings",
     "loading": "Loading",
     "extension_color": "Text color from thene extension",
     "error": {
       "title": "Ups...",
-      "message": "Testowy błąd"
+      "message": "Test error"
     },
     "warning": {
-      "title": "Uwaga!",
-      "message": "Testowy warning"
+      "title": "Warning!",
+      "message": "Test warning"
     },
     "buttons": {
-      "show_error": "Pokaż błąd",
-      "show_warning": "Pokaż warning"
+      "show_error": "Show error",
+      "show_warning": "Show warning"
     }
   }
 }
