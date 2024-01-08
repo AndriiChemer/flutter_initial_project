@@ -26,6 +26,7 @@ class AppRouter extends _$AppRouter {
         ),
         AutoRoute(
           page: MoreRoute.page,
+          keepHistory: false,
         ),
       ],
     ),
