@@ -1,29 +1,103 @@
-# This file configures the analyzer, which statically analyzes Dart code to
-# check for errors, warnings, and lints.
-#
-# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
-# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
-# invoked from the command line by running `flutter analyze`.
+include: package:linteo/analysis_options.yaml
 
-# The following line activates a set of recommended lints for Flutter apps,
-# packages, and plugins designed to encourage good coding practices.
-include: package:flutter_lints/flutter.yaml
+analyzer:
+  plugins:
+    - dart_code_metrics
+    - architecture_linter
+  errors:
+    body_might_complete_normally_nullable: "ignore"
+    strict_raw_type: "ignore"
+    no_runtimetype_tostring: "ignore"
+    multiple_plugins: "ignore"
+
+  exclude:
+    - "**.gr.dart"
+    - "**.freezed.dart"
+    - "**.cached.dart"
+    - "**.g.dart"
+    - "**.mocks.dart"
+    - "**.config.dart"
+    - "lib/generated_plugin_registrant.dart"
+    - "build/**"
+    - "assets/**"
+    - "ios/**"
+    - "android/**"
+    - "lib/presentation/gen/**"
+    - "distribution/**"
+    - "integration_test/e2e/features/**/*.dart"
+    - "integration_test/e2e/e2e_tests.dart"
 
 linter:
-  # The lint rules applied to this project can be customized in the
-  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
-  # included above or to enable additional rules. A list of all available lints
-  # and their documentation is published at
-  # https://dart-lang.github.io/linter/lints/index.html.
-  #
-  # Instead of disabling a lint rule for the entire project in the
-  # section below, it can also be suppressed for a single line of code
-  # or a specific dart file by using the `// ignore: name_of_lint` and
-  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
-  # producing the lint.
   rules:
-    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
-    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    avoid_annotating_with_dynamic: false
+    avoid_positional_boolean_parameters: false
 
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+dart_code_metrics:
+  metrics:
+    cyclomatic-complexity: 20
+    number-of-parameters: 4
+    maximum-nesting-level: 5
+  rules:
+    - avoid-global-state
+    - avoid-nested-conditional-expressions
+    - avoid-unnecessary-type-assertions
+    - avoid-unnecessary-type-casts
+    - avoid-unrelated-type-assertions
+    - binary-expression-operand-order
+    - double-literal-format
+    - newline-before-return
+    - no-equal-then-else
+    - no-object-declaration
+    - avoid-shrink-wrap-in-lists
+    - always-remove-listener
+    - avoid-returning-widgets:
+        ignored-annotations:
+          - usedInListView
+          - conditionalWidget
+    - avoid-unnecessary-setstate
+
+architecture_linter:
+  excludes:
+    - "**.g.dart"
+    - "**.freezed.dart"
+    - "**.cached.dart"
+    - "**.gr.dart"
+    - "**.mocks.dart"
+    - "test/**"
+
+  lint_severity: warning
+
+  layers:
+    - &infrastructureLayer
+      name: "Infrastructure"
+      pathRegex:
+        source: "(infrastructure)"
+    - &domainLayer
+      name: "Domain"
+      pathRegex:
+        source: "(domain/features)"
+    - &presentationLayer
+      name: "Presentation"
+      pathRegex:
+        source: "(presentation)"
+    - &useCaseLayer
+      name: "Domain/UseCases"
+      pathRegex:
+        source: "(domain/use_cases)"
+
+  bannedImports:
+    - layer: *domainLayer
+      banned:
+        - *presentationLayer
+        - *useCaseLayer
+        - *infrastructureLayer
+    - layer: *presentationLayer
+      banned:
+        - *infrastructureLayer
+    - layer: *infrastructureLayer
+      banned:
+        - *presentationLayer
+    - layer: *useCaseLayer
+      banned:
+        - *presentationLayer
+        - *infrastructureLayer

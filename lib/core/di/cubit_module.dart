@@ -8,10 +8,7 @@ import 'package:iteo_libraries_example/presentation/page/settings/cubit/settings
 import 'package:iteo_libraries_example/presentation/widget/snackbar/cubit/snackbar_wrapper_cubit.dart';
 
 Future<void> injectCubitModule(GetIt getIt) async {
-  getIt.registerFactory<MainPageCubit>(() => MainPageCubit(
-      getIt<SaveAppThemeTypeUseCase>(),
-      getIt<GetAppThemeTypeStreamUseCase>(),
-  ));
+  getIt.registerFactory<MainPageCubit>(() => MainPageCubit());
 
   getIt.registerFactory<SettingsPageCubit>(() => SettingsPageCubit(
     getIt<SaveAppThemeTypeUseCase>(),

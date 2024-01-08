@@ -5,6 +5,13 @@
       "message": "Coś poszło nie tak"
     }
   },
+  "main_page": {
+    "navigation": {
+      "home": "Home",
+      "user_form": "User Forms",
+      "more": "User Forms"
+    }
+  },
   "setting_page": {
     "title": "Ustawienia",
     "loading": "Loading",

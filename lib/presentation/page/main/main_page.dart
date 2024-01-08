@@ -1,12 +1,16 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
+import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
-import 'package:iteo_libraries_example/presentation/page/main/cubit/main_page_cubit.dart';
-import 'package:iteo_libraries_example/presentation/widget/export.dart';
-import 'package:iteo_libraries_example/presentation/widget/hook/use_snackbar_controller.dart';
+
+enum BottomNavigationPages {
+  home,
+  userForms,
+  more,
+}
 
 @RoutePage()
 class MainPage extends HookWidget {
@@ -14,25 +18,62 @@ class MainPage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final cubit = useBloc<MainPageCubit>();
-    final state = useBlocBuilder(cubit);
-    final snackbarController = useSnackbarController();
 
-    return SnackbarWrapper(
-      snackbarController: snackbarController,
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text('Main Page'),
-          actions: [
-            IconButton(
-              onPressed: () => context.router.push(const SettingsRoute()),
-              icon: const Icon(Icons.settings),
-            ),
-          ],
-        ),
-        body: Center(),
-      ),
+    return AutoTabsRouter.pageView(
+      routes: BottomNavigationPages.values.map(_mapPage).toList(),
+      builder: (context, child, _) {
+        final tabsRouter = AutoTabsRouter.of(context);
+        final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
+        return Scaffold(
+          appBar: AppBar(
+            title: Text(label ?? ''),
+            actions: [
+              IconButton(
+                onPressed: () => context.router.push(const SettingsRoute()),
+                icon: const Icon(Icons.settings),
+              ),
+            ],
+          ),
+          body: child,
+          bottomNavigationBar: BottomNavigationBar(
+            currentIndex: tabsRouter.activeIndex,
+            onTap: (index) => tabsRouter.setActiveIndex(index),
+            items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
+          ),
+        );
+      },
     );
+  }
+
+  PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
+    switch(page) {
+      case BottomNavigationPages.home:
+        return const HomeRoute();
+      case BottomNavigationPages.userForms:
+        return const UserFormRoute();
+      case BottomNavigationPages.more:
+        return const MoreRoute();
+    }
+  }
+
+  BottomNavigationBarItem _mapBottomNavigationBar(BottomNavigationPages page) {
+    switch(page) {
+      case BottomNavigationPages.home:
+        return BottomNavigationBarItem(
+          label: LocaleKeys.main_page_navigation_home.tr(),
+          icon: const Icon(Icons.home),
+        );
+      case BottomNavigationPages.userForms:
+        return BottomNavigationBarItem(
+          label: LocaleKeys.main_page_navigation_user_form.tr(),
+          icon: const Icon(Icons.insert_drive_file),
+        );
+      case BottomNavigationPages.more:
+        return BottomNavigationBarItem(
+          label: LocaleKeys.main_page_navigation_more.tr(),
+          icon: const Icon(Icons.more_horiz),
+        );
+    }
   }
 }
 
@@ -46,7 +87,7 @@ class RadioButton extends StatelessWidget {
 
   final AppThemeType selectedAppThemeType;
   final AppThemeType appThemeType;
-  final Function(AppThemeType? appThemeType) action;
+  final void Function(AppThemeType? appThemeType) action;
 
   @override
   Widget build(BuildContext context) {

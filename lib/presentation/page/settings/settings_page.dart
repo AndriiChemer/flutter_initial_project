@@ -2,7 +2,6 @@ import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:gap/gap.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
@@ -11,7 +10,6 @@ import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/hook/use_snackbar_controller.dart';
 import 'package:iteo_libraries_example/presentation/widget/snackbar/snackbar_properties.f.dart';
-import 'package:iteo_libraries_example/presentation/widget/theme/spacings.dart';
 
 @RoutePage()
 class SettingsPage extends HookWidget {
@@ -98,12 +96,12 @@ class _Content extends StatelessWidget {
             action: cubit.setAppThemeType,
           )).toList(),
         ),
-        const Gap(Spacings.xbig),
+        const CustomGap.xbig(),
         Text(
           LocaleKeys.setting_page_extension_color.tr(),
           style: TextStyle(color: colors.text.color),
         ),
-        const Gap(Spacings.lg),
+        const CustomGap.lg(),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -143,7 +141,7 @@ class RadioButton extends StatelessWidget {
 
   final AppThemeType selectedAppThemeType;
   final AppThemeType appThemeType;
-  final Function(AppThemeType? appThemeType) action;
+  final void Function(AppThemeType? appThemeType) action;
 
   @override
   Widget build(BuildContext context) {
@@ -154,7 +152,7 @@ class RadioButton extends StatelessWidget {
           groupValue: selectedAppThemeType,
           onChanged: action,
         ),
-        const Gap(Spacings.xsm),
+        const CustomGap.xsm(),
         Text(appThemeType.name)
       ],
     );
@@ -185,4 +183,3 @@ class CustomButton extends StatelessWidget {
     );
   }
 }
-

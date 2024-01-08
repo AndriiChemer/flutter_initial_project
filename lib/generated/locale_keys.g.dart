@@ -5,6 +5,11 @@ abstract class  LocaleKeys {
   static const snackbar_wrapper_unknown_error_message = 'snackbar_wrapper.unknown_error.message';
   static const snackbar_wrapper_unknown_error = 'snackbar_wrapper.unknown_error';
   static const snackbar_wrapper = 'snackbar_wrapper';
+  static const main_page_navigation_home = 'main_page.navigation.home';
+  static const main_page_navigation_user_form = 'main_page.navigation.user_form';
+  static const main_page_navigation_more = 'main_page.navigation.more';
+  static const main_page_navigation = 'main_page.navigation';
+  static const main_page = 'main_page';
   static const setting_page_title = 'setting_page.title';
   static const setting_page_loading = 'setting_page.loading';
   static const setting_page_extension_color = 'setting_page.extension_color';
