@@ -28,5 +28,25 @@
       "show_error": "Show error",
       "show_warning": "Show warning"
     }
+  },
+  "inputs": {
+    "name": "Name",
+    "common": {
+      "required_suffix": "*",
+      "text_too_short": {
+        "one": "The field should contain at least {} character",
+        "two": "The field should contain at least {} characters",
+        "few": "The field should contain at least {} characters",
+        "many": "The field should contain at least {} characters",
+        "other": "The field should contain at least {} characters"
+      },
+      "text_too_long": {
+        "one": "The field should contain a maximum of {} character",
+        "two": "The field should contain a maximum of {} characters",
+        "few": "The field should contain a maximum of {} characters",
+        "many": "The field should contain a maximum of {} characters",
+        "other": "The field should contain a maximum of {} characters"
+      }
+    }
   }
 }

@@ -23,5 +23,11 @@ abstract class  LocaleKeys {
   static const setting_page_buttons_show_warning = 'setting_page.buttons.show_warning';
   static const setting_page_buttons = 'setting_page.buttons';
   static const setting_page = 'setting_page';
+  static const inputs_name = 'inputs.name';
+  static const inputs_common_required_suffix = 'inputs.common.required_suffix';
+  static const inputs_common_text_too_short = 'inputs.common.text_too_short';
+  static const inputs_common_text_too_long = 'inputs.common.text_too_long';
+  static const inputs_common = 'inputs.common';
+  static const inputs = 'inputs';
 
 }

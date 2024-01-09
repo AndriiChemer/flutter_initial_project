@@ -4,7 +4,7 @@ import 'package:iteo_libraries_example/presentation/page/main/widget/email_input
 import 'package:iteo_libraries_example/presentation/widget/base_text_input/base_text_input.dart';
 import 'package:iteo_libraries_example/presentation/widget/base_text_input/cubit/base_text_input_cubit.dart';
 import 'package:iteo_libraries_example/presentation/widget/base_text_input/cubit/base_text_input_state.dart';
-import 'package:iteo_libraries_example/presentation/widget/custom_text_field.dart';
+import 'package:iteo_libraries_example/presentation/widget/input/custom_text_field.dart';
 
 class EmailInput extends BaseTextInput<String,
     EmailValidationResult, EmailInputCubit> {

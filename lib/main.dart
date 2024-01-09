@@ -25,7 +25,6 @@ FutureOr<void> main() async {
     final appRouter = AppRouter();
     await EasyLocalization.ensureInitialized();
 
-    print('ANDRII appRouter: $appRouter');
     runApp(
       HookedBlocConfigProvider(
         injector: () => getIt.get,

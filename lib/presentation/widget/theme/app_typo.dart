@@ -112,6 +112,8 @@ class AppTypo {
     fontWeight: FontWeight.w500,
   );
 
+
+
   TextStyle get style9 => TextStyle(
     fontFamily: _fontFamilyMontserrat,
     color: colors.typo,
