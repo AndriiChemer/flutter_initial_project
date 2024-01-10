@@ -1,17 +1,15 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
+import 'package:iteo_libraries_example/domain/validator/email/email_validation_result.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/base_text_input.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
-import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
+import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input_cubit.dart';
 
-class NameInput extends BaseTextInput<String, NameValidationResult, NameInputCubit> {
-  const NameInput({
+class EmailInput extends BaseTextInput<String, EmailValidationResult, EmailInputCubit> {
+  const EmailInput({
     required super.isRequired,
-    this.onChanged,
-    this.hint,
     this.autofocus = false,
     super.onEditingFinished,
     super.textInputAction,
@@ -22,33 +20,28 @@ class NameInput extends BaseTextInput<String, NameValidationResult, NameInputCub
   });
 
   final bool autofocus;
-  final String? hint;
-  final void Function()? onChanged;
 
   @override
-  String get labelText => hint ?? LocaleKeys.inputs_name.tr();
+  String get labelText => LocaleKeys.inputs_email_title.tr();
 
   @override
   Widget buildTextField(
     TextEditingController editingController,
-    BaseTextInputState<String, NameValidationResult> state,
-    BaseTextInputBloc<String, NameValidationResult> cubit,
+    BaseTextInputState<String, EmailValidationResult> state,
+    BaseTextInputBloc<String, EmailValidationResult> cubit,
     FocusNode focusNode,
   ) {
     return CustomTextField(
       focusNode: focusNode,
       controller: editingController,
-      autofillHints: const [AutofillHints.givenName],
+      autofillHints: const [AutofillHints.email],
       labelText: labelTextWithRequiredSuffix,
       autofocus: autofocus,
       errorText: state.errorText,
-      keyboardType: TextInputType.text,
+      keyboardType: TextInputType.emailAddress,
       textInputAction: textInputAction,
       textCapitalization: TextCapitalization.words,
-      onChanged: (value) {
-        onChanged?.call();
-        cubit.update(transformStringToInput(value));
-      },
+      onChanged: (value) => cubit.update(transformStringToInput(value)),
     );
   }
 
@@ -59,15 +52,17 @@ class NameInput extends BaseTextInput<String, NameValidationResult, NameInputCub
   String transformStringToInput(String value) => value;
 }
 
-extension on BaseTextInputState<String, NameValidationResult> {
+extension on BaseTextInputState<String, EmailValidationResult> {
   String get errorText {
     return when(
       init: () => '',
-      validated: (validationResult) => validationResult.when(
-        tooShort: (_, minChars) =>
-            LocaleKeys.inputs_common_text_too_short.plural(minChars).tr(),
-        tooLong: (_, maxChars) =>
-            LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr(),
+      validated: (validatedEmail) => validatedEmail.when(
+        empty: (_) => LocaleKeys.inputs_common_empty.tr(),
+        tooLong: (_) => LocaleKeys.inputs_email_validation_wrong_format.tr(),
+        wrongFormat: (_) =>
+            LocaleKeys.inputs_email_validation_wrong_format.tr(),
+        notAllowedCharacters: (_) =>
+            LocaleKeys.inputs_email_validation_not_allowed_characters.tr(),
         valid: (_) => '',
       ),
       notValidated: (_) => '',

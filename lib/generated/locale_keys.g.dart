@@ -24,6 +24,13 @@ abstract class  LocaleKeys {
   static const setting_page_buttons = 'setting_page.buttons';
   static const setting_page = 'setting_page';
   static const inputs_name = 'inputs.name';
+  static const inputs_surname = 'inputs.surname';
+  static const inputs_email_title = 'inputs.email.title';
+  static const inputs_email_validation_wrong_format = 'inputs.email.validation.wrong_format';
+  static const inputs_email_validation_not_allowed_characters = 'inputs.email.validation.not_allowed_characters';
+  static const inputs_email_validation = 'inputs.email.validation';
+  static const inputs_email = 'inputs.email';
+  static const inputs_common_empty = 'inputs.common.empty';
   static const inputs_common_required_suffix = 'inputs.common.required_suffix';
   static const inputs_common_text_too_short = 'inputs.common.text_too_short';
   static const inputs_common_text_too_long = 'inputs.common.text_too_long';

@@ -3,12 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
-import 'package:iteo_libraries_example/presentation/widget/base_text_input/cubit/base_text_input_actions.dart';
-import 'package:iteo_libraries_example/presentation/widget/base_text_input/cubit/base_text_input_cubit.dart';
-import 'package:iteo_libraries_example/presentation/widget/base_text_input/cubit/base_text_input_state.dart';
+import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 
 abstract class BaseTextInput<TInput, TValidatedInput,
-        TCubit extends BaseTextInputCubit<TInput, TValidatedInput>>
+        TCubit extends BaseTextInputBloc<TInput, TValidatedInput>>
     extends HookWidget {
   const BaseTextInput({
     required this.isRequired,
@@ -112,7 +110,7 @@ abstract class BaseTextInput<TInput, TValidatedInput,
   Widget buildTextField(
     TextEditingController editingController,
     BaseTextInputState<TInput, TValidatedInput> state,
-    BaseTextInputCubit<TInput, TValidatedInput> cubit,
+    covariant BaseTextInputBloc<TInput, TValidatedInput> cubit,
     FocusNode focusNode,
   );
 

@@ -31,7 +31,16 @@
   },
   "inputs": {
     "name": "Name",
+    "surname": "Surname",
+    "email": {
+      "title": "Email",
+      "validation": {
+        "wrong_format": "Incorrect email format",
+        "not_allowed_characters": "The email address contains not allowed characters"
+      }
+    },
     "common": {
+      "empty": "Required fields",
       "required_suffix": "*",
       "text_too_short": {
         "one": "The field should contain at least {} character",

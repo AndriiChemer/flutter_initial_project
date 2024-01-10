@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:iteo_libraries_example/core/extension/string_extensions.dart';
+import 'package:iteo_libraries_example/domain/validator/email/email_validation_result.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 
@@ -15,6 +16,15 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
   NameValidationResult? _nameValidationResult;
   late final String? _nameInitValue;
 
+  NameValidationResult? _surnameValidationResult;
+  late final String? _surnameInitValue;
+
+  EmailValidationResult? _emailValidationResult;
+  late final String? _emailInitValue;
+
+  EmailValidationResult? _emailLiveValidationResult;
+  late final String? _emailLiveInitValue;
+
   late final StreamController _revalidationStreamController;
   bool _requestedRevalidation = false;
 
@@ -28,6 +38,9 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
 
       // _nameInitValue = _yourData?.firstName.nullOrValue;
       _nameInitValue = '';
+      _surnameInitValue = '';
+      _emailInitValue = '';
+      _emailLiveInitValue = '';
 
       // final user = await _getUser();
       // _emailInitValue = user.email.nullOrValue;
@@ -45,10 +58,31 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
     _emitValidatedState();
   }
 
+  void updateSurname(NameValidationResult surnameValidationResult) {
+    _surnameValidationResult = surnameValidationResult;
+    _emitValidatedState();
+  }
+
+  void updateEmail(EmailValidationResult emailValidationResult) {
+    _emailValidationResult = emailValidationResult;
+    _emitValidatedState();
+  }
+
+  void liveUpdateEmail(EmailValidationResult emailValidationResult) {
+    _emailLiveValidationResult = emailValidationResult;
+    _emitValidatedState();
+  }
+
   Future<void> onSubmitTap() async {
     try {
       final anyFieldChanged = _nameInitValue.nullOrValue !=
-          _nameValidationResult?.name.nullOrValue;
+          _nameValidationResult?.name.nullOrValue ||
+        _surnameInitValue.nullOrValue !=
+            _surnameValidationResult?.name.nullOrValue ||
+        _emailInitValue.nullOrValue !=
+            _emailValidationResult?.email.nullOrValue  ||
+        _emailLiveInitValue.nullOrValue !=
+            _emailLiveValidationResult?.email.nullOrValue;
 
       if (anyFieldChanged) {
         _requestRevalidation();
@@ -67,6 +101,12 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
     final newState = UserFormValidated(
       nameValidationResult: _nameValidationResult,
       name: _nameInitValue,
+      surnameValidationResult: _surnameValidationResult,
+      surname: _surnameInitValue,
+      emailValidationResult: _emailValidationResult,
+      email: _emailInitValue,
+      emailLiveValidationResult: _emailLiveValidationResult,
+      emailLive: _emailLiveInitValue,
     );
 
     emit(newState);
@@ -83,6 +123,9 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
   void _dispatchScrollToFirstFieldWithErrorIfReady() {
     final revalidationFinished = [
       _nameValidationResult,
+      _surnameValidationResult,
+      _emailValidationResult,
+      _emailLiveValidationResult,
     ].every((fieldData) => fieldData != null);
 
     if (!revalidationFinished) return;
@@ -104,6 +147,9 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
       // _emitValidatedState();
       final hasInvalidResults = [
         validatedState.nameValidationResult,
+        validatedState.surnameValidationResult,
+        validatedState.emailValidationResult,
+        validatedState.emailLiveValidationResult,
       ].any((result) => result == null);
 
       if (hasInvalidResults) return;
@@ -118,6 +164,9 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
 
   void _requestRevalidation() {
     _nameValidationResult = null;
+    _surnameValidationResult = null;
+    _emailValidationResult = null;
+    _emailLiveValidationResult = null;
     _requestedRevalidation = true;
     _revalidationStreamController.add(null);
   }

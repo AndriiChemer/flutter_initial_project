@@ -36,7 +36,6 @@ final _emailRegExp = RegExp(
 
 final _allowedCharsRegExp = RegExp(r'''^[A-Za-z0-9!.#$%&'*+\/=?^_`{|}\-@]+$''');
 
-// TODO inject
 class EmailValidator {
   EmailValidationResult call(String email, bool isRequired) {
     if (isRequired && email.isEmpty) {
