@@ -10,6 +10,7 @@ A new Flutter project.
 `flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/{page}/*.dart'`
 ### Example
 `flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/main/*.dart'`
+`flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/data/cars/dto/*.dart'`
 
 flutter pub run build_runner build --delete-conflicting-outputs
 

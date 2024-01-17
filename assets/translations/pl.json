@@ -9,6 +9,7 @@
     "navigation": {
       "home": "Home",
       "user_form": "User Forms",
+      "cars_cached": "Cars Cached",
       "more": "More"
     }
   },

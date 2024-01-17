@@ -7,6 +7,7 @@ abstract class  LocaleKeys {
   static const snackbar_wrapper = 'snackbar_wrapper';
   static const main_page_navigation_home = 'main_page.navigation.home';
   static const main_page_navigation_user_form = 'main_page.navigation.user_form';
+  static const main_page_navigation_cars_cached = 'main_page.navigation.cars_cached';
   static const main_page_navigation_more = 'main_page.navigation.more';
   static const main_page_navigation = 'main_page.navigation';
   static const main_page = 'main_page';
