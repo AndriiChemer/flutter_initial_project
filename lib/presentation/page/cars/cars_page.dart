@@ -18,18 +18,25 @@ class CarsPage extends HookWidget {
       (action) {
         switch(action) {
           case ShowError():
+            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Error')));
             break;
         }
       },
     );
 
-    return switch(state) {
-      CarsInitial() => const SizedBox.shrink(),
-      ShowCars() => _Content(
-        cubit: cubit,
-        cars: [],
-      ),
-    };
+    useEffect(() {
+      cubit.getCars();
+    }, [cubit],);
+
+    return Center(
+      child: switch(state) {
+        LoadingCars() => const CircularProgressIndicator(),
+        ShowCars() => _Content(
+          cubit: cubit,
+          cars: state.cars,
+        ),
+      },
+    );
   }
 }
 
@@ -37,7 +44,6 @@ class _Content extends StatelessWidget {
   const _Content({
     required this.cubit,
     required this.cars,
-    super.key,
   });
 
   final CarsCubit cubit;
@@ -46,7 +52,7 @@ class _Content extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RefreshIndicator(
-      onRefresh: cubit.refreshCars,
+      onRefresh: cubit.getCars,
       child: ListView.builder(
         itemCount: cars.length,
         itemBuilder: (_, index) => CarItem(

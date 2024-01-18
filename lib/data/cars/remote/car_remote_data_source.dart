@@ -18,6 +18,7 @@ class CarRemoteDataSourceImpl implements CarRemoteDataSource {
   @override
   Future<List<CarDTO>> getCarList() async {
     final url = Uri.parse('$_baseUrl/car-list');
+    print('====================HTTPS REQUEST=======================');
     final response = await client.get(url, headers: _headers);
 
     final jsonList = json.decode(response.body) as List<dynamic>;

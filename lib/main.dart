@@ -93,6 +93,10 @@ class MyApp extends StatelessWidget {
         secondary: colors.primary,
         brightness: colors.brightness,
       ),
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        selectedItemColor: colors.typo, // Set the color for selected icon
+        unselectedItemColor: colors.typo, // Set the color for unselected icons
+      ),
     );
   }
 }
