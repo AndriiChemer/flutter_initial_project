@@ -1,9 +1,13 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/cars/model/car.dart';
+import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/widget/car_item.dart';
+import 'package:iteo_libraries_example/presentation/widget/custom_gap.dart';
+import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
 
 class CarsPage extends HookWidget {
   const CarsPage({super.key});
@@ -53,11 +57,19 @@ class _Content extends StatelessWidget {
   Widget build(BuildContext context) {
     return RefreshIndicator(
       onRefresh: cubit.getCars,
-      child: ListView.builder(
-        itemCount: cars.length,
-        itemBuilder: (_, index) => CarItem(
-          car: cars[index],
-        ),
+      child: Column(
+        children: [
+          CustomText.style2(LocaleKeys.cars_page_description.tr()),
+          const CustomGap.big(),
+          Expanded(
+            child: ListView.builder(
+              itemCount: cars.length,
+              itemBuilder: (_, index) => CarItem(
+                car: cars[index],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

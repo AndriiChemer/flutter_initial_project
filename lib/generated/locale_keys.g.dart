@@ -24,6 +24,8 @@ abstract class  LocaleKeys {
   static const setting_page_buttons_show_warning = 'setting_page.buttons.show_warning';
   static const setting_page_buttons = 'setting_page.buttons';
   static const setting_page = 'setting_page';
+  static const cars_page_description = 'cars_page.description';
+  static const cars_page = 'cars_page';
   static const inputs_name = 'inputs.name';
   static const inputs_surname = 'inputs.surname';
   static const inputs_email_title = 'inputs.email.title';

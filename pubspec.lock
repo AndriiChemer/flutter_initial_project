@@ -146,7 +146,7 @@ packages:
     source: hosted
     version: "8.8.1"
   cached:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: cached
       sha256: acfad4a1c9d3128c13a574c70f61a5999befa0b5cd67d841eee9238f32ab4374
@@ -154,7 +154,7 @@ packages:
     source: hosted
     version: "1.6.1"
   cached_annotation:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: cached_annotation
       sha256: b8638a59a80d9413929829cd5051220d247fbd37b58abfa2bb08ed7f68111f09

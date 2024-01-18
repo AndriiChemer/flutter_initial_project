@@ -30,6 +30,9 @@
       "show_warning": "Show warning"
     }
   },
+  "cars_page": {
+    "description": "This page uses cached\\n library for response."
+  },
   "inputs": {
     "name": "Name",
     "surname": "Surname",

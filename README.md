@@ -23,3 +23,8 @@ flutter packages pub get
 
 ### Translations
 `flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart`
+
+
+
+### Task
+- Add Dio client
