@@ -99,7 +99,7 @@ class _Content extends StatelessWidget {
         const CustomGap.xbig(),
         Text(
           LocaleKeys.setting_page_extension_color.tr(),
-          style: TextStyle(color: colors.text.color),
+          style: TextStyle(color: colors.textColorTheme.color),
         ),
         const CustomGap.lg(),
         Row(
@@ -175,7 +175,7 @@ class CustomButton extends StatelessWidget {
 
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        foregroundColor: colors.elevateButtonStyle1.elevatedBackground,
+        foregroundColor: colors.elevateButtonTheme.elevatedBackground,
         elevation: 0,
       ),
       onPressed: action,
