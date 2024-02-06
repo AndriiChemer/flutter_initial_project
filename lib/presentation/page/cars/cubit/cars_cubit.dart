@@ -1,5 +1,9 @@
 import 'package:iteo_libraries_example/domain/cars/model/car.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 
 part 'cars_state.dart';
@@ -8,14 +12,84 @@ part 'cars_action.dart';
 class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
   CarsCubit({
     required this.getCarsUseCase,
+    required this.getCarsFromIsolateUseCase,
+    required this.loadCarsFromIsolateUseCase,
+    required this.getCarsFromIsolateExecutorUseCase,
+    required this.loadCarsFromIsolateExecutorUseCase,
   }) : super(LoadingCars());
 
   final GetCarsUseCase getCarsUseCase;
+  final GetCarsFromIsolateUseCase getCarsFromIsolateUseCase;
+  final LoadCarsFromIsolateUseCase loadCarsFromIsolateUseCase;
+  final GetCarsFromIsolateExecutorUseCase getCarsFromIsolateExecutorUseCase;
+  final LoadCarsFromIsolateExecutorUseCase loadCarsFromIsolateExecutorUseCase;
 
   Future<void> getCars() async {
     try {
       final cars = await getCarsUseCase();
       emit(ShowCars(List.from(cars)));
+    } catch(ex) {
+      emit(ShowCars(List.empty()));
+      dispatch(ShowError());
+    }
+  }
+
+  Future<void> getCarsFromIsolate() async {
+    emit(LoadingCars());
+    try {
+      final cars = await getCarsFromIsolateUseCase();
+      emit(ShowCars(List.from(cars)));
+    } catch(ex) {
+      print('ex: $ex');
+      emit(ShowCars(List.empty()));
+      dispatch(ShowError());
+    }
+  }
+
+  Future<void> getCarsFromIsolateExecutor() async {
+    emit(LoadingCars());
+    try {
+      final cars = await getCarsFromIsolateExecutorUseCase();
+      emit(ShowCars(List.from(cars)));
+    } catch(ex) {
+      print('ex: $ex');
+      emit(ShowCars(List.empty()));
+      dispatch(ShowError());
+    }
+  }
+
+  void loadCardsFromIsolate() {
+    emit(LoadingCars());
+    try {
+      loadCarsFromIsolateUseCase(
+        onSuccess: (cars) {
+          emit(ShowCars(List.from(cars)));
+        },
+        onError: (error, stacktrace) {
+          print('Error: $error,\nStacktrace: $stacktrace');
+          emit(ShowCars(List.empty()));
+          dispatch(ShowError());
+        },
+      );
+    } catch(ex) {
+      emit(ShowCars(List.empty()));
+      dispatch(ShowError());
+    }
+  }
+
+  void loadCardsFromIsolateExecutor() {
+    emit(LoadingCars());
+    try {
+      loadCarsFromIsolateUseCase(
+        onSuccess: (cars) {
+          emit(ShowCars(List.from(cars)));
+        },
+        onError: (error, stacktrace) {
+          print('Error: $error,\nStacktrace: $stacktrace');
+          emit(ShowCars(List.empty()));
+          dispatch(ShowError());
+        },
+      );
     } catch(ex) {
       emit(ShowCars(List.empty()));
       dispatch(ShowError());

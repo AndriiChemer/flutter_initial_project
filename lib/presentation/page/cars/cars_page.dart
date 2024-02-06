@@ -6,6 +6,7 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/widget/car_item.dart';
+import 'package:iteo_libraries_example/presentation/page/settings/settings_page.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_gap.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
 
@@ -60,7 +61,35 @@ class _Content extends StatelessWidget {
       child: Column(
         children: [
           CustomText.style2(LocaleKeys.cars_page_description.tr()),
-          const CustomGap.big(),
+          const CustomGap.xxxsm(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              CustomButton(
+                title: 'Get from isolate',
+                action: cubit.getCarsFromIsolate,
+              ),
+              CustomButton(
+                title: 'Get from isolate executor',
+                action: cubit.getCarsFromIsolateExecutor,
+              ),
+            ],
+          ),
+          const CustomGap.xxxsm(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              CustomButton(
+                title: 'Load from isolate',
+                action: cubit.loadCardsFromIsolate,
+              ),
+              CustomButton(
+                title: 'Load from isolate executor',
+                action: cubit.loadCardsFromIsolateExecutor,
+              ),
+            ],
+          ),
+          const CustomGap.xxxsm(),
           Expanded(
             child: ListView.builder(
               itemCount: cars.length,

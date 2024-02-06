@@ -3,7 +3,11 @@ import 'dart:async';
 import 'package:get_it/get_it.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/save_app_theme_type_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validator.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validator.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
@@ -25,6 +29,10 @@ Future<void> injectCubitModule(GetIt getIt) async {
   getIt.registerFactory<UserFormBloc>(() => UserFormBloc());
   getIt.registerFactory<CarsCubit>(() => CarsCubit(
     getCarsUseCase: getIt<GetCarsUseCase>(),
+    getCarsFromIsolateUseCase: getIt<GetCarsFromIsolateUseCase>(),
+    loadCarsFromIsolateUseCase: getIt<LoadCarsFromIsolateUseCase>(),
+    getCarsFromIsolateExecutorUseCase: getIt<GetCarsFromIsolateExecutorUseCase>(),
+    loadCarsFromIsolateExecutorUseCase: getIt<LoadCarsFromIsolateExecutorUseCase>(),
   ),);
 
   await injectWidgetsCubits(getIt);

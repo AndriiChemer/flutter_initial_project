@@ -12,7 +12,7 @@ class CarDTO {
     this.color,
   });
 
-  factory CarDTO.fromJson(Map<String, dynamic> json) => _$CarDTOFromJson(json);
+  factory CarDTO.fromDynamic(dynamic data) => _$CarDTOFromJson(data as Map<String, dynamic>);
 
   @JsonKey(name: '_id')
   final String id;
@@ -23,3 +23,6 @@ class CarDTO {
 
   Map<String, dynamic> toJson() => _$CarDTOToJson(this);
 }
+//
+// @Model()
+// class Person(String firstName, String lastName, int age);
