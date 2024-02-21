@@ -30,3 +30,6 @@ flutter packages pub get
   https://github.com/lamdangtung/flutter_isolate_call_api/blob/master/lib/main.dart
   https://gladimdim.org/dart-how-to-handle-exceptions-raised-inside-isolates
   https://blog.logrocket.com/multithreading-flutter-using-dart-isolates/
+
+### Sources
+- https://apexive.com/post/top-50-flutter-tools

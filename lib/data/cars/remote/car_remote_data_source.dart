@@ -53,7 +53,6 @@ class CarRemoteDataSourceImpl implements CarRemoteDataSource {
       final error = errors.first as String;
       final stacktrace = errors[1] as String;
 
-      print('ANDRII message: $message');
       errorPort.close();
       onError?.call(error, stacktrace);
       completer.completeError(error);

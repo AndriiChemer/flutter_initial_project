@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:isolate';
 
 Future<T> executeIsolate<T>({
-  required Future<T> Function() execute,
+  required Future<String> Function() execute,
   void Function(T value)? onSuccess,
   void Function(String error, String stacktrace)? onError,
 }) async {
@@ -11,11 +11,14 @@ Future<T> executeIsolate<T>({
   final errorPort = ReceivePort();
 
   await Isolate.spawn(
-    (sendPort) async {
-      final value = await execute();
-      Isolate.exit(sendPort, value.toString());
+    (args) async {
+      final sendPort = args[0] as SendPort;
+      final methodExecutor = args[1] as Future<String> Function();
+      final value = await methodExecutor();
+
+      sendPort.send(value);
     },
-    port.sendPort,
+    [port.sendPort, execute],
     onError: errorPort.sendPort,
   );
 
@@ -30,7 +33,6 @@ Future<T> executeIsolate<T>({
   });
 
   port.listen((message) {
-    print('ANDRII 3 Message received!');
     final value = message as T;
     port.close();
     onSuccess?.call(value);
