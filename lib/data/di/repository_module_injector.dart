@@ -4,7 +4,9 @@ import 'package:get_it/get_it.dart';
 import 'package:iteo_libraries_example/data/cars/car_repository_impl.dart';
 import 'package:iteo_libraries_example/data/cars/mapper/car_dto_to_car_mapper.dart';
 import 'package:iteo_libraries_example/data/cars/remote/car_remote_data_source.dart';
+import 'package:iteo_libraries_example/data/deep_link/deep_link_repository_impl.dart';
 import 'package:iteo_libraries_example/domain/cars/car_repository.dart';
+import 'package:iteo_libraries_example/domain/deep_link/deep_link_repository.dart';
 
 Future<void> injectRepositoryModule(GetIt getIt) async {
   /// Mappers
@@ -15,4 +17,6 @@ Future<void> injectRepositoryModule(GetIt getIt) async {
     carRemoteDataSource: getIt<CarRemoteDataSource>(),
     carDTOToCarMapper: getIt<CarDTOToCarMapper>(),
   ),);
+
+  getIt.registerLazySingleton<DeepLinkRepository>(() => DeepLinkRepositoryImpl());
 }

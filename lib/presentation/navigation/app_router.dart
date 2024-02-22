@@ -1,4 +1,6 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:flutter/material.dart';
+import 'package:iteo_libraries_example/presentation/page/deep_links/deep_links_page.dart';
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
 import 'package:iteo_libraries_example/presentation/page/more/more_page.dart';
@@ -34,6 +36,10 @@ class AppRouter extends _$AppRouter {
       page: SettingsRoute.page,
       durationInMilliseconds: _animationDuration,
       transitionsBuilder: TransitionsBuilders.slideLeft,
+    ),
+    AutoRoute(
+      path: '/deeplinks/:id/:name',
+      page: DeepLinksRoute.page,
     ),
   ];
 }

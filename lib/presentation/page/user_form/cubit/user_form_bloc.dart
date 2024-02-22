@@ -47,7 +47,7 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
       // _showEmail = beforeCheckout && _emailInitValue == null;
 
       _emitValidatedState();
-    } catch (e, s) {
+    } catch (e, _) {
       // Log.e('$runtimeType - init error', LogTag.cubit, e, s);
       emit(UserFormError());
     }
@@ -90,7 +90,7 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
         _emitValidatedState();
         dispatch(UserFormSaved());
       }
-    } catch (e, s) {
+    } catch (e, _) {
       // Log.e('$runtimeType - onSubmitTap error', LogTag.cubit, e, s);
       _emitValidatedState();
       dispatch(UserFormActionError());
@@ -155,7 +155,7 @@ class UserFormBloc extends SafeActionCubit<UserFormState, UserFormAction> {
       if (hasInvalidResults) return;
       // await _saveYourData(validatedState);
       dispatch(UserFormSaved());
-    } catch (e, s) {
+    } catch (e, _) {
       _emitValidatedState();
       dispatch(UserFormActionError());
       // Log.e('$runtimeType - _save error', LogTag.cubit, e, s);

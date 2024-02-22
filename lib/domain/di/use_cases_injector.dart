@@ -10,8 +10,12 @@ import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolat
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart';
+import 'package:iteo_libraries_example/domain/deep_link/deep_link_repository.dart';
+import 'package:iteo_libraries_example/domain/deep_link/use_case/deep_link_stream_use_case.dart';
+import 'package:iteo_libraries_example/domain/deep_link/use_case/trigger_deep_links_use_case.dart';
 
 Future<void> injectUseCasesModule(GetIt getIt) async {
+  /// App Theming
   getIt.registerFactory<GetAppThemeTypeStreamUseCase>(
     () => GetAppThemeTypeStreamUseCase(getIt<AppThemeTypeStorage>()),
   );
@@ -20,6 +24,7 @@ Future<void> injectUseCasesModule(GetIt getIt) async {
     () => SaveAppThemeTypeUseCase(getIt<AppThemeTypeStorage>()),
   );
 
+  /// Car loading
   getIt.registerFactory<GetCarsUseCase>(
     () => GetCarsUseCase(getIt<CarRepository>()),
   );
@@ -38,5 +43,14 @@ Future<void> injectUseCasesModule(GetIt getIt) async {
 
   getIt.registerFactory<LoadCarsFromIsolateExecutorUseCase>(
     () => LoadCarsFromIsolateExecutorUseCase(getIt<CarRepository>()),
+  );
+
+  /// Deep Links
+  getIt.registerFactory<DeepLinkStreamUseCase>(
+    () => DeepLinkStreamUseCase(getIt<DeepLinkRepository>()),
+  );
+
+  getIt.registerFactory<TriggerDeepLinksUseCase>(
+    () => TriggerDeepLinksUseCase(getIt<DeepLinkRepository>()),
   );
 }

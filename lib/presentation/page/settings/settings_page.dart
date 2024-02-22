@@ -8,7 +8,6 @@ import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/settings/cubit/settings_page_cubit.dart';
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
-import 'package:iteo_libraries_example/presentation/widget/hook/use_snackbar_controller.dart';
 import 'package:iteo_libraries_example/presentation/widget/snackbar/snackbar_properties.f.dart';
 
 @RoutePage()

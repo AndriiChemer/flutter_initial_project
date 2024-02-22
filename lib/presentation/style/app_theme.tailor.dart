@@ -268,8 +268,8 @@ mixin _$IconColorTailorMixin on ThemeExtension<IconColor> {
 }
 
 mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
-  AppBarThemeColor get appBarThemeColor;
   Color get background;
+  AppBarThemeColor get appBarThemeColor;
   ButtonStyleColor get buttonTheme;
   ElevateButtonColor get elevateButtonTheme;
   TextColor get textColorTheme;
@@ -277,16 +277,16 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
 
   @override
   AppTheme copyWith({
-    AppBarThemeColor? appBarThemeColor,
     Color? background,
+    AppBarThemeColor? appBarThemeColor,
     ButtonStyleColor? buttonTheme,
     ElevateButtonColor? elevateButtonTheme,
     TextColor? textColorTheme,
     IconColor? iconColorTheme,
   }) {
     return AppTheme(
-      appBarThemeColor: appBarThemeColor ?? this.appBarThemeColor,
       background: background ?? this.background,
+      appBarThemeColor: appBarThemeColor ?? this.appBarThemeColor,
       buttonTheme: buttonTheme ?? this.buttonTheme,
       elevateButtonTheme: elevateButtonTheme ?? this.elevateButtonTheme,
       textColorTheme: textColorTheme ?? this.textColorTheme,
@@ -298,9 +298,9 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
   AppTheme lerp(covariant ThemeExtension<AppTheme>? other, double t) {
     if (other is! AppTheme) return this as AppTheme;
     return AppTheme(
+      background: Color.lerp(background, other.background, t)!,
       appBarThemeColor:
           appBarThemeColor.lerp(other.appBarThemeColor, t) as AppBarThemeColor,
-      background: Color.lerp(background, other.background, t)!,
       buttonTheme: buttonTheme.lerp(other.buttonTheme, t) as ButtonStyleColor,
       elevateButtonTheme: elevateButtonTheme.lerp(other.elevateButtonTheme, t)
           as ElevateButtonColor,
@@ -315,9 +315,9 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
         (other.runtimeType == runtimeType &&
             other is AppTheme &&
             const DeepCollectionEquality()
-                .equals(appBarThemeColor, other.appBarThemeColor) &&
-            const DeepCollectionEquality()
                 .equals(background, other.background) &&
+            const DeepCollectionEquality()
+                .equals(appBarThemeColor, other.appBarThemeColor) &&
             const DeepCollectionEquality()
                 .equals(buttonTheme, other.buttonTheme) &&
             const DeepCollectionEquality()
@@ -332,8 +332,8 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
   int get hashCode {
     return Object.hash(
       runtimeType.hashCode,
-      const DeepCollectionEquality().hash(appBarThemeColor),
       const DeepCollectionEquality().hash(background),
+      const DeepCollectionEquality().hash(appBarThemeColor),
       const DeepCollectionEquality().hash(buttonTheme),
       const DeepCollectionEquality().hash(elevateButtonTheme),
       const DeepCollectionEquality().hash(textColorTheme),

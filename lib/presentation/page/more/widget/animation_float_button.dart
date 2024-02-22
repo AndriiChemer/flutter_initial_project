@@ -12,6 +12,7 @@ class AnimatedFloatButton extends HookWidget {
     required this.bottom,
     required this.title,
     required this.icon,
+    this.action,
     super.key,
   });
 
@@ -19,6 +20,7 @@ class AnimatedFloatButton extends HookWidget {
   final double bottom;
   final String title;
   final Widget icon;
+  final VoidCallback? action;
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +48,8 @@ class AnimatedFloatButton extends HookWidget {
             ),
           ),
           FloatingActionButton(
-            onPressed: (){},
+            heroTag: title,
+            onPressed: action,
             child: icon,
           ),
         ],

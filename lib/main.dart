@@ -9,10 +9,7 @@ import 'package:iteo_libraries_example/core/extension/build_context_extensions.d
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
-import 'package:iteo_libraries_example/presentation/widget/providers/app_colors_provider.dart';
-import 'package:iteo_libraries_example/presentation/widget/theme/app_colors.dart';
-import 'package:iteo_libraries_example/presentation/widget/theme/app_shadows.dart';
-import 'package:iteo_libraries_example/presentation/widget/theme/app_typo.dart';
+import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:provider/provider.dart';
 
 const appLocale = Locale('pl');
@@ -68,12 +65,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-      locale: context.locale,
-      theme: _theme(context.colors),
-      routerConfig: appRouter.config(),
+    return DeepLinksWrapper(
+      appRouter: appRouter,
+      child: MaterialApp.router(
+        localizationsDelegates: context.localizationDelegates,
+        supportedLocales: context.supportedLocales,
+        locale: context.locale,
+        theme: _theme(context.colors),
+        routerConfig: appRouter.config(),
+      ),
     );
   }
 

@@ -25,8 +25,8 @@ class SettingsPageCubit extends SafeCubit<SettingsPageState> {
     if(type == null) return;
     try {
       await _saveAppThemeType(type);
-    } catch (e, s) {
-      // TODO error
+    } catch (e, _) {
+      // TO-DO error
       // Log.e('$runtimeType - setAppThemeType error', LogTag.cubit, e, s);
     }
   }

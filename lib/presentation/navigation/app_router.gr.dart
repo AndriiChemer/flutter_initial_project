@@ -15,6 +15,22 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
+    DeepLinksRoute.name: (routeData) {
+      final pathParams = routeData.inheritedPathParams;
+      final args = routeData.argsAs<DeepLinksRouteArgs>(
+          orElse: () => DeepLinksRouteArgs(
+                id: pathParams.getInt('id'),
+                name: pathParams.getString('name'),
+              ));
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: DeepLinksPage(
+          id: args.id,
+          name: args.name,
+          key: args.key,
+        ),
+      );
+    },
     HomeRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -46,6 +62,53 @@ abstract class _$AppRouter extends RootStackRouter {
       );
     },
   };
+}
+
+/// generated route for
+/// [DeepLinksPage]
+class DeepLinksRoute extends PageRouteInfo<DeepLinksRouteArgs> {
+  DeepLinksRoute({
+    required int id,
+    required String name,
+    Key? key,
+    List<PageRouteInfo>? children,
+  }) : super(
+          DeepLinksRoute.name,
+          args: DeepLinksRouteArgs(
+            id: id,
+            name: name,
+            key: key,
+          ),
+          rawPathParams: {
+            'id': id,
+            'name': name,
+          },
+          initialChildren: children,
+        );
+
+  static const String name = 'DeepLinksRoute';
+
+  static const PageInfo<DeepLinksRouteArgs> page =
+      PageInfo<DeepLinksRouteArgs>(name);
+}
+
+class DeepLinksRouteArgs {
+  const DeepLinksRouteArgs({
+    required this.id,
+    required this.name,
+    this.key,
+  });
+
+  final int id;
+
+  final String name;
+
+  final Key? key;
+
+  @override
+  String toString() {
+    return 'DeepLinksRouteArgs{id: $id, name: $name, key: $key}';
+  }
 }
 
 /// generated route for

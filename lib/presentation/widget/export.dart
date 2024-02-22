@@ -2,6 +2,7 @@ export 'buttons/export.dart';
 export 'custom_divider.dart';
 export 'custom_gap.dart';
 export 'custom_text.dart';
+export 'deep_links/deep_links_wrapper.dart';
 export 'hook/export.dart';
 export 'input/custom_text_field.dart';
 export 'overscroll_notification_listener.dart';
