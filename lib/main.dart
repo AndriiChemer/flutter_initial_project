@@ -47,7 +47,7 @@ FutureOr<void> main() async {
             supportedLocales: const [appLocale],
             startLocale: appLocale,
             fallbackLocale: appLocale,
-            child: MyApp(appRouter),
+            child: MyApp(appRouter: appRouter),
           ),
         ),
       ),
@@ -59,7 +59,10 @@ FutureOr<void> main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp(this.appRouter, {Key? key}) : super(key: key);
+  const MyApp({
+    required this.appRouter, 
+    super.key,
+  });
 
   final AppRouter appRouter;
 

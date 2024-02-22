@@ -24,13 +24,12 @@ analyzer:
     - "android/**"
     - "lib/presentation/gen/**"
     - "distribution/**"
-    - "integration_test/e2e/features/**/*.dart"
-    - "integration_test/e2e/e2e_tests.dart"
 
 linter:
   rules:
     avoid_annotating_with_dynamic: false
     avoid_positional_boolean_parameters: false
+    flutter_style_todos: true
 
 dart_code_metrics:
   metrics:
@@ -68,36 +67,24 @@ architecture_linter:
   lint_severity: warning
 
   layers:
-    - &infrastructureLayer
-      name: "Infrastructure"
-      pathRegex:
-        source: "(infrastructure)"
+    - &dataLayer
+      name: "Data"
+      path: "lib/data"
     - &domainLayer
       name: "Domain"
-      pathRegex:
-        source: "(domain/features)"
+      path: "lib/domain"
     - &presentationLayer
       name: "Presentation"
-      pathRegex:
-        source: "(presentation)"
-    - &useCaseLayer
-      name: "Domain/UseCases"
-      pathRegex:
-        source: "(domain/use_cases)"
+      path: "lib/presentation"
 
   bannedImports:
     - layer: *domainLayer
       banned:
         - *presentationLayer
-        - *useCaseLayer
-        - *infrastructureLayer
+        - *dataLayer
     - layer: *presentationLayer
       banned:
-        - *infrastructureLayer
-    - layer: *infrastructureLayer
+        - *dataLayer
+    - layer: *dataLayer
       banned:
         - *presentationLayer
-    - layer: *useCaseLayer
-      banned:
-        - *presentationLayer
-        - *infrastructureLayer
