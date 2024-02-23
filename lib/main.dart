@@ -4,8 +4,10 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
+import 'package:iteo_libraries_example/core/app_env.dart';
 import 'package:iteo_libraries_example/core/di/di_config.dart';
 import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
+import 'package:iteo_libraries_example/core/logger/logger.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
@@ -18,9 +20,10 @@ FutureOr<void> main() async {
   await runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
 
-    await configureDependencies();
+    await configureDependencies(AppEnv.development());
     final appRouter = AppRouter();
     await EasyLocalization.ensureInitialized();
+    Logger.setupLogger();
 
     runApp(
       HookedBlocConfigProvider(
