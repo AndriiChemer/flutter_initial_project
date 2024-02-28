@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:iteo_libraries_example/core/logger/logger.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/save_app_theme_type_use_case.dart';
@@ -23,11 +24,11 @@ class SettingsPageCubit extends SafeCubit<SettingsPageState> {
 
   Future<void> setAppThemeType(AppThemeType? type) async {
     if(type == null) return;
+
     try {
       await _saveAppThemeType(type);
-    } catch (e, _) {
-      // TO-DO error
-      // Log.e('$runtimeType - setAppThemeType error', LogTag.cubit, e, s);
+    } catch(ex) {
+      Logger.e('Failed to set theme.', ex: ex);
     }
   }
 

@@ -37,7 +37,7 @@ class SettingsPage extends HookWidget {
 
     useEffect(() {
       return cubit.close;
-    }, [cubit]);
+    }, [cubit],);
 
     return SnackbarWrapper(
       snackbarController: snackbarController,

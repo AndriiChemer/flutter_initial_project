@@ -10,6 +10,16 @@ class SettingsPageIdle extends SettingsPageState {
   });
 
   final AppThemeType savedAppThemeType;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is SettingsPageIdle &&
+      runtimeType == other.runtimeType &&
+      savedAppThemeType == other.savedAppThemeType;
+
+  @override
+  int get hashCode => savedAppThemeType.hashCode;
 }
 
 class SettingsPageShowError extends SettingsPageState {
