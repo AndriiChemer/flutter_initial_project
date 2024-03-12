@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - iOSDFULibrary (4.13.0):
+    - ZIPFoundation (= 0.9.11)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - SnowcookieSensorSDK (0.1.0):
+    - iOSDFULibrary
+  - uni_links (0.0.1):
+    - Flutter
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - SnowcookieSensorSDK (from `../../../xcode projects/sensor_sdk_ios`)
+  - uni_links (from `.symlinks/plugins/uni_links/ios`)
+
+SPEC REPOS:
+  trunk:
+    - iOSDFULibrary
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  SnowcookieSensorSDK:
+    :path: "../../../xcode projects/sensor_sdk_ios"
+  uni_links:
+    :path: ".symlinks/plugins/uni_links/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  iOSDFULibrary: 3b9de67ed4bfb901b5f09c2fea843f65e152612d
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  SnowcookieSensorSDK: bb15964c0702dc6eda669ff55ef6e5949d2cd11b
+  uni_links: d97da20c7701486ba192624d99bffaaffcfc298a
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: 13be605ab42db7a8ddf94cefddb505dd0a35a0eb
+
+COCOAPODS: 1.14.2
