@@ -1,3 +1,5 @@
+import 'package:equatable/equatable.dart';
+import 'package:iteo_libraries_example/core/logger/logger.dart';
 import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_use_case.dart';
@@ -29,6 +31,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
       final cars = await getCarsUseCase();
       emit(ShowCars(List.from(cars)));
     } catch(ex) {
+      Logger.e('getCars failed.', ex: ex);
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
     }
@@ -40,7 +43,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
       final cars = await getCarsFromIsolateUseCase();
       emit(ShowCars(List.from(cars)));
     } catch(ex) {
-      print('ex: $ex');
+      Logger.e('getCarsFromIsolate failed.', ex: ex);
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
     }
@@ -52,7 +55,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
       final cars = await getCarsFromIsolateExecutorUseCase();
       emit(ShowCars(List.from(cars)));
     } catch(ex) {
-      print('ex: $ex');
+      Logger.e('getCarsFromIsolateExecutor failed.', ex: ex);
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
     }
@@ -66,7 +69,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
           emit(ShowCars(List.from(cars)));
         },
         onError: (error, stacktrace) {
-          print('Error: $error,\nStacktrace: $stacktrace');
+          Logger.e('loadCardsFromIsolate failed.', ex: error);
           emit(ShowCars(List.empty()));
           dispatch(ShowError());
         },
@@ -85,7 +88,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
           emit(ShowCars(List.from(cars)));
         },
         onError: (error, stacktrace) {
-          print('Error: $error,\nStacktrace: $stacktrace');
+          Logger.e('loadCardsFromIsolateExecutor failed.', ex: error);
           emit(ShowCars(List.empty()));
           dispatch(ShowError());
         },
