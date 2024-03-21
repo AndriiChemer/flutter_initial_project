@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:iteo_libraries_example/core/extension/future_extensions.dart';
+import 'package:iteo_libraries_example/core/extension/target_platform_extension.dart';
 import 'package:iteo_libraries_example/presentation/widget/providers/app_colors_provider.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/animation_durations.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/app_colors.dart';
@@ -22,6 +23,8 @@ extension BuildContextExtensions on BuildContext {
       bottom: math.max(minimum, MediaQuery.of(this).padding.bottom),
     );
   }
+
+  bool get isMobile => Theme.of(this).platform.isMobile;
 }
 
 extension NullableBuildContentExtensions on BuildContext? {

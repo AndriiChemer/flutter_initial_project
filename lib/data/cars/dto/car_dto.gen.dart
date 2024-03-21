@@ -23,6 +23,3 @@ class CarDTO {
 
   Map<String, dynamic> toJson() => _$CarDTOToJson(this);
 }
-//
-// @Model()
-// class Person(String firstName, String lastName, int age);
