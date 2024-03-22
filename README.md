@@ -24,12 +24,16 @@ flutter packages pub get
 ### Translations
 `flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart`
 
-### Task
+## Task
 - Add Dio client
 - Add isolate api call. Examples:
   https://github.com/lamdangtung/flutter_isolate_call_api/blob/master/lib/main.dart
   https://gladimdim.org/dart-how-to-handle-exceptions-raised-inside-isolates
   https://blog.logrocket.com/multithreading-flutter-using-dart-isolates/
 
-### Sources
+## Materials
+### Drift (database)
+https://drift.simonbinder.eu/docs/getting-started/
+
+### Top tools
 - https://apexive.com/post/top-50-flutter-tools

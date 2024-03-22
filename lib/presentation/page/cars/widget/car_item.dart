@@ -5,10 +5,12 @@ import 'package:iteo_libraries_example/presentation/widget/export.dart';
 class CarItem extends StatelessWidget {
   const CarItem({
     required this.car,
+    this.withBorder = false,
     super.key,
   });
 
   final Car car;
+  final bool withBorder;
 
   @override
   Widget build(BuildContext context) {

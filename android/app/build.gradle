@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
         applicationId "com.chemer.iteo.libraries.iteo_libraries_example"
-        minSdkVersion 20
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

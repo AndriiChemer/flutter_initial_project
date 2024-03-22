@@ -165,31 +165,3 @@ class RadioButton extends StatelessWidget {
     );
   }
 }
-
-class CustomButton extends StatelessWidget {
-  const CustomButton({
-    required this.title,
-    required this.action,
-    super.key,
-  });
-
-  final String title;
-  final VoidCallback action;
-
-  @override
-  Widget build(BuildContext context) {
-    final colors = Theme.of(context).extension<AppTheme>()!;
-
-    return ElevatedButton(
-      style: ElevatedButton.styleFrom(
-        backgroundColor: colors.elevateButtonTheme.elevatedBackground,
-        elevation: 0,
-      ),
-      onPressed: action,
-      child: Text(
-        title,
-        style: TextStyle(color: colors.elevateButtonTheme.elevatedText),
-      ),
-    );
-  }
-}

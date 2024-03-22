@@ -9,6 +9,8 @@ import 'package:iteo_libraries_example/data/cars/local/entity/car_entity.dart';
 import 'package:iteo_libraries_example/domain/security/security_repository.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:sqlcipher_flutter_libs/sqlcipher_flutter_libs.dart';
+import 'package:sqlite3/open.dart';
 
 part 'drift_local_database.db.g.dart';
 
@@ -40,6 +42,8 @@ class DriftLocalDatabase extends _$DriftLocalDatabase with Disposable {
 }
 
 Future<DriftLocalDatabase> getDriftDatabase(SecurityRepository securityRepository) async {
+  await _setupSqlCipher();
+
   final maybePassword = await securityRepository.getDatabasePassword();
   final password = maybePassword ?? await _generateAndSaveDatabasePassword(securityRepository);
 
@@ -60,6 +64,13 @@ Future<DriftLocalDatabase> getDriftDatabase(SecurityRepository securityRepositor
     await _deleteDatabase();
 
     return DriftLocalDatabase(LazyDatabase(() => _getNativeDatabase(password: password)));
+  }
+}
+
+Future<void> _setupSqlCipher() async {
+  if(Platform.isAndroid) {
+    await applyWorkaroundToOpenSqlCipherOnOldAndroidVersions();
+    open.overrideFor(OperatingSystem.android, openCipherOnAndroid);
   }
 }
 

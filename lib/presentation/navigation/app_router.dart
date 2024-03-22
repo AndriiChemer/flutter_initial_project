@@ -1,5 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:iteo_libraries_example/presentation/page/cars/cars_page.dart';
+import 'package:iteo_libraries_example/presentation/page/cars_local/cars_local_page.dart';
 import 'package:iteo_libraries_example/presentation/page/deep_links/deep_links_page.dart';
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
@@ -25,6 +27,12 @@ class AppRouter extends _$AppRouter {
         ),
         AutoRoute(
           page: UserFormRoute.page,
+        ),
+        AutoRoute(
+          page: CarsRoute.page,
+        ),
+        AutoRoute(
+          page: CarsLocalRoute.page,
         ),
         AutoRoute(
           page: MoreRoute.page,

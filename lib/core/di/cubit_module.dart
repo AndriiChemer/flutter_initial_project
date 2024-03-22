@@ -3,8 +3,10 @@ import 'dart:async';
 import 'package:get_it/get_it.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/save_app_theme_type_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/clear_cars_from_local_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_local_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart';
@@ -13,6 +15,7 @@ import 'package:iteo_libraries_example/domain/deep_link/use_case/trigger_deep_li
 import 'package:iteo_libraries_example/domain/validator/email/email_validator.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validator.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
+import 'package:iteo_libraries_example/presentation/page/cars_local/cubit/car_local_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/main/cubit/main_page_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/more/cubit/more_navigation_page_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/settings/cubit/settings_page_cubit.dart';
@@ -45,6 +48,11 @@ Future<void> injectCubitModule(GetIt getIt) async {
     loadCarsFromIsolateUseCase: getIt<LoadCarsFromIsolateUseCase>(),
     getCarsFromIsolateExecutorUseCase: getIt<GetCarsFromIsolateExecutorUseCase>(),
     loadCarsFromIsolateExecutorUseCase: getIt<LoadCarsFromIsolateExecutorUseCase>(),
+  ),);
+
+  getIt.registerFactory<CarLocalCubit>(() => CarLocalCubit(
+    getCarsFromLocalUseCase: getIt<GetCarsFromLocalUseCase>(),
+    clearCarsFromLocalUseCase: getIt<ClearCarsFromLocalUseCase>(),
   ),);
 
   await injectWidgetsCubits(getIt);

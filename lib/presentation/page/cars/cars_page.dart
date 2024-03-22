@@ -1,3 +1,4 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -6,10 +7,11 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/widget/car_item.dart';
-import 'package:iteo_libraries_example/presentation/page/settings/settings_page.dart';
+import 'package:iteo_libraries_example/presentation/widget/buttons/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_gap.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
 
+@RoutePage()
 class CarsPage extends HookWidget {
   const CarsPage({super.key});
 

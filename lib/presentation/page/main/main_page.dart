@@ -6,13 +6,16 @@ import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cars_page.dart';
+import 'package:iteo_libraries_example/presentation/page/cars_local/cars_local_page.dart';
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
 import 'package:iteo_libraries_example/presentation/page/more/more_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/user_form_page.dart';
+import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 
 enum BottomNavigationPages {
   home,
   cars,
+  localCars,
   userForms,
   more,
 }
@@ -23,6 +26,7 @@ class MainPage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).extension<AppTheme>()!;
     final selectedPage = useState(BottomNavigationPages.home);
     final title = _mapBottomNavigationBar(selectedPage.value).label ?? '';
 
@@ -38,6 +42,8 @@ class MainPage extends HookWidget {
       ),
       body: _mapPage(selectedPage.value),
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: colors.bottomNavigationItem.activeItemColor,
+        unselectedItemColor: colors.bottomNavigationItem.unselectedItemColor,
         currentIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
         onTap: (index) => selectedPage.value = BottomNavigationPages.values[index],
         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
@@ -80,6 +86,8 @@ class MainPage extends HookWidget {
         return const MorePage();
       case BottomNavigationPages.cars:
         return const CarsPage();
+      case BottomNavigationPages.localCars:
+        return const CarsLocalPage();
     }
   }
 
@@ -91,6 +99,8 @@ class MainPage extends HookWidget {
   //       return const UserFormRoute();
   //     case BottomNavigationPages.more:
   //       return const MoreRoute();
+  //     case BottomNavigationPages.localCars:
+  //       return const CarsLocalRoute();
   //   }
   // }
 
@@ -115,6 +125,11 @@ class MainPage extends HookWidget {
         return BottomNavigationBarItem(
           label: LocaleKeys.main_page_navigation_cars_cached.tr(),
           icon: const Icon(Icons.car_rental),
+        );
+      case BottomNavigationPages.localCars:
+        return BottomNavigationBarItem(
+          label: LocaleKeys.main_page_navigation_cars_database.tr(),
+          icon: const Icon(Icons.car_repair_rounded),
         );
     }
   }

@@ -66,7 +66,7 @@ class DarkThemeAppColors extends AppColors {
     border_50: const Color.fromARGB(128, 89, 89, 89),
     overlay: const Color.fromARGB(115, 0, 0, 0),
     aboveShadow: const Color.fromRGBO(0, 0, 0, 0.25),
-    background: const Color.fromARGB(255, 0, 0, 0),
+    background: const Color.fromARGB(255, 89, 89, 89), //const Color.fromRGBO(0, 0, 0, 0.25),
     primary: const Color.fromARGB(255, 255, 205, 0),
     tile: const Color.fromARGB(255, 38, 38, 40),
   );

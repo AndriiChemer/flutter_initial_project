@@ -15,6 +15,18 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
+    CarsLocalRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const CarsLocalPage(),
+      );
+    },
+    CarsRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const CarsPage(),
+      );
+    },
     DeepLinksRoute.name: (routeData) {
       final pathParams = routeData.inheritedPathParams;
       final args = routeData.argsAs<DeepLinksRouteArgs>(
@@ -62,6 +74,34 @@ abstract class _$AppRouter extends RootStackRouter {
       );
     },
   };
+}
+
+/// generated route for
+/// [CarsLocalPage]
+class CarsLocalRoute extends PageRouteInfo<void> {
+  const CarsLocalRoute({List<PageRouteInfo>? children})
+      : super(
+          CarsLocalRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'CarsLocalRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [CarsPage]
+class CarsRoute extends PageRouteInfo<void> {
+  const CarsRoute({List<PageRouteInfo>? children})
+      : super(
+          CarsRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'CarsRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
 /// generated route for
