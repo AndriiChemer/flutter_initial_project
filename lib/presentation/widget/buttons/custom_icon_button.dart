@@ -78,7 +78,7 @@ class CustomIconButton extends StatelessWidget {
             child: _icon,
           ),
           if (label?.isNotEmpty == true) ...[
-            CustomText.style9(
+            CustomText.f12w500(
               label!,
               color: color,
             ),

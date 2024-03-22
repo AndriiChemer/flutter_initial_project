@@ -56,7 +56,7 @@ class ElevateButtonColor extends ThemeExtension<ElevateButtonColor> with _$Eleva
     required this.elevatedSelectedBorder,
   });
 
-  static final light = ElevateButtonColor(
+  static final dark = ElevateButtonColor(
     elevatedBackground: const Color(0xFFFFFFFF),
     elevatedSelectedBackground: const Color(0xFF27272E),
     elevatedText: const Color(0xFF27272E),
@@ -65,7 +65,7 @@ class ElevateButtonColor extends ThemeExtension<ElevateButtonColor> with _$Eleva
     elevatedSelectedBorder: const Color(0xFF27272E),
   );
 
-  static final dark = ElevateButtonColor(
+  static final light = ElevateButtonColor(
     elevatedBackground: const Color(0xFF27272E),
     elevatedSelectedBackground: const Color(0xFFFFFFFF),
     elevatedText: const Color(0xFFFFFFFF),

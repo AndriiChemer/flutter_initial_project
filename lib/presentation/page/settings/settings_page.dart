@@ -33,7 +33,7 @@ class SettingsPage extends HookWidget {
     ), listenWhen: (state) => [
       SettingsPageShowError,
       SettingsPageShowWarning,
-    ].contains(state.runtimeType,));
+    ].contains(state.runtimeType,),);
 
     useEffect(() {
       return cubit.close;
@@ -93,7 +93,7 @@ class _Content extends StatelessWidget {
             appThemeType: item,
             selectedAppThemeType: appThemeType,
             action: cubit.setAppThemeType,
-          )).toList(),
+          ),).toList(),
         ),
         const CustomGap.xbig(),
         Text(
@@ -110,16 +110,16 @@ class _Content extends StatelessWidget {
                 SnackbarProperties(
                   LocaleKeys.setting_page_warning_message.tr(),
                   title: LocaleKeys.setting_page_warning_title.tr(),
-                )
+                ),
               ),
             ),
             CustomButton(
               title: LocaleKeys.setting_page_buttons_show_error.tr(),
               action: () => cubit.showError(
-                  SnackbarProperties(
-                    LocaleKeys.setting_page_error_message.tr(),
-                    title: LocaleKeys.setting_page_error_title.tr(),
-                  )
+                SnackbarProperties(
+                  LocaleKeys.setting_page_error_message.tr(),
+                  title: LocaleKeys.setting_page_error_title.tr(),
+                ),
               ),
             ),
           ],
@@ -144,15 +144,23 @@ class RadioButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).extension<AppTheme>()!;
+
     return Column(
       children: [
         Radio<AppThemeType>(
+          fillColor: MaterialStateProperty.resolveWith<Color>((Set<MaterialState> states) {
+            if (states.contains(MaterialState.disabled)) {
+              return colors.iconColorTheme.orange.withOpacity(.32);
+            }
+            return colors.iconColorTheme.orange;
+          }),
           value: appThemeType,
           groupValue: selectedAppThemeType,
           onChanged: action,
         ),
         const CustomGap.xsm(),
-        Text(appThemeType.name)
+        CustomText.f15w500(appThemeType.name),
       ],
     );
   }
@@ -174,11 +182,14 @@ class CustomButton extends StatelessWidget {
 
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        foregroundColor: colors.elevateButtonTheme.elevatedBackground,
+        backgroundColor: colors.elevateButtonTheme.elevatedBackground,
         elevation: 0,
       ),
       onPressed: action,
-      child: Text(title),
+      child: Text(
+        title,
+        style: TextStyle(color: colors.elevateButtonTheme.elevatedText),
+      ),
     );
   }
 }

@@ -10,36 +10,36 @@ class AppTypo {
   final AppColors colors;
 
   Map<String, TextStyle> get allStyles => {
-        'Style 0': style0,
-        'Style 1': style1,
-        'Style 2': style2,
-        'Style 3': style3,
-        'Style 4_S': style4Strikethrough,
-        'Style 5': style5,
-        'Style 6': style6,
-        'Style 6_U': style6Underline,
+        'Style 0': f24w700,
+        'Style 1': f24w500,
+        'Style 2': f20w600,
+        'Style 3': f18w600,
+        'Style 4_S': f18w500Strikethrough,
+        'Style 5': f16w600,
+        'Style 6': f15w700,
+        'Style 6_U': f15w700Underline,
       };
 
-  TextStyle get style0 => TextStyle(
+  TextStyle get f24w700 => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
         fontSize: 24,
         height: 1.33,
         fontWeight: FontWeight.w700,
-        debugLabel: 'Style 0',
+        debugLabel: 'f24w700',
       );
 
-  TextStyle get style1 => TextStyle(
+  TextStyle get f24w500 => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
         fontSize: 24,
         height: 1.33,
         letterSpacing: -0.2,
         fontWeight: FontWeight.w500,
-        debugLabel: 'Style 1',
+        debugLabel: 'f24w500',
       );
 
-  TextStyle get style2 => TextStyle(
+  TextStyle get f20w600 => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
         fontSize: 20,
@@ -49,7 +49,7 @@ class AppTypo {
         fontWeight: FontWeight.w600,
       );
 
-  TextStyle get style3 => TextStyle(
+  TextStyle get f18w600 => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
         fontSize: 18,
@@ -59,7 +59,7 @@ class AppTypo {
         fontWeight: FontWeight.w600,
       );
 
-  TextStyle get style4Strikethrough => TextStyle(
+  TextStyle get f18w500Strikethrough => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
         fontSize: 18,
@@ -70,7 +70,7 @@ class AppTypo {
         decoration: TextDecoration.lineThrough,
       );
 
-  TextStyle get style5 => TextStyle(
+  TextStyle get f16w600 => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
         fontSize: 16,
@@ -80,7 +80,7 @@ class AppTypo {
         fontWeight: FontWeight.w600,
       );
 
-  TextStyle get style6 => TextStyle(
+  TextStyle get f15w700 => TextStyle(
     fontFamily: _fontFamilyMontserrat,
     color: colors.typo,
     fontSize: 15,
@@ -89,12 +89,12 @@ class AppTypo {
     fontWeight: FontWeight.w700,
   );
 
-  TextStyle get style6Underline => style6.copyWith(
+  TextStyle get f15w700Underline => f15w700.copyWith(
     decoration: TextDecoration.underline,
     debugLabel: 'Style 6_U',
   );
 
-  TextStyle get style7 => TextStyle(
+  TextStyle get f15w600 => TextStyle(
     fontFamily: _fontFamilyMontserrat,
     color: colors.typo,
     fontSize: 15,
@@ -103,7 +103,7 @@ class AppTypo {
     fontWeight: FontWeight.w600,
   );
 
-  TextStyle get style8 => TextStyle(
+  TextStyle get f15w500 => TextStyle(
     fontFamily: _fontFamilyMontserrat,
     color: colors.typo,
     fontSize: 15,
@@ -114,7 +114,7 @@ class AppTypo {
 
 
 
-  TextStyle get style9 => TextStyle(
+  TextStyle get f12w500 => TextStyle(
     fontFamily: _fontFamilyMontserrat,
     color: colors.typo,
     fontSize: 12,

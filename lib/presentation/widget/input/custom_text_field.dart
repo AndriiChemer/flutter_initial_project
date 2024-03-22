@@ -144,7 +144,7 @@ class CustomTextField extends HookWidget {
             maxLength: maxLength,
             maxLines: maxLines,
             style: style ??
-                typo.style8.copyWith(
+                typo.f15w500.copyWith(
                   color: enabled ? context.colors.typo : context.colors.subtypo,
                 ),
             inputFormatters: inputFormatters,
@@ -158,11 +158,11 @@ class CustomTextField extends HookWidget {
             textAlignVertical: TextAlignVertical.center,
             decoration: InputDecoration(
               enabled: enabled,
-              hintStyle: typo.style8.copyWith(color: colors.subtypo),
-              labelStyle: typo.style8.copyWith(color: colors.subtypo),
+              hintStyle: typo.f15w500.copyWith(color: colors.subtypo),
+              labelStyle: typo.f15w500.copyWith(color: colors.subtypo),
               labelText: labelText,
               floatingLabelStyle:
-                  labelStyle ?? typo.style9.copyWith(color: colors.subtypo),
+                  labelStyle ?? typo.f12w500.copyWith(color: colors.subtypo),
               floatingLabelBehavior: floatingLabelBehavior,
               prefix: (prefixText?.isNotEmpty ?? false)
                   ? _PrefixText(prefixText: prefixText!)
@@ -225,7 +225,7 @@ class _PrefixText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(right: Spacings.xsm),
-      child: CustomText.style7(
+      child: CustomText.f15w600(
         prefixText,
         color: context.colors.subtypo,
       ),

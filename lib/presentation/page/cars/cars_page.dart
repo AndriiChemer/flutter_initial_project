@@ -60,7 +60,7 @@ class _Content extends StatelessWidget {
       onRefresh: cubit.getCars,
       child: Column(
         children: [
-          CustomText.style2(LocaleKeys.cars_page_description.tr()),
+          CustomText.f20w600(LocaleKeys.cars_page_description.tr()),
           const CustomGap.xxxsm(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,

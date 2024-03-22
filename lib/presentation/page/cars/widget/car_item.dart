@@ -22,8 +22,8 @@ class CarItem extends StatelessWidget {
       width: double.infinity,
       child: Column(
         children: [
-          CustomText.style9('${car.brand} - ${car.model}'),
-          CustomText.style9('Num: ${car.registration}'),
+          CustomText.f12w500('${car.brand} - ${car.model}'),
+          CustomText.f12w500('Num: ${car.registration}'),
         ],
       ),
     );

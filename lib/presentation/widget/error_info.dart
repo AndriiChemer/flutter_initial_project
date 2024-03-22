@@ -26,7 +26,7 @@ class ErrorInfo extends StatelessWidget {
           const SizedBox(width: Spacings.xsm),
           Flexible(
             flex: 1,
-            child: CustomText.style9(
+            child: CustomText.f12w500(
               error,
               color: context.colors.error,
             ),

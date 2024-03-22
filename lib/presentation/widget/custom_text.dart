@@ -22,7 +22,7 @@ class CustomText extends StatelessWidget {
     this.autoSize = false,
   }) : _withTypo = typo;
 
-  CustomText.style0(
+  CustomText.f24w700(
     this.data, {
     super.key,
     this.softWrap,
@@ -31,9 +31,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style0);
+  }) : _withTypo = ((typo) => typo.f24w700);
 
-  CustomText.style1(
+  CustomText.f24w500(
     this.data, {
     super.key,
     this.softWrap,
@@ -42,9 +42,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style1);
+  }) : _withTypo = ((typo) => typo.f24w500);
 
-  CustomText.style2(
+  CustomText.f20w600(
     this.data, {
     super.key,
     this.softWrap,
@@ -53,9 +53,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style2);
+  }) : _withTypo = ((typo) => typo.f20w600);
 
-  CustomText.style3(
+  CustomText.f18w600(
     this.data, {
     super.key,
     this.softWrap,
@@ -64,9 +64,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style3);
+  }) : _withTypo = ((typo) => typo.f18w600);
 
-  CustomText.style4Strikethrough(
+  CustomText.f18w500Strikethrough(
     this.data, {
     super.key,
     this.softWrap,
@@ -75,9 +75,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style4Strikethrough);
+  }) : _withTypo = ((typo) => typo.f18w500Strikethrough);
 
-  CustomText.style5(
+  CustomText.f16w600(
     this.data, {
     super.key,
     this.softWrap,
@@ -86,9 +86,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style5);
+  }) : _withTypo = ((typo) => typo.f16w600);
 
-  CustomText.style6(
+  CustomText.f15w700(
     this.data, {
     super.key,
     this.softWrap,
@@ -97,9 +97,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style6);
+  }) : _withTypo = ((typo) => typo.f15w700);
 
-  CustomText.style7(
+  CustomText.f15w600(
     this.data, {
     super.key,
     this.softWrap,
@@ -108,9 +108,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style7);
+  }) : _withTypo = ((typo) => typo.f15w600);
 
-  CustomText.style8(
+  CustomText.f15w500(
     this.data, {
     super.key,
     this.softWrap,
@@ -119,9 +119,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style8);
+  }) : _withTypo = ((typo) => typo.f15w500);
 
-  CustomText.style9(
+  CustomText.f12w500(
     this.data, {
     super.key,
     this.softWrap,
@@ -130,9 +130,9 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style9);
+  }) : _withTypo = ((typo) => typo.f12w500);
 
-  CustomText.style6Underline(
+  CustomText.f15w700Underline(
     this.data, {
     super.key,
     this.softWrap,
@@ -141,7 +141,7 @@ class CustomText extends StatelessWidget {
     this.color,
     this.textAlign,
     this.autoSize = false,
-  }) : _withTypo = ((typo) => typo.style6Underline);
+  }) : _withTypo = ((typo) => typo.f15w700Underline);
 
   final String data;
   final bool? softWrap;

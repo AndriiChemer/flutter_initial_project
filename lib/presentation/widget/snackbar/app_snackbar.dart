@@ -72,8 +72,8 @@ class AppSnackbar extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    if (title != null) CustomText.style9(title!),
-                    CustomText.style7(message),
+                    if (title != null) CustomText.f12w500(title!),
+                    CustomText.f15w600(message),
                   ],
                 ),
               ),
