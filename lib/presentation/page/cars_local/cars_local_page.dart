@@ -33,22 +33,17 @@ class CarsLocalPage extends HookWidget {
       cubit.loadCars();
     }, [cubit],);
 
-    return Column(
-      children: [
-        Expanded(
-          child: switch(state) {
-            CarsLocalInitial() => const SizedBox.shrink(),
-            EmptyCars() => const _Empty(),
-            ShowLocalCars() => _Content(cars: state.cars,),
-          }
-        ),
-        const CustomGap.xxxsm(),
-        CustomButton(
-          title: 'Clear local database',
-          action: cubit.clearCarsDatabase,
-        ),
-        const CustomGap.md(),
-      ],
+    return WrapperButton.bottom(
+      button: CustomButton(
+        title: 'Clear local database',
+        padding: const EdgeInsets.only(bottom: Spacings.big),
+        action: cubit.clearCarsDatabase,
+      ),
+      child: switch(state) {
+        CarsLocalInitial() => const SizedBox.shrink(),
+        EmptyCars() => const _Empty(),
+        ShowLocalCars() => _Content(cars: state.cars,),
+      },
     );
   }
 }
@@ -81,7 +76,7 @@ class _Content extends HookWidget {
         car: cars[index],
       ),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 5,
+        crossAxisCount: 2,
         crossAxisSpacing: 5.0,
         mainAxisSpacing: 5.0,
       ),

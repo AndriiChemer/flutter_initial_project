@@ -27,6 +27,9 @@ class CarsPage extends HookWidget {
           case ShowError():
             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Error')));
             break;
+          case SavedToDatabase():
+            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Saved with success!')));
+            break;
         }
       },
     );
@@ -90,6 +93,11 @@ class _Content extends StatelessWidget {
                 action: cubit.loadCardsFromIsolateExecutor,
               ),
             ],
+          ),
+          const CustomGap.xxxsm(),
+          CustomButton(
+            title: 'Save to database',
+            action: () => cubit.saveToDatabase(cars),
           ),
           const CustomGap.xxxsm(),
           Expanded(

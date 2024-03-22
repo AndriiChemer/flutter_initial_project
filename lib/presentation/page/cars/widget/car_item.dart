@@ -20,6 +20,12 @@ class CarItem extends StatelessWidget {
         right: 16,
         bottom: 16,
       ),
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: Colors.red,
+        ),
+        borderRadius: const BorderRadius.all(Radius.circular(20))
+      ),
       padding: const EdgeInsets.all(16.0),
       width: double.infinity,
       child: Column(

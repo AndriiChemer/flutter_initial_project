@@ -5,6 +5,7 @@ import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolat
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_database_use_case.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -15,6 +16,7 @@ import 'cars_cubit_test.mocks.dart';
 @GenerateMocks(
   [
     GetCarsUseCase,
+    SaveCarsToDatabaseUseCase,
     GetCarsFromIsolateUseCase,
     LoadCarsFromIsolateUseCase,
     GetCarsFromIsolateExecutorUseCase,
@@ -25,6 +27,7 @@ void main() {
   late CarsCubit cubit;
 
   late GetCarsUseCase getCarsUseCase;
+  late SaveCarsToDatabaseUseCase saveCarsToDatabaseUseCase;
   late GetCarsFromIsolateUseCase getCarsFromIsolateUseCase;
   late LoadCarsFromIsolateUseCase loadCarsFromIsolateUseCase;
   late GetCarsFromIsolateExecutorUseCase getCarsFromIsolateExecutorUseCase;
@@ -36,6 +39,7 @@ void main() {
 
   setUp(() {
     getCarsUseCase = MockGetCarsUseCase();
+    saveCarsToDatabaseUseCase = MockSaveCarsToDatabaseUseCase();
     getCarsFromIsolateUseCase = MockGetCarsFromIsolateUseCase();
     loadCarsFromIsolateUseCase = MockLoadCarsFromIsolateUseCase();
     getCarsFromIsolateExecutorUseCase = MockGetCarsFromIsolateExecutorUseCase();
@@ -49,6 +53,7 @@ void main() {
       loadCarsFromIsolateUseCase: loadCarsFromIsolateUseCase,
       getCarsFromIsolateExecutorUseCase: getCarsFromIsolateExecutorUseCase,
       loadCarsFromIsolateExecutorUseCase: loadCarsFromIsolateExecutorUseCase,
+      saveCarsToDatabaseUseCase: saveCarsToDatabaseUseCase,
     );
   });
 
