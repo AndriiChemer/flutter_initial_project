@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.chemer.iteo.libraries.iteo_libraries_example">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
    <application
         android:label="iteo_libraries_example"
         android:name="${applicationName}"

@@ -26,6 +26,10 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>User can add read remove events in calendar.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>User can manage his calendar.</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
@@ -48,8 +52,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>CFBundleLocalizations</key>
-    <array>
-    	<string>pl</string>
-    </array>
+	<array>
+		<string>pl</string>
+	</array>
 </dict>
 </plist>

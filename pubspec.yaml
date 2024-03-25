@@ -38,6 +38,11 @@ dependencies:
   path_provider: ^2.0.0
   path: ^1.9.0
   flutter_secure_storage: ^9.0.0
+#  manage_calendar_events: ^2.0.2
+  add_2_calendar: 3.0.1
+  manage_calendar_events:
+    path: ../manage_calendar_events
+  permission_handler: ^11.3.0
 
 dev_dependencies:
   flutter_test:
