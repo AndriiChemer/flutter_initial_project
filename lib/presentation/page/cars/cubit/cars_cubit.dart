@@ -2,10 +2,8 @@ import 'package:equatable/equatable.dart';
 import 'package:iteo_libraries_example/core/logger/logger.dart';
 import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
-import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
-import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_database_use_case.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 
@@ -16,16 +14,12 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
   CarsCubit({
     required this.getCarsUseCase,
     required this.saveCarsToDatabaseUseCase,
-    required this.getCarsFromIsolateUseCase,
-    required this.loadCarsFromIsolateUseCase,
     required this.getCarsFromIsolateExecutorUseCase,
     required this.loadCarsFromIsolateExecutorUseCase,
   }) : super(LoadingCars());
 
   final GetCarsUseCase getCarsUseCase;
   final SaveCarsToDatabaseUseCase saveCarsToDatabaseUseCase;
-  final GetCarsFromIsolateUseCase getCarsFromIsolateUseCase;
-  final LoadCarsFromIsolateUseCase loadCarsFromIsolateUseCase;
   final GetCarsFromIsolateExecutorUseCase getCarsFromIsolateExecutorUseCase;
   final LoadCarsFromIsolateExecutorUseCase loadCarsFromIsolateExecutorUseCase;
 
@@ -35,18 +29,6 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
       emit(ShowCars(List.from(cars)));
     } catch(ex) {
       Logger.e('getCars failed.', ex: ex);
-      emit(ShowCars(List.empty()));
-      dispatch(ShowError());
-    }
-  }
-
-  Future<void> getCarsFromIsolate() async {
-    emit(LoadingCars());
-    try {
-      final cars = await getCarsFromIsolateUseCase();
-      emit(ShowCars(List.from(cars)));
-    } catch(ex) {
-      Logger.e('getCarsFromIsolate failed.', ex: ex);
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
     }
@@ -64,29 +46,10 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
     }
   }
 
-  void loadCardsFromIsolate() {
-    emit(LoadingCars());
-    try {
-      loadCarsFromIsolateUseCase(
-        onSuccess: (cars) {
-          emit(ShowCars(List.from(cars)));
-        },
-        onError: (error, stacktrace) {
-          Logger.e('loadCardsFromIsolate failed.', ex: error);
-          emit(ShowCars(List.empty()));
-          dispatch(ShowError());
-        },
-      );
-    } catch(ex) {
-      emit(ShowCars(List.empty()));
-      dispatch(ShowError());
-    }
-  }
-
   void loadCardsFromIsolateExecutor() {
     emit(LoadingCars());
     try {
-      loadCarsFromIsolateUseCase(
+      loadCarsFromIsolateExecutorUseCase(
         onSuccess: (cars) {
           emit(ShowCars(List.from(cars)));
         },

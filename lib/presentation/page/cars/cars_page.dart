@@ -71,22 +71,8 @@ class _Content extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               CustomButton(
-                title: 'Get from isolate',
-                action: cubit.getCarsFromIsolate,
-              ),
-              CustomButton(
                 title: 'Get from isolate executor',
                 action: cubit.getCarsFromIsolateExecutor,
-              ),
-            ],
-          ),
-          const CustomGap.xxxsm(),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              CustomButton(
-                title: 'Load from isolate',
-                action: cubit.loadCardsFromIsolate,
               ),
               CustomButton(
                 title: 'Load from isolate executor',

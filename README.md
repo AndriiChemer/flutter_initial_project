@@ -37,3 +37,6 @@ https://drift.simonbinder.eu/docs/getting-started/
 
 ### Top tools
 - https://apexive.com/post/top-50-flutter-tools
+
+### Tasks
+- Add Chopper https client

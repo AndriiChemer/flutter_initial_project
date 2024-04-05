@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/core/app_env.dart';
-import 'package:iteo_libraries_example/core/di/di_config.dart';
+import 'package:iteo_libraries_example/core/di/di.dart';
 import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/core/logger/logger.dart';
 import 'package:iteo_libraries_example/domain/app_theme/use_case/get_app_theme_type_use_case.dart';
@@ -20,7 +20,8 @@ Future<void> runMainApp(AppEnv appEnv) async {
   await runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
 
-    await configureDependencies(appEnv);
+    await configureDependencies(appEnv.environment);
+
     final appRouter = AppRouter();
     await EasyLocalization.ensureInitialized();
     Logger.setupLogger();

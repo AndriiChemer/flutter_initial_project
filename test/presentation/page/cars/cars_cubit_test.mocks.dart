@@ -7,14 +7,10 @@ import 'dart:async' as _i3;
 
 import 'package:iteo_libraries_example/domain/cars/model/car.dart' as _i4;
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart'
-    as _i8;
-import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_use_case.dart'
     as _i6;
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart'
     as _i2;
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart'
-    as _i9;
-import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_use_case.dart'
     as _i7;
 import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_database_use_case.dart'
     as _i5;
@@ -71,60 +67,11 @@ class MockSaveCarsToDatabaseUseCase extends _i1.Mock
       ) as _i3.Future<void>);
 }
 
-/// A class which mocks [GetCarsFromIsolateUseCase].
-///
-/// See the documentation for Mockito's code generation for more information.
-class MockGetCarsFromIsolateUseCase extends _i1.Mock
-    implements _i6.GetCarsFromIsolateUseCase {
-  MockGetCarsFromIsolateUseCase() {
-    _i1.throwOnMissingStub(this);
-  }
-
-  @override
-  _i3.Future<List<_i4.Car>> call() => (super.noSuchMethod(
-        Invocation.method(
-          #call,
-          [],
-        ),
-        returnValue: _i3.Future<List<_i4.Car>>.value(<_i4.Car>[]),
-      ) as _i3.Future<List<_i4.Car>>);
-}
-
-/// A class which mocks [LoadCarsFromIsolateUseCase].
-///
-/// See the documentation for Mockito's code generation for more information.
-class MockLoadCarsFromIsolateUseCase extends _i1.Mock
-    implements _i7.LoadCarsFromIsolateUseCase {
-  MockLoadCarsFromIsolateUseCase() {
-    _i1.throwOnMissingStub(this);
-  }
-
-  @override
-  void call({
-    required void Function(List<_i4.Car>)? onSuccess,
-    required void Function(
-      String,
-      String,
-    )? onError,
-  }) =>
-      super.noSuchMethod(
-        Invocation.method(
-          #call,
-          [],
-          {
-            #onSuccess: onSuccess,
-            #onError: onError,
-          },
-        ),
-        returnValueForMissingStub: null,
-      );
-}
-
 /// A class which mocks [GetCarsFromIsolateExecutorUseCase].
 ///
 /// See the documentation for Mockito's code generation for more information.
 class MockGetCarsFromIsolateExecutorUseCase extends _i1.Mock
-    implements _i8.GetCarsFromIsolateExecutorUseCase {
+    implements _i6.GetCarsFromIsolateExecutorUseCase {
   MockGetCarsFromIsolateExecutorUseCase() {
     _i1.throwOnMissingStub(this);
   }
@@ -143,7 +90,7 @@ class MockGetCarsFromIsolateExecutorUseCase extends _i1.Mock
 ///
 /// See the documentation for Mockito's code generation for more information.
 class MockLoadCarsFromIsolateExecutorUseCase extends _i1.Mock
-    implements _i9.LoadCarsFromIsolateExecutorUseCase {
+    implements _i7.LoadCarsFromIsolateExecutorUseCase {
   MockLoadCarsFromIsolateExecutorUseCase() {
     _i1.throwOnMissingStub(this);
   }

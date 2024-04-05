@@ -1,11 +1,10 @@
 import 'package:fimber/fimber.dart';
-import 'package:iteo_libraries_example/core/di/di_config.dart';
+import 'package:iteo_libraries_example/core/logger/crashlytics_reporting_tree.dart';
 
 class Logger {
   static void setupLogger() {
-    for (final logTree in getIt<List<LogTree>>()) {
-      Fimber.plantTree(logTree);
-    }
+    Fimber.plantTree(Logger.debugTree);
+    Fimber.plantTree(CrashlyticsReportingTree());
   }
 
   static final DebugTree debugTree = DebugTree(useColors: true)

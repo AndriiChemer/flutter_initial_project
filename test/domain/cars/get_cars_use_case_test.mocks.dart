@@ -40,15 +40,6 @@ class MockCarRepository extends _i1.Mock implements _i2.CarRepository {
       ) as _i3.Future<List<_i4.Car>>);
 
   @override
-  _i3.Future<List<_i4.Car>> getCarsFromIsolate() => (super.noSuchMethod(
-        Invocation.method(
-          #getCarsFromIsolate,
-          [],
-        ),
-        returnValue: _i3.Future<List<_i4.Car>>.value(<_i4.Car>[]),
-      ) as _i3.Future<List<_i4.Car>>);
-
-  @override
   _i3.Future<List<_i4.Car>> getCarsFromIsolateExecutor() => (super.noSuchMethod(
         Invocation.method(
           #getCarsFromIsolateExecutor,
@@ -56,26 +47,6 @@ class MockCarRepository extends _i1.Mock implements _i2.CarRepository {
         ),
         returnValue: _i3.Future<List<_i4.Car>>.value(<_i4.Car>[]),
       ) as _i3.Future<List<_i4.Car>>);
-
-  @override
-  void loadCarsFromIsolate({
-    required void Function(List<_i4.Car>)? onSuccess,
-    required void Function(
-      String,
-      String,
-    )? onError,
-  }) =>
-      super.noSuchMethod(
-        Invocation.method(
-          #loadCarsFromIsolate,
-          [],
-          {
-            #onSuccess: onSuccess,
-            #onError: onError,
-          },
-        ),
-        returnValueForMissingStub: null,
-      );
 
   @override
   void loadCarsFromIsolateExecutor({
