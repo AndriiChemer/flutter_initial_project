@@ -104,16 +104,4 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-
-  Future<List<String>> getLazyTodos() async {
-    final List<String> toReturn;
-    try {
-      final result = Future.value(["String1", "String1", "String1"]);
-      toReturn = await result;
-    } catch (_) {
-      rethrow;
-    } finally {}
-
-    return toReturn;
-  }
 }

@@ -71,11 +71,11 @@ class _Content extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               CustomButton(
-                title: 'Get from isolate executor',
+                title: 'Get from isolate',
                 action: cubit.getCarsFromIsolateExecutor,
               ),
               CustomButton(
-                title: 'Load from isolate executor',
+                title: 'Load from isolate',
                 action: cubit.loadCardsFromIsolateExecutor,
               ),
             ],

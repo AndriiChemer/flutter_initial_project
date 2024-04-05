@@ -25,6 +25,7 @@ abstract mixin class CarRepositoryImpl implements CarRepository, _$CarRepository
   @override
   Future<List<Car>> getCars() async {
     final carsDTO = await chopperCaller(carRemoteDataSource.getCarList);
+    print('ANDRII carsDTO: $carsDTO');
     return carDTOToCarMapper(carsDTO);
   }
 

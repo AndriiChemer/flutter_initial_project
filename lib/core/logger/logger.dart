@@ -1,14 +1,12 @@
 import 'package:fimber/fimber.dart';
+import 'package:iteo_libraries_example/core/di/di.dart';
 import 'package:iteo_libraries_example/core/logger/crashlytics_reporting_tree.dart';
 
 class Logger {
   static void setupLogger() {
-    Fimber.plantTree(Logger.debugTree);
-    Fimber.plantTree(CrashlyticsReportingTree());
+    Fimber.plantTree(getIt<DebugTree>());
+    Fimber.plantTree(getIt<CrashlyticsReportingTree>());
   }
-
-  static final DebugTree debugTree = DebugTree(useColors: true)
-    ..colorizeMap = _customColorizeMap;
 
   /// Logs DEBUG level message.
   static void d(String message, {dynamic ex, StackTrace? stacktrace}) {
@@ -30,7 +28,7 @@ class Logger {
     Fimber.e(message, ex: ex, stacktrace: stacktrace);
   }
 
-  static final Map<String, ColorizeStyle> _customColorizeMap = {
+  static final Map<String, ColorizeStyle> customColorizeMap = {
     'D': ColorizeStyle([AnsiStyle.foreground(AnsiColor.white)]),
     'I': ColorizeStyle([AnsiStyle.foreground(AnsiColor.blue)]),
     'W': ColorizeStyle([AnsiStyle.foreground(AnsiColor.yellow)]),

@@ -14,12 +14,12 @@ class CarDTO {
 
   factory CarDTO.fromDynamic(dynamic data) => _$CarDTOFromJson(data as Map<String, dynamic>);
 
+  factory CarDTO.fromJson(Map<String, dynamic> data) => _$CarDTOFromJson(data);
+
   @JsonKey(name: '_id')
   final String id;
   final String brand;
   final String model;
   final String registration;
   final String? color;
-
-  Map<String, dynamic> toJson() => _$CarDTOToJson(this);
 }
