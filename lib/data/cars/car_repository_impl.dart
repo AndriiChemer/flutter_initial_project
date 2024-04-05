@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:cached_annotation/cached_annotation.dart';
+import 'package:chopper/chopper.dart';
 import 'package:injectable/injectable.dart';
 import 'package:iteo_libraries_example/data/cars/dto/car_dto.gen.dart';
 import 'package:iteo_libraries_example/data/cars/mapper/car_dto_to_car_mapper.dart';
@@ -12,7 +13,7 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 
 part 'car_repository_impl.cached.dart';
 
-// @Singleton(as: CarRepository)
+@Singleton(as: CarRepository)
 @WithCache()
 abstract mixin class CarRepositoryImpl implements CarRepository, _$CarRepositoryImpl {
   @factoryMethod
@@ -25,7 +26,6 @@ abstract mixin class CarRepositoryImpl implements CarRepository, _$CarRepository
   @override
   Future<List<Car>> getCars() async {
     final carsDTO = await chopperCaller(carRemoteDataSource.getCarList);
-    print('ANDRII carsDTO: $carsDTO');
     return carDTOToCarMapper(carsDTO);
   }
 

@@ -12,7 +12,8 @@ class CarDTO {
     this.color,
   });
 
-  factory CarDTO.fromDynamic(dynamic data) => _$CarDTOFromJson(data as Map<String, dynamic>);
+  factory CarDTO.fromDynamic(dynamic data) =>
+      _$CarDTOFromJson(data as Map<String, dynamic>);
 
   factory CarDTO.fromJson(Map<String, dynamic> data) => _$CarDTOFromJson(data);
 
