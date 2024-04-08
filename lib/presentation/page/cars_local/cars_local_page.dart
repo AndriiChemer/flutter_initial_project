@@ -24,7 +24,6 @@ class CarsLocalPage extends HookWidget {
         switch(action) {
           case ShowError():
             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Error')));
-            break;
         }
       },
     );
@@ -33,7 +32,8 @@ class CarsLocalPage extends HookWidget {
       cubit.loadCars();
     }, [cubit],);
 
-    return WrapperButton.bottom(
+    return WrapperButton.top(
+      top: 20,
       button: CustomButton(
         title: 'Clear local database',
         padding: const EdgeInsets.only(bottom: Spacings.big),
