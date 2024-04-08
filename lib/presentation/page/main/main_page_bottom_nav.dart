@@ -35,8 +35,8 @@ class MainPageBottomNav extends HookWidget {
       ),
       body: _mapPage(selectedPage.value),
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: colors.bottomNavigationItem.activeItemColor,
-        unselectedItemColor: colors.bottomNavigationItem.unselectedItemColor,
+        selectedItemColor: colors.bottomNavigation.activeItemColor,
+        unselectedItemColor: colors.bottomNavigation.unselectedItemColor,
         currentIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
         onTap: (index) => selectedPage.value = BottomNavigationPages.values[index],
         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
