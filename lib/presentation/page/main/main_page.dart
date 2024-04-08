@@ -10,6 +10,7 @@ import 'package:iteo_libraries_example/presentation/page/cars_local/cars_local_p
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
 import 'package:iteo_libraries_example/presentation/page/main/widget/custom_bottom_navigation_bar.dart';
+import 'package:iteo_libraries_example/presentation/page/main/widget/custom_drawer_navigation.dart';
 import 'package:iteo_libraries_example/presentation/page/more/more_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/user_form_page.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/animation_durations.dart';
@@ -23,36 +24,38 @@ class MainPage extends HookWidget {
     final pageController = usePageController();
     final selectedPage = useState(BottomNavigationPages.home);
     final title = _mapBottomNavigationBar(selectedPage.value);
-
-    return Scaffold(
-      extendBody: true,
-      appBar: AppBar(
-        title: Text(title),
-        actions: [
-          IconButton(
-            onPressed: () => context.router.push(const SettingsRoute()),
-            icon: const Icon(Icons.settings),
-          ),
-        ],
-      ),
-      body: PageView(
-        controller: pageController,
-        children: BottomNavigationPages.values.map(_mapPage).toList(),
-        onPageChanged: (index) {
-          selectedPage.value = BottomNavigationPages.values[index];
-        },
-      ),
-      bottomNavigationBar: CustomBottomNavigationBar(
-        items: BottomNavigationPages.values,
-        selectedIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
-        onTap: (index) {
-          pageController.animateToPage(
-            index,
-            duration: AnimationDurations.fast,
-            curve: Curves.linear,
-          );
-          selectedPage.value = BottomNavigationPages.values[index];
-        },
+    return CustomDrawerNavigation(
+      child: Scaffold(
+        extendBody: true,
+        appBar: AppBar(
+          title: Text(title),
+          centerTitle: true,
+          actions: [
+            IconButton(
+              onPressed: () => context.router.push(const SettingsRoute()),
+              icon: const Icon(Icons.settings),
+            ),
+          ],
+        ),
+        body: PageView(
+          controller: pageController,
+          children: BottomNavigationPages.values.map(_mapPage).toList(),
+          onPageChanged: (index) {
+            selectedPage.value = BottomNavigationPages.values[index];
+          },
+        ),
+        bottomNavigationBar: CustomBottomNavigationBar(
+          items: BottomNavigationPages.values,
+          selectedIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
+          onTap: (index) {
+            pageController.animateToPage(
+              index,
+              duration: AnimationDurations.fast,
+              curve: Curves.linear,
+            );
+            selectedPage.value = BottomNavigationPages.values[index];
+          },
+        ),
       ),
     );
   }

@@ -11,6 +11,7 @@ class Dimens {
   static const nine = 9.0;
   static const ten = 10.0;
   static const twenty = 20.0;
+  static const thirty = 30.0;
   static const sixtyFour = 64.0;
   static const ninetySix = 96.0;
 
@@ -22,4 +23,5 @@ class Dimens {
   static const smallButtonHeight = 32.0;
   static const bottomNavigationIconSize = 30.0;
   static const bottomNavigationSelectedIndicatorWidth = bottomNavigationIconSize;
+  static const drawerButtonSize = 50.0;
 }
