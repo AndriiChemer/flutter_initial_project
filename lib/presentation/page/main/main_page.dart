@@ -11,6 +11,7 @@ import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
 import 'package:iteo_libraries_example/presentation/page/main/widget/custom_bottom_navigation_bar.dart';
 import 'package:iteo_libraries_example/presentation/page/more/more_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/user_form_page.dart';
+import 'package:iteo_libraries_example/presentation/widget/theme/animation_durations.dart';
 
 enum BottomNavigationPages {
   home,
@@ -26,8 +27,9 @@ class MainPage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final pageController = usePageController();
     final selectedPage = useState(BottomNavigationPages.home);
-    final title = _mapBottomNavigationBar(selectedPage.value) ?? '';
+    final title = _mapBottomNavigationBar(selectedPage.value);
 
     return Scaffold(
       extendBody: true,
@@ -40,38 +42,26 @@ class MainPage extends HookWidget {
           ),
         ],
       ),
-      body: _mapPage(selectedPage.value),
+      body: PageView(
+        controller: pageController,
+        children: BottomNavigationPages.values.map(_mapPage).toList(),
+        onPageChanged: (index) {
+          selectedPage.value = BottomNavigationPages.values[index];
+        },
+      ),
       bottomNavigationBar: CustomBottomNavigationBar(
         items: BottomNavigationPages.values,
         selectedIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
-        onTap: (index) => selectedPage.value = BottomNavigationPages.values[index],
+        onTap: (index) {
+          pageController.animateToPage(
+            index,
+            duration: AnimationDurations.fast,
+            curve: Curves.linear,
+          );
+          selectedPage.value = BottomNavigationPages.values[index];
+        },
       ),
     );
-
-    // return AutoTabsRouter.tabBar(
-    //   routes: BottomNavigationPages.values.map(_mapPage).toList(),
-    //   builder: (context, child, _) {
-    //     final tabsRouter = AutoTabsRouter.of(context);
-    //     final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
-    //     return Scaffold(
-    //       appBar: AppBar(
-    //         title: Text(label ?? ''),
-    //         actions: [
-    //           IconButton(
-    //             onPressed: () => context.router.push(const SettingsRoute()),
-    //             icon: const Icon(Icons.settings),
-    //           ),
-    //         ],
-    //       ),
-    //       body: child,
-    //       bottomNavigationBar: BottomNavigationBar(
-    //         currentIndex: tabsRouter.activeIndex,
-    //         onTap: (index) => tabsRouter.setActiveIndex(index),
-    //         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
-    //       ),
-    //     );
-    //   },
-    // );
   }
 
   Widget _mapPage(BottomNavigationPages page) {
@@ -88,19 +78,6 @@ class MainPage extends HookWidget {
         return const CarsLocalPage();
     }
   }
-
-  // PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
-  //   switch(page) {
-  //     case BottomNavigationPages.home:
-  //       return const HomeRoute();
-  //     case BottomNavigationPages.userForms:
-  //       return const UserFormRoute();
-  //     case BottomNavigationPages.more:
-  //       return const MoreRoute();
-  //     case BottomNavigationPages.localCars:
-  //       return const CarsLocalRoute();
-  //   }
-  // }
 
   String _mapBottomNavigationBar(BottomNavigationPages page) {
     switch(page) {

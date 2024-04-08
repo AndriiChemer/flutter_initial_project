@@ -267,27 +267,30 @@ mixin _$IconColorTailorMixin on ThemeExtension<IconColor> {
   }
 }
 
-mixin _$BottomNavigationItemTailorMixin
-    on ThemeExtension<BottomNavigationItem> {
+mixin _$BottomNavigationTailorMixin on ThemeExtension<BottomNavigation> {
+  Color get background;
   Color get activeItemColor;
   Color get unselectedItemColor;
 
   @override
-  BottomNavigationItem copyWith({
+  BottomNavigation copyWith({
+    Color? background,
     Color? activeItemColor,
     Color? unselectedItemColor,
   }) {
-    return BottomNavigationItem(
+    return BottomNavigation(
+      background: background ?? this.background,
       activeItemColor: activeItemColor ?? this.activeItemColor,
       unselectedItemColor: unselectedItemColor ?? this.unselectedItemColor,
     );
   }
 
   @override
-  BottomNavigationItem lerp(
-      covariant ThemeExtension<BottomNavigationItem>? other, double t) {
-    if (other is! BottomNavigationItem) return this as BottomNavigationItem;
-    return BottomNavigationItem(
+  BottomNavigation lerp(
+      covariant ThemeExtension<BottomNavigation>? other, double t) {
+    if (other is! BottomNavigation) return this as BottomNavigation;
+    return BottomNavigation(
+      background: Color.lerp(background, other.background, t)!,
       activeItemColor: Color.lerp(activeItemColor, other.activeItemColor, t)!,
       unselectedItemColor:
           Color.lerp(unselectedItemColor, other.unselectedItemColor, t)!,
@@ -298,7 +301,9 @@ mixin _$BottomNavigationItemTailorMixin
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is BottomNavigationItem &&
+            other is BottomNavigation &&
+            const DeepCollectionEquality()
+                .equals(background, other.background) &&
             const DeepCollectionEquality()
                 .equals(activeItemColor, other.activeItemColor) &&
             const DeepCollectionEquality()
@@ -309,6 +314,7 @@ mixin _$BottomNavigationItemTailorMixin
   int get hashCode {
     return Object.hash(
       runtimeType.hashCode,
+      const DeepCollectionEquality().hash(background),
       const DeepCollectionEquality().hash(activeItemColor),
       const DeepCollectionEquality().hash(unselectedItemColor),
     );
@@ -322,7 +328,7 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
   ElevateButtonColor get elevateButtonTheme;
   TextColor get textColorTheme;
   IconColor get iconColorTheme;
-  BottomNavigationItem get bottomNavigationItem;
+  BottomNavigation get bottomNavigation;
 
   @override
   AppTheme copyWith({
@@ -332,7 +338,7 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
     ElevateButtonColor? elevateButtonTheme,
     TextColor? textColorTheme,
     IconColor? iconColorTheme,
-    BottomNavigationItem? bottomNavigationItem,
+    BottomNavigation? bottomNavigation,
   }) {
     return AppTheme(
       background: background ?? this.background,
@@ -341,7 +347,7 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
       elevateButtonTheme: elevateButtonTheme ?? this.elevateButtonTheme,
       textColorTheme: textColorTheme ?? this.textColorTheme,
       iconColorTheme: iconColorTheme ?? this.iconColorTheme,
-      bottomNavigationItem: bottomNavigationItem ?? this.bottomNavigationItem,
+      bottomNavigation: bottomNavigation ?? this.bottomNavigation,
     );
   }
 
@@ -357,8 +363,8 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
           as ElevateButtonColor,
       textColorTheme: textColorTheme.lerp(other.textColorTheme, t) as TextColor,
       iconColorTheme: iconColorTheme.lerp(other.iconColorTheme, t) as IconColor,
-      bottomNavigationItem: bottomNavigationItem.lerp(
-          other.bottomNavigationItem, t) as BottomNavigationItem,
+      bottomNavigation:
+          bottomNavigation.lerp(other.bottomNavigation, t) as BottomNavigation,
     );
   }
 
@@ -380,7 +386,7 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
             const DeepCollectionEquality()
                 .equals(iconColorTheme, other.iconColorTheme) &&
             const DeepCollectionEquality()
-                .equals(bottomNavigationItem, other.bottomNavigationItem));
+                .equals(bottomNavigation, other.bottomNavigation));
   }
 
   @override
@@ -393,7 +399,7 @@ mixin _$AppThemeTailorMixin on ThemeExtension<AppTheme> {
       const DeepCollectionEquality().hash(elevateButtonTheme),
       const DeepCollectionEquality().hash(textColorTheme),
       const DeepCollectionEquality().hash(iconColorTheme),
-      const DeepCollectionEquality().hash(bottomNavigationItem),
+      const DeepCollectionEquality().hash(bottomNavigation),
     );
   }
 }

@@ -115,22 +115,26 @@ class IconColor extends ThemeExtension<IconColor> with _$IconColorTailorMixin {
 }
 
 @tailorMixinComponent
-class BottomNavigationItem extends ThemeExtension<BottomNavigationItem> with _$BottomNavigationItemTailorMixin {
-  BottomNavigationItem({
+class BottomNavigation extends ThemeExtension<BottomNavigation> with _$BottomNavigationTailorMixin {
+  BottomNavigation({
+    required this.background,
     required this.activeItemColor,
     required this.unselectedItemColor,
   });
 
-  static final light = BottomNavigationItem(
-    activeItemColor: const Color(0xFF27272E),
-    unselectedItemColor: const Color(0xFF27272E),
+  static final light = BottomNavigation(
+    background: Colors.blueGrey[900]?.withOpacity(0.7) ?? Colors.blueGrey,
+    activeItemColor: Colors.white,
+    unselectedItemColor: Colors.white.withOpacity(0.6),
   );
 
-  static final dark = BottomNavigationItem(
-    activeItemColor: const Color(0xFF27272E),
-    unselectedItemColor: const Color(0xFF27272E),
+  static final dark = BottomNavigation(
+    background: Colors.blueGrey[900]?.withOpacity(0.7) ?? Colors.blueGrey,
+    activeItemColor: Colors.white,
+    unselectedItemColor: Colors.white.withOpacity(0.6),
   );
 
+  final Color background;
   final Color activeItemColor;
   final Color unselectedItemColor;
 }
@@ -146,7 +150,7 @@ class AppTheme extends ThemeExtension<AppTheme> with _$AppThemeTailorMixin {
     required this.elevateButtonTheme,
     required this.textColorTheme,
     required this.iconColorTheme,
-    required this.bottomNavigationItem,
+    required this.bottomNavigation,
   });
 
   final Color background;
@@ -161,7 +165,7 @@ class AppTheme extends ThemeExtension<AppTheme> with _$AppThemeTailorMixin {
   @themeExtension
   final IconColor iconColorTheme;
   @themeExtension
-  final BottomNavigationItem bottomNavigationItem;
+  final BottomNavigation bottomNavigation;
 
   static final light = AppTheme(
     background: const Color(0xFFFFFFFF),
@@ -170,7 +174,7 @@ class AppTheme extends ThemeExtension<AppTheme> with _$AppThemeTailorMixin {
     elevateButtonTheme: ElevateButtonColor.light,
     textColorTheme: TextColor.light,
     iconColorTheme: IconColor.light,
-    bottomNavigationItem: BottomNavigationItem.light,
+    bottomNavigation: BottomNavigation.light,
   );
 
   static final dark = AppTheme(
@@ -180,6 +184,6 @@ class AppTheme extends ThemeExtension<AppTheme> with _$AppThemeTailorMixin {
     elevateButtonTheme: ElevateButtonColor.dark,
     textColorTheme: TextColor.dark,
     iconColorTheme: IconColor.dark,
-    bottomNavigationItem: BottomNavigationItem.dark,
+    bottomNavigation: BottomNavigation.dark,
   );
 }

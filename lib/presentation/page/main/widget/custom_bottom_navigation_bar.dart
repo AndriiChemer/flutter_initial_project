@@ -2,6 +2,8 @@ import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
+import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
+import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
 class CustomBottomNavigationBar extends HookWidget {
   const CustomBottomNavigationBar({
@@ -17,15 +19,18 @@ class CustomBottomNavigationBar extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final bottomNavigationTheme = Theme.of(context).extension<AppTheme>()!
+        .bottomNavigation;
+
     return SafeArea(
       child: Wrap(
         children: [
           Container(
-            margin: EdgeInsets.all(16),
-            padding: EdgeInsets.all(8),
+            margin: const EdgeInsets.all(Spacings.md),
+            padding: const EdgeInsets.all(Spacings.xsm),
             decoration: BoxDecoration(
-              color: Colors.blueGrey[900]?.withOpacity(0.7),
-              borderRadius: BorderRadius.circular(16)
+              color: bottomNavigationTheme.background,
+              borderRadius: BorderRadius.circular(Spacings.md)
             ),
             child: Center(
               child: Row(
@@ -37,15 +42,15 @@ class CustomBottomNavigationBar extends HookWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         _SelectedIndicator(visible: selectedIndex == index,),
-                        SizedBox(height: 2,),
+                        const CustomGap.xxxsm(),
                         _mapBottomNavigationBarIcon(
                           page: bottomNavigationItem,
                           isSelected: selectedIndex == index,
+                          bottomNavigationTheme: bottomNavigationTheme,
                         ),
                       ],
                     ),
-                  ),).toList(),
-
+                  ),),
                 ],
               ),
             ),
@@ -57,40 +62,43 @@ class CustomBottomNavigationBar extends HookWidget {
 
   Widget _mapBottomNavigationBarIcon({
     required BottomNavigationPages page,
+    required BottomNavigation bottomNavigationTheme,
     required bool isSelected,
   }) {
-    final color = isSelected ? Colors.white : Colors.white.withOpacity(0.6);
+    final color = isSelected
+        ? bottomNavigationTheme.activeItemColor
+        : bottomNavigationTheme.unselectedItemColor;
 
     switch(page) {
       case BottomNavigationPages.home:
         return Icon(
           Icons.home_outlined,
           color: color,
-          size: 30,
+          size: Dimens.bottomNavigationIconSize,
         );
       case BottomNavigationPages.userForms:
         return Icon(
           Icons.insert_drive_file_outlined,
           color: color,
-          size: 30,
+          size: Dimens.bottomNavigationIconSize,
         );
       case BottomNavigationPages.more:
         return Icon(
           Icons.more_horiz_outlined,
           color: color,
-          size: 30,
+          size: Dimens.bottomNavigationIconSize,
         );
       case BottomNavigationPages.cars:
         return Icon(
           Icons.car_rental_outlined,
           color: color,
-          size: 30,
+          size: Dimens.bottomNavigationIconSize,
         );
       case BottomNavigationPages.localCars:
         return Icon(
           Icons.car_repair_outlined,
           color: color,
-          size: 30,
+          size: Dimens.bottomNavigationIconSize,
         );
     }
   }
@@ -99,7 +107,6 @@ class CustomBottomNavigationBar extends HookWidget {
 class _SelectedIndicator extends StatelessWidget {
   const _SelectedIndicator({
     required this.visible,
-    super.key,
   });
 
   final bool visible;
@@ -107,21 +114,14 @@ class _SelectedIndicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      duration: Duration(milliseconds: 250),
-      height: 2,
-      width: visible ? 30 : 0,
-      decoration: BoxDecoration(
-          color: Colors.blue
+      decoration: const BoxDecoration(
+        color: Colors.blue,
       ),
+      duration: AnimationDurations.fast,
+      height: Dimens.two,
+      width: visible
+          ? Dimens.bottomNavigationSelectedIndicatorWidth
+          : Dimens.zero,
     );
-    // return visible ? AnimatedContainer(
-    //   duration: Duration(milliseconds: 2000),
-    //   height: 2,
-    //   width: 30,
-    //   decoration: BoxDecoration(
-    //     color: Colors.blue
-    //   ),
-    // ) : const SizedBox(height: 2);
   }
 }
-
