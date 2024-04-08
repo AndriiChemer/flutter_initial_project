@@ -20,4 +20,6 @@ class Dimens {
   static const buttonHeight = defaultComponentHeight;
   static const mediumButtonHeight = 48.0;
   static const smallButtonHeight = 32.0;
+  static const bottomNavigationIconSize = 30.0;
+  static const bottomNavigationSelectedIndicatorWidth = bottomNavigationIconSize;
 }

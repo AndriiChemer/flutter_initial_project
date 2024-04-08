@@ -8,10 +8,11 @@ import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cars_page.dart';
 import 'package:iteo_libraries_example/presentation/page/cars_local/cars_local_page.dart';
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
+import 'package:iteo_libraries_example/presentation/page/main/widget/custom_bottom_navigation_bar.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
 import 'package:iteo_libraries_example/presentation/page/more/more_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/user_form_page.dart';
-import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
+import 'package:iteo_libraries_example/presentation/widget/theme/animation_durations.dart';
 
 @RoutePage()
 class MainPage extends HookWidget {
@@ -19,11 +20,12 @@ class MainPage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).extension<AppTheme>()!;
+    final pageController = usePageController();
     final selectedPage = useState(BottomNavigationPages.home);
-    final title = _mapBottomNavigationBar(selectedPage.value).label ?? '';
+    final title = _mapBottomNavigationBar(selectedPage.value);
 
     return Scaffold(
+      extendBody: true,
       appBar: AppBar(
         title: Text(title),
         actions: [
@@ -33,40 +35,26 @@ class MainPage extends HookWidget {
           ),
         ],
       ),
-      body: _mapPage(selectedPage.value),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: colors.bottomNavigationItem.activeItemColor,
-        unselectedItemColor: colors.bottomNavigationItem.unselectedItemColor,
-        currentIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
-        onTap: (index) => selectedPage.value = BottomNavigationPages.values[index],
-        items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
+      body: PageView(
+        controller: pageController,
+        children: BottomNavigationPages.values.map(_mapPage).toList(),
+        onPageChanged: (index) {
+          selectedPage.value = BottomNavigationPages.values[index];
+        },
+      ),
+      bottomNavigationBar: CustomBottomNavigationBar(
+        items: BottomNavigationPages.values,
+        selectedIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
+        onTap: (index) {
+          pageController.animateToPage(
+            index,
+            duration: AnimationDurations.fast,
+            curve: Curves.linear,
+          );
+          selectedPage.value = BottomNavigationPages.values[index];
+        },
       ),
     );
-
-    // return AutoTabsRouter.tabBar(
-    //   routes: BottomNavigationPages.values.map(_mapPage).toList(),
-    //   builder: (context, child, _) {
-    //     final tabsRouter = AutoTabsRouter.of(context);
-    //     final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
-    //     return Scaffold(
-    //       appBar: AppBar(
-    //         title: Text(label ?? ''),
-    //         actions: [
-    //           IconButton(
-    //             onPressed: () => context.router.push(const SettingsRoute()),
-    //             icon: const Icon(Icons.settings),
-    //           ),
-    //         ],
-    //       ),
-    //       body: child,
-    //       bottomNavigationBar: BottomNavigationBar(
-    //         currentIndex: tabsRouter.activeIndex,
-    //         onTap: (index) => tabsRouter.setActiveIndex(index),
-    //         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
-    //       ),
-    //     );
-    //   },
-    // );
   }
 
   Widget _mapPage(BottomNavigationPages page) {
@@ -84,46 +72,18 @@ class MainPage extends HookWidget {
     }
   }
 
-  // PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
-  //   switch(page) {
-  //     case BottomNavigationPages.home:
-  //       return const HomeRoute();
-  //     case BottomNavigationPages.userForms:
-  //       return const UserFormRoute();
-  //     case BottomNavigationPages.more:
-  //       return const MoreRoute();
-  //     case BottomNavigationPages.localCars:
-  //       return const CarsLocalRoute();
-  //   }
-  // }
-
-  BottomNavigationBarItem _mapBottomNavigationBar(BottomNavigationPages page) {
+  String _mapBottomNavigationBar(BottomNavigationPages page) {
     switch(page) {
       case BottomNavigationPages.home:
-        return BottomNavigationBarItem(
-          label: LocaleKeys.main_page_navigation_home.tr(),
-          icon: const Icon(Icons.home),
-        );
+        return LocaleKeys.main_page_navigation_home.tr();
       case BottomNavigationPages.userForms:
-        return BottomNavigationBarItem(
-          label: LocaleKeys.main_page_navigation_user_form.tr(),
-          icon: const Icon(Icons.insert_drive_file),
-        );
+        return LocaleKeys.main_page_navigation_user_form.tr();
       case BottomNavigationPages.more:
-        return BottomNavigationBarItem(
-          label: LocaleKeys.main_page_navigation_more.tr(),
-          icon: const Icon(Icons.more_horiz),
-        );
+        return LocaleKeys.main_page_navigation_more.tr();
       case BottomNavigationPages.cars:
-        return BottomNavigationBarItem(
-          label: LocaleKeys.main_page_navigation_cars_cached.tr(),
-          icon: const Icon(Icons.car_rental),
-        );
+        return LocaleKeys.main_page_navigation_cars_cached.tr();
       case BottomNavigationPages.localCars:
-        return BottomNavigationBarItem(
-          label: LocaleKeys.main_page_navigation_cars_database.tr(),
-          icon: const Icon(Icons.car_repair_rounded),
-        );
+        return LocaleKeys.main_page_navigation_cars_database.tr();
     }
   }
 }

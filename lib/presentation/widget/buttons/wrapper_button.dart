@@ -5,14 +5,28 @@ class WrapperButton extends StatelessWidget {
     required this.child,
     required this.button,
     this.bottom,
+    this.top,
   });
 
   factory WrapperButton.bottom({
     required Widget child,
     required Widget button,
+    double bottom = 0.0,
   }) {
     return WrapperButton._(
-      bottom: 0,
+      bottom: bottom,
+      button: button,
+      child: child,
+    );
+  }
+
+  factory WrapperButton.top({
+    required Widget child,
+    required Widget button,
+    double top = 0.0,
+  }) {
+    return WrapperButton._(
+      top: top,
       button: button,
       child: child,
     );
@@ -21,6 +35,7 @@ class WrapperButton extends StatelessWidget {
   final Widget child;
   final Widget button;
   final double? bottom;
+  final double? top;
 
   @override
   Widget build(BuildContext context) {
@@ -36,6 +51,7 @@ class WrapperButton extends StatelessWidget {
         Positioned(
           left: 0,
           right: 0,
+          top: top,
           bottom: bottom,
           child: Center(
             child: button,
