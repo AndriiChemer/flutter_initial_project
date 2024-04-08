@@ -14,8 +14,8 @@ import 'package:iteo_libraries_example/presentation/page/user_form/user_form_pag
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 
 @RoutePage()
-class MainPage extends HookWidget {
-  const MainPage({super.key});
+class MainPageBottomNav extends HookWidget {
+  const MainPageBottomNav({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -42,31 +42,6 @@ class MainPage extends HookWidget {
         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
       ),
     );
-
-    // return AutoTabsRouter.tabBar(
-    //   routes: BottomNavigationPages.values.map(_mapPage).toList(),
-    //   builder: (context, child, _) {
-    //     final tabsRouter = AutoTabsRouter.of(context);
-    //     final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
-    //     return Scaffold(
-    //       appBar: AppBar(
-    //         title: Text(label ?? ''),
-    //         actions: [
-    //           IconButton(
-    //             onPressed: () => context.router.push(const SettingsRoute()),
-    //             icon: const Icon(Icons.settings),
-    //           ),
-    //         ],
-    //       ),
-    //       body: child,
-    //       bottomNavigationBar: BottomNavigationBar(
-    //         currentIndex: tabsRouter.activeIndex,
-    //         onTap: (index) => tabsRouter.setActiveIndex(index),
-    //         items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
-    //       ),
-    //     );
-    //   },
-    // );
   }
 
   Widget _mapPage(BottomNavigationPages page) {
@@ -83,19 +58,6 @@ class MainPage extends HookWidget {
         return const CarsLocalPage();
     }
   }
-
-  // PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
-  //   switch(page) {
-  //     case BottomNavigationPages.home:
-  //       return const HomeRoute();
-  //     case BottomNavigationPages.userForms:
-  //       return const UserFormRoute();
-  //     case BottomNavigationPages.more:
-  //       return const MoreRoute();
-  //     case BottomNavigationPages.localCars:
-  //       return const CarsLocalRoute();
-  //   }
-  // }
 
   BottomNavigationBarItem _mapBottomNavigationBar(BottomNavigationPages page) {
     switch(page) {

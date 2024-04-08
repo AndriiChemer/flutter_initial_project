@@ -13,7 +13,6 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 
 part 'car_repository_impl.cached.dart';
 
-@Singleton(as: CarRepository)
 @WithCache()
 abstract mixin class CarRepositoryImpl implements CarRepository, _$CarRepositoryImpl {
   @factoryMethod

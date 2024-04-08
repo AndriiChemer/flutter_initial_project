@@ -55,6 +55,18 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const MainPage(),
       );
     },
+    MainRouteAutoRouteBottomNavRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const MainPageAutoRouteBottomNavPage(),
+      );
+    },
+    MainRouteBottomNav.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const MainPageBottomNav(),
+      );
+    },
     MoreRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -175,6 +187,34 @@ class MainRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'MainRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [MainPageAutoRouteBottomNavPage]
+class MainRouteAutoRouteBottomNavRoute extends PageRouteInfo<void> {
+  const MainRouteAutoRouteBottomNavRoute({List<PageRouteInfo>? children})
+      : super(
+          MainRouteAutoRouteBottomNavRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'MainRouteAutoRouteBottomNavRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [MainPageBottomNav]
+class MainRouteBottomNav extends PageRouteInfo<void> {
+  const MainRouteBottomNav({List<PageRouteInfo>? children})
+      : super(
+          MainRouteBottomNav.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'MainRouteBottomNav';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
