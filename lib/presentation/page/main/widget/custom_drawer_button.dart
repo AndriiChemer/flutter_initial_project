@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/dimens.dart';
 
 class CustomDrawerButton extends HookWidget {
@@ -28,6 +29,7 @@ class CustomDrawerButton extends HookWidget {
         child: Center(
           child: AnimatedIcon(
             icon: AnimatedIcons.menu_close,
+            color: context.colors.icon,
             progress: animation,
           ),
         ),

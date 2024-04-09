@@ -24,12 +24,9 @@ flutter packages pub get
 ### Translations
 `flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart`
 
-## Task
-- Add Dio client
-- Add isolate api call. Examples:
-  https://github.com/lamdangtung/flutter_isolate_call_api/blob/master/lib/main.dart
-  https://gladimdim.org/dart-how-to-handle-exceptions-raised-inside-isolates
-  https://blog.logrocket.com/multithreading-flutter-using-dart-isolates/
+### Using theme
+- (using created extension) context.colors, context.typo, context.shadows
+- (using theme extension) Theme.of(context).extension<AppTheme>()!
 
 ## Materials
 ### Drift (database)
@@ -38,5 +35,8 @@ https://drift.simonbinder.eu/docs/getting-started/
 ### Top tools
 - https://apexive.com/post/top-50-flutter-tools
 
-### Tasks
-- Add Chopper https client
+### Isolate examples
+- https://github.com/lamdangtung/flutter_isolate_call_api/blob/master/lib/main.dart
+- https://gladimdim.org/dart-how-to-handle-exceptions-raised-inside-isolates
+- https://blog.logrocket.com/multithreading-flutter-using-dart-isolates/
+

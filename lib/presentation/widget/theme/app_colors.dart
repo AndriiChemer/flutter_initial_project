@@ -16,6 +16,7 @@ abstract class AppColors {
     required this.aboveShadow,
     required this.border_50,
     required this.tile,
+    required this.icon,
   });
 
   final Color background;
@@ -29,6 +30,7 @@ abstract class AppColors {
   final Color aboveShadow;
   final Color error;
   final Color tile;
+  final Color icon;
 
   final SystemUiOverlayStyle systemUiOverlayStyle;
   final Brightness brightness;
@@ -42,6 +44,7 @@ class LightThemeAppColors extends AppColors {
     typo: const Color.fromARGB(255, 64, 64, 65),
     subtypo: const Color.fromARGB(255, 146, 148, 151),
     text: const Color.fromARGB(115, 0, 0, 0),
+    icon: const Color.fromARGB(115, 0, 0, 0),
     systemUiOverlayStyle: SystemUiOverlayStyle.dark,
     brightness: Brightness.light,
     border: const Color.fromARGB(255, 218, 218, 218),
@@ -60,6 +63,7 @@ class DarkThemeAppColors extends AppColors {
     typo: const Color.fromARGB(255, 242, 242, 242),
     subtypo: const Color.fromARGB(255, 146, 148, 151),
     text: const Color.fromARGB(255, 242, 242, 242),
+    icon: const Color.fromARGB(115, 0, 0, 0),
     systemUiOverlayStyle: SystemUiOverlayStyle.light,
     brightness: Brightness.dark,
     border: const Color.fromARGB(255, 89, 89, 89),
