@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/model/cloud_storage_info.dart';
-import 'package:iteo_libraries_example/presentation/page/dashboard/widget/responsive.dart';
+import 'package:iteo_libraries_example/presentation/widget/responsive/responsive.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
 import 'file_info_card.dart';

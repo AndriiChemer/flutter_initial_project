@@ -25,6 +25,10 @@ extension BuildContextExtensions on BuildContext {
   }
 
   bool get isMobile => Theme.of(this).platform.isMobile;
+
+  bool get isMobileOrWeb => Theme.of(this).platform.isMobileOrWeb;
+
+  bool get isDesktop => Theme.of(this).platform.isDesktop;
 }
 
 extension NullableBuildContentExtensions on BuildContext? {

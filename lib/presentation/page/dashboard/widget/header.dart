@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:iteo_libraries_example/presentation/page/dashboard/widget/responsive.dart';
+import 'package:iteo_libraries_example/presentation/widget/responsive/responsive.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
 import 'package:provider/provider.dart';
 

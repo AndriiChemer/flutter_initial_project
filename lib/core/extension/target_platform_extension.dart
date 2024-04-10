@@ -7,7 +7,13 @@ extension TargetPlatformExtension on TargetPlatform {
       };
 
   bool get isDesktop => switch (this) {
-        TargetPlatform.macOS || TargetPlatform.windows => true,
+        TargetPlatform.macOS ||
+        TargetPlatform.windows ||
+        TargetPlatform.linux => true,
         _ => false,
       };
+
+  bool get isMobileOrWeb => kIsWeb || isMobile;
+
+  bool get isDesktopOrWeb => kIsWeb || isDesktop;
 }

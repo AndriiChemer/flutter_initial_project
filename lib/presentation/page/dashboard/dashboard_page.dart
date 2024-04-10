@@ -1,6 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:iteo_libraries_example/presentation/page/dashboard/widget/responsive.dart';
+import 'package:iteo_libraries_example/presentation/widget/responsive/responsive.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/widget/header.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/widget/my_files.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/widget/recent_files.dart';
