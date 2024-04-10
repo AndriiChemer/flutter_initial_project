@@ -66,6 +66,17 @@ class CustomText extends StatelessWidget {
     this.autoSize = false,
   }) : _withTypo = ((typo) => typo.f18w600);
 
+  CustomText.f18w500(
+    this.data, {
+    super.key,
+    this.softWrap,
+    this.overflow,
+    this.maxLines,
+    this.color,
+    this.textAlign,
+    this.autoSize = false,
+  }) : _withTypo = ((typo) => typo.f18w500);
+
   CustomText.f18w500Strikethrough(
     this.data, {
     super.key,
@@ -120,6 +131,17 @@ class CustomText extends StatelessWidget {
     this.textAlign,
     this.autoSize = false,
   }) : _withTypo = ((typo) => typo.f15w500);
+
+  CustomText.f14w500(
+      this.data, {
+        super.key,
+        this.softWrap,
+        this.overflow,
+        this.maxLines,
+        this.color,
+        this.textAlign,
+        this.autoSize = false,
+      }) : _withTypo = ((typo) => typo.f14w500);
 
   CustomText.f12w500(
     this.data, {

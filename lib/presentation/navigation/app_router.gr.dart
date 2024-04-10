@@ -27,6 +27,12 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const CarsPage(),
       );
     },
+    DashboardRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const DashboardPage(),
+      );
+    },
     DeepLinksRoute.name: (routeData) {
       final pathParams = routeData.inheritedPathParams;
       final args = routeData.argsAs<DeepLinksRouteArgs>(
@@ -112,6 +118,20 @@ class CarsRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'CarsRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [DashboardPage]
+class DashboardRoute extends PageRouteInfo<void> {
+  const DashboardRoute({List<PageRouteInfo>? children})
+      : super(
+          DashboardRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'DashboardRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }

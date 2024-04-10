@@ -41,6 +41,7 @@ dependencies:
   injectable: ^2.4.1
   chopper: ^7.2.0
   collection: ^1.18.0
+  fl_chart: ^0.67.0
   connecteo:
     path: ../connecteo
 
@@ -65,3 +66,5 @@ flutter:
 
   assets:
     - assets/translations/
+    - assets/icons/
+    - assets/images/

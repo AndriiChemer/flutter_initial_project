@@ -59,6 +59,16 @@ class AppTypo {
         fontWeight: FontWeight.w600,
       );
 
+  TextStyle get f18w500 => TextStyle(
+    fontFamily: _fontFamilyMontserrat,
+    color: colors.text,
+    fontSize: 18,
+    debugLabel: 'Style 3',
+    height: 1.33,
+    letterSpacing: -0.2,
+    fontWeight: FontWeight.w500,
+  );
+
   TextStyle get f18w500Strikethrough => TextStyle(
         fontFamily: _fontFamilyMontserrat,
         color: colors.text,
@@ -112,7 +122,15 @@ class AppTypo {
     fontWeight: FontWeight.w500,
   );
 
-
+  TextStyle get f14w500 => TextStyle(
+    fontFamily: _fontFamilyMontserrat,
+    color: colors.typo,
+    fontSize: 14,
+    debugLabel: 'Style 14',
+    height: 1.33,
+    letterSpacing: -0.2,
+    fontWeight: FontWeight.w500,
+  );
 
   TextStyle get f12w500 => TextStyle(
     fontFamily: _fontFamilyMontserrat,

@@ -1,7 +1,9 @@
 import 'dart:math';
 
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 import 'package:iteo_libraries_example/presentation/page/main/widget/custom_drawer_button.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
@@ -80,7 +82,6 @@ class CustomDrawerNavigation extends HookWidget {
 class _DrawerMenu extends StatelessWidget {
   const _DrawerMenu({
     required this.drawerWidth,
-    super.key,
   });
 
   final double drawerWidth;
@@ -90,10 +91,47 @@ class _DrawerMenu extends StatelessWidget {
     return Container(
       width: drawerWidth,
       color: Colors.blueGrey[800],
-      child: Column(
-
+      child: Padding(
+        padding: const EdgeInsets.only(left: Spacings.md),
+        child: Column(
+          children: [
+            const CustomGap.xhuge(),
+            _DrawerItem(
+              onTap: () => context.router.push(const DashboardRoute()),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
 
+
+class _DrawerItem extends StatelessWidget {
+  const _DrawerItem({
+    required this.onTap,
+  });
+
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Card(
+        color: Colors.transparent,
+        child: SizedBox(
+          height: Dimens.defaultComponentHeight,
+          child: Row(
+            children: [
+              const CustomGap.xbig(),
+              const Icon(Icons.dashboard),
+              const CustomGap.sm(),
+              CustomText.f15w500('Dashboard'),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
