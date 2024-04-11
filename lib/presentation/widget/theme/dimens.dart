@@ -17,6 +17,7 @@ class Dimens {
 
   //Custom sizes
   static const defaultComponentHeight = 56.0;
+  static const progressHeight = 5.0;
   static const borderWidth = 2.0;
   static const buttonHeight = defaultComponentHeight;
   static const mediumButtonHeight = 48.0;
@@ -24,4 +25,5 @@ class Dimens {
   static const bottomNavigationIconSize = 30.0;
   static const bottomNavigationSelectedIndicatorWidth = bottomNavigationIconSize;
   static const drawerButtonSize = 50.0;
+  static const iconSize = 16.0;
 }

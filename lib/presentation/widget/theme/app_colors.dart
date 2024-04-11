@@ -17,6 +17,8 @@ abstract class AppColors {
     required this.border_50,
     required this.tile,
     required this.icon,
+    required this.card,
+    required this.iconBackground,
   });
 
   final Color background;
@@ -31,6 +33,8 @@ abstract class AppColors {
   final Color error;
   final Color tile;
   final Color icon;
+  final Color card;
+  final Color iconBackground;
 
   final SystemUiOverlayStyle systemUiOverlayStyle;
   final Brightness brightness;
@@ -54,6 +58,8 @@ class LightThemeAppColors extends AppColors {
     background: const Color.fromARGB(255, 242, 242, 242),
     primary: const Color.fromARGB(255, 255, 205, 0),
     tile: const Color.fromARGB(255, 255, 255, 255),
+    card: const Color.fromARGB(255, 218, 218, 218),
+    iconBackground: const Color(0xFF2697FF),
   );
 }
 
@@ -73,5 +79,7 @@ class DarkThemeAppColors extends AppColors {
     background: const Color.fromARGB(255, 89, 89, 89), //const Color.fromRGBO(0, 0, 0, 0.25),
     primary: const Color.fromARGB(255, 255, 205, 0),
     tile: const Color.fromARGB(255, 38, 38, 40),
+    card: const Color(0xFF2A2D3E),
+    iconBackground: const Color(0xFF2697FF),
   );
 }

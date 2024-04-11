@@ -39,31 +39,31 @@ class Chart extends StatelessWidget {
 
 List<PieChartSectionData> paiChartSelectionData = [
   PieChartSectionData(
-    color: Color(0xFF2697FF),
+    color: const Color(0xFF2697FF),
     value: 25,
     showTitle: false,
     radius: 25,
   ),
   PieChartSectionData(
-    color: Color(0xFF26E5FF),
+    color: const Color(0xFF26E5FF),
     value: 20,
     showTitle: false,
     radius: 22,
   ),
   PieChartSectionData(
-    color: Color(0xFFFFCF26),
+    color: const Color(0xFFFFCF26),
     value: 10,
     showTitle: false,
     radius: 19,
   ),
   PieChartSectionData(
-    color: Color(0xFFEE2727),
+    color: const Color(0xFFEE2727),
     value: 15,
     showTitle: false,
     radius: 16,
   ),
   PieChartSectionData(
-    color: Color(0xFF2697FF).withOpacity(0.1),
+    color: const Color(0xFF2697FF).withOpacity(0.1),
     value: 25,
     showTitle: false,
     radius: 13,

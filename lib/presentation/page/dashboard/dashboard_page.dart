@@ -1,16 +1,15 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
-import 'package:iteo_libraries_example/presentation/widget/custom_gap.dart';
-import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
-import 'package:iteo_libraries_example/presentation/widget/responsive/export.dart';
-import 'package:iteo_libraries_example/presentation/page/dashboard/widget/header.dart';
-import 'package:iteo_libraries_example/presentation/page/dashboard/widget/my_files.dart';
+import 'package:iteo_libraries_example/presentation/page/dashboard/widget/files.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/widget/recent_files.dart';
+import 'package:iteo_libraries_example/presentation/page/dashboard/widget/search_profile.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/widget/side_menu.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/widget/storage_details.dart';
-import 'package:responsive_builder/responsive_builder.dart';
-// import 'package:responsive_builder/responsive_builder.dart';
+import 'package:iteo_libraries_example/presentation/widget/export.dart';
+import 'package:iteo_libraries_example/presentation/widget/responsive/export.dart';
+
+const _partScreen5 = 5;
+const _partScreen2 = 2;
 
 @RoutePage()
 class DashboardPage extends StatelessWidget {
@@ -19,102 +18,37 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return _MainWrapper(
-      child: SafeArea(
-        child: SingleChildScrollView(
-          primary: false,
-          padding: EdgeInsets.all(16),
-          child: Column(
-            children: [
-              Header(),
-              SizedBox(height: 16),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(
-                    flex: 5,
-                    child: Column(
-                      children: [
-                        MyFiles(),
-                        SizedBox(height: 16),
-                        RecentFiles(),
-                        if (context.isMobileScreenSize)
-                          SizedBox(height: 16),
-                        if (context.isMobileScreenSize) StorageDetails(),
-                      ],
-                    ),
-                  ),
-                  if (!context.isMobileScreenSize)
-                    SizedBox(width: 16),
-                  // On Mobile means if the screen is less than 850 we don't want to show it
-                  // if (!Responsive.isMobile(context))
-                    Expanded(
-                      flex: 2,
-                      child: StorageDetails(),
-                    ),
-                ],
-              ),
-              CustomGap.xbig(),
-              ResponsiveBuilder(
-                builder: (BuildContext context, SizingInformation sizingInformation) {
-
-                  print('ResponsiveBuilder ${sizingInformation.deviceScreenType.name} - ${sizingInformation.screenSize}');
-                  // print('ResponsiveBuilder sizingInformation: ${sizingInformation.toString()}');
-                  return CustomText.f24w500('ResponsiveBuilder deviceScreenType: ${sizingInformation.deviceScreenType} | ScreenSize: (width: ${sizingInformation.screenSize.width}, height: ${sizingInformation.screenSize.height})');
-                },
-              ),
-              CustomGap.xbig(),
-              ScreenTypeBuilder(
-                builder: (ScreenType type) {
-                  print('ScreenType: ${type.name} | ScreenWidth: ${MediaQuery.sizeOf(context).width}\n\n');
-
-                  return Column(
-                    children: [
-                      CustomGap.xbig(),
-                      CustomText.f24w500('ScreenType: ${type.name}'),
-                      CustomGap.md(),
-                      // CustomText.f24w500('Responsive: isMobile-$isMobile isTablet-$isTablet isDesktop: $isDesktop'),
-                      // CustomGap.md(),
-                    ],
-                  );
-                },
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _MainWrapper extends StatelessWidget {
-  const _MainWrapper({
-    super.key,
-    required this.child,
-  });
-
-  final Widget child;
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      drawer: SideMenu(),
+      drawer: context.isMobileOrTabletScreenSize ? const SideMenu() : null,
       body: SafeArea(
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // We want this side menu only for large screen
             if (context.isDesktopScreenSize)
-              Expanded(
-                // default flex = 1
-                // and it takes 1/6 part of the screen
+              const Expanded(
                 child: SideMenu(),
               ),
             Expanded(
-              // It takes 5/6 part of the screen
-              flex: 5,
-              child: child,
+              flex: _partScreen5,
+              child: SafeArea(
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.all(Spacings.md),
+                  primary: false,
+                  child: Column(
+                    children: [
+                      const SearchAndProfile(),
+                      const CustomGap.md(),
+                      ScreenTypeBuilder(
+                        builder: (type) => switch(type) {
+                          ScreenType.desktop => const _Desktop(),
+                          _ => const _Mobile(),
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ),
           ],
         ),
@@ -123,3 +57,48 @@ class _MainWrapper extends StatelessWidget {
   }
 }
 
+class _Desktop extends StatelessWidget {
+  const _Desktop();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Expanded(
+          flex: _partScreen5,
+          child: Column(
+            children: [
+              Files(),
+              CustomGap.md(),
+              RecentFiles(),
+            ],
+          ),
+        ),
+        CustomGap.md(),
+        Expanded(
+          flex: _partScreen2,
+          child: StorageDetails(),
+        ),
+      ],
+    );
+  }
+}
+
+class _Mobile extends StatelessWidget {
+  const _Mobile();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Files(),
+        CustomGap.md(),
+        RecentFiles(),
+        CustomGap.md(),
+        StorageDetails(),
+      ],
+    );
+  }
+}

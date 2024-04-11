@@ -45,4 +45,7 @@ extension ScreenTypeExtension on BuildContext {
 
   bool get isDesktopScreenSize =>
       MediaQuery.of(this).size.width >= _desktopMinSize;
+
+  bool get isMobileOrTabletScreenSize =>
+      isMobileScreenSize || isTabletScreenSize;
 }
