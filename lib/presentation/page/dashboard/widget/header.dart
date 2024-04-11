@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:iteo_libraries_example/presentation/widget/responsive/responsive.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
-import 'package:provider/provider.dart';
+import 'package:iteo_libraries_example/presentation/widget/responsive/export.dart';
 
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -15,7 +14,7 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        if (!Responsive.isDesktop(context))
+        if (!context.isDesktopScreenSize)
           IconButton(
             icon: Icon(Icons.menu),
             onPressed: () {
@@ -24,12 +23,12 @@ class Header extends StatelessWidget {
               }
             },
           ),
-        if (!Responsive.isMobile(context))
+        if (!context.isMobileScreenSize)
           CustomText.f18w500(
             "Dashboard",
           ),
-        if (!Responsive.isMobile(context))
-          Spacer(flex: Responsive.isDesktop(context) ? 2 : 1),
+        if (!context.isMobileScreenSize)
+          Spacer(flex: context.isDesktopScreenSize ? 2 : 1),
         Expanded(child: SearchField()),
         ProfileCard()
       ],

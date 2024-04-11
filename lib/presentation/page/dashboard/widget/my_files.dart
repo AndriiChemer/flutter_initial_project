@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iteo_libraries_example/presentation/page/dashboard/model/cloud_storage_info.dart';
-import 'package:iteo_libraries_example/presentation/widget/responsive/responsive.dart';
+import 'package:iteo_libraries_example/presentation/widget/responsive/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
-import 'file_info_card.dart';
+import 'package:iteo_libraries_example/presentation/page/dashboard/widget/file_info_card.dart';
 
 class MyFiles extends StatelessWidget {
   const MyFiles({
@@ -25,8 +25,7 @@ class MyFiles extends StatelessWidget {
               style: TextButton.styleFrom(
                 padding: EdgeInsets.symmetric(
                   horizontal: 16 * 1.5,
-                  vertical: 16
-                  // 16 / (Responsive.isMobile(context) ? 2 : 1),
+                  vertical: 16 / (context.isMobileScreenSize ? 2 : 1),
                 ),
               ),
               onPressed: () {},
@@ -36,15 +35,17 @@ class MyFiles extends StatelessWidget {
           ],
         ),
         SizedBox(height: 16),
-        Responsive(
-          mobile: FileInfoCardGridView(
-            crossAxisCount: _size.width < 650 ? 2 : 4,
-            childAspectRatio: _size.width < 650 && _size.width > 350 ? 1.3 : 1,
-          ),
-          tablet: FileInfoCardGridView(),
-          desktop: FileInfoCardGridView(
-            childAspectRatio: _size.width < 1400 ? 1.1 : 1.4,
-          ),
+        ScreenTypeBuilder(
+          builder: (type) => switch(type) {
+            ScreenType.mobile => FileInfoCardGridView(
+              crossAxisCount: _size.width < 650 ? 2 : 4,
+              childAspectRatio: _size.width < 650 && _size.width > 350 ? 1.3 : 1,
+            ),
+            ScreenType.tablet => FileInfoCardGridView(),
+            ScreenType.desktop => FileInfoCardGridView(
+              childAspectRatio: _size.width < 1400 ? 1.1 : 1.4,
+            ),
+          },
         ),
       ],
     );

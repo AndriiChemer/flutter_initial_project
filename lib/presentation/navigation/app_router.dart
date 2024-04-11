@@ -22,9 +22,8 @@ class AppRouter extends _$AppRouter {
   @override
   List<AutoRoute> get routes => [
     AutoRoute(
-      initial: true,
-      page: DashboardRoute.page,
-      // page: MainRoute.page,
+      // initial: true,
+      page: MainRoute.page,
       children: [
         AutoRoute(
           page: HomeRoute.page,
@@ -50,6 +49,7 @@ class AppRouter extends _$AppRouter {
       transitionsBuilder: TransitionsBuilders.slideLeft,
     ),
     CustomRoute(
+      initial: true,
       page: DashboardRoute.page,
       durationInMilliseconds: _animationDuration,
       transitionsBuilder: TransitionsBuilders.slideLeft,

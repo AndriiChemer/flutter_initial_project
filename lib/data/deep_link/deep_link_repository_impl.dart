@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:get_it/get_it.dart';
 import 'package:iteo_libraries_example/domain/deep_link/deep_link_repository.dart';
@@ -10,11 +11,16 @@ class DeepLinkRepositoryImpl implements DeepLinkRepository, Disposable {
   final _deepLinksStreamController = BehaviorSubject<Uri>();
   
   @override
-  Stream<Uri?> get deepLinkStream => uriLinkStream.mergeWith([_deepLinksStreamController.stream]);
+  Stream<Uri?> get deepLinkStream => MergeStream([
+    if(!kIsWeb) uriLinkStream,
+    _deepLinksStreamController.stream,
+  ]);
 
   @override
   Future<Uri?> get initialDeepLink async {
     try {
+      if(kIsWeb) return null;
+
       return await getInitialUri();
     } on FormatException {
       return null;

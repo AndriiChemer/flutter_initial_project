@@ -25,7 +25,6 @@ Future<void> runMainApp(AppEnv appEnv) async {
     final appRouter = AppRouter();
     await EasyLocalization.ensureInitialized();
     Logger.setupLogger();
-
     runApp(
       HookedBlocConfigProvider(
         injector: () => getIt.get,
@@ -54,7 +53,9 @@ Future<void> runMainApp(AppEnv appEnv) async {
       ),
     );
 
-  }, (error, stackTrace) {},);
+  }, (error, stackTrace) {
+    Logger.e('Global flutter exception.', ex: error, stacktrace: stackTrace);
+  },);
 }
 
 class MyApp extends StatelessWidget {

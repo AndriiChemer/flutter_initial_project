@@ -1,5 +1,7 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -53,7 +55,7 @@ class SideMenu extends StatelessWidget {
           DrawerListTile(
             title: "Settings",
             svgSrc: "assets/icons/menu_setting.svg",
-            press: () {},
+            press: () => context.router.push(const SettingsRoute()),
           ),
         ],
       ),
