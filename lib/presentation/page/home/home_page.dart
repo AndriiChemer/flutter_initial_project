@@ -3,6 +3,7 @@ import 'package:cached_annotation/cached_annotation.dart';
 import 'package:connecteo/connecteo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
 @RoutePage()
 class HomePage extends HookWidget {
@@ -11,12 +12,14 @@ class HomePage extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final backgroundState = useState<Color?>(null);
+    // final connectionTypeState = useState<ConnectionType?>(null);
     final connectionTypeState = useState<List<ConnectionType>?>(null);
     final connecteo = useMemoized(() => ConnectionChecker());
 
     useEffect(() {
       _setupInitialColor(
         connecteo: connecteo,
+        // callback: (Color background) {  },
         callback: (Color background) => backgroundState.value = background,
       );
       _setupConnectionListener(
@@ -26,24 +29,23 @@ class HomePage extends HookWidget {
       _registerConnectionBackCallback(connecteo);
     }, [connecteo]);
 
-    return backgroundState.value != null
-        ? Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          OutlinedButton(
-            onPressed: () async {
-              final types = await connecteo.connectionTypes;
-              connectionTypeState.value = types;
-            },
-            child: const Text('Check connection type'),
-          ),
-          Text('Connection type value: ${connectionTypeState.value}'),
-        ],
+    return Container(
+      color: backgroundState.value,
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            OutlinedButton(
+              onPressed: () async {
+                final types = await connecteo.connectionTypes;
+                connectionTypeState.value = types;
+              },
+              child: CustomText.f14w500('Check connection type'),
+            ),
+            CustomText.f16w400('Connection type value: ${connectionTypeState.value}'),
+          ],
+        ),
       ),
-    )
-        : const Center(
-      child: CircularProgressIndicator(),
     );
   }
 

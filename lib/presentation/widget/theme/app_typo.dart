@@ -90,6 +90,16 @@ class AppTypo {
         fontWeight: FontWeight.w600,
       );
 
+  TextStyle get f16w400 => TextStyle(
+    fontFamily: _fontFamilyMontserrat,
+    color: colors.text,
+    fontSize: 16,
+    debugLabel: 'Style 5',
+    height: 1.0,
+    letterSpacing: 0.3,
+    fontWeight: FontWeight.w400,
+  );
+
   TextStyle get f15w700 => TextStyle(
     fontFamily: _fontFamilyMontserrat,
     color: colors.typo,

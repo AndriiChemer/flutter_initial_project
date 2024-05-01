@@ -99,6 +99,17 @@ class CustomText extends StatelessWidget {
     this.autoSize = false,
   }) : _withTypo = ((typo) => typo.f16w600);
 
+  CustomText.f16w400(
+      this.data, {
+        super.key,
+        this.softWrap,
+        this.overflow,
+        this.maxLines,
+        this.color,
+        this.textAlign,
+        this.autoSize = false,
+      }) : _withTypo = ((typo) => typo.f16w400);
+
   CustomText.f15w700(
     this.data, {
     super.key,
