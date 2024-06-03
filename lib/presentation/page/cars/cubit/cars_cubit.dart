@@ -8,6 +8,7 @@ import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_databas
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 
 part 'cars_state.dart';
+
 part 'cars_action.dart';
 
 class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
@@ -27,7 +28,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
     try {
       final cars = await getCarsUseCase();
       emit(ShowCars(List.from(cars)));
-    } catch(ex) {
+    } catch (ex) {
       Logger.e('getCars failed.', ex: ex);
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
@@ -39,7 +40,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
     try {
       final cars = await getCarsFromIsolateExecutorUseCase();
       emit(ShowCars(List.from(cars)));
-    } catch(ex) {
+    } catch (ex) {
       Logger.e('getCarsFromIsolateExecutor failed.', ex: ex);
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
@@ -59,7 +60,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
           dispatch(ShowError());
         },
       );
-    } catch(ex) {
+    } catch (ex) {
       emit(ShowCars(List.empty()));
       dispatch(ShowError());
     }
@@ -69,7 +70,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
     try {
       await saveCarsToDatabaseUseCase(cars);
       dispatch(SavedToDatabase());
-    } catch(ex) {
+    } catch (ex) {
       dispatch(ShowError());
     }
   }

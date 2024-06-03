@@ -252,10 +252,11 @@ packages:
   connecteo:
     dependency: "direct main"
     description:
-      path: "../connecteo"
-      relative: true
-    source: path
-    version: "2.2.1"
+      name: connecteo
+      sha256: f7edcbf68791905e04004cad9dfdf9d004491dbb8a7a901578c82cf0085a1fab
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   connectivity_plus:
     dependency: transitive
     description:
