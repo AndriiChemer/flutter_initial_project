@@ -58,16 +58,15 @@ void main() {
   late MockGetAppThemeTypeStreamUseCase mockGetAppThemeTypeStreamUseCase;
   late Widget testedWidget;
 
-  setUp(() {
+  setUp(() async {
+    await getIt.reset();
     carsCubit = MockCarsCubit();
     mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
-    // getIt.registerSingleton<CarsCubit>(carsCubit);
+    getIt.registerFactory<CarsCubit>(() => carsCubit);
 
-    if (!getIt.isRegistered<CarsCubit>()) {
-      getIt.registerFactory<CarsCubit>(() => carsCubit);
-    }
-
-    // when(() => carsCubit.getCars()).thenAnswer((_) async {});
+    // if (!getIt.isRegistered<CarsCubit>()) {
+    //   getIt.registerFactory<CarsCubit>(() => carsCubit);
+    // }
 
     testedWidget = HookedBlocConfigProvider(
       injector: () => getIt.get,
@@ -91,7 +90,7 @@ void main() {
   });
 
   testGoldens(
-    'Cars Page Loading',
+    'Cars page - Loading',
     (tester) async {
       final builder = DeviceBuilder();
 
@@ -125,6 +124,7 @@ void main() {
           expect(finder, findsOneWidget);
 
           await tester.tap(finder);
+          await tester.pumpAndSettle();
         },
       );
 
@@ -160,6 +160,7 @@ void main() {
       //   },
       // );
 
+      /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
         wrapper: materialAppWrapper(
@@ -167,11 +168,11 @@ void main() {
         ),
       );
 
-      // Take screenshots for each scenario
+      /// Take screenshot for the 'Cars Loading' scenario
       await screenMatchesGolden(
         tester,
         'cars_page_loading',
-        customPump: (widget) => widget.pump(Duration(milliseconds: 100)),
+        // customPump: (widget) => widget.pump(const Duration(milliseconds: 100)),
       );
 
       // await screenMatchesGolden(
@@ -192,57 +193,6 @@ void main() {
     'Cars Page - Loaded',
     (tester) async {
       final builder = DeviceBuilder();
-
-      // builder.addScenario(
-      //   name: 'Cars Loading',
-      //   widget: Builder(
-      //     builder: (context) {
-      //       when(() => carsCubit.getCars()).thenAnswer((_) async {});
-      //
-      //       whenListen(
-      //         carsCubit,
-      //         Stream<CarsState>.fromIterable([
-      //           LoadingCars(),
-      //         ]),
-      //         initialState: LoadingCars(),
-      //       );
-      //
-      //       whenListenAction(
-      //         carsCubit,
-      //         Stream<CarsAction>.fromIterable([]),
-      //       );
-      //
-      //       return HookedBlocConfigProvider(
-      //         injector: () => getIt.get,
-      //         child: MultiProvider(
-      //           providers: [
-      //             ChangeNotifierProvider(
-      //               create: (_) => AppColorsProvider(
-      //                 mockGetAppThemeTypeStreamUseCase,
-      //               ),
-      //             ),
-      //             ProxyProvider<AppColorsProvider, AppTypo>(
-      //               update: (_, value, __) => AppTypo(value.colors),
-      //             ),
-      //             ProxyProvider<AppColorsProvider, AppShadows>(
-      //               update: (_, value, __) => AppShadows(value.colors),
-      //             ),
-      //           ],
-      //           child: const MainPage(),
-      //         ),
-      //       );
-      //     },
-      //   ),
-      //   onCreate: (scenarioWidgetKey) async {
-      //     final finder = find.descendant(
-      //       of: find.byKey(scenarioWidgetKey),
-      //       matching: find.byKey(Key(BottomNavigationPages.cars.name)),
-      //     );
-      //     expect(finder, findsOneWidget);
-      //
-      //     await tester.tap(finder);
-      //   },
-      // );
 
       builder.addScenario(
         name: 'Cars Loaded',
@@ -274,6 +224,7 @@ void main() {
           expect(finder, findsOneWidget);
 
           await tester.tap(finder);
+          await tester.pumpAndSettle();
         },
       );
 
@@ -284,24 +235,11 @@ void main() {
         ),
       );
 
-      // Take screenshots for each scenario
-      // await screenMatchesGolden(
-      //   tester,
-      //   'cars_page_loading',
-      //   customPump: (widget) => widget.pump(Duration(milliseconds: 100)),
-      // );
-
       await screenMatchesGolden(
         tester,
         'cars_page_loaded',
         // customPump: (widget) => widget.pump(Duration(milliseconds: 200)),
       );
-
-      // await screenMatchesGolden(
-      //   tester,
-      //   'cars_page',
-      //   // customPump: (widget) => widget.pump(const Duration(seconds: 1)),
-      // );
     },
   );
 }
