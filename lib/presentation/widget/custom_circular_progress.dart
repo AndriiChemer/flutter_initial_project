@@ -10,8 +10,8 @@ class CustomCircularProgress extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: context.isFlutterTest
-          ? const CircularProgressIndicator()
-          : const CircularProgressIndicator(value: _progressValue),
+          ? const CircularProgressIndicator(value: _progressValue)
+          : const CircularProgressIndicator(),
     );
   }
 }
