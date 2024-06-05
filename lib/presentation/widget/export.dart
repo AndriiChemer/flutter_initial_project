@@ -1,4 +1,5 @@
 export 'buttons/export.dart';
+export 'custom_circular_progress.dart';
 export 'custom_divider.dart';
 export 'custom_gap.dart';
 export 'custom_text.dart';

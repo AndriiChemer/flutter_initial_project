@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
@@ -17,6 +18,8 @@ extension BuildContextExtensions on BuildContext {
   AppTypo get typo => Provider.of<AppTypo>(this);
 
   AppShadows get shadows => Provider.of<AppShadows>(this);
+
+  bool get isFlutterTest => Platform.environment.containsKey('FLUTTER_TEST');
 
   EdgeInsetsGeometry safeBottomPadding({double minimum = Spacings.md}) {
     return EdgeInsets.only(

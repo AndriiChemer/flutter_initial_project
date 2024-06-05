@@ -8,6 +8,7 @@ import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/widget/car_item.dart';
 import 'package:iteo_libraries_example/presentation/widget/buttons/export.dart';
+import 'package:iteo_libraries_example/presentation/widget/custom_circular_progress.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_gap.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
 
@@ -23,28 +24,33 @@ class CarsPage extends HookWidget {
     useActionListener<CarsAction>(
       cubit,
       (action) {
-        switch(action) {
+        switch (action) {
           case ShowError():
-            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Error')));
+            ScaffoldMessenger.of(context)
+                .showSnackBar(const SnackBar(content: Text('Error')));
             break;
           case SavedToDatabase():
-            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Saved with success!')));
+            ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Saved with success!')));
             break;
         }
       },
     );
 
-    useEffect(() {
-      cubit.getCars();
-    }, [cubit],);
+    useEffect(
+      () {
+        cubit.getCars();
+      },
+      [cubit],
+    );
 
     return Center(
-      child: switch(state) {
-        LoadingCars() => const CircularProgressIndicator(),
+      child: switch (state) {
+        LoadingCars() => const CustomCircularProgress(),
         ShowCars() => _Content(
-          cubit: cubit,
-          cars: state.cars,
-        ),
+            cubit: cubit,
+            cars: state.cars,
+          ),
       },
     );
   }

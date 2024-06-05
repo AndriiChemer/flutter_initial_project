@@ -1,8 +1,8 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
-import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
 import 'package:iteo_libraries_example/presentation/style/app_theme.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
@@ -20,9 +20,8 @@ class CustomBottomNavigationBar extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final bottomNavigationTheme = Theme.of(context).extension<AppTheme>()!
-        .bottomNavigation;
-
+    final bottomNavigationTheme =
+        Theme.of(context).extension<AppTheme>()!.bottomNavigation;
     return SafeArea(
       child: Wrap(
         children: [
@@ -31,27 +30,32 @@ class CustomBottomNavigationBar extends HookWidget {
             padding: const EdgeInsets.all(Spacings.xsm),
             decoration: BoxDecoration(
               color: bottomNavigationTheme.background,
-              borderRadius: BorderRadius.circular(Spacings.md)
+              borderRadius: BorderRadius.circular(Spacings.md),
             ),
             child: Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  ...items.mapIndexed((index, bottomNavigationItem) => GestureDetector(
-                    onTap: () => onTap(index),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        _SelectedIndicator(visible: selectedIndex == index,),
-                        const CustomGap.xxxsm(),
-                        _mapBottomNavigationBarIcon(
-                          page: bottomNavigationItem,
-                          isSelected: selectedIndex == index,
-                          bottomNavigationTheme: bottomNavigationTheme,
-                        ),
-                      ],
+                  ...items.mapIndexed(
+                    (index, bottomNavigationItem) => GestureDetector(
+                      key: Key(bottomNavigationItem.name),
+                      onTap: () => onTap(index),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          _SelectedIndicator(
+                            visible: selectedIndex == index,
+                          ),
+                          const CustomGap.xxxsm(),
+                          _mapBottomNavigationBarIcon(
+                            page: bottomNavigationItem,
+                            isSelected: selectedIndex == index,
+                            bottomNavigationTheme: bottomNavigationTheme,
+                          ),
+                        ],
+                      ),
                     ),
-                  ),),
+                  ),
                 ],
               ),
             ),
@@ -70,7 +74,7 @@ class CustomBottomNavigationBar extends HookWidget {
         ? bottomNavigationTheme.activeItemColor
         : bottomNavigationTheme.unselectedItemColor;
 
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return Icon(
           Icons.home_outlined,
@@ -114,15 +118,25 @@ class _SelectedIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedContainer(
-      decoration: const BoxDecoration(
-        color: Colors.blue,
-      ),
-      duration: AnimationDurations.fast,
-      height: Dimens.two,
-      width: visible
-          ? Dimens.bottomNavigationSelectedIndicatorWidth
-          : Dimens.zero,
-    );
+    return context.isFlutterTest
+        ? Container(
+            decoration: const BoxDecoration(
+              color: Colors.blue,
+            ),
+            height: Dimens.two,
+            width: visible
+                ? Dimens.bottomNavigationSelectedIndicatorWidth
+                : Dimens.zero,
+          )
+        : AnimatedContainer(
+            decoration: const BoxDecoration(
+              color: Colors.blue,
+            ),
+            duration: AnimationDurations.fast,
+            height: Dimens.two,
+            width: visible
+                ? Dimens.bottomNavigationSelectedIndicatorWidth
+                : Dimens.zero,
+          );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:meta/meta.dart';
 
-abstract class SafeActionCubit<State extends Object, Action>
+abstract class SafeActionCubit<State, Action>
     extends ActionCubit<State, Action> {
   SafeActionCubit(super.initialState);
 
@@ -22,7 +22,8 @@ abstract class SafeActionCubit<State extends Object, Action>
   void dispatch(Action action) {
     if (isClosed) {
       // TODO logget
-      print('$runtimeType - safely dispatched $action after after calling close');
+      print(
+          '$runtimeType - safely dispatched $action after after calling close');
     } else {
       super.dispatch(action);
     }

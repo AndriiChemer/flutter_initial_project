@@ -3,6 +3,7 @@ import 'package:cached_annotation/cached_annotation.dart';
 import 'package:flutter_test/flutter_test.dart' as test;
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:meta/meta.dart';
+import 'package:mocktail/mocktail.dart';
 
 @isTest
 void actionBlocTest<B extends BlocActionMixin<Action, State>,
@@ -52,5 +53,19 @@ void actionBlocTest<B extends BlocActionMixin<Action, State>,
     errors: errors,
     tearDown: tearDown,
     tags: tags,
+  );
+}
+
+void whenListenAction<State, Action>(
+  ActionCubit<State, Action> bloc,
+  Stream<Action> stream,
+) {
+  final broadcastStream = stream.asBroadcastStream();
+
+  when(() => bloc.actions).thenAnswer(
+    (_) => broadcastStream.map((action) {
+      when(() => bloc.previousAction).thenReturn(action);
+      return action;
+    }),
   );
 }

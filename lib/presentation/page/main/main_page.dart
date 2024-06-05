@@ -2,6 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
@@ -46,11 +47,15 @@ class MainPage extends HookWidget {
         items: BottomNavigationPages.values,
         selectedIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
         onTap: (index) {
-          pageController.animateToPage(
-            index,
-            duration: AnimationDurations.fast,
-            curve: Curves.linear,
-          );
+          context.isFlutterTest
+              ? pageController.jumpToPage(
+                  index,
+                )
+              : pageController.animateToPage(
+                  index,
+                  duration: AnimationDurations.fast,
+                  curve: Curves.linear,
+                );
           selectedPage.value = BottomNavigationPages.values[index];
         },
       ),
@@ -58,7 +63,7 @@ class MainPage extends HookWidget {
   }
 
   Widget _mapPage(BottomNavigationPages page) {
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return const HomePage();
       case BottomNavigationPages.userForms:
@@ -73,7 +78,7 @@ class MainPage extends HookWidget {
   }
 
   String _mapBottomNavigationBar(BottomNavigationPages page) {
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return LocaleKeys.main_page_navigation_home.tr();
       case BottomNavigationPages.userForms:
