@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:bloc_test/bloc_test.dart';
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -10,7 +9,6 @@ import 'package:golden_toolkit/golden_toolkit.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validation_result.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
-import 'package:iteo_libraries_example/presentation/app.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/cubit/user_form_bloc.dart';
@@ -26,14 +24,7 @@ import '../../../test_helpers/test_theme.dart';
 import '../settings/settings_page_cubit_test.mocks.dart';
 
 class MockUserFormBloc extends MockCubit<UserFormState>
-    implements UserFormBloc {
-  // MockUserFormBloc() {
-  //   final streamController = StreamController<dynamic>();
-  //   when(() => revalidationRequestStream)
-  //       .thenAnswer((_) => streamController.stream);
-  //   streamController.add(null);
-  // }
-}
+    implements UserFormBloc {}
 
 class MockNameInputCubit extends Mock implements NameInputCubit {
   MockNameInputCubit() {
@@ -70,38 +61,24 @@ void main() {
   late MockGetAppThemeTypeStreamUseCase mockGetAppThemeTypeStreamUseCase;
 
   late MockNameInputCubit mockNameInputCubit;
-  // late MockSurnameInputCubit mockSurnameInputCubit;
   late EmailInputCubit mockEmailInputCubit;
 
   late Widget testedWidget;
-
-  // final streamController = StreamController<dynamic>();
-  //
-  // void simulateRevalidationRequest() {
-  //   when(() => userFormBloc.revalidationRequestStream)
-  //       .thenAnswer((_) => streamController.stream);
-  //   // Simulate adding null event to the stream
-  //   // Ensure to close the stream controller after the test
-  //   // addTearDown(streamController.close);
-  // }
 
   setUp(() async {
     await getIt.reset();
     userFormBloc = MockUserFormBloc();
     mockNameInputCubit = MockNameInputCubit();
-    // mockSurnameInputCubit = MockSurnameInputCubit();
     mockEmailInputCubit = MockEmailInputCubit();
 
     mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
 
     getIt.registerFactory<UserFormBloc>(() => userFormBloc);
     getIt.registerFactory<NameInputCubit>(() => mockNameInputCubit);
-    // getIt.registerFactory<NameInputCubit>(() => mockSurnameInputCubit);
     getIt.registerFactory<EmailInputCubit>(
       () => mockEmailInputCubit,
     );
 
-    // simulateRevalidationRequest();
     when(() => userFormBloc.revalidationRequestStream)
         .thenAnswer((_) => const Stream.empty());
     when(() => userFormBloc.init()).thenAnswer((_) async {});
@@ -124,13 +101,7 @@ void main() {
         ],
         child: HookBuilder(
           builder: (context) {
-            return EasyLocalization(
-              path: 'assets/translations',
-              supportedLocales: const [appLocale],
-              startLocale: appLocale,
-              fallbackLocale: appLocale,
-              child: const MainPage(),
-            );
+            return const MainPage();
           },
         ),
       ),
@@ -199,11 +170,6 @@ void main() {
         name: 'Loaded empty fields',
         widget: Builder(
           builder: (context) {
-            // registerFallbackValue<BaseTextInputState<String, NameValidationResult>>(BaseTextInputState<String, NameValidationResult>.init());
-            // when(() => mockNameInputCubit.validate('')).thenReturn(
-            //     NameValidationResult.tooLong(
-            //         name: 'name', maximumCharacters: 8));
-
             /// NAME INPUT CUBIT
             whenListen(
               mockNameInputCubit,
@@ -298,12 +264,6 @@ void main() {
     'User form - Loaded and fields are filled',
     (tester) async {
       final builder = DeviceBuilder();
-      // ..overrideDevicesForAllScenarios(devices: [
-      //   // Device.phone,
-      //   Device.iphone11,
-      //   // Device.tabletPortrait,
-      //   Device.tabletLandscape,
-      // ]);
 
       builder.addScenario(
         name: 'Loaded and fields are filled',
@@ -426,178 +386,138 @@ void main() {
     },
   );
 
-  // testGoldens(
-  //   'Cars Page - Loaded',
-  //   (tester) async {
-  //     final builder = DeviceBuilder();
-  //
-  //     builder.addScenario(
-  //       name: 'Cars Loaded',
-  //       widget: Builder(
-  //         builder: (context) {
-  //           whenListen(
-  //             carsCubit,
-  //             Stream<CarsState>.fromIterable([
-  //               LoadingCars(),
-  //               ShowCars(mockedCars),
-  //             ]),
-  //             initialState: LoadingCars(),
-  //           );
-  //
-  //           whenListenAction(
-  //             carsCubit,
-  //             Stream<CarsAction>.fromIterable([]),
-  //           );
-  //
-  //           return testedWidget;
-  //         },
-  //       ),
-  //       onCreate: (scenarioWidgetKey) async {
-  //         final finder = find.descendant(
-  //           of: find.byKey(scenarioWidgetKey),
-  //           matching: find.byKey(Key(BottomNavigationPages.cars.name)),
-  //         );
-  //         expect(finder, findsOneWidget);
-  //
-  //         await tester.tap(finder);
-  //         await tester.pumpAndSettle();
-  //       },
-  //     );
-  //
-  //     /// Run the device builder
-  //     await tester.pumpDeviceBuilder(
-  //       builder,
-  //       wrapper: materialAppWrapper(
-  //         theme: getAppTheme(),
-  //       ),
-  //     );
-  //
-  //     /// Take screenshot
-  //     await screenMatchesGolden(
-  //       tester,
-  //       'cars_page_loaded',
-  //     );
-  //   },
-  // );
+  testGoldens(
+    'User form - Loaded and name is not valid',
+    (tester) async {
+      final builder = DeviceBuilder();
 
-  // testGoldens(
-  //   'Cars Page - Failed',
-  //   (tester) async {
-  //     final builder = DeviceBuilder();
-  //
-  //     builder.addScenario(
-  //       name: 'Cars loading failed',
-  //       widget: Builder(
-  //         builder: (context) {
-  //           whenListen(
-  //             carsCubit,
-  //             Stream<CarsState>.fromIterable([
-  //               LoadingCars(),
-  //               ShowCars(const []),
-  //             ]),
-  //             initialState: LoadingCars(),
-  //           );
-  //
-  //           whenListenAction(
-  //             carsCubit,
-  //             Stream<CarsAction>.fromIterable([
-  //               ShowError(),
-  //             ]),
-  //           );
-  //
-  //           return testedWidget;
-  //         },
-  //       ),
-  //       onCreate: (scenarioWidgetKey) async {
-  //         final finder = find.descendant(
-  //           of: find.byKey(scenarioWidgetKey),
-  //           matching: find.byKey(Key(BottomNavigationPages.cars.name)),
-  //         );
-  //         expect(finder, findsOneWidget);
-  //
-  //         await tester.tap(finder);
-  //         await tester.pumpAndSettle();
-  //       },
-  //     );
-  //
-  //     /// Run the device builder
-  //     await tester.pumpDeviceBuilder(
-  //       builder,
-  //       wrapper: materialAppWrapper(
-  //         theme: getAppTheme(),
-  //       ),
-  //     );
-  //
-  //     /// Take screenshot
-  //     await screenMatchesGolden(
-  //       tester,
-  //       'cars_page_failed',
-  //     );
-  //   },
-  // );
+      builder.addScenario(
+        name: 'Loaded and name is not valid',
+        widget: Builder(
+          builder: (context) {
+            final state = const BaseTextInputState<String,
+                NameValidationResult>.validated(
+              NameValidationResult.tooShort(
+                name: 'te',
+                minimumCharacters: 3,
+              ),
+            );
 
-  // testGoldens(
-  //   'Cars Page - Saved to database',
-  //   (tester) async {
-  //     final builder = DeviceBuilder();
-  //
-  //     builder.addScenario(
-  //       name: 'Cars Page - Saved to database',
-  //       widget: Builder(
-  //         builder: (context) {
-  //           whenListen(
-  //             carsCubit,
-  //             Stream<CarsState>.fromIterable([
-  //               // LoadingCars(),
-  //               ShowCars(mockedCars),
-  //             ]),
-  //             initialState: LoadingCars(),
-  //           );
-  //
-  //           whenListenAction(
-  //             carsCubit,
-  //             Stream<CarsAction>.fromIterable([
-  //               SavedToDatabase(),
-  //             ]),
-  //           );
-  //
-  //           return testedWidget;
-  //         },
-  //       ),
-  //       onCreate: (scenarioWidgetKey) async {
-  //         final finder = find.descendant(
-  //           of: find.byKey(scenarioWidgetKey),
-  //           matching: find.byKey(Key(BottomNavigationPages.cars.name)),
-  //         );
-  //         expect(finder, findsOneWidget);
-  //
-  //         await tester.tap(finder);
-  //         await tester.pumpAndSettle();
-  //
-  //         final saveDatabaseFinder = find.descendant(
-  //           of: find.byKey(scenarioWidgetKey),
-  //           matching: find.byKey(const Key('cars_save_database')),
-  //         );
-  //         expect(saveDatabaseFinder, findsOneWidget);
-  //
-  //         await tester.press(saveDatabaseFinder);
-  //         await tester.pumpAndSettle();
-  //       },
-  //     );
-  //
-  //     /// Run the device builder
-  //     await tester.pumpDeviceBuilder(
-  //       builder,
-  //       wrapper: materialAppWrapper(
-  //         theme: getAppTheme(),
-  //       ),
-  //     );
-  //
-  //     /// Take screenshot
-  //     await screenMatchesGolden(
-  //       tester,
-  //       'cars_save_to_database',
-  //     );
-  //   },
-  // );
+            /// NAME INPUT CUBIT
+            whenListen(
+              mockNameInputCubit,
+              Stream<
+                  BaseTextInputState<String,
+                      NameValidationResult>>.fromIterable([
+                const BaseTextInputState<String, NameValidationResult>.init(),
+                const BaseTextInputState<String,
+                    NameValidationResult>.validated(
+                  NameValidationResult.tooShort(
+                    name: 'te',
+                    minimumCharacters: 3,
+                  ),
+                ),
+              ]),
+              initialState:
+                  const BaseTextInputState<String, NameValidationResult>.init(),
+            );
+
+            whenListenAction(
+              mockNameInputCubit,
+              Stream<BaseTextInputActions<NameValidationResult>>.fromIterable(
+                [
+                  const BaseTextInputActions<
+                      NameValidationResult>.finishEditing(
+                    NameValidationResult.tooShort(
+                      name: 'te',
+                      minimumCharacters: 3,
+                    ),
+                  ),
+                ],
+              ),
+            );
+
+            /// EMAIL INPUT CUBIT
+            whenListen(
+              mockEmailInputCubit,
+              Stream<
+                  BaseTextInputState<String,
+                      EmailValidationResult>>.fromIterable([
+                const BaseTextInputState<String, EmailValidationResult>.init(),
+              ]),
+              initialState: const BaseTextInputState<String,
+                  EmailValidationResult>.init(),
+            );
+
+            whenListenAction(
+              mockEmailInputCubit,
+              Stream<BaseTextInputActions<EmailValidationResult>>.fromIterable(
+                  []),
+            );
+
+            /// MAIN CUBIT
+            whenListen(
+              userFormBloc,
+              Stream<UserFormState>.fromIterable([
+                UserFormLoading(),
+                UserFormValidated(
+                  nameValidationResult:
+                      const NameValidationResult.valid(name: 'te'),
+                  name: 'te',
+                  surnameValidationResult:
+                      const NameValidationResult.valid(name: 'te'),
+                  surname: 'te',
+                  emailValidationResult: null,
+                  email: null,
+                ),
+              ]),
+              initialState: UserFormLoading(),
+            );
+
+            whenListenAction(
+              userFormBloc,
+              Stream<UserFormAction>.fromIterable([]),
+            );
+
+            return testedWidget;
+          },
+        ),
+        onCreate: (scenarioWidgetKey) async {
+          final finder = find.descendant(
+            of: find.byKey(scenarioWidgetKey),
+            matching: find.byKey(Key(BottomNavigationPages.userForms.name)),
+          );
+          expect(finder, findsOneWidget);
+
+          await tester.tap(finder);
+          await tester.pumpAndSettle();
+
+          /// TextField
+          final textFields = find.byType(TextField);
+
+          expect(textFields.at(0), findsOneWidget);
+          // expect(textFields.at(1), findsOneWidget);
+          // expect(textFields.at(2), findsOneWidget);
+
+          await tester.enterText(textFields.at(0), 'te');
+          // await tester.enterText(textFields.at(1), 'Test');
+          // await tester.enterText(textFields.at(2), 'test@test.com');
+        },
+      );
+
+      /// Run the device builder
+      await tester.pumpDeviceBuilder(
+        builder,
+        wrapper: materialAppWrapper(
+          theme: getAppTheme(),
+        ),
+      );
+
+      /// Take screenshot
+      await screenMatchesGolden(
+        tester,
+        'user_form_fields_invalid_name',
+      );
+    },
+  );
 }

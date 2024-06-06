@@ -7,7 +7,8 @@ import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 
-class NameInput extends BaseTextInput<String, NameValidationResult, NameInputCubit> {
+class NameInput
+    extends BaseTextInput<String, NameValidationResult, NameInputCubit> {
   const NameInput({
     required super.isRequired,
     this.onChanged,

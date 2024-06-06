@@ -81,7 +81,6 @@ class _Content extends HookWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           NameInput(
-            key: Key('name'),
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateName,
@@ -91,7 +90,6 @@ class _Content extends HookWidget {
           ),
           const CustomGap.big(),
           NameInput(
-            key: Key('surname'),
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateSurname,
@@ -102,7 +100,6 @@ class _Content extends HookWidget {
           ),
           const CustomGap.big(),
           EmailInput(
-            key: Key('email'),
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateEmail,
