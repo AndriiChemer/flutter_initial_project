@@ -19,21 +19,9 @@ class CarsPage extends HookWidget {
   Widget build(BuildContext context) {
     final cubit = useBloc<CarsCubit>();
     final state = useBlocBuilder(cubit);
-
     useActionListener<CarsAction>(
       cubit,
-      (action) {
-        switch (action) {
-          case ShowError():
-            ScaffoldMessenger.of(context)
-                .showSnackBar(const SnackBar(content: Text('Error')));
-            break;
-          case SavedToDatabase():
-            ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Saved with success!')));
-            break;
-        }
-      },
+      (action) => _listenAction(action, context),
     );
 
     useEffect(
@@ -52,6 +40,20 @@ class CarsPage extends HookWidget {
           ),
       },
     );
+  }
+
+  void _listenAction(
+    CarsAction action,
+    BuildContext context,
+  ) {
+    switch (action) {
+      case ShowError():
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('Error')));
+      case SavedToDatabase():
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('Saved with success!')));
+    }
   }
 }
 

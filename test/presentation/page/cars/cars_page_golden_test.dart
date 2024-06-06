@@ -15,9 +15,9 @@ import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:provider/provider.dart';
 
-import '../../test_helpers/test_action_bloc.dart';
-import '../../test_helpers/test_theme.dart';
-import '../page/settings/settings_page_cubit_test.mocks.dart';
+import '../../../test_helpers/test_action_bloc.dart';
+import '../../../test_helpers/test_theme.dart';
+import '../settings/settings_page_cubit_test.mocks.dart';
 
 class MockCarsCubit extends MockCubit<CarsState> implements CarsCubit {}
 

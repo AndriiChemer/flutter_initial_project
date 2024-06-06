@@ -6,12 +6,25 @@ class CustomButton extends StatelessWidget {
     required this.title,
     required this.action,
     this.isActive = true,
+    this.fullWidth = false,
     this.padding,
     super.key,
   });
 
+  factory CustomButton.fullWidth({
+    required String title,
+    required VoidCallback action,
+  }) {
+    return CustomButton(
+      fullWidth: true,
+      title: title,
+      action: action,
+    );
+  }
+
   final String title;
   final bool isActive;
+  final bool fullWidth;
   final VoidCallback action;
   final EdgeInsetsGeometry? padding;
 
@@ -19,20 +32,23 @@ class CustomButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<AppTheme>()!;
 
-    return Padding(
-      padding: padding ?? EdgeInsets.zero,
-      child: ElevatedButton(
-        style: ElevatedButton.styleFrom(
-          backgroundColor: colors.elevateButtonTheme.elevatedBackground,
-          disabledBackgroundColor:
-              colors.elevateButtonTheme.elevatedBackground.withOpacity(0.5),
-          elevation: 0,
-        ),
-        onPressed: isActive ? action : null,
-        child: Text(
-          title,
-          style: TextStyle(
-            color: colors.elevateButtonTheme.elevatedText,
+    return SizedBox(
+      width: fullWidth ? double.infinity : null,
+      child: Padding(
+        padding: padding ?? EdgeInsets.zero,
+        child: ElevatedButton(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: colors.elevateButtonTheme.elevatedBackground,
+            disabledBackgroundColor:
+                colors.elevateButtonTheme.elevatedBackground.withOpacity(0.5),
+            elevation: 0,
+          ),
+          onPressed: isActive ? action : null,
+          child: Text(
+            title,
+            style: TextStyle(
+              color: colors.elevateButtonTheme.elevatedText,
+            ),
           ),
         ),
       ),

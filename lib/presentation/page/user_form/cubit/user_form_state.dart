@@ -4,8 +4,6 @@ sealed class UserFormState {}
 
 class UserFormLoading extends UserFormState {}
 
-class UserFormError extends UserFormState {}
-
 class UserFormValidated extends UserFormState {
   UserFormValidated({
     required this.nameValidationResult,
@@ -14,8 +12,6 @@ class UserFormValidated extends UserFormState {
     required this.surname,
     required this.emailValidationResult,
     required this.email,
-    required this.emailLiveValidationResult,
-    required this.emailLive,
   });
 
   final String? name;
@@ -24,10 +20,8 @@ class UserFormValidated extends UserFormState {
   final NameValidationResult? surnameValidationResult;
   final String? email;
   final EmailValidationResult? emailValidationResult;
-  final String? emailLive;
-  final EmailValidationResult? emailLiveValidationResult;
 
   bool get isValid => [
-    nameValidationResult?.isValid ?? false,
-  ].every((isFieldValid) => isFieldValid);
+        nameValidationResult?.isValid ?? false,
+      ].every((isFieldValid) => isFieldValid);
 }

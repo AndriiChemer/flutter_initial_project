@@ -7,9 +7,7 @@ import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/cubit/user_form_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input.dart';
-import 'package:iteo_libraries_example/presentation/widget/forms/email/email_live_validation_input.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input.dart';
-import 'package:iteo_libraries_example/presentation/widget/theme/dimens.dart';
 
 @RoutePage()
 class UserFormPage extends HookWidget {
@@ -17,54 +15,47 @@ class UserFormPage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final scrollController = useScrollController();
     final cubit = useBloc<UserFormBloc>();
     final state = useBlocBuilder(cubit);
 
     useActionListener<UserFormAction>(
-      cubit, (action) {
-        // action.whenOrNull(
-        //   error: () => snackbarController.showUnknownError(),
-        //   savingErrorEmailAlreadyInUse: () => snackbarController.showError(
-        //     SnackbarProperties(LocaleKeys.email_already_in_use.tr()),
-        //   ),
-        //   saved: () => context.router.popForced(
-        //     YourDataFormResult.success,
-        //   ),
-        // );
-      },
+      cubit,
+      (action) => _listenAction(action, context),
     );
 
-    // useBlocListener<YourDataFormCubit, YourDataFormState>(
-    //   cubit,
-    //       (_, state, __) {
-    //     state.mapOrNull(
-    //       validated: (state) {
-    //         if (state.isSaving) {
-    //           snackbarController.close();
-    //         }
-    //       },
-    //     );
-    //   },
-    // );
-
-    useEffect(() {
+    useEffect(
+      () {
         cubit.init();
       },
       [cubit],
     );
 
     return FocusScope(
-      child: switch(state) {
-        UserFormLoading() => _Loading(),
-        UserFormError() => _Error(),
+      child: switch (state) {
+        UserFormLoading() => const _Loading(),
         UserFormValidated() => _Content(
-          state: state,
-          scrollController: scrollController,
-          cubit: cubit,
-        ),
+            state: state,
+            cubit: cubit,
+          ),
       },
     );
+  }
+
+  void _listenAction(
+    UserFormAction action,
+    BuildContext context,
+  ) {
+    switch (action) {
+      case UserFormScrollToFirstFieldWithError():
+        ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Email already is used')));
+      case UserFormSaved():
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('Success')));
+      case UserFormActionError():
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('Failed')));
+    }
   }
 }
 
@@ -72,20 +63,16 @@ class _Content extends HookWidget {
   const _Content({
     required this.cubit,
     required this.state,
-    required this.scrollController,
-    super.key,
   });
 
   final UserFormBloc cubit;
   final UserFormValidated state;
-  final ScrollController scrollController;
 
   @override
   Widget build(BuildContext context) {
     final nameFocusNode = useFocusNode();
     final surnameFocusNode = useFocusNode();
     final emailFocusNode = useFocusNode();
-    final emailLiveFocusNode = useFocusNode();
 
     return Padding(
       padding: const EdgeInsets.all(Dimens.twenty),
@@ -94,6 +81,7 @@ class _Content extends HookWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           NameInput(
+            key: Key('name'),
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateName,
@@ -103,6 +91,7 @@ class _Content extends HookWidget {
           ),
           const CustomGap.big(),
           NameInput(
+            key: Key('surname'),
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateSurname,
@@ -113,6 +102,7 @@ class _Content extends HookWidget {
           ),
           const CustomGap.big(),
           EmailInput(
+            key: Key('email'),
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateEmail,
@@ -120,15 +110,12 @@ class _Content extends HookWidget {
             focusNode: emailFocusNode,
             textInputAction: TextInputAction.next,
           ),
-          const CustomGap.big(),
-          EmailLiveValidationInput(
-            isRequired: true,
-            revalidator: cubit.revalidationRequestStream,
-            initValue: state.emailLive,
-            focusNode: emailLiveFocusNode,
-            textInputAction: TextInputAction.next,
-            onChanged: cubit.liveUpdateEmail,
+          const Spacer(),
+          CustomButton.fullWidth(
+            title: 'Save',
+            action: cubit.onSubmitTap,
           ),
+          const CustomGap.xxlg(),
         ],
       ),
     );
@@ -140,17 +127,6 @@ class _Loading extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const CustomCircularProgress();
   }
 }
-
-class _Error extends StatelessWidget {
-  const _Error({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
-
-
