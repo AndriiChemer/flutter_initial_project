@@ -17,44 +17,46 @@ import 'package:provider/provider.dart';
 const appLocale = Locale('pl');
 
 Future<void> runMainApp(AppEnv appEnv) async {
-  await runZonedGuarded(() async {
-    WidgetsFlutterBinding.ensureInitialized();
+  await runZonedGuarded(
+    () async {
+      WidgetsFlutterBinding.ensureInitialized();
 
-    await configureDependencies(appEnv.environment);
+      await configureDependencies(appEnv.environment);
 
-    final appRouter = AppRouter();
-    await EasyLocalization.ensureInitialized();
-    Logger.setupLogger();
+      final appRouter = AppRouter();
+      await EasyLocalization.ensureInitialized();
+      Logger.setupLogger();
 
-    runApp(
-      HookedBlocConfigProvider(
-        injector: () => getIt.get,
-        child: MultiProvider(
-          providers: [
-            ChangeNotifierProvider(
-              create: (_) => AppColorsProvider(
-                getIt<GetAppThemeTypeStreamUseCase>(),
+      runApp(
+        HookedBlocConfigProvider(
+          injector: () => getIt.get,
+          child: MultiProvider(
+            providers: [
+              ChangeNotifierProvider(
+                create: (_) => AppColorsProvider(
+                  getIt<GetAppThemeTypeStreamUseCase>(),
+                ),
               ),
+              ProxyProvider<AppColorsProvider, AppTypo>(
+                update: (_, value, __) => AppTypo(value.colors),
+              ),
+              ProxyProvider<AppColorsProvider, AppShadows>(
+                update: (_, value, __) => AppShadows(value.colors),
+              ),
+            ],
+            child: EasyLocalization(
+              path: 'assets/translations',
+              supportedLocales: const [appLocale],
+              startLocale: appLocale,
+              fallbackLocale: appLocale,
+              child: MyApp(appRouter: appRouter),
             ),
-            ProxyProvider<AppColorsProvider, AppTypo>(
-              update: (_, value, __) => AppTypo(value.colors),
-            ),
-            ProxyProvider<AppColorsProvider, AppShadows>(
-              update: (_, value, __) => AppShadows(value.colors),
-            ),
-          ],
-          child: EasyLocalization(
-            path: 'assets/translations',
-            supportedLocales: const [appLocale],
-            startLocale: appLocale,
-            fallbackLocale: appLocale,
-            child: MyApp(appRouter: appRouter),
           ),
         ),
-      ),
-    );
-
-  }, (error, stackTrace) {},);
+      );
+    },
+    (error, stackTrace) {},
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -81,9 +83,8 @@ class MyApp extends StatelessWidget {
 
   /// Theme.of(context).extension<AppTheme>()!
   ThemeData _theme(AppColors colors) {
-    final appTheme = colors is LightThemeAppColors
-        ? AppTheme.light
-        : AppTheme.dark;
+    final appTheme =
+        colors is LightThemeAppColors ? AppTheme.light : AppTheme.dark;
     return ThemeData(
       extensions: [appTheme],
       scaffoldBackgroundColor: colors.background,

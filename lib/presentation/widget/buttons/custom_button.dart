@@ -24,13 +24,16 @@ class CustomButton extends StatelessWidget {
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: colors.elevateButtonTheme.elevatedBackground,
-          disabledBackgroundColor: colors.elevateButtonTheme.elevatedBackground.withOpacity(0.5),
+          disabledBackgroundColor:
+              colors.elevateButtonTheme.elevatedBackground.withOpacity(0.5),
           elevation: 0,
         ),
         onPressed: isActive ? action : null,
         child: Text(
           title,
-          style: TextStyle(color: colors.elevateButtonTheme.elevatedText),
+          style: TextStyle(
+            color: colors.elevateButtonTheme.elevatedText,
+          ),
         ),
       ),
     );

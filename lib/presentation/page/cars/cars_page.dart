@@ -7,10 +7,9 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/widget/car_item.dart';
-import 'package:iteo_libraries_example/presentation/widget/buttons/export.dart';
-import 'package:iteo_libraries_example/presentation/widget/custom_circular_progress.dart';
-import 'package:iteo_libraries_example/presentation/widget/custom_gap.dart';
-import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
+import 'package:iteo_libraries_example/presentation/widget/export.dart';
+
+const _saveDatabaseKey = Key('cars_save_database');
 
 @RoutePage()
 class CarsPage extends HookWidget {
@@ -88,6 +87,7 @@ class _Content extends StatelessWidget {
           ),
           const CustomGap.xxxsm(),
           CustomButton(
+            key: _saveDatabaseKey,
             title: 'Save to database',
             action: () => cubit.saveToDatabase(cars),
           ),

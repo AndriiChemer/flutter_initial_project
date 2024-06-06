@@ -154,7 +154,8 @@ class CustomText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final style = _withTypo(context.typo).copyWith(color: color ?? context.colors.typo);
+    final style =
+        _withTypo(context.typo).copyWith(color: color ?? context.colors.typo);
 
     if (autoSize) {
       return AutoSizeText(

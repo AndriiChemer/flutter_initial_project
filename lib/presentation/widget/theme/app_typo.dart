@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/app_colors.dart';
 
-const _fontFamilyMontserrat = 'Montserrat';
+const String? _fontFamilyMontserrat = null; // ex: Montserrat
 
 class AppTypo {
   AppTypo(this.colors);
@@ -81,46 +81,44 @@ class AppTypo {
       );
 
   TextStyle get f15w700 => TextStyle(
-    fontFamily: _fontFamilyMontserrat,
-    color: colors.typo,
-    fontSize: 15,
-    debugLabel: 'Style 6',
-    height: 1.6,
-    fontWeight: FontWeight.w700,
-  );
+        fontFamily: _fontFamilyMontserrat,
+        color: colors.typo,
+        fontSize: 15,
+        debugLabel: 'Style 6',
+        height: 1.6,
+        fontWeight: FontWeight.w700,
+      );
 
   TextStyle get f15w700Underline => f15w700.copyWith(
-    decoration: TextDecoration.underline,
-    debugLabel: 'Style 6_U',
-  );
+        decoration: TextDecoration.underline,
+        debugLabel: 'Style 6_U',
+      );
 
   TextStyle get f15w600 => TextStyle(
-    fontFamily: _fontFamilyMontserrat,
-    color: colors.typo,
-    fontSize: 15,
-    debugLabel: 'Style 7',
-    height: 1.6,
-    fontWeight: FontWeight.w600,
-  );
+        fontFamily: _fontFamilyMontserrat,
+        color: colors.typo,
+        fontSize: 15,
+        debugLabel: 'Style 7',
+        height: 1.6,
+        fontWeight: FontWeight.w600,
+      );
 
   TextStyle get f15w500 => TextStyle(
-    fontFamily: _fontFamilyMontserrat,
-    color: colors.typo,
-    fontSize: 15,
-    debugLabel: 'Style 8',
-    height: 1.6,
-    fontWeight: FontWeight.w500,
-  );
-
-
+        fontFamily: _fontFamilyMontserrat,
+        color: colors.typo,
+        fontSize: 15,
+        debugLabel: 'Style 8',
+        height: 1.6,
+        fontWeight: FontWeight.w500,
+      );
 
   TextStyle get f12w500 => TextStyle(
-    fontFamily: _fontFamilyMontserrat,
-    color: colors.typo,
-    fontSize: 12,
-    debugLabel: 'Style 13',
-    height: 1.33,
-    letterSpacing: -0.2,
-    fontWeight: FontWeight.w500,
-  );
+        fontFamily: _fontFamilyMontserrat,
+        color: colors.typo,
+        fontSize: 12,
+        debugLabel: 'Style 13',
+        height: 1.33,
+        letterSpacing: -0.2,
+        fontWeight: FontWeight.w500,
+      );
 }
