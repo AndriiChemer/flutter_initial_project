@@ -12,16 +12,16 @@ class NameValidationResult with _$NameValidationResult {
 
   const factory NameValidationResult.tooLong({
     required String name,
-    required int maximumCharacters,
+    required int maxChar,
   }) = NameTooLong;
 
   const factory NameValidationResult.tooShort({
     required String name,
-    required int minimumCharacters,
+    required int minChar,
   }) = NameTooShort;
 
   bool get isValid => maybeWhen(
-    valid: (_) => true,
-    orElse: () => false,
-  );
+        valid: (_) => true,
+        orElse: () => false,
+      );
 }

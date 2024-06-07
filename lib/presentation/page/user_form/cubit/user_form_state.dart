@@ -14,6 +14,17 @@ class UserFormValidated extends UserFormState {
     required this.email,
   });
 
+  factory UserFormValidated.init() {
+    return UserFormValidated(
+      nameValidationResult: null,
+      name: null,
+      surnameValidationResult: null,
+      surname: null,
+      emailValidationResult: null,
+      email: null,
+    );
+  }
+
   final String? name;
   final NameValidationResult? nameValidationResult;
   final String? surname;

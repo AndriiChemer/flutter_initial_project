@@ -24,13 +24,6 @@ class CarsPage extends HookWidget {
       (action) => _listenAction(action, context),
     );
 
-    useEffect(
-      () {
-        cubit.getCars();
-      },
-      [cubit],
-    );
-
     return Center(
       child: switch (state) {
         LoadingCars() => const CustomCircularProgress(),

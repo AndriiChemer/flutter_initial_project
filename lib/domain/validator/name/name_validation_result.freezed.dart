@@ -20,22 +20,22 @@ mixin _$NameValidationResult {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(String name) valid,
-    required TResult Function(String name, int maximumCharacters) tooLong,
-    required TResult Function(String name, int minimumCharacters) tooShort,
+    required TResult Function(String name, int maxChar) tooLong,
+    required TResult Function(String name, int minChar) tooShort,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(String name)? valid,
-    TResult? Function(String name, int maximumCharacters)? tooLong,
-    TResult? Function(String name, int minimumCharacters)? tooShort,
+    TResult? Function(String name, int maxChar)? tooLong,
+    TResult? Function(String name, int minChar)? tooShort,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(String name)? valid,
-    TResult Function(String name, int maximumCharacters)? tooLong,
-    TResult Function(String name, int minimumCharacters)? tooShort,
+    TResult Function(String name, int maxChar)? tooLong,
+    TResult Function(String name, int minChar)? tooShort,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -168,8 +168,8 @@ class _$NameValidImpl extends NameValid {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(String name) valid,
-    required TResult Function(String name, int maximumCharacters) tooLong,
-    required TResult Function(String name, int minimumCharacters) tooShort,
+    required TResult Function(String name, int maxChar) tooLong,
+    required TResult Function(String name, int minChar) tooShort,
   }) {
     return valid(name);
   }
@@ -178,8 +178,8 @@ class _$NameValidImpl extends NameValid {
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(String name)? valid,
-    TResult? Function(String name, int maximumCharacters)? tooLong,
-    TResult? Function(String name, int minimumCharacters)? tooShort,
+    TResult? Function(String name, int maxChar)? tooLong,
+    TResult? Function(String name, int minChar)? tooShort,
   }) {
     return valid?.call(name);
   }
@@ -188,8 +188,8 @@ class _$NameValidImpl extends NameValid {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(String name)? valid,
-    TResult Function(String name, int maximumCharacters)? tooLong,
-    TResult Function(String name, int minimumCharacters)? tooShort,
+    TResult Function(String name, int maxChar)? tooLong,
+    TResult Function(String name, int minChar)? tooShort,
     required TResult orElse(),
   }) {
     if (valid != null) {
@@ -253,7 +253,7 @@ abstract class _$$NameTooLongImplCopyWith<$Res>
       __$$NameTooLongImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String name, int maximumCharacters});
+  $Res call({String name, int maxChar});
 }
 
 /// @nodoc
@@ -268,16 +268,16 @@ class __$$NameTooLongImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? name = null,
-    Object? maximumCharacters = null,
+    Object? maxChar = null,
   }) {
     return _then(_$NameTooLongImpl(
       name: null == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      maximumCharacters: null == maximumCharacters
-          ? _value.maximumCharacters
-          : maximumCharacters // ignore: cast_nullable_to_non_nullable
+      maxChar: null == maxChar
+          ? _value.maxChar
+          : maxChar // ignore: cast_nullable_to_non_nullable
               as int,
     ));
   }
@@ -286,17 +286,17 @@ class __$$NameTooLongImplCopyWithImpl<$Res>
 /// @nodoc
 
 class _$NameTooLongImpl extends NameTooLong {
-  const _$NameTooLongImpl({required this.name, required this.maximumCharacters})
+  const _$NameTooLongImpl({required this.name, required this.maxChar})
       : super._();
 
   @override
   final String name;
   @override
-  final int maximumCharacters;
+  final int maxChar;
 
   @override
   String toString() {
-    return 'NameValidationResult.tooLong(name: $name, maximumCharacters: $maximumCharacters)';
+    return 'NameValidationResult.tooLong(name: $name, maxChar: $maxChar)';
   }
 
   @override
@@ -305,12 +305,11 @@ class _$NameTooLongImpl extends NameTooLong {
         (other.runtimeType == runtimeType &&
             other is _$NameTooLongImpl &&
             (identical(other.name, name) || other.name == name) &&
-            (identical(other.maximumCharacters, maximumCharacters) ||
-                other.maximumCharacters == maximumCharacters));
+            (identical(other.maxChar, maxChar) || other.maxChar == maxChar));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, name, maximumCharacters);
+  int get hashCode => Object.hash(runtimeType, name, maxChar);
 
   @JsonKey(ignore: true)
   @override
@@ -322,32 +321,32 @@ class _$NameTooLongImpl extends NameTooLong {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(String name) valid,
-    required TResult Function(String name, int maximumCharacters) tooLong,
-    required TResult Function(String name, int minimumCharacters) tooShort,
+    required TResult Function(String name, int maxChar) tooLong,
+    required TResult Function(String name, int minChar) tooShort,
   }) {
-    return tooLong(name, maximumCharacters);
+    return tooLong(name, maxChar);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(String name)? valid,
-    TResult? Function(String name, int maximumCharacters)? tooLong,
-    TResult? Function(String name, int minimumCharacters)? tooShort,
+    TResult? Function(String name, int maxChar)? tooLong,
+    TResult? Function(String name, int minChar)? tooShort,
   }) {
-    return tooLong?.call(name, maximumCharacters);
+    return tooLong?.call(name, maxChar);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(String name)? valid,
-    TResult Function(String name, int maximumCharacters)? tooLong,
-    TResult Function(String name, int minimumCharacters)? tooShort,
+    TResult Function(String name, int maxChar)? tooLong,
+    TResult Function(String name, int minChar)? tooShort,
     required TResult orElse(),
   }) {
     if (tooLong != null) {
-      return tooLong(name, maximumCharacters);
+      return tooLong(name, maxChar);
     }
     return orElse();
   }
@@ -390,12 +389,12 @@ class _$NameTooLongImpl extends NameTooLong {
 abstract class NameTooLong extends NameValidationResult {
   const factory NameTooLong(
       {required final String name,
-      required final int maximumCharacters}) = _$NameTooLongImpl;
+      required final int maxChar}) = _$NameTooLongImpl;
   const NameTooLong._() : super._();
 
   @override
   String get name;
-  int get maximumCharacters;
+  int get maxChar;
   @override
   @JsonKey(ignore: true)
   _$$NameTooLongImplCopyWith<_$NameTooLongImpl> get copyWith =>
@@ -410,7 +409,7 @@ abstract class _$$NameTooShortImplCopyWith<$Res>
       __$$NameTooShortImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String name, int minimumCharacters});
+  $Res call({String name, int minChar});
 }
 
 /// @nodoc
@@ -425,16 +424,16 @@ class __$$NameTooShortImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? name = null,
-    Object? minimumCharacters = null,
+    Object? minChar = null,
   }) {
     return _then(_$NameTooShortImpl(
       name: null == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      minimumCharacters: null == minimumCharacters
-          ? _value.minimumCharacters
-          : minimumCharacters // ignore: cast_nullable_to_non_nullable
+      minChar: null == minChar
+          ? _value.minChar
+          : minChar // ignore: cast_nullable_to_non_nullable
               as int,
     ));
   }
@@ -443,18 +442,17 @@ class __$$NameTooShortImplCopyWithImpl<$Res>
 /// @nodoc
 
 class _$NameTooShortImpl extends NameTooShort {
-  const _$NameTooShortImpl(
-      {required this.name, required this.minimumCharacters})
+  const _$NameTooShortImpl({required this.name, required this.minChar})
       : super._();
 
   @override
   final String name;
   @override
-  final int minimumCharacters;
+  final int minChar;
 
   @override
   String toString() {
-    return 'NameValidationResult.tooShort(name: $name, minimumCharacters: $minimumCharacters)';
+    return 'NameValidationResult.tooShort(name: $name, minChar: $minChar)';
   }
 
   @override
@@ -463,12 +461,11 @@ class _$NameTooShortImpl extends NameTooShort {
         (other.runtimeType == runtimeType &&
             other is _$NameTooShortImpl &&
             (identical(other.name, name) || other.name == name) &&
-            (identical(other.minimumCharacters, minimumCharacters) ||
-                other.minimumCharacters == minimumCharacters));
+            (identical(other.minChar, minChar) || other.minChar == minChar));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, name, minimumCharacters);
+  int get hashCode => Object.hash(runtimeType, name, minChar);
 
   @JsonKey(ignore: true)
   @override
@@ -480,32 +477,32 @@ class _$NameTooShortImpl extends NameTooShort {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(String name) valid,
-    required TResult Function(String name, int maximumCharacters) tooLong,
-    required TResult Function(String name, int minimumCharacters) tooShort,
+    required TResult Function(String name, int maxChar) tooLong,
+    required TResult Function(String name, int minChar) tooShort,
   }) {
-    return tooShort(name, minimumCharacters);
+    return tooShort(name, minChar);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(String name)? valid,
-    TResult? Function(String name, int maximumCharacters)? tooLong,
-    TResult? Function(String name, int minimumCharacters)? tooShort,
+    TResult? Function(String name, int maxChar)? tooLong,
+    TResult? Function(String name, int minChar)? tooShort,
   }) {
-    return tooShort?.call(name, minimumCharacters);
+    return tooShort?.call(name, minChar);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(String name)? valid,
-    TResult Function(String name, int maximumCharacters)? tooLong,
-    TResult Function(String name, int minimumCharacters)? tooShort,
+    TResult Function(String name, int maxChar)? tooLong,
+    TResult Function(String name, int minChar)? tooShort,
     required TResult orElse(),
   }) {
     if (tooShort != null) {
-      return tooShort(name, minimumCharacters);
+      return tooShort(name, minChar);
     }
     return orElse();
   }
@@ -548,12 +545,12 @@ class _$NameTooShortImpl extends NameTooShort {
 abstract class NameTooShort extends NameValidationResult {
   const factory NameTooShort(
       {required final String name,
-      required final int minimumCharacters}) = _$NameTooShortImpl;
+      required final int minChar}) = _$NameTooShortImpl;
   const NameTooShort._() : super._();
 
   @override
   String get name;
-  int get minimumCharacters;
+  int get minChar;
   @override
   @JsonKey(ignore: true)
   _$$NameTooShortImplCopyWith<_$NameTooShortImpl> get copyWith =>

@@ -8,14 +8,14 @@ class NameValidator {
     if (isRequired && firstName.length < firstNameMinLength) {
       return NameValidationResult.tooShort(
         name: firstName,
-        minimumCharacters: firstNameMinLength,
+        minChar: firstNameMinLength,
       );
     }
     if (firstName.isEmpty) return NameValidationResult.valid(name: firstName);
     if (firstName.length > firstNameMaxLength) {
       return NameValidationResult.tooLong(
         name: firstName,
-        maximumCharacters: firstNameMaxLength,
+        maxChar: firstNameMaxLength,
       );
     }
 

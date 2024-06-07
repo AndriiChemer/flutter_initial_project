@@ -70,8 +70,8 @@ extension on BaseTextInputState<String, NameValidationResult> {
             ? LocaleKeys.inputs_common_text_too_short.tr()
             : LocaleKeys.inputs_common_text_too_short.plural(minChars).tr(),
         tooLong: (_, maxChars) => context.isFlutterTest
-            ? LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr()
-            : LocaleKeys.inputs_common_text_too_long.tr(),
+            ? LocaleKeys.inputs_common_text_too_long.tr()
+            : LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr(),
         valid: (_) => '',
       ),
       notValidated: (_) => '',
