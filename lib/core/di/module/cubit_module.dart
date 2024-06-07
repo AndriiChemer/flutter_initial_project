@@ -40,5 +40,8 @@ abstract class CubitModule {
   NameInputCubit get mameInputCubit;
 
   @injectable
+  SurnameInputCubit get surnameInputCubit;
+
+  @injectable
   EmailInputCubit get emailInputCubit;
 }

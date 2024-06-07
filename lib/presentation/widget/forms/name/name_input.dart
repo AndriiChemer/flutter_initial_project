@@ -6,10 +6,9 @@ import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/base_text_input.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
-import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 
-class NameInput
-    extends BaseTextInput<String, NameValidationResult, NameInputCubit> {
+class NameInput<CUBIT extends BaseTextInputBloc<String, NameValidationResult>>
+    extends BaseTextInput<String, NameValidationResult, CUBIT> {
   const NameInput({
     required super.isRequired,
     this.onChanged,
@@ -64,26 +63,15 @@ class NameInput
 
 extension on BaseTextInputState<String, NameValidationResult> {
   String getErrorText(BuildContext context) {
-    if (context.isFlutterTest) {
-      return when(
-        init: () => '',
-        validated: (validationResult) => validationResult.when(
-          tooShort: (_, minChars) =>
-              'The field should contain at least $minChars characters',
-          tooLong: (_, maxChars) =>
-              'The field should contain a maximum of  $maxChars characters',
-          valid: (_) => '',
-        ),
-        notValidated: (_) => '',
-      );
-    }
     return when(
       init: () => '',
       validated: (validationResult) => validationResult.when(
-        tooShort: (_, minChars) =>
-            LocaleKeys.inputs_common_text_too_short.plural(minChars).tr(),
-        tooLong: (_, maxChars) =>
-            LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr(),
+        tooShort: (_, minChars) => context.isFlutterTest
+            ? LocaleKeys.inputs_common_text_too_short.tr()
+            : LocaleKeys.inputs_common_text_too_short.plural(minChars).tr(),
+        tooLong: (_, maxChars) => context.isFlutterTest
+            ? LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr()
+            : LocaleKeys.inputs_common_text_too_long.tr(),
         valid: (_) => '',
       ),
       notValidated: (_) => '',

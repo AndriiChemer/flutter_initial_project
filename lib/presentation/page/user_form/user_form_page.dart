@@ -8,6 +8,7 @@ import 'package:iteo_libraries_example/presentation/page/user_form/cubit/user_fo
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input.dart';
+import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 
 @RoutePage()
 class UserFormPage extends HookWidget {
@@ -80,7 +81,7 @@ class _Content extends HookWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          NameInput(
+          NameInput<NameInputCubit>(
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateName,
@@ -89,7 +90,7 @@ class _Content extends HookWidget {
             textInputAction: TextInputAction.next,
           ),
           const CustomGap.big(),
-          NameInput(
+          NameInput<SurnameInputCubit>(
             isRequired: true,
             revalidator: cubit.revalidationRequestStream,
             onEditingFinished: cubit.updateSurname,

@@ -39,7 +39,7 @@ class EmailInput
       autofillHints: const [AutofillHints.email],
       labelText: labelTextWithRequiredSuffix,
       autofocus: autofocus,
-      errorText: state.getErrorText(context),
+      errorText: state.errorText,
       keyboardType: TextInputType.emailAddress,
       textInputAction: textInputAction,
       textCapitalization: TextCapitalization.words,
@@ -55,35 +55,17 @@ class EmailInput
 }
 
 extension on BaseTextInputState<String, EmailValidationResult> {
-  String getErrorText(BuildContext context) {
-    // if(context.isFlutterTest) {
-    //   return when(
-    //     init: () => '',
-    //     validated: (validatedEmail) => validatedEmail.when(
-    //       empty: (_) => 'Required fields',
-    //       tooLong: (_) => LocaleKeys.inputs_email_validation_wrong_format.tr(),
-    //       wrongFormat: (_) =>
-    //           LocaleKeys.inputs_email_validation_wrong_format.tr(),
-    //       notAllowedCharacters: (_) =>
-    //           LocaleKeys.inputs_email_validation_not_allowed_characters.tr(),
-    //       valid: (_) => '',
-    //     ),
-    //     notValidated: (_) => '',
-    //   )
-    // }
-
-    return when(
-      init: () => '',
-      validated: (validatedEmail) => validatedEmail.when(
-        empty: (_) => LocaleKeys.inputs_common_empty.tr(),
-        tooLong: (_) => LocaleKeys.inputs_email_validation_wrong_format.tr(),
-        wrongFormat: (_) =>
-            LocaleKeys.inputs_email_validation_wrong_format.tr(),
-        notAllowedCharacters: (_) =>
-            LocaleKeys.inputs_email_validation_not_allowed_characters.tr(),
-        valid: (_) => '',
-      ),
-      notValidated: (_) => '',
-    );
-  }
+  String get errorText => when(
+        init: () => '',
+        validated: (validatedEmail) => validatedEmail.when(
+          empty: (_) => LocaleKeys.inputs_common_empty.tr(),
+          tooLong: (_) => LocaleKeys.inputs_email_validation_wrong_format.tr(),
+          wrongFormat: (_) =>
+              LocaleKeys.inputs_email_validation_wrong_format.tr(),
+          notAllowedCharacters: (_) =>
+              LocaleKeys.inputs_email_validation_not_allowed_characters.tr(),
+          valid: (_) => '',
+        ),
+        notValidated: (_) => '',
+      );
 }

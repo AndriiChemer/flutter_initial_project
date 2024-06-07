@@ -139,6 +139,7 @@ extension GetItInjectableX on _i1.GetIt {
     gh.lazySingleton<_i21.CarLocalRepository>(
         () => repositoryModule.carLocalRepository);
     gh.factory<_i22.NameInputCubit>(() => cubitModule.mameInputCubit);
+    gh.factory<_i22.SurnameInputCubit>(() => cubitModule.surnameInputCubit);
     gh.factory<_i23.DeepLinkStreamUseCase>(
         () => useCaseModule.deepLinkStreamUseCase);
     gh.factory<_i24.TriggerDeepLinksUseCase>(
@@ -194,6 +195,10 @@ class _$CubitModule extends _i42.CubitModule {
   @override
   _i22.NameInputCubit get mameInputCubit =>
       _i22.NameInputCubit(_getIt<_i10.NameValidator>());
+
+  @override
+  _i22.SurnameInputCubit get surnameInputCubit =>
+      _i22.SurnameInputCubit(_getIt<_i10.NameValidator>());
 
   @override
   _i26.DeepLinksWrapperCubit get deepLinksWrapperCubit =>
