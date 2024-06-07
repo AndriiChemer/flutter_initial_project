@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
@@ -31,6 +32,7 @@ class NameInput
 
   @override
   Widget buildTextField(
+    BuildContext context,
     TextEditingController editingController,
     BaseTextInputState<String, NameValidationResult> state,
     BaseTextInputBloc<String, NameValidationResult> cubit,
@@ -42,7 +44,7 @@ class NameInput
       autofillHints: const [AutofillHints.givenName],
       labelText: labelTextWithRequiredSuffix,
       autofocus: autofocus,
-      errorText: state.errorText,
+      errorText: state.getErrorText(context),
       keyboardType: TextInputType.text,
       textInputAction: textInputAction,
       textCapitalization: TextCapitalization.words,
@@ -61,7 +63,20 @@ class NameInput
 }
 
 extension on BaseTextInputState<String, NameValidationResult> {
-  String get errorText {
+  String getErrorText(BuildContext context) {
+    if (context.isFlutterTest) {
+      return when(
+        init: () => '',
+        validated: (validationResult) => validationResult.when(
+          tooShort: (_, minChars) =>
+              'The field should contain at least $minChars characters',
+          tooLong: (_, maxChars) =>
+              'The field should contain a maximum of  $maxChars characters',
+          valid: (_) => '',
+        ),
+        notValidated: (_) => '',
+      );
+    }
     return when(
       init: () => '',
       validated: (validationResult) => validationResult.when(

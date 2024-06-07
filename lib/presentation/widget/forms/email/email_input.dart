@@ -7,7 +7,8 @@ import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input_cubit.dart';
 
-class EmailInput extends BaseTextInput<String, EmailValidationResult, EmailInputCubit> {
+class EmailInput
+    extends BaseTextInput<String, EmailValidationResult, EmailInputCubit> {
   const EmailInput({
     required super.isRequired,
     this.autofocus = false,
@@ -26,6 +27,7 @@ class EmailInput extends BaseTextInput<String, EmailValidationResult, EmailInput
 
   @override
   Widget buildTextField(
+    BuildContext context,
     TextEditingController editingController,
     BaseTextInputState<String, EmailValidationResult> state,
     BaseTextInputBloc<String, EmailValidationResult> cubit,
@@ -37,7 +39,7 @@ class EmailInput extends BaseTextInput<String, EmailValidationResult, EmailInput
       autofillHints: const [AutofillHints.email],
       labelText: labelTextWithRequiredSuffix,
       autofocus: autofocus,
-      errorText: state.errorText,
+      errorText: state.getErrorText(context),
       keyboardType: TextInputType.emailAddress,
       textInputAction: textInputAction,
       textCapitalization: TextCapitalization.words,
@@ -53,7 +55,23 @@ class EmailInput extends BaseTextInput<String, EmailValidationResult, EmailInput
 }
 
 extension on BaseTextInputState<String, EmailValidationResult> {
-  String get errorText {
+  String getErrorText(BuildContext context) {
+    // if(context.isFlutterTest) {
+    //   return when(
+    //     init: () => '',
+    //     validated: (validatedEmail) => validatedEmail.when(
+    //       empty: (_) => 'Required fields',
+    //       tooLong: (_) => LocaleKeys.inputs_email_validation_wrong_format.tr(),
+    //       wrongFormat: (_) =>
+    //           LocaleKeys.inputs_email_validation_wrong_format.tr(),
+    //       notAllowedCharacters: (_) =>
+    //           LocaleKeys.inputs_email_validation_not_allowed_characters.tr(),
+    //       valid: (_) => '',
+    //     ),
+    //     notValidated: (_) => '',
+    //   )
+    // }
+
     return when(
       init: () => '',
       validated: (validatedEmail) => validatedEmail.when(

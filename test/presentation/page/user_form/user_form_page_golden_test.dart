@@ -395,14 +395,6 @@ void main() {
         name: 'Loaded and name is not valid',
         widget: Builder(
           builder: (context) {
-            final state = const BaseTextInputState<String,
-                NameValidationResult>.validated(
-              NameValidationResult.tooShort(
-                name: 'te',
-                minimumCharacters: 3,
-              ),
-            );
-
             /// NAME INPUT CUBIT
             whenListen(
               mockNameInputCubit,
@@ -496,12 +488,8 @@ void main() {
           final textFields = find.byType(TextField);
 
           expect(textFields.at(0), findsOneWidget);
-          // expect(textFields.at(1), findsOneWidget);
-          // expect(textFields.at(2), findsOneWidget);
 
           await tester.enterText(textFields.at(0), 'te');
-          // await tester.enterText(textFields.at(1), 'Test');
-          // await tester.enterText(textFields.at(2), 'test@test.com');
         },
       );
 

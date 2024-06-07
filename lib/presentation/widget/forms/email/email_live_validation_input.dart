@@ -7,7 +7,8 @@ import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input_cubit.dart';
 
-class EmailLiveValidationInput extends BaseTextInput<String, EmailValidationResult, EmailInputCubit> {
+class EmailLiveValidationInput
+    extends BaseTextInput<String, EmailValidationResult, EmailInputCubit> {
   const EmailLiveValidationInput({
     required super.isRequired,
     required this.onChanged,
@@ -30,6 +31,7 @@ class EmailLiveValidationInput extends BaseTextInput<String, EmailValidationResu
 
   @override
   Widget buildTextField(
+    BuildContext context,
     TextEditingController editingController,
     BaseTextInputState<String, EmailValidationResult> state,
     EmailInputCubit cubit,

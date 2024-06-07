@@ -93,7 +93,7 @@ abstract class BaseTextInput<TInput, TValidatedInput,
       [node],
     );
 
-    return buildTextField(controller, state, cubit, node);
+    return buildTextField(context, controller, state, cubit, node);
   }
 
   void init(TCubit cubit) => {};
@@ -108,6 +108,7 @@ abstract class BaseTextInput<TInput, TValidatedInput,
   // TODO think about it
   // @usedInListView
   Widget buildTextField(
+    BuildContext context,
     TextEditingController editingController,
     BaseTextInputState<TInput, TValidatedInput> state,
     covariant BaseTextInputBloc<TInput, TValidatedInput> cubit,
