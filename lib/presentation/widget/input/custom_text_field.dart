@@ -1,7 +1,9 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
+import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/widget/custom_text.dart';
 import 'package:iteo_libraries_example/presentation/widget/error_info.dart';
 import 'package:iteo_libraries_example/presentation/widget/theme/animation_durations.dart';
@@ -41,6 +43,8 @@ class CustomTextField extends HookWidget {
     this.labelStyle,
     this.floatingLabelBehavior,
     this.contentPadding,
+    this.onFocusChange,
+    this.isRequired = false,
     this.errorBorderEnabled = true,
     bool? autocorrect,
   }) : autocorrect = autocorrect ?? true;
@@ -61,6 +65,7 @@ class CustomTextField extends HookWidget {
   final double prefixIconPadding;
   final Widget? suffixIcon;
   final double? suffixIconPadding;
+  final bool isRequired;
   final bool autofocus;
   final int? maxLines;
   final Iterable<String>? autofillHints;
@@ -77,9 +82,17 @@ class CustomTextField extends HookWidget {
   final EdgeInsets? contentPadding;
   final bool autocorrect;
   final bool errorBorderEnabled;
+  final void Function(bool value)? onFocusChange;
 
   EdgeInsets get suffixIconEndPadding =>
       EdgeInsets.only(right: suffixIconPadding ?? Spacings.md);
+
+  String get labelTextWithRequiredSuffix {
+    final requiredSuffix =
+        isRequired ? LocaleKeys.inputs_common_required_suffix.tr() : '';
+
+    return '$labelText$requiredSuffix';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -130,69 +143,73 @@ class CustomTextField extends HookWidget {
       children: [
         Material(
           type: MaterialType.transparency,
-          child: TextField(
-            autocorrect: autocorrect,
-            controller: controller,
-            focusNode: focusNode,
-            keyboardType: keyboardType,
-            autofillHints: autofillHints,
-            autofocus: autofocus,
-            keyboardAppearance: colors.brightness,
-            enabled: enabled,
-            readOnly: readOnly,
-            cursorColor: colors.typo,
-            maxLength: maxLength,
-            maxLines: maxLines,
-            style: style ??
-                typo.f15w500.copyWith(
-                  color: enabled ? context.colors.typo : context.colors.subtypo,
-                ),
-            inputFormatters: inputFormatters,
-            onChanged: onChanged,
-            textCapitalization: textCapitalization,
-            textInputAction: textInputAction,
-            onEditingComplete: onEditingComplete == null
-                ? null
-                : () => onEditingComplete!(controller.text),
-            onSubmitted: onSubmitted,
-            textAlignVertical: TextAlignVertical.center,
-            decoration: InputDecoration(
+          child: FocusScope(
+            onFocusChange: onFocusChange,
+            child: TextField(
+              autocorrect: autocorrect,
+              controller: controller,
+              focusNode: focusNode,
+              keyboardType: keyboardType,
+              autofillHints: autofillHints,
+              autofocus: autofocus,
+              keyboardAppearance: colors.brightness,
               enabled: enabled,
-              hintStyle: typo.f15w500.copyWith(color: colors.subtypo),
-              labelStyle: typo.f15w500.copyWith(color: colors.subtypo),
-              labelText: labelText,
-              floatingLabelStyle:
-                  labelStyle ?? typo.f12w500.copyWith(color: colors.subtypo),
-              floatingLabelBehavior: floatingLabelBehavior,
-              prefix: (prefixText?.isNotEmpty ?? false)
-                  ? _PrefixText(prefixText: prefixText!)
-                  : prefix,
-              prefixIcon: prefixIcon != null
-                  ? Padding(
-                      padding: EdgeInsets.all(prefixIconPadding),
-                      child: prefixIcon,
-                    )
-                  : null,
-              suffixIcon: suffixIcon != null
-                  ? _SuffixIcon(
-                      suffixIcon: suffixIcon,
-                      padding: suffixIconEndPadding,
-                    )
-                  : null,
-              alignLabelWithHint: true,
-              contentPadding:
-                  contentPadding ?? const EdgeInsets.only(left: Spacings.md),
-              errorBorder: inputBorder,
-              focusedBorder: inputBorder,
-              hintText: hintText,
-              focusedErrorBorder: inputBorder,
-              disabledBorder: inputBorder,
-              enabledBorder: inputBorder,
-              border: inputBorder,
-              counterStyle: TextStyle(color: colors.typo),
-              counterText: counterDisabled
-                  ? ''
-                  : null, // Empty phrase disables default counter
+              readOnly: readOnly,
+              cursorColor: colors.typo,
+              maxLength: maxLength,
+              maxLines: maxLines,
+              style: style ??
+                  typo.f15w500.copyWith(
+                    color:
+                        enabled ? context.colors.typo : context.colors.subtypo,
+                  ),
+              inputFormatters: inputFormatters,
+              onChanged: onChanged,
+              textCapitalization: textCapitalization,
+              textInputAction: textInputAction,
+              onEditingComplete: onEditingComplete == null
+                  ? null
+                  : () => onEditingComplete!(controller.text),
+              onSubmitted: onSubmitted,
+              textAlignVertical: TextAlignVertical.center,
+              decoration: InputDecoration(
+                enabled: enabled,
+                hintStyle: typo.f15w500.copyWith(color: colors.subtypo),
+                labelStyle: typo.f15w500.copyWith(color: colors.subtypo),
+                labelText: labelTextWithRequiredSuffix,
+                floatingLabelStyle:
+                    labelStyle ?? typo.f12w500.copyWith(color: colors.subtypo),
+                floatingLabelBehavior: floatingLabelBehavior,
+                prefix: (prefixText?.isNotEmpty ?? false)
+                    ? _PrefixText(prefixText: prefixText!)
+                    : prefix,
+                prefixIcon: prefixIcon != null
+                    ? Padding(
+                        padding: EdgeInsets.all(prefixIconPadding),
+                        child: prefixIcon,
+                      )
+                    : null,
+                suffixIcon: suffixIcon != null
+                    ? _SuffixIcon(
+                        suffixIcon: suffixIcon,
+                        padding: suffixIconEndPadding,
+                      )
+                    : null,
+                alignLabelWithHint: true,
+                contentPadding:
+                    contentPadding ?? const EdgeInsets.only(left: Spacings.md),
+                errorBorder: inputBorder,
+                focusedBorder: inputBorder,
+                hintText: hintText,
+                focusedErrorBorder: inputBorder,
+                disabledBorder: inputBorder,
+                enabledBorder: inputBorder,
+                border: inputBorder,
+                counterStyle: TextStyle(color: colors.typo),
+                counterText: counterDisabled
+                    ? ''
+                    : null, // Empty phrase disables default counter
+              ),
             ),
           ),
         ),

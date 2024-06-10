@@ -6,6 +6,7 @@ import 'package:iteo_libraries_example/core/extension/build_context_extensions.d
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
+import 'package:iteo_libraries_example/presentation/page/auth/auth_page.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cars_page.dart';
 import 'package:iteo_libraries_example/presentation/page/cars_local/cars_local_page.dart';
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
@@ -74,6 +75,8 @@ class MainPage extends HookWidget {
         return const CarsPage();
       case BottomNavigationPages.localCars:
         return const CarsLocalPage();
+      case BottomNavigationPages.authForm:
+        return const AuthPage();
     }
   }
 
@@ -89,6 +92,8 @@ class MainPage extends HookWidget {
         return LocaleKeys.main_page_navigation_cars_cached.tr();
       case BottomNavigationPages.localCars:
         return LocaleKeys.main_page_navigation_cars_database.tr();
+      case BottomNavigationPages.authForm:
+        return LocaleKeys.main_page_navigation_auth.tr();
     }
   }
 }

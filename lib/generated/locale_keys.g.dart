@@ -10,6 +10,7 @@ abstract class  LocaleKeys {
   static const main_page_navigation_cars_cached = 'main_page.navigation.cars_cached';
   static const main_page_navigation_cars_database = 'main_page.navigation.cars_database';
   static const main_page_navigation_more = 'main_page.navigation.more';
+  static const main_page_navigation_auth = 'main_page.navigation.auth';
   static const main_page_navigation = 'main_page.navigation';
   static const main_page = 'main_page';
   static const setting_page_title = 'setting_page.title';
@@ -29,6 +30,7 @@ abstract class  LocaleKeys {
   static const cars_page = 'cars_page';
   static const inputs_name = 'inputs.name';
   static const inputs_surname = 'inputs.surname';
+  static const inputs_phone = 'inputs.phone';
   static const inputs_email_title = 'inputs.email.title';
   static const inputs_email_validation_wrong_format = 'inputs.email.validation.wrong_format';
   static const inputs_email_validation_not_allowed_characters = 'inputs.email.validation.not_allowed_characters';

@@ -5,6 +5,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:iteo_libraries_example/domain/app_theme/enum/app_theme_type.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/navigation/app_router.dart';
+import 'package:iteo_libraries_example/presentation/page/auth/auth_page.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cars_page.dart';
 import 'package:iteo_libraries_example/presentation/page/cars_local/cars_local_page.dart';
 import 'package:iteo_libraries_example/presentation/page/home/home_page.dart';
@@ -38,14 +39,16 @@ class MainPageBottomNav extends HookWidget {
         selectedItemColor: colors.bottomNavigation.activeItemColor,
         unselectedItemColor: colors.bottomNavigation.unselectedItemColor,
         currentIndex: BottomNavigationPages.values.indexOf(selectedPage.value),
-        onTap: (index) => selectedPage.value = BottomNavigationPages.values[index],
-        items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
+        onTap: (index) =>
+            selectedPage.value = BottomNavigationPages.values[index],
+        items:
+            BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
       ),
     );
   }
 
   Widget _mapPage(BottomNavigationPages page) {
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return const HomePage();
       case BottomNavigationPages.userForms:
@@ -56,11 +59,13 @@ class MainPageBottomNav extends HookWidget {
         return const CarsPage();
       case BottomNavigationPages.localCars:
         return const CarsLocalPage();
+      case BottomNavigationPages.authForm:
+        return const AuthPage();
     }
   }
 
   BottomNavigationBarItem _mapBottomNavigationBar(BottomNavigationPages page) {
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return BottomNavigationBarItem(
           label: LocaleKeys.main_page_navigation_home.tr(),
@@ -85,6 +90,11 @@ class MainPageBottomNav extends HookWidget {
         return BottomNavigationBarItem(
           label: LocaleKeys.main_page_navigation_cars_database.tr(),
           icon: const Icon(Icons.car_repair_rounded),
+        );
+      case BottomNavigationPages.authForm:
+        return BottomNavigationBarItem(
+          label: LocaleKeys.main_page_navigation_auth.tr(),
+          icon: const Icon(Icons.login),
         );
     }
   }

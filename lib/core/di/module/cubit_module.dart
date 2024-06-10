@@ -1,4 +1,5 @@
 import 'package:injectable/injectable.dart';
+import 'package:iteo_libraries_example/presentation/page/auth/cubit/auth_bloc.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars_local/cubit/car_local_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/main/cubit/main_page_cubit.dart';
@@ -44,4 +45,7 @@ abstract class CubitModule {
 
   @injectable
   EmailInputCubit get emailInputCubit;
+
+  @injectable
+  AuthBloc get authBloc;
 }

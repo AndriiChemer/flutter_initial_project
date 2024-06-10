@@ -105,6 +105,12 @@ class CustomBottomNavigationBar extends HookWidget {
           color: color,
           size: Dimens.bottomNavigationIconSize,
         );
+      case BottomNavigationPages.authForm:
+        return Icon(
+          Icons.login,
+          color: color,
+          size: Dimens.bottomNavigationIconSize,
+        );
     }
   }
 }

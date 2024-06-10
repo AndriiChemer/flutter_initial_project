@@ -17,7 +17,9 @@ class MainPageAutoRouteBottomNavPage extends HookWidget {
       routes: BottomNavigationPages.values.map(_mapPage).toList(),
       builder: (context, child, _) {
         final tabsRouter = AutoTabsRouter.of(context);
-        final label = _mapBottomNavigationBar(BottomNavigationPages.values[tabsRouter.activeIndex]).label;
+        final label = _mapBottomNavigationBar(
+                BottomNavigationPages.values[tabsRouter.activeIndex])
+            .label;
         return Scaffold(
           appBar: AppBar(
             title: Text(label ?? ''),
@@ -32,7 +34,9 @@ class MainPageAutoRouteBottomNavPage extends HookWidget {
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: tabsRouter.activeIndex,
             onTap: (index) => tabsRouter.setActiveIndex(index),
-            items: BottomNavigationPages.values.map(_mapBottomNavigationBar).toList(),
+            items: BottomNavigationPages.values
+                .map(_mapBottomNavigationBar)
+                .toList(),
           ),
         );
       },
@@ -40,7 +44,7 @@ class MainPageAutoRouteBottomNavPage extends HookWidget {
   }
 
   PageRouteInfo<dynamic> _mapPage(BottomNavigationPages page) {
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return const HomeRoute();
       case BottomNavigationPages.userForms:
@@ -51,11 +55,13 @@ class MainPageAutoRouteBottomNavPage extends HookWidget {
         return const CarsLocalRoute();
       case BottomNavigationPages.cars:
         return const CarsRoute();
+      case BottomNavigationPages.authForm:
+        return const AuthRoute();
     }
   }
 
   BottomNavigationBarItem _mapBottomNavigationBar(BottomNavigationPages page) {
-    switch(page) {
+    switch (page) {
       case BottomNavigationPages.home:
         return BottomNavigationBarItem(
           label: LocaleKeys.main_page_navigation_home.tr(),
@@ -80,6 +86,11 @@ class MainPageAutoRouteBottomNavPage extends HookWidget {
         return BottomNavigationBarItem(
           label: LocaleKeys.main_page_navigation_cars_database.tr(),
           icon: const Icon(Icons.car_repair_rounded),
+        );
+      case BottomNavigationPages.authForm:
+        return BottomNavigationBarItem(
+          label: LocaleKeys.main_page_navigation_auth.tr(),
+          icon: const Icon(Icons.login),
         );
     }
   }

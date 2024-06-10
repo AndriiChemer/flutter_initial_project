@@ -3,5 +3,6 @@ enum BottomNavigationPages {
   cars,
   localCars,
   userForms,
+  authForm,
   more,
 }

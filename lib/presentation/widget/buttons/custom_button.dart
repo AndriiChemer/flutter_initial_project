@@ -14,12 +14,10 @@ class CustomButton extends StatelessWidget {
   factory CustomButton.fullWidth({
     required String title,
     required VoidCallback action,
+    bool isActive = true,
   }) {
     return CustomButton(
-      fullWidth: true,
-      title: title,
-      action: action,
-    );
+        fullWidth: true, title: title, action: action, isActive: isActive);
   }
 
   final String title;

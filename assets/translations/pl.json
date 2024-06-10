@@ -11,7 +11,8 @@
       "user_form": "User Forms",
       "cars_cached": "Cars Cached",
       "cars_database": "Cars database",
-      "more": "More"
+      "more": "More",
+      "auth": "Auth"
     }
   },
   "setting_page": {
@@ -37,6 +38,7 @@
   "inputs": {
     "name": "Name",
     "surname": "Surname",
+    "phone": "Phone",
     "email": {
       "title": "Email",
       "validation": {
