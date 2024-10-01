@@ -52,7 +52,7 @@ void main() {
   late MockCarsCubit carsCubit;
 
   setUp(() async {
-    await testPreExecutable(() async {
+    await testPreExecutable(preExecutable: () async {
       carsCubit = MockCarsCubit();
       when(() => carsCubit.getCars()).thenAnswer((_) async {});
     });

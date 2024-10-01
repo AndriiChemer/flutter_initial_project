@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get_it/get_it.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
@@ -29,9 +28,11 @@ void main() {
   late MockNameInputCubit mockNameInputCubit;
 
   setUp(() async {
-    await testPreExecutable(() async {
-      mockNameInputCubit = MockNameInputCubit();
-    });
+    await testPreExecutable(
+      preExecutable: () async {
+        mockNameInputCubit = MockNameInputCubit();
+      },
+    );
   });
 
   testGoldens(

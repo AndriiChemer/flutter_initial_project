@@ -9,7 +9,7 @@ import '../../../test_helpers/test_theme.dart';
 
 void main() {
   setUp(() async {
-    await testPreExecutable(() {});
+    await testPreExecutable();
   });
   testGoldens(
     'Home page',

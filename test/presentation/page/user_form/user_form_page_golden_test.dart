@@ -63,7 +63,7 @@ void main() {
   late EmailInputCubit mockEmailInputCubit;
 
   setUp(() async {
-    await testPreExecutable(() async {
+    await testPreExecutable(preExecutable: () async {
       await getIt.reset();
       userFormBloc = MockUserFormBloc();
       mockNameInputCubit = MockNameInputCubit();
