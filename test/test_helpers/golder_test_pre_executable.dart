@@ -43,11 +43,10 @@ const devices = [
 
 Future<void> testPreExecutable(FutureOr<void> Function() testMain) async {
   TestWidgetsFlutterBinding.ensureInitialized();
-  // await _loadProjectFonts();
-  // await _setupLocalization();
-  _setupLocalizationSync();
 
-  // await configureDependencies(AppEnv.development().environment);
+  await _loadFonts();
+  await _setupLocalization();
+
   // if (goldenFileComparator is LocalFileComparator) {
   //   final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
 
@@ -92,26 +91,15 @@ Future<void> _setupLocalization() async {
   );
 }
 
-void _setupLocalizationSync() {
-  final content = File(
-    'assets/translations/pl.json',
-  ).readAsStringSync();
-  final data = jsonDecode(content) as Map<String, dynamic>;
-  Localization.load(
-    const Locale('pl'),
-    translations: Translations(data),
-  );
+Future<void> _loadFonts() async {
+  // await AssetsManager.loadFontAsset(
+  //   path: 'packages/design_system/fonts/OpenSans-Regular.ttf',
+  //   fontName: 'OpenSans',
+  // );
+  // await AssetsManager.loadFontAsset(
+  //   path: 'packages/design_system/fonts/WorkSans-Regular.ttf',
+  //   fontName: 'WorkSans',
+  // );
+
+  await loadAppFonts();
 }
-
-// Future<void> _loadProjectFonts() async {
-//   await AssetsManager.loadFontAsset(
-//     path: 'packages/design_system/fonts/OpenSans-Regular.ttf',
-//     fontName: 'OpenSans',
-//   );
-//   await AssetsManager.loadFontAsset(
-//     path: 'packages/design_system/fonts/WorkSans-Regular.ttf',
-//     fontName: 'WorkSans',
-//   );
-
-//   await loadAppFonts();
-// }

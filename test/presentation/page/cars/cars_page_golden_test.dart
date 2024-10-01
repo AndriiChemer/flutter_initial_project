@@ -52,241 +52,239 @@ void main() {
   late MockCarsCubit carsCubit;
 
   setUp(() async {
-    carsCubit = MockCarsCubit();
-    when(() => carsCubit.getCars()).thenAnswer((_) async {});
+    await testPreExecutable(() async {
+      carsCubit = MockCarsCubit();
+      when(() => carsCubit.getCars()).thenAnswer((_) async {});
+    });
   });
 
-  testPreExecutable(() async {
-    testGoldens(
-      'Cars page - Loading',
-      (tester) async {
-        await testPreExecutable(() async {
-          final builder = DeviceBuilder();
+  testGoldens(
+    'Cars page - Loading',
+    (tester) async {
+      final builder = DeviceBuilder();
 
-          builder.addScenario(
-            name: 'Cars Loading',
-            widget: Builder(
-              builder: (context) {
-                whenListen(
-                  carsCubit,
-                  Stream<CarsState>.fromIterable([
-                    LoadingCars(),
-                  ]),
-                  initialState: LoadingCars(),
-                );
-
-                whenListenAction(
-                  carsCubit,
-                  Stream<CarsAction>.fromIterable([]),
-                );
-
-                return const MainPage();
-              },
-            ),
-            onCreate: (scenarioWidgetKey) async {
-              final finder = find.descendant(
-                of: find.byKey(scenarioWidgetKey),
-                matching: find.byKey(Key(BottomNavigationPages.cars.name)),
-              );
-              expect(finder, findsOneWidget);
-
-              await tester.tap(finder);
-              await tester.pumpAndSettle();
-            },
-          );
-
-          /// Run the device builder
-          await tester.pumpDeviceBuilder(
-            builder,
-            wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
-              page: page,
-              cubit: carsCubit,
-            ),
-          );
-
-          /// Take screenshot
-          await screenMatchesGolden(
-            tester,
-            'cars_page_loading',
-          );
-        });
-      },
-    );
-    testGoldens(
-      'Cars Page - Loaded',
-      (tester) async {
-        final builder = DeviceBuilder();
-
-        builder.addScenario(
-          name: 'Cars Loaded',
-          widget: Builder(
-            builder: (context) {
-              whenListen(
-                carsCubit,
-                Stream<CarsState>.fromIterable([
-                  LoadingCars(),
-                  ShowCars(mockedCars),
-                ]),
-                initialState: LoadingCars(),
-              );
-
-              whenListenAction(
-                carsCubit,
-                Stream<CarsAction>.fromIterable([]),
-              );
-
-              return const MainPage();
-            },
-          ),
-          onCreate: (scenarioWidgetKey) async {
-            final finder = find.descendant(
-              of: find.byKey(scenarioWidgetKey),
-              matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+      builder.addScenario(
+        name: 'Cars Loading',
+        widget: Builder(
+          builder: (context) {
+            whenListen(
+              carsCubit,
+              Stream<CarsState>.fromIterable([
+                LoadingCars(),
+              ]),
+              initialState: LoadingCars(),
             );
-            expect(finder, findsOneWidget);
 
-            await tester.tap(finder);
-            await tester.pumpAndSettle();
+            whenListenAction(
+              carsCubit,
+              Stream<CarsAction>.fromIterable([]),
+            );
+
+            return const MainPage();
           },
-        );
+        ),
+        onCreate: (scenarioWidgetKey) async {
+          final finder = find.descendant(
+            of: find.byKey(scenarioWidgetKey),
+            matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+          );
+          expect(finder, findsOneWidget);
 
-        /// Run the device builder
-        await tester.pumpDeviceBuilder(
-          builder,
-          wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
-            page: page,
-            cubit: carsCubit,
-          ),
-        );
+          await tester.tap(finder);
+          await tester.pumpAndSettle();
+        },
+      );
 
-        /// Take screenshot
-        await screenMatchesGolden(
-          tester,
-          'cars_page_loaded',
-        );
-      },
-    );
+      /// Run the device builder
+      await tester.pumpDeviceBuilder(
+        builder,
+        wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
+          page: page,
+          cubit: carsCubit,
+        ),
+      );
 
-    testGoldens(
-      'Cars Page - Failed',
-      (tester) async {
-        final builder = DeviceBuilder();
+      /// Take screenshot
+      await screenMatchesGolden(
+        tester,
+        'cars_page_loading',
+      );
+    },
+  );
+  testGoldens(
+    'Cars Page - Loaded',
+    (tester) async {
+      final builder = DeviceBuilder();
 
-        builder.addScenario(
-          name: 'Cars loading failed',
-          widget: Builder(
-            builder: (context) {
-              whenListen(
-                carsCubit,
-                Stream<CarsState>.fromIterable([
-                  LoadingCars(),
-                  ShowCars(const []),
-                ]),
-                initialState: LoadingCars(),
-              );
-
-              whenListenAction(
-                carsCubit,
-                Stream<CarsAction>.fromIterable([
-                  ShowError(),
-                ]),
-              );
-
-              return const MainPage();
-            },
-          ),
-          onCreate: (scenarioWidgetKey) async {
-            final finder = find.descendant(
-              of: find.byKey(scenarioWidgetKey),
-              matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+      builder.addScenario(
+        name: 'Cars Loaded',
+        widget: Builder(
+          builder: (context) {
+            whenListen(
+              carsCubit,
+              Stream<CarsState>.fromIterable([
+                LoadingCars(),
+                ShowCars(mockedCars),
+              ]),
+              initialState: LoadingCars(),
             );
-            expect(finder, findsOneWidget);
 
-            await tester.tap(finder);
-            await tester.pumpAndSettle();
+            whenListenAction(
+              carsCubit,
+              Stream<CarsAction>.fromIterable([]),
+            );
+
+            return const MainPage();
           },
-        );
+        ),
+        onCreate: (scenarioWidgetKey) async {
+          final finder = find.descendant(
+            of: find.byKey(scenarioWidgetKey),
+            matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+          );
+          expect(finder, findsOneWidget);
 
-        /// Run the device builder
-        await tester.pumpDeviceBuilder(
-          builder,
-          wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
-            page: page,
-            cubit: carsCubit,
-          ),
-        );
+          await tester.tap(finder);
+          await tester.pumpAndSettle();
+        },
+      );
 
-        /// Take screenshot
-        await screenMatchesGolden(
-          tester,
-          'cars_page_failed',
-        );
-      },
-    );
+      /// Run the device builder
+      await tester.pumpDeviceBuilder(
+        builder,
+        wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
+          page: page,
+          cubit: carsCubit,
+        ),
+      );
 
-    testGoldens(
-      'Cars Page - Saved to database',
-      (tester) async {
-        final builder = DeviceBuilder();
+      /// Take screenshot
+      await screenMatchesGolden(
+        tester,
+        'cars_page_loaded',
+      );
+    },
+  );
 
-        builder.addScenario(
-          name: 'Cars Page - Saved to database',
-          widget: Builder(
-            builder: (context) {
-              whenListen(
-                carsCubit,
-                Stream<CarsState>.fromIterable([
-                  ShowCars(mockedCars),
-                ]),
-                initialState: LoadingCars(),
-              );
+  testGoldens(
+    'Cars Page - Failed',
+    (tester) async {
+      final builder = DeviceBuilder();
 
-              whenListenAction(
-                carsCubit,
-                Stream<CarsAction>.fromIterable([
-                  SavedToDatabase(),
-                ]),
-              );
-
-              return const MainPage();
-            },
-          ),
-          onCreate: (scenarioWidgetKey) async {
-            final finder = find.descendant(
-              of: find.byKey(scenarioWidgetKey),
-              matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+      builder.addScenario(
+        name: 'Cars loading failed',
+        widget: Builder(
+          builder: (context) {
+            whenListen(
+              carsCubit,
+              Stream<CarsState>.fromIterable([
+                LoadingCars(),
+                ShowCars(const []),
+              ]),
+              initialState: LoadingCars(),
             );
-            expect(finder, findsOneWidget);
 
-            await tester.tap(finder);
-            await tester.pumpAndSettle();
-
-            final saveDatabaseFinder = find.descendant(
-              of: find.byKey(scenarioWidgetKey),
-              matching: find.byKey(const Key('cars_save_database')),
+            whenListenAction(
+              carsCubit,
+              Stream<CarsAction>.fromIterable([
+                ShowError(),
+              ]),
             );
-            expect(saveDatabaseFinder, findsOneWidget);
 
-            await tester.press(saveDatabaseFinder);
-            await tester.pumpAndSettle();
+            return const MainPage();
           },
-        );
+        ),
+        onCreate: (scenarioWidgetKey) async {
+          final finder = find.descendant(
+            of: find.byKey(scenarioWidgetKey),
+            matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+          );
+          expect(finder, findsOneWidget);
 
-        /// Run the device builder
-        await tester.pumpDeviceBuilder(
-          builder,
-          wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
-            page: page,
-            cubit: carsCubit,
-          ),
-        );
+          await tester.tap(finder);
+          await tester.pumpAndSettle();
+        },
+      );
 
-        /// Take screenshot
-        await screenMatchesGolden(
-          tester,
-          'cars_save_to_database',
-        );
-      },
-    );
-  });
+      /// Run the device builder
+      await tester.pumpDeviceBuilder(
+        builder,
+        wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
+          page: page,
+          cubit: carsCubit,
+        ),
+      );
+
+      /// Take screenshot
+      await screenMatchesGolden(
+        tester,
+        'cars_page_failed',
+      );
+    },
+  );
+
+  testGoldens(
+    'Cars Page - Saved to database',
+    (tester) async {
+      final builder = DeviceBuilder();
+
+      builder.addScenario(
+        name: 'Cars Page - Saved to database',
+        widget: Builder(
+          builder: (context) {
+            whenListen(
+              carsCubit,
+              Stream<CarsState>.fromIterable([
+                ShowCars(mockedCars),
+              ]),
+              initialState: LoadingCars(),
+            );
+
+            whenListenAction(
+              carsCubit,
+              Stream<CarsAction>.fromIterable([
+                SavedToDatabase(),
+              ]),
+            );
+
+            return const MainPage();
+          },
+        ),
+        onCreate: (scenarioWidgetKey) async {
+          final finder = find.descendant(
+            of: find.byKey(scenarioWidgetKey),
+            matching: find.byKey(Key(BottomNavigationPages.cars.name)),
+          );
+          expect(finder, findsOneWidget);
+
+          await tester.tap(finder);
+          await tester.pumpAndSettle();
+
+          final saveDatabaseFinder = find.descendant(
+            of: find.byKey(scenarioWidgetKey),
+            matching: find.byKey(const Key('cars_save_database')),
+          );
+          expect(saveDatabaseFinder, findsOneWidget);
+
+          await tester.press(saveDatabaseFinder);
+          await tester.pumpAndSettle();
+        },
+      );
+
+      /// Run the device builder
+      await tester.pumpDeviceBuilder(
+        builder,
+        wrapper: (page) => testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
+          page: page,
+          cubit: carsCubit,
+        ),
+      );
+
+      /// Take screenshot
+      await screenMatchesGolden(
+        tester,
+        'cars_save_to_database',
+      );
+    },
+  );
 }
