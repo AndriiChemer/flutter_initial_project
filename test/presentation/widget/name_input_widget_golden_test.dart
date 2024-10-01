@@ -5,70 +5,33 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
-import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
-import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:provider/provider.dart';
 
+import '../../test_helpers/golden_test_app_wrappers.dart';
+import '../../test_helpers/golder_test_pre_executable.dart';
 import '../../test_helpers/test_action_bloc.dart';
-import '../../test_helpers/test_theme.dart';
-import '../page/settings/settings_page_cubit_test.mocks.dart';
 
 typedef StringInputState = BaseTextInputState<String, NameValidationResult>;
 typedef StringInputAction = BaseTextInputActions<NameValidationResult>;
 
 class MockNameInputCubit extends Mock implements NameInputCubit {
   MockNameInputCubit() {
-    when(() => stream).thenAnswer((_) =>
-        const Stream<BaseTextInputState<String, NameValidationResult>>.empty());
+    when(() => stream).thenAnswer((_) => const Stream<BaseTextInputState<String, NameValidationResult>>.empty());
     when(close).thenAnswer((_) => Future<void>.value());
   }
 }
 
 void main() {
-  final getIt = GetIt.instance;
   late MockNameInputCubit mockNameInputCubit;
-  late MockGetAppThemeTypeStreamUseCase mockGetAppThemeTypeStreamUseCase;
-
-  late Widget testedWidget;
 
   setUp(() async {
-    await getIt.reset();
-    mockNameInputCubit = MockNameInputCubit();
-    mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
-
-    getIt.registerFactory<NameInputCubit>(() => mockNameInputCubit);
-
-    testedWidget = HookedBlocConfigProvider(
-      injector: () => getIt.get,
-      child: MultiProvider(
-        providers: [
-          ChangeNotifierProvider(
-            create: (_) => AppColorsProvider(
-              mockGetAppThemeTypeStreamUseCase,
-            ),
-          ),
-          ProxyProvider<AppColorsProvider, AppTypo>(
-            update: (_, value, __) => AppTypo(value.colors),
-          ),
-          ProxyProvider<AppColorsProvider, AppShadows>(
-            update: (_, value, __) => AppShadows(value.colors),
-          ),
-        ],
-        child: Container(
-          padding: const EdgeInsets.all(16),
-          child: NameInput<NameInputCubit>(
-            isRequired: true,
-            onEditingFinished: (value) {},
-            textInputAction: TextInputAction.next,
-          ),
-        ),
-      ),
-    );
+    await testPreExecutable(() async {
+      mockNameInputCubit = MockNameInputCubit();
+    });
   });
 
   testGoldens(
@@ -93,7 +56,14 @@ void main() {
               Stream<StringInputAction>.fromIterable([]),
             );
 
-            return testedWidget;
+            return Container(
+              padding: const EdgeInsets.all(16),
+              child: NameInput<NameInputCubit>(
+                isRequired: true,
+                onEditingFinished: (value) {},
+                textInputAction: TextInputAction.next,
+              ),
+            );
           },
         ),
       );
@@ -101,8 +71,10 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageActionCubitWrapper<NameInputCubit, BaseTextInputState<String, NameValidationResult>,
+            BaseTextInputActions<NameValidationResult>>(
+          page: page,
+          cubit: mockNameInputCubit,
         ),
       );
 
@@ -145,7 +117,14 @@ void main() {
               ]),
             );
 
-            return testedWidget;
+            return Container(
+              padding: const EdgeInsets.all(16),
+              child: NameInput<NameInputCubit>(
+                isRequired: true,
+                onEditingFinished: (value) {},
+                textInputAction: TextInputAction.next,
+              ),
+            );
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -162,8 +141,10 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageActionCubitWrapper<NameInputCubit, BaseTextInputState<String, NameValidationResult>,
+            BaseTextInputActions<NameValidationResult>>(
+          page: page,
+          cubit: mockNameInputCubit,
         ),
       );
 
@@ -206,7 +187,14 @@ void main() {
               ]),
             );
 
-            return testedWidget;
+            return Container(
+              padding: const EdgeInsets.all(16),
+              child: NameInput<NameInputCubit>(
+                isRequired: true,
+                onEditingFinished: (value) {},
+                textInputAction: TextInputAction.next,
+              ),
+            );
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -223,8 +211,10 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageActionCubitWrapper<NameInputCubit, BaseTextInputState<String, NameValidationResult>,
+            BaseTextInputActions<NameValidationResult>>(
+          page: page,
+          cubit: mockNameInputCubit,
         ),
       );
 
@@ -264,7 +254,14 @@ void main() {
               ]),
             );
 
-            return testedWidget;
+            return Container(
+              padding: const EdgeInsets.all(16),
+              child: NameInput<NameInputCubit>(
+                isRequired: true,
+                onEditingFinished: (value) {},
+                textInputAction: TextInputAction.next,
+              ),
+            );
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -281,8 +278,10 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageActionCubitWrapper<NameInputCubit, BaseTextInputState<String, NameValidationResult>,
+            BaseTextInputActions<NameValidationResult>>(
+          page: page,
+          cubit: mockNameInputCubit,
         ),
       );
 

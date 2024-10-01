@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:iteo_libraries_example/core/extension/build_context_extensions.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
 import 'package:iteo_libraries_example/generated/locale_keys.g.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
