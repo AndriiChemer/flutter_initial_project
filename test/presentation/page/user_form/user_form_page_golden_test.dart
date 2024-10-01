@@ -35,8 +35,7 @@ class MockUserFormBloc extends MockCubit<UserFormState>
 class MockNameInputCubit extends Mock implements NameInputCubit {
   MockNameInputCubit() {
     when(() => stream).thenAnswer(
-      (_) => const Stream<
-          BaseTextInputState<String, NameValidationResult>>.empty(),
+      (_) => const Stream<StringInputState>.empty(),
     );
     when(close).thenAnswer((_) => Future<void>.value());
   }
@@ -45,8 +44,7 @@ class MockNameInputCubit extends Mock implements NameInputCubit {
 class MockSurnameInputCubit extends Mock implements SurnameInputCubit {
   MockSurnameInputCubit() {
     when(() => stream).thenAnswer(
-      (_) => const Stream<
-          BaseTextInputState<String, NameValidationResult>>.empty(),
+      (_) => const Stream<StringInputState>.empty(),
     );
     when(close).thenAnswer((_) => Future<void>.value());
   }
@@ -55,17 +53,11 @@ class MockSurnameInputCubit extends Mock implements SurnameInputCubit {
 class MockEmailInputCubit extends Mock implements EmailInputCubit {
   MockEmailInputCubit() {
     when(() => stream).thenAnswer(
-      (_) => const Stream<
-          BaseTextInputState<String, EmailValidationResult>>.empty(),
+      (_) => const Stream<EmailInputState>.empty(),
     );
     when(close).thenAnswer((_) => Future<void>.value());
   }
 }
-
-/// TASKS
-/// 1. State Loading
-/// 2. State Loaded all fields validated
-/// 1. State Loaded some fields not valid
 
 void main() {
   final getIt = GetIt.instance;
@@ -77,6 +69,12 @@ void main() {
   late EmailInputCubit mockEmailInputCubit;
 
   late Widget testedWidget;
+
+   void mockInitialsWhen() {
+    when(() => userFormBloc.revalidationRequestStream)
+        .thenAnswer((_) => const Stream.empty());
+    when(() => userFormBloc.init()).thenAnswer((_) async {});
+  }
 
   setUp(() async {
     await getIt.reset();
@@ -94,9 +92,7 @@ void main() {
       () => mockEmailInputCubit,
     );
 
-    when(() => userFormBloc.revalidationRequestStream)
-        .thenAnswer((_) => const Stream.empty());
-    when(() => userFormBloc.init()).thenAnswer((_) async {});
+    mockInitialsWhen();
 
     testedWidget = HookedBlocConfigProvider(
       injector: () => getIt.get,
@@ -122,6 +118,7 @@ void main() {
       ),
     );
   });
+
 
   testGoldens(
     'User form - Loading',
@@ -309,7 +306,7 @@ void main() {
               Stream<StringInputAction>.fromIterable(
                 [
                   const StringInputAction.finishEditing(
-                    NameValidationResult.valid(name: 'test@test.com'),
+                    NameValidationResult.valid(name: 'Test'),
                   ),
                 ],
               ),
@@ -714,4 +711,6 @@ void main() {
       );
     },
   );
+
+  
 }

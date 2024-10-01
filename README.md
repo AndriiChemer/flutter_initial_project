@@ -31,6 +31,16 @@ flutter packages pub get
 
 `flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart`
 
+## Tests
+
+### Golden test
+
+Run all golden tests:
+
+```
+flutter test --update-goldens --tags=golden
+```
+
 ## Materials
 
 ### Drift (database)
