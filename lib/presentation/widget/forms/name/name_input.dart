@@ -66,12 +66,8 @@ extension on BaseTextInputState<String, NameValidationResult> {
     return when(
       init: () => '',
       validated: (validationResult) => validationResult.when(
-        tooShort: (_, minChars) => context.isFlutterTest
-            ? LocaleKeys.inputs_common_text_too_short.tr()
-            : LocaleKeys.inputs_common_text_too_short.plural(minChars).tr(),
-        tooLong: (_, maxChars) => context.isFlutterTest
-            ? LocaleKeys.inputs_common_text_too_long.tr()
-            : LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr(),
+        tooShort: (_, minChars) => LocaleKeys.inputs_common_text_too_short.plural(minChars).tr(),
+        tooLong: (_, maxChars) => LocaleKeys.inputs_common_text_too_long.plural(maxChars).tr(),
         valid: (_) => '',
       ),
       notValidated: (_) => '',

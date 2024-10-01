@@ -2,26 +2,22 @@ import 'dart:async';
 
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
-import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validation_result.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/cubit/user_form_bloc.dart';
-import 'package:iteo_libraries_example/presentation/widget/export.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input_cubit.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:provider/provider.dart';
 
+import '../../../test_helpers/golden_test_app_wrappers.dart';
+import '../../../test_helpers/golder_test_pre_executable.dart';
 import '../../../test_helpers/test_action_bloc.dart';
-import '../../../test_helpers/test_theme.dart';
-import '../settings/settings_page_cubit_test.mocks.dart';
 
 typedef StringInputState = BaseTextInputState<String, NameValidationResult>;
 typedef StringInputAction = BaseTextInputActions<NameValidationResult>;
@@ -29,8 +25,7 @@ typedef StringInputAction = BaseTextInputActions<NameValidationResult>;
 typedef EmailInputState = BaseTextInputState<String, EmailValidationResult>;
 typedef EmailInputAction = BaseTextInputActions<EmailValidationResult>;
 
-class MockUserFormBloc extends MockCubit<UserFormState>
-    implements UserFormBloc {}
+class MockUserFormBloc extends MockCubit<UserFormState> implements UserFormBloc {}
 
 class MockNameInputCubit extends Mock implements NameInputCubit {
   MockNameInputCubit() {
@@ -62,63 +57,30 @@ class MockEmailInputCubit extends Mock implements EmailInputCubit {
 void main() {
   final getIt = GetIt.instance;
   late MockUserFormBloc userFormBloc;
-  late MockGetAppThemeTypeStreamUseCase mockGetAppThemeTypeStreamUseCase;
 
   late MockNameInputCubit mockNameInputCubit;
   late MockSurnameInputCubit mockSurnameInputCubit;
   late EmailInputCubit mockEmailInputCubit;
 
-  late Widget testedWidget;
-
-   void mockInitialsWhen() {
-    when(() => userFormBloc.revalidationRequestStream)
-        .thenAnswer((_) => const Stream.empty());
-    when(() => userFormBloc.init()).thenAnswer((_) async {});
-  }
-
   setUp(() async {
-    await getIt.reset();
-    userFormBloc = MockUserFormBloc();
-    mockNameInputCubit = MockNameInputCubit();
-    mockSurnameInputCubit = MockSurnameInputCubit();
-    mockEmailInputCubit = MockEmailInputCubit();
+    await testPreExecutable(() async {
+      await getIt.reset();
+      userFormBloc = MockUserFormBloc();
+      mockNameInputCubit = MockNameInputCubit();
+      mockSurnameInputCubit = MockSurnameInputCubit();
+      mockEmailInputCubit = MockEmailInputCubit();
 
-    mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
+      getIt.registerFactory<UserFormBloc>(() => userFormBloc);
+      getIt.registerFactory<NameInputCubit>(() => mockNameInputCubit);
+      getIt.registerFactory<SurnameInputCubit>(() => mockSurnameInputCubit);
+      getIt.registerFactory<EmailInputCubit>(
+        () => mockEmailInputCubit,
+      );
 
-    getIt.registerFactory<UserFormBloc>(() => userFormBloc);
-    getIt.registerFactory<NameInputCubit>(() => mockNameInputCubit);
-    getIt.registerFactory<SurnameInputCubit>(() => mockSurnameInputCubit);
-    getIt.registerFactory<EmailInputCubit>(
-      () => mockEmailInputCubit,
-    );
-
-    mockInitialsWhen();
-
-    testedWidget = HookedBlocConfigProvider(
-      injector: () => getIt.get,
-      child: MultiProvider(
-        providers: [
-          ChangeNotifierProvider(
-            create: (_) => AppColorsProvider(
-              mockGetAppThemeTypeStreamUseCase,
-            ),
-          ),
-          ProxyProvider<AppColorsProvider, AppTypo>(
-            update: (_, value, __) => AppTypo(value.colors),
-          ),
-          ProxyProvider<AppColorsProvider, AppShadows>(
-            update: (_, value, __) => AppShadows(value.colors),
-          ),
-        ],
-        child: HookBuilder(
-          builder: (context) {
-            return const MainPage();
-          },
-        ),
-      ),
-    );
+      when(() => userFormBloc.revalidationRequestStream).thenAnswer((_) => const Stream.empty());
+      when(() => userFormBloc.init()).thenAnswer((_) async {});
+    });
   });
-
 
   testGoldens(
     'User form - Loading',
@@ -144,7 +106,7 @@ void main() {
               Stream<UserFormAction>.fromIterable([]),
             );
 
-            return testedWidget;
+            return const MainPage();
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -162,8 +124,9 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageGetItWrapper(
+          page: page,
+          getItInstance: getIt,
         ),
       );
 
@@ -238,7 +201,7 @@ void main() {
               Stream<UserFormAction>.fromIterable([]),
             );
 
-            return testedWidget;
+            return const MainPage();
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -256,8 +219,9 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageGetItWrapper(
+          page: page,
+          getItInstance: getIt,
         ),
       );
 
@@ -358,14 +322,11 @@ void main() {
               Stream<UserFormState>.fromIterable([
                 UserFormLoading(),
                 UserFormValidated(
-                  nameValidationResult:
-                      const NameValidationResult.valid(name: 'Test'),
+                  nameValidationResult: const NameValidationResult.valid(name: 'Test'),
                   name: 'Test',
-                  surnameValidationResult:
-                      const NameValidationResult.valid(name: 'Surname'),
+                  surnameValidationResult: const NameValidationResult.valid(name: 'Surname'),
                   surname: 'Surname',
-                  emailValidationResult:
-                      const EmailValidationResult.valid(email: 'test@test.com'),
+                  emailValidationResult: const EmailValidationResult.valid(email: 'test@test.com'),
                   email: 'test@test.com',
                 ),
               ]),
@@ -377,7 +338,7 @@ void main() {
               Stream<UserFormAction>.fromIterable([]),
             );
 
-            return testedWidget;
+            return const MainPage();
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -406,8 +367,9 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageGetItWrapper(
+          page: page,
+          getItInstance: getIt,
         ),
       );
 
@@ -498,11 +460,9 @@ void main() {
               Stream<UserFormState>.fromIterable([
                 UserFormLoading(),
                 UserFormValidated(
-                  nameValidationResult:
-                      const NameValidationResult.valid(name: 'te'),
+                  nameValidationResult: const NameValidationResult.tooShort(name: 'te', minChar: 3),
                   name: 'te',
-                  surnameValidationResult:
-                      const NameValidationResult.valid(name: 'Su'),
+                  surnameValidationResult: const NameValidationResult.tooShort(name: 'Su', minChar: 3),
                   surname: 'Su',
                   emailValidationResult: null,
                   email: null,
@@ -516,7 +476,7 @@ void main() {
               Stream<UserFormAction>.fromIterable([]),
             );
 
-            return testedWidget;
+            return const MainPage();
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -543,8 +503,9 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageGetItWrapper(
+          page: page,
+          getItInstance: getIt,
         ),
       );
 
@@ -657,8 +618,7 @@ void main() {
                     minChar: 3,
                   ),
                   surname: 'Su',
-                  emailValidationResult:
-                      const EmailValidationResult.wrongFormat(email: 'test@'),
+                  emailValidationResult: const EmailValidationResult.wrongFormat(email: 'test@'),
                   email: 'test@',
                 ),
               ]),
@@ -670,7 +630,7 @@ void main() {
               Stream<UserFormAction>.fromIterable([]),
             );
 
-            return testedWidget;
+            return const MainPage();
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -699,8 +659,9 @@ void main() {
       /// Run the device builder
       await tester.pumpDeviceBuilder(
         builder,
-        wrapper: materialAppWrapper(
-          theme: getAppTheme(),
+        wrapper: (page) => testPageGetItWrapper(
+          page: page,
+          getItInstance: getIt,
         ),
       );
 
@@ -711,6 +672,4 @@ void main() {
       );
     },
   );
-
-  
 }
