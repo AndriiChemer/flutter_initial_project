@@ -1,8 +1,6 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hooked_bloc/hooked_bloc.dart';
-import 'package:iteo_libraries_example/presentation/app.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_cubit.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
@@ -47,14 +45,8 @@ Widget testPageCubitWrapper<T extends SafeCubit<State>, State>({
           update: (_, value, __) => AppShadows(value.colors),
         ),
       ],
-      child: EasyLocalization(
-        path: 'assets/translations',
-        supportedLocales: const [appLocale],
-        startLocale: appLocale,
-        fallbackLocale: appLocale,
-        child: TestApp(
-          child: page,
-        ),
+      child: TestApp(
+        child: page,
       ),
     ),
   );
@@ -96,14 +88,8 @@ Widget testPageActionCubitWrapper<T extends SafeActionCubit<State, Action>, Stat
           update: (_, value, __) => AppShadows(value.colors),
         ),
       ],
-      child: EasyLocalization(
-        path: 'assets/translations',
-        supportedLocales: const [appLocale],
-        startLocale: appLocale,
-        fallbackLocale: appLocale,
-        child: TestApp(
-          child: page,
-        ),
+      child: TestApp(
+        child: page,
       ),
     ),
   );
@@ -142,14 +128,8 @@ Widget testPageGetItWrapper({
           update: (_, value, __) => AppShadows(value.colors),
         ),
       ],
-      child: EasyLocalization(
-        path: 'assets/translations',
-        supportedLocales: const [appLocale],
-        startLocale: appLocale,
-        fallbackLocale: appLocale,
-        child: TestApp(
-          child: page,
-        ),
+      child: TestApp(
+        child: page,
       ),
     ),
   );

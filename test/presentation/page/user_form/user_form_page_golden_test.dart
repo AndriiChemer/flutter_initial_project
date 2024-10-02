@@ -15,8 +15,8 @@ import 'package:iteo_libraries_example/presentation/widget/forms/email/email_inp
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 import 'package:mocktail/mocktail.dart';
 
+import '../../../flutter_test_config.dart';
 import '../../../test_helpers/golden_test_app_wrappers.dart';
-import '../../../test_helpers/golder_test_pre_executable.dart';
 import '../../../test_helpers/test_action_bloc.dart';
 
 typedef StringInputState = BaseTextInputState<String, NameValidationResult>;
@@ -63,23 +63,21 @@ void main() {
   late EmailInputCubit mockEmailInputCubit;
 
   setUp(() async {
-    await testPreExecutable(preExecutable: () async {
-      await getIt.reset();
-      userFormBloc = MockUserFormBloc();
-      mockNameInputCubit = MockNameInputCubit();
-      mockSurnameInputCubit = MockSurnameInputCubit();
-      mockEmailInputCubit = MockEmailInputCubit();
+    await getIt.reset();
+    userFormBloc = MockUserFormBloc();
+    mockNameInputCubit = MockNameInputCubit();
+    mockSurnameInputCubit = MockSurnameInputCubit();
+    mockEmailInputCubit = MockEmailInputCubit();
 
-      getIt.registerFactory<UserFormBloc>(() => userFormBloc);
-      getIt.registerFactory<NameInputCubit>(() => mockNameInputCubit);
-      getIt.registerFactory<SurnameInputCubit>(() => mockSurnameInputCubit);
-      getIt.registerFactory<EmailInputCubit>(
-        () => mockEmailInputCubit,
-      );
+    getIt.registerFactory<UserFormBloc>(() => userFormBloc);
+    getIt.registerFactory<NameInputCubit>(() => mockNameInputCubit);
+    getIt.registerFactory<SurnameInputCubit>(() => mockSurnameInputCubit);
+    getIt.registerFactory<EmailInputCubit>(
+      () => mockEmailInputCubit,
+    );
 
-      when(() => userFormBloc.revalidationRequestStream).thenAnswer((_) => const Stream.empty());
-      when(() => userFormBloc.init()).thenAnswer((_) async {});
-    });
+    when(() => userFormBloc.revalidationRequestStream).thenAnswer((_) => const Stream.empty());
+    when(() => userFormBloc.init()).thenAnswer((_) async {});
   });
 
   testGoldens(
@@ -236,8 +234,6 @@ void main() {
   testGoldens(
     'User form - Loaded and fields are filled',
     (tester) async {
-      final builder = DeviceBuilder();
-
       const nameSurnameInitState = StringInputState.init();
       const nameValidState = StringInputState.validated(
         NameValidationResult.valid(name: 'Test'),
@@ -251,132 +247,128 @@ void main() {
         EmailValidationResult.valid(email: 'test@test.com'),
       );
 
-      builder.addScenario(
-        name: 'Loaded and fields are filled',
-        widget: Builder(
-          builder: (context) {
-            /// NAME INPUT CUBIT
-            whenListen(
-              mockNameInputCubit,
-              Stream<StringInputState>.fromIterable([
-                nameSurnameInitState,
-                nameValidState,
-              ]),
-              initialState: nameSurnameInitState,
-            );
-
-            whenListenAction(
-              mockNameInputCubit,
-              Stream<StringInputAction>.fromIterable(
-                [
-                  const StringInputAction.finishEditing(
-                    NameValidationResult.valid(name: 'Test'),
-                  ),
-                ],
-              ),
-            );
-
-            /// SURNAME INPUT CUBIT
-            whenListen(
-              mockSurnameInputCubit,
-              Stream<StringInputState>.fromIterable([
-                nameSurnameInitState,
-                surnameValidState,
-              ]),
-              initialState: nameSurnameInitState,
-            );
-
-            whenListenAction(
-              mockSurnameInputCubit,
-              Stream<StringInputAction>.fromIterable(
-                [
-                  const StringInputAction.finishEditing(
-                    NameValidationResult.valid(name: 'Surname'),
-                  ),
-                ],
-              ),
-            );
-
-            /// EMAIL INPUT CUBIT
-            whenListen(
-              mockEmailInputCubit,
-              Stream<EmailInputState>.fromIterable([
-                emailInitState,
-                emailValidState,
-              ]),
-              initialState: emailInitState,
-            );
-
-            whenListenAction(
-              mockEmailInputCubit,
-              Stream<EmailInputAction>.fromIterable([
-                const EmailInputAction.finishEditing(
-                  EmailValidationResult.valid(email: 'test@test.com'),
-                ),
-              ]),
-            );
-
-            /// MAIN CUBIT
-            whenListen(
-              userFormBloc,
-              Stream<UserFormState>.fromIterable([
-                UserFormLoading(),
-                UserFormValidated(
-                  nameValidationResult: const NameValidationResult.valid(name: 'Test'),
-                  name: 'Test',
-                  surnameValidationResult: const NameValidationResult.valid(name: 'Surname'),
-                  surname: 'Surname',
-                  emailValidationResult: const EmailValidationResult.valid(email: 'test@test.com'),
-                  email: 'test@test.com',
-                ),
-              ]),
-              initialState: UserFormLoading(),
-            );
-
-            whenListenAction(
-              userFormBloc,
-              Stream<UserFormAction>.fromIterable([]),
-            );
-
-            return const MainPage();
-          },
-        ),
-        onCreate: (scenarioWidgetKey) async {
-          final finder = find.descendant(
-            of: find.byKey(scenarioWidgetKey),
-            matching: find.byKey(Key(BottomNavigationPages.userForms.name)),
-          );
-          expect(finder, findsOneWidget);
-
-          await tester.tap(finder);
-          await tester.pumpAndSettle();
-
-          /// TextField
-          final textFields = find.byType(TextField);
-
-          expect(textFields.at(0), findsOneWidget);
-          expect(textFields.at(1), findsOneWidget);
-          expect(textFields.at(2), findsOneWidget);
-
-          await tester.enterText(textFields.at(0), 'Test');
-          await tester.enterText(textFields.at(1), 'Surname');
-          await tester.enterText(textFields.at(2), 'test@test.com');
-        },
+      /// NAME INPUT CUBIT
+      whenListen(
+        mockNameInputCubit,
+        Stream<StringInputState>.fromIterable([
+          nameSurnameInitState,
+          nameValidState,
+        ]),
+        initialState: nameSurnameInitState,
       );
 
-      /// Run the device builder
-      await tester.pumpDeviceBuilder(
-        builder,
-        wrapper: (page) => testPageGetItWrapper(
-          page: page,
-          getItInstance: getIt,
+      whenListenAction(
+        mockNameInputCubit,
+        Stream<StringInputAction>.fromIterable(
+          [
+            const StringInputAction.finishEditing(
+              NameValidationResult.valid(name: 'Test'),
+            ),
+          ],
         ),
       );
 
-      /// Take screenshot
-      await screenMatchesGolden(
+      /// SURNAME INPUT CUBIT
+      whenListen(
+        mockSurnameInputCubit,
+        Stream<StringInputState>.fromIterable([
+          nameSurnameInitState,
+          surnameValidState,
+        ]),
+        initialState: nameSurnameInitState,
+      );
+
+      whenListenAction(
+        mockSurnameInputCubit,
+        Stream<StringInputAction>.fromIterable(
+          [
+            const StringInputAction.finishEditing(
+              NameValidationResult.valid(name: 'Surname'),
+            ),
+          ],
+        ),
+      );
+
+      /// EMAIL INPUT CUBIT
+      whenListen(
+        mockEmailInputCubit,
+        Stream<EmailInputState>.fromIterable([
+          emailInitState,
+          emailValidState,
+        ]),
+        initialState: emailInitState,
+      );
+
+      whenListenAction(
+        mockEmailInputCubit,
+        Stream<EmailInputAction>.fromIterable([
+          const EmailInputAction.finishEditing(
+            EmailValidationResult.valid(email: 'test@test.com'),
+          ),
+        ]),
+      );
+
+      /// MAIN CUBIT
+      whenListen(
+        userFormBloc,
+        Stream<UserFormState>.fromIterable([
+          UserFormLoading(),
+          UserFormValidated(
+            nameValidationResult: const NameValidationResult.valid(name: 'Test'),
+            name: 'Test',
+            surnameValidationResult: const NameValidationResult.valid(name: 'Surname'),
+            surname: 'Surname',
+            emailValidationResult: const EmailValidationResult.valid(email: 'test@test.com'),
+            email: 'test@test.com',
+          ),
+        ]),
+        initialState: UserFormLoading(),
+      );
+
+      whenListenAction(
+        userFormBloc,
+        Stream<UserFormAction>.fromIterable([]),
+      );
+
+      await tester.pumpWidget(
+        testPageGetItWrapper(
+          page: const MainPage(), // Ваш віджет MainPage
+          getItInstance: getIt, // DI для тестування
+        ),
+      );
+
+      await tester.pumpAndSettle();
+      final finder = find.byKey(Key(BottomNavigationPages.userForms.name));
+      expect(finder, findsOneWidget);
+
+      await tester.tap(finder);
+      await tester.pumpAndSettle();
+
+      /// TextField
+      final textFields = find.byType(TextField);
+
+      expect(textFields.at(0), findsOneWidget);
+      expect(textFields.at(1), findsOneWidget);
+      expect(textFields.at(2), findsOneWidget);
+
+      await tester.enterText(textFields.at(0), 'Test');
+      await tester.enterText(textFields.at(1), 'Surname');
+      await tester.enterText(textFields.at(2), 'test@test.com');
+
+      await tester.pumpAndSettle();
+
+      await multiScreenGolden(
         tester,
-        'user_form_fields_are_filled',
+        'user_form_fields_are_filled_light',
+        devices: [
+          ...devices.map((e) => e.copyWith(brightness: Brightness.light)),
+        ],
+      );
+
+      await multiScreenGolden(
+        tester,
+        'user_form_fields_are_filled_dark',
+        devices: devices.map((e) => e.copyWith(brightness: Brightness.dark)).toList(),
       );
     },
   );
@@ -384,135 +376,130 @@ void main() {
   testGoldens(
     'User form - Loaded name and surname is not valid',
     (tester) async {
-      final builder = DeviceBuilder();
+      const nameSurnameInitState = StringInputState.init();
 
-      builder.addScenario(
-        name: 'Loaded name and surname is not valid',
-        widget: Builder(
-          builder: (context) {
-            const nameSurnameInitState = StringInputState.init();
-
-            const invalidNameValidState = StringInputState.validated(
-              NameValidationResult.tooShort(name: 'te', minChar: 3),
-            );
-
-            const invalidSurnameValidState = StringInputState.validated(
-              NameValidationResult.tooShort(name: 'Su', minChar: 3),
-            );
-
-            const emailInitState = EmailInputState.init();
-
-            /// NAME INPUT CUBIT
-            whenListen(
-              mockNameInputCubit,
-              Stream<StringInputState>.fromIterable([
-                nameSurnameInitState,
-                invalidNameValidState,
-              ]),
-              initialState: nameSurnameInitState,
-            );
-
-            whenListenAction(
-              mockNameInputCubit,
-              Stream<BaseTextInputActions<NameValidationResult>>.fromIterable(
-                [
-                  const StringInputAction.finishEditing(
-                    NameValidationResult.tooShort(name: 'te', minChar: 3),
-                  ),
-                ],
-              ),
-            );
-
-            /// SURNAME INPUT CUBIT
-            whenListen(
-              mockSurnameInputCubit,
-              Stream<StringInputState>.fromIterable([
-                nameSurnameInitState,
-                invalidSurnameValidState,
-              ]),
-              initialState: nameSurnameInitState,
-            );
-
-            whenListenAction(
-              mockSurnameInputCubit,
-              Stream<StringInputAction>.fromIterable([
-                const BaseTextInputActions<NameValidationResult>.finishEditing(
-                  NameValidationResult.tooShort(name: 'Su', minChar: 3),
-                ),
-              ]),
-            );
-
-            /// EMAIL INPUT CUBIT
-            whenListen(
-              mockEmailInputCubit,
-              Stream<EmailInputState>.fromIterable([emailInitState]),
-              initialState: emailInitState,
-            );
-
-            whenListenAction(
-              mockEmailInputCubit,
-              Stream<EmailInputAction>.fromIterable([]),
-            );
-
-            /// MAIN CUBIT
-            whenListen(
-              userFormBloc,
-              Stream<UserFormState>.fromIterable([
-                UserFormLoading(),
-                UserFormValidated(
-                  nameValidationResult: const NameValidationResult.tooShort(name: 'te', minChar: 3),
-                  name: 'te',
-                  surnameValidationResult: const NameValidationResult.tooShort(name: 'Su', minChar: 3),
-                  surname: 'Su',
-                  emailValidationResult: null,
-                  email: null,
-                ),
-              ]),
-              initialState: UserFormLoading(),
-            );
-
-            whenListenAction(
-              userFormBloc,
-              Stream<UserFormAction>.fromIterable([]),
-            );
-
-            return const MainPage();
-          },
-        ),
-        onCreate: (scenarioWidgetKey) async {
-          final finder = find.descendant(
-            of: find.byKey(scenarioWidgetKey),
-            matching: find.byKey(Key(BottomNavigationPages.userForms.name)),
-          );
-          expect(finder, findsOneWidget);
-
-          await tester.tap(finder);
-          await tester.pumpAndSettle();
-
-          /// TextField
-          final textFields = find.byType(TextField);
-
-          expect(textFields.at(0), findsOneWidget);
-          expect(textFields.at(1), findsOneWidget);
-
-          await tester.enterText(textFields.at(0), 'te');
-          await tester.enterText(textFields.at(1), 'Su');
-        },
+      const invalidNameValidState = StringInputState.validated(
+        NameValidationResult.tooShort(name: 'te', minChar: 3),
       );
 
-      /// Run the device builder
-      await tester.pumpDeviceBuilder(
-        builder,
+      const invalidSurnameValidState = StringInputState.validated(
+        NameValidationResult.tooShort(name: 'Su', minChar: 3),
+      );
+
+      const emailInitState = EmailInputState.init();
+
+      /// NAME INPUT CUBIT
+      whenListen(
+        mockNameInputCubit,
+        Stream<StringInputState>.fromIterable([
+          nameSurnameInitState,
+          invalidNameValidState,
+        ]),
+        initialState: nameSurnameInitState,
+      );
+
+      whenListenAction(
+        mockNameInputCubit,
+        Stream<BaseTextInputActions<NameValidationResult>>.fromIterable(
+          [
+            const StringInputAction.finishEditing(
+              NameValidationResult.tooShort(name: 'te', minChar: 3),
+            ),
+          ],
+        ),
+      );
+
+      /// SURNAME INPUT CUBIT
+      whenListen(
+        mockSurnameInputCubit,
+        Stream<StringInputState>.fromIterable([
+          nameSurnameInitState,
+          invalidSurnameValidState,
+        ]),
+        initialState: nameSurnameInitState,
+      );
+
+      whenListenAction(
+        mockSurnameInputCubit,
+        Stream<StringInputAction>.fromIterable([
+          const BaseTextInputActions<NameValidationResult>.finishEditing(
+            NameValidationResult.tooShort(name: 'Su', minChar: 3),
+          ),
+        ]),
+      );
+
+      /// EMAIL INPUT CUBIT
+      whenListen(
+        mockEmailInputCubit,
+        Stream<EmailInputState>.fromIterable([emailInitState]),
+        initialState: emailInitState,
+      );
+
+      whenListenAction(
+        mockEmailInputCubit,
+        Stream<EmailInputAction>.fromIterable([]),
+      );
+
+      /// MAIN CUBIT
+      whenListen(
+        userFormBloc,
+        Stream<UserFormState>.fromIterable([
+          UserFormLoading(),
+          UserFormValidated(
+            nameValidationResult: const NameValidationResult.tooShort(name: 'te', minChar: 3),
+            name: 'te',
+            surnameValidationResult: const NameValidationResult.tooShort(name: 'Su', minChar: 3),
+            surname: 'Su',
+            emailValidationResult: null,
+            email: null,
+          ),
+        ]),
+        initialState: UserFormLoading(),
+      );
+
+      whenListenAction(
+        userFormBloc,
+        Stream<UserFormAction>.fromIterable([]),
+      );
+
+      await tester.pumpWidgetBuilder(
+        const MainPage(),
         wrapper: (page) => testPageGetItWrapper(
           page: page,
           getItInstance: getIt,
         ),
       );
+      await tester.pumpAndSettle();
 
-      /// Take screenshot
-      await screenMatchesGolden(
+      final finder = find.byKey(Key(BottomNavigationPages.userForms.name));
+      expect(finder, findsOneWidget);
+
+      await tester.tap(finder);
+      await tester.pumpAndSettle();
+
+      /// TextField
+      final textFields = find.byType(TextField);
+
+      expect(textFields.at(0), findsOneWidget);
+      expect(textFields.at(1), findsOneWidget);
+
+      await tester.enterText(textFields.at(0), 'te');
+      await tester.enterText(textFields.at(1), 'Su');
+
+      await tester.pumpAndSettle();
+
+      await multiScreenGolden(
         tester,
-        'user_form_fields_invalid_name',
+        'user_form_fields_invalid_name_light',
+        devices: [
+          ...devices.map((e) => e.copyWith(brightness: Brightness.light)),
+        ],
+      );
+
+      await multiScreenGolden(
+        tester,
+        'user_form_fields_invalid_name_dark',
+        devices: devices.map((e) => e.copyWith(brightness: Brightness.dark)).toList(),
       );
     },
   );

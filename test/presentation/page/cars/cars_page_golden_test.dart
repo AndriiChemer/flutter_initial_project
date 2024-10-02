@@ -9,8 +9,8 @@ import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_naviga
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
 import 'package:mocktail/mocktail.dart';
 
+import '../../../flutter_test_config.dart';
 import '../../../test_helpers/golden_test_app_wrappers.dart';
-import '../../../test_helpers/golder_test_pre_executable.dart';
 import '../../../test_helpers/test_action_bloc.dart';
 
 class MockCarsCubit extends MockCubit<CarsState> implements CarsCubit {}
@@ -52,16 +52,14 @@ void main() {
   late MockCarsCubit carsCubit;
 
   setUp(() async {
-    await testPreExecutable(preExecutable: () async {
-      carsCubit = MockCarsCubit();
-      when(() => carsCubit.getCars()).thenAnswer((_) async {});
-    });
+    carsCubit = MockCarsCubit();
+    when(() => carsCubit.getCars()).thenAnswer((_) async {});
   });
 
   testGoldens(
     'Cars page - Loading',
     (tester) async {
-      final builder = DeviceBuilder();
+      final builder = DeviceBuilder()..overrideDevicesForAllScenarios(devices: devices);
 
       builder.addScenario(
         name: 'Cars Loading',

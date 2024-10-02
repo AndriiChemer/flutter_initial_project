@@ -11,7 +11,6 @@ import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input
 import 'package:mocktail/mocktail.dart';
 
 import '../../test_helpers/golden_test_app_wrappers.dart';
-import '../../test_helpers/golder_test_pre_executable.dart';
 import '../../test_helpers/test_action_bloc.dart';
 
 typedef StringInputState = BaseTextInputState<String, NameValidationResult>;
@@ -26,12 +25,19 @@ class MockNameInputCubit extends Mock implements NameInputCubit {
 
 void main() {
   late MockNameInputCubit mockNameInputCubit;
+  late Widget testWidget;
 
   setUp(() async {
-    await testPreExecutable(
-      preExecutable: () async {
-        mockNameInputCubit = MockNameInputCubit();
-      },
+    mockNameInputCubit = MockNameInputCubit();
+    testWidget = Scaffold(
+      body: Container(
+        padding: const EdgeInsets.all(16),
+        child: NameInput<NameInputCubit>(
+          isRequired: true,
+          onEditingFinished: (value) {},
+          textInputAction: TextInputAction.next,
+        ),
+      ),
     );
   });
 
@@ -57,14 +63,7 @@ void main() {
               Stream<StringInputAction>.fromIterable([]),
             );
 
-            return Container(
-              padding: const EdgeInsets.all(16),
-              child: NameInput<NameInputCubit>(
-                isRequired: true,
-                onEditingFinished: (value) {},
-                textInputAction: TextInputAction.next,
-              ),
-            );
+            return testWidget;
           },
         ),
       );
@@ -118,14 +117,7 @@ void main() {
               ]),
             );
 
-            return Container(
-              padding: const EdgeInsets.all(16),
-              child: NameInput<NameInputCubit>(
-                isRequired: true,
-                onEditingFinished: (value) {},
-                textInputAction: TextInputAction.next,
-              ),
-            );
+            return testWidget;
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -188,14 +180,7 @@ void main() {
               ]),
             );
 
-            return Container(
-              padding: const EdgeInsets.all(16),
-              child: NameInput<NameInputCubit>(
-                isRequired: true,
-                onEditingFinished: (value) {},
-                textInputAction: TextInputAction.next,
-              ),
-            );
+            return testWidget;
           },
         ),
         onCreate: (scenarioWidgetKey) async {
@@ -255,14 +240,7 @@ void main() {
               ]),
             );
 
-            return Container(
-              padding: const EdgeInsets.all(16),
-              child: NameInput<NameInputCubit>(
-                isRequired: true,
-                onEditingFinished: (value) {},
-                textInputAction: TextInputAction.next,
-              ),
-            );
+            return testWidget;
           },
         ),
         onCreate: (scenarioWidgetKey) async {
