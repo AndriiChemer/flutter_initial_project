@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:hooked_bloc/hooked_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_cubit.dart';
-import 'package:iteo_libraries_example/presentation/widget/export.dart';
-import 'package:provider/provider.dart';
 
 import 'goldet_test_material_app.dart';
 import 'test_theme.dart';
@@ -25,30 +22,14 @@ Widget testPageCubitWrapper<T extends SafeCubit<State>, State>({
 }) {
   final mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
 
-  return HookedBlocConfigProvider(
+  return TestApp(
+    getAppThemeTypeStreamUseCase: mockGetAppThemeTypeStreamUseCase,
+    child: page,
     injector: () {
       return <T extends Object>() {
         return cubit as T;
       };
     },
-    child: MultiProvider(
-      providers: [
-        ChangeNotifierProvider(
-          create: (_) => AppColorsProvider(
-            mockGetAppThemeTypeStreamUseCase,
-          ),
-        ),
-        ProxyProvider<AppColorsProvider, AppTypo>(
-          update: (_, value, __) => AppTypo(value.colors),
-        ),
-        ProxyProvider<AppColorsProvider, AppShadows>(
-          update: (_, value, __) => AppShadows(value.colors),
-        ),
-      ],
-      child: TestApp(
-        child: page,
-      ),
-    ),
   );
 }
 
@@ -68,30 +49,14 @@ Widget testPageActionCubitWrapper<T extends SafeActionCubit<State, Action>, Stat
 }) {
   final mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
 
-  return HookedBlocConfigProvider(
+  return TestApp(
+    getAppThemeTypeStreamUseCase: mockGetAppThemeTypeStreamUseCase,
+    child: page,
     injector: () {
       return <T extends Object>() {
         return cubit as T;
       };
     },
-    child: MultiProvider(
-      providers: [
-        ChangeNotifierProvider(
-          create: (_) => AppColorsProvider(
-            mockGetAppThemeTypeStreamUseCase,
-          ),
-        ),
-        ProxyProvider<AppColorsProvider, AppTypo>(
-          update: (_, value, __) => AppTypo(value.colors),
-        ),
-        ProxyProvider<AppColorsProvider, AppShadows>(
-          update: (_, value, __) => AppShadows(value.colors),
-        ),
-      ],
-      child: TestApp(
-        child: page,
-      ),
-    ),
   );
 }
 
@@ -112,25 +77,9 @@ Widget testPageGetItWrapper({
 }) {
   final mockGetAppThemeTypeStreamUseCase = mockGetAppThemeTypeStream();
 
-  return HookedBlocConfigProvider(
+  return TestApp(
+    getAppThemeTypeStreamUseCase: mockGetAppThemeTypeStreamUseCase,
+    child: page,
     injector: () => getItInstance,
-    child: MultiProvider(
-      providers: [
-        ChangeNotifierProvider(
-          create: (_) => AppColorsProvider(
-            mockGetAppThemeTypeStreamUseCase,
-          ),
-        ),
-        ProxyProvider<AppColorsProvider, AppTypo>(
-          update: (_, value, __) => AppTypo(value.colors),
-        ),
-        ProxyProvider<AppColorsProvider, AppShadows>(
-          update: (_, value, __) => AppShadows(value.colors),
-        ),
-      ],
-      child: TestApp(
-        child: page,
-      ),
-    ),
   );
 }
