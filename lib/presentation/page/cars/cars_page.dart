@@ -24,6 +24,14 @@ class CarsPage extends HookWidget {
       (action) => _listenAction(action, context),
     );
 
+    useEffect(
+      () {
+        cubit.getCars();
+        return null;
+      },
+      [cubit],
+    );
+
     return Center(
       child: switch (state) {
         LoadingCars() => const CustomCircularProgress(),
@@ -41,11 +49,9 @@ class CarsPage extends HookWidget {
   ) {
     switch (action) {
       case ShowError():
-        ScaffoldMessenger.of(context)
-            .showSnackBar(const SnackBar(content: Text('Error')));
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Error')));
       case SavedToDatabase():
-        ScaffoldMessenger.of(context)
-            .showSnackBar(const SnackBar(content: Text('Saved with success!')));
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Saved with success!')));
     }
   }
 }

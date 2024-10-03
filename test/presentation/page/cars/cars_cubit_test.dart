@@ -37,8 +37,6 @@ void main() {
     getCarsFromIsolateExecutorUseCase = MockGetCarsFromIsolateExecutorUseCase();
     loadCarsFromIsolateExecutorUseCase = MockLoadCarsFromIsolateExecutorUseCase();
 
-
-
     cubit = CarsCubit(
       getCarsUseCase: getCarsUseCase,
       getCarsFromIsolateExecutorUseCase: getCarsFromIsolateExecutorUseCase,
