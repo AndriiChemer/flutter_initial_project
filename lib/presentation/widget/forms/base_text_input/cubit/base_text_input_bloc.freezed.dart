@@ -56,7 +56,9 @@ mixin _$BaseTextInputActions<TValidatedInput> {
   }) =>
       throw _privateConstructorUsedError;
 
-  @JsonKey(ignore: true)
+  /// Create a copy of BaseTextInputActions
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $BaseTextInputActionsCopyWith<TValidatedInput,
           BaseTextInputActions<TValidatedInput>>
       get copyWith => throw _privateConstructorUsedError;
@@ -84,6 +86,8 @@ class _$BaseTextInputActionsCopyWithImpl<TValidatedInput, $Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of BaseTextInputActions
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -128,6 +132,8 @@ class __$$BaseTextInputFinishEditingFieldActionImplCopyWithImpl<TValidatedInput,
           _then)
       : super(_value, _then);
 
+  /// Create a copy of BaseTextInputActions
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -170,7 +176,9 @@ class _$BaseTextInputFinishEditingFieldActionImpl<TValidatedInput>
   int get hashCode => Object.hash(
       runtimeType, const DeepCollectionEquality().hash(validatedInput));
 
-  @JsonKey(ignore: true)
+  /// Create a copy of BaseTextInputActions
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$BaseTextInputFinishEditingFieldActionImplCopyWith<TValidatedInput,
@@ -251,8 +259,11 @@ abstract class BaseTextInputFinishEditingFieldAction<TValidatedInput>
 
   @override
   TValidatedInput get validatedInput;
+
+  /// Create a copy of BaseTextInputActions
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$BaseTextInputFinishEditingFieldActionImplCopyWith<TValidatedInput,
           _$BaseTextInputFinishEditingFieldActionImpl<TValidatedInput>>
       get copyWith => throw _privateConstructorUsedError;
@@ -341,6 +352,9 @@ class _$BaseTextInputStateCopyWithImpl<TInput, TValidatedInput, $Res,
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -364,6 +378,9 @@ class __$$BaseTextInputStateInitImplCopyWithImpl<TInput, TValidatedInput, $Res>
       $Res Function(_$BaseTextInputStateInitImpl<TInput, TValidatedInput>)
           _then)
       : super(_value, _then);
+
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -504,6 +521,8 @@ class __$$BaseTextInputStateValidatedImplCopyWithImpl<TInput, TValidatedInput,
           _then)
       : super(_value, _then);
 
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -546,7 +565,9 @@ class _$BaseTextInputStateValidatedImpl<TInput, TValidatedInput>
   int get hashCode => Object.hash(
       runtimeType, const DeepCollectionEquality().hash(validatedInput));
 
-  @JsonKey(ignore: true)
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$BaseTextInputStateValidatedImplCopyWith<TInput, TValidatedInput,
@@ -649,7 +670,10 @@ abstract class BaseTextInputStateValidated<TInput, TValidatedInput>
       _$BaseTextInputStateValidatedImpl<TInput, TValidatedInput>;
 
   TValidatedInput get validatedInput;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$BaseTextInputStateValidatedImplCopyWith<TInput, TValidatedInput,
           _$BaseTextInputStateValidatedImpl<TInput, TValidatedInput>>
       get copyWith => throw _privateConstructorUsedError;
@@ -683,6 +707,8 @@ class __$$BaseTextInputStateNotValidatedImplCopyWithImpl<TInput,
           _then)
       : super(_value, _then);
 
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -724,7 +750,9 @@ class _$BaseTextInputStateNotValidatedImpl<TInput, TValidatedInput>
   int get hashCode =>
       Object.hash(runtimeType, const DeepCollectionEquality().hash(input));
 
-  @JsonKey(ignore: true)
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$BaseTextInputStateNotValidatedImplCopyWith<TInput, TValidatedInput,
@@ -826,7 +854,10 @@ abstract class BaseTextInputStateNotValidated<TInput, TValidatedInput>
       _$BaseTextInputStateNotValidatedImpl<TInput, TValidatedInput>;
 
   TInput get input;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of BaseTextInputState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$BaseTextInputStateNotValidatedImplCopyWith<TInput, TValidatedInput,
           _$BaseTextInputStateNotValidatedImpl<TInput, TValidatedInput>>
       get copyWith => throw _privateConstructorUsedError;

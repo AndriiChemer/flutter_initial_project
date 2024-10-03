@@ -22,7 +22,9 @@ mixin _$SnackbarProperties {
   Duration get visibilityDuration => throw _privateConstructorUsedError;
   bool get closable => throw _privateConstructorUsedError;
 
-  @JsonKey(ignore: true)
+  /// Create a copy of SnackbarProperties
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $SnackbarPropertiesCopyWith<SnackbarProperties> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -51,6 +53,8 @@ class _$SnackbarPropertiesCopyWithImpl<$Res, $Val extends SnackbarProperties>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of SnackbarProperties
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -109,6 +113,8 @@ class __$$SnackbarPropertiesImplCopyWithImpl<$Res>
       $Res Function(_$SnackbarPropertiesImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of SnackbarProperties
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -189,7 +195,9 @@ class _$SnackbarPropertiesImpl implements _SnackbarProperties {
   int get hashCode => Object.hash(
       runtimeType, message, title, iconPath, visibilityDuration, closable);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of SnackbarProperties
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$SnackbarPropertiesImplCopyWith<_$SnackbarPropertiesImpl> get copyWith =>
@@ -214,8 +222,11 @@ abstract class _SnackbarProperties implements SnackbarProperties {
   Duration get visibilityDuration;
   @override
   bool get closable;
+
+  /// Create a copy of SnackbarProperties
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$SnackbarPropertiesImplCopyWith<_$SnackbarPropertiesImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

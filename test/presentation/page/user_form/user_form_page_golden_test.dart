@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
+import 'package:iteo_libraries_example/domain/user/user_repository.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validation_result.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validation_result.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
@@ -13,6 +14,7 @@ import 'package:iteo_libraries_example/presentation/page/user_form/cubit/user_fo
 import 'package:iteo_libraries_example/presentation/widget/forms/base_text_input/cubit/base_text_input_bloc.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/email/email_input_cubit.dart';
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
+import 'package:mockito/annotations.dart';
 import 'package:mocktail/mocktail.dart';
 
 import '../../../flutter_test_config.dart';
@@ -54,6 +56,11 @@ class MockEmailInputCubit extends Mock implements EmailInputCubit {
   }
 }
 
+@GenerateMocks(
+  [
+    UserRepository,
+  ],
+)
 void main() {
   final getIt = GetIt.instance;
   late MockUserFormBloc userFormBloc;

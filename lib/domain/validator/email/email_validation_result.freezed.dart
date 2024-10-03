@@ -75,7 +75,9 @@ mixin _$EmailValidationResult {
   }) =>
       throw _privateConstructorUsedError;
 
-  @JsonKey(ignore: true)
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $EmailValidationResultCopyWith<EmailValidationResult> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -100,6 +102,8 @@ class _$EmailValidationResultCopyWithImpl<$Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -133,6 +137,8 @@ class __$$EmailValidImplCopyWithImpl<$Res>
       _$EmailValidImpl _value, $Res Function(_$EmailValidImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -171,7 +177,9 @@ class _$EmailValidImpl extends EmailValid {
   @override
   int get hashCode => Object.hash(runtimeType, email);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$EmailValidImplCopyWith<_$EmailValidImpl> get copyWith =>
@@ -265,8 +273,11 @@ abstract class EmailValid extends EmailValidationResult {
 
   @override
   String get email;
+
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$EmailValidImplCopyWith<_$EmailValidImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -290,6 +301,8 @@ class __$$EmailTooLongImplCopyWithImpl<$Res>
       _$EmailTooLongImpl _value, $Res Function(_$EmailTooLongImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -328,7 +341,9 @@ class _$EmailTooLongImpl extends EmailTooLong {
   @override
   int get hashCode => Object.hash(runtimeType, email);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$EmailTooLongImplCopyWith<_$EmailTooLongImpl> get copyWith =>
@@ -423,8 +438,11 @@ abstract class EmailTooLong extends EmailValidationResult {
 
   @override
   String get email;
+
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$EmailTooLongImplCopyWith<_$EmailTooLongImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -448,6 +466,8 @@ class __$$EmailWrongFormatImplCopyWithImpl<$Res>
       $Res Function(_$EmailWrongFormatImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -486,7 +506,9 @@ class _$EmailWrongFormatImpl extends EmailWrongFormat {
   @override
   int get hashCode => Object.hash(runtimeType, email);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$EmailWrongFormatImplCopyWith<_$EmailWrongFormatImpl> get copyWith =>
@@ -582,8 +604,11 @@ abstract class EmailWrongFormat extends EmailValidationResult {
 
   @override
   String get email;
+
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$EmailWrongFormatImplCopyWith<_$EmailWrongFormatImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -610,6 +635,8 @@ class __$$EmailNotAllowedCharactersImplCopyWithImpl<$Res>
       $Res Function(_$EmailNotAllowedCharactersImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -648,7 +675,9 @@ class _$EmailNotAllowedCharactersImpl extends EmailNotAllowedCharacters {
   @override
   int get hashCode => Object.hash(runtimeType, email);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$EmailNotAllowedCharactersImplCopyWith<_$EmailNotAllowedCharactersImpl>
@@ -744,8 +773,11 @@ abstract class EmailNotAllowedCharacters extends EmailValidationResult {
 
   @override
   String get email;
+
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$EmailNotAllowedCharactersImplCopyWith<_$EmailNotAllowedCharactersImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -769,6 +801,8 @@ class __$$EmailEmptyImplCopyWithImpl<$Res>
       _$EmailEmptyImpl _value, $Res Function(_$EmailEmptyImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -807,7 +841,9 @@ class _$EmailEmptyImpl extends EmailEmpty {
   @override
   int get hashCode => Object.hash(runtimeType, email);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$EmailEmptyImplCopyWith<_$EmailEmptyImpl> get copyWith =>
@@ -901,8 +937,11 @@ abstract class EmailEmpty extends EmailValidationResult {
 
   @override
   String get email;
+
+  /// Create a copy of EmailValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$EmailEmptyImplCopyWith<_$EmailEmptyImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

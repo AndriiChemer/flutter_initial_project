@@ -62,7 +62,9 @@ mixin _$NameValidationResult {
   }) =>
       throw _privateConstructorUsedError;
 
-  @JsonKey(ignore: true)
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $NameValidationResultCopyWith<NameValidationResult> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -87,6 +89,8 @@ class _$NameValidationResultCopyWithImpl<$Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -120,6 +124,8 @@ class __$$NameValidImplCopyWithImpl<$Res>
       _$NameValidImpl _value, $Res Function(_$NameValidImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -158,7 +164,9 @@ class _$NameValidImpl extends NameValid {
   @override
   int get hashCode => Object.hash(runtimeType, name);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$NameValidImplCopyWith<_$NameValidImpl> get copyWith =>
@@ -239,8 +247,11 @@ abstract class NameValid extends NameValidationResult {
 
   @override
   String get name;
+
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$NameValidImplCopyWith<_$NameValidImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -264,6 +275,8 @@ class __$$NameTooLongImplCopyWithImpl<$Res>
       _$NameTooLongImpl _value, $Res Function(_$NameTooLongImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -311,7 +324,9 @@ class _$NameTooLongImpl extends NameTooLong {
   @override
   int get hashCode => Object.hash(runtimeType, name, maxChar);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$NameTooLongImplCopyWith<_$NameTooLongImpl> get copyWith =>
@@ -395,8 +410,11 @@ abstract class NameTooLong extends NameValidationResult {
   @override
   String get name;
   int get maxChar;
+
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$NameTooLongImplCopyWith<_$NameTooLongImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -420,6 +438,8 @@ class __$$NameTooShortImplCopyWithImpl<$Res>
       _$NameTooShortImpl _value, $Res Function(_$NameTooShortImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -467,7 +487,9 @@ class _$NameTooShortImpl extends NameTooShort {
   @override
   int get hashCode => Object.hash(runtimeType, name, minChar);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$NameTooShortImplCopyWith<_$NameTooShortImpl> get copyWith =>
@@ -551,8 +573,11 @@ abstract class NameTooShort extends NameValidationResult {
   @override
   String get name;
   int get minChar;
+
+  /// Create a copy of NameValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$NameTooShortImplCopyWith<_$NameTooShortImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

@@ -62,7 +62,9 @@ mixin _$PhoneNumberValidationResult {
   }) =>
       throw _privateConstructorUsedError;
 
-  @JsonKey(ignore: true)
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $PhoneNumberValidationResultCopyWith<PhoneNumberValidationResult>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -89,6 +91,8 @@ class _$PhoneNumberValidationResultCopyWithImpl<$Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -123,6 +127,8 @@ class __$$PhoneNumberValidImplCopyWithImpl<$Res>
       $Res Function(_$PhoneNumberValidImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -162,7 +168,9 @@ class _$PhoneNumberValidImpl extends PhoneNumberValid {
   @override
   int get hashCode => Object.hash(runtimeType, phoneNumber);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$PhoneNumberValidImplCopyWith<_$PhoneNumberValidImpl> get copyWith =>
@@ -245,8 +253,11 @@ abstract class PhoneNumberValid extends PhoneNumberValidationResult {
 
   @override
   String get phoneNumber;
+
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$PhoneNumberValidImplCopyWith<_$PhoneNumberValidImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -271,6 +282,8 @@ class __$$PhoneNumberTooShortImplCopyWithImpl<$Res>
       $Res Function(_$PhoneNumberTooShortImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -310,7 +323,9 @@ class _$PhoneNumberTooShortImpl extends PhoneNumberTooShort {
   @override
   int get hashCode => Object.hash(runtimeType, phoneNumber);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$PhoneNumberTooShortImplCopyWith<_$PhoneNumberTooShortImpl> get copyWith =>
@@ -393,8 +408,11 @@ abstract class PhoneNumberTooShort extends PhoneNumberValidationResult {
 
   @override
   String get phoneNumber;
+
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$PhoneNumberTooShortImplCopyWith<_$PhoneNumberTooShortImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -419,6 +437,8 @@ class __$$PhoneNumberEmptyImplCopyWithImpl<$Res>
       $Res Function(_$PhoneNumberEmptyImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -458,7 +478,9 @@ class _$PhoneNumberEmptyImpl extends PhoneNumberEmpty {
   @override
   int get hashCode => Object.hash(runtimeType, phoneNumber);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$PhoneNumberEmptyImplCopyWith<_$PhoneNumberEmptyImpl> get copyWith =>
@@ -541,8 +563,11 @@ abstract class PhoneNumberEmpty extends PhoneNumberValidationResult {
 
   @override
   String get phoneNumber;
+
+  /// Create a copy of PhoneNumberValidationResult
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$PhoneNumberEmptyImplCopyWith<_$PhoneNumberEmptyImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

@@ -78,6 +78,9 @@ class _$MainPageStateCopyWithImpl<$Res, $Val extends MainPageState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of MainPageState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -94,6 +97,9 @@ class __$$MainPageStateInitialImplCopyWithImpl<$Res>
   __$$MainPageStateInitialImplCopyWithImpl(_$MainPageStateInitialImpl _value,
       $Res Function(_$MainPageStateInitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of MainPageState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -203,6 +209,9 @@ class __$$MainPageStateLoadingImplCopyWithImpl<$Res>
   __$$MainPageStateLoadingImplCopyWithImpl(_$MainPageStateLoadingImpl _value,
       $Res Function(_$MainPageStateLoadingImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of MainPageState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -315,6 +324,8 @@ class __$$MainPageStateIdleImplCopyWithImpl<$Res>
       $Res Function(_$MainPageStateIdleImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of MainPageState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -354,7 +365,9 @@ class _$MainPageStateIdleImpl implements _MainPageStateIdle {
   @override
   int get hashCode => Object.hash(runtimeType, savedAppThemeType);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of MainPageState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$MainPageStateIdleImplCopyWith<_$MainPageStateIdleImpl> get copyWith =>
@@ -435,7 +448,10 @@ abstract class _MainPageStateIdle implements MainPageState, BuildState {
       _$MainPageStateIdleImpl;
 
   AppThemeType get savedAppThemeType;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of MainPageState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$MainPageStateIdleImplCopyWith<_$MainPageStateIdleImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
