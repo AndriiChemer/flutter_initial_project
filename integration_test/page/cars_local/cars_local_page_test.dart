@@ -22,13 +22,12 @@ void main() {
       await carsPageRobot.initialize();
 
       await carsPageRobot.runPage();
-      await carsPageRobot.navigateToLocalCarsPage(emptyListMock: true);
 
       await carsPageRobot.navigateToCarsPage();
       await carsPageRobot.saveCarsClick();
 
       await carsPageRobot.navigateToLocalCarsPage(emptyListMock: false);
-      
+      await carsPageRobot.removeCarsFromDatabaseClick();
     });
   });
 }
