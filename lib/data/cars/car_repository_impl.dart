@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:cached_annotation/cached_annotation.dart';
-import 'package:chopper/chopper.dart';
 import 'package:injectable/injectable.dart';
 import 'package:iteo_libraries_example/data/cars/dto/car_dto.gen.dart';
 import 'package:iteo_libraries_example/data/cars/mapper/car_dto_to_car_mapper.dart';

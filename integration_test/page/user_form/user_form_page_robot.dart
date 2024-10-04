@@ -1,11 +1,9 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
 import 'package:iteo_libraries_example/domain/user/user/user.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validator.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validator.dart';
-import 'package:iteo_libraries_example/presentation/app.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars_local/cubit/car_local_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
