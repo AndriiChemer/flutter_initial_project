@@ -28,8 +28,6 @@ void main() {
       await carsPageRobot.saveCarsClick();
 
       await carsPageRobot.navigateToLocalCarsPage(emptyListMock: false);
-
-      await carsPageRobot.removeCarsFromDatabaseClick();
       
     });
   });

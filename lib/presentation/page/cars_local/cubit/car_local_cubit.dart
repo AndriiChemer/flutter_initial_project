@@ -17,7 +17,6 @@ class CarLocalCubit extends SafeActionCubit<CarLocalState, CarLocalAction> {
   Future<void> loadCars() async {
     try {
       final cars = await manageLocalCarsUseCase.getCars();
-      print('ANDRII loadCars: ${cars.length}');
       if (cars.isEmpty) {
         Logger.d('Car database is empty.');
         emit(EmptyCars());
@@ -33,7 +32,6 @@ class CarLocalCubit extends SafeActionCubit<CarLocalState, CarLocalAction> {
 
   Future<void> clearCarsDatabase() async {
     try {
-      print('ANDRII clearCarsDatabase');
       await manageLocalCarsUseCase.clearCars();
       await loadCars();
     } catch (ex) {

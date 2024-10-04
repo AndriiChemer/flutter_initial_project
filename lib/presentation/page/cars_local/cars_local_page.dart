@@ -21,16 +21,19 @@ class CarsLocalPage extends HookWidget {
     useActionListener<CarLocalAction>(
       cubit,
       (action) {
-        switch(action) {
+        switch (action) {
           case ShowError():
             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Error')));
         }
       },
     );
 
-    useEffect(() {
-      cubit.loadCars();
-    }, [cubit],);
+    useEffect(
+      () {
+        cubit.loadCars();
+      },
+      [cubit],
+    );
 
     return WrapperButton.top(
       top: 20,
@@ -40,10 +43,12 @@ class CarsLocalPage extends HookWidget {
         padding: const EdgeInsets.only(bottom: Spacings.big),
         action: cubit.clearCarsDatabase,
       ),
-      child: switch(state) {
+      child: switch (state) {
         CarsLocalInitial() => const SizedBox.shrink(),
         EmptyCars() => const _Empty(),
-        ShowLocalCars() => _Content(cars: state.cars,),
+        ShowLocalCars() => _Content(
+            cars: state.cars,
+          ),
       },
     );
   }
@@ -59,7 +64,6 @@ class _Empty extends StatelessWidget {
     );
   }
 }
-
 
 class _Content extends HookWidget {
   const _Content({
@@ -84,4 +88,3 @@ class _Content extends HookWidget {
     );
   }
 }
-

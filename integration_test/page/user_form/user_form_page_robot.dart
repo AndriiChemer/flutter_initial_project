@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
+import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/domain/user/user/user.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validator.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validator.dart';
@@ -13,10 +14,10 @@ import 'package:iteo_libraries_example/presentation/widget/forms/email/email_inp
 import 'package:iteo_libraries_example/presentation/widget/forms/name/name_input_cubit.dart';
 import 'package:mockito/mockito.dart';
 
+import '../../../test/presentation/page/cars/cars_cubit_test.mocks.dart';
 import '../../../test/presentation/page/user_form/user_form_page_golden_test.mocks.dart';
 import '../../../test/test_helpers/golden_test_app_wrappers.dart';
 import '../cars/cars_page_robot.dart';
-import '../cars_local/cars_local_page_robot.dart';
 
 class UserFormPageRobot {
   UserFormPageRobot(this.tester);
@@ -86,4 +87,29 @@ class UserFormPageRobot {
 
     await tester.pumpAndSettle();
   }
+}
+
+CarLocalCubit mockCarLocalCubit() {
+  final cars = <Car>[
+    Car(
+      id: '1',
+      brand: 'brand1',
+      model: 'model1',
+      registration: 'registration1',
+    ),
+    Car(
+      id: '2',
+      brand: 'brand2',
+      model: 'model2',
+      registration: 'registration2',
+    ),
+  ];
+
+  final carLocalCubit = CarLocalCubit(
+    manageLocalCarsUseCase: MockManageLocalCarsUseCase(),
+  );
+
+  when(carLocalCubit.manageLocalCarsUseCase.getCars()).thenAnswer((_) => Future.value(cars));
+
+  return carLocalCubit;
 }
