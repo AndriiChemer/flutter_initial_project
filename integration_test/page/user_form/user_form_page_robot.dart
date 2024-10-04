@@ -1,9 +1,13 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
 import 'package:iteo_libraries_example/domain/user/user/user.dart';
 import 'package:iteo_libraries_example/domain/validator/email/email_validator.dart';
 import 'package:iteo_libraries_example/domain/validator/name/name_validator.dart';
+import 'package:iteo_libraries_example/presentation/app.dart';
+import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
+import 'package:iteo_libraries_example/presentation/page/cars_local/cubit/car_local_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/main/enum/bottom_navigation_pages.dart';
 import 'package:iteo_libraries_example/presentation/page/main/main_page.dart';
 import 'package:iteo_libraries_example/presentation/page/user_form/cubit/user_form_bloc.dart';
@@ -13,6 +17,8 @@ import 'package:mockito/mockito.dart';
 
 import '../../../test/presentation/page/user_form/user_form_page_golden_test.mocks.dart';
 import '../../../test/test_helpers/golden_test_app_wrappers.dart';
+import '../cars/cars_page_robot.dart';
+import '../cars_local/cars_local_page_robot.dart';
 
 class UserFormPageRobot {
   UserFormPageRobot(this.tester);
@@ -23,10 +29,14 @@ class UserFormPageRobot {
   Future<void> initialize() async {
     final getIt = GetIt.instance;
     final userFormBloc = UserFormBloc(MockUserRepository());
+    final carsCubit = mockCarsCubit();
+    final carLocalCubit = mockCarLocalCubit();
 
     when(userFormBloc.userRepository.getUser()).thenAnswer((_) => Future<User?>.value(null));
 
     await getIt.reset();
+    getIt.registerFactory<CarsCubit>(() => carsCubit);
+    getIt.registerFactory<CarLocalCubit>(() => carLocalCubit);
     getIt.registerFactory<UserFormBloc>(() => userFormBloc);
     getIt.registerFactory<NameInputCubit>(() => NameInputCubit(NameValidator()));
     getIt.registerFactory<SurnameInputCubit>(() => SurnameInputCubit(NameValidator()));
@@ -47,16 +57,13 @@ class UserFormPageRobot {
     final findedButton = find.byKey(Key(BottomNavigationPages.userForms.name));
     expect(findedButton, findsOneWidget);
 
-    print('Andrii 1');
     await tester.tap(findedButton);
-    print('Andrii 1.1');
     await tester.pumpAndSettle();
-    print('Andrii 1.1.1');
   }
 
   Future<void> fillForms() async {
     final textFields = find.byType(TextField);
-    print('Andrii 2');
+
     expect(textFields.at(0), findsOneWidget);
     expect(textFields.at(1), findsOneWidget);
     expect(textFields.at(2), findsOneWidget);
@@ -64,9 +71,6 @@ class UserFormPageRobot {
     await tester.enterText(textFields.at(0), 'Test');
     await tester.enterText(textFields.at(1), 'Surname');
     await tester.enterText(textFields.at(2), 'test@test.com');
-
-    // ignore: inference_failure_on_instance_creation
-    await Future.delayed(const Duration(seconds: 2));
 
     await tester.pumpAndSettle();
   }
@@ -81,9 +85,6 @@ class UserFormPageRobot {
     await tester.enterText(textFields.at(0), 'Test');
     await tester.enterText(textFields.at(1), 'Surname');
     await tester.enterText(textFields.at(2), 'test@');
-
-    // ignore: inference_failure_on_instance_creation
-    await Future.delayed(const Duration(seconds: 2));
 
     await tester.pumpAndSettle();
   }

@@ -12,7 +12,7 @@ import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.da
     as _i2;
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart'
     as _i7;
-import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_database_use_case.dart'
+import 'package:iteo_libraries_example/domain/cars/use_case/manage_local_cars_use_case.dart'
     as _i5;
 import 'package:mockito/mockito.dart' as _i1;
 
@@ -47,19 +47,38 @@ class MockGetCarsUseCase extends _i1.Mock implements _i2.GetCarsUseCase {
       ) as _i3.Future<List<_i4.Car>>);
 }
 
-/// A class which mocks [SaveCarsToDatabaseUseCase].
+/// A class which mocks [ManageLocalCarsUseCase].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockSaveCarsToDatabaseUseCase extends _i1.Mock
-    implements _i5.SaveCarsToDatabaseUseCase {
-  MockSaveCarsToDatabaseUseCase() {
+class MockManageLocalCarsUseCase extends _i1.Mock
+    implements _i5.ManageLocalCarsUseCase {
+  MockManageLocalCarsUseCase() {
     _i1.throwOnMissingStub(this);
   }
 
   @override
-  _i3.Future<void> call(List<_i4.Car>? cars) => (super.noSuchMethod(
+  _i3.Future<void> clearCars() => (super.noSuchMethod(
         Invocation.method(
-          #call,
+          #clearCars,
+          [],
+        ),
+        returnValue: _i3.Future<void>.value(),
+        returnValueForMissingStub: _i3.Future<void>.value(),
+      ) as _i3.Future<void>);
+
+  @override
+  _i3.Future<List<_i4.Car>> getCars() => (super.noSuchMethod(
+        Invocation.method(
+          #getCars,
+          [],
+        ),
+        returnValue: _i3.Future<List<_i4.Car>>.value(<_i4.Car>[]),
+      ) as _i3.Future<List<_i4.Car>>);
+
+  @override
+  _i3.Future<void> save(List<_i4.Car>? cars) => (super.noSuchMethod(
+        Invocation.method(
+          #save,
           [cars],
         ),
         returnValue: _i3.Future<void>.value(),

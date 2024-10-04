@@ -14,30 +14,9 @@ class CarsPageRobot {
 
   final WidgetTester tester;
   late Widget page;
-  final cars = <Car>[
-    Car(
-      id: '1',
-      brand: 'brand1',
-      model: 'model1',
-      registration: 'registration1',
-    ),
-    Car(
-      id: '2',
-      brand: 'brand2',
-      model: 'model2',
-      registration: 'registration2',
-    ),
-  ];
 
   Future<void> initialize() async {
-    final carsCubit = CarsCubit(
-      getCarsUseCase: MockGetCarsUseCase(),
-      saveCarsToDatabaseUseCase: MockSaveCarsToDatabaseUseCase(),
-      getCarsFromIsolateExecutorUseCase: MockGetCarsFromIsolateExecutorUseCase(),
-      loadCarsFromIsolateExecutorUseCase: MockLoadCarsFromIsolateExecutorUseCase(),
-    );
-
-    when(carsCubit.getCarsUseCase.call()).thenAnswer((_) => Future.value(cars));
+    final carsCubit = mockCarsCubit();
 
     page = testPageActionCubitWrapper<CarsCubit, CarsState, CarsAction>(
       page: const MainPage(),
@@ -65,4 +44,32 @@ class CarsPageRobot {
     await tester.press(saveDatabaseFinder);
     await tester.pumpAndSettle();
   }
+}
+
+CarsCubit mockCarsCubit() {
+  final cars = <Car>[
+    Car(
+      id: '1',
+      brand: 'brand1',
+      model: 'model1',
+      registration: 'registration1',
+    ),
+    Car(
+      id: '2',
+      brand: 'brand2',
+      model: 'model2',
+      registration: 'registration2',
+    ),
+  ];
+
+  final carsCubit = CarsCubit(
+    getCarsUseCase: MockGetCarsUseCase(),
+    manageLocalCarsUseCase: MockManageLocalCarsUseCase(),
+    getCarsFromIsolateExecutorUseCase: MockGetCarsFromIsolateExecutorUseCase(),
+    loadCarsFromIsolateExecutorUseCase: MockLoadCarsFromIsolateExecutorUseCase(),
+  );
+
+  when(carsCubit.getCarsUseCase.call()).thenAnswer((_) => Future.value(cars));
+
+  return carsCubit;
 }

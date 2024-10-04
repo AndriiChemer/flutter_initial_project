@@ -4,7 +4,7 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
-import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_database_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/manage_local_cars_use_case.dart';
 import 'package:iteo_libraries_example/presentation/widget/cubit/safe_action_cubit.dart';
 
 part 'cars_state.dart';
@@ -14,13 +14,13 @@ part 'cars_action.dart';
 class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
   CarsCubit({
     required this.getCarsUseCase,
-    required this.saveCarsToDatabaseUseCase,
+    required this.manageLocalCarsUseCase,
     required this.getCarsFromIsolateExecutorUseCase,
     required this.loadCarsFromIsolateExecutorUseCase,
   }) : super(LoadingCars());
 
   final GetCarsUseCase getCarsUseCase;
-  final SaveCarsToDatabaseUseCase saveCarsToDatabaseUseCase;
+  final ManageLocalCarsUseCase manageLocalCarsUseCase;
   final GetCarsFromIsolateExecutorUseCase getCarsFromIsolateExecutorUseCase;
   final LoadCarsFromIsolateExecutorUseCase loadCarsFromIsolateExecutorUseCase;
 
@@ -68,7 +68,7 @@ class CarsCubit extends SafeActionCubit<CarsState, CarsAction> {
 
   Future<void> saveToDatabase(List<Car> cars) async {
     try {
-      await saveCarsToDatabaseUseCase(cars);
+      await manageLocalCarsUseCase.save(cars);
       dispatch(SavedToDatabase());
     } catch (ex) {
       dispatch(ShowError());

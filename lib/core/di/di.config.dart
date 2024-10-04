@@ -33,16 +33,12 @@ import '../../domain/app_theme/use_case/save_app_theme_type_use_case.dart'
     as _i284;
 import '../../domain/cars/car_local_repository.dart' as _i946;
 import '../../domain/cars/car_repository.dart' as _i499;
-import '../../domain/cars/use_case/clear_cars_from_local_use_case.dart'
-    as _i445;
 import '../../domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart'
     as _i242;
-import '../../domain/cars/use_case/get_cars_from_local_use_case.dart' as _i329;
 import '../../domain/cars/use_case/get_cars_use_case.dart' as _i39;
 import '../../domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart'
     as _i580;
-import '../../domain/cars/use_case/save_cars_to_database_use_case.dart'
-    as _i973;
+import '../../domain/cars/use_case/manage_local_cars_use_case.dart' as _i610;
 import '../../domain/deep_link/deep_link_repository.dart' as _i180;
 import '../../domain/deep_link/use_case/deep_link_stream_use_case.dart'
     as _i806;
@@ -176,14 +172,10 @@ extension GetItInjectableX on _i174.GetIt {
     gh.factory<_i169.MoreNavigationPageCubit>(
         () => cubitModule.moreNavigationPageCubit);
     gh.factory<_i382.UserFormBloc>(() => cubitModule.userFormBloc);
-    gh.factory<_i445.ClearCarsFromLocalUseCase>(
-        () => useCaseModule.clearCarsFromLocalUseCase);
-    gh.factory<_i329.GetCarsFromLocalUseCase>(
-        () => useCaseModule.getCarsFromLocalUseCase);
-    gh.factory<_i973.SaveCarsToDatabaseUseCase>(
-        () => useCaseModule.saveCarsToDatabaseUseCase);
-    gh.factory<_i937.CarLocalCubit>(() => cubitModule.carLocalCubit);
+    gh.factory<_i610.ManageLocalCarsUseCase>(
+        () => useCaseModule.manageLocalCarsUseCase);
     gh.lazySingleton<_i499.CarRepository>(() => repositoryModule.carRepository);
+    gh.factory<_i937.CarLocalCubit>(() => cubitModule.carLocalCubit);
     gh.factory<_i39.GetCarsUseCase>(() => useCaseModule.getCarsUseCase);
     gh.factory<_i242.GetCarsFromIsolateExecutorUseCase>(
         () => useCaseModule.getCarsFromIsolateExecutorUseCase);
@@ -244,14 +236,12 @@ class _$CubitModule extends _i912.CubitModule {
 
   @override
   _i937.CarLocalCubit get carLocalCubit => _i937.CarLocalCubit(
-        getCarsFromLocalUseCase: _getIt<_i329.GetCarsFromLocalUseCase>(),
-        clearCarsFromLocalUseCase: _getIt<_i445.ClearCarsFromLocalUseCase>(),
-      );
+      manageLocalCarsUseCase: _getIt<_i610.ManageLocalCarsUseCase>());
 
   @override
   _i420.CarsCubit get carsCubit => _i420.CarsCubit(
         getCarsUseCase: _getIt<_i39.GetCarsUseCase>(),
-        saveCarsToDatabaseUseCase: _getIt<_i973.SaveCarsToDatabaseUseCase>(),
+        manageLocalCarsUseCase: _getIt<_i610.ManageLocalCarsUseCase>(),
         getCarsFromIsolateExecutorUseCase:
             _getIt<_i242.GetCarsFromIsolateExecutorUseCase>(),
         loadCarsFromIsolateExecutorUseCase:
@@ -371,16 +361,8 @@ class _$UseCaseModule extends _i741.UseCaseModule {
       _i284.SaveAppThemeTypeUseCase(_getIt<_i67.AppThemeTypeStorage>());
 
   @override
-  _i445.ClearCarsFromLocalUseCase get clearCarsFromLocalUseCase =>
-      _i445.ClearCarsFromLocalUseCase(_getIt<_i946.CarLocalRepository>());
-
-  @override
-  _i329.GetCarsFromLocalUseCase get getCarsFromLocalUseCase =>
-      _i329.GetCarsFromLocalUseCase(_getIt<_i946.CarLocalRepository>());
-
-  @override
-  _i973.SaveCarsToDatabaseUseCase get saveCarsToDatabaseUseCase =>
-      _i973.SaveCarsToDatabaseUseCase(_getIt<_i946.CarLocalRepository>());
+  _i610.ManageLocalCarsUseCase get manageLocalCarsUseCase =>
+      _i610.ManageLocalCarsUseCase(_getIt<_i946.CarLocalRepository>());
 
   @override
   _i39.GetCarsUseCase get getCarsUseCase =>

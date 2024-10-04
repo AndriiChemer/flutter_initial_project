@@ -3,7 +3,7 @@ import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_from_isolate_executor_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/get_cars_use_case.dart';
 import 'package:iteo_libraries_example/domain/cars/use_case/load_cars_from_isolate_executor_use_case.dart';
-import 'package:iteo_libraries_example/domain/cars/use_case/save_cars_to_database_use_case.dart';
+import 'package:iteo_libraries_example/domain/cars/use_case/manage_local_cars_use_case.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -14,7 +14,7 @@ import 'cars_cubit_test.mocks.dart';
 @GenerateMocks(
   [
     GetCarsUseCase,
-    SaveCarsToDatabaseUseCase,
+    ManageLocalCarsUseCase,
     GetCarsFromIsolateExecutorUseCase,
     LoadCarsFromIsolateExecutorUseCase,
   ],
@@ -23,7 +23,7 @@ void main() {
   late CarsCubit cubit;
 
   late GetCarsUseCase getCarsUseCase;
-  late SaveCarsToDatabaseUseCase saveCarsToDatabaseUseCase;
+  late ManageLocalCarsUseCase manageLocalCarsUseCase;
   late GetCarsFromIsolateExecutorUseCase getCarsFromIsolateExecutorUseCase;
   late LoadCarsFromIsolateExecutorUseCase loadCarsFromIsolateExecutorUseCase;
 
@@ -33,7 +33,7 @@ void main() {
 
   setUp(() {
     getCarsUseCase = MockGetCarsUseCase();
-    saveCarsToDatabaseUseCase = MockSaveCarsToDatabaseUseCase();
+    manageLocalCarsUseCase = MockManageLocalCarsUseCase();
     getCarsFromIsolateExecutorUseCase = MockGetCarsFromIsolateExecutorUseCase();
     loadCarsFromIsolateExecutorUseCase = MockLoadCarsFromIsolateExecutorUseCase();
 
@@ -41,7 +41,7 @@ void main() {
       getCarsUseCase: getCarsUseCase,
       getCarsFromIsolateExecutorUseCase: getCarsFromIsolateExecutorUseCase,
       loadCarsFromIsolateExecutorUseCase: loadCarsFromIsolateExecutorUseCase,
-      saveCarsToDatabaseUseCase: saveCarsToDatabaseUseCase,
+      manageLocalCarsUseCase: manageLocalCarsUseCase,
     );
   });
 

@@ -35,6 +35,7 @@ class CarsLocalPage extends HookWidget {
     return WrapperButton.top(
       top: 20,
       button: CustomButton(
+        key: const Key('remove_cars_database'),
         title: 'Clear local database',
         padding: const EdgeInsets.only(bottom: Spacings.big),
         action: cubit.clearCarsDatabase,

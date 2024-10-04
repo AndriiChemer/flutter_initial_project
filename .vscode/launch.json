@@ -7,19 +7,22 @@
         {
             "name": "flutter_initial_project",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "program": "lib/main.dart"
         },
         {
             "name": "flutter_initial_project (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "program": "lib/main.dart"
         },
         {
             "name": "flutter_initial_project (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "program": "lib/main.dart"
         },
         {
             "name": "Golden",

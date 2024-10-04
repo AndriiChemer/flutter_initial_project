@@ -1,12 +1,20 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 
+import '../../config/localization_confog.dart';
 import 'user_form_page_robot.dart';
 
-// TODO when we jump to page all cubits from previous page should be initialized because
-// pager open all pages when jump to page
+/// To run this test, execute the following command:
+///
+/// ```
+/// flutter test integration_test/page/user_form/user_form_page_test.dart
+/// ```
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+
+  setUp(() async {
+    await setupTestLocalization();
+  });
 
   group('User form', () {
     testWidgets('Valid form', (WidgetTester tester) async {
@@ -18,13 +26,13 @@ void main() {
       await userFormPageRobot.fillForms();
     });
 
-    // testWidgets('Invalid form', (WidgetTester tester) async {
-    //   final userFormPageRobot = UserFormPageRobot(tester);
-    //   await userFormPageRobot.initialize();
+    testWidgets('Invalid form', (WidgetTester tester) async {
+      final userFormPageRobot = UserFormPageRobot(tester);
+      await userFormPageRobot.initialize();
 
-    //   await userFormPageRobot.runPage();
-    //   await userFormPageRobot.navigateToCarsPage();
-    //   await userFormPageRobot.fillForms();
-    // });
+      await userFormPageRobot.runPage();
+      await userFormPageRobot.navigateToCarsPage();
+      await userFormPageRobot.fillInvalidEmailForms();
+    });
   });
 }
