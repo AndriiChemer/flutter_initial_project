@@ -40,3 +40,7 @@ void main() {
 // ./gradlew app:assembleAndroidTest 
 // ./gradlew app:assembleDebug -Ptarget=integration_test/page/user_form/user_form_page_test.dart
 // ./gradlew app:connectedAndroidTest -Ptarget=`pwd`/../integration_test/page/user_form/user_form_page_test.dart
+
+
+// flutter build ios --config-only integration_test/page/user_form/user_form_page_test.dart
+// flutter build ios integration_test/page/user_form/user_form_page_test.dart --release
