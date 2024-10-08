@@ -1,4 +1,4 @@
-# iteo_libraries_example
+# Basic project config
 
 A Flutter project designed to showcase various libraries and tools that enhance Flutter app development.
 
