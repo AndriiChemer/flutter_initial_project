@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get_it/get_it.dart';
+import 'package:iteo_libraries_example/core/app_env.dart';
+import 'package:iteo_libraries_example/core/di/di.dart';
 import 'package:iteo_libraries_example/domain/cars/model/car.dart';
 import 'package:iteo_libraries_example/presentation/page/cars/cubit/cars_cubit.dart';
 import 'package:iteo_libraries_example/presentation/page/cars_local/cubit/car_local_cubit.dart';
@@ -33,7 +35,7 @@ class CarsLocalPageRobot {
     ),
   ];
 
-  Future<void> initialize() async {
+  Future<void> initializeMock() async {
     final getIt = GetIt.instance;
     await getIt.reset();
 
@@ -58,6 +60,15 @@ class CarsLocalPageRobot {
     );
   }
 
+  Future<void> initializeRealData() async {
+    final getIt = await configureDependencies(AppEnv.development().environment);
+
+    page = testPageGetItWrapper(
+      page: const MainPage(),
+      getItInstance: getIt,
+    );
+  }
+
   Future<void> runPage() async {
     await tester.pumpWidget(page);
     await tester.pumpAndSettle();
@@ -75,7 +86,7 @@ class CarsLocalPageRobot {
     final saveDatabaseFinder = find.byKey(const Key('cars_save_database'));
     expect(saveDatabaseFinder, findsOneWidget);
 
-    await tester.press(saveDatabaseFinder);
+    await tester.tap(saveDatabaseFinder);
     await tester.pumpAndSettle();
   }
 
@@ -91,7 +102,7 @@ class CarsLocalPageRobot {
     final saveDatabaseFinder = find.byKey(const Key('cars_save_database'));
     expect(saveDatabaseFinder, findsOneWidget);
 
-    await tester.press(saveDatabaseFinder);
+    await tester.tap(saveDatabaseFinder);
     await tester.pumpAndSettle();
   }
 

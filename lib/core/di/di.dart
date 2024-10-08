@@ -9,5 +9,4 @@ final getIt = GetIt.instance;
   initializerName: 'init',
   preferRelativeImports: true,
 )
-Future<void> configureDependencies(String environment) =>
-    getIt.init(environment: environment);
+Future<GetIt> configureDependencies(String environment) => getIt.init(environment: environment);

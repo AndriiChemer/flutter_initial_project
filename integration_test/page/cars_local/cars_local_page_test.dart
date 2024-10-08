@@ -19,7 +19,8 @@ void main() {
   group('Load cars, save cars, and load saved cars', () {
     testWidgets('Cars', (WidgetTester tester) async {
       final carsPageRobot = CarsLocalPageRobot(tester);
-      await carsPageRobot.initialize();
+      await carsPageRobot.initializeRealData();
+      // await carsPageRobot.initializeMock();
 
       await carsPageRobot.runPage();
 
