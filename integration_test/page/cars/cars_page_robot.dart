@@ -26,6 +26,7 @@ class CarsPageRobot {
 
   Future<void> runPage() async {
     await tester.pumpWidget(page);
+    
     await tester.pumpAndSettle();
   }
 

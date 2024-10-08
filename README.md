@@ -1,52 +1,107 @@
 # iteo_libraries_example
 
-A new Flutter project.
+A Flutter project designed to showcase various libraries and tools that enhance Flutter app development.
 
-## Generate auto_route
+## Routing
+Library [auto_route](https://pub.dev/packages/auto_route).
 
-`fvm flutter packages pub run build_runner build`
+To generate the necessary routing code for your Flutter app, run the following command:
 
-### Build code-gen selected element using filter
-
-`flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/navigation/*.dart'`
-`flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/{page}/*.dart'`
-
-### Example
-
-`flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/main/*.dart'`
-`flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/data/cars/dto/*.dart'`
-
-flutter pub run build_runner build --delete-conflicting-outputs
-
-### Problem with build_runner
-
-https://sulthanalihsan.medium.com/failed-to-build-build-runner-method-not-found-fallthrougherror-pub-semver-a21f5dcdb7ad
-
-```
-flutter clean
-flutter packages pub get
+```bash
+fvm flutter packages pub run build_runner build
 ```
 
-### Translations
+## Translations
 
-`flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart`
+Library [easy_localization](https://pub.dev/packages/easy_localization).
 
+For localization support, generate localization keys with:
+
+```bash
+flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart
+
+```
 ## Tests
 
-### Golden test
+### Golden Tests
+Library [golden_toolkit](https://pub.dev/documentation/golden_toolkit/latest/).
 
-Run all golden tests:
+To run all golden tests and update the golden files, use the following command:
+  ```bash
+  flutter test --update-goldens --tags=golden
+  ```
 
+### Integration Testing
+#### Documentation
+
+- [Official Flutter Documentation on Integration Tests](https://docs.flutter.dev/testing/integration-tests)
+- [Flutter Repository: Integration Testing for Android](https://github.com/flutter/flutter/tree/main/packages/integration_test#android-device-testing)
+
+#### Command Examples
+
+- To run an integration test:
+  ```bash
+  flutter test integration_test/test_app.dart
+  ```
+- To run a test for a specific page:
+
+```bash
+  flutter test integration_test/page/user_form/user_form_page_test.dart
 ```
-flutter test --update-goldens --tags=golden
+
+## Build Code Generation for Selected Elements
+You can build code generation for specific elements using filters. Here are a few examples:
+
+- Build the navigation code:
+  ```bash
+  flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/navigation/*.dart'
+
+  ```
+- Build all pages within a specific folder:
+
+    ```bash
+      flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/{page}/*.dart'
+    
+    ```
+    
+#### Example Commands
+Here are specific commands to build code for certain directories:
+- For the main page:
+  ```bash
+  flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/presentation/page/main/*.dart'
+  ```
+- For car data transfer objects:
+
+    ```bash
+      flutter pub run build_runner build --delete-conflicting-outputs --build-filter 'lib/data/cars/dto/*.dart'
+    ```
+- To build all generated code:
+
+    ```bash
+      flutter pub run build_runner build --delete-conflicting-outputs
+    
+    ```
+#### Troubleshooting build_runner Issues
+If you encounter issues with build_runner, such as method not found errors, refer to this guide [Troubleshooting build_runner](https://docs.flutter.dev/testing/integration-tests).
+
+To resolve build issues, try running the following commands:
+
+```bash
+  flutter clean
+  flutter packages pub get
 ```
+## Other materials
 
-## Materials
+### Drift database
 
-### Drift (database)
-
-https://drift.simonbinder.eu/docs/getting-started/
+Library [drift](https://drift.simonbinder.eu/docs/getting-started/).
 
 ### Top tools
 
-- https://apexive.com/post/top-50-flutter-tools
+- [top-50-flutter-tools](https://apexive.com/post/top-50-flutter-tools)
+
+```
+
+```
+
+    
