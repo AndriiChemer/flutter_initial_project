@@ -61,12 +61,12 @@ class CanvasSplittingImage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               FloatingActionButton(
-                onPressed: () => imageState.rotateImage(-0.001),
+                onPressed: () => imageState.rotateImage(-0.01), // 1mm -0.001
                 child: const Icon(Icons.rotate_left),
               ),
               const SizedBox(height: 10),
               FloatingActionButton(
-                onPressed: () => imageState.rotateImage(0.001),
+                onPressed: () => imageState.rotateImage(0.01), // 1mm 0.001
                 child: const Icon(Icons.rotate_right),
               ),
               const SizedBox(height: 50),
@@ -136,11 +136,14 @@ class _CanvasPainter extends CustomPainter {
     final double scaledBottomHeight = bottomHeight * scale;
     final double xCenterOffset = (size.width - scaledWidth) / 2;
 
+    final double rotationCenterX = size.width / 2;
+    final double rotationCenterY = splitPoint * scale;
+
     // Малюємо верхню частину зображення
     canvas.save();
-    canvas.translate(size.width / 2, splitPoint * scale); // Центруємо по X та Y на точку розділу
-    canvas.rotate(rotationTop); // Поворот верхньої частини
-    canvas.translate(-size.width / 2, -splitPoint * scale); // Повертаємо назад по осі
+    canvas.translate(rotationCenterX, rotationCenterY); // Переміщаємося до точки обертання
+    canvas.rotate(rotationTop); // Виконуємо обертання навколо центру обертання
+    canvas.translate(-rotationCenterX, -rotationCenterY); // Повертаємося назад після обертання
 
     // Визначаємо прямокутник для верхньої частини
     final topRect = Rect.fromLTWH(
@@ -161,9 +164,9 @@ class _CanvasPainter extends CustomPainter {
 
     // Малюємо нижню частину зображення
     canvas.save();
-    canvas.translate(size.width / 2, splitPoint * scale); // Центруємо по X і Y на точку розділу
-    canvas.rotate(rotationBottom); // Поворот нижньої частини
-    canvas.translate(-size.width / 2, -splitPoint * scale); // Повертаємо назад по осі
+    canvas.translate(rotationCenterX, rotationCenterY); // Переміщаємося до точки обертання
+    canvas.rotate(rotationBottom); // Виконуємо обертання навколо центру обертання
+    canvas.translate(-rotationCenterX, -rotationCenterY); // Повертаємося назад після обертання
 
     // Визначаємо прямокутник для нижньої частини
     final bottomRect = Rect.fromLTWH(
@@ -189,6 +192,12 @@ class _CanvasPainter extends CustomPainter {
       canvas.drawLine(
         Offset(0, splitPoint * scale),
         Offset(size.width, splitPoint * scale),
+        paint,
+      );
+
+      canvas.drawCircle(
+        Offset(rotationCenterX, rotationCenterY),
+        4,
         paint,
       );
     }
