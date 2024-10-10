@@ -1,158 +1,78 @@
-import 'dart:async';
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
+import 'package:iteo_libraries_example/presentation/page/home/image_state.dart';
+import 'package:provider/provider.dart';
 
-class CanvasExample extends StatefulWidget {
+class CanvasSplittingImage extends StatelessWidget {
+  const CanvasSplittingImage({
+    required this.imageUrl,
+    super.key,
+  });
+
   final String imageUrl;
-
-  const CanvasExample({required this.imageUrl});
-
-  @override
-  _CanvasExampleState createState() => _CanvasExampleState();
-}
-
-class _CanvasExampleState extends State<CanvasExample> {
-  ui.Image? _image;
-  double _splitPoint = 0.0;
-  double _xOffsetTop = 0.0;
-  double _yOffsetTop = 0.0;
-  double _xOffsetBottom = 0.0;
-  double _yOffsetBottom = 0.0;
-  double _rotationTop = 0.0;
-  double _rotationBottom = 0.0;
-  bool _isTopSelected = true;
-
-  @override
-  void initState() {
-    super.initState();
-    loadImage();
-  }
-
-  Future<void> loadImage() async {
-    final completer = Completer<ui.Image>();
-    final image = NetworkImage(widget.imageUrl);
-    final stream = image.resolve(ImageConfiguration.empty);
-    stream.addListener(ImageStreamListener((info, _) {
-      completer.complete(info.image);
-    }));
-    _image = await completer.future;
-    setState(() {});
-  }
-
-  void splitImage(double point) {
-    setState(() {
-      _splitPoint = point;
-    });
-  }
-
-  void reset() {
-    setState(() {
-      _splitPoint = 0.0;
-      _splitPoint = 0.0;
-      _xOffsetTop = 0.0;
-      _yOffsetTop = 0.0;
-      _xOffsetBottom = 0.0;
-      _yOffsetBottom = 0.0;
-      _rotationTop = 0.0;
-      _rotationBottom = 0.0;
-    });
-  }
-
-  void moveImage(double xOffset, double yOffset) {
-    setState(() {
-      if (_isTopSelected) {
-        _xOffsetTop += xOffset;
-        _yOffsetTop += yOffset;
-      } else {
-        _xOffsetBottom += xOffset;
-        _yOffsetBottom += yOffset;
-      }
-    });
-  }
-
-  void rotateImage(double rotation) {
-    setState(() {
-      if (_isTopSelected) {
-        _rotationTop += rotation;
-      } else {
-        _rotationBottom += rotation;
-      }
-    });
-  }
-
-  void toggleSelectedPart() {
-    setState(() {
-      _isTopSelected = !_isTopSelected;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: GestureDetector(
-        onDoubleTapDown: (details) {
-          print('Long press');
-          final splitPoint = details.localPosition.dy;
-          splitImage(splitPoint);
-        },
-        onLongPress: toggleSelectedPart,
-        child: _image == null
-            ? Center(child: CircularProgressIndicator())
-            : Center(
-                child: CustomPaint(
-                  painter: _CanvasPainter(
-                    image: _image!,
-                    splitPoint: _splitPoint,
-                    xOffsetTop: _xOffsetTop,
-                    yOffsetTop: _yOffsetTop,
-                    rotationTop: _rotationTop,
-                    xOffsetBottom: _xOffsetBottom,
-                    yOffsetBottom: _yOffsetBottom,
-                    rotationBottom: _rotationBottom,
+    return ChangeNotifierProvider<ImageState>(
+      create: (context) => ImageState()..loadImage(imageUrl),
+      child: Consumer<ImageState>(
+        builder: (context, imageState, _) => Scaffold(
+          body: GestureDetector(
+            onLongPress: imageState.toggleSelectedPart,
+            onDoubleTapDown: (details) {
+              final splitPoint = details.localPosition.dy;
+              imageState.splitImage(splitPoint);
+            },
+            child: imageState.image == null
+                ? const CircularProgressIndicator()
+                : Center(
+                    child: CustomPaint(
+                      painter: _CanvasPainter.fromImageState(imageState),
+                      size: Size.infinite,
+                    ),
                   ),
-                  size: Size.infinite, // Розмір на весь екран
-                ),
+          ),
+          floatingActionButton: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              FloatingActionButton(
+                onPressed: () => imageState.reset(),
+                child: const Icon(Icons.remove),
               ),
-      ),
-      floatingActionButton: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: [
-          FloatingActionButton(
-            onPressed: () => reset(),
-            child: const Icon(Icons.restore),
+              const SizedBox(height: 10),
+              FloatingActionButton(
+                onPressed: () => imageState.moveImage(0, -10),
+                child: const Icon(Icons.arrow_upward),
+              ),
+              const SizedBox(height: 10),
+              FloatingActionButton(
+                onPressed: () => imageState.moveImage(0, 10),
+                child: const Icon(Icons.arrow_downward),
+              ),
+              const SizedBox(height: 10),
+              FloatingActionButton(
+                onPressed: () => imageState.moveImage(-10, 0),
+                child: const Icon(Icons.arrow_back),
+              ),
+              const SizedBox(height: 10),
+              FloatingActionButton(
+                onPressed: () => imageState.moveImage(10, 0),
+                child: const Icon(Icons.arrow_forward),
+              ),
+              const SizedBox(height: 10),
+              FloatingActionButton(
+                onPressed: () => imageState.rotateImage(-0.001),
+                child: const Icon(Icons.rotate_left),
+              ),
+              const SizedBox(height: 10),
+              FloatingActionButton(
+                onPressed: () => imageState.rotateImage(0.001),
+                child: const Icon(Icons.rotate_right),
+              ),
+              const SizedBox(height: 50),
+            ],
           ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            onPressed: () => moveImage(0, -10),
-            child: const Icon(Icons.arrow_upward),
-          ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            onPressed: () => moveImage(0, 10),
-            child: const Icon(Icons.arrow_downward),
-          ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            onPressed: () => moveImage(-10, 0),
-            child: const Icon(Icons.arrow_back),
-          ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            onPressed: () => moveImage(10, 0),
-            child: const Icon(Icons.arrow_forward),
-          ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            onPressed: () => rotateImage(-0.001),
-            child: const Icon(Icons.rotate_left),
-          ),
-          const SizedBox(height: 10),
-          FloatingActionButton(
-            onPressed: () => rotateImage(0.001),
-            child: const Icon(Icons.rotate_right),
-          ),
-          const SizedBox(height: 50),
-        ],
+        ),
       ),
     );
   }
@@ -171,6 +91,19 @@ class _CanvasPainter extends CustomPainter {
   }) {
     drawSplitLine = splitPoint == 0.0 ? false : true;
     this.splitPoint = splitPoint == 0.0 ? image.height / 2 : splitPoint;
+  }
+
+  factory _CanvasPainter.fromImageState(ImageState imageState) {
+    return _CanvasPainter(
+      image: imageState.image!,
+      splitPoint: imageState.splitPoint,
+      xOffsetTop: imageState.xOffsetTop,
+      yOffsetTop: imageState.yOffsetTop,
+      rotationTop: imageState.rotationTop,
+      xOffsetBottom: imageState.xOffsetBottom,
+      yOffsetBottom: imageState.yOffsetBottom,
+      rotationBottom: imageState.rotationBottom,
+    );
   }
 
   final ui.Image image;
