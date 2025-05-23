@@ -1,0 +1,414 @@
+{
+  "category": {
+    "id": "relationship_crisis",
+    "name": {
+      "ua": "Криза у стосунках",
+      "en": "Relationship Crisis"
+    },
+    "slug": "relationship_crisis",
+    "created_at": "2025-05-15T16:10:19.020105Z",
+    "updated_at": "2025-05-15T16:10:19.020105Z"
+  },
+  "subcategory": {
+    "slug": "daily-life-routine",
+    "name": {
+      "ua": "Побут і рутина",
+      "en": "Daily Life & Routine"
+    }
+  },
+  "challenges": [
+    {
+      "id": "challenge_switch_day",
+      "title": {
+        "ua": "Обмін днями",
+        "en": "Switch Day"
+      },
+      "description": {
+        "ua": "На один день поміняйтесь обов’язками...",
+        "en": "Swap responsibilities for one day..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Розвинути емпатію та усвідомити побутове навантаження партнера.",
+        "en": "Develop empathy and recognize your partner’s daily load."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "daily-life-routine",
+      "tags": [
+        "empathy",
+        "household",
+        "awareness"
+      ],
+      "image": "switch_day.svg",
+      "recommended_for": {
+        "ua": "пари, де один з партнерів відчуває, що робить більше",
+        "en": "couples where one partner feels they do more"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "challenge_loving_planning",
+      "title": {
+        "ua": "Планування з любов’ю",
+        "en": "Loving Planning"
+      },
+      "description": {
+        "ua": "Разом сплануйте наступний тиждень...",
+        "en": "Plan the upcoming week together..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Навчитись планувати не лише обов’язки, а й близькість.",
+        "en": "Learn to plan not only tasks, but also emotional connection."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "daily-life-routine",
+      "tags": [
+        "mindfulness",
+        "organization",
+        "closeness"
+      ],
+      "image": "loving_planning.svg",
+      "recommended_for": {
+        "ua": "пари, які живуть у режимі «виконати задачі»",
+        "en": "couples living in task-mode only"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "challenge_care_day",
+      "title": {
+        "ua": "Бережливий день",
+        "en": "Care Day"
+      },
+      "description": {
+        "ua": "Упродовж цього дня зробіть приємні побутові жести...",
+        "en": "Do small acts of care throughout the day..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Повернути елемент турботи в буденність.",
+        "en": "Reintroduce care into your daily routine."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "daily-life-routine",
+      "tags": [
+        "care",
+        "attention",
+        "everyday"
+      ],
+      "image": "care_day.svg",
+      "recommended_for": {
+        "ua": "пари, де зникла побутова підтримка",
+        "en": "couples who lost daily support"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "challenge_routine_upgrade",
+      "title": {
+        "ua": "Побутовий апгрейд",
+        "en": "Routine Upgrade"
+      },
+      "description": {
+        "ua": "Проаналізуйте разом ваші щоденні обов’язки...",
+        "en": "Review your daily duties together..."
+      },
+      "days": 2,
+      "goal": {
+        "ua": "Зменшити побутову втому й несправедливість.",
+        "en": "Reduce routine fatigue and perceived unfairness."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "daily-life-routine",
+      "tags": [
+        "household",
+        "fairness",
+        "structure"
+      ],
+      "image": "routine_upgrade.svg",
+      "recommended_for": {
+        "ua": "пари з повторюваними конфліктами через побут",
+        "en": "couples with repeated household-related conflicts"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "challenge_walk_in_my_shoes",
+      "title": {
+        "ua": "Мій день очима тебе",
+        "en": "Walk in My Shoes"
+      },
+      "description": {
+        "ua": "Кожен з вас описує свій типовий день...",
+        "en": "Each partner shares their typical day..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Поглибити розуміння повсякденного досвіду партнера.",
+        "en": "Deepen understanding of your partner’s everyday life."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "daily-life-routine",
+      "tags": [
+        "empathy",
+        "reality",
+        "fatigue"
+      ],
+      "image": "walk_in_my_shoes.svg",
+      "recommended_for": {
+        "ua": "пари, які не цінують внесок одне одного",
+        "en": "couples who don’t appreciate each other’s contribution"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "889a5e1d-4ece-4f89-91c4-c589452e3233",
+      "challenge_id": "challenge_switch_day",
+      "step_number": 1,
+      "content": {
+        "ua": "Обговоріть: які справи кожен із вас виконує найчастіше (навіть дрібниці).",
+        "en": "Discuss: what tasks does each of you usually handle (even the small ones)."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "3c2eb4a2-5bb0-4898-9145-775b93b93345",
+      "challenge_id": "challenge_switch_day",
+      "step_number": 2,
+      "content": {
+        "ua": "Домовтесь обмінятись цими обов’язками на один день.",
+        "en": "Agree to swap these responsibilities for a day."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "b7a09567-93c4-4a3c-9ddc-92524234c7df",
+      "challenge_id": "challenge_switch_day",
+      "step_number": 3,
+      "content": {
+        "ua": "Не підказуйте одне одному — дайте відчути, як це виглядає на практиці.",
+        "en": "Don’t coach or correct each other — let your partner experience it firsthand."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "0ad147f2-626a-4cbd-a7eb-43bc242dbaa5",
+      "challenge_id": "challenge_switch_day",
+      "step_number": 4,
+      "content": {
+        "ua": "Наприкінці дня обговоріть: що було несподівано складним або несправедливим?",
+        "en": "At the end of the day, discuss what felt unexpectedly hard or unfair."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "25ac7118-46dc-497a-83ed-86b714f0ca98",
+      "challenge_id": "challenge_loving_planning",
+      "step_number": 1,
+      "content": {
+        "ua": "Сядьте разом з нотатником, планером або календарем.",
+        "en": "Sit down together with a notebook, planner, or calendar."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "ecbca327-c288-40c2-99a6-7640b6cc0cce",
+      "challenge_id": "challenge_loving_planning",
+      "step_number": 2,
+      "content": {
+        "ua": "Запишіть всі необхідні побутові справи на тиждень.",
+        "en": "List all necessary household tasks for the week."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "fd9487a0-ab58-45ce-927d-0f2fe5f8adb9",
+      "challenge_id": "challenge_loving_planning",
+      "step_number": 3,
+      "content": {
+        "ua": "Додайте 3–5 моментів радості: що вас обох заряджає?",
+        "en": "Add 3–5 joyful moments: what energizes both of you?"
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "d40adddf-a111-4daf-ad7e-06f67e5ab11a",
+      "challenge_id": "challenge_loving_planning",
+      "step_number": 4,
+      "content": {
+        "ua": "Розподіліть справи та радості так, щоб обом було комфортно.",
+        "en": "Distribute duties and joyful moments in a balanced way."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "d2daa55f-9982-468d-a037-af51f5273df5",
+      "challenge_id": "challenge_loving_planning",
+      "step_number": 5,
+      "content": {
+        "ua": "Закріпіть це як ритуал: раз на тиждень плануємо з турботою.",
+        "en": "Make it a ritual: plan with care once a week."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "75fd1665-7997-4129-bf58-82be67dc6a7b",
+      "challenge_id": "challenge_care_day",
+      "step_number": 1,
+      "content": {
+        "ua": "Зробіть 3 малі, але щирі дії, які полегшать день партнера.",
+        "en": "Do 3 small but sincere actions to ease your partner’s day."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "306a3216-4882-488e-a450-337369dea09a",
+      "challenge_id": "challenge_care_day",
+      "step_number": 2,
+      "content": {
+        "ua": "Не афішуйте це, не натякайте на свою 'жертву'. Просто робіть.",
+        "en": "Don’t make it obvious or hint at your effort. Just do it."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "7cec9916-b6c0-476b-8db9-bccfa66bd80d",
+      "challenge_id": "challenge_care_day",
+      "step_number": 3,
+      "content": {
+        "ua": "Увечері розкажіть партнеру, як це змінило вашу внутрішню динаміку.",
+        "en": "In the evening, share how it affected your inner state."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "f0dcf980-d834-4f96-b41c-f5424c2d8332",
+      "challenge_id": "challenge_care_day",
+      "step_number": 4,
+      "content": {
+        "ua": "Запропонуйте партнеру спробувати завтра те саме — обмін ролями.",
+        "en": "Invite your partner to try it tomorrow — switch roles."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "42e2edce-692b-4cff-863b-049a47b068c9",
+      "challenge_id": "challenge_routine_upgrade",
+      "step_number": 1,
+      "content": {
+        "ua": "Разом складіть список побутових справ за останній тиждень.",
+        "en": "List all household tasks from the past week together."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "c6bf03f8-1994-45d9-8471-6a1cf29af5b6",
+      "challenge_id": "challenge_routine_upgrade",
+      "step_number": 2,
+      "content": {
+        "ua": "Позначте: що викликає напругу? Що можна делегувати/розділити/чергувати?",
+        "en": "Mark what's stressful, what could be delegated/shared/rotated."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "e5e00cbb-890a-4ec3-9b87-f277f0a7fc56",
+      "challenge_id": "challenge_routine_upgrade",
+      "step_number": 3,
+      "content": {
+        "ua": "Створіть нову угоду: хто за що відповідає, щоб уникати повторних конфліктів.",
+        "en": "Create a new agreement: who handles what to avoid repeated conflicts."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "cf882986-b099-4d6f-8962-8b7ce5e245c7",
+      "challenge_id": "challenge_routine_upgrade",
+      "step_number": 4,
+      "content": {
+        "ua": "Зробіть перевірку через 2 дні: чи стало легше? Що ще не працює?",
+        "en": "Check back in 2 days: did it help? What still isn’t working?"
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "45cd02f9-0c82-4222-9568-62f382a3674d",
+      "challenge_id": "challenge_walk_in_my_shoes",
+      "step_number": 1,
+      "content": {
+        "ua": "Напишіть у формі невеликого щоденника або розповіді свій типовий день...",
+        "en": "Write your typical day as a short diary or story..."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "0ada46d0-de40-4929-ad9f-87fc1f9be7e5",
+      "challenge_id": "challenge_walk_in_my_shoes",
+      "step_number": 2,
+      "content": {
+        "ua": "Прочитайте текст партнеру, а потім обговоріть: що було несподіваним?",
+        "en": "Read it aloud to your partner and discuss: what was unexpected?"
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "cc1527d7-5d3f-4eaa-bc1d-d4a64e24136e",
+      "challenge_id": "challenge_walk_in_my_shoes",
+      "step_number": 3,
+      "content": {
+        "ua": "Зверніть увагу на ті моменти, де партнер очікує більше підтримки або розуміння.",
+        "en": "Note areas where your partner expects more support or understanding."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    },
+    {
+      "id": "efc4a2b6-0419-42c6-bb6c-667ce2000db5",
+      "challenge_id": "challenge_walk_in_my_shoes",
+      "step_number": 4,
+      "content": {
+        "ua": "Обговоріть: як ви можете допомогти одне одному зменшити навантаження чи напругу.",
+        "en": "Talk about how you can reduce each other’s stress or workload."
+      },
+      "created_at": "2025-05-15T16:10:19.020105Z",
+      "updated_at": "2025-05-15T16:10:19.020105Z"
+    }
+  ]
+}

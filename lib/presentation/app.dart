@@ -83,8 +83,7 @@ class MyApp extends StatelessWidget {
 
   /// Theme.of(context).extension<AppTheme>()!
   ThemeData _theme(AppColors colors) {
-    final appTheme =
-        colors is LightThemeAppColors ? AppTheme.light : AppTheme.dark;
+    final appTheme = colors is LightThemeAppColors ? AppTheme.light : AppTheme.dark;
     return ThemeData(
       extensions: [appTheme],
       scaffoldBackgroundColor: colors.background,

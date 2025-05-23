@@ -1,0 +1,526 @@
+{
+  "category": {
+    "id": "relationship_crisis",
+    "name": {
+      "ua": "Криза у стосунках",
+      "en": "[EN] Криза у стосунках"
+    },
+    "slug": "relationship_crisis",
+    "created_at": "2025-05-15T12:00:00Z",
+    "updated_at": "2025-05-15T12:00:00Z"
+  },
+  "challenges": [
+    {
+      "id": "challenge_b76f9f64",
+      "title": {
+        "ua": "День без критики",
+        "en": "No Criticism Day"
+      },
+      "description": {
+        "ua": "Впродовж одного дня утримуйтеся від будь-яких критичних зауважень на адресу партнера. Замість цього замінюйте їх нейтральними або позитивними фразами.",
+        "en": "For one day, refrain from making any critical remarks toward your partner. Instead, replace them with neutral or positive phrases."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Зменшити напругу та покращити спілкування.",
+        "en": "Reduce tension and improve communication."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "trust",
+        "empathy",
+        "calm"
+      ],
+      "image": "no_criticism_day.svg",
+      "recommended_for": {
+        "ua": "пари в стані регулярних сварок",
+        "en": "couples experiencing frequent arguments"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "challenge_9e4ed9d9",
+      "title": {
+        "ua": "Слова з повагою",
+        "en": "Words with Respect"
+      },
+      "description": {
+        "ua": "Впродовж одного дня замінюйте кожну звичну негативну фразу на нейтральну або турботливу. Створіть список таких замін.",
+        "en": "For one day, replace every usual negative phrase with a neutral or caring one. Create a list of such replacements."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Навчитися поважати партнера навіть у звичних дрібницях.",
+        "en": "Learn to respect your partner even in everyday little things."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "respect",
+        "rephrasing",
+        "awareness"
+      ],
+      "image": "respect_words.svg",
+      "recommended_for": {
+        "ua": "пари з високим рівнем напруги в побуті",
+        "en": "couples experiencing high household tension"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "challenge_e69ea817",
+      "title": {
+        "ua": "День глибокого слухання",
+        "en": "Deep Listening Day"
+      },
+      "description": {
+        "ua": "У цей день практикуйте активне слухання. Не перебивайте партнера навіть у складних розмовах. Вислуховуйте до кінця, переповідайте суть, щоб перевірити, що зрозуміли правильно.",
+        "en": "Today, practice active listening. Don’t interrupt your partner, even during difficult conversations. Listen till the end and rephrase their message to confirm your understanding."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Покращити розуміння та знизити конфлікти через недочутість.",
+        "en": "Improve understanding and reduce conflicts caused by miscommunication."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "communication",
+        "understanding",
+        "empathy"
+      ],
+      "image": "deep_listening.svg",
+      "recommended_for": {
+        "ua": "пари з проблемами у спілкуванні",
+        "en": "couples struggling with communication"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "challenge_6afba963",
+      "title": {
+        "ua": "Мій емоційний багаж",
+        "en": "My Emotional Baggage"
+      },
+      "description": {
+        "ua": "Кожен партнер розповідає про щось зі свого минулого, що може впливати на поточні конфлікти. Це можуть бути дитячі травми, страхи, образи, попередні стосунки.",
+        "en": "Each partner shares something from their past that may affect current conflicts — childhood traumas, fears, past relationships, or unresolved pain."
+      },
+      "days": 2,
+      "goal": {
+        "ua": "Поглибити емпатію та зрозуміти, чому партнер реагує саме так.",
+        "en": "Deepen empathy and understand why your partner reacts the way they do."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "depth",
+        "understanding",
+        "acceptance"
+      ],
+      "image": "emotional_baggage.svg",
+      "recommended_for": {
+        "ua": "пари з глибокими нерозуміннями",
+        "en": "couples with deep misunderstandings"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "challenge_fe8655bc",
+      "title": {
+        "ua": "Ми — команда",
+        "en": "We Are a Team"
+      },
+      "description": {
+        "ua": "Замість 'я проти тебе', спробуйте вирішувати конфлікт як спільну проблему. Складіть список із 3 проблем, що викликають напругу, і вирішіть їх разом.",
+        "en": "Instead of 'me versus you', approach conflict as a shared problem. Make a list of 3 tension-causing issues and solve them together."
+      },
+      "days": 3,
+      "goal": {
+        "ua": "Змінити мислення: ми проти проблеми, а не один проти одного.",
+        "en": "Shift the mindset: it’s us against the problem, not against each other."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "teamwork",
+        "support",
+        "responsibility"
+      ],
+      "image": "team_mindset.svg",
+      "recommended_for": {
+        "ua": "пари у гострих конфліктах",
+        "en": "couples in acute conflict"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "challenge_gratitude_week",
+      "title": {
+        "ua": "Тиждень вдячності",
+        "en": "Gratitude Week"
+      },
+      "description": {
+        "ua": "Протягом тижня кожного дня озвучуйте партнеру одну конкретну річ, за яку ви йому вдячні. Навіть якщо зараз складно — знаходьте дрібниці.",
+        "en": "Each day for a week, tell your partner one specific thing you’re grateful for. Even if things are tough right now, focus on the small stuff."
+      },
+      "days": 7,
+      "goal": {
+        "ua": "Зменшити концентрацію на негативі, активізувати теплі емоції.",
+        "en": "Reduce focus on negativity and awaken warm emotions."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "gratitude",
+        "positivity",
+        "щоденна_увага"
+      ],
+      "image": "gratitude_week.svg",
+      "recommended_for": {
+        "ua": "пари, які бачать лише негатив у партнері",
+        "en": "couples who see only the negative in each other"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "challenge_expectation_swap",
+      "title": {
+        "ua": "Обмін очікуваннями",
+        "en": "Expectation Swap"
+      },
+      "description": {
+        "ua": "Часто ми не розуміємо, чого насправді очікує партнер. У цьому челенджі кожен з вас озвучить свої очікування у 3 ключових сферах: емоційна підтримка, побут, інтимність.",
+        "en": "We often don’t fully understand what our partner truly expects. In this challenge, each of you will share your expectations in 3 key areas: emotional support, daily life, and intimacy."
+      },
+      "days": 2,
+      "goal": {
+        "ua": "Прояснити невисловлені очікування та уникнути розчарувань.",
+        "en": "Clarify unspoken expectations and prevent disappointment."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": null,
+      "tags": [
+        "expectations",
+        "clarity",
+        "realism"
+      ],
+      "image": "expectation_swap.svg",
+      "recommended_for": {
+        "ua": "пари з взаємними образами або нерозумінням",
+        "en": "couples dealing with mutual resentment or misunderstanding"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "c93962e2-c507-4aec-bbf9-76e3f7b8a19d",
+      "challenge_id": "challenge_b76f9f64",
+      "step_number": 1,
+      "content": {
+        "ua": "Усвідомити звичні фрази, які можуть сприйматись як критика.",
+        "en": "Identify common phrases that might be perceived as criticism."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "59edfb86-5da9-4595-9195-4538e7e668f1",
+      "challenge_id": "challenge_b76f9f64",
+      "step_number": 2,
+      "content": {
+        "ua": "Протягом дня утримуйтесь від їх використання.",
+        "en": "Avoid using them throughout the day."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "1efebdce-d00c-4721-b43c-ad619d6fa241",
+      "challenge_id": "challenge_b76f9f64",
+      "step_number": 3,
+      "content": {
+        "ua": "В кінці дня обговоріть, як це вплинуло на ваші емоції та взаємодію.",
+        "en": "At the end of the day, discuss how it affected your emotions and interaction."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "39b68247-ea4a-4df6-9bd6-4a413e22d8ef",
+      "challenge_id": "challenge_9e4ed9d9",
+      "step_number": 1,
+      "content": {
+        "ua": "Підготуйте список типових фраз, які можуть звучати образливо.",
+        "en": "Prepare a list of common phrases that might sound offensive."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "ec18966a-1013-4c89-8bbc-0d3ff8e3d9bd",
+      "challenge_id": "challenge_9e4ed9d9",
+      "step_number": 2,
+      "content": {
+        "ua": "Поруч напишіть альтернативні варіанти.",
+        "en": "Write down alternative, respectful versions next to them."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "b1d23e1d-72ee-461e-acce-9801231e8b20",
+      "challenge_id": "challenge_9e4ed9d9",
+      "step_number": 3,
+      "content": {
+        "ua": "Використовуйте ці заміни протягом дня і спостерігайте за реакцією партнера.",
+        "en": "Use these replacements throughout the day and observe your partner’s reaction."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "ed33d928-dd00-40ab-94d4-fe71af3d9920",
+      "challenge_id": "challenge_e69ea817",
+      "step_number": 1,
+      "content": {
+        "ua": "Перед початком домовтесь, що обоє беруть участь.",
+        "en": "Before starting, agree that both of you will participate."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "b02863b8-1e63-4707-bf10-4f8da43b89bb",
+      "challenge_id": "challenge_e69ea817",
+      "step_number": 2,
+      "content": {
+        "ua": "Кожен день вислуховує іншого мінімум 10 хвилин без перебивання.",
+        "en": "Each day, listen to your partner for at least 10 minutes without interrupting."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "7af4dd97-d8ca-4968-8327-0292bb183ede",
+      "challenge_id": "challenge_e69ea817",
+      "step_number": 3,
+      "content": {
+        "ua": "Після цього спробуйте переказати, що ви почули.",
+        "en": "After that, try to summarize what you heard."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "46bf6b20-0779-49b0-b52c-864d30ce0b06",
+      "challenge_id": "challenge_e69ea817",
+      "step_number": 4,
+      "content": {
+        "ua": "Завершіть словами: «Я правильно тебе зрозумів(ла)?»",
+        "en": "Finish with the phrase: 'Did I understand you correctly?'"
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "398dc8f6-6868-4187-a547-b216f6ec22f3",
+      "challenge_id": "challenge_6afba963",
+      "step_number": 1,
+      "content": {
+        "ua": "Виділіть по 20 хв на кожного. Один говорить, інший тільки слухає.",
+        "en": "Give each person 20 minutes. One speaks, the other only listens."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "326a775d-781d-4156-bd09-77e7f4a22947",
+      "challenge_id": "challenge_6afba963",
+      "step_number": 2,
+      "content": {
+        "ua": "Не коментуйте одразу. Просто дякуйте за відкритість.",
+        "en": "Don’t comment right away. Just thank your partner for being open."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "f007dbc5-f732-466d-bbfa-422e05d89080",
+      "challenge_id": "challenge_6afba963",
+      "step_number": 3,
+      "content": {
+        "ua": "Запишіть для себе: що було новим або несподіваним?",
+        "en": "Write down for yourself: what was new or surprising?"
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "7e4122b1-a95c-41b6-8449-b7aae771d989",
+      "challenge_id": "challenge_6afba963",
+      "step_number": 4,
+      "content": {
+        "ua": "На другий день обговоріть, що почуте змінило у вашому розумінні партнера.",
+        "en": "On the second day, discuss how what you heard changed your understanding of your partner."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "66d78cd9-85e7-4068-b8d4-996a04337b7e",
+      "challenge_id": "challenge_fe8655bc",
+      "step_number": 1,
+      "content": {
+        "ua": "Окремо запишіть 3 проблеми у стосунках (без емоцій, по суті).",
+        "en": "Individually write down 3 issues in your relationship (objectively, without emotions)."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "8241cf1a-df58-491a-ad19-e8126142861a",
+      "challenge_id": "challenge_fe8655bc",
+      "step_number": 2,
+      "content": {
+        "ua": "Об’єднайте списки та виберіть одну проблему.",
+        "en": "Combine your lists and choose one issue to focus on together."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "210eed20-25f2-4ffc-b22f-83ead2cc7a69",
+      "challenge_id": "challenge_fe8655bc",
+      "step_number": 3,
+      "content": {
+        "ua": "Разом створіть 'план дій', де кожен бере відповідальність за частину.",
+        "en": "Create an action plan together, where each of you takes responsibility for a part of it."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "c42e8811-49b4-40b6-81db-9cf8502ef6c5",
+      "challenge_id": "challenge_fe8655bc",
+      "step_number": 4,
+      "content": {
+        "ua": "Наступні 2 дні виконуйте план і фіксуйте зміни у поведінці.",
+        "en": "For the next 2 days, follow the plan and track changes in behavior."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "4fb6649b-ff87-4357-b948-bc4ce61caa98",
+      "challenge_id": "challenge_gratitude_week",
+      "step_number": 1,
+      "content": {
+        "ua": "Кожного ранку або вечора подумайте, що зробив ваш партнер хорошого сьогодні або в минулому.",
+        "en": "Each morning or evening, think about something kind your partner did today or in the past."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "0b6b0f26-3e68-4a87-b206-d4db7a41b9fe",
+      "challenge_id": "challenge_gratitude_week",
+      "step_number": 2,
+      "content": {
+        "ua": "Скажіть це йому прямо: «Я вдячний(а) тобі за...». Не узагальнюйте.",
+        "en": "Say it directly: 'I’m grateful to you for...'. Be specific, not vague."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "e028df62-61d5-4bd5-90df-ef5b361f29a0",
+      "challenge_id": "challenge_gratitude_week",
+      "step_number": 3,
+      "content": {
+        "ua": "Записуйте свої відчуття в нотатник: чи це щось змінило у сприйнятті партнера?",
+        "en": "Write down your feelings in a journal: did it change how you perceive your partner?"
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "1c49c7f1-00ca-428b-9bdd-792fbe1d87a6",
+      "challenge_id": "challenge_gratitude_week",
+      "step_number": 4,
+      "content": {
+        "ua": "Попросіть і партнера робити те саме, якщо готовий(а).",
+        "en": "Invite your partner to do the same, if they feel ready."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "cd4afd0b-4b67-4cc9-9e72-da891bad04d1",
+      "challenge_id": "challenge_expectation_swap",
+      "step_number": 1,
+      "content": {
+        "ua": "Окремо випишіть 3–5 речей, які ви хотіли б отримувати частіше в кожній з трьох сфер.",
+        "en": "Individually list 3–5 things you'd like to receive more often in each of the three areas."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "0a5a0562-26dd-4487-adab-68856b391829",
+      "challenge_id": "challenge_expectation_swap",
+      "step_number": 2,
+      "content": {
+        "ua": "Обміняйтесь списками. Читайте не як вимоги, а як бажання.",
+        "en": "Exchange your lists. Read them as wishes, not demands."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "c8c991e3-dcd7-4920-9d1d-e9b20fe68d81",
+      "challenge_id": "challenge_expectation_swap",
+      "step_number": 3,
+      "content": {
+        "ua": "Обговоріть, які очікування реалістичні, які — ні, і чому.",
+        "en": "Discuss which expectations are realistic, which aren’t, and why."
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    },
+    {
+      "id": "653c510d-117b-4908-99c2-3f6f579d8643",
+      "challenge_id": "challenge_expectation_swap",
+      "step_number": 4,
+      "content": {
+        "ua": "Разом створіть план: що з цього можете втілити вже зараз?",
+        "en": "Create a plan together: what can you start implementing right away?"
+      },
+      "created_at": "2025-05-15T15:20:13.438667Z",
+      "updated_at": "2025-05-15T15:20:13.438667Z"
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "category": {
+    "id": "relationship_crisis",
+    "name": {
+      "ua": "Криза у стосунках",
+      "en": "Relationship Crisis"
+    },
+    "slug": "relationship_crisis",
+    "created_at": "2025-05-15T17:12:50.164844Z",
+    "updated_at": "2025-05-15T17:12:50.164844Z"
+  },
+  "subcategory": {
+    "slug": "reconnection-after-breakup",
+    "name": {
+      "ua": "Відновлення стосунків після розриву",
+      "en": "Reconnection After Breakup"
+    }
+  },
+  "challenges": [
+    {
+      "id": "challenge_what_to_leave",
+      "title": {
+        "ua": "Що залишити в минулому",
+        "en": "What to Leave Behind"
+      },
+      "description": {
+        "ua": "Кожен окремо записує 3 речі з минулих стосунків...",
+        "en": "Each person writes down 3 things from the past relationship to leave behind..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Підвести підсумки минулого та побудувати нові правила взаємодії.",
+        "en": "Summarize the past and build new interaction rules."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "reconnection-after-breakup",
+      "tags": [
+        "reflection",
+        "letting_go",
+        "new_start"
+      ],
+      "image": "leave_past.svg",
+      "recommended_for": {
+        "ua": "пари, які вирішили почати знову після розриву",
+        "en": "couples who decided to start over after a breakup"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "challenge_new_vision",
+      "title": {
+        "ua": "Нове бачення нас",
+        "en": "A New Vision of Us"
+      },
+      "description": {
+        "ua": "Опишіть нову версію ваших стосунків...",
+        "en": "Describe a new version of your relationship..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Налаштувати обох на спільний рух уперед, а не повторення минулого.",
+        "en": "Align both partners toward moving forward, not repeating the past."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "reconnection-after-breakup",
+      "tags": [
+        "vision",
+        "goals",
+        "reconnection"
+      ],
+      "image": "new_vision.svg",
+      "recommended_for": {
+        "ua": "пари, що хочуть будувати нову версію себе",
+        "en": "couples who want to build a new version of their relationship"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "challenge_i_hear_you",
+      "title": {
+        "ua": "Я чую тебе",
+        "en": "I Hear You"
+      },
+      "description": {
+        "ua": "Відновіть слухання...",
+        "en": "Restore the ability to truly listen..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Відновити відчуття бути почутим і прийнятим.",
+        "en": "Restore the feeling of being heard and accepted."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "reconnection-after-breakup",
+      "tags": [
+        "listening",
+        "support",
+        "safety"
+      ],
+      "image": "hear_you.svg",
+      "recommended_for": {
+        "ua": "пари після тривалого відчуження",
+        "en": "couples after long disconnection"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "challenge_new_ritual_reconnect",
+      "title": {
+        "ua": "Нова традиція",
+        "en": "New Tradition"
+      },
+      "description": {
+        "ua": "Створіть нову спільну традицію...",
+        "en": "Create a new shared tradition..."
+      },
+      "days": 7,
+      "goal": {
+        "ua": "Закріпити новий емоційний зв'язок на практиці.",
+        "en": "Anchor the renewed emotional bond through action."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "reconnection-after-breakup",
+      "tags": [
+        "new_rituals",
+        "connection",
+        "reconnection"
+      ],
+      "image": "new_tradition.svg",
+      "recommended_for": {
+        "ua": "пари після паузи у стосунках",
+        "en": "couples after a relationship pause"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "challenge_trust_steps",
+      "title": {
+        "ua": "Довіра маленькими кроками",
+        "en": "Trust Through Small Steps"
+      },
+      "description": {
+        "ua": "Спробуйте побудувати нову довіру через серію щирих і простих дій...",
+        "en": "Try to build trust anew through a series of sincere and simple actions..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Закласти перші цеглини для нової довіри через повагу до прохань партнера.",
+        "en": "Lay the first bricks of renewed trust through respecting each other's requests."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "reconnection-after-breakup",
+      "tags": [
+        "trust",
+        "respect",
+        "care"
+      ],
+      "image": "trust_steps.svg",
+      "recommended_for": {
+        "ua": "пари, які хочуть почати все заново після болючого періоду",
+        "en": "couples wanting to restart after a painful period"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "34f87f9d-b60a-40cf-b3a5-9680424b4371",
+      "challenge_id": "challenge_what_to_leave",
+      "step_number": 1,
+      "content": {
+        "ua": "Кожен окремо записує 3 речі: звички, конфлікти, патерни.",
+        "en": "Each writes down 3 things: habits, conflicts, patterns."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "a977d349-f4e8-4ab9-ada1-823360787e09",
+      "challenge_id": "challenge_what_to_leave",
+      "step_number": 2,
+      "content": {
+        "ua": "Обміняйтесь списками.",
+        "en": "Exchange your lists."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "26b58591-5a29-4856-ab1b-4b7e3bacc749",
+      "challenge_id": "challenge_what_to_leave",
+      "step_number": 3,
+      "content": {
+        "ua": "Обговоріть: що з цього найважливіше змінити?",
+        "en": "Discuss: what is most important to change?"
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "b04d45b5-ba59-4449-bfb5-828436c46b90",
+      "challenge_id": "challenge_what_to_leave",
+      "step_number": 4,
+      "content": {
+        "ua": "Сформулюйте нові домовленості, які допоможуть уникати цих помилок.",
+        "en": "Form new agreements to help avoid these mistakes."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "fefe9fa4-7c74-4bc5-92ad-72b3fe97053a",
+      "challenge_id": "challenge_new_vision",
+      "step_number": 1,
+      "content": {
+        "ua": "Окремо напишіть 3 риси або особливості нових стосунків, яких прагнете.",
+        "en": "Individually write 3 features of the relationship you want."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "0f7ede4f-5ce8-4494-9d63-e9f88bbb756f",
+      "challenge_id": "challenge_new_vision",
+      "step_number": 2,
+      "content": {
+        "ua": "Обговоріть, чому це важливо для кожного.",
+        "en": "Discuss why each is important."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "b525c063-1d7c-438b-b8e0-be89c83ebb02",
+      "challenge_id": "challenge_new_vision",
+      "step_number": 3,
+      "content": {
+        "ua": "Створіть коротке спільне бачення: 2–3 речення, які вас об'єднують.",
+        "en": "Create a short shared vision: 2–3 sentences that unite you."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "419f04b6-f8f1-47fb-b5b1-b452d8219fe9",
+      "challenge_id": "challenge_i_hear_you",
+      "step_number": 1,
+      "content": {
+        "ua": "Один партнер говорить 5 хвилин про свої почуття чи надії щодо стосунків.",
+        "en": "One partner speaks for 5 minutes about their feelings or hopes."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "aec96538-2301-421a-9cb2-e138787dec0e",
+      "challenge_id": "challenge_i_hear_you",
+      "step_number": 2,
+      "content": {
+        "ua": "Інший лише слухає, не перебиває, не коментує.",
+        "en": "The other only listens, no interruptions, no comments."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "30e75a75-bc2d-4c63-97be-a8c05f89f12b",
+      "challenge_id": "challenge_i_hear_you",
+      "step_number": 3,
+      "content": {
+        "ua": "Після змініть ролі.",
+        "en": "Then switch roles."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "419b28c1-6098-4284-9491-21cf1e8e224f",
+      "challenge_id": "challenge_i_hear_you",
+      "step_number": 4,
+      "content": {
+        "ua": "Закінчіть словами: «Я почув(ла) тебе. Дякую.»",
+        "en": "Finish with: “I heard you. Thank you.”"
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "56e40e83-8eec-4103-87d7-7b87e2087f02",
+      "challenge_id": "challenge_new_ritual_reconnect",
+      "step_number": 1,
+      "content": {
+        "ua": "Разом придумайте нову традицію, яка символізує ваш новий союз.",
+        "en": "Together invent a new tradition symbolizing your renewed bond."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "2adc9e67-8633-4810-a5bc-51ab06ef922d",
+      "challenge_id": "challenge_new_ritual_reconnect",
+      "step_number": 2,
+      "content": {
+        "ua": "Домовтесь дотримуватись її хоча б протягом двох тижнів.",
+        "en": "Agree to follow it for at least two weeks."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "8094ea3c-ed34-4c53-9098-f6af0be516c3",
+      "challenge_id": "challenge_new_ritual_reconnect",
+      "step_number": 3,
+      "content": {
+        "ua": "Закріпіть її маленьким ритуалом (наприклад, фото чи фраза-підтримка).",
+        "en": "Reinforce it with a small ritual (e.g., photo or supportive phrase)."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "46e5d106-d491-4aec-9473-fed6c31b2398",
+      "challenge_id": "challenge_trust_steps",
+      "step_number": 1,
+      "content": {
+        "ua": "Кожен з вас пише на аркуші одну просту дію, яка допоможе вам відчути довіру з боку партнера...",
+        "en": "Each of you writes one simple action that would help build trust..."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "b5b9de65-09d1-4aa4-b4d9-9354e5bc4688",
+      "challenge_id": "challenge_trust_steps",
+      "step_number": 2,
+      "content": {
+        "ua": "Обміняйтеся цими аркушами й прочитайте вголос бажання одне одного.",
+        "en": "Exchange and read each other’s requests aloud."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "16e34183-0be4-4b70-ace6-aca0312df353",
+      "challenge_id": "challenge_trust_steps",
+      "step_number": 3,
+      "content": {
+        "ua": "Домовтеся виконати ці дії протягом дня без нагадувань.",
+        "en": "Agree to complete the actions during the day without reminders."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    },
+    {
+      "id": "5700b677-af67-4d8a-a0c8-43623e764391",
+      "challenge_id": "challenge_trust_steps",
+      "step_number": 4,
+      "content": {
+        "ua": "Увечері поділіться, як ви себе почували та що змінилось у сприйнятті партнера.",
+        "en": "In the evening, share how it felt and what changed in your perception."
+      },
+      "created_at": "2025-05-15T17:12:50.164844Z",
+      "updated_at": "2025-05-15T17:12:50.164844Z"
+    }
+  ]
+}

@@ -44,3 +44,6 @@ app.*.map.json
 /android/app/release
 
 **/failures/*.png
+
+# FVM Version Cache
+.fvm/

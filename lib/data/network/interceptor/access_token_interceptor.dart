@@ -15,3 +15,15 @@ class AccessTokenInterceptor implements RequestInterceptor {
     return applyHeader(request, _headerName, appEnv.apiKey);
   }
 }
+
+// class AccessTokenInterceptor implements Interceptor {
+//   AccessTokenInterceptor(this.appEnv);
+//
+//   final AppEnv appEnv;
+//
+//   @override
+//   FutureOr<Response<BodyType>> intercept<BodyType>(Chain<BodyType> chain) {
+//     final request = applyHeader(chain.request, _headerName, appEnv.apiKey);
+//     return chain.proceed(request);
+//   }
+// }

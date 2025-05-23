@@ -1,0 +1,108 @@
+{
+  "challenge": {
+    "id": "challenge_010",
+    "title": {
+      "ua": "Гра збудження: 3 дні наростаючого бажання",
+      "en": "Arousal Game: 3 Days of Rising Desire"
+    },
+    "description": {
+      "ua": "Цей челендж створено для пар, які хочуть вийти за межі звичних сценаріїв близькості...",
+      "en": "This challenge is for couples wanting to go beyond routine intimacy. Through control, teasing, and delay, you'll awaken deeper desire and learn to feel each other more intensely — both physically and emotionally."
+    },
+    "days": 3,
+    "goal": {
+      "ua": "Розпалити бажання через стриманість, тілесну гру і контроль.",
+      "en": "Ignite desire through restraint, physical play, and control."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "desire",
+    "tags": [
+      "physicality",
+      "trust",
+      "tension",
+      "control",
+      "flirt",
+      "foreplay"
+    ],
+    "image": "intimate_tease_challenge.svg",
+    "recommended_for": {
+      "ua": "пари, які хочуть оживити бажання та вийти за рамки звичних прелюдій",
+      "en": "couples who want to rekindle desire and go beyond typical foreplay"
+    },
+    "free_or_premium": "premium",
+    "status": "active",
+    "created_at": "2025-05-22T15:18:30.979392Z",
+    "updated_at": "2025-05-22T15:18:30.979392Z"
+  },
+  "challenge_steps": [
+    {
+      "id": "4aa695c0-fb68-4868-a8d6-1660883653b2",
+      "challenge_id": "challenge_010",
+      "step_number": 1,
+      "content": {
+        "ua": "День 1: Тілесна заборона\n\nСьогодні — день дотику без дозволу на секс...",
+        "en": "Day 1: Physical Restraint\n\nToday is about physical contact without sex. Hugs, kisses, flirting — yes. But no touching of intimate zones, even over clothes. The goal is to build tension through restraint. Reflect together in the evening: what turned you on the most?"
+      },
+      "tips": [
+        {
+          "ua": "Можна писати один одному фліртуючі повідомлення протягом дня.",
+          "en": "You can send each other flirty messages throughout the day."
+        },
+        {
+          "ua": "Пробуйте торкатись через тканину або дуже повільно наближатися без торкання.",
+          "en": "Try touching through clothing or approaching very slowly without actual contact."
+        }
+      ],
+      "reflection_prompt": null,
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "5dbe939c-b357-493b-9c79-d7b79a98122d",
+      "challenge_id": "challenge_010",
+      "step_number": 2,
+      "content": {
+        "ua": "День 2: Провокація без фінішу\n\nУвечері домовтеся про ролі: один — провокатор, другий — отримувач...",
+        "en": "Day 2: Tease Without Finish\n\nTonight, agree on roles: one is the teaser, the other the receiver. Tease to the edge, but don’t finish. Whisper, touch, massage, kiss — then either switch or pause."
+      },
+      "tips": [
+        {
+          "ua": "Домовтеся про «кодове слово» для зупинки або паузи.",
+          "en": "Agree on a 'safe word' for pause or stop."
+        },
+        {
+          "ua": "Не поспішайте — ця гра про сповільнення і напругу, а не про результат.",
+          "en": "Take it slow — this game is about tension and buildup, not the end result."
+        }
+      ],
+      "reflection_prompt": null,
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "ee5b15a3-f1f2-4800-9510-fde89eaef69a",
+      "challenge_id": "challenge_010",
+      "step_number": 3,
+      "content": {
+        "ua": "День 3: Вивільнення\n\nСьогодні — ніч реалізації накопиченого бажання...",
+        "en": "Day 3: Release\n\nTonight is the release of accumulated desire. Prepare the space — music, lights, scents. Discuss desires and limits. Use oils, blindfolds, favorite positions or elements from previous days."
+      },
+      "tips": [
+        {
+          "ua": "Після — обговоріть, що було найприємніше і чи хочете повторити досвід у майбутньому.",
+          "en": "After — discuss what felt best and whether you’d like to repeat the experience."
+        },
+        {
+          "ua": "Можна завершити вечір спільною ванною або сном в обіймах.",
+          "en": "End the night with a shared bath or cuddling to sleep."
+        }
+      ],
+      "reflection_prompt": {
+        "ua": "Що тобі дало найбільше задоволення? Який момент був несподівано сильним?",
+        "en": "What brought you the most pleasure? Which moment was surprisingly intense?"
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ]
+}

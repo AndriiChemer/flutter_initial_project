@@ -13,6 +13,7 @@ class ImageState with ChangeNotifier {
   double rotationTop = 0.0;
   double rotationBottom = 0.0;
   bool isTopSelected = true;
+  bool shouldShowLine = false;
 
   Future<void> loadImage(String imageUrl) async {
     final completer = Completer<ui.Image>();
@@ -32,6 +33,7 @@ class ImageState with ChangeNotifier {
 
   void splitImage(double point) {
     splitPoint = point;
+    shouldShowLine = true;
     notifyListeners();
   }
 
@@ -44,6 +46,7 @@ class ImageState with ChangeNotifier {
     yOffsetBottom = 0.0;
     rotationTop = 0.0;
     rotationBottom = 0.0;
+    shouldShowLine = false;
     notifyListeners();
   }
 

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "relationship_crisis",
+    "name": {
+      "uk": "Криза у стосунках",
+      "en": "Relationship Crisis"
+    },
+    "slug": "relationship_crisis",
+    "created_at": "2025-05-15T12:00:00Z",
+    "updated_at": "2025-05-15T12:00:00Z"
+  },
+  {
+    "slug": "daily-life-routine",
+    "name": {
+      "ua": "Побут і рутина",
+      "en": "Daily Life & Routine"
+    }
+  },
+  {
+    "slug": "conflicts-and-quarrels",
+    "name": {
+      "ua": "Конфлікти та сварки",
+      "en": "Conflicts and Quarrels"
+    }
+  },
+  {
+    "slug": "conflicts-and-quarrels",
+    "name": {
+      "ua": "Конфлікти та сварки",
+      "en": "Conflicts and Quarrels"
+    }
+  },
+  {
+    "slug": "distance-and-coldness",
+    "name": {
+      "ua": "Віддалення й охолодження",
+      "en": "Distance and Coldness"
+    }
+  },
+  {
+    "slug": "daily-touch",
+    "name": {
+      "ua": "Щоденна тілесність",
+      "en": "Daily Physical Touch"
+    }
+  },
+  {
+    "slug": "desire",
+    "name": {
+      "ua": "Розпалення бажання",
+      "en": "Desire & Arousal"
+    }
+  },
+  {
+    "slug": "sex-talk",
+    "name": {
+      "ua": "Комунікація про секс",
+      "en": "Talking About Sex"
+    }
+  },
+  {
+    "slug": "novelty",
+    "name": {
+      "ua": "Новизна й експерименти",
+      "en": "Novelty & Exploration"
+    }
+  },
+  {
+    "slug": "reconnection-after-breakup",
+    "name": {
+      "ua": "Відновлення стосунків після розриву",
+      "en": "Reconnection After Breakup"
+    }
+  }
+]

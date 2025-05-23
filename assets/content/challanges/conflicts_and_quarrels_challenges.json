@@ -1,0 +1,392 @@
+{
+  "category": {
+    "id": "relationship_crisis",
+    "name": {
+      "ua": "Криза у стосунках",
+      "en": "Relationship Crisis"
+    },
+    "slug": "relationship_crisis",
+    "created_at": "2025-05-15T16:35:06.346839Z",
+    "updated_at": "2025-05-15T16:35:06.346839Z"
+  },
+  "subcategory": {
+    "slug": "conflicts-and-quarrels",
+    "name": {
+      "ua": "Конфлікти та сварки",
+      "en": "Conflicts and Quarrels"
+    }
+  },
+  "challenges": [
+    {
+      "id": "challenge_conflict_resolution_1",
+      "title": {
+        "ua": "День без критики",
+        "en": "No Criticism Day"
+      },
+      "description": {
+        "ua": "Впродовж одного дня утримуйтеся від будь-яких критичних зауважень...",
+        "en": "For one day, avoid any critical remarks..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Зменшити напругу та покращити спілкування.",
+        "en": "Reduce tension and improve communication."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "conflicts-and-quarrels",
+      "tags": [
+        "trust",
+        "empathy",
+        "calm"
+      ],
+      "image": "no_criticism_day.svg",
+      "recommended_for": {
+        "ua": "пари в стані регулярних сварок",
+        "en": "couples experiencing regular conflicts"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "challenge_deep_listening",
+      "title": {
+        "ua": "День глибокого слухання",
+        "en": "Deep Listening Day"
+      },
+      "description": {
+        "ua": "У цей день практикуйте активне слухання...",
+        "en": "Practice active listening throughout the day..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Покращити розуміння та знизити конфлікти через недочутість.",
+        "en": "Improve understanding and reduce miscommunication-based conflicts."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "conflicts-and-quarrels",
+      "tags": [
+        "communication",
+        "understanding",
+        "empathy"
+      ],
+      "image": "deep_listening.svg",
+      "recommended_for": {
+        "ua": "пари з проблемами у спілкуванні",
+        "en": "couples struggling with communication"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "challenge_truth_hour",
+      "title": {
+        "ua": "Година правди",
+        "en": "Truth Hour"
+      },
+      "description": {
+        "ua": "Протягом однієї години обговоріть теми, які зазвичай уникаєте...",
+        "en": "Spend one hour discussing avoided topics..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Зруйнувати мовчазні бар’єри та зміцнити довіру.",
+        "en": "Break silent barriers and build trust."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "conflicts-and-quarrels",
+      "tags": [
+        "honesty",
+        "openness",
+        "intimacy"
+      ],
+      "image": "truth_hour.svg",
+      "recommended_for": {
+        "ua": "пари, які уникають глибоких розмов",
+        "en": "couples avoiding deep conversations"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "challenge_own_emotions",
+      "title": {
+        "ua": "Моє ядро, не твоя вина",
+        "en": "My Core, Not Your Fault"
+      },
+      "description": {
+        "ua": "Часто ми звинувачуємо партнера в своїх емоціях...",
+        "en": "We often blame our partner for our emotions..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Навчитись відповідати з позиції «я-висловлювань», а не обвинувачення.",
+        "en": "Learn to respond with 'I-statements' instead of blame."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "conflicts-and-quarrels",
+      "tags": [
+        "emotions",
+        "awareness",
+        "responsibility"
+      ],
+      "image": "own_emotions.svg",
+      "recommended_for": {
+        "ua": "пари з імпульсивними сварками",
+        "en": "couples with impulsive fights"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "challenge_conflict_pause",
+      "title": {
+        "ua": "Стоп-код слово",
+        "en": "Conflict Pause Word"
+      },
+      "description": {
+        "ua": "Встановіть спеціальне «стоп-слово» або жест...",
+        "en": "Create a special 'pause word' or gesture..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Зупинити конфлікт до того, як він вийде з-під контролю.",
+        "en": "Stop conflict before it escalates."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "conflicts-and-quarrels",
+      "tags": [
+        "pause",
+        "conflict",
+        "self-regulation"
+      ],
+      "image": "conflict_pause.svg",
+      "recommended_for": {
+        "ua": "пари з гострими сварками",
+        "en": "couples with heated arguments"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "9ede4052-224e-48e2-af3a-49918f1f0d61",
+      "challenge_id": "challenge_conflict_resolution_1",
+      "step_number": 1,
+      "content": {
+        "ua": "Усвідомити звичні фрази, які можуть сприйматись як критика.",
+        "en": "Notice common phrases that may sound critical."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "899067a5-e694-4637-9e27-ff483a994a1d",
+      "challenge_id": "challenge_conflict_resolution_1",
+      "step_number": 2,
+      "content": {
+        "ua": "Протягом дня утримуйтесь від їх використання.",
+        "en": "Avoid using them throughout the day."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "cffcf740-8868-44cc-994f-39182a503c94",
+      "challenge_id": "challenge_conflict_resolution_1",
+      "step_number": 3,
+      "content": {
+        "ua": "Увечері обговоріть, як це вплинуло на ваші емоції та взаємодію.",
+        "en": "Discuss in the evening how it influenced your emotions and connection."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "b6bc966e-4514-4ffe-9b11-c39ad0332b93",
+      "challenge_id": "challenge_deep_listening",
+      "step_number": 1,
+      "content": {
+        "ua": "Перед початком домовтесь, що обоє беруть участь.",
+        "en": "Agree to both participate before starting."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "26903df4-fb6f-4ba7-bc13-0c743d7a1fc1",
+      "challenge_id": "challenge_deep_listening",
+      "step_number": 2,
+      "content": {
+        "ua": "Кожен виділяє час, щоб вислухати партнера не перебиваючи.",
+        "en": "Each person gets time to speak without interruption."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "c44a8aa5-69f9-4c8d-94d6-ee758172772e",
+      "challenge_id": "challenge_deep_listening",
+      "step_number": 3,
+      "content": {
+        "ua": "Після цього спробуйте переказати, що почули.",
+        "en": "Try to restate what you heard afterward."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "a379b74a-0814-48c6-808a-8297db58942b",
+      "challenge_id": "challenge_deep_listening",
+      "step_number": 4,
+      "content": {
+        "ua": "Завершіть словами: «Я правильно тебе зрозумів(ла)?»",
+        "en": "End with the phrase: “Did I understand you correctly?”"
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "38a89000-9b01-4d21-8369-59f723a39d4e",
+      "challenge_id": "challenge_truth_hour",
+      "step_number": 1,
+      "content": {
+        "ua": "Кожен з вас готує список із 3 запитань...",
+        "en": "Each of you prepares 3 questions..."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "aac396a0-4643-4c90-814a-a0cf85524f02",
+      "challenge_id": "challenge_truth_hour",
+      "step_number": 2,
+      "content": {
+        "ua": "Встановіть правило: чесність без засудження.",
+        "en": "Set a rule: honesty without judgment."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "b23f892d-1108-4b01-a73e-691f850051b5",
+      "challenge_id": "challenge_truth_hour",
+      "step_number": 3,
+      "content": {
+        "ua": "Відповідайте по черзі, уважно слухаючи.",
+        "en": "Take turns answering and listening actively."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "ab2db4c3-32ac-4912-b351-2ae46348deb1",
+      "challenge_id": "challenge_truth_hour",
+      "step_number": 4,
+      "content": {
+        "ua": "Після кожної відповіді скажіть: «Дякую, що поділився(лась)»",
+        "en": "After each response, say: “Thank you for sharing.”"
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "c317fc12-c8cc-46fd-a6c6-e465fb09e4db",
+      "challenge_id": "challenge_own_emotions",
+      "step_number": 1,
+      "content": {
+        "ua": "Протягом дня звертайте увагу на свої емоції під час спілкування.",
+        "en": "Throughout the day, observe your emotions during interactions."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "f394bff4-e093-43c0-9c51-038576597d5e",
+      "challenge_id": "challenge_own_emotions",
+      "step_number": 2,
+      "content": {
+        "ua": "Якщо з’являється роздратування, зупиніться і подумайте...",
+        "en": "When irritation arises, pause and reflect..."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "c2975883-e588-44a6-b6a0-ee6f16d41cc1",
+      "challenge_id": "challenge_own_emotions",
+      "step_number": 3,
+      "content": {
+        "ua": "Сформулюйте фразу у стилі: «Коли я чую __, я почуваюсь __, бо мені важливо __.»",
+        "en": "Use a phrase like: “When I hear __, I feel __ because __ matters to me.”"
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "047c1eb4-f305-42e3-9191-105ad5f4e7dd",
+      "challenge_id": "challenge_own_emotions",
+      "step_number": 4,
+      "content": {
+        "ua": "Ввечері поділіться прикладом, де це вдалося зробити — або ні.",
+        "en": "In the evening, share an example — success or failure."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "14d8aa8b-0c0c-4033-b3e5-b25750dc7236",
+      "challenge_id": "challenge_conflict_pause",
+      "step_number": 1,
+      "content": {
+        "ua": "Разом оберіть слово або жест...",
+        "en": "Choose a word or gesture together..."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "86485035-a9e3-404b-82fc-dac6ebddb3e0",
+      "challenge_id": "challenge_conflict_pause",
+      "step_number": 2,
+      "content": {
+        "ua": "Домовтесь, що це буде знак: пауза, без криків, на 10 хв.",
+        "en": "Agree that it signals a 10-minute quiet break — no yelling."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "a08426ec-d7a3-4461-b02b-d0205eb73d6e",
+      "challenge_id": "challenge_conflict_pause",
+      "step_number": 3,
+      "content": {
+        "ua": "Складіть короткий план: що робити у ці 10 хв? (вихід на повітря, вода, музика).",
+        "en": "Make a quick plan: what will you do in that time? (walk, water, music)"
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    },
+    {
+      "id": "00aaad96-c94e-4995-be8a-cc8155291169",
+      "challenge_id": "challenge_conflict_pause",
+      "step_number": 4,
+      "content": {
+        "ua": "Використайте стоп-код при першій же спробі загострення сьогодні.",
+        "en": "Use the code at the first sign of escalation today."
+      },
+      "created_at": "2025-05-15T16:35:06.346839Z",
+      "updated_at": "2025-05-15T16:35:06.346839Z"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "challenge": {
+    "id": "challenge_006",
+    "title": {
+      "ua": "Інше «я»",
+      "en": "Another Me"
+    },
+    "description": {
+      "ua": "Цей челендж допоможе вам відчути новизну у близькості через уяву...",
+      "en": "This challenge helps bring freshness to intimacy through imagination. Playing roles allows more honesty, freer flirting, and expansion of desire — without pressure or shame."
+    },
+    "days": 3,
+    "goal": {
+      "ua": "Відкрити нові грані бажання через рольову гру й уяву.",
+      "en": "Discover new dimensions of desire through roleplay and imagination."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "novelty",
+    "tags": [
+      "roleplay",
+      "imagination",
+      "emotional_openness",
+      "novelty",
+      "fantasy"
+    ],
+    "image": "challenge_imagination_play.svg",
+    "recommended_for": {
+      "ua": "пари, які хочуть урізноманітнити інтимність та спробувати щось нове без тиску",
+      "en": "couples who want to refresh intimacy and try something new without pressure"
+    },
+    "free_or_premium": "premium",
+    "status": "active",
+    "created_at": "2025-05-22T15:18:30.979392Z",
+    "updated_at": "2025-05-22T15:18:30.979392Z"
+  },
+  "challenge_steps": [
+    {
+      "id": "b88a32df-ba02-4c98-bd62-c2e0ea1bf687",
+      "challenge_id": "challenge_006",
+      "step_number": 1,
+      "content": {
+        "ua": "Хто ти сьогодні?\n\nСтворіть персонажа: ім’я, походження, професія...",
+        "en": "Who Are You Today?\n\nCreate a character: name, background, profession, and style. Then talk for 10 minutes in this role. Use new voice, gestures, and body language."
+      },
+      "tips": [
+        {
+          "ua": "Почніть із простого діалогу: «Розкажи про себе», «Що ти тут робиш?»",
+          "en": "Start with a simple dialogue: 'Tell me about yourself', 'What brings you here?'"
+        },
+        {
+          "ua": "Можна зберігати роль навіть після завершення завдання — до вечора.",
+          "en": "You can keep the character going even after the challenge — until evening."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "2c73617d-5d84-4b0b-b199-52d2dbc37298",
+      "challenge_id": "challenge_006",
+      "step_number": 2,
+      "content": {
+        "ua": "Зустріч у барі\n\nУявіть, що ви зустрілися вперше...",
+        "en": "Meeting at the Bar\n\nPretend you're strangers meeting for the first time. One waits, the other approaches. Flirt in character. Enjoy the moment without rushing into intimacy."
+      },
+      "tips": [
+        {
+          "ua": "Не обов’язково грати секс — грайте знайомство.",
+          "en": "You don’t need to act out sex — just the initial spark."
+        },
+        {
+          "ua": "Можна зробити це частиною вечері або вечора без техніки.",
+          "en": "Make it part of your dinner or an unplugged evening."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "e1493421-aa9b-4e70-b4c7-67f9ff1cc9d0",
+      "challenge_id": "challenge_006",
+      "step_number": 3,
+      "content": {
+        "ua": "Таємне бажання\n\nУ ролі свого персонажа — поділіться еротичною фантазією...",
+        "en": "Secret Desire\n\nAs your character, share an erotic fantasy. It's easier to express something as someone else. Respond as your character or just listen. Then reflect together: what was new or surprising?"
+      },
+      "tips": [
+        {
+          "ua": "Це не обов'язково має бути фантазія, яку ви хочете реалізувати.",
+          "en": "It doesn’t have to be a fantasy you want to act out."
+        },
+        {
+          "ua": "Це можливість виявити щось нове про свою еротику через гру.",
+          "en": "It’s a chance to learn something new about your erotic self through play."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "category": {
+    "id": "relationship_crisis",
+    "name": {
+      "ua": "Криза у стосунках",
+      "en": "Relationship Crisis"
+    },
+    "slug": "relationship_crisis",
+    "created_at": "2025-05-15T16:47:43.428688Z",
+    "updated_at": "2025-05-15T16:47:43.428688Z"
+  },
+  "subcategory": {
+    "slug": "distance-and-coldness",
+    "name": {
+      "ua": "Віддалення й охолодження",
+      "en": "Distance and Coldness"
+    }
+  },
+  "challenges": [
+    {
+      "id": "challenge_5_min_closeness",
+      "title": {
+        "ua": "5 хвилин поруч",
+        "en": "5 Minutes Together"
+      },
+      "description": {
+        "ua": "Виділіть лише 5 хвилин сьогодні...",
+        "en": "Spend just 5 minutes today being physically and emotionally close..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Повернути тілесне і психологічне відчуття «ми поруч».",
+        "en": "Restore the physical and emotional feeling of 'being together'."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "distance-and-coldness",
+      "tags": [
+        "physicality",
+        "attention",
+        "presence"
+      ],
+      "image": "close_5_min.svg",
+      "recommended_for": {
+        "ua": "пари, які почуваються емоційно далекими",
+        "en": "couples who feel emotionally distant"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "challenge_image_of_you",
+      "title": {
+        "ua": "Мій образ тебе",
+        "en": "The Image I Hold of You"
+      },
+      "description": {
+        "ua": "Кожен описує, як він бачить свого партнера сьогодні...",
+        "en": "Each partner describes how they see the other today..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Оновити образ партнера і відчути, що вас знову бачать.",
+        "en": "Refresh your image of your partner and feel seen again."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "distance-and-coldness",
+      "tags": [
+        "awareness",
+        "value",
+        "mindfulness"
+      ],
+      "image": "image_of_you.svg",
+      "recommended_for": {
+        "ua": "пари, що стали байдужими одне до одного",
+        "en": "couples who’ve grown indifferent to each other"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "challenge_memory_invite",
+      "title": {
+        "ua": "Запрошення до спогадів",
+        "en": "Invitation to Memories"
+      },
+      "description": {
+        "ua": "Згадайте разом приємні моменти з початку стосунків...",
+        "en": "Recall fond moments from the early days of your relationship..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Пробудити ніжність і пам’ять про любов.",
+        "en": "Awaken tenderness and memories of love."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "distance-and-coldness",
+      "tags": [
+        "tenderness",
+        "memory",
+        "love"
+      ],
+      "image": "memory_invite.svg",
+      "recommended_for": {
+        "ua": "пари, які втратили зв’язок з почуттями",
+        "en": "couples who’ve lost touch with their feelings"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "challenge_unconditional_letter",
+      "title": {
+        "ua": "Лист любові без умов",
+        "en": "Unconditional Love Letter"
+      },
+      "description": {
+        "ua": "Напишіть короткий лист або повідомлення, де скажете партнеру...",
+        "en": "Write a short letter or message to your partner expressing your love..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Повернути безумовність і тепло у взаємодію.",
+        "en": "Bring back unconditional love and warmth into the relationship."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "distance-and-coldness",
+      "tags": [
+        "love",
+        "acceptance",
+        "gratitude"
+      ],
+      "image": "love_letter.svg",
+      "recommended_for": {
+        "ua": "пари, які віддалились настільки, що не говорять про почуття",
+        "en": "couples who’ve grown too distant to talk about feelings"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "challenge_new_ritual",
+      "title": {
+        "ua": "1 новий ритуал",
+        "en": "One New Ritual"
+      },
+      "description": {
+        "ua": "Створіть нову щоденну або щотижневу звичку...",
+        "en": "Create a new daily or weekly ritual that belongs to just the two of you..."
+      },
+      "days": 2,
+      "goal": {
+        "ua": "Побудувати новий міст до регулярного контакту.",
+        "en": "Build a new bridge toward consistent emotional connection."
+      },
+      "category_id": "relationship_crisis",
+      "subcategory_slug": "distance-and-coldness",
+      "tags": [
+        "habit",
+        "stability",
+        "closeness"
+      ],
+      "image": "new_ritual.svg",
+      "recommended_for": {
+        "ua": "пари, які не мають спільних звичок чи ритуалів",
+        "en": "couples lacking shared habits or rituals"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "4f7aacd8-06c7-471b-953e-c1239ab3f060",
+      "challenge_id": "challenge_5_min_closeness",
+      "step_number": 1,
+      "content": {
+        "ua": "Перед початком домовтесь не оцінювати одне одного і не змушувати — робіть лише те, що комфортно.",
+        "en": "Before starting, agree not to judge or pressure each other — only do what feels comfortable."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "e70bfcba-2610-47cd-be93-81848cf8b0fd",
+      "challenge_id": "challenge_5_min_closeness",
+      "step_number": 2,
+      "content": {
+        "ua": "Сядьте або ляжте поруч, візьміться за руки чи обійміться.",
+        "en": "Sit or lie next to each other, hold hands or hug."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "e8b29ef0-add9-4f08-89b9-45f1f23d5549",
+      "challenge_id": "challenge_5_min_closeness",
+      "step_number": 3,
+      "content": {
+        "ua": "Закрийте очі або дивіться одне одному в очі.",
+        "en": "Close your eyes or look into each other’s eyes."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "28165fce-5fe9-4b5b-ace5-d86d48c837db",
+      "challenge_id": "challenge_5_min_closeness",
+      "step_number": 4,
+      "content": {
+        "ua": "Не говоріть. Просто дихайте разом і відчувайте близькість.",
+        "en": "Don’t speak. Just breathe together and feel the connection."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "8441869f-9ef2-4ab8-91f6-e516afacf8be",
+      "challenge_id": "challenge_5_min_closeness",
+      "step_number": 5,
+      "content": {
+        "ua": "Після цього скажіть, що відчули. Без оцінок — тільки чесність.",
+        "en": "Afterward, share what you felt — no judgment, just honesty."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "12eca7fc-8837-4e2a-82bf-4a64c7fbb144",
+      "challenge_id": "challenge_image_of_you",
+      "step_number": 1,
+      "content": {
+        "ua": "Кожен окремо пише або проговорює: «Я бачу тебе як...»",
+        "en": "Individually write or say: “I see you as...”"
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "bfefdab1-9e40-4e30-82e9-a8f16602e84c",
+      "challenge_id": "challenge_image_of_you",
+      "step_number": 2,
+      "content": {
+        "ua": "Зосередьтесь на цінностях, ролях, рисах, які бачите в партнері.",
+        "en": "Focus on the values, roles, and traits you recognize in your partner."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "086f556c-c77f-43db-ab72-7514d2fcc2aa",
+      "challenge_id": "challenge_image_of_you",
+      "step_number": 3,
+      "content": {
+        "ua": "Обміняйтесь цими описами. Не коментуйте — тільки прийміть.",
+        "en": "Exchange your descriptions. No comments — just receive."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "ba9dd6eb-0456-48e1-8f6e-9fbd75f14766",
+      "challenge_id": "challenge_image_of_you",
+      "step_number": 4,
+      "content": {
+        "ua": "Подумайте, які з цих якостей ви давно не помічали.",
+        "en": "Reflect on which of these qualities you haven’t noticed in a while."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "5b2eb686-607a-4529-81af-90756fc5c1f2",
+      "challenge_id": "challenge_memory_invite",
+      "step_number": 1,
+      "content": {
+        "ua": "Кожен підготує одну спільну пам’ять, яка приносить тепло.",
+        "en": "Each of you prepares a warm memory you shared."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "0c6b9ec4-8695-4ed3-bb85-494cc9debef4",
+      "challenge_id": "challenge_memory_invite",
+      "step_number": 2,
+      "content": {
+        "ua": "Розкажіть одне одному цю історію, як ніби вперше.",
+        "en": "Tell each other the story as if it’s the first time."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "c4afde5b-79e8-4026-813a-3250a1d2b100",
+      "challenge_id": "challenge_memory_invite",
+      "step_number": 3,
+      "content": {
+        "ua": "Поділіться: що саме тоді викликало у вас щастя? Що з того зникло?",
+        "en": "Share what made you happy back then — and what has faded."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "63f909a1-01ed-4a4f-8c7d-6936ac15d030",
+      "challenge_id": "challenge_memory_invite",
+      "step_number": 4,
+      "content": {
+        "ua": "Запишіть або сфотографуйте щось символічне, пов’язане з цією пам’яттю.",
+        "en": "Write down or take a photo of something symbolic from that memory."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "126fdd36-2a58-4421-9d8a-2dd4973a8561",
+      "challenge_id": "challenge_new_ritual",
+      "step_number": 1,
+      "content": {
+        "ua": "Обговоріть: які маленькі звички могли б бути вашим новим 'ми'?",
+        "en": "Discuss small habits that could become your new ‘us’."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "3260a09f-2cb2-4c8b-a49b-7abd61867064",
+      "challenge_id": "challenge_new_ritual",
+      "step_number": 2,
+      "content": {
+        "ua": "Виберіть одну й домовтесь спробувати протягом 2 днів.",
+        "en": "Pick one and agree to try it for 2 days."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "8b49024d-ae7b-42b3-8070-53cd4bdb411b",
+      "challenge_id": "challenge_new_ritual",
+      "step_number": 3,
+      "content": {
+        "ua": "Виконуйте її разом — стабільно й свідомо.",
+        "en": "Practice it together — consistently and consciously."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "83659acb-a7df-4228-a974-8194a169a1c6",
+      "challenge_id": "challenge_new_ritual",
+      "step_number": 4,
+      "content": {
+        "ua": "Після обговоріть: як це змінило ваш контакт?",
+        "en": "Afterward, discuss how it affected your connection."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "5d5a4ddf-7698-49fc-8926-fed6516cdd3d",
+      "challenge_id": "challenge_unconditional_letter",
+      "step_number": 1,
+      "content": {
+        "ua": "Сядьте і подумайте: за що я справді вдячний партнеру, що досі ціную?",
+        "en": "Sit down and reflect: what are you truly grateful for in your partner?"
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "4c411b2a-58fa-4d27-99ca-4b646dc621c6",
+      "challenge_id": "challenge_unconditional_letter",
+      "step_number": 2,
+      "content": {
+        "ua": "Напишіть 3-5 речень у формі щирого листа або записки.",
+        "en": "Write 3–5 sentences in the form of a heartfelt note or letter."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "f2eaadf1-5e01-47a4-9842-a622ab653388",
+      "challenge_id": "challenge_unconditional_letter",
+      "step_number": 3,
+      "content": {
+        "ua": "Залишіть її в несподіваному місці — або надішліть у повідомленнях.",
+        "en": "Leave it in a surprising place — or send it as a message."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    },
+    {
+      "id": "e4e7befd-6812-408b-b626-70137c8b5ee2",
+      "challenge_id": "challenge_unconditional_letter",
+      "step_number": 4,
+      "content": {
+        "ua": "Нічого не чекайте у відповідь. Просто дайте це.",
+        "en": "Expect nothing in return. Just offer it."
+      },
+      "created_at": "2025-05-15T16:47:43.428688Z",
+      "updated_at": "2025-05-15T16:47:43.428688Z"
+    }
+  ]
+}

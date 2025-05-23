@@ -1,0 +1,356 @@
+{
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
+    },
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-22T15:18:30.979392Z",
+    "updated_at": "2025-05-22T15:18:30.979392Z"
+  },
+  "subcategories": [
+    {
+      "slug": "desire",
+      "name": {
+        "ua": "Розпалення бажання",
+        "en": "Desire & Arousal"
+      }
+    },
+    {
+      "slug": "daily-touch",
+      "name": {
+        "ua": "Щоденна тілесність",
+        "en": "Daily Physical Touch"
+      }
+    },
+    {
+      "slug": "novelty",
+      "name": {
+        "ua": "Новизна й експерименти",
+        "en": "Novelty & Exploration"
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "id": "challenge_eros_002",
+      "title": {
+        "ua": "Грайлива підкореність",
+        "en": "Playful Submission"
+      },
+      "description": {
+        "ua": "Цей челендж дає можливість парі дослідити фантазії пов'язані з контролем і підкоренням — ніжно, з довірою та чуттєвістю.",
+        "en": "This challenge allows the couple to explore fantasies of control and submission – gently, with trust and sensuality."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Пробудити бажання та дослідити грайливі еротичні ролі.",
+        "en": "To awaken desire and explore playful erotic roles."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "roleplay",
+        "dominance",
+        "trust",
+        "control",
+        "eroticism"
+      ],
+      "image": "challenge_playful_submission.svg",
+      "recommended_for": {
+        "ua": "Пари відкриті для дослідження динаміки домінантно-підкорених стосунків з довірою.",
+        "en": "Couples open to exploring dominant-submissive dynamics with trust."
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "challenge_eros_001",
+      "title": {
+        "ua": "Твоя зона задоволення",
+        "en": "Your Pleasure Zone"
+      },
+      "description": {
+        "ua": "Цей челендж допоможе вам дослідити ті частини тіла, які найбільше збуджують партнера...",
+        "en": "This challenge helps you explore the body zones that arouse your partner the most – with slowness and honest feedback."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Відкрити фізичну чутливість та побудувати довіру через дотик.",
+        "en": "To rediscover physical sensitivity and build trust through touch."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "daily-touch",
+      "tags": [
+        "eroticism",
+        "physicality",
+        "exploration",
+        "couple"
+      ],
+      "image": "challenge_pleasure_zone.svg",
+      "recommended_for": {
+        "ua": "Пари, які бажають відродити свою фізичну близькість з цікавістю.",
+        "en": "Couples wanting to revive their physical intimacy with curiosity."
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "challenge_008",
+      "title": {
+        "ua": "Марафон поцілунків",
+        "en": "Kissing Marathon"
+      },
+      "description": {
+        "ua": "Спробуйте перетворити звичайний поцілунок у справжню гру...",
+        "en": "Turn a kiss into a sensual game. This challenge is designed to awaken physical affection and anticipation."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Повернути чуттєвість за допомогою повільних, грайливих поцілунків.",
+        "en": "To bring back sensuality through slow, playful kissing."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "physicality",
+        "erotica",
+        "foreplay"
+      ],
+      "image": "challenge_kissing_marathon.svg",
+      "recommended_for": {
+        "ua": "Пари, які хочуть відродити пристрасть без поспіху.",
+        "en": "Couples who want to revive passion without rushing."
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "challenge_007",
+      "title": {
+        "ua": "Ніч без сценарію",
+        "en": "Night Without a Script"
+      },
+      "description": {
+        "ua": "Цей челендж — для пари, яка готова досліджувати нові сторони інтимності без чітких правил...",
+        "en": "This challenge is for couples ready to explore intimacy without rules – using intuition and emotional connection."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Створити простір для природного, інтуїтивного фізичного зв'язку.",
+        "en": "To create space for natural, intuitive physical connection."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "novelty",
+      "tags": [
+        "physicality",
+        "sexual_exploration"
+      ],
+      "image": "challenge_night_exploration.svg",
+      "recommended_for": {
+        "ua": "Пари, які хочуть відновити сексуальні стосунки без тиску.",
+        "en": "Couples who want to reconnect sexually without pressure."
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "d524d913-99b3-49e4-859b-32624cce2e26",
+      "challenge_id": "challenge_eros_002",
+      "step_number": 1,
+      "content": {
+        "ua": "Домовтесь, хто сьогодні бере на себе роль «ведучого»...",
+        "en": "Agree on who takes the lead role today..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "9f10a042-1e4b-42c5-bad4-e781f8c23653",
+      "challenge_id": "challenge_eros_002",
+      "step_number": 2,
+      "content": {
+        "ua": "Ведучий готує 3 інтимні завдання...",
+        "en": "The leader prepares 3 intimate tasks..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "7443b8e1-04d6-4649-a03c-d49d577804b7",
+      "challenge_id": "challenge_eros_002",
+      "step_number": 3,
+      "content": {
+        "ua": "Підкорений має виконувати завдання, але може використати «стоп-слово»...",
+        "en": "The submissive completes the tasks but can use a safe word if uncomfortable..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "b93fa0c8-dd81-44ab-ba41-c4ff317e4376",
+      "challenge_id": "challenge_eros_002",
+      "step_number": 4,
+      "content": {
+        "ua": "Після завершення — обмін ролями (за бажанням).",
+        "en": "After completion — switch roles (if desired)."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "05f7b43c-c0d5-40b8-a472-69b8f6183666",
+      "challenge_id": "challenge_eros_002",
+      "step_number": 5,
+      "content": {
+        "ua": "На завершення — обійми, слова вдячності та обговорення відчуттів.",
+        "en": "Finish with a hug, words of gratitude, and discussion of feelings."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "def61568-63b0-4a8a-8654-f39192e6b572",
+      "challenge_id": "challenge_eros_001",
+      "step_number": 1,
+      "content": {
+        "ua": "Погодьте, хто перший буде «дослідником», а хто — «досліджуваним».",
+        "en": "Decide who will be the 'explorer' and who will be explored first."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "4e63dfca-aa7c-4fb3-843a-36dc8a363ba2",
+      "challenge_id": "challenge_eros_001",
+      "step_number": 2,
+      "content": {
+        "ua": "Партнер-дослідник має ніжно доторкатися до різних зон тіла...",
+        "en": "The explorer partner gently touches different body areas..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "034345b1-d2fc-4806-ba76-bababc1951e1",
+      "challenge_id": "challenge_eros_001",
+      "step_number": 3,
+      "content": {
+        "ua": "Сигнал — гарячіше або холодніше...",
+        "en": "Use a signal like 'warmer' or 'colder'..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "dd4caf37-cfa4-473d-b99b-f7f3278ac424",
+      "challenge_id": "challenge_eros_001",
+      "step_number": 4,
+      "content": {
+        "ua": "Якщо бажано, доторкніться до інтимних зон...",
+        "en": "If desired, touch intimate areas — with consent and pace."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "7fca0954-3efc-4583-8ea8-c6e50ef8719c",
+      "challenge_id": "challenge_eros_001",
+      "step_number": 5,
+      "content": {
+        "ua": "Після цього ролі змінюються.",
+        "en": "Then switch roles."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "8ab776f2-3c75-4669-a490-2186a45b8aa5",
+      "challenge_id": "challenge_eros_001",
+      "step_number": 6,
+      "content": {
+        "ua": "Під кінець обговоріть: що найбільше сподобалося?",
+        "en": "At the end, discuss: what did you enjoy the most?"
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "9b77d4e4-8f49-4d60-8d49-5b60785d65be",
+      "challenge_id": "challenge_008",
+      "step_number": 1,
+      "content": {
+        "ua": "Почніть з поцілунків у неочікувані місця...",
+        "en": "Start with kisses in unexpected places..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "46e4faf3-6da5-445f-adec-e562c5c10701",
+      "challenge_id": "challenge_008",
+      "step_number": 2,
+      "content": {
+        "ua": "Визначте «заборонену зону», до якої можна дістатись лише наприкінці.",
+        "en": "Set a 'forbidden zone' that can only be reached at the end."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "af8f6daf-bfc6-4990-a5d9-25631d0ab58b",
+      "challenge_id": "challenge_008",
+      "step_number": 3,
+      "content": {
+        "ua": "Один з вас веде, інший приймає. Після 5 хвилин — міняєтесь ролями.",
+        "en": "One leads, one receives. After 5 minutes — switch roles."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "4ef2e077-039a-4822-8563-2339c5fcbeaf",
+      "challenge_id": "challenge_007",
+      "step_number": 1,
+      "content": {
+        "ua": "Почніть із повільних дотиків, чергуючи ролі...",
+        "en": "Start with slow touches, alternating roles..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "ebab98fc-f90c-4f88-a904-e3a4c6847c1b",
+      "challenge_id": "challenge_007",
+      "step_number": 2,
+      "content": {
+        "ua": "Рухайтесь інтуїтивно. Зосередьтеся на відчуттях...",
+        "en": "Move intuitively. Focus on sensations..."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "9d2560ff-3bb3-49db-b3dd-361fe2da0396",
+      "challenge_id": "challenge_007",
+      "step_number": 3,
+      "content": {
+        "ua": "Дозвольте сексу відбутись природно, без сценарію чи очікувань.",
+        "en": "Let intimacy happen naturally — without scripts or expectations."
+      },
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ]
+}

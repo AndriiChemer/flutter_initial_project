@@ -87,9 +87,9 @@ class _CanvasPainter extends CustomPainter {
     required this.xOffsetBottom,
     required this.yOffsetBottom,
     required this.rotationBottom,
+    required this.drawSplitLine,
     this.splitPoint = 0.0,
   }) {
-    drawSplitLine = splitPoint == 0.0 ? false : true;
     this.splitPoint = splitPoint == 0.0 ? image.height / 2 : splitPoint;
   }
 
@@ -103,6 +103,7 @@ class _CanvasPainter extends CustomPainter {
       xOffsetBottom: imageState.xOffsetBottom,
       yOffsetBottom: imageState.yOffsetBottom,
       rotationBottom: imageState.rotationBottom,
+      drawSplitLine: imageState.shouldShowLine,
     );
   }
 
@@ -114,8 +115,7 @@ class _CanvasPainter extends CustomPainter {
   final double xOffsetBottom;
   final double yOffsetBottom;
   final double rotationBottom;
-
-  bool drawSplitLine = false;
+  final bool drawSplitLine;
 
   @override
   void paint(Canvas canvas, Size size) {

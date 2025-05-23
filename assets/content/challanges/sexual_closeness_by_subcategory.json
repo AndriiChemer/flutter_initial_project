@@ -1,0 +1,578 @@
+{
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
+    },
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
+  },
+  "subcategories": [
+    {
+      "slug": "daily-touch",
+      "name": {
+        "ua": "Щоденна тілесність",
+        "en": "Daily Physical Touch"
+      }
+    },
+    {
+      "slug": "desire",
+      "name": {
+        "ua": "Розпалення бажання",
+        "en": "Desire & Arousal"
+      }
+    },
+    {
+      "slug": "sex-talk",
+      "name": {
+        "ua": "Комунікація про секс",
+        "en": "Talking About Sex"
+      }
+    },
+    {
+      "slug": "novelty",
+      "name": {
+        "ua": "Новизна й експерименти",
+        "en": "Novelty & Exploration"
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "id": "challenge_body_presence",
+      "title": {
+        "ua": "5 хвилин тілесної присутності",
+        "en": "5 Minutes of Physical Presence"
+      },
+      "description": {
+        "ua": "Протягом 5 хвилин просто торкайтеся одне одного: обійми, дотик рук, голів. Без інтиму, без очікувань. Лише тілесна присутність.",
+        "en": "Spend 5 minutes just touching one another — hugs, hand contact, head touches. No sex, no expectations. Just physical presence."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Повернути ніжність без тиску або очікування сексу.",
+        "en": "Restore tenderness without pressure or expectation of sex."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "daily-touch",
+      "tags": [
+        "tenderness",
+        "closeness",
+        "trust"
+      ],
+      "image": "body_presence.svg",
+      "recommended_for": {
+        "ua": "пари з охолодженням фізичної близькості",
+        "en": "couples with cooling physical intimacy"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "challenge_desire_cards",
+      "title": {
+        "ua": "Карти бажань",
+        "en": "Desire Cards"
+      },
+      "description": {
+        "ua": "Кожен із вас створює 3 картки: 'Хотів(ла) би спробувати', 'Люблю, коли...', 'Хотів(ла) б більше...'. Потім обмінюєтесь картами.",
+        "en": "Each of you creates 3 cards: 'Would like to try', 'I love when...', 'I wish for more...'. Then exchange and discuss."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Відкрити нові шляхи до емоційної та тілесної близькості.",
+        "en": "Open up new paths to emotional and physical closeness."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "sex-talk",
+      "tags": [
+        "openness",
+        "desire",
+        "intimacy"
+      ],
+      "image": "desire_cards.svg",
+      "recommended_for": {
+        "ua": "пари, які уникають обговорення сексу",
+        "en": "couples avoiding sexual conversation"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "challenge_ritual_of_touch",
+      "title": {
+        "ua": "Ритуал ніжності",
+        "en": "Ritual of Tenderness"
+      },
+      "description": {
+        "ua": "Створіть маленький щоденний ритуал ніжності: обійми перед сном, дотик при зустрічі. Зробіть це вашою новою звичкою.",
+        "en": "Create a small daily ritual of tenderness: hugs before bed, touch upon meeting. Make it a shared habit."
+      },
+      "days": 3,
+      "goal": {
+        "ua": "Створити стійкий тілесний зв’язок без тиску.",
+        "en": "Build a stable physical bond without pressure."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "daily-touch",
+      "tags": [
+        "habit",
+        "physicality",
+        "closeness"
+      ],
+      "image": "ritual_of_touch.svg",
+      "recommended_for": {
+        "ua": "пари, які втратили щоденний контакт",
+        "en": "couples who’ve lost daily physical connection"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "challenge_talk_about_sex",
+      "title": {
+        "ua": "Розмова про 'те саме'",
+        "en": "Talking About 'That Thing'"
+      },
+      "description": {
+        "ua": "Заплануйте розмову про інтимність без жартів, уникання і сорому...",
+        "en": "Plan a conversation about intimacy without jokes, avoidance, or shame..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Прибрати табу на розмови про сексуальність.",
+        "en": "Remove the taboo of talking about sexuality."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "sex-talk",
+      "tags": [
+        "відвертість",
+        "desire",
+        "intimacy"
+      ],
+      "image": "talk_about_sex.svg",
+      "recommended_for": {
+        "ua": "пари, які уникають серйозних розмов про секс",
+        "en": "couples avoiding serious talks about sex"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "challenge_new_date",
+      "title": {
+        "ua": "Нове побачення",
+        "en": "A New Date"
+      },
+      "description": {
+        "ua": "Заплануйте незвичайне побачення...",
+        "en": "Plan an unusual date — new place, new vibe..."
+      },
+      "days": 2,
+      "goal": {
+        "ua": "Пробудити романтику і цікавість через новий досвід.",
+        "en": "Reignite romance and curiosity through shared novelty."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "novelty",
+      "tags": [
+        "новизна",
+        "емоції",
+        "інтерес"
+      ],
+      "image": "new_date.svg",
+      "recommended_for": {
+        "ua": "пари, які втратили романтичну складову",
+        "en": "couples who lost their romantic spark"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "challenge_daily_flirt",
+      "title": {
+        "ua": "Флірт на кожен день",
+        "en": "Daily Flirt"
+      },
+      "description": {
+        "ua": "Поверніть легкий флірт у ваші стосунки...",
+        "en": "Bring playful flirtation back into your relationship..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Повернути грайливість і сексуальну енергію в стосунки.",
+        "en": "Restore playfulness and sexual energy to your relationship."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "флірт",
+        "легкість",
+        "емоції"
+      ],
+      "image": "daily_flirt.svg",
+      "recommended_for": {
+        "ua": "пари, де зникла грайливість і легкість",
+        "en": "couples lacking playfulness and ease"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "challenge_secret_desire",
+      "title": {
+        "ua": "Таємне бажання",
+        "en": "Secret Desire"
+      },
+      "description": {
+        "ua": "Кожен з вас пише одне своє пікантне бажання або фантазію...",
+        "en": "Each of you writes one spicy desire or fantasy..."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Підвищити інтимну відкритість та пробудити сексуальну енергію.",
+        "en": "Increase intimacy and awaken sexual energy."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "desire",
+        "сексуальність",
+        "openness"
+      ],
+      "image": "secret_desire.svg",
+      "recommended_for": {
+        "ua": "пари, які хочуть оживити сексуальне життя",
+        "en": "couples wanting to revive their sex life"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "a1144326-e443-454e-b444-7f8097bc3318",
+      "challenge_id": "challenge_body_presence",
+      "step_number": 1,
+      "content": {
+        "ua": "Створіть спокійну атмосферу: вимкніть телефони, увімкніть приємну музику.",
+        "en": "Create a calm atmosphere: turn off phones, play gentle music."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "6390ea21-0bc1-43e7-aece-729e0cb02ede",
+      "challenge_id": "challenge_body_presence",
+      "step_number": 2,
+      "content": {
+        "ua": "Ляжте або сядьте поруч, торкаючись одне одного.",
+        "en": "Sit or lie close to each other, making physical contact."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "03839d64-ba8e-48f3-8e19-fbaebe098fcb",
+      "challenge_id": "challenge_body_presence",
+      "step_number": 3,
+      "content": {
+        "ua": "Без розмов і без сексуальних дій — тільки присутність через дотик.",
+        "en": "No talking, no sexual actions — just presence through touch."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "45e92b17-053f-4786-89b0-4932d8a763f7",
+      "challenge_id": "challenge_body_presence",
+      "step_number": 4,
+      "content": {
+        "ua": "Після закінчення скажіть коротко: що ви відчували тілом?",
+        "en": "Afterwards, briefly share what you felt through your body."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "2f8a15c8-361b-46ca-b656-aea57da1e3ed",
+      "challenge_id": "challenge_desire_cards",
+      "step_number": 1,
+      "content": {
+        "ua": "Підготуйте по 3 картки для кожної теми.",
+        "en": "Prepare 3 cards for each topic."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "038d09db-6212-4398-b5e1-330d1a18a61d",
+      "challenge_id": "challenge_desire_cards",
+      "step_number": 2,
+      "content": {
+        "ua": "Запишіть речі без страху осуду.",
+        "en": "Write openly, without fear of judgment."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "cb3d6731-8834-4423-9c64-002d3cd1c396",
+      "challenge_id": "challenge_desire_cards",
+      "step_number": 3,
+      "content": {
+        "ua": "Обміняйтесь картами і прочитайте мовчки.",
+        "en": "Exchange cards and read silently."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "b13b9fda-3821-45c5-abd2-47c232d1456b",
+      "challenge_id": "challenge_desire_cards",
+      "step_number": 4,
+      "content": {
+        "ua": "Після обговоріть: які ідеї хочеться втілити?",
+        "en": "Then discuss which ideas you'd like to explore."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "d33db24e-393e-4ca5-a084-74d303b214d4",
+      "challenge_id": "challenge_ritual_of_touch",
+      "step_number": 1,
+      "content": {
+        "ua": "Виберіть простий акт ніжності, який робитимете щодня.",
+        "en": "Pick a simple act of tenderness to do daily."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "e6c1bccf-9956-4ecd-8ce6-583d1736804d",
+      "challenge_id": "challenge_ritual_of_touch",
+      "step_number": 2,
+      "content": {
+        "ua": "Наприклад: обійми на 20 секунд, дотик до руки при зустрічі.",
+        "en": "Examples: 20-second hugs, hand touch upon meeting."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "d08b9f73-98a0-4703-b074-6639e9fa52eb",
+      "challenge_id": "challenge_ritual_of_touch",
+      "step_number": 3,
+      "content": {
+        "ua": "Протягом 3 днів стежте, щоб ритуал був щирим і регулярним.",
+        "en": "Practice it genuinely and consistently for 3 days."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "c8bf1f6a-036a-4ab1-bb9d-16d505bd775e",
+      "challenge_id": "challenge_ritual_of_touch",
+      "step_number": 4,
+      "content": {
+        "ua": "Після трьох днів обговоріть, як це змінило атмосферу між вами.",
+        "en": "After 3 days, discuss how it affected your connection."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "c0a4b4e9-d216-43bb-bb5e-8959bc3d71b3",
+      "challenge_id": "challenge_talk_about_sex",
+      "step_number": 1,
+      "content": {
+        "ua": "Виділіть спокійний час без поспіху.",
+        "en": "Set aside calm, unrushed time."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "f1b70268-d649-4649-9936-469aaab0f9f3",
+      "challenge_id": "challenge_talk_about_sex",
+      "step_number": 2,
+      "content": {
+        "ua": "Кожен відповідає на питання: що мені подобається? Що мені хотілося б більше? Чого я трохи боюся?",
+        "en": "Each answers: What do I enjoy? What would I like more of? What makes me a bit afraid?"
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "2e6c43fd-fe53-425c-b5ef-5e4e8376f399",
+      "challenge_id": "challenge_talk_about_sex",
+      "step_number": 3,
+      "content": {
+        "ua": "Слухайте партнера без осуду.",
+        "en": "Listen without judgment."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "3b0ecc1a-e1bc-49fb-917b-fb763bed5070",
+      "challenge_id": "challenge_talk_about_sex",
+      "step_number": 4,
+      "content": {
+        "ua": "Після обговорення подякуйте одне одному за відкритість.",
+        "en": "Afterward, thank each other for being open."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "37ed2e1f-d3a8-4226-88bf-063cf93137b7",
+      "challenge_id": "challenge_new_date",
+      "step_number": 1,
+      "content": {
+        "ua": "Разом придумайте ідею для побачення — бажано нову для вас обох.",
+        "en": "Together, plan a date idea that’s new to both."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "5016a591-f3d9-49a2-b014-0964281a151a",
+      "challenge_id": "challenge_new_date",
+      "step_number": 2,
+      "content": {
+        "ua": "Підготуйте міні-сюрприз один для одного: квітка, листівка, музика.",
+        "en": "Each prepare a mini-surprise: flower, card, music, etc."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "08ad0070-017a-4764-95b3-a4dd691a5e39",
+      "challenge_id": "challenge_new_date",
+      "step_number": 3,
+      "content": {
+        "ua": "Проведіть побачення з фокусом на присутності й емоціях.",
+        "en": "Enjoy the date focusing on presence and feelings."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "4ccb2f38-2702-44b5-8241-b8bb7eee5a5a",
+      "challenge_id": "challenge_new_date",
+      "step_number": 4,
+      "content": {
+        "ua": "Після скажіть одне одному: що сподобалось найбільше.",
+        "en": "Afterwards, share what you liked most."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "22cfa56a-4338-4481-b9a2-853984f055dd",
+      "challenge_id": "challenge_daily_flirt",
+      "step_number": 1,
+      "content": {
+        "ua": "Сьогодні мінімум 3 рази надішліть або скажіть щось фліртуюче партнеру.",
+        "en": "Send or say something flirty to your partner at least 3 times today."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "eb0242cc-3d1d-47ec-b505-14be3ac70bae",
+      "challenge_id": "challenge_daily_flirt",
+      "step_number": 2,
+      "content": {
+        "ua": "Це можуть бути компліменти, грайливі фрази або жарти.",
+        "en": "Compliments, playful lines, or light jokes are great."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "89f63a7b-59b0-4c7f-ae32-6ca0005c43a8",
+      "challenge_id": "challenge_daily_flirt",
+      "step_number": 3,
+      "content": {
+        "ua": "Фокус на емоціях, а не на сексуальних натяках (якщо це не доречно зараз).",
+        "en": "Focus on emotions, not just sexual hints (unless that fits)."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "60adc64a-f84f-42db-8407-6990aa4c8784",
+      "challenge_id": "challenge_daily_flirt",
+      "step_number": 4,
+      "content": {
+        "ua": "Увечері обговоріть: як це вплинуло на ваш настрій і взаємодію.",
+        "en": "In the evening, talk about how it affected your mood and interaction."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "ed19f315-2911-41dc-8c50-ce51f016c900",
+      "challenge_id": "challenge_secret_desire",
+      "step_number": 1,
+      "content": {
+        "ua": "Напишіть на папері або в нотатці одну сексуальну фантазію або дію, яку хотіли б втілити.",
+        "en": "Write one sexual fantasy or action you'd like to try."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "bef34b7c-3ab4-429f-aff4-421d315b2cab",
+      "challenge_id": "challenge_secret_desire",
+      "step_number": 2,
+      "content": {
+        "ua": "Обміняйтесь записками без обговорення в цей момент.",
+        "en": "Exchange your notes without discussing right away."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "521f893a-4b09-4023-a6a5-427f5c4002a3",
+      "challenge_id": "challenge_secret_desire",
+      "step_number": 3,
+      "content": {
+        "ua": "Через 1–2 години обговоріть обидва бажання відкрито і без оцінювання.",
+        "en": "After 1–2 hours, discuss both desires openly and without judgment."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    },
+    {
+      "id": "21b0d3bc-c0c1-4144-b1c1-648e3e2f7f89",
+      "challenge_id": "challenge_secret_desire",
+      "step_number": 4,
+      "content": {
+        "ua": "Разом оберіть одне, яке обом комфортно спробувати найближчим часом.",
+        "en": "Choose one that you both feel safe and curious to explore."
+      },
+      "created_at": "2025-05-15T16:56:54.719023Z",
+      "updated_at": "2025-05-15T16:56:54.719023Z"
+    }
+  ]
+}

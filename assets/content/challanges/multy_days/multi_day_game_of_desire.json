@@ -1,0 +1,122 @@
+{
+  "challenge": {
+    "id": "challenge_005",
+    "title": {
+      "ua": "Гра бажань",
+      "en": "Game of Desire"
+    },
+    "description": {
+      "ua": "Цей челендж — це 4 дні еротичної гри, натяків, внутрішнього напруження і дослідження бажань...",
+      "en": "This 4-day challenge invites you into a world of erotic play, teasing, inner tension, and desire exploration. It’s not about the act itself but about arousal through mystery, sensuality, and anticipation."
+    },
+    "days": 4,
+    "goal": {
+      "ua": "Розвинути чуттєвість і уяву через еротичну гру без тиску.",
+      "en": "Develop sensuality and imagination through erotic play without pressure."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "desire",
+    "tags": [
+      "erotic_play",
+      "novelty",
+      "intrigue",
+      "desire",
+      "energy"
+    ],
+    "image": "challenge_erotic_play.svg",
+    "recommended_for": {
+      "ua": "пари, які хочуть урізноманітнити інтимність за межами звичного сценарію",
+      "en": "couples who want to spice up intimacy beyond the usual routine"
+    },
+    "free_or_premium": "premium",
+    "status": "active",
+    "created_at": "2025-05-22T15:18:30.979392Z",
+    "updated_at": "2025-05-22T15:18:30.979392Z"
+  },
+  "challenge_steps": [
+    {
+      "id": "c5c88b51-3609-4d99-b9f5-6b8101b80c7c",
+      "challenge_id": "challenge_005",
+      "step_number": 1,
+      "content": {
+        "ua": "Записка бажання\n\nНапиши партнеру коротке еротичне повідомлення або натяк на фантазію...",
+        "en": "Desire Note\n\nWrite a short erotic message or fantasy hint to your partner. Don’t say it aloud — leave the note somewhere unexpected."
+      },
+      "tips": [
+        {
+          "ua": "Можеш написати фразу типу: «Хочу тебе сьогодні мовчки», або просто малюнок чи символ.",
+          "en": "You could write: 'I want you silently tonight' or leave a symbol or drawing."
+        },
+        {
+          "ua": "Залиш записку там, де партнер її точно знайде — але не миттєво.",
+          "en": "Place the note where your partner will find it — but not right away."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "2a8a0bb3-9c06-48a3-afd2-5c9e593c176b",
+      "challenge_id": "challenge_005",
+      "step_number": 2,
+      "content": {
+        "ua": "Тепло і прохолода\n\nЦе тілесна гра на контрасті температур...",
+        "en": "Heat and Cool\n\nA physical game of contrasting temperatures. Take a warm and a cold object and alternate touches. Observe which sensations your partner prefers."
+      },
+      "tips": [
+        {
+          "ua": "Зони: шия, спина, стегна, живіт, груди. Уникайте інтимних зон — головна мета не дія, а реакція.",
+          "en": "Try: neck, back, thighs, belly, chest. Avoid intimate zones — focus on reaction, not action."
+        },
+        {
+          "ua": "Говоріть одне одному, що найбільше сподобалося.",
+          "en": "Tell each other what felt best afterward."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "386d8e9f-e7f7-44c1-a872-2f3b2ae83a3f",
+      "challenge_id": "challenge_005",
+      "step_number": 3,
+      "content": {
+        "ua": "Шепіт бажання\n\nСядьте поруч. Повільно і максимально ніжно прошепочіть партнеру 3 речі...",
+        "en": "Whisper of Desire\n\nSit close. Whisper 3 things you’d like to do with your partner — or have them do to you. Pause between each phrase. End with a quiet embrace."
+      },
+      "tips": [
+        {
+          "ua": "Говоріть дуже повільно. Це гра з голосом, а не з текстом.",
+          "en": "Speak slowly — this is a game of voice, not just words."
+        },
+        {
+          "ua": "Не переходьте до дій — сила в утриманні напруги.",
+          "en": "Don’t act — the power is in holding the tension."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    },
+    {
+      "id": "c2628711-c2fc-47d3-a977-33ed5cc35cd5",
+      "challenge_id": "challenge_005",
+      "step_number": 4,
+      "content": {
+        "ua": "Ніч натяків\n\nУвечері влаштуйте ніч натяків. Без сексуальних дій...",
+        "en": "Night of Hints\n\nCreate a night of teasing. No sexual acts. Just glances, touches, kisses — playing on the edge between allowed and forbidden."
+      },
+      "tips": [
+        {
+          "ua": "Встановіть гру: доторкатися можна — але тільки до певних зон.",
+          "en": "Set rules: touching is allowed — but only in certain areas."
+        },
+        {
+          "ua": "Завершіть ніч розмовою або збережіть напругу до наступного ранку.",
+          "en": "End the night with a talk — or keep the tension going till morning."
+        }
+      ],
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ]
+}
