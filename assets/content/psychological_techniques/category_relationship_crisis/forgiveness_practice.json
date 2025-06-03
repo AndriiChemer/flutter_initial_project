@@ -1,0 +1,211 @@
+{
+  "technique": {
+    "id": "forgiveness_practice",
+    "title": {
+      "ua": "Вправа на прощення",
+      "en": "Forgiveness Exercise"
+    },
+    "description": {
+      "ua": "Ця техніка спрямована на звільнення від образ та відновлення довіри через процес щирого прощення. Вона допомагає партнерам визнати свої помилки та знайти шляхи до емоційного зцілення.",
+      "en": "This technique aims to release resentment and restore trust through a process of sincere forgiveness. It helps partners acknowledge their mistakes and find ways to heal emotionally."
+    },
+    "goal": {
+      "ua": "Відновити довіру, зменшити напругу у стосунках і навчитися щиро пробачати.",
+      "en": "Restore trust, reduce relationship tension, and learn to truly forgive."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "forgiveness-and-healing",
+    "widget_type": "conversation",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я вибачаюсь за те, що не надавав/ла тобі достатньо уваги.»",
+        "en": "Partner 1: 'I apologize for not giving you enough attention.'"
+      },
+      {
+        "ua": "Партнер 2: «Я ціную твої вибачення. Давай домовимось, як уникнути цього у майбутньому.»",
+        "en": "Partner 2: 'I appreciate your apology. Let's agree on how to avoid this in the future.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Прощення — це не обов'язково забуття, але це відпускання образи.",
+        "en": "Forgiveness doesn't always mean forgetting, but it does mean letting go of resentment."
+      },
+      {
+        "ua": "Якщо прощення не вдається — можливо, потрібно обговорити це глибше або звернутись до спеціаліста.",
+        "en": "If forgiveness is difficult, it may help to discuss it more deeply or consult a specialist."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_forgiveness_practice",
+      "technique_id": "forgiveness_practice",
+      "step_number": 1,
+      "title": {
+        "ua": "Створення безпечного простору",
+        "en": "Creating a Safe Space"
+      },
+      "instruction": {
+        "ua": "Оберіть затишне місце без відволікань. Сядьте один навпроти одного, щоб створити контакт та налаштуватися на відверту розмову.",
+        "en": "Choose a cozy place without distractions. Sit facing each other to create contact and prepare for an open conversation."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені важливо поговорити про те, що мене болить. Ти готовий/готова вислухати мене?»",
+          "en": "Partner 1: 'It's important for me to talk about what's hurting me. Are you ready to listen?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Уникайте розмови про прощення, коли емоції ще занадто сильні.",
+          "en": "Avoid discussing forgiveness when emotions are still too strong."
+        },
+        {
+          "ua": "Спробуйте взяти кілька глибоких вдихів перед початком розмови.",
+          "en": "Take a few deep breaths before starting the conversation."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_forgiveness_practice",
+      "technique_id": "forgiveness_practice",
+      "step_number": 2,
+      "title": {
+        "ua": "Висловлення образ",
+        "en": "Expressing Grievances"
+      },
+      "instruction": {
+        "ua": "По черзі висловіть свої почуття щодо ситуації, яка викликала образу. Використовуйте 'Я-повідомлення': «Я відчуваю..., коли...»",
+        "en": "Take turns expressing your feelings about the situation that caused hurt. Use 'I-statements': 'I feel..., when...'"
+      },
+      "duration": "7 min each",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я відчуваю себе знехтуваним/ою, коли ти не відповідаєш на мої повідомлення.»",
+          "en": "Partner 1: 'I feel neglected when you don't reply to my messages.'"
+        },
+        {
+          "ua": "Партнер 2: «Я розумію, що тобі важливо відчувати мою увагу. Мені шкода, що я цього не зробив/ла.»",
+          "en": "Partner 2: 'I understand it's important for you to feel my attention. I'm sorry I didn't provide that.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не звинувачуйте партнера — фокусуйтесь на власних почуттях.",
+          "en": "Don't blame your partner — focus on your own feelings."
+        },
+        {
+          "ua": "Слухайте уважно, не перебивайте.",
+          "en": "Listen carefully without interrupting."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_forgiveness_practice",
+      "technique_id": "forgiveness_practice",
+      "step_number": 3,
+      "title": {
+        "ua": "Визнання помилок",
+        "en": "Admitting Mistakes"
+      },
+      "instruction": {
+        "ua": "Той, хто визнає свою провину, має сказати: «Мені шкода, що я...». Важливо сказати це щиро, без виправдань.",
+        "en": "Whoever admits their guilt should say: 'I'm sorry that I...'. It's important to say it sincerely, without excuses."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені шкода, що я не приділяв/ла тобі уваги останнім часом.»",
+          "en": "Partner 1: 'I'm sorry I haven't given you enough attention lately.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Уникайте додавати 'але' після вибачення.",
+          "en": "Avoid adding 'but' after your apology."
+        },
+        {
+          "ua": "Фокусуйтесь на своїй поведінці, а не на реакції партнера.",
+          "en": "Focus on your own behavior, not on your partner's reaction."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_forgiveness_practice",
+      "technique_id": "forgiveness_practice",
+      "step_number": 4,
+      "title": {
+        "ua": "Прийняття прощення або обговорення",
+        "en": "Accepting Forgiveness or Discussion"
+      },
+      "instruction": {
+        "ua": "Інший партнер має право прийняти прощення або висловити свої почуття, якщо йому потрібно більше часу.",
+        "en": "The other partner has the right to accept forgiveness or express their feelings if more time is needed."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Я готовий/готова пробачити тебе. Мені важливо, щоб ти пам'ятав/ла про це в майбутньому.»",
+          "en": "Partner 2: 'I'm ready to forgive you. It's important to me that you remember this in the future.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Якщо не готові пробачити — скажіть це чесно, але без агресії.",
+          "en": "If you’re not ready to forgive — say it honestly but without aggression."
+        },
+        {
+          "ua": "Прощення — це процес, а не миттєва дія.",
+          "en": "Forgiveness is a process, not an instant action."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_5_forgiveness_practice",
+      "technique_id": "forgiveness_practice",
+      "step_number": 5,
+      "title": {
+        "ua": "Встановлення нових правил",
+        "en": "Establishing New Rules"
+      },
+      "instruction": {
+        "ua": "Разом обговоріть, як можна уникнути подібних ситуацій у майбутньому. Сформулюйте 1-2 конкретні дії для обох партнерів.",
+        "en": "Together, discuss how to avoid similar situations in the future. Formulate 1–2 specific actions for both partners."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Рішення: «Ми домовляємось говорити про свої почуття одразу, не накопичуючи образу.»",
+          "en": "Decision: 'We agree to talk about our feelings immediately, not to accumulate resentment.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Запишіть нові правила, щоб вони стали звичкою.",
+          "en": "Write down new rules so that they become a habit."
+        },
+        {
+          "ua": "Не намагайтеся одразу змінити все — оберіть одну дію.",
+          "en": "Don’t try to change everything at once — choose one action."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

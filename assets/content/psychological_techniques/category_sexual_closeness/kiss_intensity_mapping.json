@@ -1,0 +1,138 @@
+{
+  "technique": {
+    "id": "kiss_intensity_mapping",
+    "title": {
+      "ua": "Карта поцілунків і бажань",
+      "en": "Kissing and Desire Map"
+    },
+    "description": {
+      "ua": "Ця техніка дозволяє парі створити інтимну 'карту' бажань через поцілунки різної інтенсивності. Кожна зона — нове відчуття, кожна реакція — підказка до еротичних вподобань партнера. Психологічна глибина гри — в дозволі відкрито досліджувати тіло з повагою та інтересом.",
+      "en": "This technique lets couples create an intimate 'map' of desires by exploring kisses of different intensity. Each zone is a new sensation, every reaction is a clue to your partner’s erotic preferences. The psychological depth comes from the freedom to explore the body openly, with respect and curiosity."
+    },
+    "goal": {
+      "ua": "Відкрити нові ерогенні зони, створити власну мапу відчуттів і поглибити тілесну довіру.",
+      "en": "Discover new erogenous zones, create a personal pleasure map, and deepen physical trust."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "daily-touch",
+    "widget_type": "guided_exploration",
+    "image": "kiss_mapping_teaser.jpg",
+    "duration": "20-30 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "tags": [
+      "тілесність",
+      "дослідження",
+      "поцілунки",
+      "відвертість",
+      "ігрова еротика",
+      "body",
+      "exploration",
+      "kissing",
+      "openness",
+      "erotic-play"
+    ],
+    "examples": [
+      {
+        "ua": "Шия — м’який поцілунок: 10/10. Пристрасть — 9/10. Прикус — 4/10.",
+        "en": "Neck — gentle kiss: 10/10. Passionate: 9/10. Bite: 4/10."
+      },
+      {
+        "ua": "Ключиці — лише прикус дав емоційний відгук.",
+        "en": "Collarbones — only the bite gave an emotional response."
+      },
+      {
+        "ua": "Живіт — м’який поцілунок несподівано виявився дуже інтимним.",
+        "en": "Stomach — gentle kiss turned out to be surprisingly intimate."
+      }
+    ],
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_kiss_intensity_mapping",
+      "technique_id": "kiss_intensity_mapping",
+      "step_number": 1,
+      "title": {
+        "ua": "Установіть зону гри",
+        "en": "Set the Play Zone"
+      },
+      "instruction": {
+        "ua": "Разом домовтесь, які частини тіла є 'дозволеними' для дослідження сьогодні. Оберіть 5-7 зон (наприклад: шия, плечі, ключиці, живіт, щока, внутрішня частина руки).",
+        "en": "Together, decide which body parts are 'open' for exploration today. Choose 5–7 zones (e.g., neck, shoulders, collarbones, stomach, cheek, inner arm)."
+      },
+      "duration": "5 min",
+      "tips": [
+        {
+          "ua": "Це про межі — не обов’язково включати інтимні зони.",
+          "en": "This is about boundaries — intimate areas are optional."
+        },
+        {
+          "ua": "Використовуйте тіло як емоційну карту, а не як об'єкт.",
+          "en": "Treat the body as an emotional map, not just an object."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_kiss_intensity_mapping",
+      "technique_id": "kiss_intensity_mapping",
+      "step_number": 2,
+      "title": {
+        "ua": "Поцілунок як індикатор",
+        "en": "Kiss as an Indicator"
+      },
+      "instruction": {
+        "ua": "Поцілуйте кожну з вибраних зон трьома способами: ніжно, з пристрастю, з легким прикусом. Партнер після кожного ставить оцінку 1–10 за відчуттям.",
+        "en": "Kiss each chosen zone in three ways: gently, passionately, with a light bite. After each, your partner rates the sensation from 1 to 10."
+      },
+      "duration": "10-15 min",
+      "examples": [
+        {
+          "ua": "Поцілунок у плече — м’який: 5/10, пристрасний: 7/10, прикус: 9/10.",
+          "en": "Shoulder kiss — gentle: 5/10, passionate: 7/10, bite: 9/10."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Промовляйте вголос: «Це було 8 з 10» — це формує тілесну комунікацію.",
+          "en": "Say out loud: 'That was 8 out of 10' — this builds body communication."
+        },
+        {
+          "ua": "Реакції можна записувати — створюючи вашу особисту 'карту задоволення'.",
+          "en": "You can write down reactions — creating your personal pleasure map."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_kiss_intensity_mapping",
+      "technique_id": "kiss_intensity_mapping",
+      "step_number": 3,
+      "title": {
+        "ua": "Обмін відкриттями",
+        "en": "Share Discoveries"
+      },
+      "instruction": {
+        "ua": "Після завершення обговоріть: яка зона виявилася несподівано чутливою? Який стиль поцілунку працював найкраще? Що хочеться дослідити наступного разу?",
+        "en": "Afterward, discuss: which zone turned out to be unexpectedly sensitive? Which kissing style worked best? What would you like to try next time?"
+      },
+      "duration": "5 min",
+      "tips": [
+        {
+          "ua": "Можна продовжити створення «карти» у блокноті або нотатках.",
+          "en": "Continue your 'map' in a notebook or your notes app."
+        },
+        {
+          "ua": "Це не про досконалість — це про чесність і цікавість.",
+          "en": "It's not about perfection — it's about honesty and curiosity."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "id": "sexual_openness_score",
+  "title": {
+    "ua": "Ваш рівень сексуальної відкритості",
+    "en": "Your Level of Sexual Openness"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам зрозуміти, наскільки ви відкриті до нових експериментів, ідей та спілкування про інтимні бажання. Результати допоможуть краще зрозуміти ваші потреби та підказати, як покращити комунікацію з партнером.",
+    "en": "This test will help you understand how open you are to new experiments, ideas, and communication about intimate desires. The results will help you better understand your needs and give advice on improving communication with your partner."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте на нові пропозиції у сексуальному житті?",
+        "en": "How do you usually respond to new suggestions in your sex life?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "З ентузіазмом та готовністю спробувати",
+            "en": "With enthusiasm and willingness to try"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Обережно, але з цікавістю",
+            "en": "Cautiously, but with curiosity"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Тільки якщо партнер наполягає",
+            "en": "Only if my partner insists"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Відмовляюся або почуваюся незручно",
+            "en": "I refuse or feel uncomfortable"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Наскільки важливо для вас обговорювати свої сексуальні бажання з партнером?",
+        "en": "How important is it for you to discuss your sexual desires with your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Дуже важливо, я завжди це роблю",
+            "en": "Very important, I always do it"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Переважно важливо, хоча буває складно",
+            "en": "Mostly important, though sometimes difficult"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Іноді, залежить від настрою",
+            "en": "Sometimes, depends on my mood"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Майже ніколи",
+            "en": "Almost never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як часто ви прагнете спробувати щось нове у стосунках?",
+        "en": "How often do you seek to try something new in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Постійно шукаю нові ідеї",
+            "en": "Constantly looking for new ideas"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Інколи, коли відчуваю потребу",
+            "en": "Sometimes, when I feel the need"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко, зазвичай залишаюся при звичних практиках",
+            "en": "Rarely, I usually stick to usual practices"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Практично ніколи",
+            "en": "Almost never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як ви ставитеся до обговорення своїх сексуальних фантазій з партнером?",
+        "en": "How do you feel about discussing your sexual fantasies with your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Легко ділюсь і цікавлюсь його/її фантазіями",
+            "en": "I easily share and am interested in my partner's fantasies"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Обговорюю, але не завжди впевнено",
+            "en": "I discuss, but not always confidently"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Рідко, тільки якщо це важливо для партнера",
+            "en": "Rarely, only if it's important for my partner"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Вважаю, що це не є важливим або некомфортним",
+            "en": "I don't think it's important or feel uncomfortable"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ви ставитеся до використання ігор або сценаріїв у стосунках?",
+        "en": "How do you feel about using games or scenarios in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Це захопливо та весело, я люблю експериментувати",
+            "en": "It's exciting and fun, I love experimenting"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Можу спробувати, якщо партнер запропонує",
+            "en": "I can try if my partner suggests"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Спробую лише у певних випадках",
+            "en": "I'll try only in certain cases"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Це мене не цікавить або викликає незручність",
+            "en": "I'm not interested or it makes me uncomfortable"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви сприймаєте зміни у вашому інтимному житті?",
+        "en": "How do you perceive changes in your intimate life?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Як можливість розвитку та покращення",
+            "en": "As an opportunity for growth and improvement"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Як щось, що потребує обговорення",
+            "en": "As something that requires discussion"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Частіше як виклик, ніж як можливість",
+            "en": "More as a challenge than an opportunity"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Вважаю, що краще залишити все, як є",
+            "en": "I think it's better to leave everything as is"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи готові ви обговорювати свої страхи або невпевненість у стосунках?",
+        "en": "Are you ready to discuss your fears or insecurities in the relationship?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Завжди, це допомагає нам розвиватися",
+            "en": "Always, it helps us grow"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Переважно так, але іноді важко",
+            "en": "Mostly yes, but sometimes it's hard"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Лише коли це абсолютно необхідно",
+            "en": "Only when absolutely necessary"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Уникаю таких розмов",
+            "en": "I avoid such conversations"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        24,
+        28
+      ],
+      "title": {
+        "ua": "Відкритий експериментатор",
+        "en": "Open Experimenter"
+      },
+      "description": {
+        "ua": "Ви готові досліджувати нове та ділитися своїми фантазіями. Ваш стиль відкритий та гнучкий, що дозволяє вам легко адаптуватися до змін і підтримувати високий рівень інтимності у стосунках.",
+        "en": "You are ready to explore new things and share your fantasies. Your style is open and flexible, allowing you to easily adapt to changes and maintain a high level of intimacy in your relationship."
+      }
+    },
+    {
+      "range": [
+        18,
+        23
+      ],
+      "title": {
+        "ua": "Гнучкий дослідник",
+        "en": "Flexible Explorer"
+      },
+      "description": {
+        "ua": "Ви готові пробувати нове, але потребуєте певної безпеки та довіри. Вам подобається обговорювати свої бажання та відкривати нові можливості, хоча іноді ви відчуваєте страх або невпевненість.",
+        "en": "You are willing to try new things, but need some safety and trust. You like discussing your desires and discovering new opportunities, though you sometimes feel fear or uncertainty."
+      }
+    },
+    {
+      "range": [
+        12,
+        17
+      ],
+      "title": {
+        "ua": "Поміркований прихильник",
+        "en": "Moderate Supporter"
+      },
+      "description": {
+        "ua": "Ви цінуєте стабільність та передбачуваність у стосунках. Нові практики можуть бути викликом для вас, але при правильному підході ви можете насолоджуватися відкриттям нового.",
+        "en": "You value stability and predictability in relationships. New practices may be a challenge for you, but with the right approach you can enjoy discovering new things."
+      }
+    },
+    {
+      "range": [
+        7,
+        11
+      ],
+      "title": {
+        "ua": "Стабільний консерватор",
+        "en": "Stable Conservative"
+      },
+      "description": {
+        "ua": "Ви надаєте перевагу безпечним та звичним практикам. Ідея змін або експериментів може викликати дискомфорт. Важливо обговорити свої бажання та побоювання з партнером.",
+        "en": "You prefer safe and familiar practices. The idea of change or experimentation may cause discomfort. It's important to discuss your desires and concerns with your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Розвивайте відкритість через практику обговорення нових ідей. Навіть невеликий експеримент може розкрити нові горизонти у ваших відчуттях.",
+      "en": "Develop openness by practicing discussing new ideas. Even a small experiment can open new horizons in your sensations."
+    },
+    "couple": {
+      "ua": "Пробуйте говорити про свої фантазії та бажання у безпечному просторі, використовуйте гру чи рольові сценарії для легшого старту.",
+      "en": "Try to talk about your fantasies and desires in a safe space, use games or role-play scenarios for an easier start."
+    }
+  },
+  "widget_type": "test"
+}

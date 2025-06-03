@@ -1,0 +1,151 @@
+{
+  "technique": {
+    "id": "visualizing_ideal_dialogue",
+    "title": {
+      "ua": "Візуалізація ідеального діалогу",
+      "en": "Visualizing the Ideal Dialogue"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає парам краще зрозуміти свої очікування та бажання через візуалізацію ідеального розв'язку конфлікту. Це сприяє позитивному налаштуванню та пошуку рішень.",
+      "en": "This technique helps couples better understand their expectations and desires by visualizing the ideal resolution of a conflict. It encourages a positive mindset and solution-finding."
+    },
+    "goal": {
+      "ua": "Налаштуватися на позитивне вирішення конфлікту через уявлення ідеального діалогу.",
+      "en": "Set a positive intention for conflict resolution by imagining the ideal dialogue."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "visualization-and-positive-mindset",
+    "widget_type": "notes",
+    "duration": "15 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я бачу, як ми обговорюємо проблему спокійно та з повагою.»",
+        "en": "Partner 1: 'I see us discussing the problem calmly and respectfully.'"
+      },
+      {
+        "ua": "Партнер 2: «Я хотів/ла б, щоб ми знаходили компроміси та підтримували один одного.»",
+        "en": "Partner 2: 'I’d like us to find compromises and support each other.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Повертайтесь до цієї техніки щоразу, коли відчуваєте, що діалог стає занадто емоційним.",
+        "en": "Return to this technique whenever you feel a dialogue is becoming too emotional."
+      },
+      {
+        "ua": "Запропонуйте партнеру візуалізувати не лише розмову, а й обійми після неї.",
+        "en": "Suggest visualizing not just the conversation but also a hug after it."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_visualizing_ideal_dialogue",
+      "technique_id": "visualizing_ideal_dialogue",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір теми для візуалізації",
+        "en": "Choosing a Topic for Visualization"
+      },
+      "instruction": {
+        "ua": "Оберіть конфлікт або ситуацію, яку ви хотіли б вирішити. Заплющте очі та уявіть, як би ідеально виглядав діалог між вами.",
+        "en": "Choose a conflict or situation you want to resolve. Close your eyes and imagine what an ideal dialogue between you would look like."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хочу уявити, як ми обговорюємо наші фінансові плани спокійно та з повагою.»",
+          "en": "Partner 1: 'I want to imagine us discussing our financial plans calmly and respectfully.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не фокусуйтесь на тому, як все сталося у минулому — фокусуйтесь на тому, як ви хочете, щоб це було.",
+          "en": "Don't focus on how things happened in the past—focus on how you want it to be."
+        },
+        {
+          "ua": "Спробуйте уявити не лише слова, але й емоції, інтонації, обійми.",
+          "en": "Try to imagine not only the words, but also the emotions, tone of voice, and even a hug."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_visualizing_ideal_dialogue",
+      "technique_id": "visualizing_ideal_dialogue",
+      "step_number": 2,
+      "title": {
+        "ua": "Опис ідеального діалогу",
+        "en": "Describing the Ideal Dialogue"
+      },
+      "instruction": {
+        "ua": "По черзі опишіть партнеру свою візуалізацію, використовуючи позитивні твердження та конструктивні фрази.",
+        "en": "Take turns describing your visualization to your partner, using positive statements and constructive phrases."
+      },
+      "duration": "7 min each",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я бачу, як ми обговорюємо проблему спокійно, обидва залишаємося спокійними та уважними.»",
+          "en": "Partner 1: 'I see us discussing the issue calmly, with both of us staying calm and attentive.'"
+        },
+        {
+          "ua": "Партнер 2: «Я уявляю, як ми висловлюємо свої почуття без критики, шукаючи компроміс.»",
+          "en": "Partner 2: 'I imagine us expressing our feelings without criticism, looking for a compromise.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на бажаному результаті, а не на негативних моментах.",
+          "en": "Focus on the desired outcome, not on the negative moments."
+        },
+        {
+          "ua": "Спробуйте додати деталі — місце, час, тон голосу, вираз обличчя.",
+          "en": "Try to add details—place, time, tone of voice, facial expressions."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_visualizing_ideal_dialogue",
+      "technique_id": "visualizing_ideal_dialogue",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення реальних кроків",
+        "en": "Discussing Real Steps"
+      },
+      "instruction": {
+        "ua": "Обговоріть, які конкретні кроки можна зробити, щоб наблизити реальний діалог до вашої візуалізації.",
+        "en": "Discuss what concrete steps can be taken to make your real dialogue closer to your visualization."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Ми можемо домовитись починати кожну розмову з фрази: 'Я хочу тебе зрозуміти'.»",
+          "en": "Partner 1: 'We can agree to start every conversation with the phrase: ‘I want to understand you’.'"
+        },
+        {
+          "ua": "Партнер 2: «Я готовий/готова контролювати свій тон і уникати сарказму.»",
+          "en": "Partner 2: 'I'm ready to control my tone and avoid sarcasm.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не намагайтесь одразу вирішити всі проблеми — оберіть одну дію.",
+          "en": "Don't try to solve all the problems at once—choose one action."
+        },
+        {
+          "ua": "Запишіть нові домовленості та обговоріть, як їх можна перевірити.",
+          "en": "Write down new agreements and discuss how you can check on them."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

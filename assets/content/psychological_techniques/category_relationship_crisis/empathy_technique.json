@@ -1,0 +1,187 @@
+{
+  "technique": {
+    "id": "empathy_technique",
+    "title": {
+      "ua": "Техніка співпереживання",
+      "en": "Empathy Technique"
+    },
+    "description": {
+      "ua": "Ця вправа спрямована на розвиток емпатії між партнерами через спільне обговорення емоцій та переживань. Вона допомагає знизити напругу та краще зрозуміти емоційний стан один одного.",
+      "en": "This exercise is aimed at developing empathy between partners through sharing and discussing emotions and experiences. It helps reduce tension and better understand each other's emotional state."
+    },
+    "goal": {
+      "ua": "Посилити емпатію у парі та навчитися чути емоції одне одного.",
+      "en": "Strengthen empathy in the couple and learn to truly hear each other's emotions."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "emotional-communication",
+    "widget_type": "conversation",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я відчуваю себе непочутою, коли ти не відповідаєш на мої повідомлення.»",
+        "en": "Partner 1: 'I feel unheard when you don't reply to my messages.'"
+      },
+      {
+        "ua": "Партнер 2: «Я розумію, що тобі важливо відчувати підтримку. Мені шкода, що ти так відчуваєш.»",
+        "en": "Partner 2: 'I understand it's important for you to feel supported. I'm sorry you feel that way.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не аналізуйте почуття партнера — просто слухайте.",
+        "en": "Don’t analyze your partner’s feelings — just listen."
+      },
+      {
+        "ua": "Фокусуйтесь на емпатії, а не на вирішенні проблеми одразу.",
+        "en": "Focus on empathy, not on solving the problem right away."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_empathy_technique",
+      "technique_id": "empathy_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Створення спокійного простору",
+        "en": "Creating a Calm Space"
+      },
+      "instruction": {
+        "ua": "Виберіть затишне місце без відволікань. Вимкніть телефони та усуньте зайві подразники. Сядьте обличчям один до одного.",
+        "en": "Choose a cozy, distraction-free place. Turn off your phones and remove unnecessary irritants. Sit facing each other."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хотів/ла б обговорити наші останні конфлікти у спокійній обстановці.»",
+          "en": "Partner 1: 'I’d like to discuss our recent conflicts in a calm setting.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Спробуйте увімкнути заспокійливу музику для створення атмосфери безпеки.",
+          "en": "Try playing calming music to create a sense of safety."
+        },
+        {
+          "ua": "Забезпечте комфортну дистанцію між вами, щоб обидва почувалися розслаблено.",
+          "en": "Make sure you both feel comfortable and relaxed in your seating."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_empathy_technique",
+      "technique_id": "empathy_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Висловлення емоцій",
+        "en": "Expressing Emotions"
+      },
+      "instruction": {
+        "ua": "Кожен по черзі висловлює свої почуття щодо конфлікту, використовуючи формулу: «Я відчуваю..., коли…». Не перебивайте партнера.",
+        "en": "Take turns expressing your feelings about the conflict, using the formula: 'I feel..., when...'. Do not interrupt your partner."
+      },
+      "duration": "7 min each",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я відчуваю розчарування, коли ти не звертаєш уваги на мої слова.»",
+          "en": "Partner 1: 'I feel disappointed when you don’t pay attention to my words.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені шкода, що ти так відчуваєш. Я розумію, що тобі важливо бути почутим/почутою.»",
+          "en": "Partner 2: 'I’m sorry you feel that way. I understand that it’s important for you to feel heard.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь лише на своїх емоціях, не оцінюйте дії партнера.",
+          "en": "Focus only on your emotions; don’t judge your partner’s actions."
+        },
+        {
+          "ua": "Сформулюйте почуття конкретно: «Я відчуваю злість», а не «Ти мене злиш».",
+          "en": "Formulate your feelings specifically: 'I feel angry,' not 'You make me angry.'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_empathy_technique",
+      "technique_id": "empathy_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Активне слухання",
+        "en": "Active Listening"
+      },
+      "instruction": {
+        "ua": "Слухайте партнера уважно, не перебивайте. Спробуйте уявити, що ви відчували б у такій самій ситуації.",
+        "en": "Listen to your partner attentively without interrupting. Try to imagine how you would feel in the same situation."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я чув(ла), що тобі важко відчувати себе непочутим/непочутою. Я готовий/готова вислухати тебе зараз.»",
+          "en": "Partner 1: 'I heard that it’s hard for you to feel unheard. I’m ready to listen to you now.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені важливо, щоб ти зрозумів(ла), чому для мене це так боляче.»",
+          "en": "Partner 2: 'It’s important for you to understand why this is so painful for me.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Уникайте виправдань та коментарів.",
+          "en": "Avoid making excuses or comments."
+        },
+        {
+          "ua": "Спробуйте повторити фразу партнера, щоб переконатись, що ви правильно зрозуміли його/її емоції.",
+          "en": "Try repeating your partner’s phrase to make sure you understood their feelings correctly."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_empathy_technique",
+      "technique_id": "empathy_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Обговорення та підтримка",
+        "en": "Discussion and Support"
+      },
+      "instruction": {
+        "ua": "Поділіться своїми відчуттями після обговорення. Запитайте партнера, як ви можете його/її підтримати.",
+        "en": "Share your feelings after the discussion. Ask your partner how you can support them."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені було важливо відчути, що ти дійсно слухаєш мене.»",
+          "en": "Partner 1: 'It was important for me to feel that you were really listening to me.'"
+        },
+        {
+          "ua": "Партнер 2: «Я готовий/готова підтримати тебе. Як я можу це зробити?»",
+          "en": "Partner 2: 'I’m ready to support you. How can I do that?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не переходьте одразу до рішень — дайте простір для емоцій.",
+          "en": "Don’t jump to solutions right away — allow space for emotions."
+        },
+        {
+          "ua": "Запитайте партнера: «Чи я правильно зрозумів(ла) твої почуття?»",
+          "en": "Ask your partner: 'Did I understand your feelings correctly?'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

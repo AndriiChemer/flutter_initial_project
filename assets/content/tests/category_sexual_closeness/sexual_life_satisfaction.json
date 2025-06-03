@@ -1,0 +1,299 @@
+{
+  "id": "sexual_life_satisfaction",
+  "title": {
+    "ua": "Наскільки ви задоволені своїм сексуальним життям?",
+    "en": "How Satisfied Are You with Your Sex Life?"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам оцінити ваш рівень задоволення від інтимного життя та виявити, які аспекти можна покращити.",
+    "en": "This test will help you evaluate your level of satisfaction with your intimate life and identify areas for improvement."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "free",
+  "duration": "10 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як часто ви відчуваєте задоволення від інтимного життя?",
+        "en": "How often do you feel satisfied with your intimate life?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Майже завжди",
+            "en": "Almost always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Дуже рідко",
+            "en": "Very rarely"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи отримуєте ви від партнера достатньо уваги та турботи під час сексу?",
+        "en": "Do you get enough attention and care from your partner during sex?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, завжди",
+            "en": "Yes, always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Частково",
+            "en": "Partially"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи відчуваєте ви, що ваші сексуальні потреби задовольняються?",
+        "en": "Do you feel that your sexual needs are satisfied?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Повністю",
+            "en": "Completely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Переважно",
+            "en": "Mostly"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Частково",
+            "en": "Partially"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ні, зовсім ні",
+            "en": "No, not at all"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Наскільки легко ви спілкуєтеся про свої інтимні бажання з партнером?",
+        "en": "How easy is it for you to talk about your intimate desires with your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Дуже легко",
+            "en": "Very easily"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Досить легко",
+            "en": "Quite easily"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Важко",
+            "en": "With difficulty"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Майже неможливо",
+            "en": "Almost impossible"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи хотіли б ви покращити певні аспекти вашого інтимного життя?",
+        "en": "Would you like to improve certain aspects of your intimate life?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, багато чого",
+            "en": "Yes, a lot"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Так, дещо",
+            "en": "Yes, some things"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Не впевнений/а",
+            "en": "Not sure"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ні, мене все влаштовує",
+            "en": "No, I'm satisfied with everything"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        16,
+        20
+      ],
+      "title": {
+        "ua": "Повне задоволення",
+        "en": "Complete Satisfaction"
+      },
+      "description": {
+        "ua": "Ваше інтимне життя приносить вам радість і задоволення. Продовжуйте розвиватися разом із партнером.",
+        "en": "Your intimate life brings you joy and satisfaction. Keep growing together with your partner."
+      }
+    },
+    {
+      "range": [
+        12,
+        15
+      ],
+      "title": {
+        "ua": "Задоволення, але є можливості для покращення",
+        "en": "Satisfied, but There Is Room for Improvement"
+      },
+      "description": {
+        "ua": "Деякі аспекти можна покращити, обговоривши їх з партнером.",
+        "en": "Some aspects could be improved by discussing them with your partner."
+      }
+    },
+    {
+      "range": [
+        8,
+        11
+      ],
+      "title": {
+        "ua": "Середнє задоволення",
+        "en": "Moderate Satisfaction"
+      },
+      "description": {
+        "ua": "Ваше інтимне життя потребує уваги. Розмова з партнером допоможе вам знайти рішення.",
+        "en": "Your intimate life needs attention. A conversation with your partner will help you find a solution."
+      }
+    },
+    {
+      "range": [
+        5,
+        7
+      ],
+      "title": {
+        "ua": "Незадоволення",
+        "en": "Dissatisfaction"
+      },
+      "description": {
+        "ua": "Можливо, вам слід серйозно переглянути ваші інтимні потреби та спілкування з партнером.",
+        "en": "You may need to seriously reconsider your intimate needs and communication with your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Подумайте, які саме моменти приносять найбільше задоволення, а що хотілося б змінити. Запишіть свої ідеї.",
+      "en": "Think about which moments bring you the most satisfaction and what you would like to change. Write down your ideas."
+    },
+    "couple": {
+      "ua": "Обговоріть з партнером свої очікування і бажання. Спробуйте разом визначити, як зробити ваше інтимне життя ще приємнішим.",
+      "en": "Discuss your expectations and desires with your partner. Try together to define how to make your intimate life even more enjoyable."
+    }
+  },
+  "widget_type": "test"
+}

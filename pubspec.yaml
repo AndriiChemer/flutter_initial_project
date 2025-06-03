@@ -71,5 +71,13 @@ flutter:
   assets:
     - assets/translations/pl.json
     - assets/content/
-    - assets/content/multy_days/
+    - assets/content/challanges/multy_days/
     - assets/content/challanges/
+    - assets/content/daily_phrase/category_relationship_crisis/
+    - assets/content/daily_phrase/category_sexual_closeness/
+    - assets/content/daily_tasks/category_relationship_crisis/
+    - assets/content/daily_tasks/category_sexual_closeness/
+    - assets/content/psychological_techniques/category_relationship_crisis/
+    - assets/content/psychological_techniques/category_sexual_closeness/
+    - assets/content/tests/category_relationship_crisis/
+    - assets/content/tests/category_sexual_closeness/

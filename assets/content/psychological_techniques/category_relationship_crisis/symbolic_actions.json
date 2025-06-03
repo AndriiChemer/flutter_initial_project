@@ -1,0 +1,151 @@
+{
+  "technique": {
+    "id": "symbolic_actions",
+    "title": {
+      "ua": "Символічні дії",
+      "en": "Symbolic Actions"
+    },
+    "description": {
+      "ua": "Ця техніка спрямована на створення нових позитивних спогадів через символічні дії або ритуали, що відображають новий етап у стосунках. Це допомагає партнерам закріпити зміни та оновити відчуття єдності.",
+      "en": "This technique focuses on creating new positive memories through symbolic actions or rituals that mark a new stage in the relationship. It helps partners anchor changes and refresh their sense of unity."
+    },
+    "goal": {
+      "ua": "Оновити почуття єдності у парі через спільні ритуали та закріплення позитивних змін.",
+      "en": "Refresh a sense of unity in the couple through shared rituals and anchoring positive changes."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "rituals-and-symbolism",
+    "widget_type": "notes",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Написання спільного листа з вибаченнями або планами на майбутнє.",
+        "en": "Writing a shared letter with apologies or plans for the future."
+      },
+      {
+        "ua": "Посадка рослини як символу нового етапу у стосунках.",
+        "en": "Planting a tree or plant as a symbol of a new stage in the relationship."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Поверніться до цього ритуалу, коли відчуваєте, що стосунки потребують оновлення.",
+        "en": "Return to this ritual whenever you feel your relationship needs a renewal."
+      },
+      {
+        "ua": "Символічні дії — це не лише про вибачення, але й про святкування досягнень.",
+        "en": "Symbolic actions are not only about forgiveness but also about celebrating achievements."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_symbolic_actions",
+      "technique_id": "symbolic_actions",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір символічного ритуалу",
+        "en": "Choosing a Symbolic Ritual"
+      },
+      "instruction": {
+        "ua": "Разом оберіть символічну дію, яка має для вас обох особливе значення. Це може бути написання листа, посадка рослини або створення спільного колажу.",
+        "en": "Together, choose a symbolic action that has special meaning for both of you. It can be writing a letter, planting a tree, or making a shared collage."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Давай напишемо листа один одному, де опишемо, що хочемо залишити у минулому та на чому хочемо зосередитись далі.»",
+          "en": "Partner 1: 'Let's write a letter to each other describing what we want to leave in the past and what we want to focus on going forward.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Обирайте дію, яка асоціюється з оновленням або початком нового етапу.",
+          "en": "Choose an action that is associated with renewal or starting a new chapter."
+        },
+        {
+          "ua": "Важливо, щоб обраний ритуал викликав позитивні емоції у обох партнерів.",
+          "en": "It's important that the ritual evokes positive emotions in both partners."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_symbolic_actions",
+      "technique_id": "symbolic_actions",
+      "step_number": 2,
+      "title": {
+        "ua": "Виконання ритуалу",
+        "en": "Performing the Ritual"
+      },
+      "instruction": {
+        "ua": "Виконайте обрану дію разом, фокусуючись на позитивних емоціях та почуттях. Виконуйте її повільно, усвідомлюючи кожен крок.",
+        "en": "Perform the chosen action together, focusing on positive emotions and feelings. Do it slowly, being mindful of each step."
+      },
+      "duration": "15 min",
+      "examples": [
+        {
+          "ua": "Напишіть спільний лист вибачень або подяк, який ви зможете перечитувати у складні моменти.",
+          "en": "Write a joint letter of apologies or gratitude that you can reread during tough times."
+        },
+        {
+          "ua": "Посадіть рослину як символ вашого оновлення та зростання.",
+          "en": "Plant a tree or plant as a symbol of your renewal and growth."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на емоціях, які виникають під час ритуалу.",
+          "en": "Focus on the emotions that arise during the ritual."
+        },
+        {
+          "ua": "Не поспішайте — дайте собі час прожити цей момент.",
+          "en": "Don't rush—allow yourself to fully experience the moment."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_symbolic_actions",
+      "technique_id": "symbolic_actions",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення та рефлексія",
+        "en": "Discussion and Reflection"
+      },
+      "instruction": {
+        "ua": "Після завершення ритуалу поділіться тим, що він означає для кожного з вас. Як ви відчували себе під час виконання? Які нові відчуття виникли?",
+        "en": "After completing the ritual, share what it means to each of you. How did you feel during the process? What new feelings emerged?"
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Посадка цієї рослини для мене — це символ нового початку та віри у наше майбутнє.»",
+          "en": "Partner 1: 'Planting this tree is a symbol of a new beginning and faith in our future.'"
+        },
+        {
+          "ua": "Партнер 2: «Я відчув/ла, що тепер ми можемо залишити образи у минулому.»",
+          "en": "Partner 2: 'I felt that now we can leave the grievances in the past.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сфокусуйтесь на тому, що ви відчули, а не на результаті дії.",
+          "en": "Focus on what you felt, not on the outcome of the action."
+        },
+        {
+          "ua": "Запропонуйте повторювати цей ритуал щомісяця або раз на рік.",
+          "en": "Suggest repeating this ritual monthly or yearly."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

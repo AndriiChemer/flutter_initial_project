@@ -1,0 +1,175 @@
+{
+  "technique": {
+    "id": "partner_dialogue",
+    "title": {
+      "ua": "Партнерський діалог",
+      "en": "Partner Dialogue"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає партнерам краще розуміти один одного через структурований діалог. Вона сприяє розвитку емпатії та відкритості, знижує рівень напруги у спілкуванні.",
+      "en": "This technique helps partners better understand each other through a structured dialogue. It promotes empathy and openness, and reduces tension in communication."
+    },
+    "goal": {
+      "ua": "Навчитися слухати, розуміти й віддзеркалювати почуття партнера через структурований діалог.",
+      "en": "Learn to listen, understand, and reflect your partner’s feelings through a structured dialogue."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "communication",
+    "widget_type": "conversation",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я відчуваю, що ми не проводимо достатньо часу разом.»",
+        "en": "Partner 1: 'I feel like we’re not spending enough time together.'"
+      },
+      {
+        "ua": "Партнер 2: «Якщо я правильно зрозумів/ла, тобі хочеться більше спільних моментів?»",
+        "en": "Partner 2: 'If I understood you correctly, you want more moments together?'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не перебивайте партнера — це його/її час для висловлювання.",
+        "en": "Don’t interrupt your partner — this is their time to speak."
+      },
+      {
+        "ua": "Пам'ятайте, що головна мета — зрозуміти, а не перемогти у діалозі.",
+        "en": "Remember, the main goal is to understand, not to win the dialogue."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_partner_dialogue",
+      "technique_id": "partner_dialogue",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір теми",
+        "en": "Choosing a Topic"
+      },
+      "instruction": {
+        "ua": "Оберіть тему, яку хочете обговорити (наприклад, невдоволення, страхи або майбутні плани). Запишіть її на папері, щоб не відволікатись.",
+        "en": "Choose a topic you want to discuss (for example, dissatisfaction, fears, or future plans). Write it down on paper to stay focused."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хотів/ла б обговорити нашу комунікацію останнім часом.»",
+          "en": "Partner 1: 'I’d like to discuss our communication lately.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на одній темі за раз.",
+          "en": "Focus on one topic at a time."
+        },
+        {
+          "ua": "Не обирайте тему, яка викликає сильні емоції — почніть із простих питань.",
+          "en": "Don’t choose a topic that triggers strong emotions — start with easier subjects."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_partner_dialogue",
+      "technique_id": "partner_dialogue",
+      "step_number": 2,
+      "title": {
+        "ua": "Час для висловлювання",
+        "en": "Time for Expression"
+      },
+      "instruction": {
+        "ua": "Один партнер має 5 хвилин, щоб висловити свої думки та почуття, не перебиваючи іншого. Інший слухає уважно.",
+        "en": "One partner has 5 minutes to express their thoughts and feelings without interruption. The other listens attentively."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я відчуваю, що ми менше часу проводимо разом і це мене турбує.»",
+          "en": "Partner 1: 'I feel that we spend less time together and it worries me.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не виправдовуйтесь під час слухання — це час для розуміння.",
+          "en": "Don’t justify yourself while listening — this is time to understand."
+        },
+        {
+          "ua": "Запам'ятовуйте основні думки партнера для подальшого повторення.",
+          "en": "Remember your partner’s main points for later reflection."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_partner_dialogue",
+      "technique_id": "partner_dialogue",
+      "step_number": 3,
+      "title": {
+        "ua": "Віддзеркалення",
+        "en": "Reflection"
+      },
+      "instruction": {
+        "ua": "Слухаючий партнер повторює основні думки, щоб переконатись у правильному розумінні.",
+        "en": "The listening partner repeats the main ideas to make sure they understood correctly."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Якщо я правильно зрозумів/ла, тобі хотілося б більше спільного часу?»",
+          "en": "Partner 2: 'If I understood correctly, you’d like us to spend more time together?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Повторіть основні думки своїми словами.",
+          "en": "Repeat the main points in your own words."
+        },
+        {
+          "ua": "Запитайте: «Чи правильно я зрозумів/ла тебе?»",
+          "en": "Ask: 'Did I understand you correctly?'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_partner_dialogue",
+      "technique_id": "partner_dialogue",
+      "step_number": 4,
+      "title": {
+        "ua": "Обговорення рішень",
+        "en": "Discussion of Solutions"
+      },
+      "instruction": {
+        "ua": "Обговоріть можливі рішення та домовтесь про 1-2 конкретні дії для покращення ситуації.",
+        "en": "Discuss possible solutions and agree on 1–2 concrete actions to improve the situation."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Рішення: «Щоп'ятниці ми вечеряємо разом без телефонів.»",
+          "en": "Decision: 'Every Friday we have dinner together without phones.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не намагайтесь вирішити все одразу — оберіть одну ключову дію.",
+          "en": "Don’t try to solve everything at once — choose one key action."
+        },
+        {
+          "ua": "Запишіть домовленості, щоб до них повернутись.",
+          "en": "Write down your agreements so you can refer to them."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

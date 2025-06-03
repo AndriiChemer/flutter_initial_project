@@ -1,0 +1,175 @@
+{
+  "technique": {
+    "id": "safe_word_technique",
+    "title": {
+      "ua": "Кодове слово",
+      "en": "Safe Word"
+    },
+    "description": {
+      "ua": "Ця техніка створює безпечний простір для зупинки конфлікту та збереження спокою. Кодове слово сигналізує про те, що один із партнерів потребує паузи або підтримки.",
+      "en": "This technique creates a safe space for pausing conflict and maintaining calm. A safe word signals that one of the partners needs a pause or support."
+    },
+    "goal": {
+      "ua": "Навчитися використовувати просту сигналізацію для емоційної безпеки під час сварок.",
+      "en": "Learn to use a simple signal for emotional safety during arguments."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflicts-and-arguments",
+    "widget_type": "notes",
+    "duration": "10 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Давай використаємо слово 'океан', щоб зупиняти розмову, якщо стане надто гаряче.»",
+        "en": "Partner 1: 'Let’s use the word “ocean” to stop the conversation if things get too heated.'"
+      },
+      {
+        "ua": "Партнер 2: «Я згоден, це допоможе зберігати спокій і не сказати зайвого.»",
+        "en": "Partner 2: 'I agree, this will help us stay calm and avoid saying something hurtful.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Кодове слово повинно бути простим, асоціюватись із спокоєм і не викликати тривоги.",
+        "en": "The safe word should be simple, associated with calm, and not cause anxiety."
+      },
+      {
+        "ua": "Після використання кодового слова обов’язково поверніться до діалогу, коли емоції вщухнуть.",
+        "en": "After using the safe word, always return to the conversation once emotions settle."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_safe_word_technique",
+      "technique_id": "safe_word_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір кодового слова",
+        "en": "Choosing a Safe Word"
+      },
+      "instruction": {
+        "ua": "Разом оберіть слово, яке асоціюється зі спокоєм або паузою. Це може бути «пауза», «океан», «кава» або будь-яке інше слово, яке обидва запам'ятаєте.",
+        "en": "Together, choose a word that you both associate with calm or taking a break. It could be 'pause', 'ocean', 'coffee', or any other word you both remember."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Як щодо слова 'океан'? Коли хтось із нас скаже 'океан', ми робимо паузу у розмові.»",
+          "en": "Partner 1: 'How about “ocean”? When one of us says “ocean”, we take a pause in the conversation.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Вибирайте слово, яке не викликатиме негативних емоцій.",
+          "en": "Pick a word that won’t trigger negative emotions."
+        },
+        {
+          "ua": "Не використовуйте слово, яке вже асоціюється з конфліктом.",
+          "en": "Do not use a word already associated with conflict."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_safe_word_technique",
+      "technique_id": "safe_word_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Пояснення значення",
+        "en": "Clarifying the Meaning"
+      },
+      "instruction": {
+        "ua": "Чітко домовтесь, що означає це слово: пауза для заспокоєння, прохання про підтримку, прохання про перенесення розмови.",
+        "en": "Clearly agree what the word means: a pause to calm down, a request for support, or a request to postpone the conversation."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Якщо я скажу 'океан', це означає, що мені потрібно кілька хвилин на заспокоєння.»",
+          "en": "Partner 2: 'If I say “ocean”, it means I need a few minutes to calm down.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не змінюйте значення слова без попереднього обговорення.",
+          "en": "Do not change the meaning of the word without discussion."
+        },
+        {
+          "ua": "Визначте, скільки часу триває пауза: 5, 10 або 15 хвилин.",
+          "en": "Agree on how long the pause should last: 5, 10, or 15 minutes."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_safe_word_technique",
+      "technique_id": "safe_word_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Використання кодового слова",
+        "en": "Using the Safe Word"
+      },
+      "instruction": {
+        "ua": "Коли конфлікт загострюється, використайте кодове слово. Обидва партнери припиняють розмову, даючи простір для заспокоєння.",
+        "en": "When a conflict escalates, use the safe word. Both partners pause the conversation, giving space to calm down."
+      },
+      "duration": "depends on situation",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Океан.» Партнер 2: «Добре, я зрозумів(ла). Давай зробимо паузу на 10 хвилин.»",
+          "en": "Partner 1: 'Ocean.' Partner 2: 'Okay, I understand. Let’s take a 10-minute break.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не ігноруйте кодове слово — це сигнал про те, що емоції зашкалюють.",
+          "en": "Do not ignore the safe word — it's a signal that emotions are overwhelming."
+        },
+        {
+          "ua": "Повертайтесь до розмови лише після закінчення паузи.",
+          "en": "Return to the conversation only after the pause ends."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_safe_word_technique",
+      "technique_id": "safe_word_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Обговорення після паузи",
+        "en": "Discussion After the Pause"
+      },
+      "instruction": {
+        "ua": "Після завершення паузи поверніться до розмови у спокійному тоні. Поділіться, що відчували під час паузи, та домовтеся, як рухатись далі.",
+        "en": "After the pause, return to the conversation in a calm tone. Share what you felt during the break and agree on how to move forward."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Під час паузи я зрозумів(ла), що мені важливо не лише перемогти у суперечці, а зберегти наш контакт.»",
+          "en": "Partner 1: 'During the break, I realized that it's important for me not just to win the argument, but to maintain our connection.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не обговорюйте конфлікт одразу після закінчення паузи, якщо емоції ще сильні. Дайте собі ще кілька хвилин.",
+          "en": "Do not discuss the conflict right after the pause if emotions are still strong. Give yourself a few more minutes."
+        },
+        {
+          "ua": "Підсумуйте досвід і збережіть цей метод для майбутніх розмов.",
+          "en": "Summarize the experience and keep this method for future conversations."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

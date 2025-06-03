@@ -1,0 +1,187 @@
+{
+  "technique": {
+    "id": "emotional_barometer_technique",
+    "title": {
+      "ua": "Емоційний барометр",
+      "en": "Emotional Barometer"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає партнерам оцінити свій емоційний стан та виявити причини напруження або незадоволення. Це простий спосіб відстежити емоційні зміни та знайти способи підтримати одне одного.",
+      "en": "This technique helps partners assess their emotional state and discover the reasons for tension or dissatisfaction. It’s a simple way to track emotional changes and find ways to support each other."
+    },
+    "goal": {
+      "ua": "Навчитись регулярно відстежувати емоції в парі й підтримувати одне одного у складні періоди.",
+      "en": "Learn to regularly track emotions as a couple and support each other during difficult periods."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "emotional-awareness",
+    "widget_type": "survey",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я сьогодні на 5. Вчорашня суперечка ще не вийшла з голови.»",
+        "en": "Partner 1: 'Today I’m at a 5. Yesterday’s argument is still on my mind.'"
+      },
+      {
+        "ua": "Партнер 2: «Я почуваюся на 8, але відчуваю, що тобі потрібна моя підтримка.»",
+        "en": "Partner 2: 'I feel like an 8, but I sense that you need my support.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Регулярно використовуйте цю техніку для відстеження емоційних коливань.",
+        "en": "Use this technique regularly to monitor emotional fluctuations."
+      },
+      {
+        "ua": "Не намагайтесь одразу вирішити проблему — це про емпатію, а не про вирішення.",
+        "en": "Do not try to solve the problem immediately — this is about empathy, not fixing."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_emotional_barometer_technique",
+      "technique_id": "emotional_barometer_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Підготовка до діалогу",
+        "en": "Preparation for Dialogue"
+      },
+      "instruction": {
+        "ua": "Виберіть час та місце, де обидва партнери можуть бути спокійними та налаштованими на розмову. Сядьте один навпроти одного.",
+        "en": "Choose a time and place where both partners can be calm and ready for a conversation. Sit facing each other."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Давай перевіримо наш емоційний стан. Як ти почуваєшся сьогодні?»",
+          "en": "Partner 1: 'Let’s check our emotional state. How are you feeling today?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сфокусуйтесь на теперішньому моменті.",
+          "en": "Focus on the present moment."
+        },
+        {
+          "ua": "Не намагайтесь вирішувати проблему одразу — це етап виявлення емоцій.",
+          "en": "Do not try to solve the problem right away — this is the stage for identifying emotions."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_emotional_barometer_technique",
+      "technique_id": "emotional_barometer_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Оцінка емоційного стану",
+        "en": "Assessing Emotional State"
+      },
+      "instruction": {
+        "ua": "Кожен партнер називає свою оцінку емоційного стану за шкалою від 1 до 10 та коротко пояснює причини.",
+        "en": "Each partner states their emotional score on a scale from 1 to 10 and briefly explains why."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Сьогодні я на 4. Мені важко через те, що ми багато сварились останнім часом.»",
+          "en": "Partner 1: 'Today I’m at a 4. It’s hard for me because we’ve argued a lot lately.'"
+        },
+        {
+          "ua": "Партнер 2: «Я на 7. Вчорашня розмова залишила мене трохи розчарованим.»",
+          "en": "Partner 2: 'I’m at a 7. Yesterday’s talk left me a little disappointed.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Будьте чесними, але не звинувачуйте партнера.",
+          "en": "Be honest, but do not blame your partner."
+        },
+        {
+          "ua": "Фокусуйтесь на своїх відчуттях, а не на його/її діях.",
+          "en": "Focus on your own feelings, not their actions."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_emotional_barometer_technique",
+      "technique_id": "emotional_barometer_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення та підтримка",
+        "en": "Discussion and Support"
+      },
+      "instruction": {
+        "ua": "Запитайте одне одного: «Що б могло покращити твій емоційний стан?» Запропонуйте невеликі дії для підтримки.",
+        "en": "Ask each other: 'What could improve your emotional state?' Suggest small actions for support."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені було б легше, якби ми домовились про менше сварок.»",
+          "en": "Partner 1: 'It would be easier for me if we agreed to argue less.'"
+        },
+        {
+          "ua": "Партнер 2: «Я можу спробувати контролювати свій тон і уникати різких відповідей.»",
+          "en": "Partner 2: 'I can try to control my tone and avoid sharp responses.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не пропонуйте рішення, поки партнер сам не попросить.",
+          "en": "Do not offer solutions unless your partner asks."
+        },
+        {
+          "ua": "Замість порад, спробуйте просто вислухати.",
+          "en": "Instead of advice, just listen."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_emotional_barometer_technique",
+      "technique_id": "emotional_barometer_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Висновок та домовленості",
+        "en": "Conclusion and Agreements"
+      },
+      "instruction": {
+        "ua": "Запишіть одне або два конкретні рішення, які обидва партнери готові виконати для покращення емоційного стану.",
+        "en": "Write down one or two specific actions that both partners are ready to take to improve their emotional state."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Рішення: «Щосереди проводимо 15 хвилин за кавою, обговорюючи, як минув наш тиждень.»",
+          "en": "Decision: 'Every Wednesday we spend 15 minutes over coffee discussing our week.'"
+        },
+        {
+          "ua": "Рішення: «Якщо комусь потрібно висловити емоції, він/вона каже 'потрібна хвилинка уваги'.»",
+          "en": "Decision: 'If someone needs to express emotions, they say \"I need a moment of attention.\"'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не обирайте більше ніж два рішення за один раз.",
+          "en": "Do not choose more than two actions at once."
+        },
+        {
+          "ua": "Записуйте домовленості, щоб мати можливість повернутись до них у майбутньому.",
+          "en": "Write down agreements to return to them in the future."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

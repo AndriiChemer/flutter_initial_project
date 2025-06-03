@@ -1,0 +1,292 @@
+[
+  {
+    "id": "sexy-notes",
+    "title": {
+      "ua": "Сексуальні записки",
+      "en": "Sexy Notes"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Залишайте один одному короткі записки з сексуальними фантазіями або побажаннями, які можна реалізувати разом.",
+      "en": "Leave each other short notes with sexy fantasies or wishes you might fulfill together."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Пишіть на записках свої бажання або фантазії.",
+        "en": "Write your desires or fantasies on a note."
+      },
+      {
+        "number": 2,
+        "ua": "Залишайте їх у несподіваних місцях, де партнер їх знайде.",
+        "en": "Leave them in unexpected places for your partner to find."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, що найбільше вас зацікавило та реалізуйте одне з побажань.",
+        "en": "Discuss which ideas excited you both and try one together."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": null,
+    "status": "active",
+    "image": "sexy_notes.png",
+    "examples": [
+      {
+        "ua": "«Хочу, щоб ти сьогодні нашіптував мені щось на вухо...»",
+        "en": "“I want you to whisper something naughty to me tonight…”"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Фантазії можуть бути як невинними, так і сміливими — обирайте під ваш настрій.",
+        "en": "Notes can be sweet or daring—choose what fits your mood."
+      },
+      {
+        "ua": "Не критикуйте ідеї партнера, навіть якщо вони для вас нові.",
+        "en": "Don’t judge your partner’s ideas, even if they’re new to you."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "you-lead-now",
+    "title": {
+      "ua": "Тепер ти ведеш",
+      "en": "Now You Lead"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Гра на довіру та розслаблення. Один партнер веде, інший підкорюється, дозволяючи партнеру створювати сценарій.",
+      "en": "A trust and relaxation game: one leads, the other surrenders, letting their partner create the scenario."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Вирішіть, хто першим буде ведучим.",
+        "en": "Decide who will lead first."
+      },
+      {
+        "number": 2,
+        "ua": "Партнер-ведучий починає керувати ситуацією, використовуючи свої фантазії та бажання.",
+        "en": "The leader directs the situation, using their fantasies and wishes."
+      },
+      {
+        "number": 3,
+        "ua": "Після завершення поміняйтеся ролями та обговоріть свої враження.",
+        "en": "Switch roles and discuss your experiences afterwards."
+      }
+    ],
+    "widget_type": "roleplay",
+    "duration": "30 min",
+    "status": "active",
+    "image": "you_lead_now.png",
+    "examples": [
+      {
+        "ua": "Ведучий просить зробити масаж, а потім змінює сценарій.",
+        "en": "The leader asks for a massage, then switches up the scenario."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Попередньо домовтеся про межі й стоп-слово.",
+        "en": "Agree on boundaries and a safe word before starting."
+      },
+      {
+        "ua": "Довіртеся партнеру, навіть якщо ви не звикли підкорятися.",
+        "en": "Trust your partner, even if surrendering feels new."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "intimate-whispers",
+    "title": {
+      "ua": "Ніжні нашіптування",
+      "en": "Intimate Whispers"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Нашіптування на вухо ніжних або пікантних слів може розпалити бажання та створити інтимну атмосферу.",
+      "en": "Whispering tender or naughty words in your partner’s ear can ignite desire and create intimacy."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Сядьте поруч або ляжте поряд з партнером.",
+        "en": "Sit or lie close together."
+      },
+      {
+        "number": 2,
+        "ua": "Нашіптуйте одне одному ніжні слова або описуйте свої фантазії.",
+        "en": "Whisper tender words or share fantasies with each other."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, які слова та тон найбільше вплинули на вас.",
+        "en": "Discuss which words or tones had the biggest impact."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "15 min",
+    "status": "active",
+    "image": "whispers.png",
+    "examples": [
+      {
+        "ua": "«Я хочу тебе прямо зараз...», «Твої губи зводять мене з розуму.»",
+        "en": "“I want you right now...”, “Your lips drive me crazy.”"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Грайте з інтонацією — ніжний або владний голос може по-різному вплинути.",
+        "en": "Play with tone—a gentle or commanding voice can have different effects."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "secret-notes",
+    "title": {
+      "ua": "Таємні записки",
+      "en": "Secret Notes"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Завдання допомагає ділитися бажаннями у творчий спосіб. Ви залишаєте одне одному записки з інтригуючими підказками або фантазіями, які хочете реалізувати.",
+      "en": "This task helps you share desires creatively by leaving intriguing notes or fantasies for each other."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня залишайте записки в несподіваних місцях (наприклад, у кишені куртки, під подушкою або у ванній кімнаті).",
+        "en": "Throughout the day, leave notes in unexpected places (like a jacket pocket, under a pillow, or in the bathroom)."
+      },
+      {
+        "number": 2,
+        "ua": "У записках вказуйте свої фантазії або бажання, які хочете обговорити чи реалізувати.",
+        "en": "Write your fantasies or desires you want to discuss or try."
+      },
+      {
+        "number": 3,
+        "ua": "Ввечері обговоріть записки та вирішіть, які з фантазій хочете реалізувати.",
+        "en": "In the evening, talk about the notes and decide which fantasies to try."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "1 day",
+    "status": "active",
+    "image": "secret_notes.png",
+    "examples": [
+      {
+        "ua": "«Сьогодні хочу, щоб ти обіймав мене ззаду на кухні...»",
+        "en": "“Tonight I want you to hug me from behind in the kitchen...”"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Чим несподіваніше місце — тим цікавіше.",
+        "en": "The more surprising the spot, the more exciting it is."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "warm-touch",
+    "title": {
+      "ua": "Теплий дотик",
+      "en": "Warm Touch"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Це завдання допомагає дослідити ерогенні зони партнера за допомогою теплих дотиків. Підходить для створення інтимної атмосфери та зміцнення довіри.",
+      "en": "This task helps you explore your partner’s erogenous zones through warm touch, creating intimacy and building trust."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Один партнер лягає, закривши очі, а інший починає повільно та ніжно торкатися різних частин тіла.",
+        "en": "One partner lies down with eyes closed, the other gently touches different body parts."
+      },
+      {
+        "number": 2,
+        "ua": "Водночас використовуйте тепло своїх рук або, за бажанням, теплий рушник чи інші матеріали.",
+        "en": "Use the warmth of your hands, or if you wish, a warm towel or other materials."
+      },
+      {
+        "number": 3,
+        "ua": "Після завершення обговоріть, які дотики викликали найбільше приємних відчуттів.",
+        "en": "Afterward, discuss which touches felt best."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "20 min",
+    "status": "active",
+    "image": "warm_touch.png",
+    "examples": [
+      {
+        "ua": "Масаж з теплим рушником на спині.",
+        "en": "A warm towel massage on the back."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Теплий дотик добре знімає напругу й допомагає розслабитись.",
+        "en": "Warm touch releases tension and helps you relax."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "random-kisses",
+    "title": {
+      "ua": "Випадкові поцілунки",
+      "en": "Random Kisses"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Це завдання передбачає несподівані, швидкі та ніжні поцілунки протягом дня. Це допомагає підтримувати романтичний зв’язок і бажання.",
+      "en": "This task is about surprising your partner with quick, gentle kisses throughout the day—helping to maintain romance and desire."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Вирішіть, що сьогодні ваш день для несподіваних поцілунків.",
+        "en": "Decide that today is your random kisses day."
+      },
+      {
+        "number": 2,
+        "ua": "Поцілунки можуть бути легкими, тривалими, пристрасними — будь-якими, головне, щоб вони були несподіваними.",
+        "en": "The kisses can be gentle, long, passionate—just make them unexpected."
+      },
+      {
+        "number": 3,
+        "ua": "Наприкінці дня обговоріть, як цей досвід вплинув на ваші емоції та взаємодію.",
+        "en": "At the end of the day, discuss how this affected your mood and connection."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "1 day",
+    "status": "active",
+    "image": "random_kisses.png",
+    "examples": [
+      {
+        "ua": "Несподіваний поцілунок у щоку вранці чи під час готування.",
+        "en": "A surprise kiss on the cheek in the morning or while cooking."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не чекайте на ідеальний момент — діяти можна будь-коли.",
+        "en": "Don’t wait for the perfect moment—anytime is good."
+      }
+    ],
+    "free_or_premium": "premium"
+  }
+]

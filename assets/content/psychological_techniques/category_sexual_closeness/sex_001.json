@@ -1,0 +1,198 @@
+{
+  "technique": {
+    "id": "sex_001",
+    "title": {
+      "ua": "Тепер ти ведеш",
+      "en": "Now You Lead"
+    },
+    "description": {
+      "ua": "Ця техніка спрямована на розвиток довіри та зміцнення сексуальної близькості через чергування ролей ведучого та підкореного партнера. Вона допомагає партнерам краще зрозуміти бажання одне одного та навчитися відпускати контроль.",
+      "en": "This technique focuses on building trust and strengthening sexual intimacy by switching roles between the leading and following partner. It helps couples better understand each other's desires and learn to let go of control."
+    },
+    "goal": {
+      "ua": "Навчитись змінюватися ролями, розвивати довіру і дослідити власні та партнерські бажання.",
+      "en": "To learn how to switch roles, develop trust, and explore both your own and your partner's desires."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "control_and_trust",
+    "widget_type": null,
+    "duration": "15 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "reward_points": 8,
+    "tags": [
+      "довіра",
+      "контроль",
+      "інтимність",
+      "рольова гра",
+      "дослідження",
+      "trust",
+      "control",
+      "intimacy",
+      "roleplay",
+      "exploration"
+    ],
+    "adaptation": [
+      {
+        "ua": "Додайте сліпу довіру – один із вас може зав’язати очі.",
+        "en": "Add blind trust — one of you can wear a blindfold."
+      },
+      {
+        "ua": "Встановіть правила: наприклад, використовувати лише голосові команди або тільки дотики.",
+        "en": "Set rules: for example, use only voice commands or only touches."
+      },
+      {
+        "ua": "Використовуйте таймер для рівного розподілу часу.",
+        "en": "Use a timer for equal time allocation."
+      }
+    ],
+    "examples": [
+      {
+        "ua": "Партнер 1: «Ляж на спину та дозволь мені торкатися тебе без запитань.»",
+        "en": "Partner 1: \"Lie on your back and let me touch you, no questions asked.\""
+      },
+      {
+        "ua": "Партнер 2: «Закрий очі та скажи мені, коли тобі буде особливо приємно.»",
+        "en": "Partner 2: \"Close your eyes and tell me when something feels especially good.\""
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не намагайтесь контролювати — віддайте себе у владу партнера.",
+        "en": "Don't try to control — surrender to your partner's lead."
+      },
+      {
+        "ua": "Якщо ви не відчуваєте себе комфортно, скажіть про це одразу.",
+        "en": "If you feel uncomfortable at any moment, say so immediately."
+      }
+    ],
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "sex_001_step_1",
+      "technique_id": "sex_001",
+      "step_number": 1,
+      "title": {
+        "ua": "Визначення ролей",
+        "en": "Role Assignment"
+      },
+      "instruction": {
+        "ua": "Оберіть, хто першим буде вести процес. Ведучий партнер бере ініціативу, даючи легкі вказівки або керуючи дотиками.",
+        "en": "Decide who will lead first. The leading partner takes initiative, giving gentle instructions or guiding with touch."
+      },
+      "duration": "2 min",
+      "example": {
+        "ua": "Партнер 1: «Я почну першим/першою. Закрий очі та довірся мені.»",
+        "en": "Partner 1: \"I'll start first. Close your eyes and trust me.\""
+      },
+      "tips": [
+        {
+          "ua": "Почніть з легких дотиків, щоб налаштуватись на контакт.",
+          "en": "Start with gentle touches to ease into the experience."
+        },
+        {
+          "ua": "Запропонуйте партнеру закрити очі для посилення відчуттів.",
+          "en": "Suggest your partner closes their eyes to enhance sensations."
+        }
+      ]
+    },
+    {
+      "id": "sex_001_step_2",
+      "technique_id": "sex_001",
+      "step_number": 2,
+      "title": {
+        "ua": "Ведення та контроль",
+        "en": "Guidance and Control"
+      },
+      "instruction": {
+        "ua": "Протягом 5 хвилин ведучий партнер керує взаємодією. Він може використовувати легкі дотики, слова або команди для створення інтимної атмосфери.",
+        "en": "For 5 minutes, the leading partner directs the interaction. Use gentle touches, words, or commands to create intimacy."
+      },
+      "duration": "5 min",
+      "example": [
+        {
+          "ua": "Партнер 1: «Ляж на спину та дозволь мені провести пальцями уздовж твого тіла.»",
+          "en": "Partner 1: \"Lie on your back and let me run my fingers along your body.\""
+        },
+        {
+          "ua": "Партнер 1: «Скажи мені, що тобі найбільше подобається зараз.»",
+          "en": "Partner 1: \"Tell me what you like most right now.\""
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на диханні партнера — це допоможе краще зрозуміти його реакцію.",
+          "en": "Pay attention to your partner's breathing — it helps you sense their reaction."
+        },
+        {
+          "ua": "Не поспішайте — рухайтесь повільно та свідомо.",
+          "en": "Don't rush — move slowly and mindfully."
+        }
+      ]
+    },
+    {
+      "id": "sex_001_step_3",
+      "technique_id": "sex_001",
+      "step_number": 3,
+      "title": {
+        "ua": "Зміна ролей",
+        "en": "Switching Roles"
+      },
+      "instruction": {
+        "ua": "Через 5 хвилин поміняйтеся ролями. Тепер інший партнер стає ведучим, а перший довіряється.",
+        "en": "After 5 minutes, switch roles. Now the other partner leads, while the first one lets go and trusts."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Партнер 2: «Тепер моя черга. Закрий очі та дозволь мені торкатися тебе, як я хочу.»",
+        "en": "Partner 2: \"Now it's my turn. Close your eyes and let me touch you as I wish.\""
+      },
+      "tips": [
+        {
+          "ua": "Спробуйте використовувати голосові команди замість дотиків.",
+          "en": "Try using only voice commands instead of touch."
+        },
+        {
+          "ua": "Зосередьтесь на тому, що приносить найбільше задоволення.",
+          "en": "Focus on what brings the most pleasure."
+        }
+      ]
+    },
+    {
+      "id": "sex_001_step_4",
+      "technique_id": "sex_001",
+      "step_number": 4,
+      "title": {
+        "ua": "Рефлексія та обговорення",
+        "en": "Reflection and Sharing"
+      },
+      "instruction": {
+        "ua": "Після завершення вправи поділіться враженнями. Які дотики викликали найсильніші відчуття? Що вам найбільше сподобалось?",
+        "en": "After the exercise, share your impressions. Which touches felt the strongest? What did you like most?"
+      },
+      "duration": "5-7 min",
+      "example": [
+        {
+          "ua": "Партнер 1: «Мені сподобалось, коли ти провів/ла пальцями уздовж моєї шиї.»",
+          "en": "Partner 1: \"I liked it when you ran your fingers along my neck.\""
+        },
+        {
+          "ua": "Партнер 2: «А мені було особливо приємно відчути твоє дихання біля вуха.»",
+          "en": "Partner 2: \"I especially enjoyed feeling your breath near my ear.\""
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Будьте відвертими та діліться відчуттями без страху осуду.",
+          "en": "Be honest and share your feelings without fear of judgment."
+        },
+        {
+          "ua": "Запропонуйте повернутись до найприємніших моментів пізніше.",
+          "en": "Suggest revisiting the most enjoyable moments later."
+        }
+      ]
+    }
+  ]
+}

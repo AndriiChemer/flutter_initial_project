@@ -1,0 +1,98 @@
+{
+  "id": "",
+  "title": {
+    "ua": "",
+    "en": ""
+  },
+  "level": {
+    "ua": "",
+    "en": ""
+  },
+  "description": {
+    "ua": "",
+    "en": ""
+  },
+  "type": "",
+  "category_id": "",
+  "category_slug": "",
+  "status": "",
+  "free_or_premium": "",
+  "duration": "",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "",
+      "question": {
+        "ua": "",
+        "en": ""
+      },
+      "options": [
+        {
+          "id": "",
+          "text": {
+            "ua": "",
+            "en": ""
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто сприймаю критично, але намагаюся розуміти.",
+            "en": "Often take it critically but try to understand."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто захищаюсь, але можу змінити точку зору.",
+            "en": "Often defend myself, but can change my opinion."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Відчуваю образу і намагаюся захищатися.",
+            "en": "Feel hurt and try to defend myself."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Негативно реагую і уникаю обговорення.",
+            "en": "React negatively and avoid discussion."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [],
+      "title": {
+        "ua": "",
+        "en": ""
+      },
+      "description": {
+        "ua": "",
+        "en": ""
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "",
+      "en": ""
+    },
+    "couple": {
+      "ua": "",
+      "en": ""
+    }
+  },
+  "widget_type": ""
+}

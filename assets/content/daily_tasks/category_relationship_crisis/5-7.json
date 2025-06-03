@@ -1,0 +1,162 @@
+[
+  {
+    "id": "daily_rewrite_story",
+    "title": {
+      "ua": "Переписування історії",
+      "en": "Rewrite the Story"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Перегляд конфлікту в письмовій формі та переформулювання негативних моментів.",
+      "en": "Reviewing a conflict in written form and reframing negative moments in a positive way."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Запишіть короткий опис конфлікту або непорозуміння.",
+        "en": "Write a short description of the conflict or misunderstanding."
+      },
+      {
+        "number": 2,
+        "ua": "Переформулюйте негативні моменти в позитивному ключі.",
+        "en": "Reframe the negative moments in a positive way."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть з партнером, як можна запобігти подібним ситуаціям у майбутньому.",
+        "en": "Discuss with your partner how to avoid similar situations in the future."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "15-20 хвилин",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Замість 'Ти ніколи мене не слухаєш' → 'Я хотів/ла б, щоб ти більше звертав/ла увагу на мої слова.'",
+        "en": "Instead of 'You never listen to me' → 'I would like you to pay more attention to my words.'"
+      },
+      {
+        "ua": "Ми можемо краще комунікувати, якщо будемо висловлювати свої потреби відкрито.",
+        "en": "We can communicate better if we express our needs openly."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Будьте чесними з собою.",
+        "en": "Be honest with yourself."
+      },
+      {
+        "ua": "Використовуйте цю техніку регулярно для аналізу складних ситуацій.",
+        "en": "Use this technique regularly to analyze difficult situations."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "rewrite_story.png"
+  },
+  {
+    "id": "daily_no_criticism_day",
+    "title": {
+      "ua": "День без критики",
+      "en": "No Criticism Day"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Завдання, що допомагає партнерам уникнути критики та негативних зауважень протягом дня, зосереджуючись лише на позитивному.",
+      "en": "A task that helps partners avoid criticism and negative remarks throughout the day, focusing only on the positive."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Домовтеся з партнером провести день без критики.",
+        "en": "Agree with your partner to spend a day without criticism."
+      },
+      {
+        "number": 2,
+        "ua": "Помічайте позитивні дії та слова партнера.",
+        "en": "Notice your partner's positive actions and words."
+      },
+      {
+        "number": 3,
+        "ua": "Ввечері обговоріть, як це вплинуло на ваші стосунки.",
+        "en": "In the evening, discuss how it affected your relationship."
+      }
+    ],
+    "widget_type": "notes",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я помітив/ла, що ми менше сперечаємося, коли намагаємося уникати критики.",
+        "en": "I noticed that we argue less when we try to avoid criticism."
+      },
+      {
+        "ua": "Це допомогло мені краще зрозуміти твої позитивні сторони.",
+        "en": "It helped me see your positive sides more clearly."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не замовчуйте проблеми, але намагайтеся уникати звинувачень.",
+        "en": "Don't ignore problems, but try to avoid blaming."
+      },
+      {
+        "ua": "Зосереджуйтеся на підтримці та компліментах.",
+        "en": "Focus on support and compliments."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "no_criticism_day.png"
+  },
+  {
+    "id": "daily_progress_praise",
+    "title": {
+      "ua": "Похвала за прогрес",
+      "en": "Praise for Progress"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Завдання спрямоване на те, щоб помічати навіть найменші позитивні зміни у стосунках та відзначати їх разом.",
+      "en": "A task focused on noticing even the smallest positive changes in your relationship and celebrating them together."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Щодня звертайте увагу на те, що ваш партнер робить для покращення стосунків.",
+        "en": "Every day, notice what your partner does to improve your relationship."
+      },
+      {
+        "number": 2,
+        "ua": "Висловлюйте вдячність та заохочення.",
+        "en": "Express gratitude and encouragement."
+      },
+      {
+        "number": 3,
+        "ua": "Ввечері обговоріть, що саме ви помітили та оцінили.",
+        "en": "In the evening, discuss what you noticed and appreciated."
+      }
+    ],
+    "widget_type": "notes",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я помітив/ла, що ти став/ла більш терплячим/терплячою під час наших розмов.",
+        "en": "I noticed that you have become more patient during our conversations."
+      },
+      {
+        "ua": "Дякую, що ти намагаєшся бути відкритішим/відкритішою.",
+        "en": "Thank you for trying to be more open."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Хваліть щиро, навіть за маленькі зміни.",
+        "en": "Praise sincerely, even for small changes."
+      },
+      {
+        "ua": "Не порівнюйте партнера з минулими помилками.",
+        "en": "Don't compare your partner to past mistakes."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "progress_praise.png"
+  }
+]

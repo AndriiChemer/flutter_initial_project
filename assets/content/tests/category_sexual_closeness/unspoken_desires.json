@@ -1,0 +1,709 @@
+{
+  "id": "unspoken_desires",
+  "title": {
+    "ua": "Невисловлені бажання",
+    "en": "Unspoken Desires"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "Advanced"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам зрозуміти, які бажання ви, можливо, приховуєте або не наважуєтеся обговорити зі своїм партнером. Дослідження цих бажань може призвести до глибшого розуміння ваших потреб та покращення стосунків.",
+    "en": "This test will help you understand which desires you may be hiding or not daring to discuss with your partner. Exploring these desires can lead to a deeper understanding of your needs and improve your relationship."
+  },
+  "type": "score_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи відчуваєте ви сором або страх, коли хочете обговорити свої інтимні бажання з партнером?",
+        "en": "Do you feel shame or fear when you want to discuss your intimate desires with your partner?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Так, завжди",
+            "en": "Yes, always"
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Які бажання ви зазвичай не наважуєтесь озвучити?",
+        "en": "Which desires do you usually not dare to voice?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Нові пози або техніки",
+            "en": "New positions or techniques"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Рольові ігри",
+            "en": "Role-playing games"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Спонтанність у сексі",
+            "en": "Spontaneity in sex"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Емоційна близькість перед інтимністю",
+            "en": "Emotional closeness before intimacy"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи вважаєте ви, що ваші бажання можуть бути незрозумілими або неприйнятними для партнера?",
+        "en": "Do you think your desires may be misunderstood or unacceptable to your partner?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, часто",
+            "en": "Yes, often"
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як часто ви уявляєте реалізацію своїх фантазій, але не наважуєтесь розповісти про них партнеру?",
+        "en": "How often do you imagine fulfilling your fantasies but don’t dare tell your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Щодня",
+            "en": "Every day"
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Кілька разів на тиждень",
+            "en": "Several times a week"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Раз на місяць",
+            "en": "Once a month"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Майже ніколи",
+            "en": "Almost never"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи вважаєте ви, що ваше мовчання щодо бажань впливає на якість ваших стосунків?",
+        "en": "Do you think your silence about your desires affects the quality of your relationship?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, дуже сильно",
+            "en": "Yes, very much"
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Помірно",
+            "en": "Moderately"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Ледь відчутно",
+            "en": "Barely noticeable"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніяк не впливає",
+            "en": "Does not affect at all"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Який спосіб обговорення інтимних бажань вам здається найбільш прийнятним?",
+        "en": "Which way of discussing intimate desires seems most acceptable to you?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Відкрита розмова",
+            "en": "Open conversation"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Писемний формат (записки або чат)",
+            "en": "Written format (notes or chat)"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Через рольові ігри або сценки",
+            "en": "Through role-play or scenes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Невеликі натяки або знаки",
+            "en": "Small hints or signs"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як би ви описали свої бажання?",
+        "en": "How would you describe your desires?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ніжні та чуттєві",
+            "en": "Gentle and sensual"
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Пристрасні та інтенсивні",
+            "en": "Passionate and intense"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Експериментальні та новаторські",
+            "en": "Experimental and innovative"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Відкриті для різних форматів",
+            "en": "Open to different formats"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи відчуваєте ви дискомфорт під час обговорення сексуальних бажань?",
+        "en": "Do you feel discomfort when discussing sexual desires?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Так, часто",
+            "en": "Yes, often"
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Які ваші найбільші страхи щодо озвучування своїх бажань?",
+        "en": "What are your biggest fears about voicing your desires?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Відкидання або осуд",
+            "en": "Rejection or judgment"
+          },
+          "score": 1
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Невідповідність очікуванням партнера",
+            "en": "Not matching your partner's expectations"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Втрата контролю",
+            "en": "Loss of control"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Невпевненість у своїх бажаннях",
+            "en": "Insecurity about your desires"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи вважаєте ви, що обговорення бажань може покращити ваші стосунки?",
+        "en": "Do you think discussing your desires can improve your relationship?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так, абсолютно",
+            "en": "Yes, absolutely"
+          },
+          "score": 5
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Можливо, якщо партнер зрозуміє мене",
+            "en": "Maybe, if my partner understands me"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Я не впевнений/впевнена",
+            "en": "I'm not sure"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Ні, це лише ускладнить ситуацію",
+            "en": "No, it will only make things worse"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Чи відчуваєте ви, що приховуєте частину себе через невисловлені бажання?",
+        "en": "Do you feel that you hide part of yourself because of unspoken desires?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Так, повністю",
+            "en": "Yes, completely"
+          },
+          "score": 1
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Частково",
+            "en": "Partially"
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Ледь відчутно",
+            "en": "Barely noticeable"
+          },
+          "score": 4
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Ні, все висловлюю відкрито",
+            "en": "No, I express everything openly"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": {
+        "ua": "Який спосіб ви б хотіли спробувати для вираження своїх бажань?",
+        "en": "Which way would you like to try to express your desires?"
+      },
+      "options": [
+        {
+          "id": "q12_o1",
+          "text": {
+            "ua": "Написання листа партнеру",
+            "en": "Writing a letter to your partner"
+          },
+          "score": 5
+        },
+        {
+          "id": "q12_o2",
+          "text": {
+            "ua": "Спільне обговорення з використанням гри",
+            "en": "Joint discussion using a game"
+          },
+          "score": 4
+        },
+        {
+          "id": "q12_o3",
+          "text": {
+            "ua": "Використання кодових слів або сигналів",
+            "en": "Using code words or signals"
+          },
+          "score": 3
+        },
+        {
+          "id": "q12_o4",
+          "text": {
+            "ua": "Інші (власний метод)",
+            "en": "Other (your own method)"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": {
+        "ua": "Як часто ви намагаєтесь натякнути на свої бажання, а не обговорити їх прямо?",
+        "en": "How often do you try to hint at your desires instead of discussing them directly?"
+      },
+      "options": [
+        {
+          "id": "q13_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 1
+        },
+        {
+          "id": "q13_o2",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q13_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q13_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "question": {
+        "ua": "Чи відчуваєте ви полегшення після обговорення бажань?",
+        "en": "Do you feel relieved after discussing your desires?"
+      },
+      "options": [
+        {
+          "id": "q14_o1",
+          "text": {
+            "ua": "Так, завжди",
+            "en": "Yes, always"
+          },
+          "score": 5
+        },
+        {
+          "id": "q14_o2",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 4
+        },
+        {
+          "id": "q14_o3",
+          "text": {
+            "ua": "Лише якщо партнер реагує позитивно",
+            "en": "Only if my partner reacts positively"
+          },
+          "score": 2
+        },
+        {
+          "id": "q14_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "question": {
+        "ua": "Які фактори вам заважають висловлювати свої бажання?",
+        "en": "What factors prevent you from expressing your desires?"
+      },
+      "options": [
+        {
+          "id": "q15_o1",
+          "text": {
+            "ua": "Страх відмови або осуду",
+            "en": "Fear of rejection or judgment"
+          },
+          "score": 1
+        },
+        {
+          "id": "q15_o2",
+          "text": {
+            "ua": "Невпевненість у собі",
+            "en": "Lack of self-confidence"
+          },
+          "score": 2
+        },
+        {
+          "id": "q15_o3",
+          "text": {
+            "ua": "Відсутність підходящого моменту",
+            "en": "Lack of the right moment"
+          },
+          "score": 4
+        },
+        {
+          "id": "q15_o4",
+          "text": {
+            "ua": "Відсутність довіри або близькості",
+            "en": "Lack of trust or closeness"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        0,
+        20
+      ],
+      "title": {
+        "ua": "Ви часто приховуєте свої бажання",
+        "en": "You Often Hide Your Desires"
+      },
+      "description": {
+        "ua": "Ви часто приховуєте свої бажання через страх або сором. Можливо, вам потрібна допомога у створенні безпечного простору для вираження своїх почуттів.",
+        "en": "You often hide your desires due to fear or shame. You may need help creating a safe space to express your feelings."
+      }
+    },
+    {
+      "range": [
+        21,
+        40
+      ],
+      "title": {
+        "ua": "Ви поступово відкриваєтесь",
+        "en": "You are Gradually Opening Up"
+      },
+      "description": {
+        "ua": "Ви інколи говорите про свої бажання, але уникаєте більш глибоких або важливих тем. Спробуйте поступово відкритися партнеру через діалог або спільні ігри.",
+        "en": "You sometimes talk about your desires, but avoid deeper or important topics. Try gradually opening up to your partner through dialogue or joint games."
+      }
+    },
+    {
+      "range": [
+        41,
+        60
+      ],
+      "title": {
+        "ua": "Ви вмієте озвучувати свої бажання",
+        "en": "You Can Express Your Desires"
+      },
+      "description": {
+        "ua": "Ви активно намагаєтесь висловлювати свої бажання, але інколи стикаєтесь з труднощами. Важливо розширювати свій словник та використовувати нові методи комунікації.",
+        "en": "You actively try to express your desires, but sometimes face difficulties. It's important to expand your vocabulary and use new communication methods."
+      }
+    },
+    {
+      "range": [
+        61,
+        75
+      ],
+      "title": {
+        "ua": "Ви повністю відкриті",
+        "en": "You are Completely Open"
+      },
+      "description": {
+        "ua": "Ви відверто та без страху говорите про свої бажання. Продовжуйте розвивати цю навичку та створюйте комфортне середовище для подальшого розвитку.",
+        "en": "You openly and fearlessly talk about your desires. Keep developing this skill and create a comfortable environment for further growth."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Практики на розвиток відкритості та впевненості у вираженні своїх бажань.",
+      "en": "Practices for developing openness and confidence in expressing your desires."
+    },
+    "couple": {
+      "ua": "Техніки для створення безпечного простору для обговорення бажань та фантазій.",
+      "en": "Techniques for creating a safe space for discussing desires and fantasies."
+    }
+  },
+  "widget_type": "test"
+}

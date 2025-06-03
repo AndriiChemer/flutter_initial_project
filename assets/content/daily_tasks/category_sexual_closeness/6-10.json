@@ -1,0 +1,137 @@
+[
+  {
+    "id": "dance-evening",
+    "title": {
+      "ua": "Танцювальний вечір",
+      "en": "Dance Evening"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Влаштуйте вечір з повільними або пристрасними танцями, де ви зможете відчути один одного через рухи.",
+      "en": "Have an evening of slow or passionate dancing where you can connect through movement."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Виберіть музику, яка вам обом подобається.",
+        "en": "Choose music you both like."
+      },
+      {
+        "number": 2,
+        "ua": "Вимкніть світло або створіть м’яке освітлення.",
+        "en": "Dim the lights or create soft lighting."
+      },
+      {
+        "number": 3,
+        "ua": "Танцюйте разом, звертаючи увагу на дотики та контакт очима.",
+        "en": "Dance together, focusing on touch and eye contact."
+      }
+    ],
+    "widget_type": "music_player",
+    "duration": "10 min",
+    "status": "active",
+    "image": "dance_evening.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "desire-talks",
+    "title": {
+      "ua": "Розмови про бажання",
+      "en": "Desire Talks"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Запропонуйте партнеру обговорити свої бажання та фантазії без осуду.",
+      "en": "Invite your partner to discuss desires and fantasies without judgment."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Сядьте разом у спокійному місці.",
+        "en": "Sit together in a calm place."
+      },
+      {
+        "number": 2,
+        "ua": "Почніть розмову про свої бажання та фантазії.",
+        "en": "Start talking about your desires and fantasies."
+      },
+      {
+        "number": 3,
+        "ua": "Підтримуйте партнера та не оцінюйте його/її слова.",
+        "en": "Support your partner and don’t judge what they say."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "20 min",
+    "status": "active",
+    "image": "desire_talks.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "blindfold-kiss",
+    "title": {
+      "ua": "Поцілунок наосліп",
+      "en": "Blindfolded Kiss"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Закрийте очі або зав'яжіть собі очі та відчуйте поцілунок без відволікання на візуальні відчуття.",
+      "en": "Close or blindfold your eyes and feel a kiss without visual distraction."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Один партнер зав'язує очі.",
+        "en": "One partner puts on a blindfold."
+      },
+      {
+        "number": 2,
+        "ua": "Другий партнер починає поцілунок, намагаючись створити максимальний комфорт.",
+        "en": "The other partner starts the kiss, aiming for maximum comfort."
+      }
+    ],
+    "widget_type": "blindfold",
+    "duration": "10 min",
+    "status": "active",
+    "image": "blindfold_kiss.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "touch-games",
+    "title": {
+      "ua": "Дотикові ігри",
+      "en": "Touch Games"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Використовуйте різні предмети (шовк, пір'я, масажні олії), щоб створити приємні відчуття на тілі партнера.",
+      "en": "Use different items (silk, feathers, massage oils) to create pleasant sensations on your partner’s body."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Підготуйте різні предмети для дотиків.",
+        "en": "Prepare a variety of items for touch."
+      },
+      {
+        "number": 2,
+        "ua": "Злегка торкайтеся партнера та спостерігайте за його/її реакціями.",
+        "en": "Gently touch your partner and observe their reactions."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, що сподобалось найбільше.",
+        "en": "Discuss what felt best."
+      }
+    ],
+    "widget_type": "touch",
+    "duration": "15 min",
+    "status": "active",
+    "image": "touch_games.png",
+    "free_or_premium": "premium"
+  }
+]

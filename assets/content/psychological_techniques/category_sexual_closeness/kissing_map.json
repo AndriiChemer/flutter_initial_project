@@ -1,0 +1,184 @@
+{
+  "technique": {
+    "id": "kissing_map",
+    "title": {
+      "ua": "Карта поцілунків",
+      "en": "Kissing Map"
+    },
+    "description": {
+      "ua": "Ця техніка спрямована на виявлення улюблених зон для поцілунків та їх дослідження. Вона дозволяє партнерам краще зрозуміти, які дотики приносять найбільше задоволення.",
+      "en": "This technique helps partners discover their favorite spots for kisses and explore them. It allows couples to better understand which touches bring the most pleasure."
+    },
+    "goal": {
+      "ua": "Дослідити улюблені зони для поцілунків і знайти нові джерела задоволення.",
+      "en": "Explore favorite kissing spots and discover new sources of pleasure."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "daily-touch",
+    "widget_type": "interactive_map",
+    "image": "kissing_map_preview.jpg",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Поцілунок у шию – партнер каже 'ммм'.",
+        "en": "Kiss on the neck – partner says 'mmm'."
+      },
+      {
+        "ua": "Легкий поцілунок у зап’ястя – партнер мовчить (сигнал нейтральності).",
+        "en": "Light kiss on the wrist – partner stays silent (neutral signal)."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не поспішайте — дослідження може бути повільним та грайливим.",
+        "en": "Don't rush — exploring can be slow and playful."
+      },
+      {
+        "ua": "Використовуйте різні види поцілунків: легкі, тривалі, злегка вологі.",
+        "en": "Use different types of kisses: gentle, long, slightly wet."
+      }
+    ],
+    "free_or_premium": "free",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_kissing_map",
+      "technique_id": "kissing_map",
+      "step_number": 1,
+      "title": {
+        "ua": "Початок дослідження",
+        "en": "Start Exploring"
+      },
+      "instruction": {
+        "ua": "Один партнер починає поцілунки, обираючи різні частини тіла партнера. Кожного разу, коли поцілунок особливо приємний, партнер може подати сигнал (усмішка, звук 'ммм').",
+        "en": "One partner starts kissing different parts of their partner’s body. Each time a kiss feels especially good, the receiving partner signals (a smile, or a sound like 'mmm')."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Поцілунок у шию – партнер посміхається.",
+          "en": "Kiss on the neck – partner smiles."
+        },
+        {
+          "ua": "Легкий поцілунок у спину – партнер тихо каже 'ммм'.",
+          "en": "Light kiss on the back – partner softly says 'mmm'."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Починайте з легких поцілунків, поступово підсилюючи інтенсивність.",
+          "en": "Start with light kisses and gradually increase intensity."
+        },
+        {
+          "ua": "Слідкуйте за невербальними сигналами партнера: дихання, мурашки, усмішка.",
+          "en": "Watch for your partner’s nonverbal signals: breathing, goosebumps, smiles."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_kissing_map",
+      "technique_id": "kissing_map",
+      "step_number": 2,
+      "title": {
+        "ua": "Позначення зон",
+        "en": "Marking the Zones"
+      },
+      "instruction": {
+        "ua": "Після завершення першого етапу, партнер, який приймав поцілунки, позначає на схемі тіла найбільш чутливі зони.",
+        "en": "After the first stage, the partner who received kisses marks the most sensitive zones on a body map."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Позначити шиї, вуха та внутрішню частину зап’ястя як найбільш чутливі зони.",
+          "en": "Mark the neck, ears, and inner wrists as the most sensitive zones."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не обмежуйтесь лише стандартними ерогенними зонами — шукайте нові.",
+          "en": "Don't limit yourself to standard erogenous zones — explore new ones."
+        },
+        {
+          "ua": "Спробуйте використовувати різні види поцілунків: легкі, ніжні, тривалі.",
+          "en": "Try using different types of kisses: gentle, soft, long-lasting."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_kissing_map",
+      "technique_id": "kissing_map",
+      "step_number": 3,
+      "title": {
+        "ua": "Зміна ролей",
+        "en": "Switching Roles"
+      },
+      "instruction": {
+        "ua": "Поміняйтеся ролями: тепер інший партнер стає дослідником, а перший — об’єктом для поцілунків.",
+        "en": "Switch roles: now the other partner becomes the explorer, and the first becomes the one being kissed."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 2 досліджує область ключиць та плечей.",
+          "en": "Partner 2 explores the area of the collarbones and shoulders."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на нових зонах, які ще не досліджували.",
+          "en": "Focus on new areas you haven’t explored yet."
+        },
+        {
+          "ua": "Запитайте партнера: «Чи є зона, яку ти хотів/ла б дослідити?»",
+          "en": "Ask your partner: 'Is there a spot you’d like to explore?'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_kissing_map",
+      "technique_id": "kissing_map",
+      "step_number": 4,
+      "title": {
+        "ua": "Обговорення та рефлексія",
+        "en": "Discussion & Reflection"
+      },
+      "instruction": {
+        "ua": "Поділіться своїми відчуттями. Які зони були найбільш чутливими? Які поцілунки здивували? Що хочеться повторити?",
+        "en": "Share your impressions. Which zones were the most sensitive? Which kisses surprised you? What do you want to repeat?"
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я не очікував/ла, що поцілунки у шию будуть такими приємними.»",
+          "en": "Partner 1: 'I didn’t expect kisses on my neck to feel so good.'"
+        },
+        {
+          "ua": "Партнер 2: «А мені сподобалось, як ти ніжно торкався моєї ключиці.»",
+          "en": "Partner 2: 'I loved how gently you touched my collarbone.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не критикуйте реакції партнера — кожен досвід унікальний.",
+          "en": "Don't criticize your partner’s reactions — every experience is unique."
+        },
+        {
+          "ua": "Запропонуйте записати улюблені зони, щоб до них повертатися.",
+          "en": "Suggest writing down your favorite spots to revisit them in the future."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

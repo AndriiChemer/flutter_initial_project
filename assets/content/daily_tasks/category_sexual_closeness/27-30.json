@@ -1,0 +1,206 @@
+[
+  {
+    "id": "provocative-communication",
+    "title": {
+      "ua": "Провокаційне спілкування",
+      "en": "Provocative Communication"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Гра на межі провокації. Партнери надсилають один одному пікантні повідомлення протягом дня. Це допомагає створити інтригу та посилити емоційний зв’язок.",
+      "en": "A playful game of provocation: partners send each other spicy messages during the day, building intrigue and deepening emotional connection."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня надсилайте партнеру повідомлення з натяками або запитаннями на пікантні теми.",
+        "en": "Throughout the day, send your partner hints or questions about spicy topics."
+      },
+      {
+        "number": 2,
+        "ua": "Відповідайте один одному, додаючи елементи флірту або фантазій.",
+        "en": "Reply with flirtatious or fantasy elements."
+      },
+      {
+        "number": 3,
+        "ua": "Увечері обговоріть, як ця гра вплинула на ваші емоції та бажання.",
+        "en": "In the evening, discuss how this game affected your emotions and desire."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "all day",
+    "status": "active",
+    "image": "provocative_communication.png",
+    "examples": [
+      {
+        "ua": "«Що ти б хотів(ла) від мене сьогодні після роботи?»",
+        "en": "\"What would you like from me tonight after work?\""
+      },
+      {
+        "ua": "«Я уявляю, як ти…»",
+        "en": "\"I’m imagining you…\""
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не переходьте межі, якщо партнер не готовий до гри.",
+        "en": "Don’t cross boundaries if your partner isn’t ready for the game."
+      },
+      {
+        "ua": "Додавайте гумор, щоб зняти напругу.",
+        "en": "Add humor to keep things light if needed."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "dance-of-seduction",
+    "title": {
+      "ua": "Танець спокуси",
+      "en": "Dance of Seduction"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Це завдання спрямоване на створення чуттєвої атмосфери через рух. Танці допомагають розслабитися, відчути своє тіло та краще зрозуміти бажання партнера.",
+      "en": "This exercise creates a sensual atmosphere through movement. Dancing together helps you relax, feel your body, and better understand your partner’s desires."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Увімкніть улюблену музику та станцюйте разом.",
+        "en": "Turn on your favorite music and dance together."
+      },
+      {
+        "number": 2,
+        "ua": "Нехай один з партнерів веде танець, створюючи чуттєві рухи.",
+        "en": "Let one partner lead, creating sensual moves."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як рухи вплинули на ваші почуття та настрій.",
+        "en": "Discuss how the movements influenced your feelings and mood."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "15-20 min",
+    "status": "active",
+    "image": "dance_of_seduction.png",
+    "examples": [
+      {
+        "ua": "Ми танцювали при свічках, і це було дуже чуттєво.",
+        "en": "We danced by candlelight, and it felt very sensual."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не обов’язково вміти танцювати — головне, щоб вам було комфортно разом.",
+        "en": "You don’t need to be a dancer—the main thing is to feel comfortable together."
+      },
+      {
+        "ua": "Можна почати з повільних танців або просто обіймів під музику.",
+        "en": "You can start with slow dancing or simply hugging to music."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "daily-kiss",
+    "title": {
+      "ua": "Поцілунок на день",
+      "en": "Daily Kiss"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Щоденний поцілунок — простий, але ефективний спосіб підтримувати близькість. Це може бути ніжний поцілунок на прощання або пристрасний поцілунок ввечері.",
+      "en": "A daily kiss is a simple yet effective way to maintain intimacy. It can be a gentle goodbye kiss or a passionate evening kiss."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Встановіть правило: щодня дарувати один поцілунок без жодних відволікань.",
+        "en": "Set a rule: every day, give one kiss without any distractions."
+      },
+      {
+        "number": 2,
+        "ua": "Нехай цей поцілунок буде різним: ніжним, пристрасним, раптовим або довгим.",
+        "en": "Make each kiss different: gentle, passionate, sudden, or long."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як це впливає на ваші почуття та бажання.",
+        "en": "Discuss how this affects your feelings and desire."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "1 min",
+    "status": "active",
+    "image": "daily_kiss.png",
+    "examples": [
+      {
+        "ua": "Сьогодні наш поцілунок був особливо пристрасним.",
+        "en": "Today our kiss was especially passionate."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Намагайтесь кожного разу робити цей поцілунок у новій атмосфері.",
+        "en": "Try to make each kiss unique or in a new atmosphere."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "secret-words",
+    "title": {
+      "ua": "Секретні слова",
+      "en": "Secret Words"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Слова можуть мати неймовірний вплив на настрій та бажання. Ця техніка передбачає використання спеціальних слів чи фраз, які збуджують або підсилюють інтимність.",
+      "en": "Words can have a powerful effect on mood and desire. This practice uses special words or phrases that arouse or increase intimacy."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Виберіть або створіть спеціальні слова чи фрази, які викликають інтимні відчуття.",
+        "en": "Choose or create special words or phrases that evoke intimate feelings."
+      },
+      {
+        "number": 2,
+        "ua": "Використовуйте ці слова протягом дня у повідомленнях або особистих розмовах.",
+        "en": "Use these words throughout the day in messages or personal conversations."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, які слова або фрази вам найбільше сподобалися.",
+        "en": "Discuss which words or phrases you liked the most."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "all day",
+    "status": "active",
+    "image": "secret_words.png",
+    "examples": [
+      {
+        "ua": "Наше «кодове слово» на сьогодні: «вогонь» — коли чую, відчуваю збудження.",
+        "en": "Our ‘code word’ today is ‘fire’—when I hear it, I feel turned on."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Домовтесь заздалегідь, що слова не мають викликати дискомфорт.",
+        "en": "Agree in advance that the words shouldn’t make anyone uncomfortable."
+      },
+      {
+        "ua": "Слова можуть бути жартівливими або дуже інтимними — експериментуйте.",
+        "en": "Words can be playful or very intimate—experiment to see what works for you."
+      }
+    ],
+    "free_or_premium": "premium"
+  }
+]

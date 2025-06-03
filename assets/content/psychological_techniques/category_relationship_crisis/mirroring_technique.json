@@ -1,0 +1,175 @@
+{
+  "technique": {
+    "id": "mirroring_technique",
+    "title": {
+      "ua": "Дзеркальне відображення",
+      "en": "Mirroring"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає уникнути непорозумінь шляхом повторення слів партнера перед тим, як відповісти. Це дозволяє переконатися, що ви правильно зрозуміли його думки та проявляєте повагу до його позиції.",
+      "en": "This technique helps avoid misunderstandings by repeating your partner's words before responding. It allows you to make sure you understood them correctly and shows respect for their position."
+    },
+    "goal": {
+      "ua": "Навчитись чути і бути почутим у складних розмовах, розвинути довіру і повагу у спілкуванні.",
+      "en": "Learn to truly hear and be heard in challenging conversations, building trust and respect in communication."
+    },
+    "category_id": "communication",
+    "subcategory_slug": "active-listening",
+    "widget_type": "conversation",
+    "duration": "10 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Мені важливо, щоб ти звертав увагу на мої почуття, а не просто відповідав коротко.»",
+        "en": "Partner 1: 'It's important for me that you pay attention to my feelings, not just give short answers.'"
+      },
+      {
+        "ua": "Партнер 2: «Якщо я правильно зрозумів(ла), ти хочеш, щоб я більше вислуховував тебе, а не лише відповідав формально?»",
+        "en": "Partner 2: 'If I understood correctly, you want me to listen to you more, not just respond formally?'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не використовуйте цю техніку як спосіб з'ясування правоти, а лише для уточнення сенсу сказаного.",
+        "en": "Do not use this technique as a way to prove who's right — use it only to clarify the meaning of what was said."
+      },
+      {
+        "ua": "Якщо партнер каже, що ви неправильно його зрозуміли — попросіть повторити, не сперечаючись.",
+        "en": "If your partner says you misunderstood — ask them to repeat, without arguing."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_mirroring_technique",
+      "technique_id": "mirroring_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Активне слухання",
+        "en": "Active Listening"
+      },
+      "instruction": {
+        "ua": "Сфокусуйтеся на словах партнера. Не перебивайте, не формулюйте відповідь у голові. Лише слухайте.",
+        "en": "Focus on your partner's words. Do not interrupt, do not formulate a reply in your mind. Just listen."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені здається, що ти не чуєш мене, коли я говорю про свої переживання.»",
+          "en": "Partner 1: 'I feel like you don't hear me when I talk about my feelings.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сконцентруйтесь на словах, а не на власних думках.",
+          "en": "Focus on your partner’s words, not your own thoughts."
+        },
+        {
+          "ua": "Звертайте увагу на інтонацію та емоції.",
+          "en": "Pay attention to tone and emotion."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_mirroring_technique",
+      "technique_id": "mirroring_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Фраза відображення",
+        "en": "Mirroring Phrase"
+      },
+      "instruction": {
+        "ua": "Повторіть те, що ви почули, використовуючи слова: «Якщо я правильно зрозумів(ла), ти маєш на увазі...».",
+        "en": "Repeat what you heard using the words: 'If I understood correctly, you mean...'"
+      },
+      "duration": "1 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Якщо я правильно зрозумів(ла), тобі здається, що я не звертаю увагу на твої переживання?»",
+          "en": "Partner 2: 'If I understood you correctly, you feel that I do not pay attention to your feelings?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не перефразовуйте зі своїми припущеннями.",
+          "en": "Do not rephrase with your own assumptions."
+        },
+        {
+          "ua": "Залишайте простір для уточнень.",
+          "en": "Leave room for clarification."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_mirroring_technique",
+      "technique_id": "mirroring_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Перевірка правильності",
+        "en": "Checking Understanding"
+      },
+      "instruction": {
+        "ua": "Запитайте: «Я правильно зрозумів(ла)?» або «Чи це те, що ти хотів(ла) сказати?»",
+        "en": "Ask: 'Did I understand you correctly?' or 'Is this what you meant?'"
+      },
+      "duration": "1 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Чи це те, що ти намагався/лася донести?»",
+          "en": "Partner 2: 'Is this what you were trying to say?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Залишайте простір для уточнень, якщо щось було сказано не так.",
+          "en": "Leave room for clarification if something was said incorrectly."
+        },
+        {
+          "ua": "Не намагайтесь виправдати себе — це етап слухання.",
+          "en": "Do not try to justify yourself — this is a listening stage."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_mirroring_technique",
+      "technique_id": "mirroring_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Уточнення та відповідь",
+        "en": "Clarification and Response"
+      },
+      "instruction": {
+        "ua": "Після підтвердження ви можете висловити свою відповідь або пропозицію, враховуючи те, що почули.",
+        "en": "After confirmation, you can express your answer or suggestion, considering what you have heard."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Я розумію, що тобі хочеться більше уваги до твоїх переживань. Давай домовимось, як я можу краще підтримати тебе.»",
+          "en": "Partner 2: 'I understand that you want more attention to your feelings. Let's agree on how I can better support you.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на пропозиціях вирішення, а не на виправданнях.",
+          "en": "Focus on solution proposals, not justifications."
+        },
+        {
+          "ua": "Використовуйте 'Я-повідомлення' для відповіді.",
+          "en": "Use 'I-statements' when replying."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

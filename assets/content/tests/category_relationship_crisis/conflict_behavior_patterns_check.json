@@ -1,0 +1,422 @@
+{
+  "id": "conflict_behavior_patterns_check",
+  "title": {
+    "ua": "Перевірка наявності конфліктних шаблонів поведінки",
+    "en": "Checking for Conflict Behavior Patterns"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе виявити шаблони поведінки, які можуть призводити до конфліктів або посилювати їх у стосунках. Він також допоможе зрозуміти, наскільки ефективно ви вирішуєте конфлікти.",
+    "en": "This test will help you identify behavior patterns that can lead to or intensify conflicts in your relationship. It will also show how effectively you resolve conflicts."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте, коли виникає конфлікт?",
+        "en": "How do you usually react when a conflict arises?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Обговорюю проблему одразу, намагаючись знайти рішення.",
+            "en": "I discuss the problem immediately, trying to find a solution."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Спочатку уникаю конфлікту, а потім повертаюся до нього.",
+            "en": "I initially avoid the conflict, but return to it later."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто підвищую голос або стаю емоційно агресивним/ою.",
+            "en": "I often raise my voice or become emotionally aggressive."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Уникаю конфлікту та намагаюся проігнорувати проблему.",
+            "en": "I avoid the conflict and try to ignore the problem."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви дієте, коли відчуваєте, що вас не розуміють?",
+        "en": "How do you act when you feel misunderstood?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Намагайтеся пояснити свої думки з різних сторін.",
+            "en": "I try to explain my thoughts from different angles."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Відходжу на деякий час, щоб заспокоїтися.",
+            "en": "I take a break to calm down."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Стаю роздратованим/ою і висловлюю своє невдоволення різко.",
+            "en": "I get irritated and express my dissatisfaction sharply."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Відмовляюся продовжувати розмову.",
+            "en": "I refuse to continue the conversation."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як ви поводитесь після конфлікту?",
+        "en": "How do you behave after a conflict?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Прагну обговорити ситуацію та знайти шляхи вирішення.",
+            "en": "I seek to discuss the situation and find solutions."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Зачекаю, поки емоції заспокояться, перш ніж обговорювати проблему.",
+            "en": "I wait until emotions calm down before discussing the problem."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Чекаю, поки партнер перший підійде до мене.",
+            "en": "I wait for my partner to make the first move."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Уникаю розмови про конфлікт.",
+            "en": "I avoid talking about the conflict."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Що ви робите, якщо конфлікт затягується?",
+        "en": "What do you do if the conflict drags on?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Пропоную знайти компроміс.",
+            "en": "I suggest finding a compromise."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Спробую уникнути конфлікту, зосереджуючись на інших речах.",
+            "en": "I try to avoid the conflict by focusing on other things."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Стаю ще більш агресивним/ою або захисним/ою.",
+            "en": "I become even more aggressive or defensive."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Повністю ігнорую ситуацію.",
+            "en": "I completely ignore the situation."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ви реагуєте на критику від партнера?",
+        "en": "How do you react to criticism from your partner?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Вислуховую та намагаюся зрозуміти.",
+            "en": "I listen and try to understand."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Захищаюся, але намагаюся розібратися.",
+            "en": "I defend myself but try to figure it out."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Стаю агресивним/ою або роздратованим/ою.",
+            "en": "I become aggressive or irritated."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Уникаю розмови або відходжу.",
+            "en": "I avoid the conversation or walk away."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви поводитесь, коли партнер не хоче обговорювати проблему?",
+        "en": "How do you behave when your partner doesn't want to discuss a problem?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Пропоную повернутися до обговорення пізніше.",
+            "en": "I suggest returning to the discussion later."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Чекаю, коли партнер буде готовий до розмови.",
+            "en": "I wait until my partner is ready to talk."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Вимагаю негайного обговорення.",
+            "en": "I demand immediate discussion."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Вирішую ігнорувати проблему.",
+            "en": "I decide to ignore the problem."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Що ви робите, якщо партнер відмовляється визнавати свою помилку?",
+        "en": "What do you do if your partner refuses to admit their mistake?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Пропоную обговорити ситуацію та знайти компроміс.",
+            "en": "I suggest discussing the situation and finding a compromise."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Роблю крок назад, щоб зменшити напруження.",
+            "en": "I take a step back to ease the tension."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Висловлюю своє незадоволення прямо та емоційно.",
+            "en": "I express my dissatisfaction directly and emotionally."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Уникаю конфлікту, вважаючи, що нічого не зміниться.",
+            "en": "I avoid the conflict, thinking nothing will change."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як ви реагуєте, якщо конфлікт триває кілька днів?",
+        "en": "How do you react if a conflict lasts for several days?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Ініціюю розмову, щоб розібратися в ситуації.",
+            "en": "I initiate a conversation to resolve the situation."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Чекаю, поки партнер зробить перший крок.",
+            "en": "I wait for my partner to make the first move."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Накопичую роздратування та висловлюю це різко.",
+            "en": "I accumulate irritation and express it sharply."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Продовжую уникати ситуації.",
+            "en": "I continue to avoid the situation."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        8,
+        15
+      ],
+      "title": {
+        "ua": "Вміння вирішувати конфлікти",
+        "en": "Ability to resolve conflicts"
+      },
+      "description": {
+        "ua": "Ви вмієте ефективно справлятися з конфліктами та знаходити компроміси. Ваші стосунки мають потенціал для подальшого розвитку.",
+        "en": "You handle conflicts effectively and find compromises. Your relationship has potential for further growth."
+      }
+    },
+    {
+      "range": [
+        16,
+        25
+      ],
+      "title": {
+        "ua": "Труднощі з вирішенням конфліктів",
+        "en": "Difficulties with conflict resolution"
+      },
+      "description": {
+        "ua": "У вас виникають труднощі з вирішенням конфліктів, але ви готові працювати над цим. Рекомендується застосовувати техніки комунікації та розуміння емоцій.",
+        "en": "You face difficulties resolving conflicts, but are ready to work on it. Communication and emotional understanding techniques are recommended."
+      }
+    },
+    {
+      "range": [
+        26,
+        32
+      ],
+      "title": {
+        "ua": "Проблеми з управлінням конфліктами",
+        "en": "Problems with conflict management"
+      },
+      "description": {
+        "ua": "Ваші стосунки можуть страждати через неефективне управління конфліктами. Потрібно звернути увагу на свої шаблони поведінки та розвивати навички комунікації.",
+        "en": "Your relationship may suffer from ineffective conflict management. Pay attention to your behavior patterns and develop communication skills."
+      }
+    },
+    {
+      "range": [
+        33,
+        40
+      ],
+      "title": {
+        "ua": "Деструктивні шаблони",
+        "en": "Destructive patterns"
+      },
+      "description": {
+        "ua": "Ваші конфліктні шаблони є деструктивними. Рекомендується звернутися до спеціаліста або активно працювати над покращенням комунікації.",
+        "en": "Your conflict patterns are destructive. It is recommended to see a specialist or actively work on improving communication."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Вивчення методів управління гнівом, техніки примирення.",
+      "en": "Learn anger management methods, reconciliation techniques."
+    },
+    "couple": {
+      "ua": "Застосування практик на спільне вирішення конфліктів, техніки примирення.",
+      "en": "Use practices for joint conflict resolution and reconciliation techniques."
+    }
+  },
+  "widget_type": "quiz"
+}

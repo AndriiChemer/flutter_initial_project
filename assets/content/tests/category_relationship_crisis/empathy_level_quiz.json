@@ -1,0 +1,486 @@
+{
+  "id": "empathy_level_quiz",
+  "title": {
+    "ua": "Ваша здатність до співпереживання",
+    "en": "Your Empathy Level"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Intermediate"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам глибше зрозуміти, наскільки ви чутливі до емоцій партнера, і як ваша здатність до емпатії впливає на стосунки.",
+    "en": "This test helps you discover how sensitive you are to your partner’s emotions and how your empathy influences your relationship."
+  },
+  "type": "quiz",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Коли партнер засмучений або напружений, як ви реагуєте?",
+        "en": "When your partner is upset or tense, how do you respond?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Підходжу, обіймаю, питаю що сталося. Хочу бути поруч.",
+            "en": "I approach, hug, ask what happened. I want to be there."
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто намагаюся втішити словами або підтримати.",
+            "en": "I often try to comfort with words or support."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Іноді не знаю, як реагувати, але намагаюся бути поруч.",
+            "en": "Sometimes I don't know how to respond but try to stay close."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Відчуваю себе ніяково й уникаю контакту.",
+            "en": "I feel awkward and avoid contact."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Злюся або закриваюся, не хочу втягуватися в чужі емоції.",
+            "en": "I get angry or shut down, not wanting to get involved."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви сприймаєте емоційні розмови у парі?",
+        "en": "How do you perceive emotional conversations in your couple?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Це можливість стати ближчими — я завжди відкритий(а).",
+            "en": "It's a chance to get closer — I’m always open."
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Іноді це складно, але я стараюсь слухати й говорити чесно.",
+            "en": "Sometimes it’s hard but I try to listen and be honest."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Мені не завжди комфортно, але терплю.",
+            "en": "I’m not always comfortable, but I tolerate it."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Уникаю таких розмов або переводжу тему.",
+            "en": "I avoid such talks or change the subject."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Мене це дратує або я замикаюся.",
+            "en": "It annoys me or I close off."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Коли ваш партнер ділиться своїм болем або тривогами, що ви відчуваєте?",
+        "en": "When your partner shares pain or worries, what do you feel?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Я переживаю разом із ним/нею і стараюся допомогти.",
+            "en": "I feel with them and try to help."
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Мені важко слухати, але я хочу бути підтримкою.",
+            "en": "It’s hard to listen but I want to support."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Мені складно з такими емоціями, але я стараюсь залишатись поруч.",
+            "en": "Such emotions are hard for me but I try to stay present."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Часто думаю, що це перебільшення.",
+            "en": "I often think it’s exaggerated."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o5",
+          "text": {
+            "ua": "Злитуюсь або відчуваю відразу.",
+            "en": "I get irritated or feel aversion."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи помічаєте ви настрій партнера, навіть коли він/вона нічого не говорить?",
+        "en": "Do you notice your partner’s mood even when they don’t say anything?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, завжди помічаю зміни в очах, інтонації, поведінці.",
+            "en": "Yes, I always notice changes in eyes, tone, or behavior."
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто можу вгадати, коли щось не так.",
+            "en": "I can often guess when something is wrong."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Іноді помічаю, але не завжди розумію причину.",
+            "en": "Sometimes I notice but don’t always get the reason."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Не завжди звертаю увагу на такі деталі.",
+            "en": "I don’t always pay attention to such details."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o5",
+          "text": {
+            "ua": "Мені складно щось помічати, якщо прямо не скажуть.",
+            "en": "It’s hard for me to notice unless told directly."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як часто ви дозволяєте партнеру виговоритись без осуду?",
+        "en": "How often do you let your partner speak out without judgment?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Завжди слухаю до кінця, навіть якщо мені важко.",
+            "en": "Always listen to the end, even if it’s hard."
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Часто стараюсь не перебивати і дати простір.",
+            "en": "I often try not to interrupt and give space."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді перебиваю або відволікаюсь.",
+            "en": "Sometimes I interrupt or get distracted."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Мені важко слухати, коли це нецікаво або затягнуто.",
+            "en": "It’s hard to listen if it’s boring or long."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Мене дратують емоційні розмови — я уникаю їх.",
+            "en": "Emotional talks irritate me — I avoid them."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи вмієте ви зберігати спокій, коли партнер на емоціях?",
+        "en": "Can you stay calm when your partner is emotional?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, навіть у сльозах або злості я стараюсь залишатися як опора.",
+            "en": "Yes, even if there are tears or anger, I try to be a pillar."
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Буває складно, але зазвичай я справляюсь.",
+            "en": "It’s hard sometimes, but I usually manage."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часом емоції партнера передаються мені.",
+            "en": "Sometimes my partner’s emotions affect me."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Мене це вибиває з рівноваги.",
+            "en": "It throws me off balance."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o5",
+          "text": {
+            "ua": "Я сам/сама починаю реагувати агресивно або замикатись.",
+            "en": "I react aggressively or withdraw myself."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як ви ставитесь до емоційної вразливості партнера?",
+        "en": "How do you relate to your partner’s emotional vulnerability?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Я ціную цю відкритість і хочу, щоб партнер почувався в безпеці.",
+            "en": "I value this openness and want my partner to feel safe."
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Мені це важливо, хоча не завжди знаю, що сказати.",
+            "en": "It’s important to me, though I don’t always know what to say."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Іноді це викликає у мене ніяковість.",
+            "en": "Sometimes it makes me uncomfortable."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Мені здається, що потрібно бути сильним — не показувати емоції.",
+            "en": "I feel one should be strong and not show emotions."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Вважаю, що це слабкість і краще уникати.",
+            "en": "I think it’s weakness and best avoided."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Коли партнер підтримує вас емоційно, як ви реагуєте?",
+        "en": "How do you react when your partner supports you emotionally?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Я завжди дякую і відчуваю вдячність.",
+            "en": "I always thank them and feel grateful."
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Це приємно, і я стараюся відповісти тим самим.",
+            "en": "It’s nice, and I try to reciprocate."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Іноді сприймаю це як належне.",
+            "en": "Sometimes I take it for granted."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Мені важко виразити вдячність.",
+            "en": "I find it hard to express gratitude."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o5",
+          "text": {
+            "ua": "Я часто ігнорую підтримку.",
+            "en": "I often ignore the support."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Дуже високий рівень співпереживання",
+        "en": "Very high empathy level"
+      },
+      "description": {
+        "ua": "Ви уважні до партнера, відкриті до емоцій і вмієте створити простір безпеки.",
+        "en": "You are attentive to your partner, open to emotions, and can create a safe space."
+      }
+    },
+    {
+      "range": [
+        25,
+        34
+      ],
+      "title": {
+        "ua": "Гарні задатки до глибокої взаємодії",
+        "en": "Good potential for deep interaction"
+      },
+      "description": {
+        "ua": "У вас гарні задатки для емоційної взаємодії. Є моменти, які можна покращити.",
+        "en": "You have good potential for emotional interaction. There are some areas to improve."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Середній рівень емпатії",
+        "en": "Moderate empathy level"
+      },
+      "description": {
+        "ua": "Ви на шляху до емоційної чутливості, але часто не вистачає відкритості. Спробуйте бути уважнішими до емоцій.",
+        "en": "You are on your way to emotional sensitivity but often lack openness. Try to be more attentive to emotions."
+      }
+    },
+    {
+      "range": [
+        8,
+        14
+      ],
+      "title": {
+        "ua": "Низький рівень емпатії",
+        "en": "Low empathy level"
+      },
+      "description": {
+        "ua": "Ваша емпатія наразі на низькому рівні. Партнер може почуватися непочутим. Це гарний момент для змін.",
+        "en": "Your empathy is currently low. Your partner might feel unheard. This is a good moment to make a change."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Почніть з простого — слухайте до кінця, не перебиваючи. Намагайтесь запитувати: «Як я можу тебе підтримати?»",
+      "en": "Start simple — listen fully without interrupting. Try asking, 'How can I support you?'"
+    },
+    "couple": {
+      "ua": "Створіть щотижневу традицію розмови про емоції, події тижня та моменти вдячності.",
+      "en": "Create a weekly tradition of talking about emotions, weekly events, and gratitude moments."
+    }
+  },
+  "widget_type": "quiz"
+}

@@ -1,0 +1,422 @@
+{
+  "id": "relationships_level_openness",
+  "title": {
+    "ua": "Ваш рівень відкритості у стосунках",
+    "en": "Your Level of Openness in Relationships"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити ваш рівень відкритості до нових ідей, експериментів та чесного спілкування у сексуальних стосунках. Результати допоможуть зрозуміти ваші сильні сторони та потенційні зони для розвитку.",
+    "en": "This test will help determine your level of openness to new ideas, experiments, and honest communication in your sexual relationship. The results will help you see your strengths and potential growth areas."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви реагуєте на пропозиції партнера спробувати щось нове?",
+        "en": "How do you react to your partner's suggestions to try something new?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Завжди відкрито і з ентузіазмом",
+            "en": "Always open and enthusiastic"
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Залежить від ситуації",
+            "en": "Depends on the situation"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Вимагає обговорення перед спробою",
+            "en": "Needs discussion before trying"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Негативно, я зазвичай проти змін",
+            "en": "Negatively, I’m usually against changes"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи готові ви обговорювати з партнером свої сексуальні фантазії?",
+        "en": "Are you ready to discuss your sexual fantasies with your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Завжди відкрито",
+            "en": "Always openly"
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Лише коли почуваюсь комфортно",
+            "en": "Only when I feel comfortable"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Рідко, мені це незручно",
+            "en": "Rarely, I feel uncomfortable"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як часто ви проявляєте ініціативу у ліжку?",
+        "en": "How often do you take the initiative in bed?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Час від часу",
+            "en": "From time to time"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Практично ніколи",
+            "en": "Almost never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи використовуєте ви нові практики або техніки у своїх стосунках?",
+        "en": "Do you use new practices or techniques in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Регулярно",
+            "en": "Regularly"
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Дуже рідко",
+            "en": "Very rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи готові ви обговорювати свої емоційні потреби у ліжку?",
+        "en": "Are you ready to discuss your emotional needs in bed?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, завжди",
+            "en": "Yes, always"
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Залежить від настрою",
+            "en": "Depends on my mood"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Мені важко про це говорити",
+            "en": "It’s difficult for me to talk about"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніколи не обговорюю",
+            "en": "I never discuss this"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви реагуєте на відверті запитання від партнера?",
+        "en": "How do you react to direct questions from your partner?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "З радістю обговорюю",
+            "en": "I gladly discuss"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Обговорюю, якщо почуваюсь комфортно",
+            "en": "I discuss if I feel comfortable"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Відчуваю незручність",
+            "en": "I feel uncomfortable"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Уникаю розмов",
+            "en": "I avoid such talks"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як ви ставитеся до рольових ігор або інших нетрадиційних практик?",
+        "en": "How do you feel about role play or other non-traditional practices?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "З інтересом та ентузіазмом",
+            "en": "With interest and enthusiasm"
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Мені потрібен час для адаптації",
+            "en": "I need time to adapt"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Відчуваю себе незручно",
+            "en": "I feel uncomfortable"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Категорично проти",
+            "en": "Absolutely against"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи вважаєте ви, що відкритість у спілкуванні може покращити ваші стосунки?",
+        "en": "Do you think openness in communication can improve your relationship?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Так, безумовно",
+            "en": "Yes, absolutely"
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Так, але не завжди",
+            "en": "Yes, but not always"
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Не впевнений/а",
+            "en": "Not sure"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ні",
+            "en": "No"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Абсолютно відкритий/а",
+        "en": "Absolutely open"
+      },
+      "description": {
+        "ua": "Ви чудово вмієте обговорювати свої бажання, потреби та фантазії. Ваш рівень відкритості допомагає вам краще розуміти партнера та знаходити спільні інтереси. Вам легко адаптуватися до нових практик та досліджувати нові аспекти інтимності.",
+        "en": "You are excellent at discussing your desires, needs, and fantasies. Your openness helps you better understand your partner and find common interests. You easily adapt to new practices and explore new aspects of intimacy."
+      }
+    },
+    {
+      "range": [
+        27,
+        34
+      ],
+      "title": {
+        "ua": "Відкритий/а, але обережний/а",
+        "en": "Open but careful"
+      },
+      "description": {
+        "ua": "Ви зазвичай відкриті до нових ідей та обговорень, але іноді потребуєте часу для адаптації. Це не є проблемою, оскільки ви готові вивчати та експериментувати у своєму темпі.",
+        "en": "You are usually open to new ideas and discussions, but sometimes need time to adapt. This is not a problem, as you are willing to learn and experiment at your own pace."
+      }
+    },
+    {
+      "range": [
+        19,
+        26
+      ],
+      "title": {
+        "ua": "Стабільний/а, з потенціалом для розвитку",
+        "en": "Stable, with potential for growth"
+      },
+      "description": {
+        "ua": "Ви не завжди почуваєтеся комфортно при обговоренні інтимних тем або нових практик. Проте, ви готові працювати над цим та відкривати нові можливості для покращення стосунків.",
+        "en": "You are not always comfortable discussing intimate topics or new practices. However, you are willing to work on this and explore new possibilities for relationship improvement."
+      }
+    },
+    {
+      "range": [
+        8,
+        18
+      ],
+      "title": {
+        "ua": "Закритий/а",
+        "en": "Closed"
+      },
+      "description": {
+        "ua": "Вам важко відкрито обговорювати свої бажання або експериментувати. Це може бути пов’язано з минулими досвідами або страхом бути неправильно зрозумілим/ою. Важливо поступово працювати над відкритістю, щоб покращити взаємодію з партнером.",
+        "en": "It's hard for you to openly discuss your desires or experiment. This may be related to past experiences or fear of being misunderstood. It's important to work on openness step by step to improve interaction with your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Розвивайте навички чесного діалогу з собою і партнером. Практикуйте відкриті розмови в безпечній атмосфері.",
+      "en": "Develop skills of honest dialogue with yourself and your partner. Practice open talks in a safe environment."
+    },
+    "couple": {
+      "ua": "Створіть ритуал щотижневої відвертої розмови про бажання та нові ідеї. Зберігайте атмосферу довіри й підтримки.",
+      "en": "Create a ritual of weekly open conversation about desires and new ideas. Keep an atmosphere of trust and support."
+    }
+  },
+  "widget_type": "test"
+}

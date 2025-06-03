@@ -1,42 +1,54 @@
 {
-  "challenge": {
-    "id": "challenge_002",
-    "title": {
-      "ua": "Фантазії без меж",
-      "en": "Boundless Fantasies"
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
     },
-    "description": {
-      "ua": "Цей челендж допоможе вам разом дослідити свої приховані бажання...",
-      "en": "This challenge helps you explore your hidden desires together, activate sexual imagination, and build a safe space for openness, play, and trust. Each day brings you closer to understanding each other and your intimate potential."
-    },
-    "days": 5,
-    "goal": {
-      "ua": "Створити простір для фантазій, новизни й глибшого контакту.",
-      "en": "Create space for fantasy, novelty, and deeper connection."
-    },
-    "category_id": "sexual_closeness",
-    "subcategory_slug": "novelty",
-    "tags": [
-      "fantasy",
-      "imagination",
-      "roleplay",
-      "intimate_communication",
-      "exploration"
-    ],
-    "image": "challenge_boundless_fantasies.svg",
-    "recommended_for": {
-      "ua": "пари, які хочуть ділитися фантазіями й урізноманітнити близькість",
-      "en": "couples who want to share fantasies and diversify intimacy"
-    },
-    "free_or_premium": "premium",
-    "status": "active",
-    "created_at": "2025-05-22T15:18:30.979392Z",
-    "updated_at": "2025-05-22T15:18:30.979392Z"
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
   },
+  "challenges": [
+    {
+      "id": "challenge_boundless_fantasies",
+      "title": {
+        "ua": "Фантазії без меж",
+        "en": "Boundless Fantasies"
+      },
+      "description": {
+        "ua": "Цей челендж допоможе вам разом дослідити свої приховані бажання...",
+        "en": "This challenge helps you explore your hidden desires together, activate sexual imagination, and build a safe space for openness, play, and trust. Each day brings you closer to understanding each other and your intimate potential."
+      },
+      "days": 5,
+      "goal": {
+        "ua": "Створити простір для фантазій, новизни й глибшого контакту.",
+        "en": "Create space for fantasy, novelty, and deeper connection."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "novelty",
+      "tags": [
+        "fantasy",
+        "imagination",
+        "roleplay",
+        "intimate_communication",
+        "exploration"
+      ],
+      "image": "challenge_boundless_fantasies.svg",
+      "recommended_for": {
+        "ua": "пари, які хочуть ділитися фантазіями й урізноманітнити близькість",
+        "en": "couples who want to share fantasies and diversify intimacy"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ],
   "challenge_steps": [
     {
       "id": "14b34a05-c672-438b-8a5d-14e65ff938a1",
-      "challenge_id": "challenge_002",
+      "challenge_id": "challenge_boundless_fantasies",
       "step_number": 1,
       "content": {
         "ua": "Питання без табу\n\nКожен із вас відповідає на 5 інтимних запитань...",
@@ -62,7 +74,7 @@
     },
     {
       "id": "558df730-4d36-4f90-8d3e-69bf857f7cd9",
-      "challenge_id": "challenge_002",
+      "challenge_id": "challenge_boundless_fantasies",
       "step_number": 2,
       "content": {
         "ua": "Створіть спільну фантазію\n\nПобудуйте інтимну сцену разом — по черзі додаючи фрази...",
@@ -84,7 +96,7 @@
     },
     {
       "id": "e810f85e-6180-4a64-aa29-0ab7e4974c0b",
-      "challenge_id": "challenge_002",
+      "challenge_id": "challenge_boundless_fantasies",
       "step_number": 3,
       "content": {
         "ua": "Тілесна карта\n\nВикористайте пальці, поцілунки або легкі дотики...",
@@ -106,7 +118,7 @@
     },
     {
       "id": "101e0a3b-bc63-4f18-a444-f182beec1801",
-      "challenge_id": "challenge_002",
+      "challenge_id": "challenge_boundless_fantasies",
       "step_number": 4,
       "content": {
         "ua": "Роль слова\n\nУпродовж дня надсилайте одне одному еротичні фрази...",
@@ -128,7 +140,7 @@
     },
     {
       "id": "b879c3df-d1cf-44fd-b109-9f4261a3b2d3",
-      "challenge_id": "challenge_002",
+      "challenge_id": "challenge_boundless_fantasies",
       "step_number": 5,
       "content": {
         "ua": "Втілення уявного\n\nОбговоріть, яка фантазія з попередніх днів здавалася найбільш захопливою...",

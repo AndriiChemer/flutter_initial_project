@@ -1,0 +1,504 @@
+{
+  "id": "emotional_distance_level",
+  "title": {
+    "ua": "Рівень емоційної дистанції",
+    "en": "Emotional Distance Level"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Intermediate"
+  },
+  "description": {
+    "ua": "Емоційна близькість — основа довіри, тепла та внутрішнього спокою у стосунках. Цей тест допоможе вам відчути, наскільки ви емоційно поруч зі своїм партнером, чи залишається між вами відстань, яку важко подолати словами. Відповідайте чесно, навіть якщо це складно.",
+    "en": "Emotional closeness is the foundation of trust, warmth, and inner peace in a relationship. This test will help you understand how emotionally close you are with your partner and whether there’s a distance that words can’t bridge. Answer honestly, even if it’s difficult."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "free",
+  "duration": "10-15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Коли вам боляче або важко — чи відчуваєте ви, що можете щиро поділитись цим із партнером?",
+        "en": "When you are hurting or struggling, do you feel you can honestly share this with your partner?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Так, без вагань.",
+            "en": "Yes, without hesitation."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто, але не завжди.",
+            "en": "Often, but not always."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко — боюся нерозуміння.",
+            "en": "Rarely — I fear being misunderstood."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Майже ніколи — я залишаю це в собі.",
+            "en": "Almost never — I keep it inside."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи є у вас моменти повного емоційного злиття, коли ви просто мовчите — і це достатньо?",
+        "en": "Do you have moments of complete emotional connection, when you can just be silent together and it’s enough?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, це трапляється часто.",
+            "en": "Yes, it happens often."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Дуже рідко.",
+            "en": "Very rarely."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи бачите ви, що партнер помічає вашу зміну настрою, навіть якщо ви нічого не кажете?",
+        "en": "Does your partner notice your mood changes even if you don’t say anything?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи хочеться вам доторкнутись до партнера просто так — без причини, з теплом?",
+        "en": "Do you want to touch your partner for no reason, just warmly?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Коли ви разом — чи бувають моменти, коли ви справді “присутні” один для одного, без екранів і фону?",
+        "en": "When you’re together, are there moments when you’re truly present for each other, without screens or background noise?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Іноді, але цього мало.",
+            "en": "Sometimes, but not enough."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи можете ви обговорювати складні теми без страху бути осміяним, відкинутим або не почутим?",
+        "en": "Can you discuss difficult topics without fear of being ridiculed, rejected, or unheard?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, повністю.",
+            "en": "Yes, absolutely."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Іноді, залежить від теми.",
+            "en": "Sometimes, depends on the topic."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часто стримуюсь.",
+            "en": "Often I hold back."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Уникаю таких розмов.",
+            "en": "I avoid such conversations."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи трапляється, що ви відчуваєте себе самотнім поруч із партнером?",
+        "en": "Do you ever feel lonely next to your partner?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Час від часу.",
+            "en": "From time to time."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи є у вас традиції або моменти, які допомагають вам емоційно зближуватись — наприклад, вечірні розмови, обійми, спільне мовчання?",
+        "en": "Do you have traditions or moments that help you become emotionally closer — for example, evening talks, hugs, shared silence?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Так, це наша звичка.",
+            "en": "Yes, it's our habit."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Є дещо, але нестабільно.",
+            "en": "There is something, but it's unstable."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Лише іноді.",
+            "en": "Only sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Нічого такого немає.",
+            "en": "Nothing like that."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи відкрито ви говорите про свої страхи, сумніви, мрії?",
+        "en": "Do you openly talk about your fears, doubts, and dreams?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, і мене слухають.",
+            "en": "Yes, and I am listened to."
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Мені складно.",
+            "en": "It's difficult for me."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Я взагалі не ділюся цим.",
+            "en": "I don't share this at all."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Коли ви разом мрієте про майбутнє — чи бачите ви це як “ми”, а не “я і ти”?",
+        "en": "When you dream about the future together, do you see it as “we”, not just “me and you”?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Завжди “ми”.",
+            "en": "Always 'we'."
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Часто, але є розмежування.",
+            "en": "Often, but there is some separation."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Рідко говоримо про майбутнє.",
+            "en": "We rarely talk about the future."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Ми живемо паралельно.",
+            "en": "We live in parallel."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Справжня емоційна близькість",
+        "en": "True Emotional Closeness"
+      },
+      "description": {
+        "ua": "Ви справді поруч одне з одним. Між вами є довіра, тепло і підтримка. Зберігайте це та поглиблюйте ще більше.",
+        "en": "You are truly close to each other. There is trust, warmth, and support between you. Preserve it and deepen it further."
+      }
+    },
+    {
+      "range": [
+        25,
+        34
+      ],
+      "title": {
+        "ua": "Єднання з паузами",
+        "en": "Connection With Gaps"
+      },
+      "description": {
+        "ua": "Ви маєте емоційний зв’язок, але він періодично втрачається. Спробуйте зробити більше простору для щирості й уваги.",
+        "en": "You have an emotional connection, but it is lost at times. Try to create more room for honesty and attention."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Емоційна відстань",
+        "en": "Emotional Distance"
+      },
+      "description": {
+        "ua": "Емоційна дистанція відчутна. Ви ніби разом — але на різних емоційних хвилях. Потрібна чесна розмова і спільні кроки до зближення.",
+        "en": "Emotional distance is felt. You are together — but on different emotional wavelengths. An honest conversation and joint steps towards closeness are needed."
+      }
+    },
+    {
+      "range": [
+        0,
+        14
+      ],
+      "title": {
+        "ua": "Віддалення",
+        "en": "Drifting Apart"
+      },
+      "description": {
+        "ua": "Ви віддалились. Це може бути болісно, але важливо не ігнорувати ці сигнали. Поговоріть з партнером або зверніться за допомогою.",
+        "en": "You have grown apart. This can be painful, but it’s important not to ignore these signals. Talk to your partner or seek help."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Спробуйте не приховувати свої справжні почуття. Навіть одна щира фраза може скоротити дистанцію між вами.",
+      "en": "Try not to hide your true feelings. Even one sincere phrase can reduce the distance between you."
+    },
+    "couple": {
+      "ua": "Щодня створюйте маленький ритуал — 10 хвилин без гаджетів, просто разом. З часом це змінить динаміку ваших стосунків.",
+      "en": "Create a daily ritual — 10 minutes together without gadgets. Over time, this will change the dynamics of your relationship."
+    }
+  },
+  "widget_type": "test"
+}

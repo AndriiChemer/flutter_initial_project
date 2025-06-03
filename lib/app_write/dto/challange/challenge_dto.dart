@@ -1,6 +1,8 @@
 import 'dart:convert';
 
-import '../multi_land_string_dto.dart';
+import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
+import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
+import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 
 class ChallengeDTO {
   ChallengeDTO({
@@ -13,7 +15,7 @@ class ChallengeDTO {
     required this.categorySlug,
     required this.subcategorySlug,
     required this.tags,
-    required this.image,
+    required this.imageName,
     required this.recommendedFor,
     required this.freeOrPremium,
     required this.status,
@@ -21,23 +23,52 @@ class ChallengeDTO {
     required this.updatedAt,
   });
 
-  factory ChallengeDTO.fromJson(Map<String, dynamic> json) => ChallengeDTO(
+  factory ChallengeDTO.fromJson(Map<String, dynamic> json) {
+    final oldId = json['id'] as String;
+    final words = oldId.split('_');
+    final prefix = words.first;
+    words
+      ..removeAt(0)
+      ..add(prefix);
+    final newId = words.join('_');
+
+    return ChallengeDTO(
+      id: newId,
+      title: MultiLangStringDTO.fromJson(json['title'] as Map<String, dynamic>),
+      description: MultiLangStringDTO.fromJson(json['description'] as Map<String, dynamic>),
+      days: json['days'] as int,
+      goal: MultiLangStringDTO.fromJson(json['goal'] as Map<String, dynamic>),
+      categoryId: json['category_id'] as String,
+      categorySlug: json['category_id'] as String,
+      subcategorySlug: json['subcategory_slug'] as String?,
+      tags: (json['tags'] as List<dynamic>).map((item) => item as String).toList(),
+      imageName: json['image'] as String,
+      recommendedFor: MultiLangStringDTO.fromJson(json['recommended_for'] as Map<String, dynamic>),
+      freeOrPremium: freeOrPremiumFromString(json['free_or_premium'] as String),
+      status: StatusDTO.active,
+      createdAt: DateTime.parse(json['created_at'] as String),
+      updatedAt: DateTime.parse(json['updated_at'] as String),
+    );
+  }
+
+  factory ChallengeDTO.fromAppWriteJson(Map<String, dynamic> json) => ChallengeDTO(
         id: json['id'] as String,
-        title: MultiLangStringDTO.fromJson(json['title'] as Map<String, dynamic>),
-        description: MultiLangStringDTO.fromJson(json['description'] as Map<String, dynamic>),
+        title: MultiLangStringDTO.fromStringJson(json['title_json'] as String),
+        description: MultiLangStringDTO.fromStringJson(json['description_json'] as String),
         days: json['days'] as int,
-        goal: MultiLangStringDTO.fromJson(json['goal'] as Map<String, dynamic>),
-        categoryId: json['category_id'] as String,
-        categorySlug: json['category_id'] as String,
+        goal: MultiLangStringDTO.fromStringJson(json['goal_json'] as String),
+        categoryId: (json['category_id'] as Map<String, dynamic>)['id'] as String,
+        categorySlug: json['category_slug'] as String,
         subcategorySlug: json['subcategory_slug'] as String?,
         tags: (json['tags'] as List<dynamic>).map((item) => item as String).toList(),
-        image: json['image'] as String,
-        recommendedFor: MultiLangStringDTO.fromJson(json['recommended_for'] as Map<String, dynamic>),
-        freeOrPremium: json['free_or_premium'] as String,
-        status: json['status'] as String,
+        imageName: json['image_name'] as String,
+        recommendedFor: MultiLangStringDTO.fromStringJson(json['recommended_for_json'] as String),
+        freeOrPremium: freeOrPremiumFromString(json['free_or_premium'] as String),
+        status: statusFromString(json['status'] as String),
         createdAt: DateTime.parse(json['created_at'] as String),
         updatedAt: DateTime.parse(json['updated_at'] as String),
       );
+
   final String id;
   final MultiLangStringDTO title;
   final MultiLangStringDTO description;
@@ -47,10 +78,10 @@ class ChallengeDTO {
   final String categorySlug;
   final String? subcategorySlug;
   final List<String> tags;
-  final String image;
+  final String imageName;
   final MultiLangStringDTO recommendedFor;
-  final String freeOrPremium;
-  final String status;
+  final FreeOrPremiumDTO freeOrPremium;
+  final StatusDTO status;
   final DateTime createdAt;
   final DateTime updatedAt;
 
@@ -64,28 +95,28 @@ class ChallengeDTO {
         'category_slug': categorySlug,
         'subcategory_slug': subcategorySlug,
         'tags': tags,
-        'image': image,
+        'image_name': imageName,
         'recommended_for': recommendedFor.toJson(),
-        'free_or_premium': freeOrPremium,
-        'status': status,
+        'free_or_premium': freeOrPremiumToString(freeOrPremium),
+        'status': statusToString(status),
         'created_at': createdAt.toIso8601String(),
         'updated_at': updatedAt.toIso8601String(),
       };
 
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
-        'title': title.toString(),
-        'description': description.toString(),
+        'title_json': title.toString(),
+        'description_json': description.toString(),
         'days': days,
-        'goal': goal.toString(),
+        'goal_json': goal.toString(),
         'category_id': categoryId,
         'category_slug': categorySlug,
         'subcategory_slug': subcategorySlug,
         'tags': tags,
-        'image': image,
-        'recommended_for': recommendedFor.toString(),
-        'free_or_premium': freeOrPremium,
-        'status': status,
+        'image_name': imageName,
+        'recommended_for_json': recommendedFor.toString(),
+        'free_or_premium': freeOrPremiumToString(freeOrPremium),
+        'status': statusToString(status),
         'created_at': createdAt.toIso8601String(),
         'updated_at': updatedAt.toIso8601String(),
       };

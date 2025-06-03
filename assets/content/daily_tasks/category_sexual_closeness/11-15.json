@@ -1,0 +1,165 @@
+[
+  {
+    "id": "desire-game",
+    "title": {
+      "ua": "Гра у бажання",
+      "en": "Desire Game"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "По черзі озвучуйте свої бажання та фантазії. Партнер обирає одне бажання для реалізації.",
+      "en": "Take turns sharing your desires and fantasies. Your partner chooses one desire to fulfill."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Кожен партнер по черзі озвучує свої бажання.",
+        "en": "Each partner takes turns expressing their desires."
+      },
+      {
+        "number": 2,
+        "ua": "Виберіть одне бажання, яке ви обидва готові реалізувати.",
+        "en": "Choose one desire you are both ready to try."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як це можна зробити приємно для обох.",
+        "en": "Discuss how to make it enjoyable for both."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "20 min",
+    "status": "active",
+    "image": "desire_game.png",
+    "examples": [
+      {
+        "ua": "Я хотів/ла б, щоб ти поцілував мене у шию.",
+        "en": "I’d love you to kiss my neck."
+      },
+      {
+        "ua": "Моя фантазія — разом прийняти душ.",
+        "en": "My fantasy is taking a shower together."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Поважайте межі партнера, якщо щось не підходить — пропустіть це.",
+        "en": "Respect your partner’s boundaries—skip anything that feels uncomfortable."
+      },
+      {
+        "ua": "Обговоріть, що ви відчували після реалізації бажання.",
+        "en": "Talk about how you felt after fulfilling the desire."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "fantasy-story",
+    "title": {
+      "ua": "Розповідь фантазій",
+      "en": "Fantasy Story"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Це завдання допомагає вам ділитися своїми фантазіями у безпечній атмосфері. Один партнер розповідає вигадану історію з пікантними елементами, а інший продовжує її.",
+      "en": "This task helps you share fantasies in a safe atmosphere. One partner starts a spicy story, the other continues it."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Виберіть тему або місце, де відбувається ваша фантазія (наприклад, подорож, рольова гра, або романтичне побачення).",
+        "en": "Pick a theme or place for your fantasy (e.g., trip, role-play, romantic date)."
+      },
+      {
+        "number": 2,
+        "ua": "Один партнер починає розповідь, додаючи еротичні елементи.",
+        "en": "One partner starts the story, adding erotic details."
+      },
+      {
+        "number": 3,
+        "ua": "Інший партнер продовжує історію, додаючи свої деталі.",
+        "en": "The other continues the story with their own details."
+      },
+      {
+        "number": 4,
+        "ua": "Після завершення обговоріть, які частини історії вам сподобалися найбільше.",
+        "en": "Afterward, discuss which parts you liked most."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "15 min",
+    "status": "active",
+    "image": "fantasy_story.png",
+    "examples": [
+      {
+        "ua": "Я уявляю, що ми разом на пляжі вночі.",
+        "en": "I imagine us together on a beach at night."
+      },
+      {
+        "ua": "Твоя черга додати щось нове до історії.",
+        "en": "Your turn to add something new to the story."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Додавайте до історії як еротичні, так і романтичні деталі.",
+        "en": "Include both erotic and romantic elements in your story."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "sexual-scenario",
+    "title": {
+      "ua": "Сексуальний сценарій",
+      "en": "Sexual Scenario"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Ця гра допомагає дослідити свої бажання через створення спільного сценарію. Разом з партнером ви створюєте фантазійний сюжет, який можна реалізувати або просто обговорити.",
+      "en": "This game helps you explore your desires by creating a scenario together. You and your partner create a fantasy plot you can act out or simply discuss."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Оберіть тему або жанр для вашого сценарію (наприклад, романтика, пригоди, щось екзотичне).",
+        "en": "Pick a theme or genre for your scenario (romance, adventure, something exotic)."
+      },
+      {
+        "number": 2,
+        "ua": "По черзі додавайте деталі до сюжету, створюючи спільний сценарій.",
+        "en": "Take turns adding details to the plot, creating a shared scenario."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, що найбільше вас зацікавило та чи хочете ви реалізувати цю фантазію.",
+        "en": "Discuss what interested you most and whether you want to try this fantasy."
+      },
+      {
+        "number": 4,
+        "ua": "Якщо так, спробуйте її реалізувати або продовжуйте фантазувати разом.",
+        "en": "If yes, try acting it out or continue fantasizing together."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "30 min",
+    "status": "active",
+    "image": "sexual_scenario.png",
+    "examples": [
+      {
+        "ua": "Я уявляю, що ми зустрілися вперше у незнайомому місці.",
+        "en": "I imagine we’re meeting for the first time in an unfamiliar place."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не змушуйте себе до реалізації, якщо це некомфортно.",
+        "en": "Don’t force yourself to act it out if it feels uncomfortable."
+      }
+    ],
+    "free_or_premium": "premium"
+  }
+]

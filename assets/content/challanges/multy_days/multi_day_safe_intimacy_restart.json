@@ -1,38 +1,50 @@
 {
-  "challenge": {
-    "id": "challenge_safe_intimacy_restart",
-    "title": {
-      "ua": "М’який перезапуск",
-      "en": "Gentle Restart"
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
     },
-    "description": {
-      "ua": "Цей 4-денний челендж допоможе парам, які втратили сексуальний зв'язок або почуваються скуто, відновити інтимність через м’які, але глибокі практики. Без тиску. Без очікувань. З повагою.",
-      "en": "This 4-day challenge helps couples who have lost sexual connection or feel distant to restore intimacy through soft, deep practices — without pressure or expectations."
-    },
-    "days": 4,
-    "goal": {
-      "ua": "Відновити фізичну й емоційну інтимність у парі без тиску.",
-      "en": "Restore physical and emotional intimacy in the couple without pressure."
-    },
-    "category_id": "sexual_closeness",
-    "subcategory_slug": "daily-touch",
-    "tags": [
-      "trust",
-      "touch",
-      "intimate_communication",
-      "closeness",
-      "openness"
-    ],
-    "image": "intimacy_restart_challenge.svg",
-    "recommended_for": {
-      "ua": "пари, які віддалились сексуально та хочуть налагодити м’який контакт",
-      "en": "couples who have become sexually distant and want to reconnect gently"
-    },
-    "free_or_premium": "free",
-    "status": "active",
-    "created_at": "2025-05-22T15:18:30.979392Z",
-    "updated_at": "2025-05-22T15:18:30.979392Z"
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
   },
+  "challenges": [
+    {
+      "id": "challenge_safe_intimacy_restart",
+      "title": {
+        "ua": "М’який перезапуск",
+        "en": "Gentle Restart"
+      },
+      "description": {
+        "ua": "Цей 4-денний челендж допоможе парам, які втратили сексуальний зв'язок або почуваються скуто, відновити інтимність через м’які, але глибокі практики. Без тиску. Без очікувань. З повагою.",
+        "en": "This 4-day challenge helps couples who have lost sexual connection or feel distant to restore intimacy through soft, deep practices — without pressure or expectations."
+      },
+      "days": 4,
+      "goal": {
+        "ua": "Відновити фізичну й емоційну інтимність у парі без тиску.",
+        "en": "Restore physical and emotional intimacy in the couple without pressure."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "daily-touch",
+      "tags": [
+        "trust",
+        "touch",
+        "intimate_communication",
+        "closeness",
+        "openness"
+      ],
+      "image": "intimacy_restart_challenge.svg",
+      "recommended_for": {
+        "ua": "пари, які віддалились сексуально та хочуть налагодити м’який контакт",
+        "en": "couples who have become sexually distant and want to reconnect gently"
+      },
+      "free_or_premium": "free",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ],
   "challenge_steps": [
     {
       "id": "51337319-a2e0-4afc-8fff-58b2e1c0c395",

@@ -1,0 +1,159 @@
+{
+  "technique": {
+    "id": "ninety_second_rule",
+    "title": {
+      "ua": "90-секундне правило",
+      "en": "The 90-Second Rule"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає уникнути імпульсивних реакцій у конфліктах. Замість негайної відповіді, ви берете паузу на 90 секунд, щоб обдумати ситуацію та знайти правильні слова.",
+      "en": "This technique helps you avoid impulsive reactions in conflict. Instead of responding immediately, you take a 90-second pause to reflect on the situation and find the right words."
+    },
+    "goal": {
+      "ua": "Зменшити емоційні ескалації та навчитися реагувати з усвідомленням.",
+      "en": "Reduce emotional escalation and learn to respond with awareness."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflicts-and-arguments",
+    "widget_type": "timer",
+    "duration": "2 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Дай мені 90 секунд, щоб подумати над твоїми словами.»",
+        "en": "Partner 1: 'Give me 90 seconds to think about your words.'"
+      },
+      {
+        "ua": "Партнер 2: «Добре, я почекаю. Дякую, що намагаєшся уникнути імпульсивної реакції.»",
+        "en": "Partner 2: 'Okay, I’ll wait. Thank you for trying to avoid an impulsive reaction.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не використовуйте паузу як спосіб уникнути розмови — це момент для заспокоєння, а не для втечі.",
+        "en": "Do not use the pause as a way to avoid the conversation — it is a moment to calm down, not to run away."
+      },
+      {
+        "ua": "Якщо 90 секунд не допомогли, можна попросити ще одну паузу, але не більше двох разів.",
+        "en": "If 90 seconds are not enough, you can ask for another pause, but not more than twice."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_ninety_second_rule",
+      "technique_id": "ninety_second_rule",
+      "step_number": 1,
+      "title": {
+        "ua": "Оголошення паузи",
+        "en": "Announce the Pause"
+      },
+      "instruction": {
+        "ua": "Коли відчуваєте, що емоції починають зашкалювати, скажіть партнеру: «Мені потрібно 90 секунд, щоб заспокоїтись і подумати».",
+        "en": "When you feel your emotions rising, say to your partner: 'I need 90 seconds to calm down and think.'"
+      },
+      "duration": "1 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені потрібно трохи часу, щоб обдумати те, що ти сказав. Дай мені 90 секунд.»",
+          "en": "Partner 1: 'I need a little time to reflect on what you said. Please give me 90 seconds.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не зникайте раптово — дайте знати партнеру, що ви повернетесь до діалогу.",
+          "en": "Do not disappear suddenly — let your partner know you will return to the dialogue."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_ninety_second_rule",
+      "technique_id": "ninety_second_rule",
+      "step_number": 2,
+      "title": {
+        "ua": "Фокус на емоціях",
+        "en": "Focus on Emotions"
+      },
+      "instruction": {
+        "ua": "Закрийте очі або подивіться в одну точку. Зробіть глибокий вдих і видих. Сфокусуйтесь на тому, що відчуваєте зараз: злість, розчарування, страх?",
+        "en": "Close your eyes or focus on a single spot. Take a deep breath in and out. Focus on what you are feeling right now: anger, disappointment, fear?"
+      },
+      "duration": "1 min",
+      "examples": [
+        {
+          "ua": "Відчуваю злість. Відчуваю, що мене не чують. Відчуваю розчарування.",
+          "en": "I feel angry. I feel unheard. I feel disappointed."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не намагайтеся приглушити емоції — просто дайте їм простір.",
+          "en": "Do not try to suppress emotions — just give them space."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_ninety_second_rule",
+      "technique_id": "ninety_second_rule",
+      "step_number": 3,
+      "title": {
+        "ua": "Обміркуйте свої слова",
+        "en": "Reflect on Your Words"
+      },
+      "instruction": {
+        "ua": "Пройдіться подумки по своїх емоціях. Сформулюйте фразу у форматі «Я-висловлювання»: «Коли ти сказав __, я відчув(ла) ___, тому що для мене важливо ___.»",
+        "en": "Mentally walk through your emotions. Formulate a sentence as an 'I-statement': 'When you said __, I felt __ because __ is important to me.'"
+      },
+      "duration": "1 min",
+      "examples": [
+        {
+          "ua": "Коли ти підвищив тон, я відчув(ла) страх, тому що для мене важливо почуватися в безпеці.",
+          "en": "When you raised your voice, I felt afraid, because feeling safe is important to me."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сформулюйте думку так, щоб не звинувачувати партнера, а описати свої почуття.",
+          "en": "Frame your thoughts so as not to blame your partner, but to describe your own feelings."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_ninety_second_rule",
+      "technique_id": "ninety_second_rule",
+      "step_number": 4,
+      "title": {
+        "ua": "Повернення до діалогу",
+        "en": "Return to the Dialogue"
+      },
+      "instruction": {
+        "ua": "Поверніться до партнера і спокійно висловіть свої почуття або пропозицію. Використовуйте те, що обдумали протягом 90 секунд.",
+        "en": "Return to your partner and calmly express your feelings or suggestion. Use what you thought about during the 90 seconds."
+      },
+      "duration": "1 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Я ціную, що ти взяв(ла) паузу. Дякую за те, що повернув(ла) до діалогу спокійніше.»",
+          "en": "Partner 2: 'I appreciate that you took a pause. Thank you for returning to the dialogue in a calmer way.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Якщо відчуваєте, що емоції все ще зашкалюють, попросіть ще одну паузу.",
+          "en": "If you feel your emotions are still overwhelming, ask for another pause."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

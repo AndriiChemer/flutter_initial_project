@@ -1,0 +1,219 @@
+{
+  "technique": {
+    "id": "shared_goals_and_plans",
+    "title": {
+      "ua": "Спільні цілі та плани",
+      "en": "Shared Goals and Plans"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає парам створити спільне бачення майбутнього через обговорення цілей, мрій та бажань. Це зміцнює емоційний зв’язок та формує відчуття єдності у парі.",
+      "en": "This technique helps couples create a shared vision of the future through discussions about goals, dreams, and desires. It strengthens the emotional connection and builds a sense of unity in the couple."
+    },
+    "goal": {
+      "ua": "Зміцнити єдність та емоційну близькість через планування майбутнього разом.",
+      "en": "Strengthen unity and emotional closeness through planning the future together."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "planning-and-growth",
+    "widget_type": "notes",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я хочу, щоб ми більше часу проводили разом на вихідних.»",
+        "en": "Partner 1: 'I want us to spend more time together on weekends.'"
+      },
+      {
+        "ua": "Партнер 2: «Моя мрія — разом вивчити новий рецепт і приготувати вечерю хоча б раз на тиждень.»",
+        "en": "Partner 2: 'My dream is to learn a new recipe together and cook dinner at least once a week.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Фокусуйтесь на цінностях, які об’єднують, а не розділяють.",
+        "en": "Focus on values that unite you, not those that divide."
+      },
+      {
+        "ua": "Записуйте цілі чітко і конкретно, щоб їх можна було легко оцінити.",
+        "en": "Write down your goals clearly and specifically so they are easy to track."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_shared_goals_and_plans",
+      "technique_id": "shared_goals_and_plans",
+      "step_number": 1,
+      "title": {
+        "ua": "Створення безпечного простору",
+        "en": "Creating a Safe Space"
+      },
+      "instruction": {
+        "ua": "Виберіть спокійне місце, де ви обидва почуватиметесь комфортно та зможете зосередитися на діалозі. Вимкніть телефони та інші відволікаючі фактори.",
+        "en": "Choose a calm place where you both feel comfortable and can focus on the dialogue. Turn off phones and other distractions."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хотів/ла б сьогодні обговорити наші плани та цілі на найближчий рік. Це зручно для тебе зараз?»",
+          "en": "Partner 1: 'I’d like to talk today about our plans and goals for the next year. Is this a good time for you?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Створіть атмосферу довіри: увімкніть спокійну музику або запаліть свічку.",
+          "en": "Create a trusting atmosphere: turn on calm music or light a candle."
+        },
+        {
+          "ua": "Домовтесь, що не будете перебивати один одного.",
+          "en": "Agree not to interrupt each other."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_shared_goals_and_plans",
+      "technique_id": "shared_goals_and_plans",
+      "step_number": 2,
+      "title": {
+        "ua": "Виявлення індивідуальних цілей",
+        "en": "Identifying Individual Goals"
+      },
+      "instruction": {
+        "ua": "По черзі поділіться своїми особистими цілями на найближчий рік. Це можуть бути як особисті, так і спільні цілі.",
+        "en": "Take turns sharing your personal goals for the next year. These can be personal or shared goals."
+      },
+      "duration": "7 min each",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хотів/ла б більше часу приділяти хобі — навчитися грати на гітарі.»",
+          "en": "Partner 1: 'I’d like to spend more time on my hobby — to learn to play the guitar.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені важливо покращити наші стосунки та спілкування.»",
+          "en": "Partner 2: 'It’s important for me to improve our relationship and communication.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не оцінюйте цілі партнера — спочатку просто слухайте.",
+          "en": "Don’t judge your partner’s goals — just listen at first."
+        },
+        {
+          "ua": "Запитуйте уточнення, якщо щось незрозуміло: «Що для тебе означає більше часу для хобі?»",
+          "en": "Ask for clarification if something is unclear: 'What does more time for your hobby mean for you?'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_shared_goals_and_plans",
+      "technique_id": "shared_goals_and_plans",
+      "step_number": 3,
+      "title": {
+        "ua": "Формулювання спільних цілей",
+        "en": "Formulating Shared Goals"
+      },
+      "instruction": {
+        "ua": "Обговоріть, які з індивідуальних цілей можуть стати спільними. Створіть перелік із 2-3 цілей, які обидва партнери готові реалізувати разом.",
+        "en": "Discuss which of your individual goals could become shared ones. Make a list of 2–3 goals you are both ready to achieve together."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Спільна ціль: «Раз на місяць організовувати спільний виїзд на природу для емоційного відпочинку.»",
+          "en": "Shared goal: 'Once a month, organize a trip to nature together for emotional rest.'"
+        },
+        {
+          "ua": "Спільна ціль: «Щонеділі обговорювати наші плани на наступний тиждень.»",
+          "en": "Shared goal: 'Discuss our plans for the next week every Sunday.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на реалістичних цілях, які обидва зможуть виконувати.",
+          "en": "Focus on realistic goals you both can accomplish."
+        },
+        {
+          "ua": "Не намагайтеся одразу вирішити всі проблеми — оберіть кілька ключових цілей.",
+          "en": "Don’t try to solve all problems at once — pick a few key goals."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_shared_goals_and_plans",
+      "technique_id": "shared_goals_and_plans",
+      "step_number": 4,
+      "title": {
+        "ua": "Візуалізація та запис",
+        "en": "Visualization and Recording"
+      },
+      "instruction": {
+        "ua": "Напишіть свої плани у вигляді списку або створіть 'Карту бажань', де кожен пункт буде нагадуванням про ваші спільні цілі.",
+        "en": "Write down your plans as a list or create a 'Vision Board' where each item is a reminder of your shared goals."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Карта бажань: 1. Разом пройти курс із покращення комунікації.",
+          "en": "Vision board: 1. Complete a communication improvement course together."
+        },
+        {
+          "ua": "Список цілей: 1. Подорож до Карпат восени.",
+          "en": "Goal list: 1. Trip to the Carpathians in autumn."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Використайте кольорові маркери для виділення найважливіших цілей.",
+          "en": "Use colored markers to highlight the most important goals."
+        },
+        {
+          "ua": "Зробіть карту бажань на аркуші А4 та повісьте на видному місці.",
+          "en": "Make a vision board on an A4 sheet and hang it in a visible place."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_5_shared_goals_and_plans",
+      "technique_id": "shared_goals_and_plans",
+      "step_number": 5,
+      "title": {
+        "ua": "Оцінка прогресу",
+        "en": "Assessing Progress"
+      },
+      "instruction": {
+        "ua": "Домовтеся повертатись до цієї техніки щомісяця або щокварталу, щоб оцінити прогрес та за необхідності скоригувати цілі.",
+        "en": "Agree to return to this technique every month or quarter to assess progress and adjust goals if necessary."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Минулого разу ми домовились про щомісячні виїзди на природу. Як ти вважаєш, ми це виконуємо?»",
+          "en": "Partner 1: 'Last time we agreed on monthly trips to nature. Do you think we’re doing it?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сприймайте оцінку як можливість для покращення, а не як звинувачення.",
+          "en": "Treat the assessment as an opportunity for improvement, not for blame."
+        },
+        {
+          "ua": "Не соромтеся змінювати цілі або додавати нові.",
+          "en": "Do not hesitate to change or add new goals."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

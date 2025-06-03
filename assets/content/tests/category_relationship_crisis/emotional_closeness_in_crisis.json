@@ -1,0 +1,504 @@
+{
+  "id": "emotional_closeness_in_crisis",
+  "title": {
+    "ua": "Емоційна близькість у кризових моментах",
+    "en": "Emotional Closeness in Crisis Moments"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам глибше зрозуміти, наскільки ваша пара зберігає емоційне єднання під час стресу, конфліктів чи життєвих викликів. Ви зможете виявити, де у вас найміцніший зв'язок і що потребує підтримки.",
+    "en": "This test will help you understand how well your couple maintains emotional connection during stress, conflicts, or life challenges. You'll see where your bond is the strongest and what needs more support."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20-30 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Коли вам емоційно важко, чи відчуваєте ви, що партнер поруч із вами — не лише фізично, а й душею?",
+        "en": "When you feel emotionally challenged, do you feel your partner is there for you — not just physically but emotionally?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Так, я завжди відчуваю його/її підтримку.",
+            "en": "Yes, I always feel their support."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто так і є.",
+            "en": "Often that's the case."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Іноді я почуваюся наодинці.",
+            "en": "Sometimes I feel alone."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ні, у складні моменти я залишаюсь сам/сама.",
+            "en": "No, in hard times I feel alone."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи можете ви говорити про свої емоції у важкій ситуації, не стримуючись?",
+        "en": "Can you talk about your emotions in difficult situations without holding back?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, мені не страшно відкриватися.",
+            "en": "Yes, I am not afraid to open up."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Зазвичай так.",
+            "en": "Usually yes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Часто стримуюсь, щоб не навантажувати.",
+            "en": "Often I hold back not to burden my partner."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Я майже не говорю про почуття.",
+            "en": "I hardly ever talk about my feelings."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи почуваєтесь ви у безпеці, коли ділитеся найвразливішим — страхами, болем, соромом?",
+        "en": "Do you feel safe when sharing your most vulnerable feelings — fears, pain, shame?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, партнер — мій безпечний простір.",
+            "en": "Yes, my partner is my safe space."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Більшість речей я можу сказати.",
+            "en": "I can say most things."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Не завжди, іноді боюсь нерозуміння.",
+            "en": "Not always, sometimes I fear being misunderstood."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Я тримаю все в собі.",
+            "en": "I keep everything inside."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи обговорюєте ви разом труднощі, не уникаючи, а шукаючи порозуміння?",
+        "en": "Do you discuss challenges together, seeking understanding instead of avoiding?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, ми разом проходимо через це.",
+            "en": "Yes, we go through it together."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто обговорюємо, але не завжди глибоко.",
+            "en": "Often we discuss, but not always deeply."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Інколи замовчуємо.",
+            "en": "Sometimes we keep silent."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Уникаємо розмов про проблеми.",
+            "en": "We avoid talking about problems."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи прагнете ви зберегти тепло у взаєминах, навіть коли вам обом непросто?",
+        "en": "Do you try to maintain warmth in your relationship, even when things are hard for both?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, я намагаюся створювати світло навіть у темряві.",
+            "en": "Yes, I try to bring light even in the dark."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Часто підтримую легкість у спілкуванні.",
+            "en": "Often I maintain lightness in our communication."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді здаюсь або замикаюсь.",
+            "en": "Sometimes I give up or close off."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Не вдається зберегти тепло.",
+            "en": "I can't keep the warmth."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи вживаєте ви слова підтримки — не з обов’язку, а з щирого бажання підбадьорити?",
+        "en": "Do you use words of encouragement — not out of duty but from genuine care?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, я часто підбадьорюю партнера словами.",
+            "en": "Yes, I often encourage my partner."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Переважно так.",
+            "en": "Mostly yes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Іноді забуваю про силу слів.",
+            "en": "Sometimes I forget the power of words."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Рідко це роблю.",
+            "en": "I rarely do this."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер помічає ваші емоції та реагує на них?",
+        "en": "Do you feel your partner notices and responds to your emotions?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Так, він/вона завжди чутливий/чутлива до мого стану.",
+            "en": "Yes, they are always sensitive to my state."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Зазвичай так.",
+            "en": "Usually yes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто я мушу говорити прямо, щоб мене помітили.",
+            "en": "Often I have to say it directly to be noticed."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Виглядає, що мої почуття лишаються непоміченими.",
+            "en": "It seems my feelings go unnoticed."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи можете ви ділитися болем без страху бути осміяним або засудженим?",
+        "en": "Can you share your pain without fear of being laughed at or judged?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Абсолютно — мене приймають з усіма почуттями.",
+            "en": "Absolutely — I am accepted with all my feelings."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Частково, але іноді вагаюся.",
+            "en": "Partially, but sometimes I hesitate."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Стараюсь не бути надто вразливим/вразливою.",
+            "en": "I try not to be too vulnerable."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ні, я не почуваюсь безпечно.",
+            "en": "No, I do not feel safe."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи можете ви прощати одне одного і не зациклюватися на старих образах?",
+        "en": "Can you forgive each other and not dwell on past hurts?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, прощення — частина нашого зв’язку.",
+            "en": "Yes, forgiveness is part of our bond."
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Переважно так.",
+            "en": "Mostly yes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Іноді минуле заважає.",
+            "en": "Sometimes the past gets in the way."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Я часто тримаю в собі образи.",
+            "en": "I often hold on to resentment."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи маєте ви звичку разом створювати малі, теплі ритуали навіть у важкі часи?",
+        "en": "Do you have the habit of creating small warm rituals together, even in hard times?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так, це нас тримає.",
+            "en": "Yes, it keeps us connected."
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Ми іноді це робимо.",
+            "en": "We sometimes do this."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Рідко згадуємо про позитив.",
+            "en": "Rarely remember the positive."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "У важкі моменти ми віддаляємось.",
+            "en": "We distance ourselves in tough times."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Сильний емоційний зв’язок",
+        "en": "Strong emotional bond"
+      },
+      "description": {
+        "ua": "У вас сильний емоційний зв’язок, що витримує навіть шторми. Ви — підтримка одне одному в найважчі моменти.",
+        "en": "You have a strong emotional connection that withstands storms. You support each other even in the hardest moments."
+      }
+    },
+    {
+      "range": [
+        25,
+        34
+      ],
+      "title": {
+        "ua": "Стабільна близькість, але потрібна глибина",
+        "en": "Stable closeness, but needs depth"
+      },
+      "description": {
+        "ua": "Ви маєте стабільну емоційну близькість, але деякі теми потребують більше глибини й відкритості.",
+        "en": "You have stable emotional closeness, but some topics need more depth and openness."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Емоційна дистанція",
+        "en": "Emotional distance"
+      },
+      "description": {
+        "ua": "Емоційна дистанція заважає вам бути повністю разом у кризах. Пропрацюйте взаємну підтримку й чутливість.",
+        "en": "Emotional distance prevents you from being fully together during crises. Work on mutual support and sensitivity."
+      }
+    },
+    {
+      "range": [
+        0,
+        14
+      ],
+      "title": {
+        "ua": "Нестача емоційного тепла",
+        "en": "Lack of emotional warmth"
+      },
+      "description": {
+        "ua": "Вашим стосункам бракує емоційного тепла. Розвивайте діалог, відкритість і практики емоційної безпеки.",
+        "en": "Your relationship lacks emotional warmth. Develop dialogue, openness, and emotional safety practices."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Вчіться розпізнавати й виражати свої почуття. Практикуйте внутрішню чесність і ніжність до себе.",
+      "en": "Learn to recognize and express your feelings. Practice inner honesty and self-kindness."
+    },
+    "couple": {
+      "ua": "Запровадьте щоденний ритуал турботи: запитайте 'Як ти почуваєшся сьогодні?' і слухайте без переривань.",
+      "en": "Introduce a daily care ritual: ask 'How are you feeling today?' and listen without interrupting."
+    }
+  },
+  "widget_type": "quiz"
+}

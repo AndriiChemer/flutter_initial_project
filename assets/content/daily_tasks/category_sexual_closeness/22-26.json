@@ -1,0 +1,245 @@
+[
+  {
+    "id": "fantasy-letter",
+    "title": {
+      "ua": "Фантазійний лист",
+      "en": "Fantasy Letter"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Партнери пишуть один одному інтимний лист, де розповідають про свої бажання або спогади про приємні моменти. Це допомагає краще зрозуміти одне одного та побудувати довіру.",
+      "en": "Partners write each other an intimate letter describing their desires or memories of special moments. This helps deepen trust and understanding."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Напишіть листа, в якому опишіть свої фантазії або моменти, які вам запам’яталися найбільше.",
+        "en": "Write a letter describing your fantasies or memorable moments."
+      },
+      {
+        "number": 2,
+        "ua": "Обміняйтеся листами та прочитайте їх у спокійній атмосфері.",
+        "en": "Exchange letters and read them in a calm atmosphere."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть свої почуття та думки після прочитання.",
+        "en": "Discuss your feelings and thoughts after reading."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "30 min",
+    "status": "active",
+    "image": "fantasy_letter.png",
+    "examples": [
+      {
+        "ua": "«Я досі пам'ятаю наші обійми на кухні вранці...»",
+        "en": "\"I still remember our morning hugs in the kitchen...\""
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Пишіть чесно та відкрито – навіть якщо трохи соромно.",
+        "en": "Write honestly and openly—even if it feels a bit shy."
+      },
+      {
+        "ua": "Можна додати деталі, які раніше не озвучувалися.",
+        "en": "You can include details you haven't shared before."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "fire-word",
+    "title": {
+      "ua": "Вогняне слово",
+      "en": "Fire Word"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Це завдання допомагає створити пікантну гру, в якій партнери використовують певне слово як тригер для інтимних дій.",
+      "en": "This playful task lets partners use a chosen word as a trigger for intimacy all day long."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Виберіть слово або фразу, яка стане тригером для обіймів, поцілунків або інших дій.",
+        "en": "Choose a word or phrase that will trigger a hug, kiss, or another intimate action."
+      },
+      {
+        "number": 2,
+        "ua": "Протягом дня один з партнерів каже це слово, а інший відповідає дією.",
+        "en": "Throughout the day, whenever one says the word, the other responds with the action."
+      },
+      {
+        "number": 3,
+        "ua": "Ввечері обговоріть, як ця гра вплинула на ваші емоції.",
+        "en": "In the evening, discuss how the game influenced your emotions."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "1 day",
+    "status": "active",
+    "image": "fire_word.png",
+    "examples": [
+      {
+        "ua": "Коли я казав «суниця», ти одразу мене обіймав/ла.",
+        "en": "When I said \"strawberry,\" you hugged me right away."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Обирайте слово, яке важко випадково сказати.",
+        "en": "Pick a word that won't come up by accident."
+      },
+      {
+        "ua": "Домовтеся заздалегідь про дії – це може бути навіть погляд або ніжний дотик.",
+        "en": "Agree on the action in advance—it can even be a look or gentle touch."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "passionate-memories",
+    "title": {
+      "ua": "Спекотні спогади",
+      "en": "Passionate Memories"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Партнери діляться один з одним спогадами про найінтимніші моменти, які залишили найбільше приємних вражень. Це допомагає наново пережити ці емоції та посилити зв’язок.",
+      "en": "Partners share their most intimate and pleasurable memories, reliving those emotions and strengthening their bond."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Сядьте разом у затишному місці та поділіться спогадами про найприємніші інтимні моменти.",
+        "en": "Sit together in a cozy spot and share memories of your favorite intimate moments."
+      },
+      {
+        "number": 2,
+        "ua": "Опишіть, що саме зробило ці моменти особливими.",
+        "en": "Describe what made those moments special."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як можна відтворити або покращити ці моменти.",
+        "en": "Discuss how you might recreate or improve these experiences."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "20 min",
+    "status": "active",
+    "image": "passionate_memories.png",
+    "examples": [
+      {
+        "ua": "Мені запам’ятався наш вечір у ванній зі свічками.",
+        "en": "I still remember our candlelit bath together."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не соромтеся розповідати про дрібниці – вони часто найбільш цінні.",
+        "en": "Don’t hesitate to share small details—they’re often the most meaningful."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "erotic-prediction",
+    "title": {
+      "ua": "Еротичне передбачення",
+      "en": "Erotic Prediction"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Це гра, в якій партнери протягом дня натякають один одному на можливі еротичні моменти, які можуть статися ввечері. Підігрівання очікувань створює додаткове збудження.",
+      "en": "A game where partners tease each other all day with hints about possible erotic moments to come, building excitement."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня відправляйте партнеру натяки або передбачення про можливі інтимні моменти.",
+        "en": "Send hints or predictions to your partner about possible intimate moments throughout the day."
+      },
+      {
+        "number": 2,
+        "ua": "Залишайте записки або надсилайте повідомлення, що описують фантазії або бажання.",
+        "en": "Leave notes or send messages describing your fantasies or desires."
+      },
+      {
+        "number": 3,
+        "ua": "Увечері обговоріть, які передбачення вам сподобалися найбільше.",
+        "en": "In the evening, discuss which predictions you liked most."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "1 day",
+    "status": "active",
+    "image": "erotic_prediction.png",
+    "examples": [
+      {
+        "ua": "«Чекай на сюрприз після вечері…»",
+        "en": "\"Wait for a surprise after dinner…\""
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не розкривайте всі карти одразу — зберігайте інтригу до вечора.",
+        "en": "Don’t give away everything at once—keep the intrigue until evening."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "mutual-massage",
+    "title": {
+      "ua": "Взаємні масажі",
+      "en": "Mutual Massage"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Ця техніка допомагає розслабитися та створити фізичний контакт між партнерами. Масаж може бути ніжним або пристрасним — усе залежить від ваших бажань.",
+      "en": "This technique helps you relax and connect physically. The massage can be gentle or passionate—whatever you both prefer."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Домовтеся про черговість — хто робить масаж першим.",
+        "en": "Decide the order—who gives the massage first."
+      },
+      {
+        "number": 2,
+        "ua": "Масажуйте партнера, зосереджуючись на його побажаннях та реакціях.",
+        "en": "Massage your partner, focusing on their wishes and reactions."
+      },
+      {
+        "number": 3,
+        "ua": "Після завершення обговоріть свої відчуття та емоції.",
+        "en": "Afterward, share your feelings and sensations."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "20 min",
+    "status": "active",
+    "image": "mutual_massage.png",
+    "examples": [
+      {
+        "ua": "«Мені сподобалось, як ти масажував/ла шию та плечі.»",
+        "en": "\"I loved the way you massaged my neck and shoulders.\""
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Використовуйте олії, аромати або музику для створення атмосфери.",
+        "en": "Use oils, scents, or music to set the mood."
+      }
+    ],
+    "free_or_premium": "premium"
+  }
+]

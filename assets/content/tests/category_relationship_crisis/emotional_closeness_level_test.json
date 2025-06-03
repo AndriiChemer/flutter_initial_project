@@ -1,0 +1,443 @@
+{
+  "id": "emotional-closeness-level",
+  "title": {
+    "ua": "Ваш рівень емоційної близькості",
+    "en": "Your Emotional Closeness Level"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Intermediate"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити, наскільки глибокою та стабільною є емоційна близькість між вами та вашим партнером.",
+    "en": "This test will help you determine how deep and stable the emotional closeness between you and your partner is."
+  },
+  "type": "quiz",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1_open_emotion",
+      "question": {
+        "ua": "Як часто ви відкрито говорите з партнером про свої емоції?",
+        "en": "How often do you openly talk with your partner about your emotions?"
+      },
+      "image": "open_emotion_talk.png",
+      "options": [
+        {
+          "id": "q1_a",
+          "text": {
+            "ua": "Постійно, ми завжди обговорюємо свої почуття.",
+            "en": "Always, we openly discuss our feelings."
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_b",
+          "text": {
+            "ua": "Зазвичай, але бувають моменти, коли я приховую свої почуття.",
+            "en": "Usually, but sometimes I hide my feelings."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_c",
+          "text": {
+            "ua": "Інколи, але я не завжди почуваюся комфортно.",
+            "en": "Sometimes, but I don't always feel comfortable."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_d",
+          "text": {
+            "ua": "Рідко, я вважаю за краще тримати свої почуття при собі.",
+            "en": "Rarely, I prefer to keep my feelings to myself."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_e",
+          "text": {
+            "ua": "Майже ніколи, я уникаю розмов про емоції.",
+            "en": "Almost never, I avoid emotional talks."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2_empathy_understanding",
+      "question": {
+        "ua": "Чи відчуваєте ви, що ваш партнер розуміє вас на емоційному рівні?",
+        "en": "Do you feel your partner understands you emotionally?"
+      },
+      "image": "empathy_understanding.png",
+      "options": [
+        {
+          "id": "q2_a",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_b",
+          "text": {
+            "ua": "Зазвичай, але інколи він/вона не розуміє мене повністю.",
+            "en": "Usually, but sometimes they don't fully understand me."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_c",
+          "text": {
+            "ua": "Іноді, але не часто.",
+            "en": "Sometimes, but not often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_d",
+          "text": {
+            "ua": "Рідко, у нас виникають непорозуміння.",
+            "en": "Rarely, we often misunderstand each other."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_e",
+          "text": {
+            "ua": "Майже ніколи, я почуваюся не почутим/не почутою.",
+            "en": "Almost never, I feel unheard."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3_active_listening",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер ділиться з вами своїми почуттями?",
+        "en": "How do you react when your partner shares their feelings with you?"
+      },
+      "image": "active_listening.png",
+      "options": [
+        {
+          "id": "q3_a",
+          "text": {
+            "ua": "Я уважно слухаю та намагаюся зрозуміти.",
+            "en": "I listen carefully and try to understand."
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_b",
+          "text": {
+            "ua": "Я слухаю, але не завжди розумію.",
+            "en": "I listen but don't always understand."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_c",
+          "text": {
+            "ua": "Іноді слухаю, іноді не звертаю увагу.",
+            "en": "Sometimes I listen, sometimes I don't pay attention."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_d",
+          "text": {
+            "ua": "Часто відволікаюся або змінюю тему.",
+            "en": "Often I get distracted or change the topic."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_e",
+          "text": {
+            "ua": "Не хочу слухати або ухиляюся від розмови.",
+            "en": "I don't want to listen or avoid the talk."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4_safe_sharing",
+      "question": {
+        "ua": "Чи відчуваєте ви безпеку, коли ділитеся з партнером своїми думками та почуттями?",
+        "en": "Do you feel safe sharing your thoughts and feelings with your partner?"
+      },
+      "image": "safe_sharing.png",
+      "options": [
+        {
+          "id": "q4_a",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_b",
+          "text": {
+            "ua": "Зазвичай, але іноді відчуваю дискомфорт.",
+            "en": "Usually, but sometimes I feel discomfort."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_c",
+          "text": {
+            "ua": "Лише в окремих ситуаціях.",
+            "en": "Only in specific situations."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_d",
+          "text": {
+            "ua": "Рідко, я відчуваю себе вразливим/вразливою.",
+            "en": "Rarely, I feel vulnerable."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_e",
+          "text": {
+            "ua": "Ніколи, я боюся бути відкритим/відкритою.",
+            "en": "Never, I am afraid to be open."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5_future_plans",
+      "question": {
+        "ua": "Чи обговорюєте ви з партнером свої мрії, цілі та плани на майбутнє?",
+        "en": "Do you discuss your dreams, goals, and plans for the future with your partner?"
+      },
+      "image": "future_plans.png",
+      "options": [
+        {
+          "id": "q5_a",
+          "text": {
+            "ua": "Так, ми завжди відкрито обговорюємо свої мрії та плани.",
+            "en": "Yes, we always openly discuss our dreams and plans."
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_b",
+          "text": {
+            "ua": "Часто, але не завжди.",
+            "en": "Often, but not always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_c",
+          "text": {
+            "ua": "Іноді, але не вдаємося в деталі.",
+            "en": "Sometimes, but not in detail."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_d",
+          "text": {
+            "ua": "Рідко, такі розмови викликають дискомфорт.",
+            "en": "Rarely, such conversations make us uncomfortable."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_e",
+          "text": {
+            "ua": "Ніколи, ми уникаємо таких тем.",
+            "en": "Never, we avoid such topics."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6_support_feeling",
+      "question": {
+        "ua": "Як часто ви відчуваєте підтримку з боку партнера?",
+        "en": "How often do you feel supported by your partner?"
+      },
+      "image": "support_feeling.png",
+      "options": [
+        {
+          "id": "q6_a",
+          "text": {
+            "ua": "Завжди, я знаю, що можу на нього/неї покластися.",
+            "en": "Always, I know I can rely on them."
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_b",
+          "text": {
+            "ua": "Зазвичай, але іноді відчуваю недостатню підтримку.",
+            "en": "Usually, but sometimes I feel a lack of support."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_c",
+          "text": {
+            "ua": "Інколи, але рідко.",
+            "en": "Sometimes, but rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_d",
+          "text": {
+            "ua": "Рідко, я почуваюся одиноким/одинокою.",
+            "en": "Rarely, I feel lonely."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_e",
+          "text": {
+            "ua": "Майже ніколи, я не відчуваю підтримки.",
+            "en": "Almost never, I don't feel supported."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7_fears_openess",
+      "question": {
+        "ua": "Чи можете ви відкрито говорити про свої страхи та невпевненість?",
+        "en": "Can you openly talk about your fears and insecurities?"
+      },
+      "image": "talk_fears.png",
+      "options": [
+        {
+          "id": "q7_a",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_b",
+          "text": {
+            "ua": "Часто, але не завжди.",
+            "en": "Often, but not always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_c",
+          "text": {
+            "ua": "Лише у певних ситуаціях.",
+            "en": "Only in certain situations."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_d",
+          "text": {
+            "ua": "Рідко, мені важко відкриватися.",
+            "en": "Rarely, it's hard for me to open up."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_e",
+          "text": {
+            "ua": "Ніколи, я не відчуваю себе комфортно.",
+            "en": "Never, I don't feel comfortable."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        30,
+        35
+      ],
+      "title": {
+        "ua": "Високий рівень емоційної близькості",
+        "en": "High level of emotional closeness"
+      },
+      "description": {
+        "ua": "Ви добре розумієте один одного та підтримуєте відкритий діалог.",
+        "en": "You understand each other well and maintain open dialogue."
+      }
+    },
+    {
+      "range": [
+        20,
+        29
+      ],
+      "title": {
+        "ua": "Середній рівень емоційної близькості",
+        "en": "Medium level of emotional closeness"
+      },
+      "description": {
+        "ua": "Ви маєте хороші моменти, але є аспекти, які можна покращити.",
+        "en": "You have good moments, but there are aspects to improve."
+      }
+    },
+    {
+      "range": [
+        10,
+        19
+      ],
+      "title": {
+        "ua": "Низький рівень емоційної близькості",
+        "en": "Low level of emotional closeness"
+      },
+      "description": {
+        "ua": "Варто більше працювати над відкритістю та емоційним зв’язком.",
+        "en": "You should work more on openness and emotional connection."
+      }
+    },
+    {
+      "range": [
+        0,
+        9
+      ],
+      "title": {
+        "ua": "Дуже низький рівень емоційної близькості",
+        "en": "Very low level of emotional closeness"
+      },
+      "description": {
+        "ua": "Рекомендується звернути увагу на комунікацію та взаєморозуміння.",
+        "en": "It's recommended to pay attention to communication and understanding."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Робота над відкритістю та чесністю у вираженні почуттів.",
+      "en": "Work on openness and honesty in expressing your feelings."
+    },
+    "couple": {
+      "ua": "Використовуйте техніки активного слухання та спільного обговорення емоцій.",
+      "en": "Use active listening techniques and discuss emotions together."
+    }
+  }
+}

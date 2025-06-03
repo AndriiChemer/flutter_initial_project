@@ -1,0 +1,151 @@
+{
+  "technique": {
+    "id": "sex_free_evening",
+    "title": {
+      "ua": "Вечір без сексу",
+      "en": "Sex-Free Evening"
+    },
+    "description": {
+      "ua": "Ця техніка дозволяє партнерам зосередитись на емоційній близькості та відновити потяг, уникаючи сексуального контакту. Вона сприяє підсиленню бажання через обмеження та фокусування на романтичних моментах.",
+      "en": "This technique allows partners to focus on emotional closeness and rekindle desire by avoiding sexual contact. It strengthens attraction through restriction and a focus on romantic moments."
+    },
+    "goal": {
+      "ua": "Поглибити емоційну близькість і відчути новий рівень бажання через відмову від сексуального контакту на один вечір.",
+      "en": "Deepen emotional intimacy and experience new levels of desire by abstaining from sexual contact for one evening."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "novelty-and-experimentation",
+    "widget_type": "mood_tracker",
+    "duration": "2 hours",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Повільно роздягнути одне одного, але зупинитися на пестощах.",
+        "en": "Slowly undress each other but stop at caresses."
+      },
+      {
+        "ua": "Дивитися фільм, обіймаючись і насолоджуючись близькістю.",
+        "en": "Watch a movie while cuddling and enjoying closeness."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не сприймайте цей вечір як заборону, а як можливість зміцнити емоційний зв'язок.",
+        "en": "Do not treat this evening as a prohibition, but as an opportunity to strengthen your emotional bond."
+      },
+      {
+        "ua": "Якщо хтось із партнерів відчуває дискомфорт, обговоріть це чесно та без звинувачень.",
+        "en": "If either partner feels uncomfortable, discuss it honestly and without blame."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_sex_free_evening",
+      "technique_id": "sex_free_evening",
+      "step_number": 1,
+      "title": {
+        "ua": "Встановлення домовленості",
+        "en": "Setting an Agreement"
+      },
+      "instruction": {
+        "ua": "Перед початком вечора обговоріть, що цей час буде присвячений виключно емоційній близькості. Домовтесь, що статевий акт цього вечора не відбудеться.",
+        "en": "Before the evening begins, agree that this time will be devoted solely to emotional intimacy. Make a clear agreement that there will be no sexual intercourse tonight."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Сьогодні я хочу провести вечір без сексу, але зосередитись на тому, щоб бути ближче одне до одного.»",
+          "en": "Partner 1: 'Tonight, I want us to have a sex-free evening and focus on being close to each other.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не сприймайте це як обмеження — це можливість відчути потяг без фізичного контакту.",
+          "en": "Don’t see this as a restriction — it’s an opportunity to feel desire without physical contact."
+        },
+        {
+          "ua": "Запропонуйте партнеру обійми, масаж або теплу ванну замість сексу.",
+          "en": "Offer hugs, a massage, or a warm bath together instead of sex."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_sex_free_evening",
+      "technique_id": "sex_free_evening",
+      "step_number": 2,
+      "title": {
+        "ua": "Романтичні дії",
+        "en": "Romantic Actions"
+      },
+      "instruction": {
+        "ua": "Створіть романтичну атмосферу: приготуйте вечерю разом, зробіть масаж або обговоріть спільні мрії. Зосередьтеся на тілесних відчуттях, не переходячи до статевого акту.",
+        "en": "Create a romantic atmosphere: cook dinner together, give each other a massage, or talk about your shared dreams. Focus on physical sensations without progressing to intercourse."
+      },
+      "duration": "1 hour",
+      "examples": [
+        {
+          "ua": "Повільно роздягнути одне одного, але зупинитися на пестощах.",
+          "en": "Slowly undress each other, but stop at affectionate caresses."
+        },
+        {
+          "ua": "Дивитися фільм, обіймаючись і насолоджуючись близькістю.",
+          "en": "Watch a movie, cuddling and enjoying your closeness."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на зоровому контакті та легких дотиках.",
+          "en": "Focus on eye contact and gentle touches."
+        },
+        {
+          "ua": "Обговоріть, які емоції виникли під час вечора та що вам обом було приємно.",
+          "en": "Discuss what emotions arose and what felt most enjoyable for both of you."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_sex_free_evening",
+      "technique_id": "sex_free_evening",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення та рефлексія",
+        "en": "Discussion and Reflection"
+      },
+      "instruction": {
+        "ua": "Після завершення вечора поділіться своїми відчуттями. Які емоції виникли? Чи було складно зберігати фізичний потяг без переходу до сексу?",
+        "en": "After the evening, share your feelings. What emotions did you experience? Was it difficult to maintain physical desire without moving to sex?"
+      },
+      "duration": "15 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Було важко стримуватись, але водночас я відчув/ла сильний потяг до тебе.»",
+          "en": "Partner 1: 'It was hard to hold back, but at the same time, I felt a strong attraction to you.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені сподобалось, що ми просто лежали разом, обіймаючись та розмовляючи.»",
+          "en": "Partner 2: 'I enjoyed that we just lay together, cuddling and talking.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не соромтеся обговорювати моменти, коли було особливо складно не перейти до сексу.",
+          "en": "Don’t be shy about discussing moments when it was especially hard not to move to sex."
+        },
+        {
+          "ua": "Запитайте партнера: «Чи ти відчув/ла щось нове про мене цього вечора?»",
+          "en": "Ask your partner: 'Did you discover something new about me this evening?'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

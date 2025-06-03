@@ -1,0 +1,422 @@
+{
+  "id": "relationship_problem_areas",
+  "title": {
+    "ua": "Виявлення проблемних точок у стосунках",
+    "en": "Identifying Problem Areas in Relationships"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити, які саме аспекти стосунків викликають найбільше непорозумінь, дискомфорту або конфліктів. Це дозволить виявити слабкі місця, над якими варто працювати.",
+    "en": "This test will help you identify which aspects of your relationship cause the most misunderstandings, discomfort, or conflicts. It will highlight weak spots that need attention."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер критикує вас або ваші дії?",
+        "en": "How do you react when your partner criticizes you or your actions?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Вислуховую та намагаюся виправити ситуацію.",
+            "en": "I listen and try to fix the situation."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Вислуховую, але не завжди погоджуюся з критикою.",
+            "en": "I listen but don't always agree with the criticism."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Захищаюсь та починаю суперечку.",
+            "en": "I defend myself and start an argument."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Уникаю обговорення та віддаляюся.",
+            "en": "I avoid discussion and distance myself."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Наскільки ви відкриті до обговорення своїх почуттів з партнером?",
+        "en": "How open are you to discussing your feelings with your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Повністю відкритий/а, завжди обговорюю свої почуття.",
+            "en": "Completely open, I always discuss my feelings."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Відкритий/а, але іноді уникаю складних тем.",
+            "en": "Open, but sometimes avoid difficult topics."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Рідко говорю про свої почуття, особливо коли це складно.",
+            "en": "Rarely talk about my feelings, especially when it's difficult."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Уникаю обговорення почуттів.",
+            "en": "Avoid discussing feelings."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як ви реагуєте на конфлікти в стосунках?",
+        "en": "How do you react to conflicts in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Шукаю компроміс та намагаюся знайти спільне рішення.",
+            "en": "I look for a compromise and try to find a solution together."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Спочатку реагую емоційно, а потім шукаю вирішення.",
+            "en": "I react emotionally at first, then look for a solution."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Уникаю конфліктів або намагаюся їх ігнорувати.",
+            "en": "I avoid conflicts or try to ignore them."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Повністю віддаляюся та припиняю спілкування.",
+            "en": "I completely distance myself and stop communicating."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як часто ви обговорюєте з партнером свої бажання та потреби?",
+        "en": "How often do you discuss your desires and needs with your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Постійно та відкрито.",
+            "en": "Constantly and openly."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Інколи, коли є необхідність.",
+            "en": "Sometimes, when needed."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Дуже рідко або лише тоді, коли виникають проблеми.",
+            "en": "Very rarely, or only when there are problems."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ви реагуєте, коли ваш партнер не розуміє вас або ігнорує ваші почуття?",
+        "en": "How do you react when your partner doesn’t understand or ignores your feelings?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Пояснюю свої почуття та намагаюся знайти порозуміння.",
+            "en": "I explain my feelings and try to find understanding."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Висловлюю своє незадоволення, але не завжди чітко.",
+            "en": "I express dissatisfaction but not always clearly."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Відчуваю роздратування та починаю сварку.",
+            "en": "I feel annoyed and start an argument."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Віддаляюся та перестаю ділитися своїми переживаннями.",
+            "en": "I distance myself and stop sharing my feelings."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як часто ви підтримуєте партнера в його особистих цілях та справах?",
+        "en": "How often do you support your partner in their personal goals and pursuits?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Завжди підтримую та допомагаю.",
+            "en": "I always support and help."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Підтримую, але не завжди активно.",
+            "en": "I support, but not always actively."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Рідко звертаю увагу на його/її потреби.",
+            "en": "I rarely pay attention to their needs."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ігнорую або знецінюю його/її зусилля.",
+            "en": "I ignore or devalue their efforts."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як ви реагуєте на зміну поведінки або настрою партнера?",
+        "en": "How do you react to a change in your partner's behavior or mood?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Запитую, що сталося та намагаюся допомогти.",
+            "en": "I ask what happened and try to help."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Помічаю зміни, але не завжди звертаюся з питаннями.",
+            "en": "I notice changes, but don't always ask."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Ігнорую зміни або намагаюся уникнути розмови.",
+            "en": "I ignore changes or try to avoid talking about them."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Роблю вигляд, що нічого не сталося.",
+            "en": "I pretend nothing happened."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як ви реагуєте на невдачі або помилки свого партнера?",
+        "en": "How do you react to your partner’s failures or mistakes?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Підтримую та допомагаю йому/їй знайти вирішення.",
+            "en": "I support and help them find a solution."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Пропоную допомогу, якщо мене про це просять.",
+            "en": "I offer help if asked."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Критикую або висміюю.",
+            "en": "I criticize or mock them."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ігнорую або уникаю розмов про це.",
+            "en": "I ignore or avoid talking about it."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        8,
+        15
+      ],
+      "title": {
+        "ua": "Міцний фундамент, але є аспекти для роботи",
+        "en": "Solid foundation, but there are areas to work on"
+      },
+      "description": {
+        "ua": "Ваші стосунки мають міцний фундамент, але є аспекти, які потребують уваги. Варто працювати над відкритістю та підтримкою.",
+        "en": "Your relationship has a solid foundation, but there are aspects that need attention. Work on openness and support."
+      }
+    },
+    {
+      "range": [
+        16,
+        25
+      ],
+      "title": {
+        "ua": "Регулярні непорозуміння та конфлікти",
+        "en": "Frequent misunderstandings and conflicts"
+      },
+      "description": {
+        "ua": "Ваші стосунки можуть стикатися з регулярними конфліктами або непорозуміннями. Рекомендується працювати над комунікацією та взаємною підтримкою.",
+        "en": "Your relationship may face frequent conflicts or misunderstandings. It is recommended to work on communication and mutual support."
+      }
+    },
+    {
+      "range": [
+        26,
+        32
+      ],
+      "title": {
+        "ua": "Кризовий стан стосунків",
+        "en": "Relationship in crisis"
+      },
+      "description": {
+        "ua": "Ваші стосунки перебувають у кризовому стані. Варто звернути увагу на взаєморозуміння та емоційну підтримку.",
+        "en": "Your relationship is in a crisis. Pay attention to mutual understanding and emotional support."
+      }
+    },
+    {
+      "range": [
+        33,
+        40
+      ],
+      "title": {
+        "ua": "Потребують серйозної роботи",
+        "en": "Need serious work"
+      },
+      "description": {
+        "ua": "Ваші стосунки потребують серйозної роботи. Можливо, необхідно звернутися до професійної допомоги або змінити підхід до спілкування.",
+        "en": "Your relationship needs serious work. It may be necessary to seek professional help or change your approach to communication."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Практики для покращення емоційної відкритості та саморефлексії.",
+      "en": "Practices for improving emotional openness and self-reflection."
+    },
+    "couple": {
+      "ua": "Спільні техніки для покращення комунікації та підтримки одне одного.",
+      "en": "Joint techniques to improve communication and mutual support."
+    }
+  },
+  "widget_type": "quiz"
+}

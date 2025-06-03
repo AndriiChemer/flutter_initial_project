@@ -1,0 +1,186 @@
+{
+  "technique": {
+    "id": "role_reversal_technique",
+    "title": {
+      "ua": "Рольові позиції",
+      "en": "Role Reversal"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає партнерам обговорювати конфлікт з різних точок зору...",
+      "en": "This technique helps partners discuss conflict from different perspectives. By playing roles, they can better understand each other's experiences, reduce tension, and move toward compromise."
+    },
+    "goal": {
+      "ua": "Побачити конфлікт очима партнера та сформувати нові правила взаємодії.",
+      "en": "See the conflict through your partner’s eyes and establish new communication rules."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflicts-and-arguments",
+    "widget_type": "conversation",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Коли ти не відповідаєш одразу, я відчуваю, що для тебе я не важливий.»",
+        "en": "Partner 1: 'When you don’t reply immediately, I feel unimportant to you.'"
+      },
+      {
+        "ua": "Партнер 2: «Коли ти чекаєш миттєвої відповіді, я почуваюся під тиском, бо часто зайнятий.»",
+        "en": "Partner 2: 'When you expect an instant reply, I feel pressured because I’m often busy.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Грайте роль партнера чесно, без перебільшення та сарказму.",
+        "en": "Play your partner's role sincerely, without exaggeration or sarcasm."
+      },
+      {
+        "ua": "Не робіть висновків одразу — зосередьтесь на емоціях.",
+        "en": "Don’t jump to conclusions — focus on emotions."
+      },
+      {
+        "ua": "Записуйте нові правила комунікації, щоб не забути про домовленості.",
+        "en": "Write down new communication rules to remember your agreements."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T16:53:42.985636Z",
+    "updated_at": "2025-05-26T16:53:42.985636Z"
+  },
+  "technique_steps": [
+    {
+      "id": "e1f5c5a6-a9cc-4e8f-9ec3-9669f7bde707",
+      "technique_id": "role_reversal_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір теми конфлікту",
+        "en": "Choose the Conflict Topic"
+      },
+      "instruction": {
+        "ua": "Виберіть один конкретний конфлікт або проблему...",
+        "en": "Choose one specific conflict or issue that causes tension. Focus on just one situation."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хочу обговорити нашу комунікацію, коли ти не відповідаєш на мої повідомлення.»",
+          "en": "Partner 1: 'I want to talk about our communication when you don’t respond to my messages.'"
+        },
+        {
+          "ua": "Партнер 2: «А я хочу краще зрозуміти, чому ти так реагуєш на мою затримку.»",
+          "en": "Partner 2: 'And I want to better understand why you react strongly to my delay.'"
+        }
+      ],
+      "tips": [],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "ab4b6e14-1494-47f9-9121-f1703fa54f43",
+      "technique_id": "role_reversal_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Розподіл ролей",
+        "en": "Role Assignment"
+      },
+      "instruction": {
+        "ua": "Перший партнер залишається собою, а другий грає його роль...",
+        "en": "One partner stays in their role, the other plays them using 'I-statements'. Then switch."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1 (грає роль партнера): «Коли я не відповідаю на твої повідомлення, я відчуваю, що ти мене контролюєш.»",
+          "en": "Partner 1 (as partner): 'When I don’t reply to your messages, I feel like you’re controlling me.'"
+        },
+        {
+          "ua": "Партнер 2 (грає роль себе): «Я відчуваю себе непомітним, коли не отримую відповіді годинами.»",
+          "en": "Partner 2 (as themselves): 'I feel invisible when I don’t get a reply for hours.'"
+        }
+      ],
+      "tips": [],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "93d7ba44-ad94-4902-9285-e76404819464",
+      "technique_id": "role_reversal_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Висловлення почуттів у ролі партнера",
+        "en": "Expressing Feelings in Partner's Role"
+      },
+      "instruction": {
+        "ua": "Кожен партнер висловлює свої почуття з позиції партнера...",
+        "en": "Each partner expresses feelings from their partner’s point of view. Focus on emotions, not facts."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1 (у ролі партнера): «Коли я бачу, що ти вимагаєш відповіді одразу...»",
+          "en": "Partner 1 (as partner): 'When I see that you demand an instant reply, I feel pressured and irritated.'"
+        },
+        {
+          "ua": "Партнер 2 (у ролі партнера): «Коли ти затримуєшся з відповіддю, я відчуваю себе ігнорованим...»",
+          "en": "Partner 2 (as partner): 'When you delay your reply, I feel ignored and unimportant.'"
+        }
+      ],
+      "tips": [],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "0e032fba-f6ff-474c-b83d-233f2ab9c19e",
+      "technique_id": "role_reversal_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Рефлексія та обговорення",
+        "en": "Reflection and Discussion"
+      },
+      "instruction": {
+        "ua": "Поверніться до своїх справжніх ролей і поділіться...",
+        "en": "Return to your real roles and share: what was difficult, what worked, and what surprised you?"
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Було важко увійти у твою роль, але тепер я краще розумію твоє роздратування.»",
+          "en": "Partner 1: 'It was hard to step into your role, but now I understand your frustration better.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені здається, що тепер я можу пояснити тобі свої почуття без агресії.»",
+          "en": "Partner 2: 'I feel I can now explain my feelings to you without aggression.'"
+        }
+      ],
+      "tips": [],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "f6144fed-39a4-4829-99e4-78ec4bf2512e",
+      "technique_id": "role_reversal_technique",
+      "step_number": 5,
+      "title": {
+        "ua": "Закріплення результатів",
+        "en": "Solidifying the Results"
+      },
+      "instruction": {
+        "ua": "Сформулюйте 1-2 нові правила комунікації...",
+        "en": "Create 1–2 new communication rules based on what you felt in your partner’s role. Write them down."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Рішення: «Я надсилатиму повідомлення про затримку...»",
+          "en": "Decision: 'I’ll send a message if I’m delayed in replying.'"
+        },
+        {
+          "ua": "Рішення: «Я намагатимусь не робити висновків, коли не отримую відповіді протягом години.»",
+          "en": "Decision: 'I’ll try not to jump to conclusions if I don’t hear from you for an hour.'"
+        }
+      ],
+      "tips": [],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    }
+  ]
+}

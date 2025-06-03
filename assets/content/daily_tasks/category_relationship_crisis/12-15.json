@@ -1,0 +1,218 @@
+[
+  {
+    "id": "day-of-forgiveness",
+    "title": {
+      "ua": "День пробачення",
+      "en": "Day of Forgiveness"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Ця техніка допомагає парам відпустити образи та зробити крок до примирення.",
+      "en": "This practice helps couples let go of grudges and take a step towards reconciliation."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня намагайтеся пробачити один одному за дрібні образи або непорозуміння.",
+        "en": "Throughout the day, try to forgive each other for small grievances or misunderstandings."
+      },
+      {
+        "number": 2,
+        "ua": "Ввечері обговоріть, що саме вам вдалося пробачити та як це вплинуло на ваші почуття.",
+        "en": "In the evening, discuss what you were able to forgive and how it affected your feelings."
+      },
+      {
+        "number": 3,
+        "ua": "Запропонуйте один одному спосіб покращення взаємодії.",
+        "en": "Suggest a way to improve your interaction with each other."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": null,
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я пробачив/ла тобі за те, що ти не відповів/ла на моє повідомлення вчасно.",
+        "en": "I forgave you for not replying to my message on time."
+      },
+      {
+        "ua": "Я відчуваю себе краще після того, як ми обговорили це.",
+        "en": "I feel better after we talked about it."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Пробачення не означає забування — це готовність рухатися далі.",
+        "en": "Forgiveness doesn’t mean forgetting — it’s a willingness to move on."
+      },
+      {
+        "ua": "Пам’ятайте, що прощення може вимагати часу.",
+        "en": "Remember that forgiveness can take time."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "forgiveness_day.png"
+  },
+  {
+    "id": "priority-list",
+    "title": {
+      "ua": "Список пріоритетів",
+      "en": "Priority List"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Щоденне завдання, що допомагає парам визначити свої пріоритети та узгодити їх для покращення взаємодії.",
+      "en": "A daily task to help couples define and align their priorities to improve interaction."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Складіть список своїх особистих пріоритетів у стосунках.",
+        "en": "Make a list of your personal priorities in the relationship."
+      },
+      {
+        "number": 2,
+        "ua": "Обговоріть їх з партнером та знайдіть спільні цілі.",
+        "en": "Discuss them with your partner and find shared goals."
+      },
+      {
+        "number": 3,
+        "ua": "Визначте, як можна підтримувати ці пріоритети разом.",
+        "en": "Decide how you can support these priorities together."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Для мене важливо мати спільний час на вихідних.",
+        "en": "It’s important for me to have shared time on weekends."
+      },
+      {
+        "ua": "Мені потрібно більше підтримки у складні моменти.",
+        "en": "I need more support during difficult moments."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Зосередьтеся на позитивних моментах, які можна покращити.",
+        "en": "Focus on the positive things you can improve."
+      },
+      {
+        "ua": "Будьте відкритими до компромісів.",
+        "en": "Be open to compromise."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "priority_list.png"
+  },
+  {
+    "id": "gratitude-day",
+    "title": {
+      "ua": "День вдячності",
+      "en": "Gratitude Day"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Щоденне завдання, яке допомагає зосередитися на позитивних аспектах стосунків та підвищити вдячність один до одного.",
+      "en": "A daily task to help you focus on the positive aspects of your relationship and increase gratitude toward each other."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня відзначайте позитивні дії партнера.",
+        "en": "Throughout the day, notice your partner’s positive actions."
+      },
+      {
+        "number": 2,
+        "ua": "Увечері подякуйте один одному за ці моменти.",
+        "en": "In the evening, thank each other for these moments."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як вдячність вплинула на ваші почуття.",
+        "en": "Discuss how gratitude affected your feelings."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": null,
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я вдячний/вдячна за твою підтримку, коли я був/була розчарований/розчарована.",
+        "en": "I am grateful for your support when I was feeling down."
+      },
+      {
+        "ua": "Дякую за те, що ти сьогодні зробив/ла мені каву.",
+        "en": "Thank you for making me coffee today."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Вдячність зміцнює позитивні моменти та допомагає забувати про негатив.",
+        "en": "Gratitude strengthens positive moments and helps you forget the negatives."
+      },
+      {
+        "ua": "Робіть це завдання регулярно.",
+        "en": "Do this task regularly."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "gratitude_day.png"
+  },
+  {
+    "id": "emotional-safety",
+    "title": {
+      "ua": "Емоційний захист",
+      "en": "Emotional Safety"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Практика, яка допомагає створити безпечне середовище для обговорення важливих тем без страху критики чи засудження.",
+      "en": "A practice that helps create a safe environment for discussing important topics without fear of criticism or judgment."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Встановіть правила для обговорення (наприклад, не перебивати, не засуджувати).",
+        "en": "Set ground rules for the conversation (for example, no interrupting, no judging)."
+      },
+      {
+        "number": 2,
+        "ua": "Виділіть час для розмови про важливу тему.",
+        "en": "Set aside time to talk about an important topic."
+      },
+      {
+        "number": 3,
+        "ua": "Після розмови обговоріть, як відчували себе в безпечному середовищі.",
+        "en": "After the conversation, discuss how you felt in this safe environment."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я відчув/ла, що можу говорити відкрито без страху бути засудженим/ою.",
+        "en": "I felt I could speak openly without fear of judgment."
+      },
+      {
+        "ua": "Це допомогло нам обговорити проблему спокійніше.",
+        "en": "It helped us discuss a problem more calmly."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Дотримуйтесь правил обговорення.",
+        "en": "Stick to the agreed-upon rules."
+      },
+      {
+        "ua": "Будьте готовими до слухання без оцінки.",
+        "en": "Be prepared to listen without judgment."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "emotional_protection.png"
+  }
+]

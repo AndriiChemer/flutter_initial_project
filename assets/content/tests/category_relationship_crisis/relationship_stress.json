@@ -1,0 +1,504 @@
+{
+  "id": "relationship_stress",
+  "title": {
+    "ua": "Стрес у стосунках",
+    "en": "Relationship Stress"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити рівень стресу у ваших стосунках та виявити основні джерела напруги. Пройшовши тест, ви отримаєте рекомендації для покращення вашого психологічного стану та стосунків загалом.",
+    "en": "This test helps to identify your level of stress in the relationship and detect the main sources of tension. After passing the test, you will receive recommendations to improve your psychological state and your relationship overall."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як часто ви відчуваєте тривогу через ваші стосунки?",
+        "en": "How often do you feel anxious about your relationship?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Іноді, коли виникають конфлікти.",
+            "en": "Sometimes, when conflicts occur."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Доволі часто, навіть без конкретної причини.",
+            "en": "Quite often, even without a clear reason."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Постійно, я завжди хвилююся про наші стосунки.",
+            "en": "Constantly, I always worry about our relationship."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте на напружені ситуації у стосунках?",
+        "en": "How do you usually react to tense situations in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Спокійно обговорюю проблеми.",
+            "en": "Calmly discuss the issues."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Намагаюся уникати конфліктів.",
+            "en": "Try to avoid conflicts."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Різко реагую, а потім жалкую.",
+            "en": "React sharply and then regret it."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Закриваюся і повністю відгороджуюся від партнера.",
+            "en": "Shut down and completely distance myself from my partner."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як часто ви відчуваєте емоційне виснаження після спілкування з партнером?",
+        "en": "How often do you feel emotionally drained after communicating with your partner?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Лише після великих сварок.",
+            "en": "Only after major arguments."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Доволі часто.",
+            "en": "Quite often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Майже постійно.",
+            "en": "Almost all the time."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи вдається вам знаходити компроміси під час конфліктів?",
+        "en": "Are you able to find compromises during conflicts?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, ми зазвичай швидко приходимо до згоди.",
+            "en": "Yes, we usually reach agreement quickly."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Інколи, але це вимагає значних зусиль.",
+            "en": "Sometimes, but it requires significant effort."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Дуже рідко.",
+            "en": "Very rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи відчуваєте ви підтримку від партнера у складні моменти?",
+        "en": "Do you feel supported by your partner during difficult moments?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Частково, залежно від ситуації.",
+            "en": "Partially, depending on the situation."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як часто ви сумніваєтеся у майбутньому ваших стосунків?",
+        "en": "How often do you doubt the future of your relationship?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Лише в моменти сильних сварок.",
+            "en": "Only during intense arguments."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Доволі часто.",
+            "en": "Quite often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Наскільки ви відчуваєте, що ваші потреби враховуються у стосунках?",
+        "en": "To what extent do you feel your needs are considered in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Повністю.",
+            "en": "Completely."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Переважно так.",
+            "en": "Mostly yes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто ігноруються.",
+            "en": "Often ignored."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Зовсім не враховуються.",
+            "en": "Not considered at all."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи помічаєте ви постійні напруження або дистанцію у стосунках?",
+        "en": "Do you notice constant tension or distance in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Ні, ми дуже близькі.",
+            "en": "No, we are very close."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Іноді таке трапляється.",
+            "en": "Sometimes it happens."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Часто відчувається дистанція.",
+            "en": "Distance is often felt."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Як ви відчуваєте себе після сварок з партнером?",
+        "en": "How do you feel after arguments with your partner?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Ми швидко миримося і повертаємося до нормального спілкування.",
+            "en": "We quickly make up and return to normal communication."
+          },
+          "score": 1
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Декілька днів відчуваю неприємний осад.",
+            "en": "I feel unpleasant aftertaste for several days."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Часто залишаюся з почуттям тривоги або злості.",
+            "en": "Often left with feelings of anxiety or anger."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Почуваюся повністю спустошеним/спустошеною.",
+            "en": "Feel completely exhausted."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер поважає ваші почуття та думки?",
+        "en": "Do you feel your partner respects your feelings and opinions?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 1
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Інколи.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Дуже рідко.",
+            "en": "Very rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        10,
+        15
+      ],
+      "title": {
+        "ua": "Стабільність та баланс",
+        "en": "Stability and Balance"
+      },
+      "description": {
+        "ua": "Ваші стосунки стабільні, і стрес присутній лише в окремих випадках. Загалом, ви маєте хороший зв'язок і здатні вирішувати проблеми спокійно та конструктивно.",
+        "en": "Your relationship is stable, and stress occurs only occasionally. Overall, you have a good connection and can solve problems calmly and constructively."
+      }
+    },
+    {
+      "range": [
+        16,
+        25
+      ],
+      "title": {
+        "ua": "Легкий рівень стресу",
+        "en": "Mild Level of Stress"
+      },
+      "description": {
+        "ua": "У стосунках є певний рівень стресу, що може спричиняти непорозуміння та напругу. Варто звернути увагу на спілкування та компроміси.",
+        "en": "There is some stress in the relationship, which may cause misunderstandings and tension. Pay attention to communication and compromise."
+      }
+    },
+    {
+      "range": [
+        26,
+        35
+      ],
+      "title": {
+        "ua": "Високий рівень стресу",
+        "en": "High Level of Stress"
+      },
+      "description": {
+        "ua": "Рівень стресу значний. Ваші стосунки перебувають у стані напруги. Варто глибше обговорити проблеми та шукати шляхи для покращення.",
+        "en": "The level of stress is significant. Your relationship is tense. It's worth discussing problems more deeply and finding ways to improve."
+      }
+    },
+    {
+      "range": [
+        36,
+        40
+      ],
+      "title": {
+        "ua": "Критичний рівень стресу",
+        "en": "Critical Stress Level"
+      },
+      "description": {
+        "ua": "Ваші стосунки переживають серйозну кризу. Постійний стрес може негативно впливати на ваше самопочуття. Рекомендується консультація з психологом або спеціалістом.",
+        "en": "Your relationship is going through a serious crisis. Constant stress can negatively affect your well-being. It is recommended to consult a psychologist or specialist."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Зосередьтесь на саморефлексії та своїх потребах. Працюйте над управлінням стресом через медитації, фізичні вправи та здоровий спосіб життя.",
+      "en": "Focus on self-reflection and your own needs. Work on stress management through meditation, physical exercise, and a healthy lifestyle."
+    },
+    "couple": {
+      "ua": "Відверто обговоріть з партнером джерела стресу та знайдіть спільні рішення. Сплануйте час для приємних активностей без розмов про проблеми.",
+      "en": "Openly discuss sources of stress with your partner and find common solutions. Plan enjoyable activities together without talking about problems."
+    }
+  },
+  "widget_type": "quiz"
+}

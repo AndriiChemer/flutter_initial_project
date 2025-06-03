@@ -1,0 +1,197 @@
+{
+  "technique": {
+    "id": "frank_questions",
+    "title": {
+      "ua": "Відверті питання",
+      "en": "Frank Questions"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає парам краще розуміти бажання, межі та інтимні вподобання одне одного через відверті питання. Вона сприяє відкритому діалогу та зміцнює сексуальну близькість.",
+      "en": "This technique helps couples better understand each other's desires, boundaries, and intimate preferences through frank questions. It fosters open dialogue and strengthens sexual intimacy."
+    },
+    "goal": {
+      "ua": "Створити простір для чесної розмови про інтимність та розширити розуміння побажань партнера.",
+      "en": "Create a space for honest conversation about intimacy and deepen understanding of your partner’s wishes."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "communication-about-sex",
+    "widget_type": "chat_with_ai",
+    "duration": "15 min",
+    "status": "active",
+    "ready_questions": [
+      {
+        "ua": "Що найзбудливіше, що я коли-небудь робив(ла) для тебе?",
+        "en": "What is the most arousing thing I have ever done for you?"
+      },
+      {
+        "ua": "Що тобі найбільше подобається під час інтимної близькості?",
+        "en": "What do you like the most during intimate moments?"
+      },
+      {
+        "ua": "Чи є у тебе улюблена частина тіла, яку тобі приємно, коли я торкаюся?",
+        "en": "Do you have a favorite body part that you like me to touch?"
+      },
+      {
+        "ua": "Що для тебе означає хороший інтимний контакт?",
+        "en": "What does good intimacy mean to you?"
+      },
+      {
+        "ua": "Як ти ставишся до ніжних обіймів після сексу?",
+        "en": "How do you feel about gentle cuddles after sex?"
+      },
+      {
+        "ua": "Чи є щось, що тобі хотілося б спробувати, але ти не знаєш, як сказати?",
+        "en": "Is there anything you would like to try but haven't known how to say?"
+      },
+      {
+        "ua": "Що робить тебе найбільше збудженим(ою) – слова, дотики чи певні дії?",
+        "en": "What turns you on the most—words, touches, or certain actions?"
+      },
+      {
+        "ua": "Яка твоя улюблена форма прелюдії?",
+        "en": "What is your favorite type of foreplay?"
+      },
+      {
+        "ua": "Який момент під час сексу ти вважаєш найважливішим?",
+        "en": "What moment during sex do you consider the most important?"
+      },
+      {
+        "ua": "Чи є у тебе фантазії, які ти ніколи не озвучував/ла?",
+        "en": "Do you have any fantasies you've never spoken about?"
+      }
+    ],
+    "ai_suggestions": {
+      "ua": "Якщо ви не знаєте, які питання задати, натисніть кнопку — AI запропонує унікальні інтимні питання.",
+      "en": "If you don't know what to ask, tap the button and the AI will suggest unique intimate questions."
+    },
+    "examples": [
+      {
+        "ua": "Партнер 1: «Що найзбудливіше, що я коли-небудь робив(ла) для тебе?»",
+        "en": "Partner 1: 'What is the most arousing thing I have ever done for you?'"
+      },
+      {
+        "ua": "Партнер 2: «Мені подобається, коли ти ніжно торкаєшся моєї шиї. Це завжди викликає у мене приємні відчуття.»",
+        "en": "Partner 2: 'I like when you gently touch my neck. It always gives me a pleasant sensation.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Ставте запитання з інтересом, а не з метою перевірки партнера.",
+        "en": "Ask questions out of curiosity, not to test your partner."
+      },
+      {
+        "ua": "Будьте готові почути нове про партнера та прийняти це без осуду.",
+        "en": "Be ready to hear something new about your partner and accept it without judgment."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_frank_questions",
+      "technique_id": "frank_questions",
+      "step_number": 1,
+      "title": {
+        "ua": "Підготовка до діалогу",
+        "en": "Preparing for Dialogue"
+      },
+      "instruction": {
+        "ua": "Створіть атмосферу довіри та розслабленості. Виберіть затишне місце, де ви зможете спокійно обговорити питання. Вимкніть телефони, щоб не відволікатися.",
+        "en": "Create an atmosphere of trust and relaxation. Choose a cozy place where you can discuss questions peacefully. Turn off your phones to avoid distractions."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хочу провести час разом і трохи краще пізнати тебе через кілька відвертих питань. Ти готовий/готова?»",
+          "en": "Partner 1: 'I want to spend time together and get to know you better through some frank questions. Are you ready?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Використайте свічки чи спокійну музику для створення комфортної атмосфери.",
+          "en": "Use candles or relaxing music to create a comfortable atmosphere."
+        },
+        {
+          "ua": "Обирайте час, коли обидва партнери налаштовані на розмову, а не коли хтось зайнятий або втомлений.",
+          "en": "Choose a time when both partners are in the mood for conversation, not when someone is busy or tired."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_frank_questions",
+      "technique_id": "frank_questions",
+      "step_number": 2,
+      "title": {
+        "ua": "Вибір запитань",
+        "en": "Choosing Questions"
+      },
+      "instruction": {
+        "ua": "Оберіть 10 запитань із запропонованого списку або натисніть кнопку для випадкового набору питань. По черзі відповідайте на кожне питання чесно та відкрито.",
+        "en": "Choose 10 questions from the suggested list or tap the button for a random set. Take turns answering each question honestly and openly."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Що найзбудливіше, що я коли-небудь робив(ла) для тебе?»",
+          "en": "Partner 1: 'What is the most arousing thing I have ever done for you?'"
+        },
+        {
+          "ua": "Партнер 2: «Мені подобається, коли ти ніжно торкаєшся моєї шиї. Це завжди викликає у мене приємні відчуття.»",
+          "en": "Partner 2: 'I like when you gently touch my neck. It always gives me a pleasant sensation.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не квапте партнера з відповіддю — дайте час обдумати.",
+          "en": "Don't rush your partner to answer—give them time to think."
+        },
+        {
+          "ua": "Якщо питання викликає дискомфорт, оберіть інше або пропустіть його.",
+          "en": "If a question makes you uncomfortable, choose another or skip it."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_frank_questions",
+      "technique_id": "frank_questions",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення відповідей",
+        "en": "Discussing the Answers"
+      },
+      "instruction": {
+        "ua": "Після завершення всіх запитань обговоріть відповіді. Зосередьтесь на тих моментах, які викликали інтерес, здивування або потребують уточнень.",
+        "en": "After all the questions, discuss your answers. Focus on what was interesting, surprising, or needs clarification."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я не знав/ла, що тобі так подобаються ніжні обійми після сексу. Давай спробуємо це частіше.»",
+          "en": "Partner 1: 'I didn't know you liked gentle cuddles after sex so much. Let's try it more often.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені було цікаво дізнатись, що для тебе прелюдія має таке велике значення. Можемо обговорити, як зробити її ще приємнішою?»",
+          "en": "Partner 2: 'It was interesting to learn that foreplay means so much to you. Can we discuss how to make it even better?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не критикуйте відповіді партнера — слухайте та ставте уточнюючі запитання.",
+          "en": "Don't criticize your partner's answers—listen and ask clarifying questions."
+        },
+        {
+          "ua": "Зосередьтеся на тому, що можна додати або змінити для покращення інтимної взаємодії.",
+          "en": "Focus on what can be added or changed to improve your intimate interaction."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

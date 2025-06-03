@@ -1,0 +1,183 @@
+{
+  "technique": {
+    "id": "emotional_detox",
+    "title": {
+      "ua": "Емоційний детокс",
+      "en": "Emotional Detox"
+    },
+    "description": {
+      "ua": "Ця техніка спрямована на звільнення від накопичених негативних емоцій через письмове вираження думок та почуттів. Це допомагає зменшити напруження та краще зрозуміти свої емоції.",
+      "en": "This technique is designed to release accumulated negative emotions through written expression of thoughts and feelings. It helps reduce tension and better understand your emotions."
+    },
+    "goal": {
+      "ua": "Знизити емоційне напруження та покращити саморозуміння через практику письма.",
+      "en": "Reduce emotional tension and improve self-understanding through the practice of writing."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "emotional-awareness",
+    "widget_type": "notes",
+    "duration": "15 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я написав/ла про свою тривогу через те, що ми постійно сперечаємося.»",
+        "en": "Partner 1: 'I wrote about my anxiety because we keep arguing all the time.'"
+      },
+      {
+        "ua": "Партнер 2: «Мені було легше висловити свої емоції на папері, ніж у розмові.»",
+        "en": "Partner 2: 'It was easier for me to express my emotions on paper than in a conversation.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не оцінюйте свої думки — просто дайте їм вийти на поверхню.",
+        "en": "Do not judge your thoughts—just let them come to the surface."
+      },
+      {
+        "ua": "Поверніться до цієї техніки щоразу, коли відчуваєте емоційний перевантаження.",
+        "en": "Return to this technique whenever you feel emotionally overwhelmed."
+      }
+    ],
+    "free_or_premium": "free",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_emotional_detox",
+      "technique_id": "emotional_detox",
+      "step_number": 1,
+      "title": {
+        "ua": "Підготовка до письма",
+        "en": "Preparing to Write"
+      },
+      "instruction": {
+        "ua": "Знайдіть тихе місце, де вас не будуть відволікати. Візьміть аркуш паперу або відкрийте нотатки у додатку. Встановіть таймер на 10 хвилин.",
+        "en": "Find a quiet place where you won't be distracted. Take a sheet of paper or open notes in the app. Set a timer for 10 minutes."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хочу виділити 10 хвилин для запису своїх думок. Це допоможе мені зрозуміти, що саме мене турбує.»",
+          "en": "Partner 1: 'I want to take 10 minutes to write down my thoughts. It will help me understand what really bothers me.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Вимкніть телефони або інші пристрої, щоб не відволікатись.",
+          "en": "Turn off your phone or other devices so you won't be distracted."
+        },
+        {
+          "ua": "Встановіть таймер, щоб сконцентруватись на процесі.",
+          "en": "Set a timer to focus on the process."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_emotional_detox",
+      "technique_id": "emotional_detox",
+      "step_number": 2,
+      "title": {
+        "ua": "Вільне письмо",
+        "en": "Free Writing"
+      },
+      "instruction": {
+        "ua": "Протягом 10 хвилин пишіть усе, що приходить у голову. Не оцінюйте свої думки, не редагуйте — просто пишіть.",
+        "en": "For 10 minutes, write down everything that comes to mind. Do not judge or edit your thoughts—just write."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Я відчуваю роздратування через те, що нас не чують.",
+          "en": "I feel irritated because we are not being heard."
+        },
+        {
+          "ua": "Мені страшно, що наші сварки стали частішими.",
+          "en": "I'm scared that our arguments have become more frequent."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не зупиняйтеся, навіть якщо здається, що нема чого писати.",
+          "en": "Don't stop even if it seems you have nothing to write."
+        },
+        {
+          "ua": "Якщо важко почати, спробуйте почати зі слів: 'Я відчуваю...'.",
+          "en": "If it's hard to start, try beginning with the words: 'I feel...'."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_emotional_detox",
+      "technique_id": "emotional_detox",
+      "step_number": 3,
+      "title": {
+        "ua": "Рефлексія та вибір",
+        "en": "Reflection and Choice"
+      },
+      "instruction": {
+        "ua": "Після завершення письма зупиніться на кілька хвилин та обміркуйте, чи хочете ви поділитися написаним із партнером або залишити його для особистої рефлексії.",
+        "en": "After writing, pause for a few minutes and consider whether you want to share what you wrote with your partner or keep it for personal reflection."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я не готовий/готова ділитися своїм записом зараз, але це було корисно.»",
+          "en": "Partner 1: 'I'm not ready to share my notes right now, but it was helpful.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не змушуйте себе ділитися, якщо ви не готові.",
+          "en": "Don't force yourself to share if you're not ready."
+        },
+        {
+          "ua": "Якщо вирішили поділитися — обирайте лише те, що справді хочете сказати.",
+          "en": "If you choose to share—only share what you truly want to say."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_emotional_detox",
+      "technique_id": "emotional_detox",
+      "step_number": 4,
+      "title": {
+        "ua": "Обговорення емоцій",
+        "en": "Discussing Emotions"
+      },
+      "instruction": {
+        "ua": "Якщо обидва партнери готові — поділіться найсильнішими емоціями або думками, які ви записали. Обговоріть, які з них викликали найбільший вплив та чому.",
+        "en": "If both partners are ready—share the strongest emotions or thoughts you wrote down. Discuss which ones had the biggest impact and why."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені було легше висловити свої страхи на папері, ніж сказати їх вголос.»",
+          "en": "Partner 1: 'It was easier for me to express my fears on paper than to say them out loud.'"
+        },
+        {
+          "ua": "Партнер 2: «Я зрозумів/зрозуміла, що моє роздратування було більше через страх, ніж через тебе.»",
+          "en": "Partner 2: 'I realized that my irritation was more about fear than about you.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не намагайтесь одразу знайти рішення — це про висловлення емоцій, а не про пошук рішень.",
+          "en": "Don't try to find solutions right away—this is about expressing emotions, not finding solutions."
+        },
+        {
+          "ua": "Слухайте уважно, не перебиваючи.",
+          "en": "Listen attentively, without interrupting."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "id": "emotional_closeness_empathy_test",
+  "title": {
+    "ua": "Тест емоційної близькості та емпатії",
+    "en": "Emotional Closeness & Empathy Test"
+  },
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "level": {
+    "ua": "Для всіх",
+    "en": "For all"
+  },
+  "description": {
+    "ua": "Цей тест допоможе оцінити рівень емоційної близькості, відкритості та емпатії у ваших стосунках. Пройдіть його самостійно або разом із партнером, щоб дізнатися, наскільки ви чесно ділитеся почуттями, вмієте розуміти емоції одне одного та підтримуєте взаємний зв’язок. Чесність у відповідях допоможе побачити справжній стан стосунків та підкаже напрям для розвитку.",
+    "en": "This test will help you assess the level of emotional closeness, openness, and empathy in your relationship. Complete it alone or with your partner to see how honestly you share feelings, understand each other's emotions, and support your connection. Honest answers give the most accurate picture and offer direction for growth."
+  },
+  "type": "quiz",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "10 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1_emotions_talk",
+      "question": {
+        "ua": "Як часто ви з партнером ділитеся своїми почуттями одне з одним?",
+        "en": "How often do you and your partner share your feelings with each other?"
+      },
+      "image": "emotions_talk.png",
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Ми ніколи не ділимося почуттями",
+            "en": "We never share feelings"
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Дуже рідко, лише в крайньому випадку",
+            "en": "Very rarely, only in extreme cases"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Іноді ділимося, коли вже немає сил тримати все в собі",
+            "en": "Sometimes, when we can't hold it in anymore"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Доволі часто відкрито говоримо про свої емоції",
+            "en": "Quite often, we talk openly about emotions"
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Майже завжди ділимося тим, що відчуваємо",
+            "en": "Almost always share what we feel"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "q2_support_each_other",
+      "question": {
+        "ua": "Коли партнер засмучений, як ви зазвичай реагуєте?",
+        "en": "When your partner is upset, how do you usually react?"
+      },
+      "image": "support_each_other.png",
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Я відразу відчуваю настрій партнера і щиро намагаюся підтримати його – вислуховую, обіймаю, розділяю почуття",
+            "en": "I immediately sense my partner's mood and genuinely try to support them—listening, hugging, sharing feelings"
+          },
+          "score": 7
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Я співчуваю і стараюся зрозуміти, хоча інколи не знаю, як найкраще допомогти",
+            "en": "I empathize and try to understand, though sometimes I don't know how to help"
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Стараюся підбадьорити порадою чи жартом, щоб відволікти від смутку",
+            "en": "I try to cheer up with advice or jokes, to distract from sadness"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Почуваюся розгублено й не знаю, що сказати або зробити в таких випадках",
+            "en": "I feel confused and don't know what to say or do"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Уникаю емоційних розмов — змінюю тему або відсторонююся",
+            "en": "I avoid emotional talks—change the subject or distance myself"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3_understand_needs",
+      "question": {
+        "ua": "Чи розумієте ви потреби партнера, не чуючи їх прямо?",
+        "en": "Do you understand your partner's needs without them saying directly?"
+      },
+      "image": "understand_needs.png",
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Я майже завжди відчуваю, що потрібно партнеру, навіть якщо він/вона нічого не каже",
+            "en": "Almost always sense what my partner needs, even if they say nothing"
+          },
+          "score": 7
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "У більшості випадків можу здогадатися про потреби партнера за натяками чи настроєм",
+            "en": "Usually guess needs from hints or mood"
+          },
+          "score": 6
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Часом розумію його бажання, але інколи потребую, щоб партнер сам про них сказав",
+            "en": "Sometimes understand, but often need my partner to tell me"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Лише зрідка можу вгадати, чого хоче партнер, без прямих слів з його боку",
+            "en": "Rarely guess without direct words"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o5",
+          "text": {
+            "ua": "Якщо партнер сам не скаже, я не здогадаюся про його потреби",
+            "en": "If my partner doesn't say, I won't guess"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4_trust_openness",
+      "question": {
+        "ua": "Наскільки вам комфортно бути відвертим і вразливим поруч із партнером?",
+        "en": "How comfortable are you being open and vulnerable with your partner?"
+      },
+      "image": "trust_openness.png",
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Мені абсолютно комфортно – я довіряю партнеру і відкрито ділюся навіть найглибшими почуттями",
+            "en": "Completely comfortable—trust and openly share everything"
+          },
+          "score": 7
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Здебільшого комфортно, хоча інколи нелегко показати свої найвразливіші сторони",
+            "en": "Mostly comfortable, though sometimes hard to show my most vulnerable sides"
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Часом можу відкритися, але багато що все одно тримаю при собі",
+            "en": "Sometimes open up, but keep a lot to myself"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Мені не дуже комфортно – я рідко розповідаю про свої глибокі переживання",
+            "en": "Not very comfortable—rarely share deep feelings"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o5",
+          "text": {
+            "ua": "Мені вкрай складно говорити про свої емоції і я майже завжди їх приховую",
+            "en": "Very difficult—almost always hide my emotions"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5_deep_talk",
+      "question": {
+        "ua": "Як часто у вас із партнером відбуваються глибокі, змістовні розмови?",
+        "en": "How often do you and your partner have deep, meaningful conversations?"
+      },
+      "image": "deep_talk.png",
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Майже щодня ми щиро говоримо про почуття, мрії або переживання",
+            "en": "Almost every day we talk honestly about feelings, dreams, or experiences"
+          },
+          "score": 7
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Доволі часто, принаймні раз на тиждень знаходимо час для душевної розмови",
+            "en": "Quite often—at least once a week we have heart-to-heart talks"
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді, коли видається нагода, обговорюємо щось важливе, але не регулярно",
+            "en": "Sometimes discuss important things, but not regularly"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Рідко – зазвичай наші розмови обмежуються повсякденними темами",
+            "en": "Rarely—usually only everyday topics"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Майже ніколи не говоримо про глибинні почуття чи особисті теми",
+            "en": "Almost never discuss deep feelings or personal topics"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6_joy_together",
+      "question": {
+        "ua": "Чи часто ви з партнером смієтеся та радієте разом?",
+        "en": "How often do you laugh and have fun with your partner?"
+      },
+      "image": "joy_together.png",
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, щодня знаходяться приводи разом посміятися або порадіти",
+            "en": "Yes, every day there are reasons to laugh or celebrate together"
+          },
+          "score": 7
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Так, досить часто у нас бувають веселі й радісні моменти",
+            "en": "Yes, quite often we have fun and happy moments"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Іноді вдається розважитися разом, хоча буденні справи нерідко заважають",
+            "en": "Sometimes we have fun, though daily life often gets in the way"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Рідко випадає нагода від душі посміятися удвох",
+            "en": "Rarely do we laugh together wholeheartedly"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o5",
+          "text": {
+            "ua": "Майже ніколи не переживаємо спільних радісних моментів",
+            "en": "Almost never have joyful moments together"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7_mood_awareness",
+      "question": {
+        "ua": "Чи відчуваєте ви тонкі зміни настрою свого партнера?",
+        "en": "Do you notice subtle changes in your partner’s mood?"
+      },
+      "image": "mood_awareness.png",
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Так, я майже завжди одразу помічаю навіть незначні зміни настрою партнера",
+            "en": "Yes, almost always notice even small changes"
+          },
+          "score": 7
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Зазвичай так – у більшості випадків бачу, коли щось не так",
+            "en": "Usually—most of the time I notice when something's off"
+          },
+          "score": 6
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто можу здогадатися про його настрій, хоча часом можу й пропустити зміни",
+            "en": "Often can guess mood, though sometimes I miss it"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Помічаю тільки очевидні речі – дрібні натяки на зміну настрою зазвичай проходять повз мене",
+            "en": "Only notice obvious things—miss subtle hints"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Ні, я зазвичай не помічаю змін, доки партнер сам про них не скаже",
+            "en": "No, usually don't notice until my partner says something"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8_conflict_resolution",
+      "question": {
+        "ua": "Як ви з партнером зазвичай вирішуєте непорозуміння або конфлікти?",
+        "en": "How do you and your partner usually resolve misunderstandings or conflicts?"
+      },
+      "image": "conflict_resolution.png",
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Відверто обговорюємо проблему і намагаємося зрозуміти почуття одне одного, щоб знайти спільне рішення",
+            "en": "Openly discuss the issue and try to understand each other's feelings to find a solution"
+          },
+          "score": 7
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Стараємося говорити відкрито й шукати компроміс, хоча інколи емоції беруть гору",
+            "en": "Try to speak openly and find compromise, but sometimes emotions take over"
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Обговорюємо деякі конфлікти, але частину проблем замовчуємо, відкладаючи «на потім»",
+            "en": "Discuss some conflicts but postpone or avoid others"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Часто сперечаємося на підвищених тонах і не завжди приходимо до порозуміння",
+            "en": "Often argue emotionally and don't always reach understanding"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o5",
+          "text": {
+            "ua": "Уникаємо обговорення конфліктів — кожен залишається при своїй думці і проблему не вирішено",
+            "en": "Avoid discussing conflicts—each sticks to their view, problem unsolved"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9_being_understood",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер по-справжньому вас розуміє?",
+        "en": "Do you feel your partner truly understands you?"
+      },
+      "image": "being_understood.png",
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, я відчуваю, що партнер повністю мене розуміє й приймає",
+            "en": "Yes, I feel my partner completely understands and accepts me"
+          },
+          "score": 7
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Так, здебільшого він/вона мене розуміє, хоча інколи трапляються невеликі непорозуміння",
+            "en": "Yes, mostly, though sometimes there are small misunderstandings"
+          },
+          "score": 5
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "В основному партнер мене розуміє, але бувають моменти, коли ніби бракує взаєморозуміння",
+            "en": "Mostly understands me, but sometimes lacks connection"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Часом я почуваюся непочутим і нерозумілим, навіть у важливих для мене речах",
+            "en": "Sometimes feel unheard and misunderstood, even on important things"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o5",
+          "text": {
+            "ua": "Ні, я майже ніколи не відчуваю себе зрозумілим у цих стосунках",
+            "en": "No, I almost never feel understood"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10_gratitude_in_relationships",
+      "question": {
+        "ua": "Як часто ви дякуєте одне одному за щось хороше у ваших стосунках?",
+        "en": "How often do you thank each other for good things in your relationship?"
+      },
+      "image": "gratitude_in_relationships.png",
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Ми щодня свідомо висловлюємо вдячність одне одному за різні дрібниці і важливі речі",
+            "en": "Every day we consciously thank each other for small and big things"
+          },
+          "score": 7
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Досить часто говоримо «дякую» за щось приємне, хоч іноді й забуваємо це робити",
+            "en": "Quite often say 'thank you' for nice things, though sometimes forget"
+          },
+          "score": 5
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Іноді висловлюємо вдячність, але зазвичай сприймаємо хороше як належне",
+            "en": "Sometimes express gratitude, but usually take good things for granted"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Рідко дякуємо одне одному, хіба що з дуже особливої нагоди",
+            "en": "Rarely thank each other, except on special occasions"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o5",
+          "text": {
+            "ua": "Майже ніколи не говоримо слів подяки у повсякденному житті",
+            "en": "Almost never say thank you in daily life"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        10,
+        30
+      ],
+      "title": {
+        "ua": "Низький рівень емоційної близькості",
+        "en": "Low level of emotional closeness"
+      },
+      "description": {
+        "ua": "У ваших стосунках відчувається брак відкритості та емпатії. Можливо, вам чи партнеру складно ділитися почуттями або ви поки не навчились глибоко розуміти емоції одне одного. Ви можете відчувати емоційну дистанцію чи невпевненість. Не засмучуйтеся – емоційну близькість можна розвивати. Спробуйте маленькими кроками більше розмовляти про почуття та уважніше слухати партнера. Це допоможе поступово зламати стіну відчуженості.",
+        "en": "Your relationship lacks openness and empathy. You or your partner may struggle to share feelings, or haven't learned to deeply understand each other's emotions yet. You may feel emotional distance or uncertainty. Don't get discouraged—emotional closeness can be built step by step. Try to talk more about your feelings and listen closely to your partner."
+      }
+    },
+    {
+      "range": [
+        31,
+        50
+      ],
+      "title": {
+        "ua": "Середній рівень емоційної близькості",
+        "en": "Medium level of emotional closeness"
+      },
+      "description": {
+        "ua": "У ваших стосунках присутні ознаки емпатії та взаєморозуміння, але є куди рости. Ви час від часу відкриваєтесь одне одному, проте ще не на повну. Можливо, певні теми залишаються недоторканими або ви не завжди вловлюєте настрої партнера. Продовжуйте працювати над довірою. Відверті розмови та спільні емоційні моменти зроблять ваш зв’язок міцнішим.",
+        "en": "You have signs of empathy and mutual understanding, but there is room to grow. You open up to each other sometimes, but not completely. Maybe some topics remain untouched, or you don't always catch your partner's mood. Keep building trust. Honest conversations and shared emotional moments will strengthen your bond."
+      }
+    },
+    {
+      "range": [
+        51,
+        70
+      ],
+      "title": {
+        "ua": "Високий рівень емоційної близькості",
+        "en": "High level of emotional closeness"
+      },
+      "description": {
+        "ua": "Вітаємо! Ви з партнером маєте глибокий емоційний зв’язок, сповнений довіри, емпатії та розуміння. Судячи з усього, ви відкрито ділитеся почуттями, уважно ставитеся до емоцій одне одного і підтримуєте у радості й печалі. Продовжуйте в тому ж дусі – щирість, повага і співпереживання надалі будуть джерелом сили ваших стосунків.",
+        "en": "Congratulations! You and your partner have a deep emotional bond filled with trust, empathy, and understanding. You openly share your feelings, pay attention to each other's emotions, and support each other in joy and sorrow. Keep it up—honesty, respect, and empathy will remain your strengths."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Працюйте над усвідомленням власних емоцій, ведіть щоденник почуттів або виділяйте кілька хвилин на день для самоаналізу. Тренуйте активне слухання: зосереджуйтеся на словах і емоціях співрозмовника, вчіться виражати вдячність словами. Якщо складно ділитися переживаннями — почніть з малого. Емпатія розвивається практикою — читайте книги, дивіться фільми про почуття, вчіться на прикладах.",
+      "en": "Work on being aware of your own emotions. Keep a journal or spend a few minutes daily reflecting on how you feel. Practice active listening: focus on your partner's words and emotions, and learn to express gratitude. If it's hard to open up, start small. Empathy develops with practice—read books, watch movies about feelings, learn from examples."
+    },
+    "couple": {
+      "ua": "Виділяйте час для регулярних 'душевних розмов', практикуйте активне слухання: коли один ділиться, інший уважно слухає та переказує, що зрозумів. Пробуйте нові спільні заняття для спільних емоцій, не забувайте про фізичний контакт і ніжність. Читайте книги або проходьте тренінги про емоційний інтелект разом.",
+      "en": "Set aside time for regular heart-to-heart talks. Practice active listening: when one shares, the other listens carefully and repeats back what they understood. Try new activities that evoke shared emotions, don't forget about physical contact and tenderness. Read books or take courses on emotional intelligence together."
+    }
+  }
+}

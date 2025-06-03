@@ -1,0 +1,427 @@
+{
+  "id": "sexual_interests_and_desires",
+  "title": {
+    "ua": "Сексуальні інтереси та бажання",
+    "en": "Sexual Interests and Desires"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допомагає визначити інтимні вподобання, бажання та відкритість до нових практик. Він розроблений так, щоб допомогти партнерам краще розуміти один одного та обговорювати свої фантазії. Підходить для індивідуального або парного проходження.",
+    "en": "This test helps determine your intimate preferences, desires, and openness to new practices. It is designed to help partners better understand each other and discuss their fantasies. Suitable for both individual and couple participation."
+  },
+  "type": "universal",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "10 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Які види інтимних дотиків ви вважаєте найприємнішими?",
+        "en": "Which types of intimate touches do you find most pleasant?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Поцілунки",
+            "en": "Kisses"
+          }
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Масаж",
+            "en": "Massage"
+          }
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Дотики до ерогенних зон",
+            "en": "Touching erogenous zones"
+          }
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Легкі укуси",
+            "en": "Light biting"
+          }
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Яка ситуація вас найбільше збуджує?",
+        "en": "Which situation arouses you the most?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Романтичний вечір з ніжними дотиками",
+            "en": "Romantic evening with gentle touches"
+          }
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Рольова гра",
+            "en": "Role play"
+          }
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Домінування або підкорення",
+            "en": "Domination or submission"
+          }
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Несподіваний інтимний момент",
+            "en": "Unexpected intimate moment"
+          }
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи є у вас фантазії, які ви хотіли б спробувати з партнером?",
+        "en": "Do you have fantasies you'd like to try with your partner?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, але боюся сказати",
+            "en": "Yes, but I'm afraid to say it"
+          }
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Так, і я вже обговорив/ла це з партнером",
+            "en": "Yes, and I've already discussed it with my partner"
+          }
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Ні, мені комфортно з тим, що ми вже робимо",
+            "en": "No, I'm comfortable with what we already do"
+          }
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як ви ставитеся до експериментів у сексуальному житті?",
+        "en": "How do you feel about experimenting in your sex life?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Я відкритий/відкрита до нових ідей та пропозицій",
+            "en": "I'm open to new ideas and suggestions"
+          }
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Я готовий/готова до певних експериментів, якщо партнер цього бажає",
+            "en": "I'm ready for some experiments if my partner wants it"
+          }
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Я віддаю перевагу звичним практикам",
+            "en": "I prefer usual practices"
+          }
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Що вам найбільше подобається у вашому партнері під час інтимної взаємодії?",
+        "en": "What do you like most about your partner during intimacy?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Його/її ніжність",
+            "en": "Their tenderness"
+          }
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Його/її впевненість",
+            "en": "Their confidence"
+          }
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Його/її фантазійність",
+            "en": "Their creativity/fantasy"
+          }
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Його/її увага до моїх бажань",
+            "en": "Their attention to my desires"
+          }
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи є у вас певні практики або дії, яких ви б хотіли уникати?",
+        "en": "Are there any practices or actions you would like to avoid?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так (можливість описати)",
+            "en": "Yes (option to describe)"
+          }
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Ні, мені комфортно з усім, що ми пробували",
+            "en": "No, I'm comfortable with everything we've tried"
+          }
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Я не впевнений/впевнена",
+            "en": "I'm not sure"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як би ви описали свої ідеальні інтимні стосунки?",
+        "en": "How would you describe your ideal intimate relationship?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Романтичні та ніжні",
+            "en": "Romantic and tender"
+          }
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Пригодницькі та експериментальні",
+            "en": "Adventurous and experimental"
+          }
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Глибокі та емоційні",
+            "en": "Deep and emotional"
+          }
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Спонтанні та захоплюючі",
+            "en": "Spontaneous and exciting"
+          }
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як часто ви б хотіли обговорювати свої сексуальні бажання з партнером?",
+        "en": "How often would you like to discuss your sexual desires with your partner?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Регулярно (щотижня або частіше)",
+            "en": "Regularly (weekly or more often)"
+          }
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Під час інтимної близькості",
+            "en": "During intimacy"
+          }
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Лише якщо виникає потреба",
+            "en": "Only if needed"
+          }
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ніколи не обговорював/ла, але хотів/ла б почати",
+            "en": "Never discussed, but would like to start"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Що б ви хотіли покращити у своїх сексуальних стосунках?",
+        "en": "What would you like to improve in your sexual relationship?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Більше комунікації",
+            "en": "More communication"
+          }
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Нові практики або експерименти",
+            "en": "New practices or experiments"
+          }
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Більше романтики або ніжності",
+            "en": "More romance or tenderness"
+          }
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Більше відкритості до обговорень",
+            "en": "More openness to discussions"
+          }
+        },
+        {
+          "id": "q9_o5",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи є у вас фантазії або бажання, про які ви соромитеся говорити з партнером?",
+        "en": "Do you have fantasies or desires you are embarrassed to talk about with your partner?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так (можливість описати)",
+            "en": "Yes (option to describe)"
+          }
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Ні, я відкритий/відкрита до обговорень",
+            "en": "No, I'm open to discussions"
+          }
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Можливо, але я не впевнений/впевнена",
+            "en": "Maybe, but I'm not sure"
+          }
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "",
+      "en": ""
+    },
+    "couple": {
+      "ua": "",
+      "en": ""
+    }
+  },
+  "widget_type": "test"
+}

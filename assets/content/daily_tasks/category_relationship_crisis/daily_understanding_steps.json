@@ -1,0 +1,54 @@
+{
+  "id": "daily_understanding_steps",
+  "title": {
+    "ua": "Маленькі кроки до розуміння",
+    "en": "Small Steps to Understanding"
+  },
+  "category_slug": "crisis_in_relationships",
+  "description": {
+    "ua": "Завдання спрямоване на те, щоб ви щодня робили один маленький крок для покращення ваших стосунків.",
+    "en": "This task is designed to help you take one small step every day to improve your relationship."
+  },
+  "steps": [
+    {
+      "number": 1,
+      "ua": "Щоранку подумайте про один жест або дію, яка може покращити ваші стосунки сьогодні.",
+      "en": "Every morning, think of one gesture or action that could improve your relationship today."
+    },
+    {
+      "number": 2,
+      "ua": "Напишіть це в додатку або повідомте партнеру.",
+      "en": "Write it down in the app or share it with your partner."
+    },
+    {
+      "number": 3,
+      "ua": "Ввечері обговоріть результат.",
+      "en": "Discuss the result together in the evening."
+    }
+  ],
+  "widget_type": "notes",
+  "duration": "1 day",
+  "status": "active",
+  "examples": [
+    {
+      "ua": "Сьогодні я постараюсь вислухати тебе без перебивань.",
+      "en": "Today I will try to listen to you without interrupting."
+    },
+    {
+      "ua": "Я надішлю тобі приємне повідомлення протягом дня.",
+      "en": "I will send you a nice message during the day."
+    }
+  ],
+  "tips": [
+    {
+      "ua": "Будьте конкретними у своїх діях.",
+      "en": "Be specific in your actions."
+    },
+    {
+      "ua": "Фокусуйтесь на позитивному.",
+      "en": "Focus on the positive."
+    }
+  ],
+  "free_or_premium": "premium",
+  "image": "steps_to_understanding.png"
+}

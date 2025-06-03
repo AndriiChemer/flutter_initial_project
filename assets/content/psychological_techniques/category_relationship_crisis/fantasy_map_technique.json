@@ -1,0 +1,183 @@
+{
+  "technique": {
+    "id": "fantasy_map_technique",
+    "title": {
+      "ua": "Фантазійна карта",
+      "en": "Fantasy Map"
+    },
+    "description": {
+      "ua": "Ця техніка сприяє відновленню близькості через відкриті обговорення фантазій та бажань. Це допомагає краще розуміти одне одного та створювати атмосферу довіри.",
+      "en": "This technique helps restore intimacy through open discussions of fantasies and desires. It supports deeper understanding and creates an atmosphere of trust."
+    },
+    "goal": {
+      "ua": "Відновити близькість і довіру у стосунках через чесний діалог про фантазії.",
+      "en": "Restore intimacy and trust through honest dialogue about fantasies."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "intimacy-and-sexuality",
+    "widget_type": "conversation",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Мені цікаво спробувати спільний масаж з ароматичними оліями. Як ти ставишся до цього?»",
+        "en": "Partner 1: 'I'm interested in trying a mutual massage with aromatic oils. How do you feel about that?'"
+      },
+      {
+        "ua": "Партнер 2: «Це звучить розслаблююче. Давай обговоримо деталі.»",
+        "en": "Partner 2: 'That sounds relaxing. Let's discuss the details.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не обов'язково реалізовувати всі фантазії — головне, щоб кожен відчував себе почутим.",
+        "en": "You don’t have to act on every fantasy — the main thing is that everyone feels heard."
+      },
+      {
+        "ua": "Залишайте простір для відмови без образ і тиску.",
+        "en": "Leave room for refusal without offense or pressure."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_fantasy_map_technique",
+      "technique_id": "fantasy_map_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Створення безпечного простору",
+        "en": "Creating a Safe Space"
+      },
+      "instruction": {
+        "ua": "Виберіть комфортне місце та час, коли вас не будуть відволікати. Вимкніть телефони та налаштуйтесь на відкритий діалог.",
+        "en": "Choose a comfortable place and time where you won't be distracted. Turn off your phones and prepare for an open dialogue."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені хотілося б обговорити деякі фантазії. Як ти почуваєшся з цим?»",
+          "en": "Partner 1: 'I'd like to talk about some fantasies. How do you feel about that?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Переконайтесь, що обидва партнери готові до відкритої розмови.",
+          "en": "Make sure both partners are ready for an open conversation."
+        },
+        {
+          "ua": "Уникайте тиску — дайте час подумати.",
+          "en": "Avoid pressure — give each other time to reflect."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_fantasy_map_technique",
+      "technique_id": "fantasy_map_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Обмін фантазіями",
+        "en": "Sharing Fantasies"
+      },
+      "instruction": {
+        "ua": "Кожен партнер по черзі ділиться однією або кількома фантазіями, починаючи зі слів: «Мені цікаво було б спробувати...»",
+        "en": "Each partner takes turns sharing one or more fantasies, starting with: 'I would be interested in trying...'"
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені було б цікаво спробувати рольову гру у стилі офісу.»",
+          "en": "Partner 1: 'I would be interested in trying an office role-play game.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені подобається ідея спільного масажу з ароматичними оліями.»",
+          "en": "Partner 2: 'I like the idea of a mutual massage with aromatic oils.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не переривайте партнера під час його черги.",
+          "en": "Don't interrupt your partner during their turn."
+        },
+        {
+          "ua": "Вислуховуйте без критики або сарказму.",
+          "en": "Listen without criticism or sarcasm."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_fantasy_map_technique",
+      "technique_id": "fantasy_map_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Рефлексія та обговорення",
+        "en": "Reflection and Discussion"
+      },
+      "instruction": {
+        "ua": "Після обміну фантазіями поділіться своїми емоціями. Чи були фантазії, які викликали інтерес або, навпаки, дискомфорт?",
+        "en": "After sharing fantasies, discuss your emotions. Were there any fantasies that sparked interest or, on the contrary, discomfort?"
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені було цікаво почути про твої фантазії. Але деякі моменти викликали у мене тривогу.»",
+          "en": "Partner 1: 'It was interesting to hear your fantasies. But some moments made me feel anxious.'"
+        },
+        {
+          "ua": "Партнер 2: «Я готовий(а) обговорити це. Що саме тебе турбує?»",
+          "en": "Partner 2: 'I am ready to discuss this. What exactly is worrying you?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Запитуйте уточнення, якщо щось було незрозуміло.",
+          "en": "Ask for clarification if something was unclear."
+        },
+        {
+          "ua": "Фокусуйтесь на своїх почуттях, а не на критиці фантазій партнера.",
+          "en": "Focus on your feelings, not on criticizing your partner's fantasies."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_fantasy_map_technique",
+      "technique_id": "fantasy_map_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Вибір спільних бажань",
+        "en": "Choosing Shared Desires"
+      },
+      "instruction": {
+        "ua": "Оберіть одну або дві фантазії, які обидва партнери готові обговорити глибше або спробувати. Домовтесь про межі та комфортні умови.",
+        "en": "Select one or two fantasies that both partners are willing to discuss further or try. Agree on boundaries and comfortable conditions."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Мені цікаво спробувати рольову гру, але важливо, щоб ми обговорили межі заздалегідь.»",
+          "en": "Partner 1: 'I'm interested in trying a role-play, but it's important for us to discuss boundaries in advance.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не намагайтеся реалізувати всі фантазії одразу.",
+          "en": "Do not try to fulfill all fantasies at once."
+        },
+        {
+          "ua": "Запропонуйте безпечне слово для зупинки, якщо хтось почувається некомфортно.",
+          "en": "Suggest a safe word to stop if someone feels uncomfortable."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

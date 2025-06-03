@@ -1,0 +1,321 @@
+[
+  {
+    "id": "compliments-during-conflict",
+    "title": {
+      "ua": "Компліменти під час конфлікту",
+      "en": "Compliments During Conflict"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Це завдання допомагає знизити рівень напруги під час конфлікту, використовуючи позитивні слова та компліменти. Важливо пам’ятати, що навіть під час суперечки можна висловлювати вдячність та похвалу.",
+      "en": "This task helps to reduce tension during conflict by using positive words and compliments. Remember, even during disagreements you can express gratitude and appreciation."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Визначте момент конфлікту або суперечки з партнером.",
+        "en": "Identify a moment of conflict or argument with your partner."
+      },
+      {
+        "number": 2,
+        "ua": "Під час розмови свідомо зробіть комплімент партнеру або висловіть вдячність.",
+        "en": "Consciously give your partner a compliment or express gratitude during the conversation."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як комплімент вплинув на атмосферу розмови.",
+        "en": "Discuss how the compliment affected the atmosphere of your conversation."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "10 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Незважаючи на наш конфлікт, я ціную твоє бажання обговорити це разом.",
+        "en": "Despite our conflict, I appreciate your willingness to talk it through with me."
+      },
+      {
+        "ua": "Мені подобається, як ти намагаєшся зберігати спокій у складних ситуаціях.",
+        "en": "I like how you try to stay calm in difficult situations."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Спробуйте робити компліменти щиро, навіть під час важких розмов.",
+        "en": "Try to give compliments sincerely, even during tough conversations."
+      },
+      {
+        "ua": "Пам’ятайте, що компліменти допомагають знизити напругу та створити більш позитивний тон.",
+        "en": "Remember, compliments help lower tension and set a more positive tone."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "creating-shared-plan",
+    "title": {
+      "ua": "Створення спільного плану",
+      "en": "Creating a Shared Plan"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Це завдання допомагає партнерам створити спільний план для подолання кризи у стосунках. Воно сприяє побудові довіри та спільного бачення майбутнього.",
+      "en": "This task helps partners create a shared plan to overcome relationship crisis. It builds trust and a shared vision for the future."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Обговоріть з партнером, які аспекти стосунків потребують покращення.",
+        "en": "Discuss which aspects of your relationship need improvement."
+      },
+      {
+        "number": 2,
+        "ua": "Разом створіть список цілей та завдань, які ви готові виконати для покращення стосунків.",
+        "en": "Create a list of goals and actions you are both ready to take to improve your relationship."
+      },
+      {
+        "number": 3,
+        "ua": "Визначте, хто за що відповідальний та встановіть часові рамки для досягнення цілей.",
+        "en": "Decide who is responsible for what and set timeframes for achieving your goals."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я готовий/готова більше слухати тебе без перебивань.",
+        "en": "I'm ready to listen to you more without interrupting."
+      },
+      {
+        "ua": "Я постараюсь бути більш відкритим/відкритою у розмовах.",
+        "en": "I'll try to be more open in our conversations."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Ставте реалістичні цілі та розподіляйте відповідальність рівномірно.",
+        "en": "Set realistic goals and distribute responsibility evenly."
+      },
+      {
+        "ua": "Переглядайте план регулярно та коригуйте його за необхідності.",
+        "en": "Review and adjust your plan regularly as needed."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "no-criticism-day",
+    "title": {
+      "ua": "День без критики",
+      "en": "No Criticism Day"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Це завдання спрямоване на те, щоб партнери намагалися уникати критики один одного протягом цілого дня. Замість цього слід акцентувати увагу на позитивних моментах.",
+      "en": "This task encourages partners to avoid criticizing each other for an entire day, focusing instead on the positives."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Визначте день, коли ви обидва не будете критикувати один одного.",
+        "en": "Pick a day when neither of you will criticize each other."
+      },
+      {
+        "number": 2,
+        "ua": "Спробуйте помічати та відзначати позитивні дії партнера.",
+        "en": "Notice and acknowledge your partner’s positive actions."
+      },
+      {
+        "number": 3,
+        "ua": "В кінці дня обговоріть, як ви себе почували та що нового помітили.",
+        "en": "At the end of the day, discuss how you felt and what you noticed."
+      }
+    ],
+    "widget_type": "daily_challenge",
+    "duration": "1 day",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Сьогодні я помітив/помітила, як ти допомагаєш мені без прохань.",
+        "en": "Today I noticed how you helped me without being asked."
+      },
+      {
+        "ua": "Мені сподобалось, що ти підтримав/підтримала мене у розмові.",
+        "en": "I liked how you supported me in the conversation."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Під час завдання звертайте увагу на позитивні моменти.",
+        "en": "Pay attention to positive moments during this task."
+      },
+      {
+        "ua": "Обговоріть, як змінилося ваше сприйняття один одного.",
+        "en": "Discuss how your perception of each other has changed."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "exploring-love-languages",
+    "title": {
+      "ua": "Вивчення любовних мов",
+      "en": "Exploring Love Languages"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Це завдання допомагає партнерам краще розуміти мову любові один одного та знаходити способи її вираження.",
+      "en": "This task helps partners better understand each other’s love language and find ways to express it."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Пройдіть тест на визначення мов любові.",
+        "en": "Take a love languages test."
+      },
+      {
+        "number": 2,
+        "ua": "Поділіться результатами з партнером.",
+        "en": "Share your results with your partner."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як ви можете краще задовольняти потреби один одного.",
+        "en": "Discuss how you can better meet each other's needs."
+      }
+    ],
+    "widget_type": "test",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Мені важливий фізичний контакт, тому обійми для мене значать багато.",
+        "en": "Physical touch is important to me, so hugs mean a lot."
+      },
+      {
+        "ua": "Я відчуваю любов, коли ти приділяєш мені увагу та час.",
+        "en": "I feel loved when you give me your time and attention."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Використовуйте отримані знання для побудови кращих стосунків.",
+        "en": "Use what you learn to build a better relationship."
+      },
+      {
+        "ua": "Регулярно обговорюйте ваші мови любові та адаптуйте свої дії.",
+        "en": "Discuss your love languages regularly and adjust your actions."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "mutual-care",
+    "title": {
+      "ua": "Взаємна турбота",
+      "en": "Mutual Care"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Це завдання допомагає партнерам розуміти потреби один одного через практику турботи та підтримки.",
+      "en": "This task helps partners understand each other’s needs through acts of care and support."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Запитайте у партнера, чим ви можете допомогти або підтримати його сьогодні.",
+        "en": "Ask your partner how you can help or support them today."
+      },
+      {
+        "number": 2,
+        "ua": "Зробіть те, що попросив партнер.",
+        "en": "Do what your partner asked."
+      },
+      {
+        "number": 3,
+        "ua": "Поділіться своїми відчуттями та дякуйте за взаємність.",
+        "en": "Share your feelings and thank your partner for their reciprocity."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Можеш допомогти мені розслабитися після роботи?",
+        "en": "Can you help me relax after work?"
+      },
+      {
+        "ua": "Звичайно, я зроблю тобі масаж.",
+        "en": "Of course, I'll give you a massage."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Намагайтеся бути відкритими до прохань партнера.",
+        "en": "Try to be open to your partner’s requests."
+      },
+      {
+        "ua": "Висловлюйте вдячність за допомогу.",
+        "en": "Express gratitude for any help received."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "daily_understanding_steps",
+    "title": {
+      "ua": "Маленькі кроки до розуміння",
+      "en": "Small Steps to Understanding"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Завдання спрямоване на те, щоб ви щодня робили один маленький крок для покращення ваших стосунків.",
+      "en": "This task is designed to help you take one small step every day to improve your relationship."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Щоранку подумайте про один жест або дію, яка може покращити ваші стосунки сьогодні.",
+        "en": "Every morning, think of one gesture or action that could improve your relationship today."
+      },
+      {
+        "number": 2,
+        "ua": "Напишіть це в додатку або повідомте партнеру.",
+        "en": "Write it down in the app or share it with your partner."
+      },
+      {
+        "number": 3,
+        "ua": "Ввечері обговоріть результат.",
+        "en": "Discuss the result together in the evening."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "1 day",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Сьогодні я постараюсь вислухати тебе без перебивань.",
+        "en": "Today I will try to listen to you without interrupting."
+      },
+      {
+        "ua": "Я надішлю тобі приємне повідомлення протягом дня.",
+        "en": "I will send you a nice message during the day."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Будьте конкретними у своїх діях.",
+        "en": "Be specific in your actions."
+      },
+      {
+        "ua": "Фокусуйтесь на позитивному.",
+        "en": "Focus on the positive."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "steps_to_understanding.png"
+  }
+]

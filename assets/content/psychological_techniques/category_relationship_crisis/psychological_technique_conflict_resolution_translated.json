@@ -1,0 +1,227 @@
+{
+  "technique": {
+    "id": "conflict_resolution_technique",
+    "title": {
+      "ua": "Техніка примирення",
+      "en": "Reconciliation Technique"
+    },
+    "description": {
+      "ua": "Ця техніка надає структурований алгоритм для вирішення конфліктів...",
+      "en": "This technique provides a structured algorithm for resolving conflicts. It focuses on emotional de-escalation, constructive dialogue, and compromise through clear steps."
+    },
+    "goal": {
+      "ua": "Навчитися розв'язувати конфлікти конструктивно й емоційно безпечно.",
+      "en": "Learn to resolve conflicts constructively and emotionally safely."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflicts-and-arguments",
+    "widget_type": "notes",
+    "duration": "45 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Мені важко, коли ти не відповідаєш на мої повідомлення.»",
+        "en": "Partner 1: 'It’s hard for me when you don’t reply to my messages.'"
+      },
+      {
+        "ua": "Партнер 2: «Я розумію, що тобі важливо відчувати мою увагу. Давай домовимось про один дзвінок щодня.»",
+        "en": "Partner 2: 'I understand it’s important for you to feel my attention. Let’s agree on one call per day.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не намагайтесь виграти конфлікт – шукайте спільне рішення.",
+        "en": "Don’t try to win the conflict — seek a joint solution."
+      },
+      {
+        "ua": "Фокусуйтесь на своїх почуттях, а не на діях партнера.",
+        "en": "Focus on your feelings, not on your partner’s actions."
+      },
+      {
+        "ua": "Записуйте нові домовленості – це допоможе уникнути плутанини.",
+        "en": "Write down new agreements — it helps avoid confusion."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T16:53:42.985636Z",
+    "updated_at": "2025-05-26T16:53:42.985636Z"
+  },
+  "technique_steps": [
+    {
+      "id": "182466cf-bb42-4c5b-8839-a6c3a7f2518d",
+      "technique_id": "conflict_resolution_technique",
+      "step_number": 1,
+      "title": {
+        "ua": "Заспокоєння емоцій",
+        "en": "Calming Emotions"
+      },
+      "instruction": {
+        "ua": "Якщо емоції надто сильні, дайте собі та партнеру 5-10 хвилин на заспокоєння...",
+        "en": "If emotions are too intense, give yourself and your partner 5–10 minutes to calm down. Use this time for deep breathing or a short walk."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я зараз дуже роздратований. Давай зробимо паузу на 10 хвилин, щоб заспокоїтись.»",
+          "en": "Partner 1: 'I'm very irritated right now. Let's take a 10-minute break to calm down.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не використовуйте цей час для побудови контраргументів.",
+          "en": "Don’t use this time to build counterarguments."
+        },
+        {
+          "ua": "Сфокусуйтесь на диханні або спокійній музиці.",
+          "en": "Focus on breathing or calming music."
+        }
+      ],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "4c95ae8d-58d7-460b-baaf-5b022221c17c",
+      "technique_id": "conflict_resolution_technique",
+      "step_number": 2,
+      "title": {
+        "ua": "Висловлення почуттів через 'Я-повідомлення'",
+        "en": "Expressing Feelings with 'I-Statements'"
+      },
+      "instruction": {
+        "ua": "Кожен по черзі висловлює свої почуття без звинувачень...",
+        "en": "Each person takes turns expressing their feelings without blame using: 'When you..., I feel..., because...'"
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Коли ти не відповідаєш на мої повідомлення протягом дня, я відчуваю себе ігнорованим... »",
+          "en": "Partner 1: 'When you don’t respond to my messages during the day, I feel ignored...'"
+        },
+        {
+          "ua": "Партнер 2: «Коли ти різко реагуєш на мої слова, я почуваюся атакованим...»",
+          "en": "Partner 2: 'When you react sharply to my words, I feel attacked...'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на своїх емоціях, а не на діях партнера.",
+          "en": "Focus on your emotions, not your partner’s actions."
+        },
+        {
+          "ua": "Не використовуйте формати: «Ти завжди...», «Ти ніколи...».",
+          "en": "Avoid phrases like 'You always...' or 'You never...'."
+        }
+      ],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "a38967ff-dc2b-44c1-8019-46ee2bb95de2",
+      "technique_id": "conflict_resolution_technique",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення шляхів вирішення",
+        "en": "Exploring Solutions Together"
+      },
+      "instruction": {
+        "ua": "Разом обговоріть 2-3 можливих варіанти вирішення конфлікту...",
+        "en": "Together, discuss 2–3 possible solutions to the conflict. Write down each option and evaluate its feasibility."
+      },
+      "duration": "15 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Якщо ми домовимось про один дзвінок протягом дня...»",
+          "en": "Partner 1: 'If we agree on one phone call a day...'"
+        },
+        {
+          "ua": "Партнер 2: «Мені потрібно трохи більше часу для відповіді...»",
+          "en": "Partner 2: 'I need a bit more time to reply...'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Уникайте 'ти маєш зробити це' — формулюйте 'що ми можемо зробити разом'.",
+          "en": "Avoid 'you should do this' — say 'what can we do together'."
+        },
+        {
+          "ua": "Переконайтесь, що обидва партнери погоджуються на рішення.",
+          "en": "Make sure both partners agree on the solution."
+        }
+      ],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "db2f8050-fdda-4da4-8417-75d98c50ba3b",
+      "technique_id": "conflict_resolution_technique",
+      "step_number": 4,
+      "title": {
+        "ua": "Фіксація домовленості",
+        "en": "Agreeing and Writing It Down"
+      },
+      "instruction": {
+        "ua": "Запишіть спільне рішення і домовтесь про часові рамки його реалізації...",
+        "en": "Write down your mutual decision and agree on a timeframe. Set a follow-up checkpoint — in a week or a few days."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Рішення: «Щоранку ми надсилаємо одне коротке повідомлення...»",
+          "en": "Decision: 'Every morning we send each other a short message...'"
+        },
+        {
+          "ua": "Перевірка: «Через тиждень обговоримо, чи це допомогло...»",
+          "en": "Review: 'We’ll discuss in a week if this helped...'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не обирайте надто багато нових правил — 1-2 цілком достатньо.",
+          "en": "Don’t choose too many new rules — 1–2 is enough."
+        },
+        {
+          "ua": "Запишіть рішення в нотатник або календар.",
+          "en": "Write the decision in a notebook or calendar."
+        }
+      ],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    },
+    {
+      "id": "3ec8ba4b-74a9-477a-9fb9-6a09f9bbf961",
+      "technique_id": "conflict_resolution_technique",
+      "step_number": 5,
+      "title": {
+        "ua": "Оцінка результатів",
+        "en": "Evaluating the Results"
+      },
+      "instruction": {
+        "ua": "Через 3-7 днів обговоріть, як реалізація рішення вплинула на ваші емоції...",
+        "en": "After 3–7 days, discuss how the decision affected your feelings and relationship. Adjust if needed."
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Для мене було важливо отримати твоє повідомлення вранці...»",
+          "en": "Partner 1: 'Getting your message in the morning made me feel more connected.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені було складно не забувати про повідомлення...»",
+          "en": "Partner 2: 'It was hard for me to remember the message, but I’m willing to continue.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Ставте акцент на тому, що вийшло добре...",
+          "en": "Focus on what went well..."
+        },
+        {
+          "ua": "Запитайте партнера: «Що б ти хотів змінити у цій домовленості?»",
+          "en": "Ask your partner: 'What would you like to change in this agreement?'"
+        }
+      ],
+      "created_at": "2025-05-26T16:53:42.985636Z",
+      "updated_at": "2025-05-26T16:53:42.985636Z"
+    }
+  ]
+}

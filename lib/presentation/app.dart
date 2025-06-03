@@ -55,7 +55,9 @@ Future<void> runMainApp(AppEnv appEnv) async {
         ),
       );
     },
-    (error, stackTrace) {},
+    (error, stackTrace) {
+      print('ANDRII global error: $error, stackTrace: $stackTrace');
+    },
   );
 }
 

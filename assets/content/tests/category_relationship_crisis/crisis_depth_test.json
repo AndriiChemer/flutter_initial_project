@@ -1,0 +1,572 @@
+{
+  "id": "crisis_depth_test",
+  "title": {
+    "ua": "Наскільки глибока криза у ваших стосунках?",
+    "en": "How Deep Is the Crisis in Your Relationship?"
+  },
+  "level": {
+    "ua": "Глибокий",
+    "en": "Deep"
+  },
+  "description": {
+    "ua": "Тест складається з 12 запитань із описовими варіантами відповідей, що відображають емоції та поведінку партнерів у кризових ситуаціях. Він допоможе визначити, наскільки серйозною є криза у ваших стосунках та які моделі поведінки проявляються. Ви отримаєте оцінку стану стосунків і персональні рекомендації щодо подальших кроків — як індивідуально, так і для вас обох як пари.",
+    "en": "This test contains 12 questions with descriptive answer options that reflect emotions and partner behaviors in crisis situations. It helps determine how serious the crisis in your relationship is and what behavioral patterns are present. You’ll receive an assessment and personal recommendations for both individual and couple’s next steps."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ваш партнер реагує на конфлікти у стосунках?",
+        "en": "How does your partner react to conflicts in the relationship?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Партнер готовий спокійно обговорити проблему і вислухати мене; конфлікти здебільшого вирішуємо мирно.",
+            "en": "My partner is ready to calmly discuss the problem and listen to me; we usually resolve conflicts peacefully."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Спочатку він/вона дратується або засмучується, але після паузи ми намагаємося знайти спільне рішення.",
+            "en": "First, he/she gets irritated or upset, but after a pause we try to find a joint solution."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто реагує різко: звинувачує мене, підвищує голос, і сварка швидко набирає обертів.",
+            "en": "Often reacts sharply: blames me, raises their voice, and the quarrel quickly escalates."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Він/вона закривається в собі або демонстративно йде, не бажаючи обговорювати проблему зовсім.",
+            "en": "He/she shuts down or leaves, refusing to discuss the problem at all."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Коли вам погано або ви засмучені, як реагує партнер?",
+        "en": "When you feel bad or upset, how does your partner react?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Уважно слухає, співчуває та намагається підтримати мене у важкі моменти.",
+            "en": "Listens carefully, empathizes and tries to support me in difficult moments."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Помітно, що партнер хвилюється за мене, але часто не знає, як допомогти, і виглядає розгубленим.",
+            "en": "It's clear that my partner worries about me but often doesn't know how to help and looks confused."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Здебільшого він/вона не звертає уваги на мої переживання або швидко переводить розмову на себе.",
+            "en": "Mostly, he/she ignores my feelings or quickly changes the subject to themselves."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Нерідко партнер дратується через мої емоції і може сказати щось на кшталт: 'сам/сама розбирайся зі своїми проблемами'.",
+            "en": "Often my partner gets irritated by my emotions and might say something like 'deal with your problems yourself.'"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як би ви оцінили рівень довіри між вами та партнером?",
+        "en": "How would you rate the level of trust between you and your partner?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Ми повністю довіряємо одне одному: відкрито ділимося думками, почуттями і планами.",
+            "en": "We completely trust each other: we openly share our thoughts, feelings and plans."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Бували непорозуміння, але загалом ми намагаємося зберігати відвертість і довіру.",
+            "en": "There have been misunderstandings, but overall we try to maintain openness and trust."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Довіри небагато: я часто сумніваюся в правдивості його/її слів або не наважуюся розповісти про свої справжні почуття.",
+            "en": "There is little trust: I often doubt the truthfulness of their words or do not dare to tell my real feelings."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Відчуваю постійні підозри чи ревнощі: здається, ніби партнер щось приховує від мене або обманює.",
+            "en": "I feel constant suspicion or jealousy: it seems my partner is hiding something or deceiving me."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як часто між вами виникають серйозні конфлікти?",
+        "en": "How often do serious conflicts arise between you?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Дуже рідко – у нас майже не буває серйозних сварок.",
+            "en": "Very rarely – we almost never have serious arguments."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Іноді трапляються сварки, але зазвичай ми швидко миримося і забуваємо про непорозуміння.",
+            "en": "Sometimes we argue, but usually make up quickly and forget misunderstandings."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Конфлікти виникають доволі часто, і нерідко вони закінчуються образами або сльозами.",
+            "en": "Conflicts occur quite often, and they often end with hurt or tears."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ми сваримося майже постійно: тиждень без гучної сварки – це вже рідкість.",
+            "en": "We quarrel almost constantly: a week without a loud quarrel is already rare."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Що зазвичай відбувається після сварки?",
+        "en": "What usually happens after a quarrel?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Ми спокійно обговорюємо ситуацію: кожен визнає свою роль у конфлікті, просимо вибачення і робимо висновки на майбутнє.",
+            "en": "We calmly discuss the situation: each admits their role in the conflict, apologize, and draw conclusions for the future."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Через деякий час один із нас іде на примирення, і ми миримося, хоч проблема може залишитися не до кінця вирішеною.",
+            "en": "After some time, one of us makes up, but the problem may remain unresolved."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Після сварки ми певний час не спілкуємося, а згодом удаємо, ніби нічого не сталося, не розібравшись у ситуації по-справжньому.",
+            "en": "After a quarrel, we don't communicate for a while and then pretend nothing happened, without really resolving things."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Образа залишається надовго: можемо днями чи тижнями уникати одне одного, а старі образи спливають при наступних конфліктах.",
+            "en": "Resentment lingers for a long time: we can avoid each other for days or weeks, and old grudges resurface in new conflicts."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Яка загалом емоційна атмосфера у ваших стосунках останнім часом?",
+        "en": "What is the general emotional atmosphere in your relationship lately?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Переважно тепла й підтримуюча, хоч інколи трапляються незначні напружені моменти.",
+            "en": "Mostly warm and supportive, with only minor tense moments."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Досить нестабільна: є хороші дні, але стає дедалі більше напруги та відчуження.",
+            "en": "Rather unstable: there are good days, but increasing tension and alienation."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Відчувається прохолода і віддаленість майже постійно; радісні моменти стали рідкістю.",
+            "en": "Coldness and distance are felt almost constantly; happy moments are rare."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Атмосфера дуже важка: я майже весь час відчуваю стрес, тривогу або смуток поруч із партнером.",
+            "en": "The atmosphere is very heavy: I almost always feel stress, anxiety, or sadness around my partner."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи виникають у вас думки про розставання або перерву у стосунках?",
+        "en": "Do you have thoughts about breaking up or taking a break in the relationship?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ні, навіть у важкі моменти ми не думаємо про розрив, а зосереджуємося на тому, щоб працювати над стосунками.",
+            "en": "No, even in difficult moments we don't think about breaking up, but focus on working on the relationship."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Лише зрідка під час сильних сварок з’являються такі думки, але зрештою ми обидва хочемо бути разом.",
+            "en": "Only occasionally during major quarrels do such thoughts arise, but we both want to be together."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Все частіше ловлю себе на думці, що, можливо, нам потрібна перерва або навіть розставання.",
+            "en": "More and more often I find myself thinking we may need a break or even separation."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Так, я серйозно замислююсь про розрив стосунків, і партнер вже відкрито говорить про можливість розставання.",
+            "en": "Yes, I seriously consider breaking up, and my partner openly talks about the possibility of separation."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як партнер реагує, коли ви відкрито говорите про свої почуття та переживання?",
+        "en": "How does your partner react when you openly talk about your feelings and experiences?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Він/вона уважно слухає і намагається зрозуміти мене, ставиться серйозно до моїх почуттів.",
+            "en": "He/she listens attentively and tries to understand me, taking my feelings seriously."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Слухає, але часто швидко переводить розмову на себе або пропонує рішення, не до кінця вислухавши.",
+            "en": "Listens, but often quickly switches to themselves or offers solutions without fully listening."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Нерідко знецінює мої емоції: каже, що я перебільшую або надто драматизую ситуацію.",
+            "en": "Often dismisses my feelings: says I'm exaggerating or overdramatizing."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Відверто відкидає мої слова: може ігнорувати те, що я кажу, сердитися або навіть глузувати з моїх переживань.",
+            "en": "Openly rejects my words: may ignore what I say, get angry or even mock my feelings."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи відчуваєте ви повагу та цінність з боку партнера під час кризи?",
+        "en": "Do you feel respected and valued by your partner during a crisis?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, попри теперішні труднощі, партнер все одно ставиться до мене з повагою і показує, що я для нього/неї багато значу.",
+            "en": "Yes, despite current difficulties, my partner still treats me with respect and shows that I mean a lot to them."
+          },
+          "score": 1
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Здебільшого так, хоча в запалі сварки він/вона інколи може сказати щось образливе (а пізніше про це шкодує).",
+            "en": "Mostly yes, although in the heat of arguments, they sometimes say hurtful things (and later regret it)."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Останнім часом я часто почуваюся так, ніби мене не цінують або навіть зневажають.",
+            "en": "Lately, I often feel that I'm not valued or even disrespected."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Я відчуваю постійну неповагу — партнер дозволяє собі принизливі висловлювання або грубу поведінку щодо мене.",
+            "en": "I feel constant disrespect — my partner allows themselves humiliating remarks or rude behavior toward me."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Як ви обоє намагаєтесь подолати нинішню кризу у стосунках?",
+        "en": "How are you both trying to overcome the current crisis in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Ми відкрито і чесно обговорюємо проблеми; обидва активно шукаємо способи покращити ситуацію.",
+            "en": "We openly and honestly discuss problems; both actively seek ways to improve things."
+          },
+          "score": 1
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Іноді виділяємо час на розмови про наші стосунки та намагаємося змінитися на краще, але за деякий час все повертається, як було.",
+            "en": "Sometimes we make time to talk and try to change for the better, but things go back to how they were."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Серйозної роботи над стосунками майже немає: уникаємо глибоких розмов, і кожен з нас замикається у власних переживаннях.",
+            "en": "There is almost no real work on the relationship: we avoid deep talks and each withdraws into themselves."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Складається враження, що лише я намагаюся щось змінити; партнер не проявляє ініціативи і пускає все на самоплив.",
+            "en": "It feels like only I am trying to change things; my partner doesn't show initiative and lets things drift."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Як у вашій парі вирішуються дрібні розбіжності чи непорозуміння?",
+        "en": "How do you resolve small disagreements or misunderstandings in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Ми спокійно обговорюємо навіть дрібні розбіжності й швидко знаходимо компроміс.",
+            "en": "We calmly discuss even minor disagreements and quickly find a compromise."
+          },
+          "score": 1
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Бувають короткі суперечки, але вони швидко згасають і не впливають на наші відносини.",
+            "en": "There are short quarrels, but they fade quickly and don't affect our relationship."
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Навіть невеликі непорозуміння часто переростають у більший конфлікт або залишають по собі неприємний осад.",
+            "en": "Even small misunderstandings often turn into bigger conflicts or leave an unpleasant aftertaste."
+          },
+          "score": 3
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Будь-яка дрібниця може спричинити велику сварку; здається, ніби ми живемо як на пороховій бочці.",
+            "en": "Any little thing can cause a big fight; it feels like we're living on a powder keg."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": {
+        "ua": "Як ви зараз уявляєте спільне майбутнє з партнером в умовах цієї кризи?",
+        "en": "How do you currently imagine a shared future with your partner in this crisis?"
+      },
+      "options": [
+        {
+          "id": "q12_o1",
+          "text": {
+            "ua": "Вірю, що ми подолаємо ці труднощі і зрештою станемо ще міцнішою парою.",
+            "en": "I believe we will overcome these difficulties and eventually become a stronger couple."
+          },
+          "score": 1
+        },
+        {
+          "id": "q12_o2",
+          "text": {
+            "ua": "Сподіваюся на позитивні зміни, хоча інколи непокоюся за наше спільне майбутнє.",
+            "en": "I hope for positive changes, although sometimes I worry about our future together."
+          },
+          "score": 2
+        },
+        {
+          "id": "q12_o3",
+          "text": {
+            "ua": "У мене багато сумнівів щодо майбутнього; я не відчуваю впевненості, що нам вдасться все налагодити.",
+            "en": "I have many doubts about the future; I don't feel confident that we will manage to fix everything."
+          },
+          "score": 3
+        },
+        {
+          "id": "q12_o4",
+          "text": {
+            "ua": "Почуваюся близьким до відчаю і майже не бачу спільного майбутнього, якщо все залишатиметься, як є.",
+            "en": "I feel close to despair and see almost no shared future if things stay as they are."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        12,
+        24
+      ],
+      "title": {
+        "ua": "Мінімальні прояви кризи",
+        "en": "Minimal Crisis Signs"
+      },
+      "description": {
+        "ua": "Ймовірно, ваші стосунки здебільшого стабільні, а проблеми незначні й цілком розв’язні. Ви добре розумієте одне одного, і хоча інколи виникає напруга, серйозного розладу немає.",
+        "en": "Your relationship is mostly stable, with only minor and solvable issues. You understand each other well and, although there may be some tension, there is no serious disruption."
+      }
+    },
+    {
+      "range": [
+        25,
+        36
+      ],
+      "title": {
+        "ua": "Помірна криза",
+        "en": "Moderate Crisis"
+      },
+      "description": {
+        "ua": "У ваших стосунках є помітні труднощі та невирішені конфлікти. Ви переживаєте період напруги та відчуження, але ситуацію ще можна виправити. Важливо відверто обговорити проблеми і спільно працювати над ними.",
+        "en": "Your relationship has noticeable difficulties and unresolved conflicts. You are experiencing a period of tension and alienation, but the situation can still be improved. It is important to discuss problems openly and work on them together."
+      }
+    },
+    {
+      "range": [
+        37,
+        48
+      ],
+      "title": {
+        "ua": "Глибока криза",
+        "en": "Deep Crisis"
+      },
+      "description": {
+        "ua": "Стосунки перебувають у серйозній небезпеці: конфлікти часті й гострі, емоційний зв’язок ослаб. Потрібні негайні спільні зусилля, щирі розмови та, можливо, допомога фахівця.",
+        "en": "The relationship is in serious danger: conflicts are frequent and acute, emotional connection is weak. Immediate joint efforts, honest conversations, and possibly professional help are needed."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Почніть із себе: чесно оцініть власні почуття і роль у конфліктах. Дбайте про свій емоційний стан, звертайтеся за підтримкою до близьких чи фахівця, і уникайте поспішних рішень на емоціях.",
+      "en": "Start with yourself: honestly assess your feelings and role in conflicts. Take care of your emotional state, seek support from friends or professionals, and avoid hasty decisions made in the heat of emotions."
+    },
+    "couple": {
+      "ua": "Зосередьтеся на відновленні довіри й діалозі. Обговорюйте проблеми відкрито й спокійно, встановіть правила під час сварок, поверніть у стосунки приємні спільні моменти та зверніться до сімейного психолога, якщо потрібно.",
+      "en": "Focus on rebuilding trust and dialogue. Discuss problems openly and calmly, set rules during arguments, bring pleasant moments back to your relationship, and consult a family psychologist if necessary."
+    }
+  },
+  "widget_type": "quiz"
+}

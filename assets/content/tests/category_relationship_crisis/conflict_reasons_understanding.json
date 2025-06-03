@@ -1,0 +1,531 @@
+{
+  "id": "conflict_reasons_understanding",
+  "title": {
+    "ua": "Розуміння причин конфліктів",
+    "en": "Understanding the Reasons for Conflict"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити основні причини конфліктів у стосунках та знайти способи їх уникнення. Він допоможе зрозуміти, які аспекти комунікації або поведінки спричиняють найбільше напруження.",
+    "en": "This test helps you identify the main reasons for conflicts in your relationship and find ways to avoid them. It shows which aspects of communication or behavior create the most tension."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте, коли партнер критикує вас?",
+        "en": "How do you usually react when your partner criticizes you?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Визнаю свою помилку та намагаюся змінити ситуацію.",
+            "en": "Admit my mistake and try to change the situation."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Пояснюю свою точку зору, але приймаю критику.",
+            "en": "Explain my point of view, but accept criticism."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Захищаюся та намагаюся виправдатися.",
+            "en": "Defend myself and try to justify."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ігнорую критику або різко відповідаю.",
+            "en": "Ignore criticism or respond sharply."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як часто у вас виникають конфлікти через нерозуміння або неправильне сприйняття слів партнера?",
+        "en": "How often do conflicts arise due to misunderstanding or misinterpreting your partner’s words?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Дуже рідко.",
+            "en": "Very rarely."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Інколи, але ми швидко розбираємося.",
+            "en": "Sometimes, but we sort things out quickly."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Досить часто.",
+            "en": "Quite often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Що ви зазвичай робите, коли конфлікт триває довше, ніж очікувалось?",
+        "en": "What do you usually do when a conflict lasts longer than expected?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Намагаюся знайти компроміс.",
+            "en": "Try to find a compromise."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Слухаю партнера, але не завжди приймаю його точку зору.",
+            "en": "Listen to my partner but don’t always accept their view."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Відчуваю роздратування та уникаю розмови.",
+            "en": "Feel irritated and avoid the conversation."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Замикаюся у собі та відмовляюся обговорювати проблему.",
+            "en": "Withdraw and refuse to discuss the problem."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер не погоджується з вами?",
+        "en": "How do you react when your partner disagrees with you?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Приймаю іншу точку зору та намагаюся знайти спільне рішення.",
+            "en": "Accept the other point of view and look for a joint solution."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Слухаю, але не завжди погоджуюся.",
+            "en": "Listen but don’t always agree."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Наполягаю на своєму.",
+            "en": "Insist on my opinion."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ігнорую думку партнера.",
+            "en": "Ignore my partner’s opinion."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Що ви робите, якщо партнер ображається на ваші слова чи вчинки?",
+        "en": "What do you do if your partner is hurt by your words or actions?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Питаю, що саме його образило, та намагаюся вибачитися.",
+            "en": "Ask what hurt them and try to apologize."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Пояснюю свою позицію, але не завжди вибачаюся.",
+            "en": "Explain my position but don’t always apologize."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Сприймаю це як несправедливу критику.",
+            "en": "Take it as unfair criticism."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Уникаю обговорення та роблю вигляд, що все гаразд.",
+            "en": "Avoid discussion and pretend everything is fine."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте на прояви ревнощів з боку партнера?",
+        "en": "How do you usually react to your partner’s jealousy?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Пояснюю свою поведінку та намагаюся заспокоїти партнера.",
+            "en": "Explain my behavior and try to reassure my partner."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Слухаю, але вважаю ревнощі необґрунтованими.",
+            "en": "Listen but consider jealousy unfounded."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Захищаюся та намагаюся довести свою правоту.",
+            "en": "Defend myself and try to prove I’m right."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ігнорую або реагую агресивно.",
+            "en": "Ignore or react aggressively."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як часто ви відчуваєте, що партнер вас не розуміє?",
+        "en": "How often do you feel your partner doesn’t understand you?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Дуже рідко.",
+            "en": "Very rarely."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Інколи, але ми завжди обговорюємо проблему.",
+            "en": "Sometimes, but we always discuss the issue."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Досить часто.",
+            "en": "Quite often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте, коли партнер не підтримує ваші плани чи ідеї?",
+        "en": "How do you usually react when your partner doesn’t support your plans or ideas?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Вислуховую та намагаюся знайти компроміс.",
+            "en": "Listen and try to find a compromise."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Висловлюю свої аргументи, але враховую його точку зору.",
+            "en": "Express my arguments but consider their view."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Наполягаю на своєму, не враховуючи його думку.",
+            "en": "Insist on my own, without considering their opinion."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Відмовляюся обговорювати або ображаюся.",
+            "en": "Refuse to discuss or get offended."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Як ви реагуєте на те, що партнер ігнорує ваші прохання?",
+        "en": "How do you react when your partner ignores your requests?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Висловлюю своє невдоволення в м'якій формі.",
+            "en": "Express my dissatisfaction gently."
+          },
+          "score": 1
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Намагаюся ще раз пояснити своє прохання.",
+            "en": "Try to explain my request again."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Відчуваю роздратування та звинувачую партнера.",
+            "en": "Feel irritated and blame my partner."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Замикаюся у собі або відмовляюся від обговорення.",
+            "en": "Withdraw or refuse to discuss."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Як ви зазвичай обговорюєте конфлікти з партнером?",
+        "en": "How do you usually discuss conflicts with your partner?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Спокійно та конструктивно.",
+            "en": "Calmly and constructively."
+          },
+          "score": 1
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Слухаю партнера, але не завжди пропоную рішення.",
+            "en": "Listen to my partner but don’t always propose solutions."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Намагаюся захищати свої інтереси без компромісів.",
+            "en": "Try to protect my interests without compromise."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Уникаю обговорення або звинувачую партнера.",
+            "en": "Avoid discussion or blame my partner."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Як часто ви пробуєте вирішувати конфлікти, знаходячи компроміс?",
+        "en": "How often do you try to resolve conflicts by finding a compromise?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Завжди намагаюся знайти компроміс.",
+            "en": "Always try to find a compromise."
+          },
+          "score": 1
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Інколи, залежно від ситуації.",
+            "en": "Sometimes, depending on the situation."
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Рідко, зазвичай наполягаю на своєму.",
+            "en": "Rarely, usually insist on my own."
+          },
+          "score": 3
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Ніколи, завжди вважаю свою думку правильною.",
+            "en": "Never, always consider my opinion to be right."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        11,
+        22
+      ],
+      "title": {
+        "ua": "Ваша основна проблема – непорозуміння",
+        "en": "Your main issue is misunderstanding"
+      },
+      "description": {
+        "ua": "Ваші конфлікти здебільшого обумовлені непорозумінням або невідповідністю очікувань. Робота над комунікацією допоможе покращити ситуацію.",
+        "en": "Your conflicts are mainly caused by misunderstandings or mismatched expectations. Working on communication will help improve the situation."
+      }
+    },
+    {
+      "range": [
+        23,
+        34
+      ],
+      "title": {
+        "ua": "Повторювані конфлікти",
+        "en": "Recurring conflicts"
+      },
+      "description": {
+        "ua": "Ваші конфлікти часто повторюються через певні поведінкові шаблони. Важливо звернути увагу на те, як ви спілкуєтесь один з одним.",
+        "en": "Your conflicts often repeat due to certain behavior patterns. It's important to pay attention to how you communicate."
+      }
+    },
+    {
+      "range": [
+        35,
+        44
+      ],
+      "title": {
+        "ua": "Глибокі причини конфліктів",
+        "en": "Deep-rooted causes of conflict"
+      },
+      "description": {
+        "ua": "Ваші конфлікти мають глибокі причини, які потребують ретельного аналізу та роботи над ними. Рекомендується звернутися до спеціаліста або детальніше обговорити проблеми з партнером.",
+        "en": "Your conflicts have deep-rooted causes that require thorough analysis and work. It’s recommended to consult a specialist or discuss these issues in depth with your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Розвиток навичок комунікації, рефлексії та контролю емоцій.",
+      "en": "Develop communication, self-reflection, and emotional control skills."
+    },
+    "couple": {
+      "ua": "Робота над спільними правилами обговорення конфліктів та спільне планування.",
+      "en": "Work on joint rules for discussing conflicts and make plans together."
+    }
+  },
+  "widget_type": "quiz"
+}

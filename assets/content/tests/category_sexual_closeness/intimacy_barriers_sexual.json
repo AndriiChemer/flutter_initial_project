@@ -1,0 +1,504 @@
+{
+  "id": "intimacy_barriers_sexual",
+  "title": {
+    "ua": "Інтимні бар’єри: що стримує твоє бажання?",
+    "en": "Intimate Barriers: What Holds Back Your Desire?"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "Advanced"
+  },
+  "description": {
+    "ua": "Цей тест допоможе тобі зазирнути всередину своєї інтимної вразливості. Чи дозволяєш ти собі бути справжнім(ньою) у близькості? Чи готовий(а) до щирості, експериментів і повної прийнятності в сексуальному просторі? Пройди цей шлях чесно — це перший крок до свободи в тілі та серці.",
+    "en": "This test will help you look into your intimate vulnerability. Do you allow yourself to be authentic in intimacy? Are you ready for honesty, experiments, and full acceptance in your sexual space? Take this path honestly — it is the first step toward freedom in your body and heart."
+  },
+  "type": "score_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "25 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Коли партнер прямо говорить про секс — твоїм першим почуттям є…",
+        "en": "When your partner talks directly about sex, your first feeling is…"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Захоплення і цікавість",
+            "en": "Excitement and curiosity"
+          },
+          "score": 0
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Тепла незручність",
+            "en": "Warm awkwardness"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Напруга й збентеження",
+            "en": "Tension and embarrassment"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Холодний дискомфорт і бажання уникнути розмови",
+            "en": "Cold discomfort and desire to avoid the conversation"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Уяви: партнер ділиться з тобою своїми фантазіями. Що ти відчуваєш?",
+        "en": "Imagine: your partner shares their fantasies with you. What do you feel?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Зацікавленість і збудження",
+            "en": "Interest and arousal"
+          },
+          "score": 0
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Невпевненість, але відкритість",
+            "en": "Uncertainty but openness"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Сумніви і тривогу",
+            "en": "Doubts and anxiety"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Сором і внутрішнє блокування",
+            "en": "Shame and internal blocking"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Коли тебе просять проявити ініціативу в сексі — ти...",
+        "en": "When asked to take initiative in sex, you…"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Відчуваєш впевненість і бажання",
+            "en": "Feel confident and willing"
+          },
+          "score": 0
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Коливаєшся, але готовий(а) спробувати",
+            "en": "Hesitate but willing to try"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Відтягуєш момент або уникаєш",
+            "en": "Delay or avoid"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Панікуєш або закриваєшся",
+            "en": "Panic or shut down"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи дозволяєш ти собі проявляти своє тіло без критики чи сорому під час інтиму?",
+        "en": "Do you allow yourself to show your body without criticism or shame during intimacy?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, я приймаю своє тіло",
+            "en": "Yes, I accept my body"
+          },
+          "score": 0
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Іноді я стримуюсь",
+            "en": "Sometimes I hold back"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Відчуваю сильну невпевненість",
+            "en": "Feel very insecure"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Я майже не дозволяю собі бути вільним(ою)",
+            "en": "Almost never allow myself to be free"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи є в тебе теми або практики, які ти боїшся навіть згадати перед партнером?",
+        "en": "Are there topics or practices you are afraid to mention to your partner?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Ні, я готовий(а) ділитись",
+            "en": "No, I'm ready to share"
+          },
+          "score": 0
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Деякі теми викликають напругу",
+            "en": "Some topics cause tension"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Є чимало табу, про які я мовчу",
+            "en": "There are many taboos I keep silent about"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Так, я не можу говорити відверто про це",
+            "en": "Yes, I can't talk openly about this"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Коли партнер торкається тебе з пристрастю, але несподівано — ти…",
+        "en": "When your partner touches you passionately but unexpectedly, you…"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Насолоджуєшся моментом",
+            "en": "Enjoy the moment"
+          },
+          "score": 0
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Відчуваєш коротку напругу, але розслабляєшся",
+            "en": "Feel brief tension but relax"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Застигаєш і не знаєш, як реагувати",
+            "en": "Freeze and don't know how to react"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Хочеш зупинити контакт",
+            "en": "Want to stop the contact"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи трапляється тобі \"терпіти\" секс, який не приносить задоволення, щоб не образити партнера?",
+        "en": "Do you ever 'endure' sex that doesn't bring pleasure just not to upset your partner?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ні, я чесно говорю про свої відчуття",
+            "en": "No, I honestly speak about my feelings"
+          },
+          "score": 0
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Іноді таке трапляється",
+            "en": "Sometimes it happens"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Це трапляється часто",
+            "en": "It happens often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Я майже завжди ховаю своє незадоволення",
+            "en": "I almost always hide my dissatisfaction"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як ти почуваєшся, коли говориш \"ні\" у сексі?",
+        "en": "How do you feel when you say 'no' in sex?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Спокійно і впевнено",
+            "en": "Calm and confident"
+          },
+          "score": 0
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Трохи хвилююсь, але відстоюю себе",
+            "en": "A little anxious but assert myself"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Мене гризе провина",
+            "en": "I feel guilty"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Відчуваю страх або сором",
+            "en": "Feel fear or shame"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Коли ти фантазуєш про секс — чи дозволяєш ти собі розкрити це партнеру?",
+        "en": "When you fantasize about sex, do you allow yourself to reveal it to your partner?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, і ми обговорюємо це відкрито",
+            "en": "Yes, and we discuss it openly"
+          },
+          "score": 0
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Іноді, з обережністю",
+            "en": "Sometimes, with caution"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Я часто стримую свої бажання",
+            "en": "I often restrain my desires"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Я взагалі не ділюся такими речами",
+            "en": "I don't share such things at all"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи були ситуації, коли твій “сексуальний голос” ніби зникав — і ти просто “виконував(ла) роль”?",
+        "en": "Have there been situations where your 'sexual voice' disappeared and you just 'played the role'?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Ніколи, я завжди в контакті з собою",
+            "en": "Never, I'm always in contact with myself"
+          },
+          "score": 0
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Іноді так буває",
+            "en": "Sometimes it happens"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Часто вдаю, що все добре",
+            "en": "Often pretend that everything is fine"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Це мій стандартний стан",
+            "en": "This is my standard state"
+          },
+          "score": 5
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        0,
+        15
+      ],
+      "title": {
+        "ua": "Інтимна відкритість",
+        "en": "Intimate Openness"
+      },
+      "description": {
+        "ua": "Ти інтимно відкритий(а). У тебе є здоровий зв’язок з тілом, бажаннями та партнером. Ти впевнено озвучуєш межі та дозволяєш собі насолоду.",
+        "en": "You are intimately open. You have a healthy connection with your body, desires, and partner. You confidently express your boundaries and allow yourself pleasure."
+      }
+    },
+    {
+      "range": [
+        16,
+        30
+      ],
+      "title": {
+        "ua": "На шляху до відкритості",
+        "en": "On the Path to Openness"
+      },
+      "description": {
+        "ua": "Ти — на шляху до відкритості, але деякі бар’єри ще утримують тебе. Зверни увагу на ті сфери, де ти стримуєшся або соромишся — там прихований твій потенціал.",
+        "en": "You are on the path to openness, but some barriers still hold you back. Pay attention to the areas where you restrain or feel shame — your potential is hidden there."
+      }
+    },
+    {
+      "range": [
+        31,
+        45
+      ],
+      "title": {
+        "ua": "Вплив бар’єрів на досвід",
+        "en": "Barriers Affect Your Experience"
+      },
+      "description": {
+        "ua": "Твої бар’єри можуть сильно впливати на якість сексуального досвіду. Страх бути відкинутим(ою), сором або втрата тілесного контакту — це важливі сигнали. Їх варто дослідити дбайливо й з підтримкою.",
+        "en": "Your barriers can strongly affect the quality of your sexual experience. Fear of rejection, shame, or loss of body connection are important signals. Explore them gently and with support."
+      }
+    },
+    {
+      "range": [
+        46,
+        50
+      ],
+      "title": {
+        "ua": "Зона напруги",
+        "en": "Zone of Tension"
+      },
+      "description": {
+        "ua": "Інтимна сфера для тебе — місце напруги, а не свободи. Це не вирок. Це запрошення до глибокого знайомства з собою, своїми тілесними травмами, страхами й потребами. Психотерапія або тілесна практика можуть бути цінним ресурсом.",
+        "en": "For you, intimacy is a place of tension, not freedom. This is not a verdict. It's an invitation to a deep acquaintance with yourself, your bodily wounds, fears, and needs. Psychotherapy or body practices may be valuable resources."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Практикуй дотик до себе без мети — просто щоб відчувати. Пиши про свої бажання в щоденнику, навіть якщо не готовий(а) їх реалізувати. Говорити про них — перший крок.",
+      "en": "Practice self-touch without a goal — just to feel. Write about your desires in a journal, even if you are not ready to act on them. Talking about them is the first step."
+    },
+    "couple": {
+      "ua": "Почніть із простих фраз: “Мені цікаво, як ти це сприймаєш...” або “Я хотів(ла) би, щоб між нами було більше...”. Створіть ритуал щотижневого відвертого вечора без критики.",
+      "en": "Start with simple phrases: 'I'm curious how you feel about this...' or 'I would like there to be more... between us.' Create a ritual of a weekly honest evening without criticism."
+    }
+  },
+  "widget_type": "test"
+}

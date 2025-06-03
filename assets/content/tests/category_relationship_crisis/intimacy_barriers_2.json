@@ -1,0 +1,504 @@
+{
+  "id": "intimacy_barriers",
+  "title": {
+    "ua": "Інтимні бар’єри",
+    "en": "Intimacy Barriers"
+  },
+  "level": {
+    "ua": "Складний",
+    "en": "Advanced"
+  },
+  "description": {
+    "ua": "Цей тест допоможе дослідити глибинні емоційні та психологічні бар’єри, які можуть заважати вам відчути справжню близькість у стосунках. Визначення цих бар’єрів — перший крок до побудови щирого та безпечного емоційного простору з партнером.",
+    "en": "This test will help you explore deep emotional and psychological barriers that may prevent you from feeling true intimacy in your relationship. Identifying these barriers is the first step towards building an honest and safe emotional space with your partner."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи відчуваєте ви внутрішній страх бути повністю відкритим перед партнером?",
+        "en": "Do you feel an inner fear of being completely open with your partner?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи стримуєте ви себе, бо боїтеся осуду або критики з боку партнера?",
+        "en": "Do you hold back because you fear judgment or criticism from your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи уникаєте ви певних тем, щоб уникнути конфлікту або напруження?",
+        "en": "Do you avoid certain topics to prevent conflict or tension?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи маєте ви відчуття, що вас не приймають повністю з вашими недоліками та вразливістю?",
+        "en": "Do you feel that you are not fully accepted with your flaws and vulnerability?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи з’являється у вас тривога, коли потрібно говорити про свої бажання, потреби або мрії?",
+        "en": "Do you feel anxiety when you need to talk about your desires, needs, or dreams?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи бувають моменти, коли ви відчуваєте нестачу емоційної або моральної підтримки з боку партнера?",
+        "en": "Are there times when you feel a lack of emotional or moral support from your partner?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи часто вам здається, що партнер не розуміє або недооцінює ваші справжні потреби?",
+        "en": "Do you often feel your partner doesn't understand or value your true needs?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи відмовляєтесь ви від щирості, щоб уникнути напруги у стосунках?",
+        "en": "Do you give up on honesty to avoid tension in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи відчуваєте ви провину або сором, коли висловлюєте власні бажання?",
+        "en": "Do you feel guilt or shame when expressing your own desires?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи відбувається так, що ваші особисті кордони ігноруються або знецінюються у стосунках?",
+        "en": "Does it happen that your personal boundaries are ignored or devalued in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        31,
+        40
+      ],
+      "title": {
+        "ua": "Відкрита близькість",
+        "en": "Open Intimacy"
+      },
+      "description": {
+        "ua": "У вас сформована здорова основа для відкритої близькості. Ви усвідомлюєте свої межі, не боїтесь бути собою, і, ймовірно, вже маєте якісний емоційний зв’язок.",
+        "en": "You have a healthy foundation for open intimacy. You are aware of your boundaries, not afraid to be yourself, and likely already have a quality emotional connection."
+      }
+    },
+    {
+      "range": [
+        21,
+        30
+      ],
+      "title": {
+        "ua": "Деякі бар’єри присутні",
+        "en": "Some Barriers Present"
+      },
+      "description": {
+        "ua": "У вас є деякі глибинні бар’єри, але вони не є непереборними. Відкриті розмови та підтримка з боку партнера можуть допомогти розв’язати внутрішні вузли.",
+        "en": "You have some deep barriers, but they are not insurmountable. Open conversations and partner support can help unravel inner knots."
+      }
+    },
+    {
+      "range": [
+        11,
+        20
+      ],
+      "title": {
+        "ua": "Відчутна внутрішня напруга",
+        "en": "Noticeable Inner Tension"
+      },
+      "description": {
+        "ua": "Відчутна внутрішня напруга та страх перед емоційною відкритістю. Варто поступово досліджувати, звідки ці бар’єри з’явились, і як ви можете їх трансформувати.",
+        "en": "There is noticeable inner tension and fear of emotional openness. Gradually explore where these barriers come from and how you can transform them."
+      }
+    },
+    {
+      "range": [
+        0,
+        10
+      ],
+      "title": {
+        "ua": "Глибока емоційна дистанція",
+        "en": "Deep Emotional Distance"
+      },
+      "description": {
+        "ua": "Емоційна дистанція, недовіра, страх — усе це може сильно впливати на вашу інтимність. Можливо, варто звернутися до психолога або глибше обговорити з партнером ваш стан.",
+        "en": "Emotional distance, distrust, and fear may strongly affect your intimacy. It may be worth consulting a psychologist or discussing your state more deeply with your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Приділіть увагу своїм внутрішнім тригерам. Записуйте думки, які з’являються перед важкою розмовою. Робота з уразливістю — ключ до інтимної свободи.",
+      "en": "Pay attention to your internal triggers. Write down thoughts that arise before a difficult conversation. Working with vulnerability is the key to intimate freedom."
+    },
+    "couple": {
+      "ua": "Створіть момент довіри — домовтесь, що протягом 10 хвилин один говорить, а інший тільки слухає. Без оцінок, без порад. Просто слухайте з повагою.",
+      "en": "Create a moment of trust — agree that for 10 minutes, one partner speaks and the other only listens. No judgments, no advice. Just listen respectfully."
+    }
+  },
+  "widget_type": "test"
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "daily_small_praises",
+    "title": {
+      "ua": "Похвала за дрібниці",
+      "en": "Praise for Small Things"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Ця практика допомагає цінувати навіть маленькі позитивні моменти у стосунках, які часто залишаються непоміченими.",
+      "en": "This practice helps you appreciate even the smallest positive moments in your relationship that often go unnoticed."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня звертайте увагу на дрібниці, які робить ваш партнер.",
+        "en": "Throughout the day, pay attention to the little things your partner does."
+      },
+      {
+        "number": 2,
+        "ua": "Висловлюйте вдячність за ці дії.",
+        "en": "Express gratitude for these actions."
+      },
+      {
+        "number": 3,
+        "ua": "Наприкінці дня обговоріть, як це вплинуло на ваші емоції.",
+        "en": "At the end of the day, discuss how it affected your emotions."
+      }
+    ],
+    "widget_type": "notes",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Дякую, що зробив/ла каву сьогодні вранці.",
+        "en": "Thank you for making coffee this morning."
+      },
+      {
+        "ua": "Я ціную, що ти завжди підтримуєш мене.",
+        "en": "I appreciate that you always support me."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Намагайтеся робити це щодня.",
+        "en": "Try to do this every day."
+      },
+      {
+        "ua": "Фокусуйтесь на позитивному, навіть якщо стосунки у кризі.",
+        "en": "Focus on the positive, even if your relationship is in crisis."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "small_praises.png"
+  },
+  {
+    "id": "daily_emotion_journal",
+    "title": {
+      "ua": "Щоденник емоцій",
+      "en": "Emotion Journal"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Ця техніка допомагає краще розуміти свої емоції та емоції партнера через щоденне рефлексування.",
+      "en": "This technique helps you better understand your own emotions and those of your partner through daily reflection."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "В кінці дня запишіть свої емоції та думки про стосунки.",
+        "en": "At the end of the day, write down your emotions and thoughts about your relationship."
+      },
+      {
+        "number": 2,
+        "ua": "Поділіться своїм записом з партнером або обговоріть його усно.",
+        "en": "Share your journal entry with your partner or discuss it verbally."
+      },
+      {
+        "number": 3,
+        "ua": "Визначте, що можна покращити.",
+        "en": "Identify what could be improved."
+      }
+    ],
+    "widget_type": "notes",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Сьогодні я відчував/ла сум через непорозуміння, але ціную твої спроби мене зрозуміти.",
+        "en": "Today I felt sad due to misunderstanding, but I appreciate your efforts to understand me."
+      },
+      {
+        "ua": "Мене радує, що ми продовжуємо намагатися покращити наші стосунки.",
+        "en": "I am glad that we keep trying to improve our relationship."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Будьте відвертими та чесними.",
+        "en": "Be open and honest."
+      },
+      {
+        "ua": "Використовуйте щоденник регулярно.",
+        "en": "Use the journal regularly."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "emotion_journal.png"
+  },
+  {
+    "id": "daily_discussion_questions",
+    "title": {
+      "ua": "Питання для обговорення",
+      "en": "Questions for Discussion"
+    },
+    "category_id": "crisis_in_relationships",
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Щодня обговорюйте одне запитання для глибшого розуміння один одного.",
+      "en": "Every day, discuss one question for a deeper understanding of each other."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Виберіть запитання з додатку або придумайте власне.",
+        "en": "Choose a question from the app or come up with your own."
+      },
+      {
+        "number": 2,
+        "ua": "Обговоріть його без перебивань та звинувачень.",
+        "en": "Discuss it without interruptions or accusations."
+      },
+      {
+        "number": 3,
+        "ua": "Запишіть висновки або відчуття від обговорення.",
+        "en": "Write down insights or feelings from the discussion."
+      }
+    ],
+    "widget_type": "conversation",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Що б ти хотів/ла покращити у наших стосунках?",
+        "en": "What would you like to improve in our relationship?"
+      },
+      {
+        "ua": "Які моменти у наших стосунках ти вважаєш найціннішими?",
+        "en": "What moments in our relationship do you value the most?"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Будьте відкритими та не критикуйте партнера.",
+        "en": "Be open and avoid criticizing your partner."
+      },
+      {
+        "ua": "Намагайтеся підтримувати позитивну атмосферу.",
+        "en": "Try to maintain a positive atmosphere."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "discussion_questions.png"
+  }
+]

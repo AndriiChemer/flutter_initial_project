@@ -1,0 +1,303 @@
+{
+  "id": "sexual_desires_openness",
+  "title": {
+    "ua": "Відвертість у сексуальних бажаннях",
+    "en": "Openness About Sexual Desires"
+  },
+  "level": {
+    "ua": "Складний",
+    "en": "Advanced"
+  },
+  "description": {
+    "ua": "Цей тест створений, щоб допомогти вам і вашому партнеру краще зрозуміти сексуальні бажання, межі та фантазії одне одного. Відповіді на запитання допоможуть побудувати довіру та відкритість у стосунках. Рекомендовано проходити разом, але можна й індивідуально.",
+    "en": "This test is designed to help you and your partner better understand each other's sexual desires, boundaries, and fantasies. Your answers will help build trust and openness in your relationship. It is recommended to take it together, but you can also do it individually."
+  },
+  "type": "universal",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як комфортно ви почуваєтеся, коли говорите про свої сексуальні фантазії?",
+        "en": "How comfortable do you feel when talking about your sexual fantasies?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Дуже комфортно, я відкритий/відкрита до таких розмов",
+            "en": "Very comfortable, I'm open to such conversations"
+          }
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Досить комфортно, але іноді вагаюся",
+            "en": "Quite comfortable, but sometimes hesitate"
+          }
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Не дуже комфортно, відчуваю сором чи незручність",
+            "en": "Not very comfortable, I feel ashamed or awkward"
+          }
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ніколи не говорю про свої фантазії",
+            "en": "I never talk about my fantasies"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Які типи фантазій вам найбільше подобаються?",
+        "en": "What types of fantasies do you like the most?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Романтичні сцени (вечір при свічках, повільний секс)",
+            "en": "Romantic scenes (candlelight dinner, slow sex)"
+          }
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Домінування/підкорення (рольові ігри, контроль)",
+            "en": "Domination/submission (role play, control)"
+          }
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Публічні місця (ризиковані ситуації)",
+            "en": "Public places (risky situations)"
+          }
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Незвичні ситуації (експерименти, нові позиції, іграшки)",
+            "en": "Unusual situations (experiments, new positions, toys)"
+          }
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to add your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як би ви хотіли, щоб ваш партнер реагував, коли ви діляєтесь своїми фантазіями?",
+        "en": "How would you like your partner to react when you share your fantasies?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "З ентузіазмом та цікавістю",
+            "en": "With enthusiasm and curiosity"
+          }
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "З розумінням та прийняттям",
+            "en": "With understanding and acceptance"
+          }
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Я відчуваю, що партнер іноді осуджує мене",
+            "en": "I feel that my partner sometimes judges me"
+          }
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Мені важко ділитися своїми фантазіями через страх осуду",
+            "en": "It's hard for me to share my fantasies due to fear of judgment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи є у вас межі, які ви не хочете порушувати під час інтимності?",
+        "en": "Do you have boundaries you don't want to cross during intimacy?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, є конкретні речі, які я не хочу пробувати",
+            "en": "Yes, there are specific things I don't want to try"
+          }
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Мої межі можуть змінюватися залежно від ситуації",
+            "en": "My boundaries may change depending on the situation"
+          }
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Я не відчуваю, що маю чіткі межі",
+            "en": "I don't feel I have clear boundaries"
+          }
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Я ніколи не обговорював/ла свої межі з партнером",
+            "en": "I've never discussed my boundaries with my partner"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Наскільки важливо для вас відчувати себе прийнятим/прийнятою партнером під час обговорення сексуальних тем?",
+        "en": "How important is it for you to feel accepted by your partner when discussing sexual topics?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Це найважливіше, без цього я не можу бути відкритим/відкритою",
+            "en": "It's the most important thing, without it I can't be open"
+          }
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Дуже важливо, але не завжди є пріоритетом",
+            "en": "Very important, but not always a priority"
+          }
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Я можу говорити про свої бажання, навіть якщо партнер не повністю розуміє",
+            "en": "I can talk about my desires even if my partner doesn't fully understand"
+          }
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Це не є ключовим аспектом для мене",
+            "en": "It's not a key aspect for me"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Який формат обговорення бажань ви вважаєте найбільш комфортним?",
+        "en": "Which format for discussing desires do you find most comfortable?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Відкрита розмова під час спокійного вечора",
+            "en": "Open conversation during a calm evening"
+          }
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Написання листа або текстового повідомлення",
+            "en": "Writing a letter or text message"
+          }
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Відповіді на запитання через тест чи гру",
+            "en": "Answering questions through a test or game"
+          }
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Я не знаю, який формат для мене найбільш зручний",
+            "en": "I don't know which format is most comfortable for me"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи відчуваєте ви, що ваш партнер повністю розуміє ваші бажання та потреби?",
+        "en": "Do you feel your partner fully understands your desires and needs?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Так, ми відкрито обговорюємо всі деталі",
+            "en": "Yes, we openly discuss all details"
+          }
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Деколи так, але не завжди",
+            "en": "Sometimes yes, but not always"
+          }
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Ні, партнер не розуміє мої бажання",
+            "en": "No, my partner doesn't understand my desires"
+          }
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Я боюся говорити про свої бажання через можливий осуд",
+            "en": "I'm afraid to talk about my desires for fear of judgment"
+          }
+        }
+      ]
+    }
+  ],
+  "evaluation": [],
+  "recommendations": {
+    "individual": {
+      "ua": "Ваші відповіді показують, що ви прагнете відкритості у стосунках, але іноді відчуваєте труднощі у вираженні своїх бажань. Спробуйте використовувати письмовий формат для обговорення бажань або задавати партнеру запитання у вигляді гри. Це допоможе створити більш безпечний простір для спілкування.",
+      "en": "Your answers show that you strive for openness in relationships, but sometimes have difficulty expressing your desires. Try using a written format or ask your partner questions in a playful way. This can help create a safer space for communication."
+    },
+    "couple": {
+      "ua": "Ваша пара може досягнути більшого розуміння через регулярні обговорення сексуальних бажань та фантазій. Розпочніть з простих запитань або створіть список бажань, який ви могли б поступово обговорювати та реалізовувати.",
+      "en": "You and your partner can achieve greater understanding through regular discussions of sexual desires and fantasies. Start with simple questions or create a wish list to discuss and realize gradually."
+    }
+  },
+  "widget_type": "test"
+}

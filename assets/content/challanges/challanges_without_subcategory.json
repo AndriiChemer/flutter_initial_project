@@ -11,7 +11,7 @@
   },
   "challenges": [
     {
-      "id": "challenge_b76f9f64",
+      "id": "challenge_no_criticism_day",
       "title": {
         "ua": "День без критики",
         "en": "No Criticism Day"
@@ -43,7 +43,7 @@
       "updated_at": "2025-05-15T15:20:13.438667Z"
     },
     {
-      "id": "challenge_9e4ed9d9",
+      "id": "challenge_words_with_respect",
       "title": {
         "ua": "Слова з повагою",
         "en": "Words with Respect"
@@ -75,7 +75,7 @@
       "updated_at": "2025-05-15T15:20:13.438667Z"
     },
     {
-      "id": "challenge_e69ea817",
+      "id": "challenge_deep_listening_day",
       "title": {
         "ua": "День глибокого слухання",
         "en": "Deep Listening Day"
@@ -107,7 +107,7 @@
       "updated_at": "2025-05-15T15:20:13.438667Z"
     },
     {
-      "id": "challenge_6afba963",
+      "id": "challenge_my_emotional_baggage",
       "title": {
         "ua": "Мій емоційний багаж",
         "en": "My Emotional Baggage"
@@ -139,7 +139,7 @@
       "updated_at": "2025-05-15T15:20:13.438667Z"
     },
     {
-      "id": "challenge_fe8655bc",
+      "id": "challenge_we_are_team",
       "title": {
         "ua": "Ми — команда",
         "en": "We Are a Team"
@@ -238,7 +238,7 @@
   "challenge_steps": [
     {
       "id": "c93962e2-c507-4aec-bbf9-76e3f7b8a19d",
-      "challenge_id": "challenge_b76f9f64",
+      "challenge_id": "challenge_no_criticism_day",
       "step_number": 1,
       "content": {
         "ua": "Усвідомити звичні фрази, які можуть сприйматись як критика.",
@@ -249,7 +249,7 @@
     },
     {
       "id": "59edfb86-5da9-4595-9195-4538e7e668f1",
-      "challenge_id": "challenge_b76f9f64",
+      "challenge_id": "challenge_no_criticism_day",
       "step_number": 2,
       "content": {
         "ua": "Протягом дня утримуйтесь від їх використання.",
@@ -260,7 +260,7 @@
     },
     {
       "id": "1efebdce-d00c-4721-b43c-ad619d6fa241",
-      "challenge_id": "challenge_b76f9f64",
+      "challenge_id": "challenge_no_criticism_day",
       "step_number": 3,
       "content": {
         "ua": "В кінці дня обговоріть, як це вплинуло на ваші емоції та взаємодію.",
@@ -271,7 +271,7 @@
     },
     {
       "id": "39b68247-ea4a-4df6-9bd6-4a413e22d8ef",
-      "challenge_id": "challenge_9e4ed9d9",
+      "challenge_id": "challenge_words_with_respect",
       "step_number": 1,
       "content": {
         "ua": "Підготуйте список типових фраз, які можуть звучати образливо.",
@@ -282,7 +282,7 @@
     },
     {
       "id": "ec18966a-1013-4c89-8bbc-0d3ff8e3d9bd",
-      "challenge_id": "challenge_9e4ed9d9",
+      "challenge_id": "challenge_words_with_respect",
       "step_number": 2,
       "content": {
         "ua": "Поруч напишіть альтернативні варіанти.",
@@ -293,7 +293,7 @@
     },
     {
       "id": "b1d23e1d-72ee-461e-acce-9801231e8b20",
-      "challenge_id": "challenge_9e4ed9d9",
+      "challenge_id": "challenge_words_with_respect",
       "step_number": 3,
       "content": {
         "ua": "Використовуйте ці заміни протягом дня і спостерігайте за реакцією партнера.",
@@ -304,7 +304,7 @@
     },
     {
       "id": "ed33d928-dd00-40ab-94d4-fe71af3d9920",
-      "challenge_id": "challenge_e69ea817",
+      "challenge_id": "challenge_deep_listening_day",
       "step_number": 1,
       "content": {
         "ua": "Перед початком домовтесь, що обоє беруть участь.",
@@ -315,7 +315,7 @@
     },
     {
       "id": "b02863b8-1e63-4707-bf10-4f8da43b89bb",
-      "challenge_id": "challenge_e69ea817",
+      "challenge_id": "challenge_deep_listening_day",
       "step_number": 2,
       "content": {
         "ua": "Кожен день вислуховує іншого мінімум 10 хвилин без перебивання.",
@@ -326,7 +326,7 @@
     },
     {
       "id": "7af4dd97-d8ca-4968-8327-0292bb183ede",
-      "challenge_id": "challenge_e69ea817",
+      "challenge_id": "challenge_deep_listening_day",
       "step_number": 3,
       "content": {
         "ua": "Після цього спробуйте переказати, що ви почули.",
@@ -337,7 +337,7 @@
     },
     {
       "id": "46bf6b20-0779-49b0-b52c-864d30ce0b06",
-      "challenge_id": "challenge_e69ea817",
+      "challenge_id": "challenge_deep_listening_day",
       "step_number": 4,
       "content": {
         "ua": "Завершіть словами: «Я правильно тебе зрозумів(ла)?»",
@@ -348,7 +348,7 @@
     },
     {
       "id": "398dc8f6-6868-4187-a547-b216f6ec22f3",
-      "challenge_id": "challenge_6afba963",
+      "challenge_id": "challenge_my_emotional_baggage",
       "step_number": 1,
       "content": {
         "ua": "Виділіть по 20 хв на кожного. Один говорить, інший тільки слухає.",
@@ -359,7 +359,7 @@
     },
     {
       "id": "326a775d-781d-4156-bd09-77e7f4a22947",
-      "challenge_id": "challenge_6afba963",
+      "challenge_id": "challenge_my_emotional_baggage",
       "step_number": 2,
       "content": {
         "ua": "Не коментуйте одразу. Просто дякуйте за відкритість.",
@@ -370,7 +370,7 @@
     },
     {
       "id": "f007dbc5-f732-466d-bbfa-422e05d89080",
-      "challenge_id": "challenge_6afba963",
+      "challenge_id": "challenge_my_emotional_baggage",
       "step_number": 3,
       "content": {
         "ua": "Запишіть для себе: що було новим або несподіваним?",
@@ -381,7 +381,7 @@
     },
     {
       "id": "7e4122b1-a95c-41b6-8449-b7aae771d989",
-      "challenge_id": "challenge_6afba963",
+      "challenge_id": "challenge_my_emotional_baggage",
       "step_number": 4,
       "content": {
         "ua": "На другий день обговоріть, що почуте змінило у вашому розумінні партнера.",
@@ -392,7 +392,7 @@
     },
     {
       "id": "66d78cd9-85e7-4068-b8d4-996a04337b7e",
-      "challenge_id": "challenge_fe8655bc",
+      "challenge_id": "challenge_we_are_team",
       "step_number": 1,
       "content": {
         "ua": "Окремо запишіть 3 проблеми у стосунках (без емоцій, по суті).",
@@ -403,7 +403,7 @@
     },
     {
       "id": "8241cf1a-df58-491a-ad19-e8126142861a",
-      "challenge_id": "challenge_fe8655bc",
+      "challenge_id": "challenge_we_are_team",
       "step_number": 2,
       "content": {
         "ua": "Об’єднайте списки та виберіть одну проблему.",
@@ -414,7 +414,7 @@
     },
     {
       "id": "210eed20-25f2-4ffc-b22f-83ead2cc7a69",
-      "challenge_id": "challenge_fe8655bc",
+      "challenge_id": "challenge_we_are_team",
       "step_number": 3,
       "content": {
         "ua": "Разом створіть 'план дій', де кожен бере відповідальність за частину.",
@@ -425,7 +425,7 @@
     },
     {
       "id": "c42e8811-49b4-40b6-81db-9cf8502ef6c5",
-      "challenge_id": "challenge_fe8655bc",
+      "challenge_id": "challenge_we_are_team",
       "step_number": 4,
       "content": {
         "ua": "Наступні 2 дні виконуйте план і фіксуйте зміни у поведінці.",

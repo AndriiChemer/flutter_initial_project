@@ -1,0 +1,627 @@
+{
+  "id": "conflict_resolution_styles",
+  "title": {
+    "ua": "Способи вирішення конфліктів",
+    "en": "Conflict Resolution Styles"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест покаже, наскільки конструктивно ви підходите до конфліктів у парі. Ви дізнаєтеся, чи вмієте домовлятись, чути одне одного й зберігати зв’язок навіть у напружених ситуаціях.",
+    "en": "This test will show how constructively you approach conflicts as a couple. You'll learn if you know how to negotiate, listen, and maintain connection even in tense situations."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "30 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте, коли починається конфлікт?",
+        "en": "How do you usually react when a conflict begins?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Спокійно і з бажанням знайти суть проблеми.",
+            "en": "Calmly and willing to find the core of the problem."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Потребую часу, щоб охолонути.",
+            "en": "I need time to cool down."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Відразу починаю захищатись або контратакувати.",
+            "en": "I immediately defend or counterattack."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Замовкаю або роблю вигляд, що нічого не сталося.",
+            "en": "I go silent or pretend nothing happened."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи готові ви обговорювати проблему одразу після конфлікту?",
+        "en": "Are you ready to discuss the problem right after a conflict?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, щоб не носити це в собі.",
+            "en": "Yes, so I don't bottle it up."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Часто так, але іноді відкладаю.",
+            "en": "Usually yes, but sometimes I postpone it."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Мені потрібно багато часу, щоб зважитись.",
+            "en": "I need a lot of time to muster up courage."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Уникаю таких розмов, щоб не загострювати.",
+            "en": "I avoid such conversations to not escalate."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи намагаєтеся ви зрозуміти, чому партнер відчуває злість чи біль?",
+        "en": "Do you try to understand why your partner feels angry or hurt?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, ставлю себе на його/її місце.",
+            "en": "Yes, I put myself in their shoes."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Часто, але буває складно.",
+            "en": "Often, but it can be hard."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко — більше думаю про свою правоту.",
+            "en": "Rarely, I mostly think about being right."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ні, мене це дратує.",
+            "en": "No, it annoys me."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як часто ви доходите до компромісу після конфлікту?",
+        "en": "How often do you reach a compromise after a conflict?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Ми завжди шукаємо рішення, яке підходить обом.",
+            "en": "We always look for a solution that works for both."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто вдається домовитися.",
+            "en": "Often manage to agree."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Іноді хтось один просто поступається.",
+            "en": "Sometimes one of us just gives in."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Компроміси — не наша сильна сторона.",
+            "en": "Compromise isn't our strength."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи намагаєтесь ви уникати конфліктів навіть там, де їх слід проговорити?",
+        "en": "Do you avoid conflicts even when they should be discussed?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Ні, краще все обговорити.",
+            "en": "No, it's better to discuss everything."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Іноді уникаю, щоб не зіпсувати настрій.",
+            "en": "Sometimes I avoid it to not spoil the mood."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Часто відмовляюсь від розмови.",
+            "en": "Often refuse to talk."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Завжди тікаю від конфліктів.",
+            "en": "Always run from conflicts."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи говорите ви про те, що вас зачепило або образило?",
+        "en": "Do you talk about what hurt or offended you?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, відкрито і з повагою.",
+            "en": "Yes, openly and respectfully."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Часто, але не завжди легко.",
+            "en": "Often, but it's not always easy."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Іноді тримаю образу в собі.",
+            "en": "Sometimes I hold a grudge inside."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Рідко чи ніколи.",
+            "en": "Rarely or never."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як ви сприймаєте критику від партнера?",
+        "en": "How do you perceive criticism from your partner?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Як можливість зрозуміти себе і ситуацію.",
+            "en": "As a chance to understand myself and the situation."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Стараюсь, але іноді реагую емоційно.",
+            "en": "I try, but sometimes react emotionally."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Мене це ранить.",
+            "en": "It hurts me."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Захищаюсь і критикую у відповідь.",
+            "en": "I defend myself and criticize back."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи готові ви іноді поступитися заради збереження спокою в парі?",
+        "en": "Are you willing to compromise sometimes to maintain peace in the couple?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Так, якщо це не шкодить моїм кордонам.",
+            "en": "Yes, if it doesn't harm my boundaries."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Часто — це допомагає зберігати гармонію.",
+            "en": "Often – it helps keep harmony."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Поступаюся, але з образою всередині.",
+            "en": "I give in but hold a grudge."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Не люблю поступатися.",
+            "en": "I don't like to compromise."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи вважаєте ви, що конфлікти допомагають краще пізнати одне одного?",
+        "en": "Do you think conflicts help you know each other better?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, вони поглиблюють зв’язок.",
+            "en": "Yes, they deepen the connection."
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Іноді — залежить від теми.",
+            "en": "Sometimes, depends on the topic."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Не завжди — більше стомлюють.",
+            "en": "Not always – mostly exhausting."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Ні, це лише руйнує.",
+            "en": "No, it only ruins things."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи повертаєтесь до обговорення конфлікту, коли емоції стихають?",
+        "en": "Do you revisit the conflict when emotions have settled?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так, щоб усе зрозуміти й закрити.",
+            "en": "Yes, to understand and close the issue."
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Часто так.",
+            "en": "Often yes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Уникаю повторних розмов.",
+            "en": "I avoid repeated discussions."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Чи помічаєте, що повторюєте ті самі конфлікти?",
+        "en": "Do you notice that you repeat the same conflicts?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Майже ніколи — ми вчимося з досвіду.",
+            "en": "Almost never – we learn from experience."
+          },
+          "score": 4
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Рідко, але таке буває.",
+            "en": "Rarely, but it happens."
+          },
+          "score": 3
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Часто — ніби по колу.",
+            "en": "Often – it feels cyclical."
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Постійно — нічого не змінюється.",
+            "en": "Always – nothing changes."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": {
+        "ua": "Чи можете ви чітко висловити свої почуття в момент напруги?",
+        "en": "Can you clearly express your feelings during tense moments?"
+      },
+      "options": [
+        {
+          "id": "q12_o1",
+          "text": {
+            "ua": "Так, навіть коли складно.",
+            "en": "Yes, even when it’s hard."
+          },
+          "score": 4
+        },
+        {
+          "id": "q12_o2",
+          "text": {
+            "ua": "Часто, але не завжди.",
+            "en": "Often, but not always."
+          },
+          "score": 3
+        },
+        {
+          "id": "q12_o3",
+          "text": {
+            "ua": "Мені важко говорити в таких моментах.",
+            "en": "It's hard for me in those moments."
+          },
+          "score": 2
+        },
+        {
+          "id": "q12_o4",
+          "text": {
+            "ua": "Замикаюсь у собі.",
+            "en": "I close myself off."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер вас справді чує під час суперечки?",
+        "en": "Do you feel your partner truly hears you during an argument?"
+      },
+      "options": [
+        {
+          "id": "q13_o1",
+          "text": {
+            "ua": "Так, навіть у складні моменти.",
+            "en": "Yes, even in difficult moments."
+          },
+          "score": 4
+        },
+        {
+          "id": "q13_o2",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q13_o3",
+          "text": {
+            "ua": "Іноді здається, що мене не чують.",
+            "en": "Sometimes it feels I'm not heard."
+          },
+          "score": 2
+        },
+        {
+          "id": "q13_o4",
+          "text": {
+            "ua": "Відчуваю байдужість або знецінення.",
+            "en": "I feel indifference or devaluation."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        45,
+        52
+      ],
+      "title": {
+        "ua": "Ви вмієте проходити через конфлікти конструктивно",
+        "en": "You handle conflicts constructively"
+      },
+      "description": {
+        "ua": "У вас є ресурс довіри, діалогу та гнучкості.",
+        "en": "You have the resources of trust, dialogue, and flexibility."
+      }
+    },
+    {
+      "range": [
+        35,
+        44
+      ],
+      "title": {
+        "ua": "У вас хороші навички вирішення конфліктів",
+        "en": "You have good conflict resolution skills"
+      },
+      "description": {
+        "ua": "Іноді емоції беруть верх. Працюйте над сталим діалогом.",
+        "en": "Sometimes emotions prevail. Keep working on stable dialogue."
+      }
+    },
+    {
+      "range": [
+        20,
+        34
+      ],
+      "title": {
+        "ua": "Конфлікти часто створюють розрив між вами",
+        "en": "Conflicts often create a gap between you"
+      },
+      "description": {
+        "ua": "Спробуйте практики відкритого спілкування та регуляції емоцій.",
+        "en": "Try open communication practices and emotion regulation."
+      }
+    },
+    {
+      "range": [
+        0,
+        19
+      ],
+      "title": {
+        "ua": "Відсутній ефективний механізм вирішення конфліктів",
+        "en": "No effective conflict resolution mechanism"
+      },
+      "description": {
+        "ua": "Це може накопичуватись і руйнувати зв’язок. Варто звернутись до парної роботи або спеціаліста.",
+        "en": "This can accumulate and destroy your connection. Consider couples' work or a specialist."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Навчіться розрізняти свої емоції, перш ніж говорити. Практикуйте паузу перед відповіддю.",
+      "en": "Learn to identify your emotions before speaking. Practice pausing before responding."
+    },
+    "couple": {
+      "ua": "Створіть «безпечний простір» для обговорення навіть гострих тем. Домовтесь про правила конструктивної розмови.",
+      "en": "Create a 'safe space' for discussing even tough topics. Agree on rules for constructive conversation."
+    }
+  },
+  "widget_type": "quiz"
+}

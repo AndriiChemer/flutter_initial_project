@@ -1,0 +1,504 @@
+{
+  "id": "listening_skills_test",
+  "title": {
+    "ua": "Чи вмієте ви слухати партнера?",
+    "en": "Are You a Good Listener for Your Partner?"
+  },
+  "level": {
+    "ua": "Легкий",
+    "en": "Easy"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити, наскільки добре ви вмієте слухати свого партнера. Уміння слухати – один із ключових елементів здорових стосунків.",
+    "en": "This test will help you determine how well you listen to your partner. The ability to listen is one of the key elements of a healthy relationship."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи часто ви перебиваєте партнера під час розмови?",
+        "en": "Do you often interrupt your partner during a conversation?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як часто ви намагаєтеся зрозуміти, що партнер дійсно хоче сказати?",
+        "en": "How often do you try to understand what your partner truly wants to say?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи повторюєте ви слова партнера, щоб переконатися, що правильно зрозуміли?",
+        "en": "Do you repeat your partner’s words to make sure you understood them correctly?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи вдається вам уникати оцінок і критики під час слухання?",
+        "en": "Are you able to avoid judgments and criticism while listening?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи дозволяєте ви партнеру повністю висловити свої думки перед тим, як відповісти?",
+        "en": "Do you let your partner fully express their thoughts before you respond?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте на емоційні висловлювання партнера?",
+        "en": "How do you usually react to your partner’s emotional statements?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Слухаю та намагаюся зрозуміти",
+            "en": "I listen and try to understand"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Висловлюю підтримку",
+            "en": "I show support"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Починаю захищатися або атакувати",
+            "en": "I get defensive or attack"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ігнорую або змінюю тему",
+            "en": "I ignore or change the subject"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи намагаєтесь ви зрозуміти емоції партнера, а не лише слова?",
+        "en": "Do you try to understand your partner’s emotions, not just words?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи відволікаєтесь ви на телефон або інші справи під час важливої розмови?",
+        "en": "Do you get distracted by your phone or other things during important conversations?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Час від часу",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи даєте ви партнеру час і простір, щоб виразити свої думки без тиску?",
+        "en": "Do you give your partner time and space to express themselves without pressure?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи обговорюєте ви почуте з партнером, щоб краще зрозуміти його/її точку зору?",
+        "en": "Do you discuss what you heard with your partner to better understand their point of view?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Ви чудово вмієте слухати партнера",
+        "en": "You are a great listener"
+      },
+      "description": {
+        "ua": "Ваші навички активного слухання зміцнюють ваші стосунки.",
+        "en": "Your active listening skills make your relationship stronger."
+      }
+    },
+    {
+      "range": [
+        25,
+        34
+      ],
+      "title": {
+        "ua": "Досить добрі навички слухання",
+        "en": "Fairly good listening skills"
+      },
+      "description": {
+        "ua": "Є моменти, які потребують покращення. Намагайтесь бути більш уважними до емоцій партнера.",
+        "en": "There are areas for improvement. Try to be more attentive to your partner's emotions."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Потрібно попрацювати над терпінням та увагою",
+        "en": "You need to work on patience and attention"
+      },
+      "description": {
+        "ua": "Ви часто стикаєтесь із труднощами під час слухання. Варто розвивати цю навичку.",
+        "en": "You often face difficulties with listening. It's worth developing this skill."
+      }
+    },
+    {
+      "range": [
+        0,
+        14
+      ],
+      "title": {
+        "ua": "Вам потрібно серйозно переглянути свої навички слухання",
+        "en": "You need to seriously improve your listening skills"
+      },
+      "description": {
+        "ua": "Застосуйте техніки активного слухання, щоб покращити стосунки.",
+        "en": "Apply active listening techniques to improve your relationship."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Покращуйте навички слухання через практику активного слухання. Навчіться повторювати слова партнера та уникати перебивань.",
+      "en": "Improve your listening skills by practicing active listening. Learn to repeat your partner’s words and avoid interrupting."
+    },
+    "couple": {
+      "ua": "Спробуйте техніку діалогу, де кожен з партнерів має 5 хвилин на висловлення своїх думок без перебивань.",
+      "en": "Try a dialogue technique where each partner has 5 minutes to share their thoughts without interruption."
+    }
+  },
+  "widget_type": "quiz"
+}

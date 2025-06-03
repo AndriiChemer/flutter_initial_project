@@ -1,0 +1,422 @@
+{
+  "id": "sexual_style",
+  "title": {
+    "ua": "Ваш сексуальний стиль",
+    "en": "Your Sexual Style"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам визначити ваш домінуючий сексуальний стиль та краще зрозуміти, як саме ви насолоджуєтесь інтимними стосунками. Результати допоможуть краще комунікувати зі своїм партнером та зрозуміти його потреби.",
+    "en": "This test will help you determine your dominant sexual style and better understand how you enjoy intimacy. The results will help you communicate better with your partner and understand their needs."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви відчуваєте себе під час інтимної близькості?",
+        "en": "How do you feel during intimacy?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Розслабленим/ою та спокійним/ою",
+            "en": "Relaxed and calm"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Енергійним/ою та активним/ою",
+            "en": "Energetic and active"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Ніжним/ою та емоційним/ою",
+            "en": "Gentle and emotional"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Фантазуючим/ою та творчим/ою",
+            "en": "Imaginative and creative"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Що для вас є найважливішим у сексуальних стосунках?",
+        "en": "What is most important to you in sexual relationships?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Довіра та безпека",
+            "en": "Trust and safety"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Пристрасть та інтенсивність",
+            "en": "Passion and intensity"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Емоційний зв'язок",
+            "en": "Emotional connection"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Новизна та експерименти",
+            "en": "Novelty and experiments"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як ви зазвичай виражаєте свої бажання?",
+        "en": "How do you usually express your desires?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Спокійно та без поспіху",
+            "en": "Calmly and without hurry"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Яскраво та впевнено",
+            "en": "Brightly and confidently"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Ніжно та з увагою до партнера",
+            "en": "Gently and with attention to partner"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Через ігри та творчі сценарії",
+            "en": "Through games and creative scenarios"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Що вас найбільше збуджує?",
+        "en": "What excites you the most?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Ніжні дотики та поцілунки",
+            "en": "Gentle touches and kisses"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Пристрастні обійми та активність",
+            "en": "Passionate hugs and activity"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Психологічні ігри та рольові сценарії",
+            "en": "Psychological games and roleplay"
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Довгі розмови та емоційна близькість",
+            "en": "Long conversations and emotional closeness"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ви реагуєте на нові ідеї або експерименти у сексі?",
+        "en": "How do you react to new ideas or experiments in sex?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Позитивно, якщо це приносить задоволення обом",
+            "en": "Positively, if it brings pleasure to both"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Завжди готовий/готова спробувати щось нове",
+            "en": "Always ready to try something new"
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Тільки якщо це обговорено та узгоджено",
+            "en": "Only if discussed and agreed"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Залежить від настрою та партнера",
+            "en": "Depends on mood and partner"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Яким чином ви найкраще досягаєте задоволення?",
+        "en": "How do you best achieve satisfaction?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Через інтенсивні відчуття та емоції",
+            "en": "Through intense sensations and emotions"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Через глибокий емоційний зв'язок",
+            "en": "Through deep emotional connection"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Через несподівані або креативні практики",
+            "en": "Through unexpected or creative practices"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Через спокійні та ніжні моменти",
+            "en": "Through calm and gentle moments"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як ви зазвичай підходите до обговорення інтимних тем з партнером?",
+        "en": "How do you usually discuss intimate topics with your partner?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Спокійно та уважно, без тиску",
+            "en": "Calmly and attentively, without pressure"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Відкрито та без сорому",
+            "en": "Openly and without shame"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Ніжно та делікатно",
+            "en": "Gently and delicately"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Граючи або через фантазії",
+            "en": "Playfully or through fantasies"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Які компліменти вам найбільше подобаються від партнера?",
+        "en": "What kind of compliments do you like most from your partner?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Про вашу ніжність та турботу",
+            "en": "About your tenderness and care"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Про вашу сексуальність та енергію",
+            "en": "About your sexuality and energy"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Про вашу емоційну глибину",
+            "en": "About your emotional depth"
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Про вашу креативність та фантазію",
+            "en": "About your creativity and imagination"
+          },
+          "score": 5
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Творчий дослідник",
+        "en": "Creative Explorer"
+      },
+      "description": {
+        "ua": "Ваш стиль – це дослідження та нові відкриття. Ви відкриті до експериментів, любите використовувати уяву та створювати нові сценарії. Ви вважаєте, що сексуальність – це простір для гри та творчості. Вашому партнеру може бути цікаво досліджувати з вами нові практики та фантазії.",
+        "en": "Your style is all about exploration and new discoveries. You are open to experiments, love using imagination, and creating new scenarios. Sexuality is a space for play and creativity for you. Your partner may find it interesting to explore new practices and fantasies with you."
+      }
+    },
+    {
+      "range": [
+        27,
+        34
+      ],
+      "title": {
+        "ua": "Пристрасний активіст",
+        "en": "Passionate Activist"
+      },
+      "description": {
+        "ua": "Ви прагнете інтенсивності та динаміки у стосунках. Вам подобається діяти активно та рішуче, ви не боїтеся брати ініціативу. Вашому партнеру може сподобатися ваш ентузіазм та енергійність. Однак, важливо також навчитися розслаблятися та насолоджуватися більш спокійними моментами.",
+        "en": "You crave intensity and dynamics in relationships. You like to act actively and decisively, and you are not afraid to take the initiative. Your enthusiasm and energy may be appreciated by your partner. However, it's important to also learn to relax and enjoy calmer moments."
+      }
+    },
+    {
+      "range": [
+        19,
+        26
+      ],
+      "title": {
+        "ua": "Ніжний емоціоналіст",
+        "en": "Gentle Emotionalist"
+      },
+      "description": {
+        "ua": "Ви віддаєте перевагу м’яким та емоційним стосункам. Ваші потреби – це глибокий зв’язок, довіра та ніжність. Ви не завжди прагнете інтенсивності, але ваше тепло та турбота можуть створювати сильні стосунки. Важливо відкриватися до нових можливостей та досліджувати разом із партнером.",
+        "en": "You prefer gentle and emotional relationships. Your needs are deep connection, trust, and tenderness. You may not always seek intensity, but your warmth and care can create strong relationships. It's important to open up to new opportunities and explore together with your partner."
+      }
+    },
+    {
+      "range": [
+        8,
+        18
+      ],
+      "title": {
+        "ua": "Спокійний традиціоналіст",
+        "en": "Calm Traditionalist"
+      },
+      "description": {
+        "ua": "Ви віддаєте перевагу стабільності та безпеці. Ваш стиль орієнтований на спокійні, ніжні моменти та передбачуваність. Вам може бути важко експериментувати або пробувати щось нове, але це не означає, що ваші стосунки менш цінні. Головне – знайти спільну мову з партнером та навчитися розуміти його потреби.",
+        "en": "You prefer stability and safety. Your style is focused on calm, gentle moments and predictability. It might be hard for you to experiment or try something new, but this doesn't make your relationships less valuable. The main thing is to find common ground with your partner and learn to understand their needs."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Складіть особисту «карту бажань» — які дотики, сценарії чи емоції приносять вам найбільше задоволення.",
+      "en": "Make a personal 'desire map' – which touches, scenarios or emotions give you the most pleasure."
+    },
+    "couple": {
+      "ua": "Обговоріть результати тесту разом, щоб краще зрозуміти очікування й знайти нові точки дотику.",
+      "en": "Discuss the test results together to better understand expectations and find new touchpoints."
+    }
+  },
+  "widget_type": "test"
+}

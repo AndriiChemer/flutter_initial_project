@@ -1,0 +1,504 @@
+{
+  "id": "emotional_barriers_in_relationship",
+  "title": {
+    "ua": "Емоційні бар’єри у стосунках",
+    "en": "Emotional Barriers in Relationships"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам дослідити приховані емоційні бар’єри, які можуть заважати глибшому зв’язку з партнером. Він дозволить вам краще зрозуміти власні труднощі у довірі, відкритості та комунікації — і зробити перший крок до емоційної близькості.",
+    "en": "This test will help you explore hidden emotional barriers that may prevent a deeper connection with your partner. It will help you better understand your own challenges with trust, openness, and communication — and take the first step towards emotional intimacy."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи відчуваєте ви, що вас уважно слухають під час важливих розмов або суперечок?",
+        "en": "Do you feel you are carefully listened to during important conversations or arguments?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Завжди.",
+            "en": "Always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи комфортно вам ділитися з партнером тим, що справді відчуваєте всередині?",
+        "en": "Do you feel comfortable sharing what you really feel inside with your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, завжди.",
+            "en": "Yes, always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Не завжди.",
+            "en": "Not always."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Я боюся бути відкритим/відкритою.",
+            "en": "I'm afraid to be open."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи легко вам пробачати партнера після конфліктів, не зберігаючи образу?",
+        "en": "Is it easy for you to forgive your partner after conflicts, without holding a grudge?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, мені легко відпустити.",
+            "en": "Yes, it's easy for me to let go."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Інколи це потребує часу.",
+            "en": "Sometimes it takes time."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Часто тримаю в собі.",
+            "en": "I often keep it inside."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Пробачити — дуже важко.",
+            "en": "Forgiveness is very difficult."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи почуваєтесь ви підтриманими емоційно, коли вам важко?",
+        "en": "Do you feel emotionally supported when you are having a hard time?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Завжди.",
+            "en": "Always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Не завжди.",
+            "en": "Not always."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Взагалі ні.",
+            "en": "Not at all."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи відкладаєте ви важливі розмови, бо боїтесь реакції партнера або втрати спокою?",
+        "en": "Do you put off important conversations because you fear your partner's reaction or losing peace?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Ніколи — я говорю відкрито.",
+            "en": "Never — I speak openly."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Часто уникаю.",
+            "en": "I often avoid it."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Завжди мовчу.",
+            "en": "I always stay silent."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи часто буває так, що партнер вас не розуміє — навіть коли ви намагаєтесь пояснити?",
+        "en": "Does it often happen that your partner doesn't understand you — even when you try to explain?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи приховуєте ви свої справжні думки або емоції, щоби не створювати напругу?",
+        "en": "Do you hide your true thoughts or emotions to avoid creating tension?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ніколи — я завжди чесний/чесна.",
+            "en": "Never — I am always honest."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто стримуюсь.",
+            "en": "I often restrain myself."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Так, практично завжди.",
+            "en": "Yes, almost always."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи відчуваєте ви, що між вами і партнером іноді з’являється емоційна відстань?",
+        "en": "Do you feel that emotional distance sometimes appears between you and your partner?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи готові ви ділитися з партнером своїми страхами, тривогами чи глибокими сумнівами?",
+        "en": "Are you ready to share your fears, anxieties, or deep doubts with your partner?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Завжди.",
+            "en": "Always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Іноді це складно.",
+            "en": "Sometimes it's difficult."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Ні, я тримаю все в собі.",
+            "en": "No, I keep it to myself."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер бачить ваші емоційні потреби й реагує на них із турботою?",
+        "en": "Do you feel your partner sees your emotional needs and responds with care?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так, повністю.",
+            "en": "Yes, completely."
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Лише іноді.",
+            "en": "Only sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Зовсім ні.",
+            "en": "Not at all."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        36,
+        40
+      ],
+      "title": {
+        "ua": "Глибока емоційна відкритість",
+        "en": "Deep Emotional Openness"
+      },
+      "description": {
+        "ua": "Ви маєте глибоку емоційну відкритість у стосунках. Ваша комунікація наповнена довірою, і бар’єри практично відсутні.",
+        "en": "You have deep emotional openness in your relationship. Your communication is full of trust, and barriers are almost absent."
+      }
+    },
+    {
+      "range": [
+        25,
+        35
+      ],
+      "title": {
+        "ua": "Помірні емоційні бар’єри",
+        "en": "Moderate Emotional Barriers"
+      },
+      "description": {
+        "ua": "У вас є деякі емоційні бар’єри, які варто м’яко досліджувати. Ви на правильному шляху, але потребуєте більше взаємної відкритості.",
+        "en": "You have some emotional barriers that are worth gently exploring. You are on the right track but need more mutual openness."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Емоційна віддаленість",
+        "en": "Emotional Distance"
+      },
+      "description": {
+        "ua": "Емоційна віддаленість заважає гармонії. Необхідно свідомо працювати над вираженням почуттів, розвитком довіри й чесних діалогів.",
+        "en": "Emotional distance hinders harmony. You need to consciously work on expressing feelings, building trust, and honest dialogue."
+      }
+    },
+    {
+      "range": [
+        0,
+        14
+      ],
+      "title": {
+        "ua": "Серйозні емоційні бар’єри",
+        "en": "Severe Emotional Barriers"
+      },
+      "description": {
+        "ua": "Ваші стосунки мають серйозні емоційні бар’єри. Почніть з малих, безпечних розмов і, за потреби, зверніться по зовнішню підтримку (психолог, терапія пари).",
+        "en": "Your relationship has serious emotional barriers. Start with small, safe conversations and, if needed, seek outside support (psychologist, couples therapy)."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Визначте, що саме заважає вам бути відкритим — страх осуду, досвід минулих поразок, вразливість? Почніть з письмових практик або внутрішніх монологів перед розмовами.",
+      "en": "Identify what prevents you from being open — fear of judgment, past failures, vulnerability? Start with journaling or internal monologues before conversations."
+    },
+    "couple": {
+      "ua": "Домовтесь про 'прозорий простір': без засудження, без реакцій “на автоматі”. Просто вислухайте одне одного — навіть 5 хвилин справжньої присутності творять дива.",
+      "en": "Agree on a 'transparent space': no judgment, no automatic reactions. Just listen to each other — even 5 minutes of true presence can work wonders."
+    }
+  },
+  "widget_type": "test"
+}

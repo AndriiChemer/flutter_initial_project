@@ -1,42 +1,54 @@
 {
-  "challenge": {
-    "id": "challenge_011",
-    "title": {
-      "ua": "П'ять ночей бажання",
-      "en": "Five Nights of Desire"
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
     },
-    "description": {
-      "ua": "Цей челендж створено, щоб кожна ніч відкривала новий рівень вашої сексуальної близькості...",
-      "en": "This challenge is designed so that each night opens a new level of sexual connection. Each day brings a new task that arouses, reveals fantasies, and strengthens the bond. Perfect for couples looking to break the routine and explore intimacy."
-    },
-    "days": 5,
-    "goal": {
-      "ua": "Відкрити нові форми сексуальної близькості через гру, фантазії та тілесність.",
-      "en": "Explore new forms of sexual intimacy through play, fantasy, and physicality."
-    },
-    "category_id": "sexual_closeness",
-    "subcategory_slug": "desire",
-    "tags": [
-      "eroticism",
-      "fantasy",
-      "touch",
-      "psychological_play",
-      "physicality"
-    ],
-    "image": "five_nights_of_desire.svg",
-    "recommended_for": {
-      "ua": "пари, які хочуть вийти за межі рутини й заново запалити бажання",
-      "en": "couples who want to break routine and reignite desire"
-    },
-    "free_or_premium": "premium",
-    "status": "active",
-    "created_at": "2025-05-22T15:18:30.979392Z",
-    "updated_at": "2025-05-22T15:18:30.979392Z"
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
   },
+  "challenges": [
+    {
+      "id": "challenge_five_nights_desire",
+      "title": {
+        "ua": "П'ять ночей бажання",
+        "en": "Five Nights of Desire"
+      },
+      "description": {
+        "ua": "Цей челендж створено, щоб кожна ніч відкривала новий рівень вашої сексуальної близькості...",
+        "en": "This challenge is designed so that each night opens a new level of sexual connection. Each day brings a new task that arouses, reveals fantasies, and strengthens the bond. Perfect for couples looking to break the routine and explore intimacy."
+      },
+      "days": 5,
+      "goal": {
+        "ua": "Відкрити нові форми сексуальної близькості через гру, фантазії та тілесність.",
+        "en": "Explore new forms of sexual intimacy through play, fantasy, and physicality."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "eroticism",
+        "fantasy",
+        "touch",
+        "psychological_play",
+        "physicality"
+      ],
+      "image": "five_nights_of_desire.svg",
+      "recommended_for": {
+        "ua": "пари, які хочуть вийти за межі рутини й заново запалити бажання",
+        "en": "couples who want to break routine and reignite desire"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ],
   "challenge_steps": [
     {
       "id": "019f6a31-76c2-4597-90e8-5c22678eecf5",
-      "challenge_id": "challenge_011",
+      "challenge_id": "challenge_five_nights_desire",
       "step_number": 1,
       "content": {
         "ua": "Ніч 1: Відверті питання\n\nОбміняйтеся 5 інтимними запитаннями...",
@@ -61,7 +73,7 @@
     },
     {
       "id": "6bd2b766-4940-46ab-aaf4-96aa46474cad",
-      "challenge_id": "challenge_011",
+      "challenge_id": "challenge_five_nights_desire",
       "step_number": 2,
       "content": {
         "ua": "Ніч 2: Мапа поцілунків\n\nПо черзі цілуйте одне одного в різні частини тіла...",
@@ -72,7 +84,7 @@
     },
     {
       "id": "e06f6096-c0e0-4c3b-8472-d3d8f069a6b0",
-      "challenge_id": "challenge_011",
+      "challenge_id": "challenge_five_nights_desire",
       "step_number": 3,
       "content": {
         "ua": "Ніч 3: Сценарій фантазії\n\nРазом придумайте один еротичний сценарій...",
@@ -93,7 +105,7 @@
     },
     {
       "id": "728c2e9b-6d88-44a2-ba04-d8248aa67611",
-      "challenge_id": "challenge_011",
+      "challenge_id": "challenge_five_nights_desire",
       "step_number": 4,
       "content": {
         "ua": "Ніч 4: Влада і контроль\n\nОдин з партнерів бере на себе роль ведучого...",
@@ -114,7 +126,7 @@
     },
     {
       "id": "888bb60a-9804-41ae-9026-ebf71eb8e6c5",
-      "challenge_id": "challenge_011",
+      "challenge_id": "challenge_five_nights_desire",
       "step_number": 5,
       "content": {
         "ua": "Ніч 5: Вибух відчуттів\n\nСьогодні — ніч, коли ви об'єднуєте найкращі моменти...",

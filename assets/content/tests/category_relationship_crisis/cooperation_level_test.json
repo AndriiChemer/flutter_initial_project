@@ -1,0 +1,486 @@
+{
+  "id": "cooperation_level_test",
+  "title": {
+    "ua": "Ваш рівень співпраці",
+    "en": "Your Level of Cooperation"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам визначити, наскільки ви готові працювати разом з партнером задля досягнення спільних цілей та вирішення конфліктів.",
+    "en": "This test will help you determine how ready you are to work together with your partner to achieve common goals and resolve conflicts."
+  },
+  "type": "quiz",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1_solutions",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер пропонує рішення, яке відрізняється від вашого?",
+        "en": "How do you react when your partner suggests a solution different from yours?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "З радістю пробую його підхід.",
+            "en": "I gladly try their approach."
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Зазвичай готовий/готова спробувати, якщо він/вона наполягає.",
+            "en": "Usually willing to try if they insist."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Погоджуюся після довгих обговорень.",
+            "en": "I agree after lengthy discussions."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Відстоюю свою думку, якщо вважаю її кращою.",
+            "en": "I stand my ground if I think my way is better."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Завжди наполягаю на своєму.",
+            "en": "I always insist on my way."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2_sharing_ideas",
+      "question": {
+        "ua": "Чи легко вам ділитися своїми думками та ідеями з партнером?",
+        "en": "Is it easy for you to share your thoughts and ideas with your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Завжди. Я відкритий/відкрита до діалогу.",
+            "en": "Always. I'm open to dialogue."
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Майже завжди, за винятком складних тем.",
+            "en": "Almost always, except for difficult topics."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Лише коли це не пов’язано з конфліктами.",
+            "en": "Only when it's not about conflicts."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Рідко, бо боюся нерозуміння.",
+            "en": "Rarely, because I fear misunderstanding."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Ніколи. Я уникаю обговорень.",
+            "en": "Never. I avoid discussions."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3_joint_problem_solving",
+      "question": {
+        "ua": "Як ви ставитеся до спільного вирішення проблем?",
+        "en": "How do you feel about solving problems together?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Завжди шукаю рішення разом із партнером.",
+            "en": "Always look for solutions together with my partner."
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Зазвичай намагаюся співпрацювати.",
+            "en": "Usually try to cooperate."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Часом дію самостійно, не обговорюючи проблеми.",
+            "en": "Sometimes act independently without discussing."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Віддаю перевагу самостійному вирішенню.",
+            "en": "Prefer to solve problems on my own."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o5",
+          "text": {
+            "ua": "Уникаю співпраці та обговорень.",
+            "en": "Avoid cooperation and discussions."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4_difference_of_opinions",
+      "question": {
+        "ua": "Як ви дієте у ситуаціях, коли ваша думка не збігається з думкою партнера?",
+        "en": "What do you do when your opinion differs from your partner’s?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Шукаю компроміс або розглядаю його думку.",
+            "en": "Seek compromise or consider their point of view."
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Зазвичай враховую його думку, але інколи важко змінити позицію.",
+            "en": "Usually consider their opinion, but sometimes it's hard to change my stance."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Часто наполягаю на своєму, але готовий/готова обговорити.",
+            "en": "Often insist on my own, but ready to discuss."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Наполягаю на своєму без бажання змінити думку.",
+            "en": "Insist on my own, unwilling to change."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o5",
+          "text": {
+            "ua": "Ігнорую думку партнера.",
+            "en": "Ignore my partner’s opinion."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5_ready_to_change",
+      "question": {
+        "ua": "Чи готові ви змінювати свою позицію заради кращого результату?",
+        "en": "Are you ready to change your position for a better outcome?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Завжди, якщо це покращує наші стосунки.",
+            "en": "Always, if it improves our relationship."
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Зазвичай, але мені потрібен час на обмірковування.",
+            "en": "Usually, but I need time to think."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Лише якщо партнер наполягає.",
+            "en": "Only if my partner insists."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Рідко, зазвичай залишаюся при своїй думці.",
+            "en": "Rarely, usually stick to my opinion."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Ніколи не змінюю свою позицію.",
+            "en": "Never change my position."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6_criticism",
+      "question": {
+        "ua": "Як ви ставитеся до критики від партнера?",
+        "en": "How do you react to criticism from your partner?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Приймаю її та намагаюся покращити свої дії.",
+            "en": "Accept it and try to improve."
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Вислуховую, але не завжди погоджуюся.",
+            "en": "Listen but don't always agree."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часто захищаюся, але обдумую критику.",
+            "en": "Often get defensive, but consider criticism."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ігнорую або відкидаю критику.",
+            "en": "Ignore or reject criticism."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o5",
+          "text": {
+            "ua": "Ніколи не сприймаю критику.",
+            "en": "Never accept criticism."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7_joint_goals",
+      "question": {
+        "ua": "Як ви ставитеся до спільних цілей у стосунках?",
+        "en": "How do you feel about shared goals in the relationship?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Завжди працюю над їх досягненням разом із партнером.",
+            "en": "Always work on achieving them together."
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Зазвичай готовий/готова співпрацювати.",
+            "en": "Usually ready to cooperate."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто дію самостійно.",
+            "en": "Often act independently."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Не люблю спільних цілей.",
+            "en": "Don't like shared goals."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Уникаю будь-якої співпраці.",
+            "en": "Avoid any cooperation."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8_compromise",
+      "question": {
+        "ua": "Чи готові ви поступитися в суперечці, щоб зберегти гармонію у стосунках?",
+        "en": "Are you ready to yield in an argument to preserve harmony in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Завжди готовий/готова йти на компроміс.",
+            "en": "Always ready to compromise."
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Зазвичай так, але не завжди.",
+            "en": "Usually yes, but not always."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Іноді, залежно від важливості питання.",
+            "en": "Sometimes, depending on the issue."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Рідко готовий/готова поступитися.",
+            "en": "Rarely ready to yield."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o5",
+          "text": {
+            "ua": "Ніколи не поступаюся.",
+            "en": "Never yield."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Високий рівень співпраці",
+        "en": "High level of cooperation"
+      },
+      "description": {
+        "ua": "Ви відкриті до діалогу та готові працювати разом над стосунками.",
+        "en": "You are open to dialogue and ready to work together on your relationship."
+      }
+    },
+    {
+      "range": [
+        25,
+        34
+      ],
+      "title": {
+        "ua": "Середній рівень співпраці",
+        "en": "Medium level of cooperation"
+      },
+      "description": {
+        "ua": "Ви часто готові співпрацювати, але є простір для покращення.",
+        "en": "You are often ready to cooperate, but there is room for improvement."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Низький рівень співпраці",
+        "en": "Low level of cooperation"
+      },
+      "description": {
+        "ua": "Вам варто розвивати навички співпраці та обговорення.",
+        "en": "You should work on developing cooperation and discussion skills."
+      }
+    },
+    {
+      "range": [
+        0,
+        14
+      ],
+      "title": {
+        "ua": "Дуже низький рівень співпраці",
+        "en": "Very low level of cooperation"
+      },
+      "description": {
+        "ua": "Рекомендується більше працювати над відкритістю та компромісами.",
+        "en": "It is recommended to work more on openness and making compromises."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Зверніть увагу на відкритість до думок партнера та прагнення до співпраці.",
+      "en": "Pay attention to openness to your partner's opinions and strive for cooperation."
+    },
+    "couple": {
+      "ua": "Використовуйте техніки активного слухання та обговорення для вирішення конфліктів.",
+      "en": "Use active listening and discussion techniques to resolve conflicts."
+    }
+  },
+  "widget_type": "quiz"
+}

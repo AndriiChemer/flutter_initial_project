@@ -1,0 +1,159 @@
+{
+  "technique": {
+    "id": "hot_or_cold",
+    "title": {
+      "ua": "Гаряче або холодно",
+      "en": "Hot or Cold"
+    },
+    "description": {
+      "ua": "Ця техніка дозволяє партнерам краще зрозуміти чутливі зони одне одного через гру з дотиками. Вона сприяє розкриттю нових ерогенних зон та поглибленню тілесної взаємодії.",
+      "en": "This technique helps partners discover each other's sensitive zones through a playful touch game. It encourages exploring new erogenous zones and deepening physical connection."
+    },
+    "goal": {
+      "ua": "Поглибити тілесну взаємодію через дослідження нових чутливих зон.",
+      "en": "Deepen physical connection by discovering new sensitive areas together."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "daily-touch",
+    "widget_type": "timer",
+    "duration": "15 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Легке торкання шиї – партнер каже 'гаряче'.",
+        "en": "Gentle touch on the neck – partner says 'hot'."
+      },
+      {
+        "ua": "Дотик до руки – партнер каже 'холодно'.",
+        "en": "Touch on the arm – partner says 'cold'."
+      },
+      {
+        "ua": "Поцілунок у мочку вуха – партнер мовчить.",
+        "en": "Kiss on the earlobe – partner stays silent (neutral)."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Будьте чесними: не кажіть 'гаряче', якщо вам щось не приємно.",
+        "en": "Be honest: don’t say 'hot' if something isn’t pleasant for you."
+      },
+      {
+        "ua": "Зберігайте легкість та грайливість — це гра, а не тест.",
+        "en": "Keep it light and playful — it’s a game, not a test."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_hot_or_cold",
+      "technique_id": "hot_or_cold",
+      "step_number": 1,
+      "title": {
+        "ua": "Підготовка до гри",
+        "en": "Preparing for the Game"
+      },
+      "instruction": {
+        "ua": "Виберіть комфортне місце, де вам обом буде зручно розслабитись. Встановіть таймер на 15 хвилин та оберіть, хто перший буде доторкатись.",
+        "en": "Choose a comfortable spot where you can both relax. Set a timer for 15 minutes and decide who will start touching first."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я почну першим/першою. Скажи мені, якщо щось буде особливо приємним або, навпаки, незручним.»",
+          "en": "Partner 1: 'I’ll start first. Tell me if something feels especially good or, on the contrary, uncomfortable.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Вимкніть телефони та інші подразники, щоб зосередитись на відчуттях.",
+          "en": "Turn off phones and other distractions to fully focus on sensations."
+        },
+        {
+          "ua": "Попередньо домовтеся про межі: які зони краще не торкатись.",
+          "en": "Agree on boundaries in advance: which areas are off limits."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_hot_or_cold",
+      "technique_id": "hot_or_cold",
+      "step_number": 2,
+      "title": {
+        "ua": "Гра з дотиками",
+        "en": "Touch Game"
+      },
+      "instruction": {
+        "ua": "Один партнер починає торкатись іншого: легкі погладжування, поцілунки, ніжні укуси. Другий партнер відповідає словами: 'гаряче' — якщо приємно, 'холодно' — якщо ні, або мовчить, якщо відчуття нейтральне.",
+        "en": "One partner starts touching the other: gentle strokes, kisses, soft bites. The receiving partner responds with 'hot' if it feels good, 'cold' if not, or stays silent if the sensation is neutral."
+      },
+      "duration": "6 min",
+      "examples": [
+        {
+          "ua": "Легке торкання шиї – партнер каже 'гаряче'.",
+          "en": "Gentle touch on the neck – partner says 'hot'."
+        },
+        {
+          "ua": "Дотик до руки – партнер каже 'холодно'.",
+          "en": "Touch on the arm – partner says 'cold'."
+        },
+        {
+          "ua": "Поцілунок у мочку вуха – партнер мовчить (сигнал, що нормально, але без сильного ефекту).",
+          "en": "Kiss on the earlobe – partner stays silent (it’s fine but not especially exciting)."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не поспішайте — рухайтесь повільно, щоб дати партнеру час відчути кожен дотик.",
+          "en": "Don’t rush — move slowly so your partner can feel every touch."
+        },
+        {
+          "ua": "Якщо відчуття особливо приємне, попросіть партнера описати, чому саме.",
+          "en": "If a sensation is especially pleasant, ask your partner to describe what makes it so."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_hot_or_cold",
+      "technique_id": "hot_or_cold",
+      "step_number": 3,
+      "title": {
+        "ua": "Зміна ролей",
+        "en": "Switching Roles"
+      },
+      "instruction": {
+        "ua": "Поміняйтеся ролями: тепер інший партнер виконує дотики, а перший коментує свої відчуття.",
+        "en": "Switch roles: now the other partner does the touching, and the first one comments on sensations."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Мені особливо подобається, коли ти торкаєшся моєї нижньої частини спини.»",
+          "en": "Partner 2: 'I especially like it when you touch my lower back.'"
+        },
+        {
+          "ua": "Партнер 1: «Я не знав/ла, що твої зап’ястя такі чутливі до поцілунків.»",
+          "en": "Partner 1: 'I didn’t know your wrists were so sensitive to kisses.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Обговоріть після гри, які зони були найчутливішими.",
+          "en": "After the game, discuss which areas were most sensitive."
+        },
+        {
+          "ua": "Запропонуйте повернутись до особливо приємних зон пізніше.",
+          "en": "Suggest returning to especially pleasant zones later."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

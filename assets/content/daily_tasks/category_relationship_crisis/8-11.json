@@ -1,0 +1,218 @@
+[
+  {
+    "id": "words-of-love",
+    "title": {
+      "ua": "Слова любові",
+      "en": "Words of Love"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Щоденна вправа, що допомагає партнерам висловлювати свою любов через слова підтримки та ніжності.",
+      "en": "A daily exercise to help partners express their love through supportive and tender words."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Кожного дня скажіть партнеру хоча б одну приємність або слова любові.",
+        "en": "Every day, say at least one kind or loving thing to your partner."
+      },
+      {
+        "number": 2,
+        "ua": "Запам’ятайте реакцію партнера.",
+        "en": "Notice your partner’s reaction."
+      },
+      {
+        "number": 3,
+        "ua": "Ввечері обговоріть, як це вплинуло на ваші емоції.",
+        "en": "In the evening, discuss how it affected your emotions."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": null,
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я люблю тебе за те, що ти завжди підтримуєш мене.",
+        "en": "I love you for always supporting me."
+      },
+      {
+        "ua": "Мені подобається твоя турботливість та доброта.",
+        "en": "I appreciate your caring and kindness."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Намагайтеся говорити щиро та відверто.",
+        "en": "Try to speak honestly and sincerely."
+      },
+      {
+        "ua": "Робіть це регулярно, навіть коли все добре.",
+        "en": "Do this regularly, even when things are going well."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "words_of_love.png"
+  },
+  {
+    "id": "identifying-conflict-triggers",
+    "title": {
+      "ua": "Вивчення конфліктних тригерів",
+      "en": "Identifying Conflict Triggers"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Щоденне завдання, що допомагає зрозуміти, які дії або слова викликають конфлікти, і як можна уникнути їх у майбутньому.",
+      "en": "A daily task to help you understand what actions or words trigger conflicts and how to avoid them in the future."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня звертайте увагу на те, що викликає негативні емоції у стосунках.",
+        "en": "Throughout the day, pay attention to what triggers negative emotions in your relationship."
+      },
+      {
+        "number": 2,
+        "ua": "Записуйте свої думки та спостереження.",
+        "en": "Write down your thoughts and observations."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть ці тригери з партнером та знайдіть шляхи їх уникнення.",
+        "en": "Discuss these triggers with your partner and look for ways to avoid them."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": null,
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Я зрозумів/ла, що часті суперечки виникають через непорозуміння щодо часу.",
+        "en": "I realized that many of our arguments are due to misunderstandings about time."
+      },
+      {
+        "ua": "Мені було важко прийняти твою критику, але я розумію, що вона була конструктивною.",
+        "en": "It was hard for me to accept your criticism, but I understand it was constructive."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Звертайте увагу на свої емоції.",
+        "en": "Pay attention to your emotions."
+      },
+      {
+        "ua": "Обговорюйте тригери без звинувачень.",
+        "en": "Discuss triggers without blaming."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "conflict_triggers.png"
+  },
+  {
+    "id": "day-review",
+    "title": {
+      "ua": "Перегляд дня",
+      "en": "Day Review"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Це завдання допомагає аналізувати свій день, визначати позитивні моменти та моменти, що потребують покращення.",
+      "en": "This task helps you reflect on your day, identify positive moments and areas for improvement."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Щовечора записуйте три речі, які були позитивними у вашому спілкуванні з партнером.",
+        "en": "Every evening, write down three positive things in your communication with your partner."
+      },
+      {
+        "number": 2,
+        "ua": "Визначте одну річ, яку можна покращити завтра.",
+        "en": "Identify one thing you can improve tomorrow."
+      },
+      {
+        "number": 3,
+        "ua": "Поділіться своїми висновками з партнером.",
+        "en": "Share your insights with your partner."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": null,
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Сьогодні ми спокійно обговорили наші проблеми.",
+        "en": "Today we calmly discussed our problems."
+      },
+      {
+        "ua": "Завтра я постараюся слухати тебе уважніше.",
+        "en": "Tomorrow I will try to listen to you more attentively."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Фокусуйтеся на позитивних моментах.",
+        "en": "Focus on positive moments."
+      },
+      {
+        "ua": "Робіть завдання регулярною частиною вашої рутини.",
+        "en": "Make this task a regular part of your routine."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "daily_review.png"
+  },
+  {
+    "id": "mutual-listening",
+    "title": {
+      "ua": "Взаємне слухання",
+      "en": "Mutual Listening"
+    },
+    "category_slug": "crisis_in_relationships",
+    "description": {
+      "ua": "Завдання, яке допомагає парам навчитися уважно слухати один одного, не перебиваючи та не оцінюючи.",
+      "en": "A task that helps couples learn to listen carefully to each other without interrupting or judging."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Один партнер говорить протягом 3-5 хвилин про свої почуття та переживання. Інший слухає без перебивань.",
+        "en": "One partner speaks for 3–5 minutes about their feelings and experiences. The other listens without interrupting."
+      },
+      {
+        "number": 2,
+        "ua": "Після цього партнери міняються ролями.",
+        "en": "Then partners switch roles."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як кожен з вас відчував себе під час вправи.",
+        "en": "Discuss how each of you felt during the exercise."
+      }
+    ],
+    "widget_type": "timer",
+    "duration": "10 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Коли ти мене слухав/ла без перебивань, я відчував/ла себе почутим/почутою.",
+        "en": "When you listened to me without interrupting, I felt truly heard."
+      },
+      {
+        "ua": "Було важко не реагувати, але це допомогло мені краще зрозуміти твої почуття.",
+        "en": "It was hard not to react, but it helped me better understand your feelings."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Зосередьтеся на слуханні, а не на підготовці відповіді.",
+        "en": "Focus on listening, not preparing your response."
+      },
+      {
+        "ua": "Відзначайте позитивні зміни у спілкуванні.",
+        "en": "Notice positive changes in your communication."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "mutual_listening.png"
+  }
+]

@@ -1,0 +1,143 @@
+{
+  "technique": {
+    "id": "rewrite_the_story",
+    "title": {
+      "ua": "Переписування історії",
+      "en": "Rewrite the Story"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає поглянути на конфлікт з іншого боку через письмове викладення ситуації та переформулювання негативних моментів у позитивні або нейтральні.",
+      "en": "This technique helps you see a conflict from a different perspective by writing down the situation and reframing negative moments into positive or neutral ones."
+    },
+    "goal": {
+      "ua": "Сформувати конструктивний підхід до конфліктів і навчитися шукати нові значення у звичних ситуаціях.",
+      "en": "Develop a constructive approach to conflicts and learn to find new meaning in familiar situations."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflicts-and-arguments",
+    "widget_type": "notes",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я завжди думав(ла), що ти мене ігноруєш, але тепер бачу, що це було через твою зайнятість.»",
+        "en": "Partner 1: 'I always thought you were ignoring me, but now I see it was because you were busy.'"
+      },
+      {
+        "ua": "Партнер 2: «Мені здавалось, що ти чекаєш надто багато, але тепер я розумію, що тобі просто потрібна увага.»",
+        "en": "Partner 2: 'I used to think you expected too much, but now I realize you just need attention.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Залишайте місце для позитивних моментів або можливостей для покращення.",
+        "en": "Leave room for positive moments or opportunities for improvement."
+      },
+      {
+        "ua": "Не уникайте негативу, але трансформуйте його у конструктивний висновок.",
+        "en": "Don't avoid negativity, but transform it into a constructive conclusion."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_rewrite_the_story",
+      "technique_id": "rewrite_the_story",
+      "step_number": 1,
+      "title": {
+        "ua": "Опис конфлікту",
+        "en": "Describe the Conflict"
+      },
+      "instruction": {
+        "ua": "Кожен партнер окремо пише короткий опис конфлікту, використовуючи лише факти, без звинувачень. Максимум 5 речень.",
+        "en": "Each partner separately writes a short description of the conflict, using only facts, without blame. Maximum 5 sentences."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Вчора ти не відповів на моє повідомлення протягом 3 годин, і я відчув(ла), що мене ігнорують.»",
+          "en": "Partner 1: 'Yesterday you didn't reply to my message for 3 hours, and I felt ignored.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сфокусуйтесь на подіях, а не на оцінках.",
+          "en": "Focus on the events, not judgments."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_rewrite_the_story",
+      "technique_id": "rewrite_the_story",
+      "step_number": 2,
+      "title": {
+        "ua": "Переписування історії",
+        "en": "Rewrite the Story"
+      },
+      "instruction": {
+        "ua": "Кожен переписує історію, намагаючись знайти позитивні аспекти або можливості для покращення.",
+        "en": "Each partner rewrites the story, trying to find positive aspects or opportunities for improvement."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Можливо, ти був(ла) зайнятий і не міг(ла) відповісти одразу. Але це дало мені час подумати, чому мені так важлива твоя увага.»",
+          "en": "Partner 1: 'Maybe you were busy and couldn't reply right away. But it gave me time to think about why your attention is so important to me.'"
+        },
+        {
+          "ua": "Партнер 2: «Я не відповів, бо був зайнятий роботою. Мені важливо пояснити це тобі заздалегідь, щоб ти не відчував(ла) себе ігнорованим.»",
+          "en": "Partner 2: 'I didn't reply because I was busy with work. It's important for me to explain this to you in advance so you don't feel ignored.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Шукайте навіть маленькі позитиви у ситуації.",
+          "en": "Look for even small positives in the situation."
+        },
+        {
+          "ua": "Спробуйте сформулювати свої думки як запитання: «Що я можу побачити у цій ситуації з іншого боку?»",
+          "en": "Try to phrase your thoughts as a question: 'What can I see in this situation from another perspective?'"
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_rewrite_the_story",
+      "technique_id": "rewrite_the_story",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення та висновки",
+        "en": "Discussion and Conclusions"
+      },
+      "instruction": {
+        "ua": "Обміняйтесь переписаними історіями та обговоріть: що нового ви побачили? Як можна використати ці висновки у майбутніх конфліктах?",
+        "en": "Exchange your rewritten stories and discuss: what did you see that was new? How can you use these insights in future conflicts?"
+      },
+      "duration": "8 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Тепер я розумію, що моя реакція на твоє мовчання була більше про мої страхи, ніж про твою поведінку.»",
+          "en": "Partner 1: 'Now I understand that my reaction to your silence was more about my fears than about your behavior.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Запитайте партнера: «Що нового ти зрозумів(ла) з моєї історії?»",
+          "en": "Ask your partner: 'What did you learn from my story?'"
+        },
+        {
+          "ua": "Спробуйте знайти спільні точки зору або спільні бажання.",
+          "en": "Try to find common ground or shared desires."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

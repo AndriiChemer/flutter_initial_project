@@ -1,0 +1,602 @@
+[
+  {
+    "id": "difficult-talks-lead-to-understanding",
+    "phrase": {
+      "ua": "Навіть складні розмови — це шлях до справжнього порозуміння.",
+      "en": "Even difficult conversations are a path to true understanding."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "dont-fear-slow-steps",
+    "phrase": {
+      "ua": "Не бійся повільних кроків — головне, що ти рухаєшся вперед.",
+      "en": "Don’t be afraid of slow steps — the main thing is that you’re moving forward."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "silence-speaks-more",
+    "phrase": {
+      "ua": "Тиша іноді говорить більше, ніж тисячі слів.",
+      "en": "Sometimes silence speaks louder than a thousand words."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "rebirth-in-collapse",
+    "phrase": {
+      "ua": "Коли здається, що все валиться — це часто момент переродження.",
+      "en": "When it feels like everything is falling apart, it’s often a moment of rebirth."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "self-care-first-step",
+    "phrase": {
+      "ua": "Піклування про себе — це перший крок до здорових стосунків.",
+      "en": "Caring for yourself is the first step toward healthy relationships."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "emotions-need-to-be-felt",
+    "phrase": {
+      "ua": "Емоції не потрібно виправдовувати. Їх потрібно прожити.",
+      "en": "Emotions don’t need to be justified. They need to be felt."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "dont-have-to-be-strong-always",
+    "phrase": {
+      "ua": "Ти не зобов’язаний бути сильним весь час.",
+      "en": "You don’t have to be strong all the time."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "healing-begins-with-honesty",
+    "phrase": {
+      "ua": "Зцілення починається з чесності перед собою.",
+      "en": "Healing begins with honesty to yourself."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "pain-leads-to-closeness",
+    "phrase": {
+      "ua": "Люди змінюються — іноді біль відкриває глибші рівні близькості.",
+      "en": "People change — sometimes pain leads to deeper levels of closeness."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "allow-no-answers-now",
+    "phrase": {
+      "ua": "Дозволь собі не мати відповідей прямо зараз.",
+      "en": "Allow yourself not to have all the answers right now."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "acceptance-is-wisdom",
+    "phrase": {
+      "ua": "Прийняття — це не поразка, це глибока мудрість.",
+      "en": "Acceptance is not defeat, it’s deep wisdom."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "trust-step-is-progress",
+    "phrase": {
+      "ua": "Навіть один крок у напрямку довіри — це вже прогрес.",
+      "en": "Even one step towards trust is already progress."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "sometimes-just-be-there",
+    "phrase": {
+      "ua": "Інколи варто просто побути поруч — навіть мовчки.",
+      "en": "Sometimes it’s enough just to be there — even in silence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "closeness-born-in-sincerity",
+    "phrase": {
+      "ua": "Повторна близькість народжується зі щирості.",
+      "en": "Closeness is reborn through sincerity."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "conflict-invitation-to-quality",
+    "phrase": {
+      "ua": "Конфлікт — це не кінець. Це запрошення до нової якості.",
+      "en": "Conflict is not the end. It’s an invitation to a new level."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "silence-builds-important-things",
+    "phrase": {
+      "ua": "Важливі речі часто формуються у моментах тиші.",
+      "en": "Important things are often formed in moments of silence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "pain-talk-is-courage",
+    "phrase": {
+      "ua": "Говорити про біль — не слабкість, а сміливість.",
+      "en": "Talking about pain is not weakness, it’s courage."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "connection-is-presence",
+    "phrase": {
+      "ua": "Зв’язок — це не завжди про рішення. Іноді — про присутність.",
+      "en": "Connection isn’t always about solutions. Sometimes, it’s about presence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "not-all-talks-solve",
+    "phrase": {
+      "ua": "Не всі розмови вирішують. Але більшість — відкривають.",
+      "en": "Not every conversation solves, but most open new doors."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "trust-the-process",
+    "phrase": {
+      "ua": "Довіряй процесу. Навіть якщо зараз боляче — це частина зростання.",
+      "en": "Trust the process. Even if it hurts now — it’s part of growth."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "need-for-closeness",
+    "phrase": {
+      "ua": "Потреба в близькості — не слабкість, а людська природа.",
+      "en": "The need for closeness is not weakness, it’s human nature."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "openness-begins-small-honesty",
+    "phrase": {
+      "ua": "Відкритість починається з маленької чесності.",
+      "en": "Openness begins with a small act of honesty."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "darkness-to-light",
+    "phrase": {
+      "ua": "Навіть якщо зараз темно — ти вже на шляху до світла.",
+      "en": "Even if it’s dark now — you are already on the way to light."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "no-need-to-be-perfect",
+    "phrase": {
+      "ua": "Ми не мусимо бути ідеальними, щоб бути вартими любові.",
+      "en": "We don’t have to be perfect to be worthy of love."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "relationships-are-connection",
+    "phrase": {
+      "ua": "Стосунки — це не про перемоги, а про зв’язок.",
+      "en": "Relationships are not about victories, but about connection."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "sometimes-just-sit-together",
+    "phrase": {
+      "ua": "Інколи головне — це бути поруч, навіть без слів.",
+      "en": "Sometimes the main thing is just being there, even without words."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "vulnerability-bridge-to-connection",
+    "phrase": {
+      "ua": "Твоя вразливість — не тягар, а міст до глибшого зв’язку.",
+      "en": "Your vulnerability is not a burden — it’s a bridge to deeper connection."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "new-dialogue-in-silence",
+    "phrase": {
+      "ua": "У моменті тиші може народитися новий діалог.",
+      "en": "A new dialogue can be born in a moment of silence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "conflict-about-pain-not-right",
+    "phrase": {
+      "ua": "Конфлікт — це не про те, хто правий. Це про те, що болить.",
+      "en": "Conflict is not about who’s right. It’s about what hurts."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "choice-to-be-together",
+    "phrase": {
+      "ua": "Вибір бути поруч — це теж прояв любові.",
+      "en": "Choosing to stay close is also an act of love."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "easier-to-heal-together",
+    "phrase": {
+      "ua": "Всі ми маємо зламані частини. Разом їх легше зцілити.",
+      "en": "We all have broken parts. It's easier to heal them together."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "small-step-is-enough",
+    "phrase": {
+      "ua": "Сьогодні ти можеш зробити хоч маленький крок — цього достатньо.",
+      "en": "Today you can take even a small step — that's enough."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "vulnerability-is-courage",
+    "phrase": {
+      "ua": "Вразливість — це сміливість бути справжнім.",
+      "en": "Vulnerability is the courage to be real."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "dont-rush-answers",
+    "phrase": {
+      "ua": "Не тисни на відповідь. Дай місце тиші й розумінню.",
+      "en": "Don't push for an answer. Give space for silence and understanding."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "anger-is-mask-for-pain",
+    "phrase": {
+      "ua": "Гнів — це часто маска болю. Поглянь глибше.",
+      "en": "Anger is often a mask for pain. Look deeper."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "love-is-a-choice-to-work",
+    "phrase": {
+      "ua": "Любов — це не завжди легкість. Це вибір працювати разом.",
+      "en": "Love is not always easy. It's a choice to work together."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "remember-you-found-way",
+    "phrase": {
+      "ua": "Пам’ятай: у вас колись вже виходило знайти шлях одне до одного.",
+      "en": "Remember: you have already found your way to each other before."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "what-can-i-do-now",
+    "phrase": {
+      "ua": "Питання 'що я можу зробити зараз?' — потужніший за 'чому так сталося?'.",
+      "en": "Asking 'what can I do now?' is more powerful than 'why did this happen?'."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "relationships-face-difficulties-together",
+    "phrase": {
+      "ua": "Стосунки — це не про уникнення труднощів, а про проходження їх разом.",
+      "en": "Relationships are not about avoiding difficulties, but facing them together."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "one-gesture-can-change",
+    "phrase": {
+      "ua": "Сьогодні — новий шанс. Навіть один жест може змінити все.",
+      "en": "Today is a new chance. Even one gesture can change everything."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "stories-can-be-rewritten",
+    "phrase": {
+      "ua": "У кожної історії є простір для перезапису.",
+      "en": "Every story has room for a rewrite."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "dont-need-to-understand-all",
+    "phrase": {
+      "ua": "Не завжди потрібно все розуміти — достатньо бути поруч.",
+      "en": "You don't always need to understand everything — just being there is enough."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "not-alone-even-when-hard",
+    "phrase": {
+      "ua": "Навіть коли важко — ти не один.",
+      "en": "Even when it's hard — you're not alone."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "your-feelings-matter",
+    "phrase": {
+      "ua": "Твої почуття мають значення.",
+      "en": "Your feelings matter."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "slowness-is-care",
+    "phrase": {
+      "ua": "Повільність — не слабкість. Це турбота.",
+      "en": "Slowness is not weakness. It's care."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "relationships-heal-gradually",
+    "phrase": {
+      "ua": "Стосунки не ламаються за одну ніч. І не зцілюються за одну. Але вони зцілюються.",
+      "en": "Relationships don't break in one night. They don't heal in one night either. But they do heal."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "open-look-open-heart",
+    "phrase": {
+      "ua": "Інколи все, що потрібно — це щирий погляд і відкрите серце.",
+      "en": "Sometimes all you need is an honest look and an open heart."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "forgiveness-begins-with-wish",
+    "phrase": {
+      "ua": "Пробачення починається з бажання зцілити.",
+      "en": "Forgiveness begins with the wish to heal."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "cant-solve-all-now-but-listen",
+    "phrase": {
+      "ua": "Не все можна вирішити одразу, але вже зараз можна почати слухати.",
+      "en": "Not everything can be solved right away, but you can start listening now."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "dialogue-is-power",
+    "phrase": {
+      "ua": "У діалозі більше сили, ніж у мовчанні.",
+      "en": "There is more power in dialogue than in silence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "focus-on-today",
+    "phrase": {
+      "ua": "Важливо не те, що було вчора, а що ти готовий зробити сьогодні.",
+      "en": "What matters is not what happened yesterday, but what you’re ready to do today."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "emotional-bond-step-by-step",
+    "phrase": {
+      "ua": "Емоційний зв’язок — це те, що відновлюється крок за кроком.",
+      "en": "Emotional connection is something that’s rebuilt step by step."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "love-is-silence-together",
+    "phrase": {
+      "ua": "Інколи любов — це вміння побути в тиші разом.",
+      "en": "Sometimes love is the ability to be silent together."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "be-gentle-to-yourself",
+    "phrase": {
+      "ua": "Будь ніжним до себе. Ти робиш те, що можеш.",
+      "en": "Be gentle with yourself. You’re doing what you can."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "ask-what-hurts",
+    "phrase": {
+      "ua": "Запитай не \"що не так?\", а \"що болить?\".",
+      "en": "Don’t ask 'what’s wrong?', ask 'what hurts?'."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "one-honest-step-forward",
+    "phrase": {
+      "ua": "Один щирий крок вперед — вже не застій.",
+      "en": "One honest step forward is already progress."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "trust-rebuilt-by-actions",
+    "phrase": {
+      "ua": "Довіра відновлюється не словами, а діями.",
+      "en": "Trust is rebuilt not by words, but by actions."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "every-couple-faces-crisis",
+    "phrase": {
+      "ua": "Всі пари проходять кризи. Різниця — в тому, як проходять.",
+      "en": "Every couple goes through crisis. The difference is in how you go through it."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "care-is-small-choices",
+    "phrase": {
+      "ua": "Турбота — це не завжди великі вчинки. Це маленькі вибори щодня.",
+      "en": "Care isn’t always big acts. It’s small choices every day."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  },
+  {
+    "id": "you-can-change-relationship-dynamic",
+    "phrase": {
+      "ua": "Ти маєш силу змінити динаміку ваших стосунків — почни з малого.",
+      "en": "You have the power to change your relationship’s dynamic — start small."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "crisis_in_relationships",
+    "status": "active"
+  }
+]

@@ -1,0 +1,422 @@
+{
+  "id": "relationship_support_check",
+  "title": {
+    "ua": "Перевірка рівня взаємної підтримки у стосунках",
+    "en": "Checking the Level of Mutual Support in a Relationship"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити, наскільки партнери підтримують одне одного у важкі моменти, наскільки вони готові допомагати та приймати допомогу.",
+    "en": "This test will help determine how much partners support each other in difficult times, and how willing they are to help and accept help."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер відчуває стрес або тривогу?",
+        "en": "How do you react when your partner is stressed or anxious?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Я намагаюся зрозуміти його/її почуття та підтримати.",
+            "en": "I try to understand their feelings and support them."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Запитую, чим можу допомогти.",
+            "en": "I ask how I can help."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Намагаюся відволікти його/її, не заглиблюючись у проблему.",
+            "en": "I try to distract them without getting into the problem."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Уникаю розмов про це, оскільки не знаю, як допомогти.",
+            "en": "I avoid talking about it because I don’t know how to help."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви дієте, коли відчуваєте себе погано або розчарованим/ою?",
+        "en": "What do you do when you feel bad or disappointed?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Відверто говорю про свої почуття та прошу про підтримку.",
+            "en": "I openly talk about my feelings and ask for support."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Намагаюся вирішити проблему самостійно.",
+            "en": "I try to solve the problem on my own."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Зачиняюся в собі, не повідомляючи партнеру.",
+            "en": "I withdraw into myself and don't tell my partner."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Уникаю розмов про свої емоції.",
+            "en": "I avoid talking about my emotions."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як часто ви висловлюєте вдячність партнеру за підтримку?",
+        "en": "How often do you express gratitude to your partner for support?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Постійно, навіть за незначні прояви турботи.",
+            "en": "Always, even for small acts of care."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Іноді, коли це здається доречним.",
+            "en": "Sometimes, when it feels appropriate."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко або лише тоді, коли відчуваю провину.",
+            "en": "Rarely, or only when I feel guilty."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер критикує вашу поведінку?",
+        "en": "How do you react when your partner criticizes your behavior?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Приймаю критику та намагаюся зрозуміти, що я можу покращити.",
+            "en": "I accept criticism and try to understand what I can improve."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Захищаюсь, але потім аналізую ситуацію.",
+            "en": "I defend myself, but then reflect on the situation."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Стаю роздратованим/ою та агресивним/ою.",
+            "en": "I become irritated and aggressive."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Уникаю розмови та ігнорую критику.",
+            "en": "I avoid the conversation and ignore the criticism."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер потребує вашої допомоги?",
+        "en": "How do you react when your partner needs your help?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Роблю все можливе, щоб допомогти.",
+            "en": "I do everything possible to help."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Пропоную допомогу, але не завжди знаходжу час.",
+            "en": "I offer to help, but don't always find the time."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Уникаю ситуацій, коли від мене вимагають допомоги.",
+            "en": "I avoid situations where help is required from me."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ігнорую потреби партнера.",
+            "en": "I ignore my partner's needs."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви реагуєте, коли ваш партнер розповідає про свої проблеми?",
+        "en": "How do you react when your partner tells you about their problems?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Вислуховую уважно та намагаюся допомогти.",
+            "en": "I listen attentively and try to help."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Вислуховую, але не завжди знаю, як допомогти.",
+            "en": "I listen, but don't always know how to help."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Прагну змінити тему або уникаю розмови.",
+            "en": "I try to change the topic or avoid the conversation."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ігнорую його/її слова.",
+            "en": "I ignore what they say."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Як часто ви цікавитесь тим, що відбувається у житті партнера?",
+        "en": "How often do you take interest in what's going on in your partner's life?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Регулярно, щоб бути в курсі його/її емоційного стану.",
+            "en": "Regularly, to stay aware of their emotional state."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Інколи, коли здається, що щось не так.",
+            "en": "Sometimes, when something seems wrong."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Рідко або лише тоді, коли мені це вигідно.",
+            "en": "Rarely, or only when it benefits me."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер пропонує допомогу вам?",
+        "en": "How do you react when your partner offers you help?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Вдячно приймаю допомогу.",
+            "en": "I gratefully accept help."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Приймаю допомогу, але не завжди висловлюю вдячність.",
+            "en": "I accept help, but don't always express gratitude."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Відмовляюся, навіть коли вона потрібна.",
+            "en": "I refuse help, even when I need it."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ігнорую пропозиції допомоги.",
+            "en": "I ignore offers of help."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        8,
+        15
+      ],
+      "title": {
+        "ua": "Високий рівень підтримки",
+        "en": "High level of support"
+      },
+      "description": {
+        "ua": "Ви створюєте взаємну підтримку у стосунках та готові допомагати один одному.",
+        "en": "You create mutual support in your relationship and are ready to help each other."
+      }
+    },
+    {
+      "range": [
+        16,
+        25
+      ],
+      "title": {
+        "ua": "Є підтримка, але місця для покращення",
+        "en": "Support exists, but room for improvement"
+      },
+      "description": {
+        "ua": "У ваших стосунках є підтримка, але є місця для покращення. Варто працювати над відкритим обговоренням потреб та бажань.",
+        "en": "There is support in your relationship, but there is room for improvement. It's worth working on openly discussing needs and desires."
+      }
+    },
+    {
+      "range": [
+        26,
+        32
+      ],
+      "title": {
+        "ua": "Недостатньо підтримки",
+        "en": "Lack of support"
+      },
+      "description": {
+        "ua": "Ваші стосунки страждають через відсутність підтримки. Варто звернути увагу на взаєморозуміння та створення комфортної атмосфери.",
+        "en": "Your relationship suffers from lack of support. Pay attention to mutual understanding and creating a comfortable atmosphere."
+      }
+    },
+    {
+      "range": [
+        33,
+        40
+      ],
+      "title": {
+        "ua": "Відсутність підтримки та розуміння",
+        "en": "Lack of support and understanding"
+      },
+      "description": {
+        "ua": "Ваші стосунки характеризуються відсутністю підтримки та розуміння. Потрібна серйозна робота над комунікацією та емоційною взаємодією.",
+        "en": "Your relationship is characterized by a lack of support and understanding. Serious work is needed on communication and emotional interaction."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Навчитися приймати допомогу, розвивати навички саморефлексії.",
+      "en": "Learn to accept help, develop self-reflection skills."
+    },
+    "couple": {
+      "ua": "Регулярно обговорювати потреби та бажання, застосовувати техніки підтримки.",
+      "en": "Regularly discuss needs and desires, use support techniques."
+    }
+  },
+  "widget_type": "quiz"
+}

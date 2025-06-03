@@ -1,0 +1,437 @@
+{
+  "id": "compromise_level_test",
+  "title": {
+    "ua": "Ваш рівень компромісності",
+    "en": "Your Level of Compromise"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Дізнайтеся, наскільки ви здатні йти на компроміси у стосунках, зберігаючи гармонію та розуміння з партнером.",
+    "en": "Find out how well you can compromise in your relationship, maintaining harmony and understanding with your partner."
+  },
+  "type": "quiz",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1_opinion_difference",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте, коли ваша думка відрізняється від думки партнера?",
+        "en": "How do you usually react when your opinion differs from your partner’s?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Відразу намагаюся знайти компроміс.",
+            "en": "I immediately try to find a compromise."
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Спершу висловлюю свою думку, потім шукаю компроміс.",
+            "en": "First I express my opinion, then look for compromise."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто наполягаю на своєму, але готовий/готова змінити точку зору.",
+            "en": "Often insist on my own, but ready to change my mind."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Рідко йду на компроміс, вважаючи свою думку найкращою.",
+            "en": "Rarely compromise, believing my opinion is best."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Завжди наполягаю на своєму.",
+            "en": "Always insist on my way."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2_partner_proposals",
+      "question": {
+        "ua": "Як ви реагуєте на пропозиції партнера, які не відповідають вашим очікуванням?",
+        "en": "How do you react to your partner's suggestions that don't meet your expectations?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Приймаю їх і намагаюся знайти спільну мову.",
+            "en": "I accept them and try to find common ground."
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Зазвичай намагаюся зрозуміти партнера, але не завжди погоджуюсь.",
+            "en": "Usually try to understand, but don’t always agree."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Обговорюю та шукаю компроміс лише у важливих питаннях.",
+            "en": "Discuss and seek compromise only on important matters."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Часто відхиляю пропозиції, якщо вони не відповідають моїм інтересам.",
+            "en": "Often reject suggestions if they don't fit my interests."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Відмовляюся обговорювати або змінювати свої погляди.",
+            "en": "Refuse to discuss or change my views."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3_yielding",
+      "question": {
+        "ua": "Чи здатні ви поступитися своїми бажаннями заради партнера?",
+        "en": "Are you able to yield your wishes for your partner?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Завжди, якщо це покращить наші стосунки.",
+            "en": "Always, if it improves our relationship."
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Часто готовий/готова піти на компроміс.",
+            "en": "Often willing to compromise."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Інколи, якщо це важливо для партнера.",
+            "en": "Sometimes, if it’s important to my partner."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Рідко, вважаю свої бажання пріоритетними.",
+            "en": "Rarely, I prioritize my own wishes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o5",
+          "text": {
+            "ua": "Ніколи не поступаюся своїми бажаннями.",
+            "en": "Never yield my wishes."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4_conflict_reaction",
+      "question": {
+        "ua": "Як ви дієте під час конфлікту?",
+        "en": "How do you act during a conflict?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Шукаю компроміс та спільне рішення.",
+            "en": "Seek compromise and joint solution."
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Висловлюю свою думку, але готовий/готова обговорити інші варіанти.",
+            "en": "Express my view but ready to discuss other options."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Часто захищаю свою позицію, але можу змінити її.",
+            "en": "Often defend my position, but can change it."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Відстоюю свою думку до кінця.",
+            "en": "Stand my ground till the end."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o5",
+          "text": {
+            "ua": "Уникаю компромісів і конфліктів.",
+            "en": "Avoid compromise and conflicts."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5_accepting_changes",
+      "question": {
+        "ua": "Як ви ставитеся до змін у стосунках?",
+        "en": "How do you respond to changes in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Легко адаптуюся та намагаюся знаходити компроміси.",
+            "en": "Easily adapt and seek compromise."
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Приймаю зміни, але потребую часу на адаптацію.",
+            "en": "Accept changes, but need time to adapt."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді чиню опір, але згодом погоджуюся.",
+            "en": "Sometimes resist, but eventually agree."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Часто уникаю змін або відмовляюся їх приймати.",
+            "en": "Often avoid or refuse to accept changes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Не приймаю змін і відстоюю свою позицію.",
+            "en": "Do not accept changes, stand my ground."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6_criticism_reaction",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер критикує вашу точку зору?",
+        "en": "How do you react when your partner criticizes your opinion?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Вислуховую та намагаюся зрозуміти його/її аргументи.",
+            "en": "Listen and try to understand their arguments."
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Зазвичай приймаю критику, але іноді ображаюся.",
+            "en": "Usually accept criticism, but sometimes get offended."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часто захищаюся, але можу змінити свою думку.",
+            "en": "Often defend myself, but may change my opinion."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Рідко сприймаю критику, зазвичай відкидаю її.",
+            "en": "Rarely accept criticism, usually reject it."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o5",
+          "text": {
+            "ua": "Ніколи не приймаю критику.",
+            "en": "Never accept criticism."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7_conflict_solutions",
+      "question": {
+        "ua": "Як ви знаходите рішення у конфліктах?",
+        "en": "How do you find solutions in conflicts?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Шукаю компроміси, враховуючи бажання обох сторін.",
+            "en": "Seek compromise, considering both sides’ wishes."
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Зазвичай намагаюся домовитися, але не завжди виходить.",
+            "en": "Usually try to agree, but it doesn’t always work."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто наполягаю на своєму, але можу погодитися на компроміс.",
+            "en": "Often insist on my own, but may agree to a compromise."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Рідко намагаюся знайти компроміс, частіше наполягаю на своєму.",
+            "en": "Rarely seek compromise, more often insist on my own."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Відмовляюся від компромісів та обговорень.",
+            "en": "Refuse compromise and discussions."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        30,
+        35
+      ],
+      "title": {
+        "ua": "Висока компромісність",
+        "en": "High compromise"
+      },
+      "description": {
+        "ua": "Ви добре справляєтеся з конфліктами та знаходите спільні рішення.",
+        "en": "You handle conflicts well and find common solutions."
+      }
+    },
+    {
+      "range": [
+        20,
+        29
+      ],
+      "title": {
+        "ua": "Помірна компромісність",
+        "en": "Moderate compromise"
+      },
+      "description": {
+        "ua": "Ви здатні знаходити компроміси, але є простір для покращення.",
+        "en": "You can compromise, but there is room for improvement."
+      }
+    },
+    {
+      "range": [
+        10,
+        19
+      ],
+      "title": {
+        "ua": "Низька компромісність",
+        "en": "Low compromise"
+      },
+      "description": {
+        "ua": "Вам варто розвивати навички співпраці та пошуку компромісів.",
+        "en": "You should develop your cooperation and compromise skills."
+      }
+    },
+    {
+      "range": [
+        0,
+        9
+      ],
+      "title": {
+        "ua": "Дуже низька компромісність",
+        "en": "Very low compromise"
+      },
+      "description": {
+        "ua": "Рекомендується працювати над відкритістю до думок партнера.",
+        "en": "It is recommended to work on openness to your partner's opinions."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Працюйте над відкритістю до різних точок зору та готовністю до компромісу.",
+      "en": "Work on openness to different points of view and willingness to compromise."
+    },
+    "couple": {
+      "ua": "Проводьте вправи на активне слухання та обговорення конфліктних ситуацій.",
+      "en": "Practice active listening and discuss conflict situations together."
+    }
+  },
+  "widget_type": "quiz"
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "tenderness-begins-with-permission",
+    "phrase": {
+      "ua": "Ніжність починається з дозволу бути собою.",
+      "en": "Tenderness begins with the permission to be yourself."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "openness-to-yourself",
+    "phrase": {
+      "ua": "Відкритість до себе — перший крок до відкритості з іншими.",
+      "en": "Openness to yourself is the first step to openness with others."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "touch-begins-with-acceptance",
+    "phrase": {
+      "ua": "Доторк до тіла починається з прийняття думок.",
+      "en": "Touching the body begins with accepting your thoughts."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "eroticism-is-depth-of-feelings",
+    "phrase": {
+      "ua": "Еротичність — це не зовнішність, а глибина відчуттів.",
+      "en": "Eroticism is not about appearance, but the depth of feelings."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "space-for-experiment",
+    "phrase": {
+      "ua": "Дай собі простір для експерименту без осуду.",
+      "en": "Give yourself space to experiment without judgment."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "desire-needs-honesty",
+    "phrase": {
+      "ua": "Бажання не потребують виправдань — лише чесності.",
+      "en": "Desires need no justification — only honesty."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sensuality-is-a-language",
+    "phrase": {
+      "ua": "Чуттєвість — це мова тіла, яка не потребує перекладу.",
+      "en": "Sensuality is a body language that needs no translation."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "conscious-touch-is-respect",
+    "phrase": {
+      "ua": "Усвідомлений дотик — це акт поваги до власного тіла.",
+      "en": "A conscious touch is an act of respect for your own body."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexuality-has-freedom",
+    "phrase": {
+      "ua": "Сексуальність не має форми — вона має свободу.",
+      "en": "Sexuality has no shape — it has freedom."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "dont-be-ashamed-of-pleasure",
+    "phrase": {
+      "ua": "Не соромся того, що приносить тобі задоволення.",
+      "en": "Don't be ashamed of what brings you pleasure."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "body-remembers-care",
+    "phrase": {
+      "ua": "Тіло пам’ятає турботу довше, ніж слова.",
+      "en": "The body remembers care longer than words."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "start-small-even-breath",
+    "phrase": {
+      "ua": "Почни з малого — навіть один подих може бути еротичним.",
+      "en": "Start small — even a single breath can be erotic."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "no-normality-in-desires",
+    "phrase": {
+      "ua": "Немає 'нормальності' в бажаннях, є лише щирість.",
+      "en": "There is no 'normal' in desires, only sincerity."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "explore-yourself-for-yourself",
+    "phrase": {
+      "ua": "Вивчай себе не для когось, а для себе.",
+      "en": "Explore yourself not for someone else, but for yourself."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "honesty-in-bed-starts-with-you",
+    "phrase": {
+      "ua": "Чесність у ліжку починається з чесності перед собою.",
+      "en": "Honesty in bed starts with honesty to yourself."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexuality-is-presence",
+    "phrase": {
+      "ua": "Сексуальність — це не завжди дія, це ще й стан присутності.",
+      "en": "Sexuality is not always action; it's also a state of presence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "what-arouses-you-belongs",
+    "phrase": {
+      "ua": "Те, що тебе збуджує, має право бути частиною твого життя.",
+      "en": "What arouses you deserves to be part of your life."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "self-respect-aphrodisiac",
+    "phrase": {
+      "ua": "Повага до себе — найпотужніший афродизіак.",
+      "en": "Self-respect is the most powerful aphrodisiac."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "courage-is-permission",
+    "phrase": {
+      "ua": "Сміливість — це не відсутність страху, а дозвіл досліджувати попри нього.",
+      "en": "Courage is not the absence of fear, but permission to explore despite it."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "pleasure-needs-permission",
+    "phrase": {
+      "ua": "Задоволення не потребує причини — лише дозволу.",
+      "en": "Pleasure needs no reason — only permission."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "your-body-is-a-temple",
+    "phrase": {
+      "ua": "Твоя тілесність — це храм, а не проєкт для виправлень.",
+      "en": "Your physicality is a temple, not a project to fix."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "shame-is-an-invitation",
+    "phrase": {
+      "ua": "Сором — не сигнал до відступу, а запрошення до дослідження.",
+      "en": "Shame is not a signal to retreat, but an invitation to explore."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "inner-voice-in-bed",
+    "phrase": {
+      "ua": "Внутрішній голос заслуговує звучати й у ліжку.",
+      "en": "Your inner voice deserves to be heard in bed too."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexuality-needs-authenticity",
+    "phrase": {
+      "ua": "Твоя сексуальність не має бути зрозумілою — лише справжньою.",
+      "en": "Your sexuality doesn't have to be understood — only authentic."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "desires-can-be-tender-and-wild",
+    "phrase": {
+      "ua": "Бажання можуть бути ніжними, бунтівними й прекрасними водночас.",
+      "en": "Desires can be tender, rebellious, and beautiful at the same time."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "self-touch-is-dialogue",
+    "phrase": {
+      "ua": "Дотик до себе — це форма діалогу, а не мовчання.",
+      "en": "Touching yourself is a form of dialogue, not silence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "some-boundaries-need-respect",
+    "phrase": {
+      "ua": "Не всі межі потребують подолання. Деякі — лише поваги.",
+      "en": "Not all boundaries need to be crossed. Some just need respect."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "intimacy-begins-with-safety",
+    "phrase": {
+      "ua": "Інтимність починається з дозволу почуватися безпечно.",
+      "en": "Intimacy begins with the permission to feel safe."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "relaxation-first-step-to-pleasure",
+    "phrase": {
+      "ua": "Розслабленість — перший крок до задоволення.",
+      "en": "Relaxation is the first step to pleasure."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "dont-rush-pleasure",
+    "phrase": {
+      "ua": "Не поспішай — задоволення любить повільність.",
+      "en": "Don't rush — pleasure loves slowness."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexual-mood-can-be-just-mood",
+    "phrase": {
+      "ua": "Сексуальний настрій — не завжди дія, іноді це просто настрій.",
+      "en": "A sexual mood is not always about action; sometimes it’s just a mood."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "your-uniqueness-is-spice",
+    "phrase": {
+      "ua": "Твоя унікальність — головна спеція у сексуальному досвіді.",
+      "en": "Your uniqueness is the main spice in your sexual experience."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "fantasies-need-openness",
+    "phrase": {
+      "ua": "Фантазії не потребують дозволу — лише відкритості.",
+      "en": "Fantasies don't need permission — just openness."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "arousal-begins-with-attention",
+    "phrase": {
+      "ua": "Збудження починається не з тіла, а з уваги.",
+      "en": "Arousal begins not with the body, but with attention."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "intimacy-in-silence",
+    "phrase": {
+      "ua": "Навіть у тиші може бути інтимність.",
+      "en": "Even in silence, there can be intimacy."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "imagine-new-scenario",
+    "phrase": {
+      "ua": "Уяви новий сценарій — без сорому, без обмежень.",
+      "en": "Imagine a new scenario — without shame, without limits."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "your-way-to-pleasure",
+    "phrase": {
+      "ua": "Твоє право — шукати і приймати задоволення у своїй формі.",
+      "en": "It's your right to seek and accept pleasure in your own way."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "not-every-day-passionate",
+    "phrase": {
+      "ua": "Не кожен день має бути пристрасним. Але кожен може бути щирим.",
+      "en": "Not every day has to be passionate. But every day can be sincere."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "small-moment-changes-mood",
+    "phrase": {
+      "ua": "Навіть маленький момент чуттєвості має силу змінити настрій.",
+      "en": "Even a small moment of sensuality can change the mood."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "give-yourself-permission",
+    "phrase": {
+      "ua": "Дай собі відчуття дозволу: торкатися, бажати, бути.",
+      "en": "Give yourself permission: to touch, to desire, to be."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexuality-is-language",
+    "phrase": {
+      "ua": "Сексуальність — це мова, якою ти можеш говорити без слів.",
+      "en": "Sexuality is a language you can speak without words."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "desires-dont-need-explanation",
+    "phrase": {
+      "ua": "Твої бажання не мають бути поясненими — тільки відчутими.",
+      "en": "Your desires don't need to be explained — only felt."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "listen-to-body-first",
+    "phrase": {
+      "ua": "Дозволь собі спочатку слухати тіло, а потім уже думки.",
+      "en": "Allow yourself to listen to your body first, and only then your thoughts."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sensitivity-is-strength",
+    "phrase": {
+      "ua": "Твоя чутливість — не слабкість, а джерело сили.",
+      "en": "Your sensitivity is not a weakness, but a source of strength."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "desire-energy-is-fuel",
+    "phrase": {
+      "ua": "Енергія бажання — це паливо для внутрішнього життя.",
+      "en": "The energy of desire is fuel for your inner life."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "dont-imitate-anyone",
+    "phrase": {
+      "ua": "Не намагайся бути як хтось — твій стиль інтимності унікальний.",
+      "en": "Don’t try to be like someone else — your style of intimacy is unique."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexual-attraction-begins-with-confidence",
+    "phrase": {
+      "ua": "Сексуальна привабливість починається з внутрішньої впевненості.",
+      "en": "Sexual attractiveness begins with inner confidence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "respect-your-boundaries",
+    "phrase": {
+      "ua": "Повага до своїх меж — найглибший акт любові до себе.",
+      "en": "Respect for your own boundaries is the deepest act of self-love."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "pleasure-in-slowness",
+    "phrase": {
+      "ua": "У повільності часто приховано найбільше задоволення.",
+      "en": "In slowness, the greatest pleasure is often hidden."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "start-with-breath",
+    "phrase": {
+      "ua": "Почни з дихання. Це вже дотик до себе.",
+      "en": "Start with your breath. It's already a touch to yourself."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "dont-compare-desire",
+    "phrase": {
+      "ua": "Не порівнюй своє бажання — воно не змагається, воно існує.",
+      "en": "Don’t compare your desire — it doesn’t compete, it simply exists."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sexual-energy-is-state",
+    "phrase": {
+      "ua": "Сексуальна енергія — не обов’язково про дії. Вона — про стан.",
+      "en": "Sexual energy is not necessarily about actions. It’s about state of being."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "sometimes-most-intimate-is-yourself",
+    "phrase": {
+      "ua": "Іноді найінтимніше — це просто бути собою поруч із собою.",
+      "en": "Sometimes the most intimate thing is simply being with yourself."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "feed-body-with-tenderness",
+    "phrase": {
+      "ua": "Тіло має пам’ять — нагодуй його ніжністю.",
+      "en": "The body has memory — feed it with tenderness."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "fantasies-are-maps",
+    "phrase": {
+      "ua": "Фантазії — це не плани. Це мапи до глибших бажань.",
+      "en": "Fantasies are not plans. They are maps to deeper desires."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "pleasure-needs-presence",
+    "phrase": {
+      "ua": "Задоволення не потребує дозволу — тільки присутності.",
+      "en": "Pleasure doesn't need permission — only presence."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "external-voices-have-no-power",
+    "phrase": {
+      "ua": "Голоси ззовні не мають влади над тим, що тебе збуджує.",
+      "en": "Voices from outside have no power over what arouses you."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "allow-new-sensations",
+    "phrase": {
+      "ua": "Дозволь собі нові відчуття, навіть якщо вони лякають.",
+      "en": "Allow yourself new sensations, even if they scare you."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "being-sexy-is-a-state",
+    "phrase": {
+      "ua": "Бути сексуальним — це не про вигляд. Це про стан душі.",
+      "en": "Being sexy isn’t about looks. It’s about your state of mind."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  },
+  {
+    "id": "your-sexuality-is-source",
+    "phrase": {
+      "ua": "Твоя сексуальність — не об’єкт, а джерело.",
+      "en": "Your sexuality is not an object, but a source."
+    },
+    "created_at": "2024-05-26T00:00:00Z",
+    "category_id": "sexual_closeness",
+    "status": "active"
+  }
+]

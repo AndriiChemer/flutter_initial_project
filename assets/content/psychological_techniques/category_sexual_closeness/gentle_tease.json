@@ -1,0 +1,144 @@
+{
+  "technique": {
+    "id": "gentle_tease",
+    "title": {
+      "ua": "Легка провокація",
+      "en": "Gentle Tease"
+    },
+    "description": {
+      "ua": "Ця техніка спрямована на створення сексуальної напруги через м'які дражливі дотики, не переходячи до безпосередньої стимуляції. Вона дозволяє підсилити бажання та відкрити нові чутливі зони.",
+      "en": "This technique is designed to create sexual tension through soft, teasing touches without direct stimulation. It helps intensify desire and reveals new sensitive zones."
+    },
+    "goal": {
+      "ua": "Посилити сексуальне бажання та відкрити нові чутливі зони.",
+      "en": "Enhance sexual desire and discover new sensitive zones."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "teasing",
+    "widget_type": "timer",
+    "image": "gentle_tease_preview.jpg",
+    "duration": "10 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "tags": [
+      "дражливість",
+      "контроль",
+      "тактильність",
+      "гра",
+      "інтрига",
+      "teasing",
+      "control",
+      "touch",
+      "play",
+      "anticipation"
+    ],
+    "examples": [
+      {
+        "ua": "Партнер проводить пальцями уздовж шиї, не торкаючись.",
+        "en": "A partner runs fingers along the neck without direct contact."
+      },
+      {
+        "ua": "Подих біля вуха, але без поцілунків.",
+        "en": "Breathing near the ear, but without kissing."
+      },
+      {
+        "ua": "Ніжний укус на відстані – лише дражлива дія без контакту.",
+        "en": "A gentle air-bite — only a teasing gesture, no real contact."
+      }
+    ],
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_gentle_tease",
+      "technique_id": "gentle_tease",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір провокатора",
+        "en": "Choosing the Teaser"
+      },
+      "instruction": {
+        "ua": "Оберіть, хто першим буде провокувати. Цей партнер має обережно дражнити іншого, використовуючи лише подих, легкі дотики пальцями або губами, але не торкаючись ерогенних зон напряму.",
+        "en": "Choose who will tease first. This partner gently teases the other using only breath, light finger or lip touches, but without directly touching erogenous zones."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Партнер 1 проводить пальцями уздовж шиї партнера, не торкаючись її напряму.",
+        "en": "Partner 1 runs fingers along their partner’s neck without direct contact."
+      },
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на ділянках, де шкіра особливо чутлива: шия, зап'ястя, нижня частина спини.",
+          "en": "Focus on areas where the skin is especially sensitive: neck, wrists, lower back."
+        },
+        {
+          "ua": "Слідкуйте за реакціями партнера — це підкаже, де дотик особливо приємний.",
+          "en": "Watch your partner’s reactions — they’ll tell you which touches feel best."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_gentle_tease",
+      "technique_id": "gentle_tease",
+      "step_number": 2,
+      "title": {
+        "ua": "Витримка",
+        "en": "Endurance"
+      },
+      "instruction": {
+        "ua": "Партнер, якого провокують, має витримати 3 хвилини, не торкаючись іншого. Це допомагає розкрити власні відчуття та посилити бажання.",
+        "en": "The partner being teased must last 3 minutes without touching back. This helps heighten sensations and increase desire."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Партнер 2 зосереджується на диханні, щоб не втратити контроль.",
+        "en": "Partner 2 focuses on breathing to avoid losing control."
+      },
+      "tips": [
+        {
+          "ua": "Спробуйте закрити очі, щоб підсилити тактильні відчуття.",
+          "en": "Try closing your eyes to heighten tactile sensations."
+        },
+        {
+          "ua": "Фокусуйтесь на диханні — це допоможе краще відчути кожен дотик.",
+          "en": "Focus on your breath — this will help you experience every touch more deeply."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_gentle_tease",
+      "technique_id": "gentle_tease",
+      "step_number": 3,
+      "title": {
+        "ua": "Зміна ролей",
+        "en": "Switching Roles"
+      },
+      "instruction": {
+        "ua": "Поміняйтесь ролями: тепер інший партнер стає провокатором. Використовуйте ті самі техніки або спробуйте інші: легкий подих, ніжні укуси або поцілунки на відстані.",
+        "en": "Switch roles: now the other partner becomes the teaser. Use the same techniques or try others, like gentle breath, soft air-bites, or air kisses."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Партнер 2 проводить губами по вушку партнера, не торкаючись його напряму.",
+        "en": "Partner 2 runs their lips along their partner’s ear without actually touching it."
+      },
+      "tips": [
+        {
+          "ua": "Встановіть контакт очима перед початком, щоб створити емоційний зв'язок.",
+          "en": "Make eye contact before starting to create an emotional connection."
+        },
+        {
+          "ua": "Спробуйте робити дотики синхронно з диханням партнера.",
+          "en": "Try syncing your touches with your partner’s breath."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

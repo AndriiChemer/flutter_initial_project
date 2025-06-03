@@ -1,0 +1,147 @@
+{
+  "technique": {
+    "id": "method_5_to_1",
+    "title": {
+      "ua": "Метод 5:1",
+      "en": "5:1 Method"
+    },
+    "description": {
+      "ua": "Техніка допомагає підтримувати баланс позитиву та негативу у стосунках. Щоб зменшити вплив критики чи негативних коментарів, важливо робити щонайменше п’ять позитивних дій або висловлювань на кожен негативний коментар.",
+      "en": "This technique helps maintain a balance of positivity and negativity in a relationship. To reduce the impact of criticism or negative comments, it is important to make at least five positive actions or remarks for every negative comment."
+    },
+    "goal": {
+      "ua": "Підтримувати позитивний емоційний клімат і зменшувати вплив негативу у стосунках.",
+      "en": "Maintain a positive emotional climate and minimize the impact of negativity in the relationship."
+    },
+    "category_id": "communication",
+    "subcategory_slug": "gratitude-and-positivity",
+    "widget_type": "notes",
+    "duration": "1 day",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Я ціную, що ти завжди підтримуєш мене.»",
+        "en": "Partner 1: 'I appreciate that you always support me.'"
+      },
+      {
+        "ua": "Партнер 2: «Ти сьогодні чудово виглядаєш. Я завжди помічаю це.»",
+        "en": "Partner 2: 'You look great today. I always notice it.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не перетворюйте це на механічну практику — важлива щирість.",
+        "en": "Do not turn this into a mechanical practice — sincerity is important."
+      },
+      {
+        "ua": "Зосередьтеся на справжніх позитивних моментах, які викликають у вас приємні відчуття.",
+        "en": "Focus on genuine positive moments that make you feel good."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_method_5_to_1",
+      "technique_id": "method_5_to_1",
+      "step_number": 1,
+      "title": {
+        "ua": "Визначення негативних моментів",
+        "en": "Identifying Negative Moments"
+      },
+      "instruction": {
+        "ua": "Протягом дня звертайте увагу на негативні коментарі або дії у спілкуванні. Запишіть кожен випадок для подальшого аналізу.",
+        "en": "Throughout the day, pay attention to negative comments or actions in your communication. Write down each case for further analysis."
+      },
+      "duration": "1 day",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Ти знову не допоміг мені з домашніми справами.»",
+          "en": "Partner 1: 'You didn’t help me with the housework again.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не звинувачуйте себе за негативні слова — просто помічайте їх.",
+          "en": "Don’t blame yourself for negative words — just notice them."
+        },
+        {
+          "ua": "Записуйте конкретні ситуації без емоційних оцінок.",
+          "en": "Record specific situations without emotional judgment."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_method_5_to_1",
+      "technique_id": "method_5_to_1",
+      "step_number": 2,
+      "title": {
+        "ua": "Застосування правила 5:1",
+        "en": "Applying the 5:1 Rule"
+      },
+      "instruction": {
+        "ua": "Після кожного негативного коментаря або дії, намагайтеся компенсувати його п’ятьма позитивними словами або діями.",
+        "en": "After each negative comment or action, try to compensate with five positive words or actions."
+      },
+      "duration": "1 day",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Дякую за те, що сьогодні приготував/ла сніданок.»",
+          "en": "Partner 1: 'Thank you for making breakfast today.'"
+        },
+        {
+          "ua": "Партнер 2: «Я ціную, що ти завжди підтримуєш мене у важкі моменти.»",
+          "en": "Partner 2: 'I appreciate that you always support me in difficult times.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Позитивні дії можуть бути як словесними (компліменти), так і фізичними (обійми, поцілунок).",
+          "en": "Positive actions can be verbal (compliments) or physical (hugs, kisses)."
+        },
+        {
+          "ua": "Не намагайтеся 'купити' партнера — будьте щирими у своїх словах.",
+          "en": "Don’t try to 'buy' your partner — be sincere in your words."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_method_5_to_1",
+      "technique_id": "method_5_to_1",
+      "step_number": 3,
+      "title": {
+        "ua": "Аналіз дня",
+        "en": "Day Analysis"
+      },
+      "instruction": {
+        "ua": "Наприкінці дня перегляньте свої записи. Чи вдалося досягти балансу 5:1? Якщо ні, що можна зробити завтра?",
+        "en": "At the end of the day, review your notes. Did you achieve the 5:1 balance? If not, what can you do differently tomorrow?"
+      },
+      "duration": "10 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Сьогодні було 2 негативних коментарі. Завтра я зосереджуся на тому, щоб зробити більше приємних жестів.»",
+          "en": "Partner 1: 'There were 2 negative comments today. Tomorrow I’ll focus on making more positive gestures.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не звинувачуйте себе за невдачі — це процес навчання.",
+          "en": "Don’t blame yourself for failures — this is a learning process."
+        },
+        {
+          "ua": "Спробуйте завершувати день невеликим жестом подяки чи ніжності.",
+          "en": "Try ending your day with a small gesture of gratitude or tenderness."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

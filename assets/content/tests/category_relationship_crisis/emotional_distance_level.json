@@ -1,0 +1,504 @@
+{
+  "id": "emotional_distance_level",
+  "title": {
+    "ua": "Рівень емоційної віддаленості",
+    "en": "Level of Emotional Distance"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити, наскільки ви почуваєтеся емоційно віддаленими від партнера та що може цьому сприяти.",
+    "en": "This test will help you determine how emotionally distant you feel from your partner and what may be contributing to it."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як часто ви відчуваєте, що ваші почуття залишаються непоміченими партнером?",
+        "en": "How often do you feel your feelings go unnoticed by your partner?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Інколи.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви реагуєте на критику або зауваження від партнера?",
+        "en": "How do you respond to criticism or remarks from your partner?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Спокійно та розуміючи.",
+            "en": "Calmly and with understanding."
+          },
+          "score": 1
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Іноді почуваюся засмученим/ою.",
+            "en": "Sometimes I feel upset."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Часто реагую агресивно або захисно.",
+            "en": "Often I react aggressively or defensively."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Завжди намагаюся уникати обговорення.",
+            "en": "Always try to avoid the discussion."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи часто ви відчуваєте себе емоційно самотнім/ою у стосунках?",
+        "en": "Do you often feel emotionally lonely in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Наскільки відкрито ви обговорюєте свої емоції з партнером?",
+        "en": "How openly do you discuss your emotions with your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Дуже відкрито.",
+            "en": "Very openly."
+          },
+          "score": 1
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Відкрито, але не завжди.",
+            "en": "Openly, but not always."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Рідко.",
+            "en": "Rarely."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як часто ви відчуваєте, що партнер не розуміє ваших емоційних потреб?",
+        "en": "How often do you feel your partner doesn't understand your emotional needs?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер не проявляє увагу до ваших почуттів?",
+        "en": "How do you react when your partner doesn't pay attention to your feelings?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Обговорюю проблему та намагаюся знайти рішення.",
+            "en": "I discuss the problem and try to find a solution."
+          },
+          "score": 1
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Почуваюся засмученим/ою, але не завжди обговорюю.",
+            "en": "I feel upset but don't always discuss it."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часто відчуваю розчарування або гнів.",
+            "en": "Often I feel disappointed or angry."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Уникаю розмови та ізолююся.",
+            "en": "I avoid talking and isolate myself."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер недостатньо підтримує вас емоційно?",
+        "en": "Do you feel your partner doesn't support you enough emotionally?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер не цінує ваші емоційні вклади у стосунки?",
+        "en": "Do you feel your partner doesn't appreciate your emotional input into the relationship?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Ніколи.",
+            "en": "Never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Як ви реагуєте, коли партнер ігнорує ваші емоційні потреби?",
+        "en": "How do you react when your partner ignores your emotional needs?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Обговорюю проблему та намагаюся знайти рішення.",
+            "en": "I discuss the problem and try to find a solution."
+          },
+          "score": 1
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Почуваюся засмученим/ою, але не завжди обговорюю.",
+            "en": "I feel upset but don't always discuss it."
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Часто відчуваю розчарування або гнів.",
+            "en": "Often I feel disappointed or angry."
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Уникаю розмови та ізолююся.",
+            "en": "I avoid talking and isolate myself."
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи відчуваєте ви емоційну віддаленість під час конфліктів?",
+        "en": "Do you feel emotional distance during conflicts?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Майже ніколи.",
+            "en": "Almost never."
+          },
+          "score": 1
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Іноді.",
+            "en": "Sometimes."
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Часто.",
+            "en": "Often."
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        10,
+        15
+      ],
+      "title": {
+        "ua": "Емоційна близькість",
+        "en": "Emotional Closeness"
+      },
+      "description": {
+        "ua": "Ви відчуваєте емоційну близькість з партнером, і ваші потреби здебільшого задовольняються.",
+        "en": "You feel emotionally close to your partner, and your needs are mostly met."
+      }
+    },
+    {
+      "range": [
+        16,
+        25
+      ],
+      "title": {
+        "ua": "Періоди емоційної віддаленості",
+        "en": "Periods of Emotional Distance"
+      },
+      "description": {
+        "ua": "У вас можуть виникати періоди емоційної віддаленості. Варто звернути увагу на комунікацію та регулярні обговорення емоцій.",
+        "en": "You may experience periods of emotional distance. Pay attention to communication and regularly discuss your emotions."
+      }
+    },
+    {
+      "range": [
+        26,
+        35
+      ],
+      "title": {
+        "ua": "Вплив емоційної віддаленості",
+        "en": "Impact of Emotional Distance"
+      },
+      "description": {
+        "ua": "Емоційна віддаленість суттєво впливає на ваші стосунки. Рекомендується використовувати техніки для покращення взаєморозуміння та відкритості.",
+        "en": "Emotional distance significantly affects your relationship. Techniques for improving understanding and openness are recommended."
+      }
+    },
+    {
+      "range": [
+        36,
+        40
+      ],
+      "title": {
+        "ua": "Криза емоційної віддаленості",
+        "en": "Crisis of Emotional Distance"
+      },
+      "description": {
+        "ua": "Ваші стосунки перебувають у кризі через емоційну віддаленість. Рекомендується працювати з психологом або активно застосовувати техніки для покращення емоційного зв’язку.",
+        "en": "Your relationship is in crisis due to emotional distance. It is recommended to work with a psychologist or actively use techniques to improve your emotional connection."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Робота над відкритістю та здатністю висловлювати свої почуття.",
+      "en": "Work on openness and the ability to express your feelings."
+    },
+    "couple": {
+      "ua": "Використання технік для покращення комунікації та розуміння емоцій партнера.",
+      "en": "Use techniques to improve communication and understanding your partner's emotions."
+    }
+  },
+  "widget_type": "quiz"
+}

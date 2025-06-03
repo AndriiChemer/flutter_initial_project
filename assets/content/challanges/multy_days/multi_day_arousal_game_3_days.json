@@ -1,43 +1,55 @@
 {
-  "challenge": {
-    "id": "challenge_010",
-    "title": {
-      "ua": "Гра збудження: 3 дні наростаючого бажання",
-      "en": "Arousal Game: 3 Days of Rising Desire"
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
     },
-    "description": {
-      "ua": "Цей челендж створено для пар, які хочуть вийти за межі звичних сценаріїв близькості...",
-      "en": "This challenge is for couples wanting to go beyond routine intimacy. Through control, teasing, and delay, you'll awaken deeper desire and learn to feel each other more intensely — both physically and emotionally."
-    },
-    "days": 3,
-    "goal": {
-      "ua": "Розпалити бажання через стриманість, тілесну гру і контроль.",
-      "en": "Ignite desire through restraint, physical play, and control."
-    },
-    "category_id": "sexual_closeness",
-    "subcategory_slug": "desire",
-    "tags": [
-      "physicality",
-      "trust",
-      "tension",
-      "control",
-      "flirt",
-      "foreplay"
-    ],
-    "image": "intimate_tease_challenge.svg",
-    "recommended_for": {
-      "ua": "пари, які хочуть оживити бажання та вийти за рамки звичних прелюдій",
-      "en": "couples who want to rekindle desire and go beyond typical foreplay"
-    },
-    "free_or_premium": "premium",
-    "status": "active",
-    "created_at": "2025-05-22T15:18:30.979392Z",
-    "updated_at": "2025-05-22T15:18:30.979392Z"
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
   },
+  "challenges": [
+    {
+      "id": "challenge_3_days_rising_desire",
+      "title": {
+        "ua": "Гра збудження: 3 дні наростаючого бажання",
+        "en": "Arousal Game: 3 Days of Rising Desire"
+      },
+      "description": {
+        "ua": "Цей челендж створено для пар, які хочуть вийти за межі звичних сценаріїв близькості...",
+        "en": "This challenge is for couples wanting to go beyond routine intimacy. Through control, teasing, and delay, you'll awaken deeper desire and learn to feel each other more intensely — both physically and emotionally."
+      },
+      "days": 3,
+      "goal": {
+        "ua": "Розпалити бажання через стриманість, тілесну гру і контроль.",
+        "en": "Ignite desire through restraint, physical play, and control."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "physicality",
+        "trust",
+        "tension",
+        "control",
+        "flirt",
+        "foreplay"
+      ],
+      "image": "intimate_tease_challenge.svg",
+      "recommended_for": {
+        "ua": "пари, які хочуть оживити бажання та вийти за рамки звичних прелюдій",
+        "en": "couples who want to rekindle desire and go beyond typical foreplay"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ],
   "challenge_steps": [
     {
       "id": "4aa695c0-fb68-4868-a8d6-1660883653b2",
-      "challenge_id": "challenge_010",
+      "challenge_id": "challenge_3_days_rising_desire",
       "step_number": 1,
       "content": {
         "ua": "День 1: Тілесна заборона\n\nСьогодні — день дотику без дозволу на секс...",
@@ -59,7 +71,7 @@
     },
     {
       "id": "5dbe939c-b357-493b-9c79-d7b79a98122d",
-      "challenge_id": "challenge_010",
+      "challenge_id": "challenge_3_days_rising_desire",
       "step_number": 2,
       "content": {
         "ua": "День 2: Провокація без фінішу\n\nУвечері домовтеся про ролі: один — провокатор, другий — отримувач...",
@@ -81,7 +93,7 @@
     },
     {
       "id": "ee5b15a3-f1f2-4800-9510-fde89eaef69a",
-      "challenge_id": "challenge_010",
+      "challenge_id": "challenge_3_days_rising_desire",
       "step_number": 3,
       "content": {
         "ua": "День 3: Вивільнення\n\nСьогодні — ніч реалізації накопиченого бажання...",

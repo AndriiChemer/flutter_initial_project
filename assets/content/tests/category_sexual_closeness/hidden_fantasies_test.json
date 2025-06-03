@@ -1,0 +1,633 @@
+{
+  "id": "hidden_fantasies_test",
+  "title": {
+    "ua": "Ваші потаємні фантазії",
+    "en": "Your Secret Fantasies"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "Advanced"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам краще зрозуміти свої потаємні сексуальні фантазії та бажання. Розкриття та обговорення цих фантазій з партнером може зміцнити стосунки та зробити їх більш відкритими й чесними.",
+    "en": "This test will help you better understand your secret sexual fantasies and desires. Sharing and discussing these fantasies with your partner can strengthen your relationship and make it more open and honest."
+  },
+  "type": "score_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи відчуваєте ви збудження від фантазій про рольові ігри?",
+        "en": "Do you feel aroused by fantasies about role-playing?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи подобаються вам фантазії про домінування або підкорення?",
+        "en": "Do you enjoy fantasies about domination or submission?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Дуже подобаються",
+            "en": "Like them a lot"
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Подобаються",
+            "en": "Like them"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Нейтрально",
+            "en": "Neutral"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Скоріше не подобаються",
+            "en": "Rather don't like"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Не подобаються",
+            "en": "Don't like"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи любите ви уявляти себе або партнера в іншій ролі чи образі?",
+        "en": "Do you like imagining yourself or your partner in another role or image?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, дуже часто",
+            "en": "Yes, very often"
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Час від часу",
+            "en": "From time to time"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o5",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи викликають у вас фантазії про експерименти з різними місцями для сексу?",
+        "en": "Do fantasies about experimenting with different places for sex excite you?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Дуже збуджує",
+            "en": "Very arousing"
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Збуджує",
+            "en": "Arousing"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Нейтрально",
+            "en": "Neutral"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Скоріше не збуджує",
+            "en": "Rather not arousing"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o5",
+          "text": {
+            "ua": "Не збуджує",
+            "en": "Not arousing"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи виникають у вас фантазії про спонтанний секс?",
+        "en": "Do you have fantasies about spontaneous sex?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Постійно",
+            "en": "Constantly"
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи цікавлять вас фантазії, пов’язані з груповим сексом або спостереженням?",
+        "en": "Are you interested in fantasies about group sex or voyeurism?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Дуже цікаво",
+            "en": "Very interesting"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Цікаво",
+            "en": "Interesting"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Нейтрально",
+            "en": "Neutral"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Скоріше не цікаво",
+            "en": "Rather not interesting"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o5",
+          "text": {
+            "ua": "Не цікаво",
+            "en": "Not interesting"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи відчуваєте ви збудження від думок про незнайомців або нових людей?",
+        "en": "Do you feel aroused by thoughts about strangers or new people?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи подобаються вам фантазії про зв’язування або обмеження?",
+        "en": "Do you like fantasies about bondage or restraints?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Дуже подобається",
+            "en": "Like them a lot"
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Подобається",
+            "en": "Like them"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Нейтрально",
+            "en": "Neutral"
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Скоріше не подобається",
+            "en": "Rather don't like"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o5",
+          "text": {
+            "ua": "Не подобається",
+            "en": "Don't like"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи виникають у вас фантазії про секс у публічних місцях або в ризикованих ситуаціях?",
+        "en": "Do you have fantasies about sex in public places or risky situations?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 5
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o5",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи подобаються вам фантазії, пов’язані з чуттєвими іграми або експериментами з відчуттями?",
+        "en": "Do you like fantasies involving sensual games or experimenting with sensations?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Дуже подобаються",
+            "en": "Like them a lot"
+          },
+          "score": 5
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Подобаються",
+            "en": "Like them"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Нейтрально",
+            "en": "Neutral"
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Скоріше не подобаються",
+            "en": "Rather don't like"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o5",
+          "text": {
+            "ua": "Не подобаються",
+            "en": "Don't like"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Чи виникають у вас фантазії про використання іграшок або нових технік?",
+        "en": "Do you have fantasies about using toys or new techniques?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 5
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o5",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        0,
+        15
+      ],
+      "title": {
+        "ua": "Традиційний підхід до фантазій",
+        "en": "Traditional Approach to Fantasies"
+      },
+      "description": {
+        "ua": "Ви рідко фантазуєте або ваші фантазії більш традиційні. Це абсолютно нормально, якщо вас влаштовує ваш рівень інтимності.",
+        "en": "You rarely fantasize or your fantasies are more traditional. This is absolutely normal if you are comfortable with your level of intimacy."
+      }
+    },
+    {
+      "range": [
+        16,
+        35
+      ],
+      "title": {
+        "ua": "Потенціал для відкритості",
+        "en": "Potential for Openness"
+      },
+      "description": {
+        "ua": "У вас є певні фантазії, які ви могли б обговорити з партнером. Розуміння та підтримка партнера допоможуть реалізувати ці бажання.",
+        "en": "You have certain fantasies you could discuss with your partner. Understanding and support from your partner will help fulfill these desires."
+      }
+    },
+    {
+      "range": [
+        36,
+        55
+      ],
+      "title": {
+        "ua": "Ви відкриті до експериментів",
+        "en": "Open to Experimentation"
+      },
+      "description": {
+        "ua": "Ви досить відкриті у своїх фантазіях та готові експериментувати. Можливо, ви вже обговорюєте свої фантазії з партнером або хочете зробити це.",
+        "en": "You are quite open in your fantasies and ready to experiment. You might already discuss your fantasies with your partner or want to do so."
+      }
+    },
+    {
+      "range": [
+        56,
+        65
+      ],
+      "title": {
+        "ua": "Яскравий світ фантазій",
+        "en": "Vivid World of Fantasies"
+      },
+      "description": {
+        "ua": "Ваші фантазії досить різноманітні та яскраві. Ви прагнете інтимних експериментів і можете бути зацікавлені у відкритті нових горизонтів у стосунках.",
+        "en": "Your fantasies are diverse and vivid. You seek intimate experiments and may be interested in discovering new horizons in your relationship."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Складіть список своїх фантазій та подумайте, які з них ви готові обговорити з партнером.",
+      "en": "Make a list of your fantasies and think about which ones you are ready to discuss with your partner."
+    },
+    "couple": {
+      "ua": "Спробуйте обговорити свої фантазії та знайти ті, які ви обидва хотіли б реалізувати.",
+      "en": "Try discussing your fantasies and find those you both would like to explore."
+    }
+  },
+  "widget_type": "test"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "relationship_strengths_quiz",
+  "title": {
+    "ua": "Сильні сторони ваших стосунків",
+    "en": "Your Relationship Strengths"
+  },
+  "level": {
+    "ua": "Легкий",
+    "en": "Easy"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам побачити, які елементи ваших стосунків уже працюють добре. Знання своїх сильних сторін — це ресурс для подолання складних періодів.",
+    "en": "This test helps you see which aspects of your relationship already work well. Knowing your strengths is a resource for overcoming difficult periods."
+  },
+  "type": "score_based",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Коли вам важко, чи відчуваєте ви, що партнер — на вашому боці?",
+        "en": "When you’re going through a tough time, do you feel your partner is on your side?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Так, завжди, навіть без слів.",
+            "en": "Yes, always, even without words."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто підтримує, коли прошу.",
+            "en": "Often supports me when I ask."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Іноді відчуваю, але не завжди.",
+            "en": "Sometimes I feel it, but not always."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Мені часто здається, що я залишаюсь сам/сама.",
+            "en": "I often feel like I'm alone."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви описали б емоційний зв’язок між вами?",
+        "en": "How would you describe the emotional bond between you?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Глибокий, теплий, відчуваю, що ми дуже близькі.",
+            "en": "Deep, warm, I feel we are very close."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Добрий, але іноді стає слабшим.",
+            "en": "Good, but sometimes it gets weaker."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Буває, що зв’язок втрачається.",
+            "en": "Sometimes the bond gets lost."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Відчуваю віддалення або холод.",
+            "en": "I feel distance or coldness."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як легко вам говорити з партнером про свої справжні почуття?",
+        "en": "How easy is it for you to talk to your partner about your true feelings?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Можу бути повністю собою — без страху.",
+            "en": "I can be fully myself — without fear."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "В основному легко, але бувають моменти закритості.",
+            "en": "Mostly easy, but sometimes I close up."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Іноді стримуюсь або не знаю, як сказати.",
+            "en": "Sometimes I hold back or don’t know how to say things."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Мовчу про багато речей, бо боюся реакції.",
+            "en": "I keep quiet about many things because I fear the reaction."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи відчуваєте ви вдячність і турботу з боку партнера у щоденних моментах?",
+        "en": "Do you feel gratitude and care from your partner in everyday moments?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Щодня ми виражаємо любов у дрібницях.",
+            "en": "Every day we show love in little things."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто помічаю турботу і намагаюся відповідати.",
+            "en": "I often notice care and try to reciprocate."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Іноді забуваємо про це в рутині.",
+            "en": "Sometimes we forget about it in the routine."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Рідко відчуваю вдячність або проявляю її сам(а).",
+            "en": "I rarely feel or show gratitude."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи довіряєте ви партнеру у важливих речах — емоціях, рішеннях, близькості?",
+        "en": "Do you trust your partner with important things — emotions, decisions, intimacy?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Повністю — я знаю, що можу покластися.",
+            "en": "Fully — I know I can rely on them."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Майже завжди, хоча бувають сумніви.",
+            "en": "Almost always, though there are doubts sometimes."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Потребую більше впевненості в партнері.",
+            "en": "I need more confidence in my partner."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Часто не довіряю або тримаюся осторонь.",
+            "en": "Often I don’t trust or keep my distance."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Наскільки задоволені ви фізичною близькістю та тілесним контактом?",
+        "en": "How satisfied are you with physical intimacy and bodily contact?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Це гармонійна і приємна частина стосунків.",
+            "en": "It's a harmonious and pleasant part of our relationship."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Більшість часу я задоволений(а).",
+            "en": "Most of the time I’m satisfied."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Мені чогось не вистачає, але поки мовчу.",
+            "en": "Something is missing for me, but I keep silent."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Є напруга або віддалення в цій сфері.",
+            "en": "There’s tension or distance in this area."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи відчуваєте ви, що маєте спільне майбутнє з партнером?",
+        "en": "Do you feel you have a shared future with your partner?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Так, ми мріємо, плануємо, рухаємось разом.",
+            "en": "Yes, we dream, plan, and move forward together."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Загалом так, хоча не завжди говоримо про це.",
+            "en": "Generally yes, although we don’t always talk about it."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Іноді маю сумніви або відчуваю, що живемо окремо.",
+            "en": "Sometimes I doubt or feel we live separate lives."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Не уявляю нашого спільного майбутнього.",
+            "en": "I can't imagine our future together."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        24,
+        28
+      ],
+      "title": {
+        "ua": "Ви — справжня команда",
+        "en": "You are a true team"
+      },
+      "description": {
+        "ua": "Ваші стосунки сповнені сили, підтримки та емоційної глибини. Використовуйте ці якості, щоб пережити будь-яку кризу.",
+        "en": "Your relationship is full of strength, support, and emotional depth. Use these qualities to get through any crisis."
+      }
+    },
+    {
+      "range": [
+        16,
+        23
+      ],
+      "title": {
+        "ua": "Є гарна основа, але є що зміцнити",
+        "en": "Good foundation but room to strengthen"
+      },
+      "description": {
+        "ua": "У вас є хороша основа, але деякі сфери варто зміцнити. Поговоріть про те, чого не вистачає, і шукайте нові способи проявляти турботу.",
+        "en": "You have a good foundation, but some areas could be strengthened. Talk about what’s missing and find new ways to show care."
+      }
+    },
+    {
+      "range": [
+        8,
+        15
+      ],
+      "title": {
+        "ua": "Потрібно більше уваги",
+        "en": "Needs more attention"
+      },
+      "description": {
+        "ua": "Вашим стосункам потрібно більше уваги. Можливо, ви втрачаєте контакт або замовчуєте важливе. Почніть з чесного діалогу — це може змінити все.",
+        "en": "Your relationship needs more attention. You may be losing connection or not speaking about important things. Start with an honest dialogue — it can change everything."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Помічайте, що в стосунках уже добре працює. Підсилюйте це через дії, не лише слова.",
+      "en": "Notice what already works well in your relationship. Reinforce it through actions, not just words."
+    },
+    "couple": {
+      "ua": "Створіть «сильний ритуал» — наприклад, щотижневе побачення, ранкові обійми чи вечір вдячності.",
+      "en": "Create a 'strength ritual' — for example, a weekly date, morning hugs, or an evening of gratitude."
+    }
+  },
+  "widget_type": "quiz"
+}

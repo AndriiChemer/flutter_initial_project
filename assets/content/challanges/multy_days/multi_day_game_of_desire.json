@@ -1,42 +1,54 @@
 {
-  "challenge": {
-    "id": "challenge_005",
-    "title": {
-      "ua": "Гра бажань",
-      "en": "Game of Desire"
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
     },
-    "description": {
-      "ua": "Цей челендж — це 4 дні еротичної гри, натяків, внутрішнього напруження і дослідження бажань...",
-      "en": "This 4-day challenge invites you into a world of erotic play, teasing, inner tension, and desire exploration. It’s not about the act itself but about arousal through mystery, sensuality, and anticipation."
-    },
-    "days": 4,
-    "goal": {
-      "ua": "Розвинути чуттєвість і уяву через еротичну гру без тиску.",
-      "en": "Develop sensuality and imagination through erotic play without pressure."
-    },
-    "category_id": "sexual_closeness",
-    "subcategory_slug": "desire",
-    "tags": [
-      "erotic_play",
-      "novelty",
-      "intrigue",
-      "desire",
-      "energy"
-    ],
-    "image": "challenge_erotic_play.svg",
-    "recommended_for": {
-      "ua": "пари, які хочуть урізноманітнити інтимність за межами звичного сценарію",
-      "en": "couples who want to spice up intimacy beyond the usual routine"
-    },
-    "free_or_premium": "premium",
-    "status": "active",
-    "created_at": "2025-05-22T15:18:30.979392Z",
-    "updated_at": "2025-05-22T15:18:30.979392Z"
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
   },
+  "challenges": [
+    {
+      "id": "challenge_game_desire",
+      "title": {
+        "ua": "Гра бажань",
+        "en": "Game of Desire"
+      },
+      "description": {
+        "ua": "Цей челендж — це 4 дні еротичної гри, натяків, внутрішнього напруження і дослідження бажань...",
+        "en": "This 4-day challenge invites you into a world of erotic play, teasing, inner tension, and desire exploration. It’s not about the act itself but about arousal through mystery, sensuality, and anticipation."
+      },
+      "days": 4,
+      "goal": {
+        "ua": "Розвинути чуттєвість і уяву через еротичну гру без тиску.",
+        "en": "Develop sensuality and imagination through erotic play without pressure."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "desire",
+      "tags": [
+        "erotic_play",
+        "novelty",
+        "intrigue",
+        "desire",
+        "energy"
+      ],
+      "image": "challenge_erotic_play.svg",
+      "recommended_for": {
+        "ua": "пари, які хочуть урізноманітнити інтимність за межами звичного сценарію",
+        "en": "couples who want to spice up intimacy beyond the usual routine"
+      },
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-05-22T15:18:30.979392Z",
+      "updated_at": "2025-05-22T15:18:30.979392Z"
+    }
+  ],
   "challenge_steps": [
     {
       "id": "c5c88b51-3609-4d99-b9f5-6b8101b80c7c",
-      "challenge_id": "challenge_005",
+      "challenge_id": "challenge_game_desire",
       "step_number": 1,
       "content": {
         "ua": "Записка бажання\n\nНапиши партнеру коротке еротичне повідомлення або натяк на фантазію...",
@@ -57,7 +69,7 @@
     },
     {
       "id": "2a8a0bb3-9c06-48a3-afd2-5c9e593c176b",
-      "challenge_id": "challenge_005",
+      "challenge_id": "challenge_game_desire",
       "step_number": 2,
       "content": {
         "ua": "Тепло і прохолода\n\nЦе тілесна гра на контрасті температур...",
@@ -78,7 +90,7 @@
     },
     {
       "id": "386d8e9f-e7f7-44c1-a872-2f3b2ae83a3f",
-      "challenge_id": "challenge_005",
+      "challenge_id": "challenge_game_desire",
       "step_number": 3,
       "content": {
         "ua": "Шепіт бажання\n\nСядьте поруч. Повільно і максимально ніжно прошепочіть партнеру 3 речі...",
@@ -99,7 +111,7 @@
     },
     {
       "id": "c2628711-c2fc-47d3-a977-33ed5cc35cd5",
-      "challenge_id": "challenge_005",
+      "challenge_id": "challenge_game_desire",
       "step_number": 4,
       "content": {
         "ua": "Ніч натяків\n\nУвечері влаштуйте ніч натяків. Без сексуальних дій...",

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "gentle-touches",
+    "title": {
+      "ua": "Ніжні дотики",
+      "en": "Gentle Touches"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Фізичний контакт є важливим аспектом близькості. Ніжні дотики допомагають створити відчуття тепла, захищеності та збудження.",
+      "en": "Physical contact is a vital aspect of intimacy. Gentle touches help create feelings of warmth, security, and arousal."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня торкайтеся партнера: тримайте за руку, погладжуйте або обіймайте.",
+        "en": "Touch your partner throughout the day: hold hands, caress, or hug."
+      },
+      {
+        "number": 2,
+        "ua": "Спробуйте різні види дотиків: легкі погладжування, стискання або ніжні поцілунки.",
+        "en": "Try different types of touches: gentle strokes, squeezes, or soft kisses."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, які дотики вам найбільше сподобалися та чому.",
+        "en": "Discuss which touches you liked the most and why."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "all day",
+    "status": "active",
+    "image": "gentle_touches.png",
+    "examples": [
+      {
+        "ua": "Мені найбільше сподобалось, коли ти провів(ла) рукою по моїй шиї.",
+        "en": "I especially enjoyed when you stroked my neck."
+      },
+      {
+        "ua": "Несподіване обіймання вдень підняло мені настрій.",
+        "en": "A spontaneous hug during the day lifted my mood."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Звертайте увагу на реакції партнера, навіть найменші.",
+        "en": "Notice your partner’s reactions, even subtle ones."
+      },
+      {
+        "ua": "Пробуйте різні види дотиків і діліться своїми емоціями.",
+        "en": "Experiment with different types of touch and share your feelings."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "fantasy-dialogue",
+    "title": {
+      "ua": "Фантазійний діалог",
+      "en": "Fantasy Dialogue"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Ця техніка передбачає обговорення фантазій або мрій у форматі гри. Це допомагає краще зрозуміти бажання партнера та створити нові спільні фантазії.",
+      "en": "This technique involves discussing fantasies or dreams in a playful way. It helps you better understand your partner's desires and create new shared fantasies."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Почніть розмову з партнером, задаючи запитання про його або її фантазії.",
+        "en": "Start a conversation by asking your partner about their fantasies."
+      },
+      {
+        "number": 2,
+        "ua": "Спільно створюйте вигадані сценарії або історії.",
+        "en": "Create fictional scenarios or stories together."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, які моменти вам найбільше сподобалися або викликали найбільше емоцій.",
+        "en": "Discuss which moments you enjoyed most or found most exciting."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "20-30 min",
+    "status": "active",
+    "image": "fantasy_dialogue.png",
+    "examples": [
+      {
+        "ua": "Я уявляю, як ми разом на тропічному острові...",
+        "en": "I imagine us together on a tropical island..."
+      },
+      {
+        "ua": "Давай придумаємо нашу власну романтичну пригоду.",
+        "en": "Let’s create our own romantic adventure."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Будьте відкритими — у цьому діалозі немає правильних чи неправильних відповідей.",
+        "en": "Be open—there are no right or wrong answers in this dialogue."
+      },
+      {
+        "ua": "Не оцінюйте і не критикуйте фантазії партнера.",
+        "en": "Don’t judge or criticize your partner’s fantasies."
+      }
+    ],
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "random-compliment",
+    "title": {
+      "ua": "Рандомний комплімент",
+      "en": "Random Compliment"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Неочікувані компліменти можуть зробити день вашого партнера кращим. Ця техніка передбачає випадкові компліменти, які виходять від щирого серця.",
+      "en": "Unexpected compliments can brighten your partner’s day. This technique encourages giving random, heartfelt compliments."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Протягом дня кілька разів зробіть комплімент партнеру.",
+        "en": "Give your partner compliments several times throughout the day."
+      },
+      {
+        "number": 2,
+        "ua": "Спробуйте звертати увагу на риси, які ви зазвичай не помічаєте.",
+        "en": "Try to notice qualities you usually overlook."
+      },
+      {
+        "number": 3,
+        "ua": "Поговоріть, які компліменти викликали найбільше емоцій.",
+        "en": "Talk about which compliments made the most impact."
+      }
+    ],
+    "widget_type": "notes",
+    "duration": "all day",
+    "status": "active",
+    "image": "random_compliment.png",
+    "examples": [
+      {
+        "ua": "Мені подобається твоя усмішка сьогодні.",
+        "en": "I love your smile today."
+      },
+      {
+        "ua": "Я ціную, як ти підтримуєш мене у складних моментах.",
+        "en": "I appreciate how you support me during tough times."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Робіть компліменти несподівано та щиро.",
+        "en": "Give compliments unexpectedly and sincerely."
+      },
+      {
+        "ua": "Зосередьтеся на особливостях, які партнер рідко чує.",
+        "en": "Focus on qualities your partner rarely hears praised."
+      }
+    ],
+    "free_or_premium": "premium"
+  }
+]

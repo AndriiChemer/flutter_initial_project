@@ -1,0 +1,381 @@
+{
+  "id": "sexual_psychotype",
+  "title": {
+    "ua": "Ваш сексуальний психотип",
+    "en": "Your Sexual Psychotype"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам зрозуміти свій сексуальний психотип, що може вплинути на ваші бажання, вподобання та способи взаємодії з партнером.",
+    "en": "This test will help you understand your sexual psychotype, which can influence your desires, preferences, and ways of interacting with your partner."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як ви зазвичай підходите до інтимних стосунків?",
+        "en": "How do you usually approach intimate relationships?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Імпульсивно та пристрасно",
+            "en": "Impulsively and passionately"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Спонтанно, за настроєм",
+            "en": "Spontaneously, by mood"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Обережно та делікатно",
+            "en": "Cautiously and delicately"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Стримано та передбачливо",
+            "en": "Restrained and cautiously"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Що для вас є найважливішим у сексуальних стосунках?",
+        "en": "What is the most important for you in sexual relationships?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Фізичне задоволення та новизна",
+            "en": "Physical pleasure and novelty"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Інтимність та емоційний зв’язок",
+            "en": "Intimacy and emotional connection"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Взаєморозуміння та повага",
+            "en": "Mutual understanding and respect"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Безпека та передбачуваність",
+            "en": "Safety and predictability"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як ви реагуєте на нові пропозиції партнера?",
+        "en": "How do you react to your partner's new suggestions?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "З ентузіазмом та готовністю експериментувати",
+            "en": "With enthusiasm and willingness to experiment"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "З цікавістю, але обережністю",
+            "en": "With curiosity but with caution"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Іноді позитивно, іноді з недовірою",
+            "en": "Sometimes positively, sometimes with mistrust"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Часто відмовляю через страх або невпевненість",
+            "en": "Often refuse due to fear or insecurity"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Що приносить вам найбільше задоволення у сексуальних стосунках?",
+        "en": "What brings you the most satisfaction in sexual relationships?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Пристрасть та інтенсивність",
+            "en": "Passion and intensity"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Спільний досвід та нові емоції",
+            "en": "Shared experience and new emotions"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Взаємна підтримка та довіра",
+            "en": "Mutual support and trust"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Стабільність та спокій",
+            "en": "Stability and calm"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи важливо для вас обговорювати свої бажання з партнером?",
+        "en": "Is it important for you to discuss your desires with your partner?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, це основа нашого взаєморозуміння",
+            "en": "Yes, it's the basis of our mutual understanding"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Переважно так, але не завжди",
+            "en": "Mostly yes, but not always"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Іноді це важко",
+            "en": "Sometimes it's hard"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Майже ніколи",
+            "en": "Almost never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Як ви ставитесь до нових сексуальних практик?",
+        "en": "How do you feel about new sexual practices?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Відкрито і з цікавістю",
+            "en": "Openly and with curiosity"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Обережно, але готовий/а спробувати",
+            "en": "Cautiously, but ready to try"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Тільки якщо це важливо для партнера",
+            "en": "Only if it's important for my partner"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "З недовірою або байдужістю",
+            "en": "With mistrust or indifference"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Які емоції ви відчуваєте після інтимного контакту?",
+        "en": "What emotions do you feel after intimate contact?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Задоволення та піднесення",
+            "en": "Satisfaction and uplift"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Спокій та вдоволення",
+            "en": "Calm and contentment"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Часто змішані почуття",
+            "en": "Often mixed feelings"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Інколи відчуття розчарування",
+            "en": "Sometimes a sense of disappointment"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        24,
+        28
+      ],
+      "title": {
+        "ua": "Пристрасний експериментатор",
+        "en": "Passionate Experimenter"
+      },
+      "description": {
+        "ua": "Ви відкриті до нових вражень і любите експериментувати. Ваш сексуальний психотип відрізняється високою чуттєвістю та прагненням до інтенсивних переживань. Ви прагнете отримати максимум задоволення та насолоди від стосунків, і готові ділитися своїми фантазіями з партнером.",
+        "en": "You are open to new experiences and love to experiment. Your sexual psychotype is highly sensual and strives for intense experiences. You seek maximum pleasure and enjoyment from relationships and are ready to share your fantasies with your partner."
+      }
+    },
+    {
+      "range": [
+        18,
+        23
+      ],
+      "title": {
+        "ua": "Емоційний дослідник",
+        "en": "Emotional Explorer"
+      },
+      "description": {
+        "ua": "Ви цінуєте емоційний зв’язок з партнером та прагнете гармонії у стосунках. Вам цікаво досліджувати нове, але важливо, щоб це відбувалося поступово. Ви маєте тонке відчуття балансу між пристрастю та безпекою.",
+        "en": "You value emotional connection with your partner and strive for harmony in the relationship. You are interested in exploring new things, but it's important for you that it happens gradually. You have a delicate sense of balance between passion and safety."
+      }
+    },
+    {
+      "range": [
+        12,
+        17
+      ],
+      "title": {
+        "ua": "Обачний прихильник",
+        "en": "Cautious Supporter"
+      },
+      "description": {
+        "ua": "Ви більше орієнтуєтесь на стабільність та безпеку. Інновації у стосунках не завжди вас приваблюють, і ви надаєте перевагу перевіреним методам. Ваш комфорт та довіра – головні пріоритети.",
+        "en": "You are more focused on stability and safety. Innovations in relationships don't always attract you, and you prefer proven methods. Your comfort and trust are the main priorities."
+      }
+    },
+    {
+      "range": [
+        7,
+        11
+      ],
+      "title": {
+        "ua": "Консерватор",
+        "en": "Conservative"
+      },
+      "description": {
+        "ua": "Ви прагнете стабільності та передбачуваності. Невідоме може викликати страх або неприйняття. Ви цінуєте традиційний підхід до інтимності, де важлива безпека та довіра.",
+        "en": "You seek stability and predictability. The unknown can cause fear or rejection. You value a traditional approach to intimacy where safety and trust are important."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Зверніть увагу на свої справжні бажання та почуття. Дозвольте собі експериментувати у комфортних для себе межах.",
+      "en": "Pay attention to your true desires and feelings. Allow yourself to experiment within the boundaries comfortable for you."
+    },
+    "couple": {
+      "ua": "Обговорюйте свої вподобання та побоювання з партнером. Разом визначте ті сфери, де вам цікаво досліджувати щось нове.",
+      "en": "Discuss your preferences and concerns with your partner. Together, define areas where you are both interested in exploring something new."
+    }
+  },
+  "widget_type": "test"
+}

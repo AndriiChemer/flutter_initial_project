@@ -1,0 +1,151 @@
+{
+  "technique": {
+    "id": "touch_cues",
+    "title": {
+      "ua": "Дотики-підказки",
+      "en": "Touch Cues"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає партнерам краще розуміти чутливі зони одне одного через тактильні підказки. Вона сприяє розкриттю нових ерогенних зон та поглибленню сексуальної близькості.",
+      "en": "This technique helps partners better understand each other's sensitive areas through tactile cues. It encourages discovering new erogenous zones and deepening sexual intimacy."
+    },
+    "goal": {
+      "ua": "Відкрити нові чутливі зони та навчитися відкрито спілкуватися про дотики, які приносять задоволення.",
+      "en": "Discover new sensitive areas and learn to communicate openly about pleasurable touches."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "daily-tactility",
+    "widget_type": "timer",
+    "duration": "10 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Показати, що легкі дотики до шиї викликають мурашки по тілу.",
+        "en": "Show that gentle touches to the neck cause goosebumps."
+      },
+      {
+        "ua": "Навести руку партнера на спину, де дотики розслабляють.",
+        "en": "Guide your partner's hand to your back where touches are relaxing."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Залишайтесь відкритими до нових відчуттів, навіть якщо вони відрізняються від очікувань.",
+        "en": "Stay open to new sensations, even if they differ from your expectations."
+      },
+      {
+        "ua": "Ця вправа може стати початком розмови про те, що ви обидва хочете отримати від інтимних дотиків.",
+        "en": "This exercise can start a conversation about what you both want from intimate touches."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_touch_cues",
+      "technique_id": "touch_cues",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір ролі",
+        "en": "Choosing the Role"
+      },
+      "instruction": {
+        "ua": "Оберіть, хто першим буде вести руку партнера по своєму тілу. Це дозволяє зосередитися на власних відчуттях та показати партнеру, що саме приносить задоволення.",
+        "en": "Decide who will first guide their partner’s hand over their own body. This helps you focus on your sensations and show your partner what brings you pleasure."
+      },
+      "duration": "2 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хочу першим/першою показати тобі, де мені найбільше подобаються дотики.»",
+          "en": "Partner 1: 'I’d like to be the first to show you where I enjoy being touched the most.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Будьте відкритими до нових відчуттів.",
+          "en": "Be open to new sensations."
+        },
+        {
+          "ua": "Повідомте партнеру, якщо вам щось некомфортно.",
+          "en": "Tell your partner if something feels uncomfortable."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_touch_cues",
+      "technique_id": "touch_cues",
+      "step_number": 2,
+      "title": {
+        "ua": "Навчання дотиків",
+        "en": "Touch Guidance"
+      },
+      "instruction": {
+        "ua": "Партнер повільно водить руку партнера по своєму тілу, показуючи, які зони найбільш чутливі та які рухи приносять найбільше задоволення.",
+        "en": "The partner slowly guides their partner's hand over their body, showing which zones are most sensitive and which movements are the most pleasurable."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Проведіть руку партнера по шиї, зосередившись на легких дотиках.",
+          "en": "Guide your partner's hand over your neck, focusing on gentle touches."
+        },
+        {
+          "ua": "Наведіть руку партнера на спину, показуючи, де легкі натискання розслабляють.",
+          "en": "Guide your partner's hand to your back to show where gentle pressure is relaxing."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Зосередьтеся на своїх відчуттях та повідомляйте партнеру, коли дотик особливо приємний.",
+          "en": "Focus on your sensations and let your partner know when a touch feels especially good."
+        },
+        {
+          "ua": "Вдихайте глибоко, щоб розслабитися та краще відчувати тіло.",
+          "en": "Breathe deeply to relax and feel your body more fully."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_touch_cues",
+      "technique_id": "touch_cues",
+      "step_number": 3,
+      "title": {
+        "ua": "Зміна ролей",
+        "en": "Switching Roles"
+      },
+      "instruction": {
+        "ua": "Поміняйтеся ролями та повторіть вправу, дозволяючи партнеру тепер показати, що йому приємно.",
+        "en": "Switch roles and repeat the exercise, allowing your partner to show what feels good for them."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Мені подобається, коли ти торкаєшся моєї нижньої частини спини. Це завжди викликає у мене приємні відчуття.»",
+          "en": "Partner 2: 'I like when you touch my lower back. It always gives me pleasant sensations.'"
+        },
+        {
+          "ua": "Партнер 1: «А як тобі ось тут? Чи тобі подобається цей дотик?»",
+          "en": "Partner 1: 'And how about here? Do you like this touch?'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на реакціях партнера: подих, мурашки, м’якість тіла.",
+          "en": "Focus on your partner’s reactions: breath, goosebumps, relaxation."
+        },
+        {
+          "ua": "Після вправи обговоріть, що вам найбільше сподобалося та чому.",
+          "en": "After the exercise, discuss what you enjoyed most and why."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

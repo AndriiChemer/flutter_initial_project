@@ -1,0 +1,258 @@
+{
+  "id": "boundaries_and_comfort",
+  "title": {
+    "ua": "Межі та комфорт",
+    "en": "Boundaries and Comfort"
+  },
+  "level": {
+    "ua": "Складний",
+    "en": "Advanced"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам визначити, наскільки ви комфортно почуваєтесь у своїх інтимних стосунках, які межі вам важливо дотримуватися та як партнер може створити для вас безпечний простір. Рекомендовано проходити цей тест разом, щоб краще зрозуміти потреби одне одного.",
+    "en": "This test will help you determine how comfortable you feel in your intimate relationships, which boundaries are important to you, and how your partner can create a safe space for you. It is recommended to take this test together to better understand each other's needs."
+  },
+  "type": "universal",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Наскільки важливе для вас почуття безпеки під час інтимності?",
+        "en": "How important is the feeling of safety to you during intimacy?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Дуже важливе, без цього я не можу розслабитися",
+            "en": "Very important, I can't relax without it"
+          }
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Важливе, але не завжди є пріоритетом",
+            "en": "Important, but not always a priority"
+          }
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Я рідко про це думаю",
+            "en": "I rarely think about it"
+          }
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи є якісь теми або практики, про які ви не хотіли б говорити або пробувати?",
+        "en": "Are there any topics or practices you would not want to talk about or try?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, є кілька речей, які для мене табуйовані",
+            "en": "Yes, there are a few things that are taboo for me"
+          }
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Є теми, які мені важко обговорювати, але я готовий/готова працювати над цим",
+            "en": "There are topics that are hard for me to discuss, but I'm willing to work on it"
+          }
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Я відкритий/відкрита до будь-яких обговорень",
+            "en": "I am open to any discussions"
+          }
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Як ви хотіли б, щоб партнер реагував, коли ви говорите про свої межі?",
+        "en": "How would you like your partner to react when you talk about your boundaries?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "З розумінням і повагою",
+            "en": "With understanding and respect"
+          }
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Мені важливо, щоб партнер запитував уточнення та дійсно розумів мене",
+            "en": "It's important to me that my partner asks clarifying questions and truly understands me"
+          }
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Інколи мені складно говорити про межі, тому потрібен час",
+            "en": "Sometimes it's hard for me to talk about boundaries, so I need time"
+          }
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи відчуваєте ви себе комфортно, коли обговорюєте свої сексуальні бажання?",
+        "en": "Do you feel comfortable when discussing your sexual desires?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, мені легко говорити про свої бажання",
+            "en": "Yes, it's easy for me to talk about my desires"
+          }
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Іноді важко, але я намагаюся бути відкритим/відкритою",
+            "en": "Sometimes it's difficult, but I try to be open"
+          }
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Мені важко говорити про свої бажання, бо боюся, що партнер не зрозуміє",
+            "en": "It's hard for me to talk about my desires because I'm afraid my partner won't understand"
+          }
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ви ставитеся до експериментів, які виходять за межі звичного?",
+        "en": "How do you feel about experiments that go beyond the usual?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Я готовий/готова спробувати нове, якщо почуваю себе безпечно",
+            "en": "I'm willing to try new things if I feel safe"
+          }
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Я вважаю, що експерименти можуть збагатити наші стосунки",
+            "en": "I believe experiments can enrich our relationship"
+          }
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Я віддаю перевагу звичному, оскільки це дає мені комфорт",
+            "en": "I prefer the familiar because it gives me comfort"
+          }
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи відчуваєте ви себе почутим/почутою, коли говорите про свої межі та бажання?",
+        "en": "Do you feel heard when you talk about your boundaries and desires?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, партнер завжди мене розуміє",
+            "en": "Yes, my partner always understands me"
+          }
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Частково, бувають моменти непорозуміння",
+            "en": "Partly, sometimes there are misunderstandings"
+          }
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Ні, мені часто здається, що мене не чують",
+            "en": "No, I often feel unheard"
+          }
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Інше (можливість ввести свій варіант)",
+            "en": "Other (option to enter your own)"
+          }
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Ваші відповіді свідчать про те, що комфорт та безпека є важливими аспектами для вас. Продовжуйте обговорювати свої межі з партнером та не бійтеся висловлювати свої бажання. Це допоможе побудувати більш довірливі стосунки.",
+      "en": "Your answers indicate that comfort and safety are important aspects for you. Continue discussing your boundaries with your partner and do not be afraid to express your desires. This will help build a more trusting relationship."
+    },
+    "couple": {
+      "ua": "Обговорення меж та безпеки – важливий елемент здорових стосунків. Спробуйте регулярно проводити такі тести, щоб оновлювати розуміння одне одного та створювати безпечний простір для експериментів.",
+      "en": "Discussing boundaries and safety is a vital part of healthy relationships. Try doing such tests regularly to update your understanding of each other and to create a safe space for experimentation."
+    }
+  },
+  "widget_type": "test"
+}

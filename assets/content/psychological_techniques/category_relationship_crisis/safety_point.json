@@ -1,0 +1,179 @@
+{
+  "technique": {
+    "id": "safety_point",
+    "title": {
+      "ua": "Точка безпеки",
+      "en": "Safety Point"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає парам створити простір для спокійного обговорення конфліктів без звинувачень та емоційних спалахів. Це місце, де кожен партнер може відчути себе почутим та зрозумілим.",
+      "en": "This technique helps couples create a space for calm discussion of conflicts without blame or emotional outbursts. It’s a place where each partner can feel heard and understood."
+    },
+    "goal": {
+      "ua": "Сформувати простір довіри та безпеки для вирішення конфліктів у парі.",
+      "en": "Create a space of trust and safety for resolving conflicts as a couple."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflicts-and-arguments",
+    "widget_type": "conversation",
+    "duration": "30 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Партнер 1: «Давай обговоримо це у нашому куточку безпеки.»",
+        "en": "Partner 1: 'Let’s talk about this in our safety corner.'"
+      },
+      {
+        "ua": "Партнер 2: «Так, я готовий/готова слухати та розуміти тебе.»",
+        "en": "Partner 2: 'Yes, I’m ready to listen and understand you.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Поверніться до цієї техніки щоразу, коли відчуваєте загострення конфлікту.",
+        "en": "Return to this technique whenever you feel a conflict is escalating."
+      },
+      {
+        "ua": "Запропонуйте партнеру обійми після розмови, щоб завершити її на позитивній ноті.",
+        "en": "Offer your partner a hug after the conversation to end on a positive note."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_safety_point",
+      "technique_id": "safety_point",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір безпечного простору",
+        "en": "Choosing a Safe Space"
+      },
+      "instruction": {
+        "ua": "Разом оберіть місце, яке обидва асоціюєте зі спокоєм та комфортом. Це може бути кімната вдома, парк або кав’ярня.",
+        "en": "Together, choose a place that both associate with calm and comfort. It could be a room at home, a park, or a café."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Давай обговоримо це у нашому куточку безпеки — на балконі зі свічками.»",
+          "en": "Partner 1: 'Let’s talk about this in our safety spot — on the balcony with candles.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Уникайте місць, де зазвичай відбуваються конфлікти.",
+          "en": "Avoid places where conflicts usually happen."
+        },
+        {
+          "ua": "Обирайте простір, який обом приносить відчуття спокою.",
+          "en": "Choose a space that brings both of you a sense of calm."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_safety_point",
+      "technique_id": "safety_point",
+      "step_number": 2,
+      "title": {
+        "ua": "Установлення правил",
+        "en": "Setting the Rules"
+      },
+      "instruction": {
+        "ua": "Разом домовтесь про правила обговорення: не перебивати, не звинувачувати, не кричати. Запишіть ці правила, щоб мати можливість до них повертатись.",
+        "en": "Agree together on discussion rules: no interrupting, no blaming, no shouting. Write these rules down to refer to them later."
+      },
+      "duration": "5 min",
+      "examples": [
+        {
+          "ua": "Партнер 2: «Моє правило — не перебивати, доки ти не закінчиш говорити.»",
+          "en": "Partner 2: 'My rule is not to interrupt until you finish talking.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Сформулюйте правила коротко та чітко.",
+          "en": "Formulate the rules briefly and clearly."
+        },
+        {
+          "ua": "Запропонуйте спільний ритуал на початку — наприклад, зробити кілька глибоких вдихів.",
+          "en": "Suggest a shared ritual at the start — for example, taking a few deep breaths together."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_safety_point",
+      "technique_id": "safety_point",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення конфлікту",
+        "en": "Discussing the Conflict"
+      },
+      "instruction": {
+        "ua": "По черзі обговоріть ситуацію, яка викликала конфлікт. Використовуйте 'Я-повідомлення': «Я відчуваю..., коли…».",
+        "en": "Take turns discussing the situation that caused the conflict. Use 'I-statements': 'I feel..., when...'."
+      },
+      "duration": "15 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я відчуваю себе ігнорованим/ою, коли ти йдеш, не сказавши, куди.»",
+          "en": "Partner 1: 'I feel ignored when you leave without telling me where you’re going.'"
+        },
+        {
+          "ua": "Партнер 2: «Мені важливо знати, що ти розумієш мою позицію.»",
+          "en": "Partner 2: 'It’s important for me to know that you understand my position.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Фокусуйтесь на власних почуттях, а не на діях партнера.",
+          "en": "Focus on your own feelings, not your partner’s actions."
+        },
+        {
+          "ua": "Не переходьте одразу до пошуку рішення — це простір для обговорення.",
+          "en": "Don’t jump to finding solutions right away — this is a space for discussion."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_4_safety_point",
+      "technique_id": "safety_point",
+      "step_number": 4,
+      "title": {
+        "ua": "Завершення розмови",
+        "en": "Ending the Conversation"
+      },
+      "instruction": {
+        "ua": "Завершіть обговорення позитивною нотою: подякуйте партнеру, обійміть його або скажіть щось приємне.",
+        "en": "End the conversation on a positive note: thank your partner, give them a hug, or say something nice."
+      },
+      "duration": "3 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Дякую за те, що вислухав мене спокійно. Це було важливо для мене.»",
+          "en": "Partner 1: 'Thank you for listening to me calmly. It was important for me.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Не завершуйте розмову на негативі.",
+          "en": "Don’t end the conversation on a negative note."
+        },
+        {
+          "ua": "Запропонуйте партнеру повернутись до розмови пізніше, якщо відчуваєте потребу.",
+          "en": "Suggest coming back to the conversation later if you feel the need."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

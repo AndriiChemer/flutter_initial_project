@@ -1,0 +1,151 @@
+{
+  "technique": {
+    "id": "role_play_scenarios",
+    "title": {
+      "ua": "Рольові сценарії",
+      "en": "Role Play Scenarios"
+    },
+    "description": {
+      "ua": "Ця техніка допомагає парам внести новизну у сексуальне життя через рольові ігри. Вона дозволяє виразити приховані бажання та розкрити нові сторони сексуальності.",
+      "en": "This technique helps couples bring novelty to their sex life through role play games. It allows partners to express hidden desires and discover new sides of their sexuality."
+    },
+    "goal": {
+      "ua": "Внести новизну в сексуальне життя та поглибити взаємну довіру через рольові ігри.",
+      "en": "Bring novelty to your sex life and deepen mutual trust through role play."
+    },
+    "category_id": "sexual_intimacy",
+    "subcategory_slug": "novelty-and-experimentation",
+    "widget_type": "chat_with_ai",
+    "duration": "1 hour",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Секретар та бос у офісі.",
+        "en": "Secretary and boss in an office."
+      },
+      {
+        "ua": "Випадкове знайомство в барі, де граєте незнайомців.",
+        "en": "Random meeting at a bar, where you play strangers."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Чітко обговоріть ролі та межі перед початком гри.",
+        "en": "Clearly discuss your roles and boundaries before starting the game."
+      },
+      {
+        "ua": "Запропонуйте безпечне слово для моментального завершення гри.",
+        "en": "Suggest a safe word for instantly ending the game if needed."
+      }
+    ],
+    "free_or_premium": "premium",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "updated_at": "2025-05-26T00:00:00.000Z"
+  },
+  "technique_steps": [
+    {
+      "id": "step_1_role_play_scenarios",
+      "technique_id": "role_play_scenarios",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір сценарію",
+        "en": "Choosing a Scenario"
+      },
+      "instruction": {
+        "ua": "Кожен партнер пропонує одну рольову гру або ситуацію, яка його приваблює. Визначте, яка з ідей здається вам обом цікавою та комфортною.",
+        "en": "Each partner suggests a role play or situation that appeals to them. Decide together which idea seems interesting and comfortable for both."
+      },
+      "duration": "7 min",
+      "examples": [
+        {
+          "ua": "Партнер 1: «Я хочу спробувати сценарій з офісним начальником та секретарем.»",
+          "en": "Partner 1: 'I'd like to try a boss-and-secretary scenario.'"
+        },
+        {
+          "ua": "Партнер 2: «А мені подобається ідея випадкового знайомства у барі.»",
+          "en": "Partner 2: 'I like the idea of a random meeting at a bar.'"
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Обирайте сценарії, які здаються цікавими обом партнерам.",
+          "en": "Choose scenarios that are appealing to both partners."
+        },
+        {
+          "ua": "Обговоріть межі та встановіть безпечне слово для припинення гри.",
+          "en": "Discuss boundaries and agree on a safe word for stopping the game."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_2_role_play_scenarios",
+      "technique_id": "role_play_scenarios",
+      "step_number": 2,
+      "title": {
+        "ua": "Підготовка атрибутів",
+        "en": "Preparing Props"
+      },
+      "instruction": {
+        "ua": "Підготуйте одяг, декорації або реквізит, який підсилить відчуття ролі. Визначте, хто яку роль виконуватиме та як почнеться гра.",
+        "en": "Prepare clothing, decorations, or props that enhance the role play. Decide who will play which role and how the game will begin."
+      },
+      "duration": "12 min",
+      "examples": [
+        {
+          "ua": "Вибрати спокусливу білизну для секретаря.",
+          "en": "Choose seductive lingerie for the secretary."
+        },
+        {
+          "ua": "Підготувати коктейлі для сценарію знайомства у барі.",
+          "en": "Prepare cocktails for the bar scenario."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Обговоріть деталі сценарію заздалегідь, щоб уникнути непорозумінь.",
+          "en": "Discuss the details of the scenario in advance to avoid misunderstandings."
+        },
+        {
+          "ua": "Спробуйте використати музику або запахи для посилення атмосфери.",
+          "en": "Try using music or scents to enhance the atmosphere."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "step_3_role_play_scenarios",
+      "technique_id": "role_play_scenarios",
+      "step_number": 3,
+      "title": {
+        "ua": "Реалізація сценарію",
+        "en": "Playing the Scenario"
+      },
+      "instruction": {
+        "ua": "Втілюйте сценарій, залишаючись у вибраних ролях. Слідкуйте за реакціями партнера та не забувайте про безпечне слово.",
+        "en": "Act out the scenario, staying in your chosen roles. Pay attention to your partner’s reactions and always remember the safe word."
+      },
+      "duration": "40 min",
+      "examples": [
+        {
+          "ua": "Рольова гра: бос запрошує секретаря до кабінету для особистої розмови.",
+          "en": "Role play: the boss invites the secretary to the office for a private talk."
+        }
+      ],
+      "tips": [
+        {
+          "ua": "Слідкуйте за реакціями партнера: якщо він/вона виглядає напруженим/ою, зробіть паузу.",
+          "en": "Observe your partner: if they seem tense, take a break."
+        },
+        {
+          "ua": "Обговоріть, як кожен із партнерів почувався після гри.",
+          "en": "Discuss how each of you felt after the game."
+        }
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
+    }
+  ]
+}

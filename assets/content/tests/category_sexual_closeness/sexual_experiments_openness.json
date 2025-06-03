@@ -1,0 +1,340 @@
+{
+  "id": "sexual_experiments_openness",
+  "title": {
+    "ua": "Наскільки ви відкриті до нових сексуальних експериментів?",
+    "en": "How Open Are You to New Sexual Experiments?"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам визначити, наскільки ви готові досліджувати нові аспекти сексуальних відносин та відкрити себе для нових вражень.",
+    "en": "This test will help you determine how ready you are to explore new aspects of sexual relationships and open yourself to new experiences."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "10 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи подобається вам пробувати нові пози у сексі?",
+        "en": "Do you enjoy trying new positions in sex?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Як ви ставитеся до рольових ігор?",
+        "en": "How do you feel about role play?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "З ентузіазмом",
+            "en": "With enthusiasm"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Відкритий/відкрита до пропозицій",
+            "en": "Open to suggestions"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Не дуже комфортно",
+            "en": "Not very comfortable"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Негативно",
+            "en": "Negatively"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи цікавить вас використання іграшок у сексуальному житті?",
+        "en": "Are you interested in using toys in your sex life?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Дуже цікаво",
+            "en": "Very interested"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Можливо, якщо партнер запропонує",
+            "en": "Maybe, if my partner suggests"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ні, це не для мене",
+            "en": "No, it's not for me"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи готові ви обговорювати свої сексуальні фантазії з партнером?",
+        "en": "Are you willing to discuss your sexual fantasies with your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Абсолютно готовий/готова",
+            "en": "Absolutely willing"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Лише якщо партнер наполягає",
+            "en": "Only if my partner insists"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ні, це занадто інтимно",
+            "en": "No, it's too intimate"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як часто ви самі ініціюєте щось нове у сексуальному житті?",
+        "en": "How often do you initiate something new in your sex life?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Майже ніколи",
+            "en": "Almost never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи хотіли б ви спробувати щось зовсім нове у вашому інтимному житті?",
+        "en": "Would you like to try something completely new in your intimate life?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, обов'язково!",
+            "en": "Yes, absolutely!"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Можливо, залежить від ситуації",
+            "en": "Maybe, depends on the situation"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Рідко, але можу розглянути",
+            "en": "Rarely, but I might consider"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ні, мені комфортно так, як є",
+            "en": "No, I'm comfortable as it is"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        20,
+        24
+      ],
+      "title": {
+        "ua": "Відкритий експериментатор",
+        "en": "Open Experimenter"
+      },
+      "description": {
+        "ua": "Ви повністю готові до нових вражень та відкриттів у сексуальному житті. Продовжуйте досліджувати і спілкуватися з партнером про свої бажання.",
+        "en": "You are completely ready for new experiences and discoveries in your sex life. Keep exploring and communicating your desires with your partner."
+      }
+    },
+    {
+      "range": [
+        15,
+        19
+      ],
+      "title": {
+        "ua": "Готовий до експериментів",
+        "en": "Ready for Experiments"
+      },
+      "description": {
+        "ua": "Ви відкриті до нових ідей, але, можливо, вам потрібно трохи більше впевненості або підтримки від партнера.",
+        "en": "You are open to new ideas, but may need a bit more confidence or support from your partner."
+      }
+    },
+    {
+      "range": [
+        10,
+        14
+      ],
+      "title": {
+        "ua": "Помірно відкритий",
+        "en": "Moderately Open"
+      },
+      "description": {
+        "ua": "Ви маєте деякі обмеження або страхи щодо експериментів. Можливо, варто почати з малих кроків.",
+        "en": "You have some limitations or fears regarding experiments. Maybe start with small steps."
+      }
+    },
+    {
+      "range": [
+        6,
+        9
+      ],
+      "title": {
+        "ua": "Консервативний",
+        "en": "Conservative"
+      },
+      "description": {
+        "ua": "Вам подобається триматися перевірених методів. Це абсолютно нормально, головне – бути чесним із собою та партнером.",
+        "en": "You prefer to stick to proven methods. That's perfectly fine—just be honest with yourself and your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Звертайте увагу на свої відчуття та бажання. Навіть невеликі зміни можуть зробити інтимне життя цікавішим.",
+      "en": "Pay attention to your feelings and desires. Even small changes can make your intimate life more interesting."
+    },
+    "couple": {
+      "ua": "Обговорюйте нові ідеї разом із партнером. Важливо зберігати відкритість і підтримку.",
+      "en": "Discuss new ideas together with your partner. It is important to remain open and supportive."
+    }
+  },
+  "widget_type": "test"
+}

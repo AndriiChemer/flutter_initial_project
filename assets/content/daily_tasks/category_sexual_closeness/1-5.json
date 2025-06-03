@@ -1,0 +1,177 @@
+[
+  {
+    "id": "steps-to-understanding",
+    "title": {
+      "ua": "Маленькі кроки до розуміння",
+      "en": "Small Steps to Understanding"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Протягом дня попросіть партнера описати свої відчуття від дотиків чи поцілунків. Це допоможе краще зрозуміти, що приносить йому чи їй задоволення.",
+      "en": "During the day, ask your partner to describe their feelings from your touches or kisses. This helps you better understand what brings them pleasure."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Доторкніться до партнера або поцілуйте його.",
+        "en": "Touch or kiss your partner."
+      },
+      {
+        "number": 2,
+        "ua": "Запитайте, що саме йому/їй найбільше сподобалось.",
+        "en": "Ask what exactly they liked most."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть свої відчуття та бажання.",
+        "en": "Discuss your feelings and desires."
+      }
+    ],
+    "widget_type": "conversation",
+    "duration": "10 min",
+    "status": "active",
+    "image": "soft_kiss.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "warm-messages",
+    "title": {
+      "ua": "Теплі повідомлення",
+      "en": "Warm Messages"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Надішліть партнеру еротичне або грайливе повідомлення протягом дня, щоб підтримувати інтимність навіть на відстані.",
+      "en": "Send your partner an erotic or playful message during the day to keep intimacy alive even when apart."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Напишіть еротичне або грайливе повідомлення.",
+        "en": "Write an erotic or playful message."
+      },
+      {
+        "number": 2,
+        "ua": "Надішліть його партнеру в несподіваний момент.",
+        "en": "Send it to your partner at an unexpected moment."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть реакції та емоції.",
+        "en": "Discuss your reactions and emotions."
+      }
+    ],
+    "widget_type": "text",
+    "duration": "5 min",
+    "status": "active",
+    "image": "playful_message.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "pleasure-point",
+    "title": {
+      "ua": "Точка задоволення",
+      "en": "Pleasure Point"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Знайдіть кілька хвилин, щоб дослідити ерогенні зони партнера. Попросіть його/її сказати 'гаряче' або 'холодно' залежно від відчуттів.",
+      "en": "Take a few minutes to explore your partner’s erogenous zones. Ask them to say 'hot' or 'cold' depending on their feelings."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Попросіть партнера розслабитись.",
+        "en": "Ask your partner to relax."
+      },
+      {
+        "number": 2,
+        "ua": "Почніть ніжно доторкатися до різних частин тіла.",
+        "en": "Gently touch different parts of their body."
+      },
+      {
+        "number": 3,
+        "ua": "Партнер каже 'гаряче', коли йому приємно, або 'холодно', якщо це не приносить задоволення.",
+        "en": "Your partner says 'hot' when it feels good or 'cold' if not."
+      }
+    ],
+    "widget_type": "touch_game",
+    "duration": "15 min",
+    "status": "active",
+    "image": "pleasure_point.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "fantasy-note",
+    "title": {
+      "ua": "Фантазійна записка",
+      "en": "Fantasy Note"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Напишіть короткий еротичний сценарій або фантазію та передайте його партнеру. Обговоріть, що вас обох збуджує.",
+      "en": "Write a short erotic scenario or fantasy and give it to your partner. Discuss what excites you both."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Напишіть або запишіть фантазію чи еротичний сценарій.",
+        "en": "Write down a fantasy or erotic scenario."
+      },
+      {
+        "number": 2,
+        "ua": "Поділіться з партнером у зручний момент.",
+        "en": "Share it with your partner at the right moment."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть реакцію та емоції.",
+        "en": "Discuss your partner’s reaction and emotions."
+      }
+    ],
+    "widget_type": "text",
+    "duration": "10 min",
+    "status": "active",
+    "image": "fantasy_note.png",
+    "free_or_premium": "premium"
+  },
+  {
+    "id": "massage-for-body-and-soul",
+    "title": {
+      "ua": "Масаж для душі та тіла",
+      "en": "Massage for Body and Soul"
+    },
+    "category_id": "sexual_closeness",
+    "category_slug": "sexual_closeness",
+    "description": {
+      "ua": "Пропонуйте партнеру зробити масаж. Це може бути як еротичний масаж, так і просто розслаблюючий.",
+      "en": "Offer your partner a massage. It can be either an erotic or a relaxing massage."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Виберіть місце та створіть атмосферу (свічки, музика тощо).",
+        "en": "Choose a place and create an atmosphere (candles, music, etc.)."
+      },
+      {
+        "number": 2,
+        "ua": "Масажуйте партнера, звертаючи увагу на його реакції.",
+        "en": "Massage your partner, paying attention to their reactions."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, що йому/їй сподобалося найбільше.",
+        "en": "Discuss what they enjoyed most."
+      }
+    ],
+    "widget_type": "touch",
+    "duration": "10 min",
+    "status": "active",
+    "image": "massage_touch.png",
+    "free_or_premium": "premium"
+  }
+]

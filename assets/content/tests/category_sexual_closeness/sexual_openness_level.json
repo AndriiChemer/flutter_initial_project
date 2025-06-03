@@ -1,0 +1,668 @@
+{
+  "id": "sexual_openness_level",
+  "title": {
+    "ua": "Рівень сексуальної відкритості",
+    "en": "Sexual Openness Level"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест допоможе визначити ваш рівень сексуальної відкритості та готовність до нових експериментів у стосунках. Ви дізнаєтесь, наскільки комфортно вам говорити про свої бажання та фантазії.",
+    "en": "This test will help you determine your level of sexual openness and readiness for new experiments in relationships. You'll learn how comfortable you are discussing your desires and fantasies."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи відчуваєте ви комфорт, коли говорите з партнером про свої сексуальні бажання?",
+        "en": "Do you feel comfortable talking to your partner about your sexual desires?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи готові ви експериментувати з новими видами інтимності?",
+        "en": "Are you ready to experiment with new forms of intimacy?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, завжди відкритий/а до нового",
+            "en": "Yes, always open to new things"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Іноді відкритий/а",
+            "en": "Sometimes open"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Лише за умов повної безпеки та довіри",
+            "en": "Only if I feel completely safe and trust my partner"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Ні, не комфортно",
+            "en": "No, not comfortable"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Чи вважаєте ви себе відкритою людиною в інтимному плані?",
+        "en": "Do you consider yourself an open person when it comes to intimacy?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Так, повністю",
+            "en": "Yes, absolutely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Більшість часу",
+            "en": "Most of the time"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи важко вам висловлювати свої бажання або фантазії партнеру?",
+        "en": "Is it hard for you to express your desires or fantasies to your partner?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Час від часу",
+            "en": "From time to time"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи готові ви обговорювати з партнером різні аспекти сексуального життя?",
+        "en": "Are you ready to discuss different aspects of your sex life with your partner?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер розуміє ваші бажання?",
+        "en": "Do you feel that your partner understands your desires?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Так, повністю",
+            "en": "Yes, completely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Більшість часу",
+            "en": "Most of the time"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Лише частково",
+            "en": "Only partially"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ні, зовсім ні",
+            "en": "No, not at all"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи готові ви ділитися своїми фантазіями, навіть якщо вони здаються незвичними?",
+        "en": "Are you willing to share your fantasies, even if they seem unusual?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Так, повністю відкритий/а",
+            "en": "Yes, fully open"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Лише за певних обставин",
+            "en": "Only under certain circumstances"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Чи відчуваєте ви себе розкутим/розкутою під час сексу?",
+        "en": "Do you feel uninhibited during sex?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Так, завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи важливо для вас, щоб партнер знав про ваші фантазії та бажання?",
+        "en": "Is it important for your partner to know your fantasies and desires?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, дуже важливо",
+            "en": "Yes, very important"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Важливо, але не завжди",
+            "en": "Important, but not always"
+          },
+          "score": 3
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Лише в певних випадках",
+            "en": "Only in certain cases"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Ні, це не має значення",
+            "en": "No, it doesn't matter"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Чи готові ви змінювати свої звички у сексуальному житті, щоб покращити ваші стосунки?",
+        "en": "Are you willing to change your sexual habits to improve your relationship?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Так, завжди відкритий/а до змін",
+            "en": "Yes, always open to change"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Лише за умов повної безпеки та довіри",
+            "en": "Only if I feel completely safe and trust my partner"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Ні, не готовий/готова",
+            "en": "No, not ready"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Чи обговорюєте ви з партнером свої еротичні фантазії та бажання?",
+        "en": "Do you discuss your erotic fantasies and desires with your partner?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Так, постійно",
+            "en": "Yes, always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Дуже рідко",
+            "en": "Very rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": {
+        "ua": "Чи вважаєте ви, що ваш партнер розуміє ваші потреби у сексуальному плані?",
+        "en": "Do you think your partner understands your sexual needs?"
+      },
+      "options": [
+        {
+          "id": "q12_o1",
+          "text": {
+            "ua": "Так, повністю",
+            "en": "Yes, completely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q12_o2",
+          "text": {
+            "ua": "Здебільшого",
+            "en": "Mostly"
+          },
+          "score": 3
+        },
+        {
+          "id": "q12_o3",
+          "text": {
+            "ua": "Лише частково",
+            "en": "Only partially"
+          },
+          "score": 2
+        },
+        {
+          "id": "q12_o4",
+          "text": {
+            "ua": "Ні, зовсім ні",
+            "en": "No, not at all"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": {
+        "ua": "Чи готові ви ділитися своїми потаємними бажаннями без страху бути осудженим?",
+        "en": "Are you ready to share your secret desires without fear of being judged?"
+      },
+      "options": [
+        {
+          "id": "q13_o1",
+          "text": {
+            "ua": "Так, абсолютно",
+            "en": "Yes, absolutely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q13_o2",
+          "text": {
+            "ua": "Лише з часом",
+            "en": "Only with time"
+          },
+          "score": 3
+        },
+        {
+          "id": "q13_o3",
+          "text": {
+            "ua": "Лише частково",
+            "en": "Only partially"
+          },
+          "score": 2
+        },
+        {
+          "id": "q13_o4",
+          "text": {
+            "ua": "Ні, боюся осуду",
+            "en": "No, afraid of being judged"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "question": {
+        "ua": "Чи відчуваєте ви, що партнер заохочує вас бути відкритим/відкритою у ваших бажаннях?",
+        "en": "Do you feel your partner encourages you to be open about your desires?"
+      },
+      "options": [
+        {
+          "id": "q14_o1",
+          "text": {
+            "ua": "Так, повністю",
+            "en": "Yes, completely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q14_o2",
+          "text": {
+            "ua": "Частково",
+            "en": "Partially"
+          },
+          "score": 3
+        },
+        {
+          "id": "q14_o3",
+          "text": {
+            "ua": "Лише іноді",
+            "en": "Only sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q14_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        48,
+        56
+      ],
+      "title": {
+        "ua": "Ви повністю відкриті",
+        "en": "You are fully open"
+      },
+      "description": {
+        "ua": "Ви повністю відкриті у своїх бажаннях та готові до експериментів. Ви не боїтеся говорити про свої бажання і фантазії, що створює міцний зв’язок з партнером.",
+        "en": "You are fully open about your desires and ready for experiments. You are not afraid to talk about your wishes and fantasies, creating a strong bond with your partner."
+      }
+    },
+    {
+      "range": [
+        36,
+        47
+      ],
+      "title": {
+        "ua": "Ви досить відкриті",
+        "en": "You are quite open"
+      },
+      "description": {
+        "ua": "Ви досить відкриті, проте є певні бар’єри, які можуть заважати повністю виразити свої бажання. Потрібно більше спілкування з партнером.",
+        "en": "You are quite open, but there are some barriers that may prevent you from fully expressing your desires. More communication with your partner is needed."
+      }
+    },
+    {
+      "range": [
+        24,
+        35
+      ],
+      "title": {
+        "ua": "Відкритість помірна",
+        "en": "Moderate openness"
+      },
+      "description": {
+        "ua": "Ваш рівень відкритості помірний. Можливо, ви боїтесь осуду або не впевнені у власних бажаннях. Робота над самооцінкою та довірою до партнера допоможе вам відкритися.",
+        "en": "Your openness is moderate. You may fear judgment or be unsure about your desires. Working on self-esteem and trust in your partner will help you open up."
+      }
+    },
+    {
+      "range": [
+        0,
+        23
+      ],
+      "title": {
+        "ua": "Відкритість низька",
+        "en": "Low openness"
+      },
+      "description": {
+        "ua": "Ви відчуваєте значні бар’єри у своїй відкритості. Варто більше працювати над своїми страхами та вчитися відкриватися партнеру поступово.",
+        "en": "You feel significant barriers in your openness. You should work more on your fears and gradually learn to open up to your partner."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Попрацюйте над своїм ставленням до власних бажань. Спробуйте вести щоденник бажань або обговорювати їх з партнером в безпечному середовищі.",
+      "en": "Work on your attitude towards your own desires. Try keeping a desire journal or discuss them with your partner in a safe environment."
+    },
+    "couple": {
+      "ua": "Почніть з простих тем, поступово рухаючись до складніших. Важливо створити довірливу атмосферу, де ви обидва будете почуватися в безпеці.",
+      "en": "Start with simple topics and gradually move to more complex ones. It's important to create a trusting atmosphere where you both feel safe."
+    }
+  },
+  "widget_type": "test"
+}

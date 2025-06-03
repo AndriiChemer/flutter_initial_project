@@ -1,0 +1,490 @@
+{
+  "id": "sexual_vocabulary_quiz",
+  "title": {
+    "ua": "Ваш сексуальний словник",
+    "en": "Your Sexual Vocabulary"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Intermediate"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам зрозуміти, наскільки ви володієте різноманітними термінами, що стосуються сексуальності та інтимності. Вивчення та розуміння цих термінів може допомогти вам у спілкуванні з партнером та розширенні власного досвіду.",
+    "en": "This test will help you understand how well you know various terms related to sexuality and intimacy. Learning and understanding these terms can help you communicate with your partner and expand your own experience."
+  },
+  "type": "score_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15-20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Яке з наведених слів означає сильне сексуальне бажання?",
+        "en": "Which of the following words means strong sexual desire?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Лібідо",
+            "en": "Libido"
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Емпатія",
+            "en": "Empathy"
+          },
+          "score": 0
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Альтруїзм",
+            "en": "Altruism"
+          },
+          "score": 0
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Співчуття",
+            "en": "Compassion"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Що таке фетиш?",
+        "en": "What is a fetish?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Об’єкт або дія, яка викликає сильне сексуальне збудження",
+            "en": "An object or action that causes strong sexual arousal"
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Емоційний стан",
+            "en": "Emotional state"
+          },
+          "score": 0
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Відчуття небезпеки",
+            "en": "Feeling of danger"
+          },
+          "score": 0
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Захоплення природою",
+            "en": "Passion for nature"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Який термін описує прагнення до багатосторонніх стосунків з відкритим спілкуванням?",
+        "en": "Which term describes a desire for multiple relationships with open communication?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Поліаморія",
+            "en": "Polyamory"
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Моногамія",
+            "en": "Monogamy"
+          },
+          "score": 0
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Антиутопія",
+            "en": "Dystopia"
+          },
+          "score": 0
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Платонічність",
+            "en": "Platonicity"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Що означає слово \"андрогінія\"?",
+        "en": "What does the word \"androgyny\" mean?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Поєднання маскулінних та фемінних рис",
+            "en": "Combination of masculine and feminine traits"
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Страх близькості",
+            "en": "Fear of intimacy"
+          },
+          "score": 0
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Відсутність сексуального бажання",
+            "en": "Lack of sexual desire"
+          },
+          "score": 0
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Емоційна нестабільність",
+            "en": "Emotional instability"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Що таке \"зона комфорту\" у контексті сексуальності?",
+        "en": "What is a \"comfort zone\" in the context of sexuality?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Межі, в яких людина почувається безпечно під час інтимної взаємодії",
+            "en": "Boundaries where a person feels safe during intimate interactions"
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Прагнення до ризикованих дій",
+            "en": "Striving for risky actions"
+          },
+          "score": 0
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Постійне відчуття незадоволення",
+            "en": "Constant feeling of dissatisfaction"
+          },
+          "score": 0
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Страх перед новими експериментами",
+            "en": "Fear of new experiments"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Який термін означає задоволення через біль або приниження?",
+        "en": "Which term means pleasure from pain or humiliation?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Масохізм",
+            "en": "Masochism"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Аромантичність",
+            "en": "Aromanticism"
+          },
+          "score": 0
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Квадрофобія",
+            "en": "Quadrophobia"
+          },
+          "score": 0
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Інтроверсія",
+            "en": "Introversion"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Що таке \"сексуальна орієнтація\"?",
+        "en": "What is \"sexual orientation\"?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Природний потяг або бажання до певної статі або статей",
+            "en": "A natural attraction or desire for a certain gender or genders"
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Професійна діяльність",
+            "en": "Professional activity"
+          },
+          "score": 0
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Моральні переконання",
+            "en": "Moral beliefs"
+          },
+          "score": 0
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Соціальна позиція",
+            "en": "Social position"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Що означає термін \"анатомічна відповідність\"?",
+        "en": "What does the term \"anatomical compatibility\" mean?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Фізичне співпадіння або сумісність партнерів у сексуальному контексті",
+            "en": "Physical matching or compatibility of partners in a sexual context"
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Емоційне розуміння",
+            "en": "Emotional understanding"
+          },
+          "score": 0
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Інтелектуальна рівність",
+            "en": "Intellectual equality"
+          },
+          "score": 0
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Страх невдачі",
+            "en": "Fear of failure"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Що таке \"ерогенна зона\"?",
+        "en": "What is an \"erogenous zone\"?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Частина тіла, чутлива до стимуляції та здатна викликати сексуальне збудження",
+            "en": "A part of the body sensitive to stimulation and capable of causing sexual arousal"
+          },
+          "score": 5
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Місце для відпочинку",
+            "en": "A place for rest"
+          },
+          "score": 0
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Психологічна травма",
+            "en": "Psychological trauma"
+          },
+          "score": 0
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Довготривала пам’ять",
+            "en": "Long-term memory"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Який термін описує сексуальне збудження, пов’язане з певними матеріалами або текстурами?",
+        "en": "Which term describes sexual arousal associated with specific materials or textures?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Текстурофілія",
+            "en": "Texturophilia"
+          },
+          "score": 5
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Антисоціальність",
+            "en": "Antisociality"
+          },
+          "score": 0
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Альтруїзм",
+            "en": "Altruism"
+          },
+          "score": 0
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Гіперчутливість",
+            "en": "Hypersensitivity"
+          },
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        0,
+        20
+      ],
+      "title": {
+        "ua": "Обмежений сексуальний словник",
+        "en": "Limited Sexual Vocabulary"
+      },
+      "description": {
+        "ua": "Ваш сексуальний словник обмежений, і вам варто дослідити більше інформації про сексуальність та інтимність. Це допоможе вам краще зрозуміти власні бажання та потреби.",
+        "en": "Your sexual vocabulary is limited, and you should explore more information about sexuality and intimacy. This will help you better understand your own desires and needs."
+      }
+    },
+    {
+      "range": [
+        21,
+        40
+      ],
+      "title": {
+        "ua": "Базовий рівень знань",
+        "en": "Basic Knowledge Level"
+      },
+      "description": {
+        "ua": "Ви маєте базові знання, але є можливості для розширення. Продовжуйте досліджувати нові теми та спілкуватися з партнером.",
+        "en": "You have basic knowledge, but there is room for growth. Continue exploring new topics and communicating with your partner."
+      }
+    },
+    {
+      "range": [
+        41,
+        50
+      ],
+      "title": {
+        "ua": "Відмінна обізнаність",
+        "en": "Excellent Awareness"
+      },
+      "description": {
+        "ua": "Ви чудово обізнані у тематиці сексуальності. Ваші знання допомагають вам краще спілкуватися з партнером та відчувати себе впевнено.",
+        "en": "You are highly knowledgeable about sexuality. Your knowledge helps you communicate better with your partner and feel more confident."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Дослідіть нові терміни та концепції, що стосуються сексуальності, щоб розширити свій словник.",
+      "en": "Explore new terms and concepts related to sexuality to broaden your vocabulary."
+    },
+    "couple": {
+      "ua": "Обговоріть свої знання та терміни з партнером. Це може допомогти вам краще розуміти одне одного.",
+      "en": "Discuss your knowledge and terms with your partner. This can help you better understand each other."
+    }
+  },
+  "widget_type": "test"
+}

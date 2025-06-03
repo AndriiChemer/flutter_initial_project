@@ -1,0 +1,709 @@
+{
+  "id": "erotic_profile",
+  "title": {
+    "ua": "Ваш еротичний профіль",
+    "en": "Your Erotic Profile"
+  },
+  "level": {
+    "ua": "Середній",
+    "en": "Medium"
+  },
+  "description": {
+    "ua": "Цей тест створений для того, щоб ти міг/могла краще пізнати себе в інтимній сфері. Він допоможе відкрити власний сексуальний стиль, тип еротичної взаємодії, комфортні та збуджуючі сценарії, а також ті потреби, які ще чекають на своє визнання.",
+    "en": "This test is designed to help you better understand yourself in the intimate sphere. It will help reveal your sexual style, type of erotic interaction, your comfort and arousal scenarios, and those needs that are still waiting for recognition."
+  },
+  "type": "score_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Як часто твоє тіло відповідає бажанням, навіть без дотику?",
+        "en": "How often does your body respond to desire even without touch?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Дуже часто",
+            "en": "Very often"
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Час від часу",
+            "en": "From time to time"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Рідко",
+            "en": "Rarely"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Майже ніколи",
+            "en": "Almost never"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Який тип дотику пробуджує твоє збудження найглибше?",
+        "en": "What type of touch arouses you the most?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Ледь відчутні, провокаційні погладжування",
+            "en": "Barely-there, teasing strokes"
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Повільний тиск і масажні рухи",
+            "en": "Slow pressure and massage-like moves"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Гарячі поцілунки й пристрасть",
+            "en": "Hot kisses and passion"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Груба стимуляція або інтенсивний контроль",
+            "en": "Rough stimulation or intense control"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "У якій ролі ти відчуваєш себе найбільш живо у ліжку?",
+        "en": "In which role do you feel most alive in bed?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Той/та, хто веде, домінує",
+            "en": "The one who leads, dominates"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Той/та, хто довіряє і віддається",
+            "en": "The one who trusts and surrenders"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Обидві ролі, у різні моменти",
+            "en": "Both roles at different times"
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Залежить від енергії партнера",
+            "en": "Depends on partner’s energy"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Яка думка про секс у незвичних місцях викликає у тебе…",
+        "en": "How does the thought of sex in unusual places make you feel?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Спрагу експерименту",
+            "en": "A thirst for experiment"
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Легке збудження, якщо є настрій",
+            "en": "Mild excitement if in the mood"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Напруження, але цікавість",
+            "en": "Tension but curiosity"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Бажання втекти назад у знайоме",
+            "en": "Desire to run back to the familiar"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Як ти ставишся до ігор, де потрібно перевтілюватись, вживатись у нові ролі?",
+        "en": "How do you feel about games that involve role-play and becoming someone else?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Це заводить мене",
+            "en": "It excites me"
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Цікаво, але рідко пробую",
+            "en": "Interesting, but I rarely try"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Відчуваю себе дивно в таких сценаріях",
+            "en": "I feel strange in such scenarios"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Не хочу навіть пробувати",
+            "en": "Don’t want to even try"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи викликає у тебе збудження момент, коли ви з партнером ділились фантазіями?",
+        "en": "Does the moment when you and your partner share fantasies arouse you?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Це найкраща частина",
+            "en": "It’s the best part"
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Лише якщо відчуваю безпечну реакцію",
+            "en": "Only if I feel a safe reaction"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Невпевненість і сором",
+            "en": "Uncertainty and embarrassment"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Мені складно говорити про це взагалі",
+            "en": "It’s hard for me to talk about this at all"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Що для тебе важливіше під час сексу?",
+        "en": "What is most important to you during sex?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Тонка тілесна мова та погляди",
+            "en": "Subtle body language and glances"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Ритм, динаміка, пристрасть",
+            "en": "Rhythm, dynamics, passion"
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Експеримент, спонтанність",
+            "en": "Experimentation, spontaneity"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Сценарії з елементами домінування/підкорення",
+            "en": "Scenarios with dominance/submission"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": {
+        "ua": "Як емоції впливають на твоє бажання?",
+        "en": "How do emotions affect your desire?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Вони — основа мого збудження",
+            "en": "They are the basis of my arousal"
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Важливі, але не завжди обов’язкові",
+            "en": "Important, but not always necessary"
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Частково впливають, але тіло вирішує більше",
+            "en": "Somewhat influence, but my body decides more"
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Я можу займатись сексом без емоційного фону",
+            "en": "I can have sex without emotional background"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": {
+        "ua": "Чи говориш ти про свої еротичні бажання вголос?",
+        "en": "Do you talk about your erotic desires out loud?"
+      },
+      "options": [
+        {
+          "id": "q9_o1",
+          "text": {
+            "ua": "Так, регулярно",
+            "en": "Yes, regularly"
+          },
+          "score": 5
+        },
+        {
+          "id": "q9_o2",
+          "text": {
+            "ua": "Іноді, якщо є правильна атмосфера",
+            "en": "Sometimes, if the mood is right"
+          },
+          "score": 4
+        },
+        {
+          "id": "q9_o3",
+          "text": {
+            "ua": "Рідко — є бар’єри",
+            "en": "Rarely — there are barriers"
+          },
+          "score": 2
+        },
+        {
+          "id": "q9_o4",
+          "text": {
+            "ua": "Майже ніколи — боюся реакції",
+            "en": "Almost never — I’m afraid of the reaction"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": {
+        "ua": "Як ти ставишся до сексуальних експериментів?",
+        "en": "How do you feel about sexual experiments?"
+      },
+      "options": [
+        {
+          "id": "q10_o1",
+          "text": {
+            "ua": "Я їх шукаю",
+            "en": "I seek them"
+          },
+          "score": 5
+        },
+        {
+          "id": "q10_o2",
+          "text": {
+            "ua": "Відкритий/а, але з межами",
+            "en": "Open, but with boundaries"
+          },
+          "score": 4
+        },
+        {
+          "id": "q10_o3",
+          "text": {
+            "ua": "Готовий/а, лише якщо партнер наполягає",
+            "en": "Ready, only if partner insists"
+          },
+          "score": 2
+        },
+        {
+          "id": "q10_o4",
+          "text": {
+            "ua": "Мені комфортно у знайомому",
+            "en": "I’m comfortable with the familiar"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": {
+        "ua": "Наскільки сильно твій сексуальний апетит змінюється від настрою, стресу чи емоцій?",
+        "en": "How much does your sexual appetite change due to mood, stress, or emotions?"
+      },
+      "options": [
+        {
+          "id": "q11_o1",
+          "text": {
+            "ua": "Дуже помітно",
+            "en": "Very noticeably"
+          },
+          "score": 5
+        },
+        {
+          "id": "q11_o2",
+          "text": {
+            "ua": "Частково",
+            "en": "Somewhat"
+          },
+          "score": 4
+        },
+        {
+          "id": "q11_o3",
+          "text": {
+            "ua": "Ледь помітно",
+            "en": "Barely noticeable"
+          },
+          "score": 2
+        },
+        {
+          "id": "q11_o4",
+          "text": {
+            "ua": "Практично ніяк",
+            "en": "Almost not at all"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": {
+        "ua": "Яке внутрішнє відчуття ти шукаєш у близькості?",
+        "en": "What inner feeling are you looking for in intimacy?"
+      },
+      "options": [
+        {
+          "id": "q12_o1",
+          "text": {
+            "ua": "Бути обійнятим(ою) тілом і душею",
+            "en": "To be embraced body and soul"
+          },
+          "score": 4
+        },
+        {
+          "id": "q12_o2",
+          "text": {
+            "ua": "Вибухової пристрасті",
+            "en": "Explosive passion"
+          },
+          "score": 5
+        },
+        {
+          "id": "q12_o3",
+          "text": {
+            "ua": "Дослідження меж та новизни",
+            "en": "Exploring boundaries and novelty"
+          },
+          "score": 4
+        },
+        {
+          "id": "q12_o4",
+          "text": {
+            "ua": "Підпорядкування або контроль",
+            "en": "Submission or control"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "question": {
+        "ua": "Чи важливо для тебе чути фідбек — що партнеру подобається?",
+        "en": "Is it important for you to hear feedback about what your partner likes?"
+      },
+      "options": [
+        {
+          "id": "q13_o1",
+          "text": {
+            "ua": "Так, це додає впевненості",
+            "en": "Yes, it gives me confidence"
+          },
+          "score": 5
+        },
+        {
+          "id": "q13_o2",
+          "text": {
+            "ua": "Важливо, але не критично",
+            "en": "Important, but not critical"
+          },
+          "score": 4
+        },
+        {
+          "id": "q13_o3",
+          "text": {
+            "ua": "Не завжди думаю про це",
+            "en": "I don’t always think about it"
+          },
+          "score": 2
+        },
+        {
+          "id": "q13_o4",
+          "text": {
+            "ua": "Не потребую фідбеку",
+            "en": "I don’t need feedback"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "question": {
+        "ua": "Які види сексу викликають у тебе інтерес?",
+        "en": "What kinds of sex are you interested in?"
+      },
+      "options": [
+        {
+          "id": "q14_o1",
+          "text": {
+            "ua": "Усе нове — це мій простір",
+            "en": "All new things are my space"
+          },
+          "score": 5
+        },
+        {
+          "id": "q14_o2",
+          "text": {
+            "ua": "Пробував(ла) частково, є ще бажання",
+            "en": "Tried some, still have wishes"
+          },
+          "score": 4
+        },
+        {
+          "id": "q14_o3",
+          "text": {
+            "ua": "Більше тяжію до звичних практик",
+            "en": "Prefer familiar practices"
+          },
+          "score": 2
+        },
+        {
+          "id": "q14_o4",
+          "text": {
+            "ua": "Не шукаю новизни",
+            "en": "Don’t look for newness"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "question": {
+        "ua": "Чи хочеш ти свідомо розвивати свою сексуальність?",
+        "en": "Do you consciously want to develop your sexuality?"
+      },
+      "options": [
+        {
+          "id": "q15_o1",
+          "text": {
+            "ua": "Так, мені це дуже цікаво",
+            "en": "Yes, I’m very interested"
+          },
+          "score": 5
+        },
+        {
+          "id": "q15_o2",
+          "text": {
+            "ua": "Іноді, коли є настрій",
+            "en": "Sometimes, if in the mood"
+          },
+          "score": 4
+        },
+        {
+          "id": "q15_o3",
+          "text": {
+            "ua": "Не думаю про це часто",
+            "en": "Don’t think about it often"
+          },
+          "score": 2
+        },
+        {
+          "id": "q15_o4",
+          "text": {
+            "ua": "Не маю такого бажання",
+            "en": "I have no such desire"
+          },
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        0,
+        25
+      ],
+      "title": {
+        "ua": "Традиційна чуттєвість",
+        "en": "Traditional Sensuality"
+      },
+      "description": {
+        "ua": "Ти цінуєш знайомі форми близькості, комфорт і довіру. Розширення меж — не твій основний фокус, але саме маленькі зміни можуть подарувати нову глибину насолоди.",
+        "en": "You value familiar forms of intimacy, comfort and trust. Expanding boundaries isn’t your main focus, but small changes can bring new depth to your pleasure."
+      }
+    },
+    {
+      "range": [
+        26,
+        45
+      ],
+      "title": {
+        "ua": "Збалансована еротичність",
+        "en": "Balanced Eroticism"
+      },
+      "description": {
+        "ua": "Ти відкритий/а до експериментів, але потребуєш безпеки і настрою. У тебе багатий потенціал для розвитку — варто лише дати собі більше дозволів.",
+        "en": "You are open to experiments, but need safety and mood. You have a rich potential for growth — you just need to give yourself more permission."
+      }
+    },
+    {
+      "range": [
+        46,
+        60
+      ],
+      "title": {
+        "ua": "Дослідник інтиму",
+        "en": "Intimacy Explorer"
+      },
+      "description": {
+        "ua": "Ти шукаєш нові грані задоволення, постійно розширюєш горизонти. Твій профіль — активна еротична допитливість. Тобі можуть бути цікаві більш глибокі парні практики або еротична гра у форматі сценаріїв.",
+        "en": "You seek new edges of pleasure, constantly expanding your horizons. Your profile is an active erotic curiosity. You might be interested in deeper couple practices or erotic role-play."
+      }
+    },
+    {
+      "range": [
+        61,
+        75
+      ],
+      "title": {
+        "ua": "Інтимний провокатор",
+        "en": "Intimate Provocateur"
+      },
+      "description": {
+        "ua": "Твоя сексуальність — це мова свободи, сили і глибини. Ти не боїшся тіней свого бажання. У тебе великий творчий потенціал у сфері тілесності, головне — партнерство, яке може розділити твої ритми.",
+        "en": "Your sexuality is a language of freedom, power, and depth. You’re not afraid of the shadows of your desire. You have great creative potential in physicality, as long as you have a partner who can share your rhythm."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Створи “еротичну карту себе”: що тебе збуджує, які фантазії, які торкання, атмосфера. Це твоя основа для впевненості й свободи в сексуальному просторі.",
+      "en": "Create an 'erotic map' of yourself: what arouses you, your fantasies, types of touch, and atmosphere. This is your foundation for confidence and freedom in your sexual space."
+    },
+    "couple": {
+      "ua": "Проведіть вечір відвертості: поділіться фантазіями, страхами, бажаннями. Складіть список спільних 'еротичних пригод', які хочете реалізувати.",
+      "en": "Have an honesty evening: share fantasies, fears, and desires. Make a list of shared 'erotic adventures' you’d like to experience together."
+    }
+  },
+  "widget_type": "test"
+}

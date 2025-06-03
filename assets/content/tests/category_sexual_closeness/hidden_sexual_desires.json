@@ -1,0 +1,381 @@
+{
+  "id": "hidden_sexual_desires",
+  "title": {
+    "ua": "Ваші приховані сексуальні бажання",
+    "en": "Your Hidden Sexual Desires"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Цей тест допоможе вам дослідити свої приховані сексуальні бажання та фантазії, які, можливо, ви соромитеся обговорити з партнером.",
+    "en": "This test will help you explore your hidden sexual desires and fantasies that you may be shy to discuss with your partner."
+  },
+  "type": "points_based",
+  "category_id": "sexual_closeness",
+  "category_slug": "sexual_closeness",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "15 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1",
+      "question": {
+        "ua": "Чи комфортно вам говорити про свої сексуальні фантазії з партнером?",
+        "en": "Do you feel comfortable talking about your sexual fantasies with your partner?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Так, абсолютно",
+            "en": "Yes, absolutely"
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Лише якщо партнер починає розмову",
+            "en": "Only if my partner initiates the conversation"
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Ні, мені дуже складно це робити",
+            "en": "No, it's very hard for me"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": {
+        "ua": "Чи хотіли б ви спробувати рольові ігри у сексуальному житті?",
+        "en": "Would you like to try role-playing in your sex life?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Так, з великим ентузіазмом",
+            "en": "Yes, with great enthusiasm"
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Можливо, якщо партнер підтримає",
+            "en": "Maybe, if my partner supports it"
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Невпевнений/а",
+            "en": "Not sure"
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Ні, це не для мене",
+            "en": "No, it's not for me"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": {
+        "ua": "Наскільки вам цікаві нові сексуальні практики або експерименти?",
+        "en": "How interested are you in new sexual practices or experiments?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Дуже цікаві",
+            "en": "Very interested"
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Залежить від ситуації",
+            "en": "Depends on the situation"
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Рідко, але можливо",
+            "en": "Rarely, but possible"
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Ні, нецікаво",
+            "en": "No, not interested"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": {
+        "ua": "Чи хотіли б ви спробувати інтимні експерименти з використанням спеціальних аксесуарів або іграшок?",
+        "en": "Would you like to try intimate experiments with special accessories or toys?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Так, звичайно",
+            "en": "Yes, of course"
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Можливо, якщо партнер запропонує",
+            "en": "Maybe, if my partner suggests it"
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Лише в окремих випадках",
+            "en": "Only in certain cases"
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": {
+        "ua": "Чи комфортно вам розмовляти про свої приховані бажання?",
+        "en": "Do you feel comfortable talking about your hidden desires?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Так, завжди",
+            "en": "Yes, always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Інколи",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Лише в певних умовах",
+            "en": "Only in certain conditions"
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": {
+        "ua": "Чи відкриті ви до пропозицій партнера щодо нових практик?",
+        "en": "Are you open to your partner's suggestions for new practices?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Завжди",
+            "en": "Always"
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Зазвичай так",
+            "en": "Usually yes"
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Лише іноді",
+            "en": "Only sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Ніколи",
+            "en": "Never"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": {
+        "ua": "Чи цікаво вам розглядати нові способи отримання задоволення?",
+        "en": "Are you interested in considering new ways of receiving pleasure?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Дуже цікаво",
+            "en": "Very interested"
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Досить цікаво",
+            "en": "Quite interested"
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Іноді",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Ні, мені комфортно так, як є",
+            "en": "No, I'm comfortable as it is"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        24,
+        28
+      ],
+      "title": {
+        "ua": "Відкритий експериментатор",
+        "en": "Open Experimenter"
+      },
+      "description": {
+        "ua": "Ви готові досліджувати свої приховані бажання та фантазії, і вам варто обговорити це з партнером.",
+        "en": "You are ready to explore your hidden desires and fantasies, and you should discuss this with your partner."
+      }
+    },
+    {
+      "range": [
+        18,
+        23
+      ],
+      "title": {
+        "ua": "Готовий до відкриттів",
+        "en": "Ready for Discoveries"
+      },
+      "description": {
+        "ua": "Ви цікавитесь новими практиками, але можете відчувати деякі бар’єри.",
+        "en": "You are interested in new practices, but you may feel some barriers."
+      }
+    },
+    {
+      "range": [
+        12,
+        17
+      ],
+      "title": {
+        "ua": "Обережний дослідник",
+        "en": "Cautious Explorer"
+      },
+      "description": {
+        "ua": "Ви маєте певні бажання, але не завжди готові їх реалізувати або обговорити.",
+        "en": "You have certain desires but are not always ready to realize or discuss them."
+      }
+    },
+    {
+      "range": [
+        7,
+        11
+      ],
+      "title": {
+        "ua": "Консерватор",
+        "en": "Conservative"
+      },
+      "description": {
+        "ua": "Вам комфортно з перевіреними практиками. Можливо, ви просто не знайшли свого способу отримати задоволення.",
+        "en": "You are comfortable with tried-and-true practices. Maybe you just haven't found your way to pleasure yet."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Спробуйте написати список бажань і проаналізувати, які з них ви б хотіли реалізувати з партнером.",
+      "en": "Try writing a list of desires and analyze which ones you would like to realize with your partner."
+    },
+    "couple": {
+      "ua": "Обговоріть приховані бажання у спокійній атмосфері без тиску. Це допоможе вам зблизитися.",
+      "en": "Discuss hidden desires in a calm atmosphere without pressure. This will help you get closer."
+    }
+  },
+  "widget_type": "test"
+}

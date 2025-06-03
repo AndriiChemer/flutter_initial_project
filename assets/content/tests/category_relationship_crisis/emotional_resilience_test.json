@@ -1,0 +1,486 @@
+{
+  "id": "emotional_resilience_test",
+  "title": {
+    "ua": "Ваш рівень емоційної стійкості",
+    "en": "Your Emotional Resilience Level"
+  },
+  "level": {
+    "ua": "Високий",
+    "en": "High"
+  },
+  "description": {
+    "ua": "Дізнайтеся, наскільки ви здатні зберігати емоційну рівновагу під час конфліктів та стресових ситуацій у стосунках.",
+    "en": "Find out how well you can maintain emotional balance during conflicts and stressful situations in your relationship."
+  },
+  "type": "quiz",
+  "category_id": "relationship_crisis",
+  "category_slug": "relationship_crisis",
+  "status": "active",
+  "free_or_premium": "premium",
+  "duration": "20 min",
+  "ai_analysis_enabled": true,
+  "pair_mode_enabled": true,
+  "questions": [
+    {
+      "id": "q1_criticism_response",
+      "question": {
+        "ua": "Як ви зазвичай реагуєте на критику з боку партнера?",
+        "en": "How do you usually respond to criticism from your partner?"
+      },
+      "options": [
+        {
+          "id": "q1_o1",
+          "text": {
+            "ua": "Спокійно сприймаю і обмірковую сказане.",
+            "en": "Calmly accept and reflect on what's said."
+          },
+          "score": 5
+        },
+        {
+          "id": "q1_o2",
+          "text": {
+            "ua": "Часто сприймаю критично, але намагаюся розуміти.",
+            "en": "Often take it critically but try to understand."
+          },
+          "score": 4
+        },
+        {
+          "id": "q1_o3",
+          "text": {
+            "ua": "Часто захищаюсь, але можу змінити точку зору.",
+            "en": "Often defend myself, but can change my opinion."
+          },
+          "score": 3
+        },
+        {
+          "id": "q1_o4",
+          "text": {
+            "ua": "Відчуваю образу і намагаюся захищатися.",
+            "en": "Feel hurt and try to defend myself."
+          },
+          "score": 2
+        },
+        {
+          "id": "q1_o5",
+          "text": {
+            "ua": "Негативно реагую і уникаю обговорення.",
+            "en": "React negatively and avoid discussion."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q2_conflict_behavior",
+      "question": {
+        "ua": "Як ви поводитеся під час конфлікту?",
+        "en": "How do you behave during conflict?"
+      },
+      "options": [
+        {
+          "id": "q2_o1",
+          "text": {
+            "ua": "Спокійно обговорюю проблему, шукаю компроміси.",
+            "en": "Calmly discuss the issue, look for compromises."
+          },
+          "score": 5
+        },
+        {
+          "id": "q2_o2",
+          "text": {
+            "ua": "Часто намагаюся зберігати спокій, але не завжди вдається.",
+            "en": "Often try to stay calm, but not always succeed."
+          },
+          "score": 4
+        },
+        {
+          "id": "q2_o3",
+          "text": {
+            "ua": "Іноді реагую імпульсивно, але намагаюся заспокоїтись.",
+            "en": "Sometimes react impulsively, but try to calm down."
+          },
+          "score": 3
+        },
+        {
+          "id": "q2_o4",
+          "text": {
+            "ua": "Часто реагую емоційно та агресивно.",
+            "en": "Often react emotionally and aggressively."
+          },
+          "score": 2
+        },
+        {
+          "id": "q2_o5",
+          "text": {
+            "ua": "Уникаю конфліктів або дію імпульсивно.",
+            "en": "Avoid conflicts or act impulsively."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q3_admit_mistakes",
+      "question": {
+        "ua": "Чи вмієте ви визнавати власні помилки у стосунках?",
+        "en": "Can you admit your own mistakes in a relationship?"
+      },
+      "options": [
+        {
+          "id": "q3_o1",
+          "text": {
+            "ua": "Завжди визнаю та намагаюся виправити ситуацію.",
+            "en": "Always admit and try to correct the situation."
+          },
+          "score": 5
+        },
+        {
+          "id": "q3_o2",
+          "text": {
+            "ua": "Часто визнаю, але не завжди готовий/готова змінювати поведінку.",
+            "en": "Often admit, but not always ready to change."
+          },
+          "score": 4
+        },
+        {
+          "id": "q3_o3",
+          "text": {
+            "ua": "Визнаю помилки лише після тривалих роздумів.",
+            "en": "Admit mistakes only after long reflection."
+          },
+          "score": 3
+        },
+        {
+          "id": "q3_o4",
+          "text": {
+            "ua": "Рідко визнаю помилки, вважаю, що завжди правий/права.",
+            "en": "Rarely admit mistakes, think I’m always right."
+          },
+          "score": 2
+        },
+        {
+          "id": "q3_o5",
+          "text": {
+            "ua": "Ніколи не визнаю помилки.",
+            "en": "Never admit mistakes."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q4_crisis_stress",
+      "question": {
+        "ua": "Як ви реагуєте на кризи та стресові ситуації у стосунках?",
+        "en": "How do you react to crises and stressful situations in your relationship?"
+      },
+      "options": [
+        {
+          "id": "q4_o1",
+          "text": {
+            "ua": "Аналізую ситуацію, шукаю шляхи вирішення.",
+            "en": "Analyze the situation, look for solutions."
+          },
+          "score": 5
+        },
+        {
+          "id": "q4_o2",
+          "text": {
+            "ua": "Часто намагаюся знайти компроміс, але не завжди виходить.",
+            "en": "Often try to compromise, but not always succeed."
+          },
+          "score": 4
+        },
+        {
+          "id": "q4_o3",
+          "text": {
+            "ua": "Іноді уникаю проблем, але пізніше намагаюся вирішити.",
+            "en": "Sometimes avoid issues, but try to resolve them later."
+          },
+          "score": 3
+        },
+        {
+          "id": "q4_o4",
+          "text": {
+            "ua": "Часто ігнорую проблему або реагую агресивно.",
+            "en": "Often ignore the problem or react aggressively."
+          },
+          "score": 2
+        },
+        {
+          "id": "q4_o5",
+          "text": {
+            "ua": "Уникаю проблем, не намагаюся їх вирішити.",
+            "en": "Avoid issues and don't try to solve them."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q5_opinions",
+      "question": {
+        "ua": "Як ви ставитеся до різних точок зору партнера?",
+        "en": "How do you treat your partner’s different points of view?"
+      },
+      "options": [
+        {
+          "id": "q5_o1",
+          "text": {
+            "ua": "Приймаю та поважаю його/її думку.",
+            "en": "Accept and respect their opinion."
+          },
+          "score": 5
+        },
+        {
+          "id": "q5_o2",
+          "text": {
+            "ua": "Зазвичай намагаюся розуміти, але іноді не погоджуюсь.",
+            "en": "Usually try to understand, but sometimes disagree."
+          },
+          "score": 4
+        },
+        {
+          "id": "q5_o3",
+          "text": {
+            "ua": "Часто сперечаюсь, але іноді розумію його/її точку зору.",
+            "en": "Often argue, but sometimes understand their view."
+          },
+          "score": 3
+        },
+        {
+          "id": "q5_o4",
+          "text": {
+            "ua": "Рідко погоджуюсь, вважаю свою думку єдино правильною.",
+            "en": "Rarely agree, think my opinion is always right."
+          },
+          "score": 2
+        },
+        {
+          "id": "q5_o5",
+          "text": {
+            "ua": "Повністю ігнорую думку партнера.",
+            "en": "Completely ignore my partner’s opinion."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q6_recovery",
+      "question": {
+        "ua": "Як ви відновлюєте свої емоції після конфлікту?",
+        "en": "How do you recover emotionally after conflict?"
+      },
+      "options": [
+        {
+          "id": "q6_o1",
+          "text": {
+            "ua": "Аналізую ситуацію та намагаюся знайти рішення.",
+            "en": "Analyze the situation and look for solutions."
+          },
+          "score": 5
+        },
+        {
+          "id": "q6_o2",
+          "text": {
+            "ua": "Відпочиваю або займаюся улюбленими справами.",
+            "en": "Rest or do favorite activities."
+          },
+          "score": 4
+        },
+        {
+          "id": "q6_o3",
+          "text": {
+            "ua": "Часто потребую часу на самоті.",
+            "en": "Often need time alone."
+          },
+          "score": 3
+        },
+        {
+          "id": "q6_o4",
+          "text": {
+            "ua": "Уникаю обговорення та намагаюся забути проблему.",
+            "en": "Avoid discussion and try to forget the problem."
+          },
+          "score": 2
+        },
+        {
+          "id": "q6_o5",
+          "text": {
+            "ua": "Постійно переживаю конфлікт без спроб його вирішити.",
+            "en": "Constantly worry about the conflict without trying to resolve it."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q7_emotional_exhaustion",
+      "question": {
+        "ua": "Як часто ви відчуваєте емоційне виснаження через конфлікти?",
+        "en": "How often do you feel emotionally exhausted by conflicts?"
+      },
+      "options": [
+        {
+          "id": "q7_o1",
+          "text": {
+            "ua": "Дуже рідко.",
+            "en": "Very rarely."
+          },
+          "score": 5
+        },
+        {
+          "id": "q7_o2",
+          "text": {
+            "ua": "Інколи, але вмію відновлюватися.",
+            "en": "Sometimes, but I know how to recover."
+          },
+          "score": 4
+        },
+        {
+          "id": "q7_o3",
+          "text": {
+            "ua": "Досить часто, але намагаюся справлятися.",
+            "en": "Quite often, but I try to cope."
+          },
+          "score": 3
+        },
+        {
+          "id": "q7_o4",
+          "text": {
+            "ua": "Часто, і це впливає на моє самопочуття.",
+            "en": "Often, and it affects my wellbeing."
+          },
+          "score": 2
+        },
+        {
+          "id": "q7_o5",
+          "text": {
+            "ua": "Постійно.",
+            "en": "Constantly."
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "q8_harsh_words",
+      "question": {
+        "ua": "Як ви реагуєте на різкі слова або критику партнера?",
+        "en": "How do you react to harsh words or criticism from your partner?"
+      },
+      "options": [
+        {
+          "id": "q8_o1",
+          "text": {
+            "ua": "Спокійно сприймаю, намагаюся зрозуміти суть.",
+            "en": "Accept calmly, try to understand the essence."
+          },
+          "score": 5
+        },
+        {
+          "id": "q8_o2",
+          "text": {
+            "ua": "Часто сприймаю критично, але намагаюся аналізувати.",
+            "en": "Often take it critically, but try to analyze."
+          },
+          "score": 4
+        },
+        {
+          "id": "q8_o3",
+          "text": {
+            "ua": "Іноді реагую емоційно, але намагаюся виправитися.",
+            "en": "Sometimes react emotionally, but try to improve."
+          },
+          "score": 3
+        },
+        {
+          "id": "q8_o4",
+          "text": {
+            "ua": "Часто реагую агресивно або віддаляюсь.",
+            "en": "Often react aggressively or withdraw."
+          },
+          "score": 2
+        },
+        {
+          "id": "q8_o5",
+          "text": {
+            "ua": "Уникаю обговорення або ігнорую.",
+            "en": "Avoid discussion or ignore."
+          },
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        35,
+        40
+      ],
+      "title": {
+        "ua": "Висока емоційна стійкість",
+        "en": "High emotional resilience"
+      },
+      "description": {
+        "ua": "Ви добре справляєтеся з конфліктами та знаходите компроміси.",
+        "en": "You handle conflicts well and find compromises."
+      }
+    },
+    {
+      "range": [
+        25,
+        34
+      ],
+      "title": {
+        "ua": "Помірна емоційна стійкість",
+        "en": "Moderate emotional resilience"
+      },
+      "description": {
+        "ua": "Ви справляєтеся з конфліктами, але є простір для вдосконалення.",
+        "en": "You manage conflicts, but there is room for improvement."
+      }
+    },
+    {
+      "range": [
+        15,
+        24
+      ],
+      "title": {
+        "ua": "Низька емоційна стійкість",
+        "en": "Low emotional resilience"
+      },
+      "description": {
+        "ua": "Вам варто розвивати навички самоконтролю та вирішення конфліктів.",
+        "en": "You should develop your self-control and conflict resolution skills."
+      }
+    },
+    {
+      "range": [
+        0,
+        14
+      ],
+      "title": {
+        "ua": "Дуже низька емоційна стійкість",
+        "en": "Very low emotional resilience"
+      },
+      "description": {
+        "ua": "Рекомендується розглянути варіанти покращення емоційної регуляції.",
+        "en": "It's recommended to look for ways to improve your emotional regulation."
+      }
+    }
+  ],
+  "recommendations": {
+    "individual": {
+      "ua": "Працюйте над розвитком емоційної стійкості через медитацію, рефлексію та практику спокійного обговорення конфліктів.",
+      "en": "Develop emotional resilience through meditation, reflection, and practicing calm conflict discussions."
+    },
+    "couple": {
+      "ua": "Проводьте спільні вправи на розвиток емпатії та активного слухання.",
+      "en": "Do joint exercises to develop empathy and active listening."
+    }
+  },
+  "widget_type": "quiz"
+}
