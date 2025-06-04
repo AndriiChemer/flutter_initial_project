@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:iteo_libraries_example/app_write/appwrite_daily_task.dart';
+import 'package:iteo_libraries_example/app_write/appwrite_technique.dart';
 import 'package:iteo_libraries_example/presentation/widget/export.dart';
 
 @RoutePage()
@@ -13,7 +13,8 @@ class HomePage extends HookWidget {
     return Center(
       child: CustomButton.fullWidth(
         title: 'Run',
-        action: writeToDataBaseDailyTasks,
+        action: writeToDataBaseTechnique,
+        // action: writeToDataBaseDailyTasks,
         // action: writeToDataBaseDailyPhrase,
         // action: writeToDataBaseChallenges,
       ),

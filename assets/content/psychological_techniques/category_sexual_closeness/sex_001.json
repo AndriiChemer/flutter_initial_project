@@ -19,33 +19,6 @@
     "duration": "15 min",
     "status": "active",
     "free_or_premium": "premium",
-    "reward_points": 8,
-    "tags": [
-      "довіра",
-      "контроль",
-      "інтимність",
-      "рольова гра",
-      "дослідження",
-      "trust",
-      "control",
-      "intimacy",
-      "roleplay",
-      "exploration"
-    ],
-    "adaptation": [
-      {
-        "ua": "Додайте сліпу довіру – один із вас може зав’язати очі.",
-        "en": "Add blind trust — one of you can wear a blindfold."
-      },
-      {
-        "ua": "Встановіть правила: наприклад, використовувати лише голосові команди або тільки дотики.",
-        "en": "Set rules: for example, use only voice commands or only touches."
-      },
-      {
-        "ua": "Використовуйте таймер для рівного розподілу часу.",
-        "en": "Use a timer for equal time allocation."
-      }
-    ],
     "examples": [
       {
         "ua": "Партнер 1: «Ляж на спину та дозволь мені торкатися тебе без запитань.»",
@@ -58,12 +31,24 @@
     ],
     "tips": [
       {
+        "ua": "Додайте сліпу довіру – один із вас може зав’язати очі.",
+        "en": "Add blind trust — one of you can wear a blindfold."
+      },
+      {
+        "ua": "Встановіть правила: наприклад, використовувати лише голосові команди або тільки дотики.",
+        "en": "Set rules: for example, use only voice commands or only touches."
+      },
+      {
         "ua": "Не намагайтесь контролювати — віддайте себе у владу партнера.",
         "en": "Don't try to control — surrender to your partner's lead."
       },
       {
         "ua": "Якщо ви не відчуваєте себе комфортно, скажіть про це одразу.",
         "en": "If you feel uncomfortable at any moment, say so immediately."
+      },
+      {
+        "ua": "Використовуйте таймер для рівного розподілу часу.",
+        "en": "Use a timer for equal time allocation."
       }
     ],
     "created_at": "2025-05-26T00:00:00.000Z",
@@ -96,7 +81,9 @@
           "ua": "Запропонуйте партнеру закрити очі для посилення відчуттів.",
           "en": "Suggest your partner closes their eyes to enhance sensations."
         }
-      ]
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
     },
     {
       "id": "sex_001_step_2",
@@ -130,7 +117,9 @@
           "ua": "Не поспішайте — рухайтесь повільно та свідомо.",
           "en": "Don't rush — move slowly and mindfully."
         }
-      ]
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
     },
     {
       "id": "sex_001_step_3",
@@ -158,7 +147,9 @@
           "ua": "Зосередьтесь на тому, що приносить найбільше задоволення.",
           "en": "Focus on what brings the most pleasure."
         }
-      ]
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
     },
     {
       "id": "sex_001_step_4",
@@ -172,7 +163,7 @@
         "ua": "Після завершення вправи поділіться враженнями. Які дотики викликали найсильніші відчуття? Що вам найбільше сподобалось?",
         "en": "After the exercise, share your impressions. Which touches felt the strongest? What did you like most?"
       },
-      "duration": "5-7 min",
+      "duration": "5 min",
       "example": [
         {
           "ua": "Партнер 1: «Мені сподобалось, коли ти провів/ла пальцями уздовж моєї шиї.»",
@@ -192,7 +183,9 @@
           "ua": "Запропонуйте повернутись до найприємніших моментів пізніше.",
           "en": "Suggest revisiting the most enjoyable moments later."
         }
-      ]
+      ],
+      "created_at": "2025-05-26T00:00:00.000Z",
+      "updated_at": "2025-05-26T00:00:00.000Z"
     }
   ]
 }

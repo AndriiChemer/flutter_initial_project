@@ -33,13 +33,13 @@ class TechniqueDTO {
   @JsonKey(name: 'category_id')
   final String categoryId;
   @JsonKey(name: 'subcategory_slug')
-  final String subcategorySlug;
+  final String? subcategorySlug;
   @JsonKey(name: 'widget_type')
-  final String widgetType;
+  final String? widgetType;
   final String duration;
   final StatusDTO status;
   final List<MultiLangStringDTO> examples;
-  final List<MultiLangStringDTO> tips;
+  final List<MultiLangStringDTO>? tips;
   @JsonKey(name: 'free_or_premium')
   final FreeOrPremiumDTO freeOrPremium;
   @JsonKey(name: 'created_at')

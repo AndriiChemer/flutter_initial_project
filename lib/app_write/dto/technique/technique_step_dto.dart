@@ -20,6 +20,8 @@ class TechniqueStepDTO {
 
   factory TechniqueStepDTO.fromJson(Map<String, dynamic> json) => _$TechniqueStepDTOFromJson(json);
 
+  factory TechniqueStepDTO.fromDynamic(dynamic data) => _$TechniqueStepDTOFromJson(data as Map<String, dynamic>);
+
   final String id;
   @JsonKey(name: 'technique_id')
   final String techniqueId;
@@ -28,7 +30,7 @@ class TechniqueStepDTO {
   final MultiLangStringDTO title;
   final MultiLangStringDTO instruction;
   final String duration;
-  final List<MultiLangStringDTO> examples;
+  final List<MultiLangStringDTO>? examples;
   final List<MultiLangStringDTO> tips;
   @JsonKey(name: 'created_at')
   final DateTime createdAt;
