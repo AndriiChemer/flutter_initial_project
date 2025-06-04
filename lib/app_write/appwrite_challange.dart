@@ -98,50 +98,6 @@ Future<void> writeToDataBaseChallenges() async {
     challengeStepCollectionId: stepCollection,
     challenges: challengesWithSteps,
   );
-
-  // log('ANDRII \n\n=====START=============\n');
-  // log('Subcategories: ${subcategories.length}\n');
-  // challengesWithSteps.forEach((key, value) {
-  //   log('${key.title.languages.entries.first.value} - steps: ${value.length}');
-  // });
-  // log('ANDRII \n=====FINISH=============\n\n');
-
-  // try {
-  //   final existing = await databases.getDocument(
-  //     databaseId: databaseId,
-  //     collectionId: challengeCollection,
-  //     documentId: challenge['id'],
-  //   );
-  //   print('❗ Challenge "${challenge['id']}" already exists. Skipped.');
-  // } catch (e) {
-  //   await databases.createDocument(
-  //     databaseId: databaseId,
-  //     collectionId: challengeCollection,
-  //     documentId: challenge['id'],
-  //     data: challenge,
-  //   );
-  //   print('✅ Challenge "${challenge['id']}" created.');
-  // }
-
-  // Створення кроків
-  // for (var step in steps) {
-  //   try {
-  //     final existingStep = await databases.getDocument(
-  //       databaseId: databaseId,
-  //       collectionId: stepCollection,
-  //       documentId: step['id'],
-  //     );
-  //     print('❗ Step "${step['id']}" already exists. Skipped.');
-  //   } catch (e) {
-  //     await databases.createDocument(
-  //       databaseId: databaseId,
-  //       collectionId: stepCollection,
-  //       documentId: step['id'],
-  //       data: step,
-  //     );
-  //     print('✅ Step "${step['id']}" created.');
-  //   }
-  // }
 }
 
 /// generate id: ID.unique()

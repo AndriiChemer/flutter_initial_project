@@ -4,7 +4,6 @@ import 'dart:developer';
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:iteo_libraries_example/app_write/dto/daily_task/daily_task_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/technique/technique_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/technique/technique_step_dto.dart';
 
@@ -65,7 +64,7 @@ Future<void> writeToDataBaseTechnique() async {
     'assets/content/psychological_techniques/category_sexual_closeness/touch_cues.json',
   ];
 
-  final techniquesWithSteps = <TechniqueDTO, List<TechniqueStepDTO>>{};
+  var techniquesWithSteps = <TechniqueDTO, List<TechniqueStepDTO>>{};
 
   for (final filePath in listOfFilesDailyTasks) {
     final content = await _getFileData(filePath);
@@ -73,23 +72,17 @@ Future<void> writeToDataBaseTechnique() async {
     final techniqueMap = content['technique'] as Map<String, dynamic>;
     final techniqueStepsDynamicList = content['technique_steps'] as List<dynamic>;
 
-    try {
-      final techniqueDTO = TechniqueDTO.fromJson(techniqueMap);
-    } catch (ex) {
-      log("Error: $ex\n$techniqueMap");
-    }
     final techniqueDTO = TechniqueDTO.fromJson(techniqueMap);
     final techniqueStepsDTO = techniqueStepsDynamicList.map(TechniqueStepDTO.fromDynamic).toList();
     techniquesWithSteps[techniqueDTO] = techniqueStepsDTO;
   }
 
-  // for (final dailyTask in dailyTasks) {
-  //   await _createSingleTask(
-  //     database: database,
-  //     collectionId: dailyTaskCollection,
-  //     dailyTask: dailyTask,
-  //   );
-  // }
+  // techniquesWithSteps = await _createTechniques(
+  //   database: database,
+  //   techniquesCollectionId: techniquesCollection,
+  //   techniquesStepCollectionId: techniqueStepsCollection,
+  //   techniquesWithSteps: techniquesWithSteps,
+  // );
 
   log('\n\n=====START=============\n');
   for (final entry in techniquesWithSteps.entries) {
@@ -99,36 +92,118 @@ Future<void> writeToDataBaseTechnique() async {
 }
 
 /// generate id: ID.unique()
-Future<DailyTaskDTO> _createSingleTask({
+Future<Map<TechniqueDTO, List<TechniqueStepDTO>>> _createTechniques({
+  required Databases database,
+  required String techniquesCollectionId,
+  required String techniquesStepCollectionId,
+  required Map<TechniqueDTO, List<TechniqueStepDTO>> techniquesWithSteps,
+}) async {
+  final updatedChallenges = <TechniqueDTO, List<TechniqueStepDTO>>{};
+
+  for (final entry in techniquesWithSteps.entries) {
+    final technique = entry.key;
+    final techniqueSteps = entry.value;
+
+    try {
+      final createdTechnique = await _createSingleTechnique(
+        database: database,
+        collectionId: techniquesCollectionId,
+        technique: technique,
+      );
+
+      final createdTechniqueSteps = await _createTechniqueSteps(
+        database: database,
+        collectionId: techniquesStepCollectionId,
+        technique: createdTechnique,
+        steps: techniqueSteps,
+      );
+
+      updatedChallenges[createdTechnique] = createdTechniqueSteps;
+    } catch (e) {
+      print('ANDRII: e $e');
+    }
+  }
+
+  return updatedChallenges;
+}
+
+Future<TechniqueDTO> _createSingleTechnique({
   required Databases database,
   required String collectionId,
-  required DailyTaskDTO dailyTask,
+  required TechniqueDTO technique,
 }) async {
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
       databaseId: databaseId,
-      queries: [Query.equal('id', dailyTask.id)],
+      queries: [Query.equal('id', technique.id)],
     );
 
     final document = response.documents.firstOrNull;
 
     if (document != null) {
-      print('ANDRII existing phrase - ${dailyTask.id}');
-      return DailyTaskDTO.fromAppWriteJson(document.data);
+      print('ANDRII existing Technique - ${technique.id}');
+      return TechniqueDTO.fromAppWriteJson(document.data);
     } else {
-      print('ANDRII ${dailyTask.id} does not exist!');
+      print('ANDRII ${technique.id} does not exist!');
       await database.createDocument(
         databaseId: databaseId,
         collectionId: collectionId,
-        documentId: dailyTask.id,
-        data: dailyTask.toDataBaseJson(),
+        documentId: technique.id,
+        data: technique.toDataBaseJson(),
       );
-      print('✅ Daily task "${dailyTask.id}" created.');
-      return dailyTask;
+      print('✅ Technique "${technique.id}" created.');
+      return technique;
     }
   } catch (e) {
-    print('ANDRII: _createSingleChallenge ${dailyTask.id} error $e');
+    print('ANDRII: _createSingleTechnique ${technique.id} error $e');
     rethrow;
   }
+}
+
+Future<List<TechniqueStepDTO>> _createTechniqueSteps({
+  required Databases database,
+  required String collectionId,
+  required TechniqueDTO technique,
+  required List<TechniqueStepDTO> steps,
+}) async {
+  final updatedSteps = <TechniqueStepDTO>[];
+
+  for (final stepBeforeUpdate in steps) {
+    try {
+      final response = await database.listDocuments(
+        collectionId: collectionId,
+        databaseId: databaseId,
+        queries: [Query.equal('technique_id', stepBeforeUpdate.techniqueId)],
+      );
+
+      final document = response.documents
+          .firstWhereOrNull((item) => (item.data['step_number'] as int) == stepBeforeUpdate.stepNumber);
+
+      if (document != null) {
+        print('ANDRII existing step');
+        final stepFromAppWrite = TechniqueStepDTO.fromAppWriteJson(document.data);
+        updatedSteps.add(stepFromAppWrite);
+      } else {
+        print('ANDRII ${stepBeforeUpdate.stepNumber} does not exist!');
+        await database.createDocument(
+          databaseId: databaseId,
+          collectionId: collectionId,
+          documentId: stepBeforeUpdate.id,
+          data: stepBeforeUpdate.toDataBaseJson(),
+        );
+        updatedSteps.add(stepBeforeUpdate);
+        print('✅ Step "${stepBeforeUpdate.stepNumber}" created.');
+      }
+    } catch (e) {
+      print('ANDRII: step error $e');
+      rethrow;
+    }
+  }
+
+  updatedSteps.forEach((item) {
+    print('ANDRII ${item.stepNumber}');
+  });
+
+  return updatedSteps;
 }

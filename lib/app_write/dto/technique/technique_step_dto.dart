@@ -22,6 +22,23 @@ class TechniqueStepDTO {
 
   factory TechniqueStepDTO.fromDynamic(dynamic data) => _$TechniqueStepDTOFromJson(data as Map<String, dynamic>);
 
+  factory TechniqueStepDTO.fromAppWriteJson(Map<String, dynamic> json) => TechniqueStepDTO(
+        id: json['id'] as String,
+        techniqueId: (json['technique_id'] as Map<String, dynamic>)['id'] as String,
+        stepNumber: json['step_number'] as int,
+        title: MultiLangStringDTO.fromStringJson(json['title_json'] as String),
+        instruction: MultiLangStringDTO.fromStringJson(json['instruction_json'] as String),
+        duration: json['duration'] as String,
+        examples: (json['examples_json_array'] as List<dynamic>?)
+            ?.map((e) => MultiLangStringDTO.fromStringJson(e as String))
+            .toList(),
+        tips: (json['tips_json_array'] as List<dynamic>)
+            .map((e) => MultiLangStringDTO.fromStringJson(e as String))
+            .toList(),
+        createdAt: DateTime.parse(json['created_at'] as String),
+        updatedAt: DateTime.parse(json['updated_at'] as String),
+      );
+
   final String id;
   @JsonKey(name: 'technique_id')
   final String techniqueId;
@@ -64,4 +81,17 @@ class TechniqueStepDTO {
   }
 
   Map<String, dynamic> toJson() => _$TechniqueStepDTOToJson(this);
+
+  Map<String, dynamic> toDataBaseJson() => {
+        'id': id,
+        'technique_id': techniqueId,
+        'step_number': stepNumber,
+        'title_json': title.toString(),
+        'instruction_json': instruction.toString(),
+        'duration': duration,
+        'examples_json_array': examples?.map((e) => e.toString()).toList(),
+        'tips_json_array': tips.map((e) => e.toString()).toList(),
+        'created_at': createdAt.toIso8601String(),
+        'updated_at': updatedAt.toIso8601String(),
+      };
 }
