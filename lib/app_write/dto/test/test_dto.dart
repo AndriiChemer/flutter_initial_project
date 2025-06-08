@@ -2,6 +2,7 @@ import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_evaluation_dto.dart';
+import 'package:iteo_libraries_example/app_write/dto/test/test_level_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_question_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_recommendations_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -29,32 +30,101 @@ class TestDTO {
     required this.widgetType,
   });
 
-  factory TestDTO.fromJson(Map<String, dynamic> json) => _$TestDTOFromJson(json);
+  factory TestDTO.fromJson1(Map<String, dynamic> json) => _$TestDTOFromJson(json);
+
+  factory TestDTO.fromJson(Map<String, dynamic> json) => TestDTO(
+        id: json['id'] as String,
+        title: MultiLangStringDTO.fromJson(json['title'] as Map<String, dynamic>),
+        level: TestLevelDTO.mapFromJsonString(
+            MultiLangStringDTO.fromJson(json['level'] as Map<String, dynamic>).languages.entries.last.value),
+        description: MultiLangStringDTO.fromJson(json['description'] as Map<String, dynamic>),
+        type: json['type'] as String,
+        categoryId: json['category_id'] as String,
+        categorySlug: json['category_slug'] as String,
+        status: $enumDecode(_$StatusDTOEnumMap, json['status']),
+        freeOrPremium: $enumDecode(_$FreeOrPremiumDTOEnumMap, json['free_or_premium']),
+        duration: json['duration'] as String,
+        aiAnalysisEnabled: json['ai_analysis_enabled'] as bool,
+        pairModeEnabled: json['pair_mode_enabled'] as bool,
+        questions: (json['questions'] as List<dynamic>)
+            .map((e) => TestQuestionDTO.fromJsonWithTestId(e as Map<String, dynamic>, json['id'] as String))
+            .toList(),
+        evaluation: (json['evaluation'] as List<dynamic>)
+            .map((e) => TestEvaluationDTO.fromJson(e as Map<String, dynamic>))
+            .toList(),
+        recommendations: TestRecommendationsDTO.fromJson(json['recommendations'] as Map<String, dynamic>),
+        widgetType: json['widget_type'] as String?,
+      );
+
+  factory TestDTO.fromAppWriteJson(Map<String, dynamic> json) => TestDTO(
+        id: json['id'] as String,
+        title: MultiLangStringDTO.fromStringJson(json['title_json'] as String),
+        description: MultiLangStringDTO.fromStringJson(json['description_json'] as String),
+        type: json['type'] as String,
+        duration: json['duration'] as String,
+        categoryId: json['category_id'] as String,
+        categorySlug: json['category_slug'] as String,
+        status: $enumDecode(_$StatusDTOEnumMap, json['status']),
+        widgetType: json['widget_type'] as String?,
+        freeOrPremium: $enumDecode(_$FreeOrPremiumDTOEnumMap, json['free_or_premium']),
+        aiAnalysisEnabled: json['ai_analysis_enabled'] as bool,
+        pairModeEnabled: json['pair_mode_enabled'] as bool,
+        evaluation: (json['evaluation_json_array'] as List<dynamic>)
+            .map((e) => TestEvaluationDTO.fromStringJson(e as String))
+            .toList(),
+        recommendations: TestRecommendationsDTO.fromStringJson(json['recommendations_json'] as String),
+        level: TestLevelDTO.fromString(json['level'] as String),
+        questions: [],
+      );
 
   final String id;
   final MultiLangStringDTO title;
-  final MultiLangStringDTO level;
+  final TestLevelDTO level;
   final MultiLangStringDTO description;
   final String type;
+  @JsonKey(name: 'category_id')
   final String categoryId;
+  @JsonKey(name: 'category_slug')
   final String categorySlug;
   final StatusDTO status;
+  @JsonKey(name: 'free_or_premium')
   final FreeOrPremiumDTO freeOrPremium;
   final String duration;
+  @JsonKey(name: 'ai_analysis_enabled')
   final bool aiAnalysisEnabled;
+  @JsonKey(name: 'pair_mode_enabled')
   final bool pairModeEnabled;
   final List<TestQuestionDTO> questions;
   final List<TestEvaluationDTO> evaluation;
   final TestRecommendationsDTO recommendations;
-  final String widgetType;
+  @JsonKey(name: 'widget_type')
+  final String? widgetType;
 
   Map<String, dynamic> toJson() => _$TestDTOToJson(this);
+
+  Map<String, dynamic> toDataBaseJson() => {
+        'id': id,
+        'title_json': title.toString(),
+        'level': level.name,
+        'description_json': description.toString(),
+        'type': type,
+        'category_id': categoryId,
+        'category_slug': categorySlug,
+        'status': _$StatusDTOEnumMap[status],
+        'free_or_premium': _$FreeOrPremiumDTOEnumMap[freeOrPremium],
+        'duration': duration,
+        'ai_analysis_enabled': aiAnalysisEnabled,
+        'pair_mode_enabled': pairModeEnabled,
+        'evaluation_json_array': evaluation.map((e) => e.toString()).toList(),
+        'recommendations_json': recommendations.toString(),
+        'widget_type': widgetType,
+      };
 
   TestDTO copyWith({
     String? id,
     MultiLangStringDTO? title,
-    MultiLangStringDTO? level,
     MultiLangStringDTO? description,
+    TestLevelDTO? level,
     String? type,
     String? categoryId,
     String? categorySlug,

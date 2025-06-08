@@ -33,28 +33,32 @@
           "text": {
             "ua": "Дуже комфортно, я відкритий/відкрита до таких розмов",
             "en": "Very comfortable, I'm open to such conversations"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q1_o2",
           "text": {
             "ua": "Досить комфортно, але іноді вагаюся",
             "en": "Quite comfortable, but sometimes hesitate"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q1_o3",
           "text": {
             "ua": "Не дуже комфортно, відчуваю сором чи незручність",
             "en": "Not very comfortable, I feel ashamed or awkward"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q1_o4",
           "text": {
             "ua": "Ніколи не говорю про свої фантазії",
             "en": "I never talk about my fantasies"
-          }
+          },
+          "score": 1
         }
       ]
     },
@@ -70,35 +74,40 @@
           "text": {
             "ua": "Романтичні сцени (вечір при свічках, повільний секс)",
             "en": "Romantic scenes (candlelight dinner, slow sex)"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q2_o2",
           "text": {
             "ua": "Домінування/підкорення (рольові ігри, контроль)",
             "en": "Domination/submission (role play, control)"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q2_o3",
           "text": {
             "ua": "Публічні місця (ризиковані ситуації)",
             "en": "Public places (risky situations)"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q2_o4",
           "text": {
             "ua": "Незвичні ситуації (експерименти, нові позиції, іграшки)",
             "en": "Unusual situations (experiments, new positions, toys)"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q2_o5",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to add your own)"
-          }
+          },
+          "score": 3
         }
       ]
     },
@@ -114,28 +123,32 @@
           "text": {
             "ua": "З ентузіазмом та цікавістю",
             "en": "With enthusiasm and curiosity"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q3_o2",
           "text": {
             "ua": "З розумінням та прийняттям",
             "en": "With understanding and acceptance"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q3_o3",
           "text": {
             "ua": "Я відчуваю, що партнер іноді осуджує мене",
             "en": "I feel that my partner sometimes judges me"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q3_o4",
           "text": {
             "ua": "Мені важко ділитися своїми фантазіями через страх осуду",
             "en": "It's hard for me to share my fantasies due to fear of judgment"
-          }
+          },
+          "score": 1
         }
       ]
     },
@@ -151,28 +164,32 @@
           "text": {
             "ua": "Так, є конкретні речі, які я не хочу пробувати",
             "en": "Yes, there are specific things I don't want to try"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q4_o2",
           "text": {
             "ua": "Мої межі можуть змінюватися залежно від ситуації",
             "en": "My boundaries may change depending on the situation"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q4_o3",
           "text": {
             "ua": "Я не відчуваю, що маю чіткі межі",
             "en": "I don't feel I have clear boundaries"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q4_o4",
           "text": {
             "ua": "Я ніколи не обговорював/ла свої межі з партнером",
             "en": "I've never discussed my boundaries with my partner"
-          }
+          },
+          "score": 1
         }
       ]
     },
@@ -188,28 +205,32 @@
           "text": {
             "ua": "Це найважливіше, без цього я не можу бути відкритим/відкритою",
             "en": "It's the most important thing, without it I can't be open"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q5_o2",
           "text": {
             "ua": "Дуже важливо, але не завжди є пріоритетом",
             "en": "Very important, but not always a priority"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q5_o3",
           "text": {
             "ua": "Я можу говорити про свої бажання, навіть якщо партнер не повністю розуміє",
             "en": "I can talk about my desires even if my partner doesn't fully understand"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q5_o4",
           "text": {
             "ua": "Це не є ключовим аспектом для мене",
             "en": "It's not a key aspect for me"
-          }
+          },
+          "score": 1
         }
       ]
     },
@@ -225,28 +246,32 @@
           "text": {
             "ua": "Відкрита розмова під час спокійного вечора",
             "en": "Open conversation during a calm evening"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q6_o2",
           "text": {
             "ua": "Написання листа або текстового повідомлення",
             "en": "Writing a letter or text message"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q6_o3",
           "text": {
             "ua": "Відповіді на запитання через тест чи гру",
             "en": "Answering questions through a test or game"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q6_o4",
           "text": {
             "ua": "Я не знаю, який формат для мене найбільш зручний",
             "en": "I don't know which format is most comfortable for me"
-          }
+          },
+          "score": 2
         }
       ]
     },
@@ -262,33 +287,80 @@
           "text": {
             "ua": "Так, ми відкрито обговорюємо всі деталі",
             "en": "Yes, we openly discuss all details"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q7_o2",
           "text": {
             "ua": "Деколи так, але не завжди",
             "en": "Sometimes yes, but not always"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q7_o3",
           "text": {
             "ua": "Ні, партнер не розуміє мої бажання",
             "en": "No, my partner doesn't understand my desires"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q7_o4",
           "text": {
             "ua": "Я боюся говорити про свої бажання через можливий осуд",
             "en": "I'm afraid to talk about my desires for fear of judgment"
-          }
+          },
+          "score": 1
         }
       ]
     }
   ],
-  "evaluation": [],
+  "evaluation": [
+    {
+      "range": [
+        22,
+        28
+      ],
+      "title": {
+        "ua": "Високий рівень відкритості та довіри",
+        "en": "High level of openness and trust"
+      },
+      "description": {
+        "ua": "Ви впевнено обговорюєте свої сексуальні бажання, не боїтеся експериментів і підтримуєте партнерську відкритість. Це ідеальна основа для розвитку гармонійних стосунків.",
+        "en": "You confidently discuss your sexual desires, are not afraid of experiments, and support mutual openness. This is an ideal foundation for a harmonious relationship."
+      }
+    },
+    {
+      "range": [
+        15,
+        21
+      ],
+      "title": {
+        "ua": "Середній рівень відкритості",
+        "en": "Moderate level of openness"
+      },
+      "description": {
+        "ua": "Ви готові до розмов про сексуальні бажання, але іноді виникає сором або страх. Продовжуйте відкриватися партнеру, це допоможе покращити якість стосунків.",
+        "en": "You are ready to talk about sexual desires, but sometimes feel shame or fear. Continue to open up to your partner, it will improve your relationship quality."
+      }
+    },
+    {
+      "range": [
+        7,
+        14
+      ],
+      "title": {
+        "ua": "Низький рівень відкритості",
+        "en": "Low level of openness"
+      },
+      "description": {
+        "ua": "Вам важко говорити про сексуальні бажання, присутній страх чи сором. Спробуйте поступово тренувати відкритість у безпечній обстановці.",
+        "en": "It's hard for you to talk about sexual desires, you feel fear or shame. Try to gradually practice openness in a safe environment."
+      }
+    }
+  ],
   "recommendations": {
     "individual": {
       "ua": "Ваші відповіді показують, що ви прагнете відкритості у стосунках, але іноді відчуваєте труднощі у вираженні своїх бажань. Спробуйте використовувати письмовий формат для обговорення бажань або задавати партнеру запитання у вигляді гри. Це допоможе створити більш безпечний простір для спілкування.",

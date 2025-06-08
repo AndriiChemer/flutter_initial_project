@@ -33,28 +33,32 @@
           "text": {
             "ua": "Дуже важливе, без цього я не можу розслабитися",
             "en": "Very important, I can't relax without it"
-          }
+          },
+          "score": 5
         },
         {
           "id": "q1_o2",
           "text": {
             "ua": "Важливе, але не завжди є пріоритетом",
             "en": "Important, but not always a priority"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q1_o3",
           "text": {
             "ua": "Я рідко про це думаю",
             "en": "I rarely think about it"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q1_o4",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to enter your own)"
-          }
+          },
+          "score": 3
         }
       ]
     },
@@ -70,28 +74,32 @@
           "text": {
             "ua": "Так, є кілька речей, які для мене табуйовані",
             "en": "Yes, there are a few things that are taboo for me"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q2_o2",
           "text": {
             "ua": "Є теми, які мені важко обговорювати, але я готовий/готова працювати над цим",
             "en": "There are topics that are hard for me to discuss, but I'm willing to work on it"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q2_o3",
           "text": {
             "ua": "Я відкритий/відкрита до будь-яких обговорень",
             "en": "I am open to any discussions"
-          }
+          },
+          "score": 5
         },
         {
           "id": "q2_o4",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to enter your own)"
-          }
+          },
+          "score": 4
         }
       ]
     },
@@ -107,28 +115,32 @@
           "text": {
             "ua": "З розумінням і повагою",
             "en": "With understanding and respect"
-          }
+          },
+          "score": 5
         },
         {
           "id": "q3_o2",
           "text": {
             "ua": "Мені важливо, щоб партнер запитував уточнення та дійсно розумів мене",
             "en": "It's important to me that my partner asks clarifying questions and truly understands me"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q3_o3",
           "text": {
             "ua": "Інколи мені складно говорити про межі, тому потрібен час",
             "en": "Sometimes it's hard for me to talk about boundaries, so I need time"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q3_o4",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to enter your own)"
-          }
+          },
+          "score": 2
         }
       ]
     },
@@ -144,28 +156,32 @@
           "text": {
             "ua": "Так, мені легко говорити про свої бажання",
             "en": "Yes, it's easy for me to talk about my desires"
-          }
+          },
+          "score": 5
         },
         {
           "id": "q4_o2",
           "text": {
             "ua": "Іноді важко, але я намагаюся бути відкритим/відкритою",
             "en": "Sometimes it's difficult, but I try to be open"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q4_o3",
           "text": {
             "ua": "Мені важко говорити про свої бажання, бо боюся, що партнер не зрозуміє",
             "en": "It's hard for me to talk about my desires because I'm afraid my partner won't understand"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q4_o4",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to enter your own)"
-          }
+          },
+          "score": 3
         }
       ]
     },
@@ -181,28 +197,32 @@
           "text": {
             "ua": "Я готовий/готова спробувати нове, якщо почуваю себе безпечно",
             "en": "I'm willing to try new things if I feel safe"
-          }
+          },
+          "score": 5
         },
         {
           "id": "q5_o2",
           "text": {
             "ua": "Я вважаю, що експерименти можуть збагатити наші стосунки",
             "en": "I believe experiments can enrich our relationship"
-          }
+          },
+          "score": 4
         },
         {
           "id": "q5_o3",
           "text": {
             "ua": "Я віддаю перевагу звичному, оскільки це дає мені комфорт",
             "en": "I prefer the familiar because it gives me comfort"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q5_o4",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to enter your own)"
-          }
+          },
+          "score": 3
         }
       ]
     },
@@ -218,30 +238,92 @@
           "text": {
             "ua": "Так, партнер завжди мене розуміє",
             "en": "Yes, my partner always understands me"
-          }
+          },
+          "score": 5
         },
         {
           "id": "q6_o2",
           "text": {
             "ua": "Частково, бувають моменти непорозуміння",
             "en": "Partly, sometimes there are misunderstandings"
-          }
+          },
+          "score": 3
         },
         {
           "id": "q6_o3",
           "text": {
             "ua": "Ні, мені часто здається, що мене не чують",
             "en": "No, I often feel unheard"
-          }
+          },
+          "score": 2
         },
         {
           "id": "q6_o4",
           "text": {
             "ua": "Інше (можливість ввести свій варіант)",
             "en": "Other (option to enter your own)"
-          }
+          },
+          "score": 4
         }
       ]
+    }
+  ],
+  "evaluation": [
+    {
+      "range": [
+        26,
+        30
+      ],
+      "title": {
+        "ua": "Високий рівень комфорту та відкритості",
+        "en": "High level of comfort and openness"
+      },
+      "description": {
+        "ua": "Ви впевнено обговорюєте свої межі, почуваєтесь у безпеці та відкриті до нових ідей. Ваш підхід до стосунків сприяє гармонії та довірі.",
+        "en": "You confidently discuss your boundaries, feel safe, and are open to new ideas. Your approach fosters harmony and trust."
+      }
+    },
+    {
+      "range": [
+        18,
+        25
+      ],
+      "title": {
+        "ua": "Середній рівень комфорту",
+        "en": "Moderate level of comfort"
+      },
+      "description": {
+        "ua": "Ви вмієте обговорювати важливі питання, але інколи вагаєтесь або відчуваєте дискомфорт. Варто продовжувати відкритий діалог для зміцнення стосунків.",
+        "en": "You can discuss important topics, but sometimes hesitate or feel discomfort. Keep the open dialogue to strengthen your relationship."
+      }
+    },
+    {
+      "range": [
+        12,
+        17
+      ],
+      "title": {
+        "ua": "Низький рівень комфорту",
+        "en": "Low level of comfort"
+      },
+      "description": {
+        "ua": "Вам складно говорити про свої межі та бажання, можливо, є відчуття небезпеки чи нерозуміння. Важливо більше говорити з партнером про власні потреби.",
+        "en": "It's hard for you to talk about your boundaries and desires, and you may feel unsafe or misunderstood. Try to communicate your needs more with your partner."
+      }
+    },
+    {
+      "range": [
+        6,
+        11
+      ],
+      "title": {
+        "ua": "Дуже низький рівень комфорту",
+        "en": "Very low level of comfort"
+      },
+      "description": {
+        "ua": "Ви не відчуваєте себе у безпеці, важко говорити про межі, багато тривоги чи страху відвертості. Варто працювати над розвитком довіри й безпечного простору у стосунках.",
+        "en": "You do not feel safe, it's very hard to talk about boundaries, and you experience a lot of anxiety or fear of openness. Work on developing trust and a safe space in your relationship."
+      }
     }
   ],
   "recommendations": {

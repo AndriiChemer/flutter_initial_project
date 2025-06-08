@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -11,8 +13,17 @@ class TestRecommendationsDTO {
   });
 
   factory TestRecommendationsDTO.fromJson(Map<String, dynamic> json) => _$TestRecommendationsDTOFromJson(json);
+
+  factory TestRecommendationsDTO.fromStringJson(String json) {
+    final nameJson = jsonDecode(json) as Map<String, dynamic>;
+    return TestRecommendationsDTO.fromJson(nameJson);
+  }
+
   final MultiLangStringDTO individual;
   final MultiLangStringDTO couple;
 
   Map<String, dynamic> toJson() => _$TestRecommendationsDTOToJson(this);
+
+  @override
+  String toString() => jsonEncode(toJson());
 }
