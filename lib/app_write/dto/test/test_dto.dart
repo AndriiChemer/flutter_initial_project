@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
@@ -13,6 +14,7 @@ part 'test_dto.g.dart';
 class TestDTO {
   TestDTO({
     required this.id,
+    required this.slug,
     required this.title,
     required this.level,
     required this.description,
@@ -34,6 +36,7 @@ class TestDTO {
 
   factory TestDTO.fromJson(Map<String, dynamic> json) => TestDTO(
         id: json['id'] as String,
+        slug: json['id'] as String,
         title: MultiLangStringDTO.fromJson(json['title'] as Map<String, dynamic>),
         level: TestLevelDTO.mapFromJsonString(
             MultiLangStringDTO.fromJson(json['level'] as Map<String, dynamic>).languages.entries.last.value),
@@ -47,7 +50,8 @@ class TestDTO {
         aiAnalysisEnabled: json['ai_analysis_enabled'] as bool,
         pairModeEnabled: json['pair_mode_enabled'] as bool,
         questions: (json['questions'] as List<dynamic>)
-            .map((e) => TestQuestionDTO.fromJsonWithTestId(e as Map<String, dynamic>, json['id'] as String))
+            .mapIndexed((index, e) =>
+                TestQuestionDTO.fromJsonWithTestId(e as Map<String, dynamic>, json['id'] as String, index + 1))
             .toList(),
         evaluation: (json['evaluation'] as List<dynamic>)
             .map((e) => TestEvaluationDTO.fromJson(e as Map<String, dynamic>))
@@ -58,11 +62,12 @@ class TestDTO {
 
   factory TestDTO.fromAppWriteJson(Map<String, dynamic> json) => TestDTO(
         id: json['id'] as String,
+        slug: json['slug'] as String,
         title: MultiLangStringDTO.fromStringJson(json['title_json'] as String),
         description: MultiLangStringDTO.fromStringJson(json['description_json'] as String),
         type: json['type'] as String,
         duration: json['duration'] as String,
-        categoryId: json['category_id'] as String,
+        categoryId: (json['category_id'] as Map<String, dynamic>)['id'] as String,
         categorySlug: json['category_slug'] as String,
         status: $enumDecode(_$StatusDTOEnumMap, json['status']),
         widgetType: json['widget_type'] as String?,
@@ -78,6 +83,7 @@ class TestDTO {
       );
 
   final String id;
+  final String slug;
   final MultiLangStringDTO title;
   final TestLevelDTO level;
   final MultiLangStringDTO description;
@@ -104,6 +110,7 @@ class TestDTO {
 
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
+        'slug': slug,
         'title_json': title.toString(),
         'level': level.name,
         'description_json': description.toString(),
@@ -118,10 +125,13 @@ class TestDTO {
         'evaluation_json_array': evaluation.map((e) => e.toString()).toList(),
         'recommendations_json': recommendations.toString(),
         'widget_type': widgetType,
+        'created_at': DateTime.now().toIso8601String(),
+        'updated_at': DateTime.now().toIso8601String(),
       };
 
   TestDTO copyWith({
     String? id,
+    String? slug,
     MultiLangStringDTO? title,
     MultiLangStringDTO? description,
     TestLevelDTO? level,
@@ -140,6 +150,7 @@ class TestDTO {
   }) {
     return TestDTO(
       id: id ?? this.id,
+      slug: slug ?? this.slug,
       title: title ?? this.title,
       level: level ?? this.level,
       description: description ?? this.description,

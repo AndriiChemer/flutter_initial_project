@@ -81,3 +81,6 @@ flutter:
     - assets/content/psychological_techniques/category_sexual_closeness/
     - assets/content/tests/category_relationship_crisis/
     - assets/content/tests/category_sexual_closeness/
+    - assets/content/daily_content/category_relationship_crisis/
+    - assets/content/daily_content/category_sexual_closeness/
+    - assets/content/course/

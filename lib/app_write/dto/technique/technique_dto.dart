@@ -31,7 +31,7 @@ class TechniqueDTO {
         title: MultiLangStringDTO.fromStringJson(json['title_json'] as String),
         description: MultiLangStringDTO.fromStringJson(json['description_json'] as String),
         goal: MultiLangStringDTO.fromStringJson(json['goal_json'] as String),
-        categoryId: json['category_id'] as String,
+        categoryId: (json['category_id'] as Map<String, dynamic>)['id'] as String,
         subcategorySlug: json['subcategory_slug'] as String?,
         widgetType: json['widget_type'] as String?,
         duration: json['duration'] as String,

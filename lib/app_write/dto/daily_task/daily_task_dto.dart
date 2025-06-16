@@ -68,7 +68,7 @@ class DailyTaskDTO {
         widgetType: json['widget_type'] as String,
         duration: json['duration'] as String?,
         status: statusFromString(json['status'] as String),
-        image: json['image'] as String,
+        image: json['image'] as String?,
         freeOrPremium: freeOrPremiumFromString(json['free_or_premium'] as String),
         tips: (json['tips_json_array'] as List<dynamic>)
             .map((item) => MultiLangStringDTO.fromStringJson(item as String))

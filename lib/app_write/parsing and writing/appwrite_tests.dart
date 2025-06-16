@@ -4,11 +4,8 @@ import 'dart:developer';
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:iteo_libraries_example/app_write/dto/technique/technique_dto.dart';
-import 'package:iteo_libraries_example/app_write/dto/technique/technique_step_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_dto.dart';
-
-//TODO task: compare all challenge models if everything was created with success
+import 'package:iteo_libraries_example/app_write/dto/test/test_question_dto.dart';
 
 const databaseId = '68225f7d0027204d0c21';
 
@@ -29,7 +26,7 @@ Databases _getDataBase() {
 }
 
 Future<void> writeToDataBaseTests() async {
-  // final database = _getDataBase();
+  final database = _getDataBase();
 
   const testsCollection = 'tests';
   const testQuestionsCollection = 'test_questions';
@@ -46,15 +43,12 @@ Future<void> writeToDataBaseTests() async {
     'assets/content/tests/category_relationship_crisis/cooperation_level_test.json',
     'assets/content/tests/category_relationship_crisis/crisis_depth_test.json',
     'assets/content/tests/category_relationship_crisis/emotional_barriers_in_relationship.json',
-    'assets/content/tests/category_relationship_crisis/emotional_closeness_empathy_test.json',
     'assets/content/tests/category_relationship_crisis/emotional_closeness_in_crisis.json',
     'assets/content/tests/category_relationship_crisis/emotional_closeness_level_test.json',
     'assets/content/tests/category_relationship_crisis/emotional_distance_level.json',
-    'assets/content/tests/category_relationship_crisis/emotional_distance_level_2.json',
     'assets/content/tests/category_relationship_crisis/emotional_resilience_test.json',
     'assets/content/tests/category_relationship_crisis/empathy_level_quiz.json',
     'assets/content/tests/category_relationship_crisis/intimacy_barriers.json',
-    'assets/content/tests/category_relationship_crisis/intimacy_barriers_2.json',
     'assets/content/tests/category_relationship_crisis/listening_skills_test.json',
     'assets/content/tests/category_relationship_crisis/relationship-tension-level.json',
     'assets/content/tests/category_relationship_crisis/relationship_problem_areas.json',
@@ -69,10 +63,8 @@ Future<void> writeToDataBaseTests() async {
     'assets/content/tests/category_sexual_closeness/hidden_sexual_desires.json',
     'assets/content/tests/category_sexual_closeness/intimacy_barriers_sexual.json',
     'assets/content/tests/category_sexual_closeness/relationships_level_openness.json',
-    'assets/content/tests/category_sexual_closeness/sexual_desires_openness.json',
     'assets/content/tests/category_sexual_closeness/sexual_experiments_openness.json',
     'assets/content/tests/category_sexual_closeness/sexual_interests_and_desires.json',
-    'assets/content/tests/category_sexual_closeness/sexual_interests_and_desires_2.json',
     'assets/content/tests/category_sexual_closeness/sexual_life_satisfaction.json',
     'assets/content/tests/category_sexual_closeness/sexual_openness_level.json',
     'assets/content/tests/category_sexual_closeness/sexual_openness_score.json',
@@ -80,6 +72,11 @@ Future<void> writeToDataBaseTests() async {
     'assets/content/tests/category_sexual_closeness/sexual_style.json',
     'assets/content/tests/category_sexual_closeness/sexual_vocabulary_quiz.json',
     'assets/content/tests/category_sexual_closeness/unspoken_desires.json',
+    'assets/content/tests/category_relationship_crisis/emotional_distance_level_2.json',
+    'assets/content/tests/category_relationship_crisis/intimacy_barriers_2.json',
+    'assets/content/tests/category_sexual_closeness/sexual_interests_and_desires_2.json',
+    'assets/content/tests/category_sexual_closeness/sexual_desires_openness.json',
+    'assets/content/tests/category_relationship_crisis/emotional_closeness_empathy_test.json',
   ];
 
   // Medium, High, Deep, For all, Intermediate, Advanced, Easy, For couples in crisis
@@ -90,136 +87,137 @@ Future<void> writeToDataBaseTests() async {
 
     final testDTO = TestDTO.fromJson(dataMap);
     testDTOList.add(testDTO);
+
+    // print("ANDRII ${testDTO.id} - ${testDTO.recommendations.toString().length}");
   }
 
-  // techniquesWithSteps = await _createTechniques(
-  //   database: database,
-  //   techniquesCollectionId: techniquesCollection,
-  //   techniquesStepCollectionId: techniqueStepsCollection,
-  //   techniquesWithSteps: techniquesWithSteps,
-  // );
+  final testsWithQuestions = await _createTests(
+    database: database,
+    testCollectionId: testsCollection,
+    testQuestionCollectionId: testQuestionsCollection,
+    tests: testDTOList,
+  );
 
   log('\n\n=====START=============\n');
-  for (final testDTO in testDTOList) {
-    log('${testDTO.level}');
-    // log('${testDTO.id} - ${testDTO.categoryId} | ${testDTO.level.languages.entries.first.value}');
+  for (final testDTOEntry in testsWithQuestions.entries) {
+    log('ID: ${testDTOEntry.key.id} | Questions: ${testDTOEntry.value.length}');
   }
   log('\n=====FINISH=============\n\n');
 }
 
 /// generate id: ID.unique()
-Future<Map<TechniqueDTO, List<TechniqueStepDTO>>> _createTechniques({
+Future<Map<TestDTO, List<TestQuestionDTO>>> _createTests({
   required Databases database,
-  required String techniquesCollectionId,
-  required String techniquesStepCollectionId,
-  required Map<TechniqueDTO, List<TechniqueStepDTO>> techniquesWithSteps,
+  required String testCollectionId,
+  required String testQuestionCollectionId,
+  required List<TestDTO> tests,
 }) async {
-  final updatedChallenges = <TechniqueDTO, List<TechniqueStepDTO>>{};
+  final updatedTestQuestions = <TestDTO, List<TestQuestionDTO>>{};
 
-  for (final entry in techniquesWithSteps.entries) {
-    final technique = entry.key;
-    final techniqueSteps = entry.value;
+  for (final test in tests) {
+    final testQuestions = test.questions;
 
     try {
-      final createdTechnique = await _createSingleTechnique(
+      final createdTest = await _createSingleTest(
         database: database,
-        collectionId: techniquesCollectionId,
-        technique: technique,
+        collectionId: testCollectionId,
+        test: test,
       );
 
-      final createdTechniqueSteps = await _createTechniqueSteps(
+      final createdTechniqueSteps = await _createTestQuestions(
         database: database,
-        collectionId: techniquesStepCollectionId,
-        technique: createdTechnique,
-        steps: techniqueSteps,
+        collectionId: testQuestionCollectionId,
+        questions: testQuestions,
       );
 
-      updatedChallenges[createdTechnique] = createdTechniqueSteps;
+      updatedTestQuestions[createdTest] = createdTechniqueSteps;
     } catch (e) {
       print('ANDRII: e $e');
     }
   }
 
-  return updatedChallenges;
+  return updatedTestQuestions;
 }
 
-Future<TechniqueDTO> _createSingleTechnique({
+Future<TestDTO> _createSingleTest({
   required Databases database,
   required String collectionId,
-  required TechniqueDTO technique,
+  required TestDTO test,
 }) async {
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
       databaseId: databaseId,
-      queries: [Query.equal('id', technique.id)],
+      queries: [Query.equal('id', test.id)],
     );
 
     final document = response.documents.firstOrNull;
 
     if (document != null) {
-      print('ANDRII existing Technique - ${technique.id}');
-      return TechniqueDTO.fromAppWriteJson(document.data);
+      print('ANDRII existing Test - ${test.id}');
+      return TestDTO.fromAppWriteJson(document.data);
     } else {
-      print('ANDRII ${technique.id} does not exist!');
+      print('ANDRII ${test.id} does not exist!');
       await database.createDocument(
         databaseId: databaseId,
         collectionId: collectionId,
-        documentId: technique.id,
-        data: technique.toDataBaseJson(),
+        documentId: test.id,
+        data: test.toDataBaseJson(),
       );
-      print('✅ Technique "${technique.id}" created.');
-      return technique;
+      print('✅ Technique "${test.id}" created.');
+      return test;
     }
   } catch (e) {
-    print('ANDRII: _createSingleTechnique ${technique.id} error $e');
+    print('ANDRII: _createSingleTest ${test.id} error $e');
     rethrow;
   }
 }
 
-Future<List<TechniqueStepDTO>> _createTechniqueSteps({
+Future<List<TestQuestionDTO>> _createTestQuestions({
   required Databases database,
   required String collectionId,
-  required TechniqueDTO technique,
-  required List<TechniqueStepDTO> steps,
+  required List<TestQuestionDTO> questions,
 }) async {
-  final updatedSteps = <TechniqueStepDTO>[];
+  final updatedQuestion = <TestQuestionDTO>[];
 
-  for (final stepBeforeUpdate in steps) {
+  for (final question in questions) {
+    final questionBeforeUpdate = question.copyWith(id: ID.unique());
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
         databaseId: databaseId,
-        queries: [Query.equal('technique_id', stepBeforeUpdate.techniqueId)],
+        queries: [Query.equal('test_id', questionBeforeUpdate.testId)],
       );
 
-      final document = response.documents
-          .firstWhereOrNull((item) => (item.data['step_number'] as int) == stepBeforeUpdate.stepNumber);
+      final document =
+          response.documents.firstWhereOrNull((item) => (item.data['number'] as int) == questionBeforeUpdate.number);
 
       if (document != null) {
         print('ANDRII existing step');
-        final stepFromAppWrite = TechniqueStepDTO.fromAppWriteJson(document.data);
-        updatedSteps.add(stepFromAppWrite);
+        final questionFromAppWrite = TestQuestionDTO.fromAppWriteJson(document.data);
+        updatedQuestion.add(questionFromAppWrite);
       } else {
-        print('ANDRII ${stepBeforeUpdate.stepNumber} does not exist!');
+        print('ANDRII ${questionBeforeUpdate.number} does not exist!');
+
         await database.createDocument(
           databaseId: databaseId,
           collectionId: collectionId,
-          documentId: stepBeforeUpdate.id,
-          data: stepBeforeUpdate.toDataBaseJson(),
+          documentId: questionBeforeUpdate.id,
+          data: questionBeforeUpdate.toDataBaseJson(),
         );
-        updatedSteps.add(stepBeforeUpdate);
-        print('✅ Step "${stepBeforeUpdate.stepNumber}" created.');
+        updatedQuestion.add(questionBeforeUpdate);
+        print('✅ Step "${questionBeforeUpdate.number}" created.');
       }
     } catch (e) {
-      print('ANDRII: step error $e');
+      print('ANDRII: ERROR Question ID: ${questionBeforeUpdate} - ${questionBeforeUpdate.number} error $e');
+      print('ANDRII: ERROR Question ID: createdIDS: ${updatedQuestion.map((item) => item.id)}');
       rethrow;
     }
   }
 
-  updatedSteps.forEach((item) {
-    print('ANDRII ${item.stepNumber}');
+  updatedQuestion.forEach((item) {
+    print('ANDRII ${item.number}');
   });
 
-  return updatedSteps;
+  return updatedQuestion;
 }

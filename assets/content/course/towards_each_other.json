@@ -1,0 +1,17 @@
+{
+  "id": "towards_each_other",
+  "slug": "towards_each_other",
+  "name": {
+    "ua": "Назустріч одне до одного",
+    "en": "Towards Each Other"
+  },
+  "description": {
+    "ua": "24 дні підтримки, розуміння і маленьких кроків одне до одного. Для пар, які хочуть пройти через кризу разом: відновити довіру, навчитися чути і знову відчувати близькість.",
+    "en": "24 days of support, understanding, and small steps towards each other. For couples who want to overcome crisis together: to rebuild trust, learn to listen, and feel close again."
+  },
+  "category_id": "relationship_crisis",
+  "duration": 24,
+  "created_at": "2025-06-14T00:00:00Z",
+  "updated_at": "2025-06-14T00:00:00Z",
+  "status": "active"
+}

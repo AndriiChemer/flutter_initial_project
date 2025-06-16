@@ -34,7 +34,6 @@ Future<void> writeToDataBaseTechnique() async {
   const techniqueStepsCollection = 'technique_steps';
 
   final listOfFilesDailyTasks = [
-    'assets/content/psychological_techniques/category_relationship_crisis/emotional_barometer_technique.json',
     'assets/content/psychological_techniques/category_relationship_crisis/emotional_detox.json',
     'assets/content/psychological_techniques/category_relationship_crisis/empathy_technique.json',
     'assets/content/psychological_techniques/category_relationship_crisis/fantasy_map_technique.json',
@@ -43,14 +42,15 @@ Future<void> writeToDataBaseTechnique() async {
     'assets/content/psychological_techniques/category_relationship_crisis/mirroring_technique.json',
     'assets/content/psychological_techniques/category_relationship_crisis/ninety_second_rule.json',
     'assets/content/psychological_techniques/category_relationship_crisis/partner_dialogue.json',
-    'assets/content/psychological_techniques/category_relationship_crisis/psychological_technique_conflict_resolution_translated.json',
-    'assets/content/psychological_techniques/category_relationship_crisis/psychological_technique_role_reversal.json',
     'assets/content/psychological_techniques/category_relationship_crisis/rewrite_the_story.json',
     'assets/content/psychological_techniques/category_relationship_crisis/safe_word_technique.json',
     'assets/content/psychological_techniques/category_relationship_crisis/safety_point.json',
     'assets/content/psychological_techniques/category_relationship_crisis/shared_goals_and_plans.json',
     'assets/content/psychological_techniques/category_relationship_crisis/symbolic_actions.json',
     'assets/content/psychological_techniques/category_relationship_crisis/visualizing_ideal_dialogue.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/psychological_technique_conflict_resolution_translated.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/psychological_technique_role_reversal.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/emotional_barometer_technique.json',
     'assets/content/psychological_techniques/category_sexual_closeness/frank_questions.json',
     'assets/content/psychological_techniques/category_sexual_closeness/gentle_tease.json',
     'assets/content/psychological_techniques/category_sexual_closeness/hot_or_cold.json',
@@ -77,12 +77,12 @@ Future<void> writeToDataBaseTechnique() async {
     techniquesWithSteps[techniqueDTO] = techniqueStepsDTO;
   }
 
-  // techniquesWithSteps = await _createTechniques(
-  //   database: database,
-  //   techniquesCollectionId: techniquesCollection,
-  //   techniquesStepCollectionId: techniqueStepsCollection,
-  //   techniquesWithSteps: techniquesWithSteps,
-  // );
+  techniquesWithSteps = await _createTechniques(
+    database: database,
+    techniquesCollectionId: techniquesCollection,
+    techniquesStepCollectionId: techniqueStepsCollection,
+    techniquesWithSteps: techniquesWithSteps,
+  );
 
   log('\n\n=====START=============\n');
   for (final entry in techniquesWithSteps.entries) {
@@ -145,6 +145,7 @@ Future<TechniqueDTO> _createSingleTechnique({
       print('ANDRII existing Technique - ${technique.id}');
       return TechniqueDTO.fromAppWriteJson(document.data);
     } else {
+      final updatedTechnique = technique.copyWith(id: ID.unique());
       print('ANDRII ${technique.id} does not exist!');
       await database.createDocument(
         databaseId: databaseId,
@@ -169,7 +170,12 @@ Future<List<TechniqueStepDTO>> _createTechniqueSteps({
 }) async {
   final updatedSteps = <TechniqueStepDTO>[];
 
-  for (final stepBeforeUpdate in steps) {
+  for (final step in steps) {
+    final stepBeforeUpdate = step.copyWith(
+      id: ID.unique(),
+      techniqueId: technique.id,
+    );
+
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,

@@ -9,19 +9,25 @@ part 'test_question_dto.g.dart';
 class TestQuestionDTO {
   TestQuestionDTO({
     required this.id,
+    required this.number,
     required this.testId,
     required this.question,
     required this.options,
+    required this.createdAt,
+    required this.updatedAt,
   });
 
   factory TestQuestionDTO.fromJson(Map<String, dynamic> json) => _$TestQuestionDTOFromJson(json);
 
-  factory TestQuestionDTO.fromJsonWithTestId(Map<String, dynamic> json, String testId) => TestQuestionDTO(
+  factory TestQuestionDTO.fromJsonWithTestId(Map<String, dynamic> json, String testId, int number) => TestQuestionDTO(
         id: json['id'] as String,
         question: MultiLangStringDTO.fromJson(json['question'] as Map<String, dynamic>),
         options:
             (json['options'] as List<dynamic>).map((e) => TestOptionDTO.fromJson(e as Map<String, dynamic>)).toList(),
         testId: testId,
+        number: number,
+        createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
       );
 
   factory TestQuestionDTO.fromAppWriteJson(Map<String, dynamic> json) => TestQuestionDTO(
@@ -31,21 +37,52 @@ class TestQuestionDTO {
         options: (json['options_json_array'] as List<dynamic>)
             .map((e) => TestOptionDTO.fromStringJson(e as String))
             .toList(),
+        number: json['number'] as int,
+        createdAt: DateTime.parse(json['created_at'] as String),
+        updatedAt: DateTime.parse(json['updated_at'] as String),
       );
 
   final String id;
   @JsonKey(name: 'test_id')
   final String testId;
+  final int number;
   final MultiLangStringDTO question;
   final List<TestOptionDTO> options;
+  @JsonKey(name: 'created_at')
+  final DateTime createdAt;
+  @JsonKey(name: 'updated_at')
+  final DateTime updatedAt;
 
   Map<String, dynamic> toJson() => _$TestQuestionDTOToJson(this);
 
+  TestQuestionDTO copyWith({
+    String? id,
+    String? testId,
+    int? number,
+    MultiLangStringDTO? question,
+    List<TestOptionDTO>? options,
+    DateTime? createdAt,
+    DateTime? updatedAt,
+  }) {
+    return TestQuestionDTO(
+      id: id ?? this.id,
+      testId: testId ?? this.testId,
+      number: number ?? this.number,
+      question: question ?? this.question,
+      options: options ?? this.options,
+      createdAt: createdAt ?? this.createdAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+    );
+  }
+
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
+        'number': number,
         'question_json': question.toString(),
         'options_json_array': options.map((option) => option.toString()).toList(),
-        'test_id': 'test_id',
+        'test_id': testId,
+        'created_at': createdAt.toIso8601String(),
+        'updated_at': updatedAt.toIso8601String(),
       };
 }
 

@@ -52,28 +52,24 @@ Future<void> writeToDataBaseDailyTasks() async {
     final content = await _getFileData(filePath);
 
     for (final dynamicData in content) {
-      try {
-        final task = DailyTaskDTO.fromDynamic(dynamicData);
-        dailyTasks.add(task);
-      } catch (ex) {
-        log('Error: $ex - \n$dynamicData');
-      }
+      final task = DailyTaskDTO.fromDynamic(dynamicData);
+      dailyTasks.add(task);
     }
-    // final dtos = content.map((dynamic dynamicData) => DailyTaskDTO.fromDynamic(dynamicData)).toList();
-    // dailyTasks.addAll(dtos);
   }
 
-  // for (final dailyTask in dailyTasks) {
-  //   await _createSingleTask(
-  //     database: database,
-  //     collectionId: dailyTaskCollection,
-  //     dailyTask: dailyTask,
-  //   );
-  // }
+  var uploadedDailyTasks = <DailyTaskDTO>[];
+  for (final dailyTask in dailyTasks) {
+    final uploadedDailyTask = await _createSingleTask(
+      database: database,
+      collectionId: dailyTaskCollection,
+      dailyTask: dailyTask,
+    );
+    uploadedDailyTasks.add(uploadedDailyTask);
+  }
 
   log('\n\n=====START=============\n');
-  for (final dailyTask in dailyTasks) {
-    log('${dailyTask.id} - ${dailyTask.categoryId} | ${dailyTask.title}');
+  for (final uploadedDailyTask in uploadedDailyTasks) {
+    log('${uploadedDailyTask.id} - ${uploadedDailyTask.categoryId} | ${uploadedDailyTask.title.languages.entries.last.value}');
   }
   log('\n=====FINISH=============\n\n');
 }
