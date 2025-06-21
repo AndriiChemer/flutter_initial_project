@@ -13,31 +13,31 @@
     {
       "id": "challenge_everyday_intimacy",
       "title": {
-        "ua": "Близькість в кожному дні",
-        "en": "Everyday Intimacy"
+        "ua": "Простір для фантазій",
+        "en": "A Space for Fantasies"
       },
       "description": {
-        "ua": "Цей 5-денний челендж — ніжний шлях до глибшої інтимності...",
-        "en": "This 5-day challenge is a gentle path to deeper intimacy. Through touch, imagination, whispers, and connection, you’ll reignite the fire between you — not through sex, but through desire that grows day by day."
+        "ua": "Одноденний челендж, який допоможе створити простір довіри та відкритості для розкриття еротичних фантазій. Без критики. Без обов'язків. Лише чесність, прийняття і, можливо, нова близькість.",
+        "en": "A one-day challenge to create a safe space for sharing erotic fantasies without judgment. No pressure. No obligations. Just honesty, acceptance, and maybe new closeness."
       },
-      "days": 5,
+      "days": 1,
       "goal": {
-        "ua": "Повернути романтичний і тілесний зв’язок через щоденну ніжність.",
-        "en": "Restore romantic and physical connection through daily tenderness."
+        "ua": "Відкрити свої фантазії та відчути себе почутим і прийнятим.",
+        "en": "Share your fantasies and feel seen and accepted."
       },
       "category_id": "sexual_closeness",
       "subcategory_slug": "daily-touch",
       "tags": [
-        "physicality",
-        "flirt",
-        "emotional_contact",
-        "sensuality",
-        "romance"
+        "fantasy",
+        "trust",
+        "honesty",
+        "vulnerability",
+        "erotic_communication"
       ],
-      "image": "challenge_fire_up_connection.svg",
+      "image": "challenge_space_for_fantasies.svg",
       "recommended_for": {
-        "ua": "пари, які хочуть більше щоденної тілесності та ніжного контакту",
-        "en": "couples who want more daily physical and romantic contact"
+        "ua": "пари, які хочуть відчути більше сміливості та відкритості у сексуальному спілкуванні",
+        "en": "couples who want to feel braver and more open in sexual communication"
       },
       "free_or_premium": "premium",
       "status": "active",
@@ -47,73 +47,25 @@
   ],
   "challenge_steps": [
     {
-      "id": "330af0ff-b244-40f5-9b3c-562d36bf4343",
+      "id": "step_fantasy_space",
       "challenge_id": "challenge_everyday_intimacy",
       "step_number": 1,
       "content": {
-        "ua": "Очима і дотиком\n\nСядьте або ляжте поруч. Протягом 10 хвилин спілкуйтесь лише очима і дотиком...",
-        "en": "With Eyes and Touch\n\nSit or lie next to each other. For 10 minutes, communicate only through eyes and touch — no words. Move slowly and intentionally."
-      },
-      "tips": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "70ba2262-185b-4fcf-9185-b1814c07d209",
-      "challenge_id": "challenge_everyday_intimacy",
-      "step_number": 2,
-      "content": {
-        "ua": "Фантазія на папері\n\nКожен із вас записує інтимну фантазію...",
-        "en": "Fantasy on Paper\n\nEach of you writes down a private fantasy. No need to be poetic — just honest. Exchange notes, read silently. It’s not about doing — it’s about being known."
-      },
-      "tips": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "306a0374-022e-409e-abcc-dbffe413f1a3",
-      "challenge_id": "challenge_everyday_intimacy",
-      "step_number": 3,
-      "content": {
-        "ua": "Сліпий дотик\n\nОдин із вас заплющує очі. Інший — торкається тіла, досліджуючи реакції...",
-        "en": "Blind Touch\n\nOne of you closes your eyes, the other explores the body with touch — slow, attentive, not sexual but sensual. Then switch. Reflect: what felt surprisingly good?"
-      },
-      "tips": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "97c3a390-deef-4398-9654-39a346e82898",
-      "challenge_id": "challenge_everyday_intimacy",
-      "step_number": 4,
-      "content": {
-        "ua": "Шепіт у спеку\n\nПротягом дня шепочіть партнеру щось особисте, еротичне, зухвале...",
-        "en": "Whispers in Heat\n\nThroughout the day, whisper something personal, erotic, or teasing to your partner — when no one is listening. Use imagination: 'Right now, I’m thinking...' or 'If we were alone...'"
-      },
-      "tips": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "3b8b8b8b-b5fe-4e46-b9b1-c628ed4390e3",
-      "challenge_id": "challenge_everyday_intimacy",
-      "step_number": 5,
-      "content": {
-        "ua": "Ніч запалення\n\nСтворіть атмосферу: світло свічок, музика, аромати...",
-        "en": "Night of Spark\n\nCreate an atmosphere: candlelight, music, scents. This is your night. No plan — just touch, presence, and motion. Let go of the script and be present with the body."
+        "ua": "Сядьте поруч або ляжте в затишному місці. Кожен із вас у тиші записує еротичну фантазію, яку давно хотів/ла поділитись, але соромився/лась. Не обговорюйте. Просто обміняйтесь записками і прочитайте мовчки.\n\nПісля цього скажіть одне одному: *«Я бачу тебе. І приймаю».* А потім — оберіть свій фінал: або обійміться і посидьте мовчки, або обговоріть — що вас здивувало, збудило або викликало цікавість.",
+        "en": "Sit together in a cozy spot. In silence, each of you writes down an erotic fantasy you've wanted to share but felt shy about. Don’t discuss. Just exchange notes and read them quietly.\n\nThen tell each other: *“I see you. And I accept you.”* After that — choose how to end: either share a long hug in silence, or talk — about what surprised, aroused, or intrigued you."
       },
       "tips": [
         {
-          "ua": "Можна почати з ванни чи душу.",
-          "en": "You can begin with a bath or shower."
+          "ua": "Це не про виконання фантазій. Це про прийняття себе і партнера без масок.",
+          "en": "This is not about acting on fantasies. It’s about accepting yourself and your partner without masks."
         },
         {
-          "ua": "Мета — не дійти до сексу, а дійти до контакту.",
-          "en": "The goal isn’t sex — it’s meaningful connection."
+          "ua": "Можна зробити ритуал — зберегти записки в скриньку або знищити їх разом.",
+          "en": "You can make a ritual — keep the notes in a box or destroy them together."
         }
       ],
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
+      "created_at": "2025-06-08T00:00:00Z",
+      "updated_at": "2025-06-08T00:00:00Z"
     }
   ]
 }

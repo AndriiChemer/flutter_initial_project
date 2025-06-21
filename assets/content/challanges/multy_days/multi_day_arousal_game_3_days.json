@@ -13,17 +13,17 @@
     {
       "id": "challenge_3_days_rising_desire",
       "title": {
-        "ua": "Гра збудження: 3 дні наростаючого бажання",
-        "en": "Arousal Game: 3 Days of Rising Desire"
+        "ua": "Гра збудження: стриманість і напруга",
+        "en": "Arousal Game: Restraint & Tension"
       },
       "description": {
-        "ua": "Цей челендж створено для пар, які хочуть вийти за межі звичних сценаріїв близькості...",
-        "en": "This challenge is for couples wanting to go beyond routine intimacy. Through control, teasing, and delay, you'll awaken deeper desire and learn to feel each other more intensely — both physically and emotionally."
+        "ua": "Цей одноденний виклик — шлях до гострого бажання та нових відчуттів у парі. Контролюйте дотики, підсилюйте напругу, дражніть словами й тілом. Фінал — спільний вибір, як розрядити емоції разом.",
+        "en": "This one-day challenge is a journey to sharp desire and new sensations as a couple. Control your touch, build tension, tease with words and body. The finale — a shared choice of how to release your emotions together."
       },
-      "days": 3,
+      "days": 1,
       "goal": {
-        "ua": "Розпалити бажання через стриманість, тілесну гру і контроль.",
-        "en": "Ignite desire through restraint, physical play, and control."
+        "ua": "Розпалити бажання, сповільнити темп і заново відчути одне одного.",
+        "en": "Ignite desire, slow down, and deeply feel each other again."
       },
       "category_id": "sexual_closeness",
       "subcategory_slug": "desire",
@@ -37,8 +37,8 @@
       ],
       "image": "intimate_tease_challenge.svg",
       "recommended_for": {
-        "ua": "пари, які хочуть оживити бажання та вийти за рамки звичних прелюдій",
-        "en": "couples who want to rekindle desire and go beyond typical foreplay"
+        "ua": "пари, які хочуть підняти напругу та урізноманітнити близькість",
+        "en": "couples who want to heighten tension and diversify intimacy"
       },
       "free_or_premium": "premium",
       "status": "active",
@@ -48,73 +48,67 @@
   ],
   "challenge_steps": [
     {
-      "id": "4aa695c0-fb68-4868-a8d6-1660883653b2",
+      "id": "step1-1day-rising-desire",
       "challenge_id": "challenge_3_days_rising_desire",
       "step_number": 1,
       "content": {
-        "ua": "День 1: Тілесна заборона\n\nСьогодні — день дотику без дозволу на секс...",
-        "en": "Day 1: Physical Restraint\n\nToday is about physical contact without sex. Hugs, kisses, flirting — yes. But no touching of intimate zones, even over clothes. The goal is to build tension through restraint. Reflect together in the evening: what turned you on the most?"
+        "ua": "Стримуйте дотики: протягом години після повернення додому обіймайте, цілуйте, фліртуйте — але не торкайтесь інтимних зон і не переходьте межу. Говоріть одне одному, що подобається, або шепочіть фантазії, не завершуючи дію.",
+        "en": "Restrain your touch: for one hour after you’re home, hug, kiss, flirt — but don’t touch intimate zones and don’t cross the line. Tell each other what you like or whisper fantasies, but don’t act on them."
       },
       "tips": [
         {
-          "ua": "Можна писати один одному фліртуючі повідомлення протягом дня.",
-          "en": "You can send each other flirty messages throughout the day."
+          "ua": "Можна залишати фліртуючі нотатки чи повідомлення протягом дня.",
+          "en": "You can leave flirty notes or messages throughout the day."
         },
         {
-          "ua": "Пробуйте торкатись через тканину або дуже повільно наближатися без торкання.",
-          "en": "Try touching through clothing or approaching very slowly without actual contact."
+          "ua": "Погляди, шепіт і легкий дотик — усе працює на напругу.",
+          "en": "Glances, whispers, and gentle touches — all build tension."
         }
       ],
-      "reflection_prompt": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
+      "created_at": "2025-06-19T13:25:00.000000Z",
+      "updated_at": "2025-06-19T13:25:00.000000Z"
     },
     {
-      "id": "5dbe939c-b357-493b-9c79-d7b79a98122d",
+      "id": "step2-1day-rising-desire",
       "challenge_id": "challenge_3_days_rising_desire",
       "step_number": 2,
       "content": {
-        "ua": "День 2: Провокація без фінішу\n\nУвечері домовтеся про ролі: один — провокатор, другий — отримувач...",
-        "en": "Day 2: Tease Without Finish\n\nTonight, agree on roles: one is the teaser, the other the receiver. Tease to the edge, but don’t finish. Whisper, touch, massage, kiss — then either switch or pause."
+        "ua": "Чергуйте ролі: один — дражнить, інший приймає. Дражніть дотиком, масажем, словами, але зупиняйтесь на піку напруги. Поміняйтесь ролями. Домовтесь про стоп-слово, якщо захочете зробити паузу.",
+        "en": "Switch roles: one teases, the other receives. Tease with touch, massage, or words, but stop at the peak of tension. Swap roles. Agree on a safe word if you need a break."
       },
       "tips": [
         {
-          "ua": "Домовтеся про «кодове слово» для зупинки або паузи.",
-          "en": "Agree on a 'safe word' for pause or stop."
+          "ua": "Дотики через одяг або ковдру — гарний спосіб утримати напругу.",
+          "en": "Touching through clothes or a blanket is a good way to keep tension."
         },
         {
-          "ua": "Не поспішайте — ця гра про сповільнення і напругу, а не про результат.",
-          "en": "Take it slow — this game is about tension and buildup, not the end result."
+          "ua": "Говоріть, що вам подобається чи чого хочеться більше.",
+          "en": "Say what you like or want more of."
         }
       ],
-      "reflection_prompt": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
+      "created_at": "2025-06-19T13:25:00.000000Z",
+      "updated_at": "2025-06-19T13:25:00.000000Z"
     },
     {
-      "id": "ee5b15a3-f1f2-4800-9510-fde89eaef69a",
+      "id": "step3-1day-rising-desire",
       "challenge_id": "challenge_3_days_rising_desire",
       "step_number": 3,
       "content": {
-        "ua": "День 3: Вивільнення\n\nСьогодні — ніч реалізації накопиченого бажання...",
-        "en": "Day 3: Release\n\nTonight is the release of accumulated desire. Prepare the space — music, lights, scents. Discuss desires and limits. Use oils, blindfolds, favorite positions or elements from previous days."
+        "ua": "Фінал обираєте разом: залишаєте напругу до ранку, розряджаєте її у спільному душі, масажі чи іншій формі близькості — як захочете. Головне — обійміться й поділіться емоціями після челенджу.",
+        "en": "Choose your finale together: keep the tension until morning, release it in a shared shower, massage, or any intimacy you want. The key — hug and share your emotions after the challenge."
       },
       "tips": [
         {
-          "ua": "Після — обговоріть, що було найприємніше і чи хочете повторити досвід у майбутньому.",
-          "en": "After — discuss what felt best and whether you’d like to repeat the experience."
+          "ua": "Немає правильного фіналу — головне, щоб обидва були задоволені.",
+          "en": "There’s no right finale — just be sure both feel good with your choice."
         },
         {
-          "ua": "Можна завершити вечір спільною ванною або сном в обіймах.",
-          "en": "End the night with a shared bath or cuddling to sleep."
+          "ua": "Обговоріть, що було найцікавіше і чи хочете спробувати ще.",
+          "en": "Discuss what was most exciting and if you want to repeat."
         }
       ],
-      "reflection_prompt": {
-        "ua": "Що тобі дало найбільше задоволення? Який момент був несподівано сильним?",
-        "en": "What brought you the most pleasure? Which moment was surprisingly intense?"
-      },
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
+      "created_at": "2025-06-19T13:25:00.000000Z",
+      "updated_at": "2025-06-19T13:25:00.000000Z"
     }
   ]
 }

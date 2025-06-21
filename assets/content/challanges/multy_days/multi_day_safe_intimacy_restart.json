@@ -17,10 +17,10 @@
         "en": "Gentle Restart"
       },
       "description": {
-        "ua": "Цей 4-денний челендж допоможе парам, які втратили сексуальний зв'язок або почуваються скуто, відновити інтимність через м’які, але глибокі практики. Без тиску. Без очікувань. З повагою.",
-        "en": "This 4-day challenge helps couples who have lost sexual connection or feel distant to restore intimacy through soft, deep practices — without pressure or expectations."
+        "ua": "Цей челендж допоможе парам, які втратили сексуальний зв'язок або почуваються скуто, відновити інтимність через м’які, але глибокі практики. Без тиску. Без очікувань. З повагою.",
+        "en": "This challenge helps couples who have lost sexual connection or feel distant to restore intimacy through soft, deep practices — without pressure or expectations."
       },
-      "days": 4,
+      "days": 1,
       "goal": {
         "ua": "Відновити фізичну й емоційну інтимність у парі без тиску.",
         "en": "Restore physical and emotional intimacy in the couple without pressure."
@@ -51,8 +51,8 @@
       "challenge_id": "challenge_safe_intimacy_restart",
       "step_number": 1,
       "content": {
-        "ua": "Ніч 1: Безпечна розмова про близькість\n\nПоговоріть по черзі: що для вас означає сексуальна близькість? Коли ви відчуваєте себе найбільш бажаним/ою? Чого вам бракує останнім часом?",
-        "en": "Night 1: Safe Talk About Intimacy\n\nTake turns discussing: what does sexual closeness mean to you? When do you feel most desired? What have you been missing lately?"
+        "ua": "Безпечна розмова про близькість\n\nПоговоріть по черзі: що для вас означає сексуальна близькість? Коли ви відчуваєте себе найбільш бажаним/ою? Чого вам бракує останнім часом?",
+        "en": "Safe Talk About Intimacy\n\nTake turns discussing: what does sexual closeness mean to you? When do you feel most desired? What have you been missing lately?"
       },
       "created_at": "2025-05-22T15:18:30.979392Z",
       "updated_at": "2025-05-22T15:18:30.979392Z"
@@ -62,8 +62,8 @@
       "challenge_id": "challenge_safe_intimacy_restart",
       "step_number": 2,
       "content": {
-        "ua": "Ніч 2: Ритуал дотику\n\nПо черзі даруйте один одному 10-хвилинний дотик — повільний, теплий, з повною увагою...",
-        "en": "Night 2: Touch Ritual\n\nTake turns giving each other 10 minutes of warm, slow, intentional touch..."
+        "ua": "Ритуал дотику\n\nПо черзі даруйте один одному 10-хвилинний дотик — повільний, теплий, з повною увагою...",
+        "en": "Touch Ritual\n\nTake turns giving each other 10 minutes of warm, slow, intentional touch..."
       },
       "created_at": "2025-05-22T15:18:30.979392Z",
       "updated_at": "2025-05-22T15:18:30.979392Z"
@@ -73,19 +73,8 @@
       "challenge_id": "challenge_safe_intimacy_restart",
       "step_number": 3,
       "content": {
-        "ua": "Ніч 3: 3 «так», 3 «можливо», 3 «ні»\n\nКожен складає 3 списки: те, що хоче спробувати; що цікаво з умовами; і що точно ні. Обговоріть.",
-        "en": "Night 3: 3 Yes, 3 Maybe, 3 No\n\nEach partner writes 3 lists: what they want to try; what they're curious about with conditions; and what they don't want. Then discuss."
-      },
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "dc3baba5-1968-4ae4-90d1-714f1ce17282",
-      "challenge_id": "challenge_safe_intimacy_restart",
-      "step_number": 4,
-      "content": {
-        "ua": "Ніч 4: Близькість у тиші\n\nСядьте навпроти одне одного, дотикаючись (руки, ноги, обійми)...",
-        "en": "Night 4: Intimacy in Silence\n\nSit facing each other and touch (hands, legs, hugs)... Then lie next to each other in silence. End with a non-verbal connection."
+        "ua": "3 «так», 3 «можливо», 3 «ні»\n\nКожен складає 3 списки: те, що хоче спробувати; що цікаво з умовами; і що точно ні. Обговоріть.",
+        "en": "3 Yes, 3 Maybe, 3 No\n\nEach partner writes 3 lists: what they want to try; what they're curious about with conditions; and what they don't want. Then discuss."
       },
       "created_at": "2025-05-22T15:18:30.979392Z",
       "updated_at": "2025-05-22T15:18:30.979392Z"

@@ -13,14 +13,14 @@
     {
       "id": "challenge_five_nights_desire",
       "title": {
-        "ua": "П'ять ночей бажання",
-        "en": "Five Nights of Desire"
+        "ua": "Ніч бажань",
+        "en": "Night of Desire"
       },
       "description": {
-        "ua": "Цей челендж створено, щоб кожна ніч відкривала новий рівень вашої сексуальної близькості...",
+        "ua": "Цей челендж розроблений таким чином, щоб кожна ніч відкривала новий рівень сексуального зв'язку. Кожен день приносить нове завдання, яке збуджує, розкриває фантазії та зміцнює зв'язок. Ідеально підходить для пар, які прагнуть порушити рутину та дослідити інтимну близькість.",
         "en": "This challenge is designed so that each night opens a new level of sexual connection. Each day brings a new task that arouses, reveals fantasies, and strengthens the bond. Perfect for couples looking to break the routine and explore intimacy."
       },
-      "days": 5,
+      "days": 1,
       "goal": {
         "ua": "Відкрити нові форми сексуальної близькості через гру, фантазії та тілесність.",
         "en": "Explore new forms of sexual intimacy through play, fantasy, and physicality."
@@ -51,8 +51,8 @@
       "challenge_id": "challenge_five_nights_desire",
       "step_number": 1,
       "content": {
-        "ua": "Ніч 1: Відверті питання\n\nОбміняйтеся 5 інтимними запитаннями...",
-        "en": "Night 1: Intimate Questions\n\nExchange 5 intimate questions — about fantasies, preferences, memories..."
+        "ua": "Обміняйтеся 5 інтимними питаннями — про фантазії, вподобання, спогади...",
+        "en": "Exchange 5 intimate questions — about fantasies, preferences, memories..."
       },
       "created_at": "2025-05-22T15:18:30.979392Z",
       "updated_at": "2025-05-22T15:18:30.979392Z",
@@ -72,23 +72,12 @@
       ]
     },
     {
-      "id": "6bd2b766-4940-46ab-aaf4-96aa46474cad",
+      "id": "e06f6096-c0e0-4c3b-8472-d3d8f069a6b0",
       "challenge_id": "challenge_five_nights_desire",
       "step_number": 2,
       "content": {
-        "ua": "Ніч 2: Мапа поцілунків\n\nПо черзі цілуйте одне одного в різні частини тіла...",
-        "en": "Night 2: Kiss Map\n\nTake turns kissing each other in different body areas — observe the response, then switch roles."
-      },
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "e06f6096-c0e0-4c3b-8472-d3d8f069a6b0",
-      "challenge_id": "challenge_five_nights_desire",
-      "step_number": 3,
-      "content": {
-        "ua": "Ніч 3: Сценарій фантазії\n\nРазом придумайте один еротичний сценарій...",
-        "en": "Night 3: Fantasy Scenario\n\nTogether create a fantasy scenario — roleplay, setting, or simply talking aloud."
+        "ua": "Разом створіть фантастичний сценарій — рольову гру, обстановку або просто розмову вголос.",
+        "en": "Together create a fantasy scenario — roleplay, setting, or simply talking aloud."
       },
       "created_at": "2025-05-22T15:18:30.979392Z",
       "updated_at": "2025-05-22T15:18:30.979392Z",
@@ -106,10 +95,10 @@
     {
       "id": "728c2e9b-6d88-44a2-ba04-d8248aa67611",
       "challenge_id": "challenge_five_nights_desire",
-      "step_number": 4,
+      "step_number": 3,
       "content": {
-        "ua": "Ніч 4: Влада і контроль\n\nОдин з партнерів бере на себе роль ведучого...",
-        "en": "Night 4: Power and Control\n\nOne partner leads, the other submits — with clear rules, safe word, and mutual consent."
+        "ua": "Один партнер веде, інший підкоряється — за чіткими правилами, за словом безпеки та за взаємною згодою.",
+        "en": "One partner leads, the other submits — with clear rules, safe word, and mutual consent."
       },
       "created_at": "2025-05-22T15:18:30.979392Z",
       "updated_at": "2025-05-22T15:18:30.979392Z",
@@ -123,21 +112,6 @@
           "en": "Use a safe word (e.g., 'yellow' for pause, 'red' to stop)."
         }
       ]
-    },
-    {
-      "id": "888bb60a-9804-41ae-9026-ebf71eb8e6c5",
-      "challenge_id": "challenge_five_nights_desire",
-      "step_number": 5,
-      "content": {
-        "ua": "Ніч 5: Вибух відчуттів\n\nСьогодні — ніч, коли ви об'єднуєте найкращі моменти...",
-        "en": "Night 5: Explosion of Sensations\n\nTonight — combine everything that aroused and connected you in previous nights. End with reflection."
-      },
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z",
-      "reflection_prompt": {
-        "ua": "Що я відкрив/ла нового про себе чи партнера за ці 5 днів?",
-        "en": "What did I discover about myself or my partner over these 5 days?"
-      }
     }
   ]
 }

@@ -17,13 +17,13 @@
         "en": "Boundless Fantasies"
       },
       "description": {
-        "ua": "Цей челендж допоможе вам разом дослідити свої приховані бажання...",
-        "en": "This challenge helps you explore your hidden desires together, activate sexual imagination, and build a safe space for openness, play, and trust. Each day brings you closer to understanding each other and your intimate potential."
+        "ua": "Цей челендж допоможе відкрити приховані бажання, розвинути уяву та навчитись довіряти одне одному у сфері інтимності. Все відбувається у безпечному просторі — без засудження чи обов’язку щось реалізовувати.",
+        "en": "This challenge helps you open up hidden desires, develop imagination, and learn to trust each other in intimacy. All happens in a safe space — without judgment or pressure to act."
       },
-      "days": 5,
+      "days": 1,
       "goal": {
-        "ua": "Створити простір для фантазій, новизни й глибшого контакту.",
-        "en": "Create space for fantasy, novelty, and deeper connection."
+        "ua": "Створити простір для фантазій, гри та відвертості — словом і дотиком.",
+        "en": "Create a space for fantasy, playful talk, and openness — through words and touch."
       },
       "category_id": "sexual_closeness",
       "subcategory_slug": "novelty",
@@ -36,8 +36,8 @@
       ],
       "image": "challenge_boundless_fantasies.svg",
       "recommended_for": {
-        "ua": "пари, які хочуть ділитися фантазіями й урізноманітнити близькість",
-        "en": "couples who want to share fantasies and diversify intimacy"
+        "ua": "пари, які хочуть вільніше говорити про свої бажання, навіть якщо раніше цього не робили",
+        "en": "couples who want to speak more freely about desires, even if they never tried before"
       },
       "free_or_premium": "premium",
       "status": "active",
@@ -47,118 +47,46 @@
   ],
   "challenge_steps": [
     {
-      "id": "14b34a05-c672-438b-8a5d-14e65ff938a1",
+      "id": "step1-boundless-fantasies",
       "challenge_id": "challenge_boundless_fantasies",
       "step_number": 1,
       "content": {
-        "ua": "Питання без табу\n\nКожен із вас відповідає на 5 інтимних запитань...",
-        "en": "No-Taboo Questions\n\nEach of you answers 5 intimate questions. Choose from the list or create your own. The goal: honesty, playfulness, and trust — without judgment."
+        "ua": "Сядьте поруч. Кожен із вас (по черзі) ділиться однією еротичною фантазією або інтимною мрією — це може бути щось, про що ви ще ніколи не говорили. Головне — повна довіра і жодної критики чи сміху.",
+        "en": "Sit side by side. Each of you, in turn, shares one erotic fantasy or intimate dream — it can be something you’ve never spoken about before. The key is full trust, no criticism or laughter."
       },
-      "tips": null,
-      "examples": [
+      "tips": [
         {
-          "ua": "Яке з моїх дотиків тобі найбільше запам’яталось?",
-          "en": "Which of my touches do you remember the most?"
+          "ua": "Якщо складно почати, запишіть свою фантазію на аркуші і передайте партнеру.",
+          "en": "If it’s hard to start, write your fantasy on a note and pass it to your partner."
         },
         {
-          "ua": "Що ти ніколи не пробував/ла, але хотів/ла б?",
-          "en": "What have you never tried but would like to?"
-        },
-        {
-          "ua": "Чи були у тебе фантазії, які ти досі не озвучив/ла?",
-          "en": "Have you had fantasies you’ve never voiced?"
+          "ua": "Достатньо одного речення чи образу — не потрібно деталізувати.",
+          "en": "One sentence or image is enough — you don’t have to go into details."
         }
       ],
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
+      "created_at": "2025-06-19T13:00:00.000000Z",
+      "updated_at": "2025-06-19T13:00:00.000000Z"
     },
     {
-      "id": "558df730-4d36-4f90-8d3e-69bf857f7cd9",
+      "id": "step2-boundless-fantasies",
       "challenge_id": "challenge_boundless_fantasies",
       "step_number": 2,
       "content": {
-        "ua": "Створіть спільну фантазію\n\nПобудуйте інтимну сцену разом — по черзі додаючи фрази...",
-        "en": "Create a Shared Fantasy\n\nBuild a sensual scene together — take turns adding phrases. One starts with 'Imagine we're...', and the other continues. Write it down, then discuss."
+        "ua": "По черзі оберіть: або описати словами, чим ця фантазія приваблює, або показати легкий дотик, який асоціюється з цією мрією. Головне — без очікувань реалізації, просто відкритий контакт.",
+        "en": "Take turns: either describe with words what attracts you in this fantasy, or show a light touch that relates to the dream. The point is not to act it out, but to share openly."
       },
       "tips": [
         {
-          "ua": "Ви можете сміятись — це нормально.",
-          "en": "You may laugh — that’s totally fine."
+          "ua": "Підтримайте одне одного усмішкою, поглядом або обіймами після обміну.",
+          "en": "Support each other with a smile, a look, or an embrace after sharing."
         },
         {
-          "ua": "Фантазія не зобов'язує до дій, лише розкриває бажання.",
-          "en": "Fantasy doesn’t require action — it reveals desire."
+          "ua": "Можна завершити вечір легким масажем чи розмовою про почуття.",
+          "en": "You can end the evening with a gentle massage or a talk about your feelings."
         }
       ],
-      "examples": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "e810f85e-6180-4a64-aa29-0ab7e4974c0b",
-      "challenge_id": "challenge_boundless_fantasies",
-      "step_number": 3,
-      "content": {
-        "ua": "Тілесна карта\n\nВикористайте пальці, поцілунки або легкі дотики...",
-        "en": "Body Map\n\nUse fingers, kisses, or gentle touch to explore your partner’s body. Find 5 zones that trigger physical or emotional reaction. Name them like places on a sensual map."
-      },
-      "tips": [
-        {
-          "ua": "Уникайте очевидного — досліджуйте несподівані зони...",
-          "en": "Avoid the obvious — explore surprising zones like inner elbows, collarbones, ankles."
-        },
-        {
-          "ua": "Слухайте невербальні сигнали: дихання, мікрорухи, затримки.",
-          "en": "Listen for nonverbal cues: breath, micro-movements, pauses."
-        }
-      ],
-      "examples": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "101e0a3b-bc63-4f18-a444-f182beec1801",
-      "challenge_id": "challenge_boundless_fantasies",
-      "step_number": 4,
-      "content": {
-        "ua": "Роль слова\n\nУпродовж дня надсилайте одне одному еротичні фрази...",
-        "en": "The Role of Words\n\nThroughout the day, send each other erotic lines like: 'If we were alone right now, I’d...' This is about mental play — not action."
-      },
-      "tips": [
-        {
-          "ua": "Нехай це буде несподівано — раптовий меседж може сильно вплинути.",
-          "en": "Make it unexpected — a sudden message can have big impact."
-        },
-        {
-          "ua": "Пишіть з інтонацією: інтригуюче, ніжно, з натяком.",
-          "en": "Write with tone: intriguing, soft, suggestive."
-        }
-      ],
-      "examples": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
-    },
-    {
-      "id": "b879c3df-d1cf-44fd-b109-9f4261a3b2d3",
-      "challenge_id": "challenge_boundless_fantasies",
-      "step_number": 5,
-      "content": {
-        "ua": "Втілення уявного\n\nОбговоріть, яка фантазія з попередніх днів здавалася найбільш захопливою...",
-        "en": "Bringing Fantasy to Life\n\nDiscuss which fantasy from the week felt most exciting — and bring it to life in an adapted form. Set boundaries and a safeword before you begin. Hug and reflect afterwards."
-      },
-      "tips": [
-        {
-          "ua": "Створіть атмосферу — світло, тканини, музика, парфум.",
-          "en": "Create the atmosphere — light, fabric, music, scent."
-        },
-        {
-          "ua": "Мета не в досконалості реалізації, а в довірі та новизні.",
-          "en": "It’s not about perfect execution — it’s about trust and novelty."
-        }
-      ],
-      "examples": null,
-      "created_at": "2025-05-22T15:18:30.979392Z",
-      "updated_at": "2025-05-22T15:18:30.979392Z"
+      "created_at": "2025-06-19T13:00:00.000000Z",
+      "updated_at": "2025-06-19T13:00:00.000000Z"
     }
   ]
 }

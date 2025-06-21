@@ -16,7 +16,7 @@ class DailyContentJsonDTO {
     required this.isTestRequired,
     required this.status,
     required this.createdAt,
-    this.phraseId,
+    this.phraseTitle,
     this.dailyTaskTitle,
     this.techniqueTitle,
     this.challengeTitle,
@@ -34,8 +34,8 @@ class DailyContentJsonDTO {
   final String courseSlug;
   @JsonKey(name: 'category_id')
   final String categoryId;
-  @JsonKey(name: 'phrase_id')
-  final String? phraseId;
+  @JsonKey(name: 'phrase_title')
+  final String? phraseTitle;
   @JsonKey(name: 'daily_task_title')
   final String? dailyTaskTitle;
   @JsonKey(name: 'technique_title')
@@ -64,7 +64,7 @@ class DailyContentJsonDTO {
     String? courseId,
     String? courseSlug,
     String? categoryId,
-    String? phraseId,
+    String? phraseTitle,
     String? dailyTaskTitle,
     String? techniqueTitle,
     String? challengeTitle,
@@ -82,7 +82,7 @@ class DailyContentJsonDTO {
       courseId: courseId ?? this.courseId,
       courseSlug: courseSlug ?? this.courseSlug,
       categoryId: categoryId ?? this.categoryId,
-      phraseId: phraseId ?? this.phraseId,
+      phraseTitle: phraseTitle ?? this.phraseTitle,
       dailyTaskTitle: dailyTaskTitle ?? this.dailyTaskTitle,
       techniqueTitle: techniqueTitle ?? this.techniqueTitle,
       challengeTitle: challengeTitle ?? this.challengeTitle,
