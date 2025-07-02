@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/daily_content/json/daily_content_json_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -24,10 +25,36 @@ class DailyContentDTO {
     required this.testId,
   });
 
+  factory DailyContentDTO.fromDailyContentJsonDTO({
+    required DailyContentJsonDTO dailyContentJsonDTO,
+    required String? dailyTaskId,
+    required String phraseId,
+    required String? challengeId,
+    required String? techniqueId,
+    required String? testId,
+  }) =>
+      DailyContentDTO(
+        id: dailyContentJsonDTO.id,
+        dayNumber: dailyContentJsonDTO.dayNumber,
+        courseId: dailyContentJsonDTO.courseId,
+        courseSlug: dailyContentJsonDTO.courseSlug,
+        categoryId: dailyContentJsonDTO.categoryId,
+        isDailyTaskRequired: dailyContentJsonDTO.isDailyTaskRequired,
+        isTechniqueRequired: dailyContentJsonDTO.isTechniqueRequired,
+        isChallengeRequired: dailyContentJsonDTO.isChallengeRequired,
+        isTestRequired: dailyContentJsonDTO.isTestRequired,
+        status: dailyContentJsonDTO.status,
+        createdAt: dailyContentJsonDTO.createdAt,
+        dailyTaskId: dailyTaskId,
+        challengeId: challengeId,
+        techniqueId: techniqueId,
+        testId: testId,
+        phraseId: phraseId,
+      );
+
   factory DailyContentDTO.fromJson(Map<String, dynamic> json) => _$DailyContentDTOFromJson(json);
 
-  factory DailyContentDTO.fromAppWriteJson(Map<String, dynamic> json) =>
-      DailyContentDTO(
+  factory DailyContentDTO.fromAppWriteJson(Map<String, dynamic> json) => DailyContentDTO(
         id: json['id'] as String,
         dayNumber: json['day_number'] as int,
         courseId: json['course_id'] as String,
@@ -41,7 +68,7 @@ class DailyContentDTO {
         createdAt: DateTime.parse(json['created_at'] as String),
         dailyTaskId: json['daily_task_id'] as String,
         challengeId: json['challenge_id'] as String,
-        phraseId: json['phrase_id'] as String?,
+        phraseId: json['phrase_id'] as String,
         techniqueId: json['technique_id'] as String?,
         testId: json['test_id'] as String?,
       );
@@ -56,13 +83,13 @@ class DailyContentDTO {
   @JsonKey(name: 'category_id')
   final String categoryId;
   @JsonKey(name: 'phrase_id')
-  final String? phraseId;
+  final String phraseId;
   @JsonKey(name: 'daily_task_id')
-  final String dailyTaskId;
+  final String? dailyTaskId;
   @JsonKey(name: 'technique_id')
   final String? techniqueId;
   @JsonKey(name: 'challenge_id')
-  final String challengeId;
+  final String? challengeId;
   @JsonKey(name: 'test_id')
   final String? testId;
   @JsonKey(name: 'is_daily_task_required')
@@ -79,8 +106,7 @@ class DailyContentDTO {
 
   Map<String, dynamic> toJson() => _$DailyContentDTOToJson(this);
 
-  Map<String, dynamic> toDataBaseJson() =>
-      {
+  Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'day_number': dayNumber,
         'course_id': courseId,

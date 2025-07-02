@@ -26,12 +26,8 @@ Databases _getDataBase() {
   return Databases(client);
 }
 
-Future<void> writeToDataBaseDailyTasks() async {
-  final database = _getDataBase();
-
-  const dailyTaskCollection = 'daily_tasks';
-
-  final listOfFilesDailyTasks = [
+Future<List<DailyTaskDTO>> parseDailyTask() async {
+  final listOfFilesDailyPhrase = [
     'assets/content/daily_tasks/category_relationship_crisis/2-4.json',
     'assets/content/daily_tasks/category_relationship_crisis/5-7.json',
     'assets/content/daily_tasks/category_relationship_crisis/8-11.json',
@@ -48,7 +44,7 @@ Future<void> writeToDataBaseDailyTasks() async {
 
   var dailyTasks = <DailyTaskDTO>[];
 
-  for (final filePath in listOfFilesDailyTasks) {
+  for (final filePath in listOfFilesDailyPhrase) {
     final content = await _getFileData(filePath);
 
     for (final dynamicData in content) {
@@ -56,6 +52,16 @@ Future<void> writeToDataBaseDailyTasks() async {
       dailyTasks.add(task);
     }
   }
+
+  return dailyTasks;
+}
+
+Future<void> writeToDataBaseDailyTasks() async {
+  final database = _getDataBase();
+
+  const dailyTaskCollection = 'daily_tasks';
+
+  var dailyTasks = await parseDailyTask();
 
   var uploadedDailyTasks = <DailyTaskDTO>[];
   for (final dailyTask in dailyTasks) {

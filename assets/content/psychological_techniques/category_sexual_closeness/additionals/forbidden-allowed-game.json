@@ -1,0 +1,169 @@
+{
+  "technique": {
+    "id": "forbidden-allowed-game",
+    "title": {
+      "ua": "Взаємна гра 'Заборонене — дозволене'",
+      "en": "Mutual Game 'Forbidden – Allowed'"
+    },
+    "description": {
+      "ua": "Переосмисліть межі дозволеного й дізнайтеся, що для вас означає сексуальна свобода й інтимна довіра у стосунках.",
+      "en": "Rethink your boundaries and discover what sexual freedom and intimate trust mean for you as a couple."
+    },
+    "goal": {
+      "ua": "Зробити кордони у сексуальному житті свідомими, посилити довіру та створити новий рівень інтимної свободи.",
+      "en": "Make your sexual boundaries conscious, strengthen trust and create a new level of intimate freedom."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "boundaries-and-trust",
+    "widget_type": "technique",
+    "duration": "25 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "У «Дозволеному» з’явилась ідея рольової гри: сьогодні ви влаштували вечір перевтілень — різні одяги, звертання одне до одного як до незнайомців, еротичні фрази. Це підняло градус напруги, ви вперше пробували секс поза звичними ролями.",
+        "en": "In your 'Allowed' list, a role-play idea appeared: tonight you organized a transformation night — different outfits, addressing each other as strangers, erotic phrases. It heightened the excitement, and for the first time you tried sex beyond your usual roles."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Відзначайте, що змінилося у вашому сприйнятті й відчуттях після гри.",
+        "en": "Note what has changed in your perceptions and feelings after the game."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "forbidden-allowed-step-1",
+      "technique_id": "forbidden-allowed-game",
+      "step_number": 1,
+      "title": {
+        "ua": "Списки «Заборонене» і «Дозволене»",
+        "en": "'Forbidden' and 'Allowed' Lists"
+      },
+      "instruction": {
+        "ua": "Разом створіть два списки: «Заборонене» (що точно не підходить вам обом зараз) та «Дозволене» (інтимні фантазії, нові практики, рольові ігри, флірт, які хочете дослідити чи спробувати).",
+        "en": "Together, create two lists: 'Forbidden' (what definitely doesn't fit both of you now) and 'Allowed' (intimate fantasies, new practices, role-plays, flirting you want to explore or try)."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "«Заборонене» — публічні місця, «Дозволене» — нові сценарії.",
+        "en": "'Forbidden' — public places, 'Allowed' — new scenarios."
+      },
+      "tips": [
+        {
+          "ua": "Пишіть чесно, не ідеалізуйте, а фіксуйте реальні відчуття.",
+          "en": "Write honestly, don't idealize, but record real feelings."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "forbidden-allowed-step-2",
+      "technique_id": "forbidden-allowed-game",
+      "step_number": 2,
+      "title": {
+        "ua": "Відверте обговорення",
+        "en": "Open Discussion"
+      },
+      "instruction": {
+        "ua": "Кожну ідею з «Дозволеного» обговорюйте відверто: що збуджує, що трохи лякає, яка емоція виникає при думці реалізувати це разом.",
+        "en": "Discuss each idea from the 'Allowed' list openly: what excites you, what scares you, what emotion arises when you imagine trying it together."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Обговорили флірт у новому місці — трохи лячно, але цікаво.",
+        "en": "Discussed flirting in a new place — a bit scary but exciting."
+      },
+      "tips": [
+        {
+          "ua": "Відкритість — ключ до довіри й нового досвіду.",
+          "en": "Openness is the key to trust and new experiences."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "forbidden-allowed-step-3",
+      "technique_id": "forbidden-allowed-game",
+      "step_number": 3,
+      "title": {
+        "ua": "Вибір ідеї для інтеграції",
+        "en": "Choose an Idea to Integrate"
+      },
+      "instruction": {
+        "ua": "Виберіть одну ідею з «Дозволеного» й інтегруйте її у вашу гру: наприклад, рольова сцена, інтимний меседж, новий спосіб дотиків.",
+        "en": "Choose one idea from the 'Allowed' list and integrate it into your game: a role-play scene, an intimate message, a new way of touching."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Вибрали рольову сцену з перевтіленням.",
+        "en": "Chose a role-play scene with transformation."
+      },
+      "tips": [
+        {
+          "ua": "Почніть з малого, спостерігайте за своїми емоціями.",
+          "en": "Start small, observe your emotions."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "forbidden-allowed-step-4",
+      "technique_id": "forbidden-allowed-game",
+      "step_number": 4,
+      "title": {
+        "ua": "Оголені обійми та діалог",
+        "en": "Naked Embrace and Dialogue"
+      },
+      "instruction": {
+        "ua": "Після — обійміться оголеними, обговоріть, що змінює такі ігри у вашій близькості, чи виникли нові фантазії або бажання.",
+        "en": "Afterward, embrace naked, discuss how these games affect your intimacy, and whether any new fantasies or desires have emerged."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Вперше розповіли про нову фантазію після обіймів.",
+        "en": "Shared a new fantasy for the first time after embracing."
+      },
+      "tips": [
+        {
+          "ua": "Фізичний контакт після гри допомагає закріпити довіру.",
+          "en": "Physical contact after the game helps strengthen trust."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "forbidden-allowed-step-5",
+      "technique_id": "forbidden-allowed-game",
+      "step_number": 5,
+      "title": {
+        "ua": "Фіксація відкриттів",
+        "en": "Fixing the Discoveries"
+      },
+      "instruction": {
+        "ua": "Зафіксуйте найінтимніші відкриття у спільному записнику або придумайте секретний символ для цього досвіду.",
+        "en": "Record your most intimate discoveries in a shared notebook or invent a secret symbol for this experience."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Записали ідеї у спільний щоденник бажань.",
+        "en": "Wrote ideas in a shared desire diary."
+      },
+      "tips": [
+        {
+          "ua": "Фіксація допомагає повернутися до приємного досвіду пізніше.",
+          "en": "Recording helps you return to the pleasant experience later."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

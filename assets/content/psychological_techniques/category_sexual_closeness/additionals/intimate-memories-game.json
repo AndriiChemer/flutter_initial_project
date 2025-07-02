@@ -1,0 +1,143 @@
+{
+  "technique": {
+    "id": "intimate-memories-game",
+    "title": {
+      "ua": "Гра інтимних спогадів",
+      "en": "Intimate Memories Game"
+    },
+    "description": {
+      "ua": "Зануртесь у глибину сексуальної близькості, пригадуючи найеротичніші моменти ваших стосунків та відкриваючи свої бажання один одному.",
+      "en": "Dive into deep sexual closeness by recalling your most erotic moments together and sharing your desires with each other."
+    },
+    "goal": {
+      "ua": "Відкрити свої бажання, підсилити довіру та створити нові еротичні спогади у парі.",
+      "en": "Open up about your desires, build trust, and create new erotic memories as a couple."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "emotional-intimacy",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ви разом пригадали секс на відпочинку біля води, і цього разу вирішили повторити цю атмосферу вдома: приглушене світло, вологі рушники, довгі дотики й слова, які тоді збуджували найбільше.",
+        "en": "You both recalled sex by the water during a vacation and decided to recreate this at home: dimmed lights, damp towels, long touches, and the words that excited you most then."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не поспішайте — дозвольте кожному згадати й поділитися моментом у комфортному темпі.",
+        "en": "Don’t rush — let each of you recall and share your moment at a comfortable pace."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "intimate-memories-game-step-1",
+      "technique_id": "intimate-memories-game",
+      "step_number": 1,
+      "title": {
+        "ua": "Початок: налаштуйтеся на близькість",
+        "en": "Start: Set the Mood for Intimacy"
+      },
+      "instruction": {
+        "ua": "Сядьте поруч, візьміться за руки. По черзі згадайте й опишіть три найбільш збуджуючі або інтимні моменти, які ви пережили разом.",
+        "en": "Sit together, hold hands. Take turns recalling and describing the three most arousing or intimate moments you experienced together."
+      },
+      "duration": "5 хвилин",
+      "example": {
+        "ua": "Наприклад, особливий дотик, погляд, секс у незвичному місці.",
+        "en": "For example, a special touch, a look, or sex in an unusual place."
+      },
+      "tips": [
+        {
+          "ua": "Діліться без осуду і не перебивайте одне одного.",
+          "en": "Share without judgment and don’t interrupt each other."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "intimate-memories-game-step-2",
+      "technique_id": "intimate-memories-game",
+      "step_number": 2,
+      "title": {
+        "ua": "Аналіз спогадів",
+        "en": "Analyze Your Memories"
+      },
+      "instruction": {
+        "ua": "Кожен розповідає, чому саме цей момент був таким збуджуючим, що тоді хотілося зробити, чого не вистачало чи що запам’яталося у відчуттях.",
+        "en": "Each partner shares why this moment was so arousing, what they wanted to do, what was missing or memorable about the sensations."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Наприклад, ти відчув/відчула прилив бажання від несподіваного дотику.",
+        "en": "For example, you felt a rush of desire from an unexpected touch."
+      },
+      "tips": [
+        {
+          "ua": "Говоріть про свої відчуття максимально чесно.",
+          "en": "Talk about your sensations as honestly as possible."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "intimate-memories-game-step-3",
+      "technique_id": "intimate-memories-game",
+      "step_number": 3,
+      "title": {
+        "ua": "Вибір спільного спогаду",
+        "en": "Choose a Shared Memory"
+      },
+      "instruction": {
+        "ua": "Разом оберіть один спогад, який би хотіли повторити або розвинути: обговоріть, як це можна зробити сьогодні або найближчим часом.",
+        "en": "Together, choose one memory you’d like to repeat or expand: discuss how you can do it today or soon."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Наприклад, повторити особливий вечір або додати нову деталь.",
+        "en": "For example, recreate a special evening or add a new detail."
+      },
+      "tips": [
+        {
+          "ua": "Будьте відкриті до експериментів — навіть невеликі зміни можуть зробити досвід новим.",
+          "en": "Be open to experiments — even small changes can make the experience new."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "intimate-memories-game-step-4",
+      "technique_id": "intimate-memories-game",
+      "step_number": 4,
+      "title": {
+        "ua": "Відтворення моменту",
+        "en": "Recreate the Moment"
+      },
+      "instruction": {
+        "ua": "Перейдіть до фізичного контакту: відтворіть хоча б фрагмент з того спогаду – поцілунок, ласку, погляд, позу, фразу.",
+        "en": "Move to physical contact: recreate at least a fragment of that memory — a kiss, caress, look, pose, or phrase."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Спробуйте відтворити атмосферу того вечора вдома.",
+        "en": "Try to recreate the atmosphere of that evening at home."
+      },
+      "tips": [
+        {
+          "ua": "Довіряйте своїм бажанням і не поспішайте — нехай все відбувається природно.",
+          "en": "Trust your desires and don’t rush — let everything happen naturally."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

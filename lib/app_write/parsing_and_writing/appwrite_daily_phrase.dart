@@ -4,6 +4,7 @@ import 'dart:developer';
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:iteo_libraries_example/app_write/dto/daily_phrase/daily_phrase_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_task/daily_task_dto.dart';
 
 //TODO task: compare all challenge models if everything was created with success
@@ -26,46 +27,42 @@ Databases _getDataBase() {
   return Databases(client);
 }
 
+Future<List<DailyPhraseDTO>> parseDailyPhrase() async {
+  final listOfFilesDailyPhrase = [
+    'assets/content/daily_phrase/category_sexual_closeness/1-60.json',
+    'assets/content/daily_phrase/category_relationship_crisis/1-60.json',
+  ];
+
+  var dailyPhrase = <DailyPhraseDTO>[];
+
+  for (final filePath in listOfFilesDailyPhrase) {
+    final content = await _getFileData(filePath);
+
+    for (final dynamicData in content) {
+      final task = DailyPhraseDTO.fromDynamic(dynamicData);
+      dailyPhrase.add(task);
+    }
+  }
+
+  return dailyPhrase;
+}
+
 Future<void> writeToDataBaseDailyTasks() async {
   final database = _getDataBase();
 
   const dailyTaskCollection = 'daily_tasks';
 
-  final listOfFilesDailyTasks = [
-    'assets/content/daily_tasks/category_relationship_crisis/2-4.json',
-    'assets/content/daily_tasks/category_relationship_crisis/5-7.json',
-    'assets/content/daily_tasks/category_relationship_crisis/8-11.json',
-    'assets/content/daily_tasks/category_relationship_crisis/12-15.json',
-    'assets/content/daily_tasks/category_relationship_crisis/16-20.json',
-    'assets/content/daily_tasks/category_sexual_closeness/1-5.json',
-    'assets/content/daily_tasks/category_sexual_closeness/6-10.json',
-    'assets/content/daily_tasks/category_sexual_closeness/11-15.json',
-    'assets/content/daily_tasks/category_sexual_closeness/16-21.json',
-    'assets/content/daily_tasks/category_sexual_closeness/22-26.json',
-    'assets/content/daily_tasks/category_sexual_closeness/27-30.json',
-    'assets/content/daily_tasks/category_sexual_closeness/31-33.json',
-  ];
-
-  var dailyTasks = <DailyTaskDTO>[];
-
-  for (final filePath in listOfFilesDailyTasks) {
-    final content = await _getFileData(filePath);
-
-    for (final dynamicData in content) {
-      final task = DailyTaskDTO.fromDynamic(dynamicData);
-      dailyTasks.add(task);
-    }
-  }
+  final dailyTasks = await parseDailyPhrase();
 
   var uploadedDailyTasks = <DailyTaskDTO>[];
-  for (final dailyTask in dailyTasks) {
-    final uploadedDailyTask = await _createSingleTask(
-      database: database,
-      collectionId: dailyTaskCollection,
-      dailyTask: dailyTask,
-    );
-    uploadedDailyTasks.add(uploadedDailyTask);
-  }
+  // for (final dailyTask in dailyTasks) {
+  //   final uploadedDailyTask = await _createSingleTask(
+  //     database: database,
+  //     collectionId: dailyTaskCollection,
+  //     dailyTask: dailyTask,
+  //   );
+  //   uploadedDailyTasks.add(uploadedDailyTask);
+  // }
 
   log('\n\n=====START=============\n');
   for (final uploadedDailyTask in uploadedDailyTasks) {

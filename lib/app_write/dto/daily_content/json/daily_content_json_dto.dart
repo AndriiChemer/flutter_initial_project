@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'daily_content_json_dto.g.dart';
@@ -34,7 +35,7 @@ class DailyContentJsonDTO {
   final String courseSlug;
   @JsonKey(name: 'category_id')
   final String categoryId;
-  @JsonKey(name: 'phrase_title')
+  @JsonKey(name: 'daily_phrase_title')
   final String? phraseTitle;
   @JsonKey(name: 'daily_task_title')
   final String? dailyTaskTitle;
@@ -52,7 +53,7 @@ class DailyContentJsonDTO {
   final bool isChallengeRequired;
   @JsonKey(name: 'is_test_required')
   final bool isTestRequired;
-  final String status;
+  final StatusDTO status;
   @JsonKey(name: 'created_at')
   final DateTime createdAt;
 
@@ -73,7 +74,7 @@ class DailyContentJsonDTO {
     bool? isTechniqueRequired,
     bool? isChallengeRequired,
     bool? isTestRequired,
-    String? status,
+    StatusDTO? status,
     DateTime? createdAt,
   }) {
     return DailyContentJsonDTO(

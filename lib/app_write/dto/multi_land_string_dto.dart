@@ -15,6 +15,10 @@ class MultiLangStringDTO {
 
   final Map<String, String> languages;
 
+  String get en {
+    return languages.entries.last.value;
+  }
+
   Map<String, dynamic> toJson() => languages;
 
   @override

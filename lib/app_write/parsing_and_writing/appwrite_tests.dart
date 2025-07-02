@@ -25,12 +25,7 @@ Databases _getDataBase() {
   return Databases(client);
 }
 
-Future<void> writeToDataBaseTests() async {
-  final database = _getDataBase();
-
-  const testsCollection = 'tests';
-  const testQuestionsCollection = 'test_questions';
-
+Future<List<TestDTO>> parseTests() async {
   final listOfFilesTests = [
     'assets/content/tests/category_relationship_crisis/compromise_level_test.json',
     'assets/content/tests/category_relationship_crisis/conflict_behavior_level.json',
@@ -57,6 +52,9 @@ Future<void> writeToDataBaseTests() async {
     'assets/content/tests/category_relationship_crisis/relationship_support_check.json',
     'assets/content/tests/category_relationship_crisis/trust_and_support.json',
     'assets/content/tests/category_relationship_crisis/unspoken_emotions.json',
+    'assets/content/tests/category_relationship_crisis/emotional_distance_level_2.json',
+    'assets/content/tests/category_relationship_crisis/intimacy_barriers_2.json',
+    'assets/content/tests/category_relationship_crisis/emotional_closeness_empathy_test.json',
     'assets/content/tests/category_sexual_closeness/boundaries_and_comfort.json',
     'assets/content/tests/category_sexual_closeness/erotic_profile.json',
     'assets/content/tests/category_sexual_closeness/hidden_fantasies_test.json',
@@ -72,14 +70,10 @@ Future<void> writeToDataBaseTests() async {
     'assets/content/tests/category_sexual_closeness/sexual_style.json',
     'assets/content/tests/category_sexual_closeness/sexual_vocabulary_quiz.json',
     'assets/content/tests/category_sexual_closeness/unspoken_desires.json',
-    'assets/content/tests/category_relationship_crisis/emotional_distance_level_2.json',
-    'assets/content/tests/category_relationship_crisis/intimacy_barriers_2.json',
     'assets/content/tests/category_sexual_closeness/sexual_interests_and_desires_2.json',
     'assets/content/tests/category_sexual_closeness/sexual_desires_openness.json',
-    'assets/content/tests/category_relationship_crisis/emotional_closeness_empathy_test.json',
   ];
 
-  // Medium, High, Deep, For all, Intermediate, Advanced, Easy, For couples in crisis
   var testDTOList = <TestDTO>[];
 
   for (final filePath in listOfFilesTests) {
@@ -87,9 +81,18 @@ Future<void> writeToDataBaseTests() async {
 
     final testDTO = TestDTO.fromJson(dataMap);
     testDTOList.add(testDTO);
-
-    // print("ANDRII ${testDTO.id} - ${testDTO.recommendations.toString().length}");
   }
+
+  return testDTOList;
+}
+
+Future<void> writeToDataBaseTests() async {
+  final database = _getDataBase();
+
+  const testsCollection = 'tests';
+  const testQuestionsCollection = 'test_questions';
+
+  var testDTOList = await parseTests();
 
   final testsWithQuestions = await _createTests(
     database: database,

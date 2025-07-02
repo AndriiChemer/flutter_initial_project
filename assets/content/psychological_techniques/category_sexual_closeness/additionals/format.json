@@ -1,0 +1,65 @@
+{
+  "technique": {
+    "id": "",
+    "title": {
+      "ua": "",
+      "en": ""
+    },
+    "description": {
+      "ua": "",
+      "en": ""
+    },
+    "goal": {
+      "ua": "",
+      "en": ""
+    },
+    "category_id": "",
+    "subcategory_slug": "",
+    "widget_type": "",
+    "duration": "",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "",
+        "en": ""
+      }
+    ],
+    "tips": [
+      {
+        "ua": "",
+        "en": ""
+      }
+    ],
+    "created_at": "",
+    "updated_at": ""
+  },
+  "technique_steps": [
+    {
+      "id": "",
+      "technique_id": "",
+      "step_number": 1,
+      "title": {
+        "ua": "",
+        "en": ""
+      },
+      "instruction": {
+        "ua": "",
+        "en": ""
+      },
+      "duration": "",
+      "example": {
+        "ua": "",
+        "en": ""
+      },
+      "tips": [
+        {
+          "ua": "",
+          "en": ""
+        }
+      ],
+      "created_at": "",
+      "updated_at": ""
+    }
+  ]
+}

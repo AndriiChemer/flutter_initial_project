@@ -1,0 +1,169 @@
+{
+  "technique": {
+    "id": "desire-scenario",
+    "title": {
+      "ua": "Сценарій бажань",
+      "en": "Desire Scenario"
+    },
+    "description": {
+      "ua": "Створіть інтимний сценарій, який відображає ваші найпотаємніші сексуальні фантазії, і візьміть обох у спільну гру ролей або нових еротичних досвідів.",
+      "en": "Create an intimate scenario reflecting your deepest sexual fantasies, and immerse both of you in a shared role-play or new erotic experience."
+    },
+    "goal": {
+      "ua": "Відкрити новий рівень спілкування, фантазії та тілесності у парі.",
+      "en": "Open a new level of communication, fantasy, and physical intimacy in your couple."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "roleplay-and-fantasy",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ваша фантазія перетворилася на сценарій: партнерка чекає в халаті, ти заходиш після душу, грає легка музика, ви промовляєте один одному таємні бажання і пробуєте нову позу, яку ще не наважувалися запропонувати.",
+        "en": "Your fantasy turned into a scenario: your partner waits in a robe, you enter after a shower, gentle music is playing, you whisper secret desires to each other and try a new position you've never dared to propose before."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не зупиняйте фантазію навіть якщо здається незручною — досліджуйте разом.",
+        "en": "Don't stop the fantasy even if it feels awkward — explore it together."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "desire-scenario-step-1",
+      "technique_id": "desire-scenario",
+      "step_number": 1,
+      "title": {
+        "ua": "Додаємо деталі",
+        "en": "Add Details"
+      },
+      "instruction": {
+        "ua": "Виділіть 10–15 хвилин для гри у фантазії. По черзі додавайте деталі до спільного сексуального сценарію: хто ви, де відбувається дія, як ви одягнені, хто ініціює, які бажання озвучує, які табу зникають.",
+        "en": "Take 10–15 minutes to play with fantasy. Take turns adding details to your shared sexual scenario: who you are, where it takes place, what you're wearing, who initiates, what desires are voiced, which taboos disappear."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Партнерка вигадує сцену: ніч у готелі, несподіваний дзвінок у двері.",
+        "en": "Your partner invents a scene: a night in a hotel, an unexpected knock at the door."
+      },
+      "tips": [
+        {
+          "ua": "Не обмежуйте себе лише знайомими сценаріями.",
+          "en": "Don't limit yourself to familiar scenarios."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "desire-scenario-step-2",
+      "technique_id": "desire-scenario",
+      "step_number": 2,
+      "title": {
+        "ua": "Прийняття фантазій",
+        "en": "Accepting Fantasies"
+      },
+      "instruction": {
+        "ua": "Під час вигадування не зупиняйте і не осуджуйте фантазії партнера, навіть якщо щось здається незвичним.",
+        "en": "While inventing, don't stop or judge your partner's fantasies, even if something seems unusual."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Партнер ділиться незвичною ідеєю — ви з інтересом слухаєте.",
+        "en": "Your partner shares an unusual idea — you listen with interest."
+      },
+      "tips": [
+        {
+          "ua": "Будьте відкриті, уникайте сарказму чи осуду.",
+          "en": "Be open, avoid sarcasm or judgment."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "desire-scenario-step-3",
+      "technique_id": "desire-scenario",
+      "step_number": 3,
+      "title": {
+        "ua": "Планування сцени",
+        "en": "Scene Planning"
+      },
+      "instruction": {
+        "ua": "Складіть разом невеликий план цієї сцени (наприклад, рольова гра, зміна місця, використання нових дотиків чи аксесуарів).",
+        "en": "Together, make a small plan for the scene (for example, role play, change of location, new touches or accessories)."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Ви домовилися додати рольову гру та новий аксесуар.",
+        "en": "You agree to add a role play and a new accessory."
+      },
+      "tips": [
+        {
+          "ua": "Додайте деталі, які викликають найбільший інтерес.",
+          "en": "Add details that generate the most interest."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "desire-scenario-step-4",
+      "technique_id": "desire-scenario",
+      "step_number": 4,
+      "title": {
+        "ua": "Вибір для реалізації",
+        "en": "Choose What to Try"
+      },
+      "instruction": {
+        "ua": "Обговоріть, яку частину сценарію ви готові спробувати вже сьогодні: можна почати з діалогу, нових слів, пози чи атмосфери.",
+        "en": "Discuss which part of the scenario you’re ready to try today: you can start with dialogue, new words, a position, or the atmosphere."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Ви вирішили почати з нової пози та ігрового діалогу.",
+        "en": "You decided to start with a new position and playful dialogue."
+      },
+      "tips": [
+        {
+          "ua": "Почніть з простого, не намагайтеся втілити все одразу.",
+          "en": "Start with something simple, don't try to implement everything at once."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "desire-scenario-step-5",
+      "technique_id": "desire-scenario",
+      "step_number": 5,
+      "title": {
+        "ua": "Втілення фрагменту",
+        "en": "Enact a Fragment"
+      },
+      "instruction": {
+        "ua": "Реалізуйте одну деталь прямо зараз — фразу, позу, роль, ініціативу.",
+        "en": "Enact one detail right now — a phrase, a position, a role, an initiative."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Скажіть фразу з фантазії або спробуйте новий дотик.",
+        "en": "Say a phrase from the fantasy or try a new touch."
+      },
+      "tips": [
+        {
+          "ua": "Насолоджуйтеся процесом, не фокусуйтеся на результаті.",
+          "en": "Enjoy the process, don’t focus on the result."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

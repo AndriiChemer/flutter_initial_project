@@ -1,0 +1,169 @@
+{
+  "technique": {
+    "id": "fantasy-in-detail",
+    "title": {
+      "ua": "Фантазія в деталях",
+      "en": "Fantasy in Detail"
+    },
+    "description": {
+      "ua": "Навчіться деталізовано, сміливо й без осуду ділитися сексуальними фантазіями — розвивайте інтимність і відкритість.",
+      "en": "Learn to share sexual fantasies in detail, bravely and without judgment — develop intimacy and openness."
+    },
+    "goal": {
+      "ua": "Розвинути глибшу інтимність, підвищити довіру і відкрити новий рівень діалогу у стосунках.",
+      "en": "Deepen intimacy, build trust, and open a new level of dialogue in your relationship."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "fantasy-sharing",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ти поділився мрією про інтимну ніч у готелі з дзеркалами та приглушеним світлом: уявили деталі одягу, аромат олії, слова, якими обмінювались у процесі прелюдії. Партнерка захоплено реагує, пропонує уявити продовження й додає свою фантазію.",
+        "en": "You shared a fantasy about an intimate night in a hotel room with mirrors and dimmed lights: you imagined clothing details, the scent of oil, and the words you exchanged during foreplay. Your partner responded enthusiastically, suggested imagining a continuation, and added her own fantasy."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Створіть атмосферу прийняття: усі фантазії — це нормально, не поспішайте з реалізацією.",
+        "en": "Create an accepting atmosphere: all fantasies are okay, no rush to act them out."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "fantasy-in-detail-step-1",
+      "technique_id": "fantasy-in-detail",
+      "step_number": 1,
+      "title": {
+        "ua": "Виберіть фантазію",
+        "en": "Choose a Fantasy"
+      },
+      "instruction": {
+        "ua": "Запропонуйте партнеру обрати одну сексуальну фантазію, про яку ще не розповідали.",
+        "en": "Invite your partner to choose one sexual fantasy they haven’t shared before."
+      },
+      "duration": "2 min",
+      "example": {
+        "ua": "Попросіть пригадати навіть маленьку, але цікаву мрію.",
+        "en": "Ask them to recall even a small but intriguing dream."
+      },
+      "tips": [
+        {
+          "ua": "Не тисніть і не оцінюйте вибір партнера.",
+          "en": "Don’t pressure or judge your partner’s choice."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "fantasy-in-detail-step-2",
+      "technique_id": "fantasy-in-detail",
+      "step_number": 2,
+      "title": {
+        "ua": "Опис деталей",
+        "en": "Describe the Details"
+      },
+      "instruction": {
+        "ua": "Опишіть фантазію максимально детально: атмосфера, одяг, пози, звуки, дотики, слова, темп, навіть запахи та світло.",
+        "en": "Describe the fantasy in as much detail as possible: atmosphere, clothing, positions, sounds, touches, words, tempo, even smells and lighting."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Уявіть, який одяг на вас, яка музика звучить, якого кольору світло.",
+        "en": "Imagine what you’re wearing, what music is playing, and what the lighting is like."
+      },
+      "tips": [
+        {
+          "ua": "Деталізація допомагає зробити фантазію більш живою та емоційною.",
+          "en": "Detail makes the fantasy more vivid and emotional."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "fantasy-in-detail-step-3",
+      "technique_id": "fantasy-in-detail",
+      "step_number": 3,
+      "title": {
+        "ua": "Активне слухання",
+        "en": "Active Listening"
+      },
+      "instruction": {
+        "ua": "Партнер слухає з абсолютною прийнятністю та цікавістю — без коментарів і сміху.",
+        "en": "The partner listens with full acceptance and curiosity — no comments or laughter."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Слухайте уважно, підтримуйте поглядом чи дотиком.",
+        "en": "Listen attentively, support with eye contact or touch."
+      },
+      "tips": [
+        {
+          "ua": "Ваша реакція створює атмосферу довіри та безпеки.",
+          "en": "Your reaction creates an atmosphere of trust and safety."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "fantasy-in-detail-step-4",
+      "technique_id": "fantasy-in-detail",
+      "step_number": 4,
+      "title": {
+        "ua": "Спільна фантазія",
+        "en": "Imagine Together"
+      },
+      "instruction": {
+        "ua": "Після поділу пофантазуйте разом: як би це могло виглядати у вашій реальності, яку деталь хотілося б додати чи змінити.",
+        "en": "After sharing, imagine together: how could this look in your real life, what detail would you like to add or change?"
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Разом оберіть, яку деталь хотілося б додати.",
+        "en": "Together, pick a detail you’d like to add."
+      },
+      "tips": [
+        {
+          "ua": "Діліться навіть найнесподіванішими ідеями — це простір без оцінок.",
+          "en": "Share even the most unexpected ideas — this is a judgment-free space."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "fantasy-in-detail-step-5",
+      "technique_id": "fantasy-in-detail",
+      "step_number": 5,
+      "title": {
+        "ua": "Втілення фантазії",
+        "en": "Implementing the Fantasy"
+      },
+      "instruction": {
+        "ua": "Залиште фантазію як частину вашого спільного простору — або, якщо відчуєте бажання, інтегруйте її елемент у вечір.",
+        "en": "Leave the fantasy as part of your shared space — or, if you both feel like it, integrate an element of it into your evening."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Можна просто подивитись фільм у відповідній атмосфері або спробувати один з описаних елементів.",
+        "en": "You might simply watch a movie in the right mood or try one described element."
+      },
+      "tips": [
+        {
+          "ua": "Не тисніть — іноді фантазія може залишитися просто фантазією, і це теж ок.",
+          "en": "Don’t push — sometimes a fantasy can just remain a fantasy, and that’s okay."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

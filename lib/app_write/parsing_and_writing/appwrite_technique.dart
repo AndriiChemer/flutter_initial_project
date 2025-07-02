@@ -27,12 +27,7 @@ Databases _getDataBase() {
   return Databases(client);
 }
 
-Future<void> writeToDataBaseTechnique() async {
-  final database = _getDataBase();
-
-  const techniquesCollection = 'techniques';
-  const techniqueStepsCollection = 'technique_steps';
-
+Future<Map<TechniqueDTO, List<TechniqueStepDTO>>> parseTechniques() async {
   final listOfFilesDailyTasks = [
     'assets/content/psychological_techniques/category_relationship_crisis/emotional_detox.json',
     'assets/content/psychological_techniques/category_relationship_crisis/empathy_technique.json',
@@ -76,6 +71,17 @@ Future<void> writeToDataBaseTechnique() async {
     final techniqueStepsDTO = techniqueStepsDynamicList.map(TechniqueStepDTO.fromDynamic).toList();
     techniquesWithSteps[techniqueDTO] = techniqueStepsDTO;
   }
+
+  return techniquesWithSteps;
+}
+
+Future<void> writeToDataBaseTechnique() async {
+  final database = _getDataBase();
+
+  const techniquesCollection = 'techniques';
+  const techniqueStepsCollection = 'technique_steps';
+
+  var techniquesWithSteps = await parseTechniques();
 
   techniquesWithSteps = await _createTechniques(
     database: database,

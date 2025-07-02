@@ -1,0 +1,169 @@
+{
+  "technique": {
+    "id": "divided-initiative",
+    "title": {
+      "ua": "Розділена ініціатива",
+      "en": "Divided Initiative"
+    },
+    "description": {
+      "ua": "Спробуйте змінити сексуальну динаміку вашої пари: кожен отримує можливість вести, домінувати або підкорятися у грі бажань.",
+      "en": "Try to change the sexual dynamics in your couple: each partner gets a chance to lead, dominate, or surrender in the game of desire."
+    },
+    "goal": {
+      "ua": "Поглибити довіру та дослідити нову динаміку ролей у сексуальних стосунках.",
+      "en": "Deepen trust and explore new dynamics of roles in your sexual relationship."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "roles-and-initiative",
+    "widget_type": "technique",
+    "duration": "25 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Сьогодні партнерка взяла ініціативу: зав’язала очі, спокійно вела руками по тілу, задавала темп і глибину дотиків. Ти дозволив собі просто віддатися відчуттям. Пізніше змінилися ролями — і вперше спробували сценарій з повною довірою, командою і новими фразами під час сексу.",
+        "en": "Today your partner took the initiative: she blindfolded you, guided your body with her hands, set the pace and depth of touch. You allowed yourself to simply surrender to the sensations. Later you switched roles — and for the first time tried a scenario of complete trust and new phrases during sex."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не поспішайте, обговоріть всі межі та слова безпеки заздалегідь.",
+        "en": "Take your time, discuss all boundaries and safewords beforehand."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "divided-initiative-step-1",
+      "technique_id": "divided-initiative",
+      "step_number": 1,
+      "title": {
+        "ua": "Обговорення звичних ролей",
+        "en": "Discuss Your Usual Roles"
+      },
+      "instruction": {
+        "ua": "Відверто обговоріть, хто зазвичай ініціює секс, пропонує нові ідеї, а хто пасивний. Погодьтеся сьогодні помінятись ролями повністю.",
+        "en": "Honestly discuss who usually initiates sex, suggests new ideas, and who is more passive. Agree to swap roles completely today."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Зазвичай партнер веде, сьогодні ініціатива у вас.",
+        "en": "If your partner usually leads, today you take the initiative."
+      },
+      "tips": [
+        {
+          "ua": "Довіряйте собі навіть якщо відчуваєте хвилювання.",
+          "en": "Trust yourself even if you feel nervous."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "divided-initiative-step-2",
+      "technique_id": "divided-initiative",
+      "step_number": 2,
+      "title": {
+        "ua": "Ритуал передачі ініціативи",
+        "en": "Initiative Transfer Ritual"
+      },
+      "instruction": {
+        "ua": "Установіть ритуал передачі ініціативи: наприклад, роздягання одного з партнерів, поцілунок у шию, вручення предмета — все, що стане сигналом до початку.",
+        "en": "Establish a ritual for transferring initiative: for example, undressing one partner, a kiss on the neck, handing over an object — anything that will be a clear signal to start."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Партнер передає ключ або стрічку як символ зміни ролі.",
+        "en": "The partner hands over a key or ribbon as a symbol of switching roles."
+      },
+      "tips": [
+        {
+          "ua": "Створіть унікальний знак, який підійде саме вашій парі.",
+          "en": "Create a unique signal that fits your couple."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "divided-initiative-step-3",
+      "technique_id": "divided-initiative",
+      "step_number": 3,
+      "title": {
+        "ua": "Гра домінування і підкорення",
+        "en": "The Game of Dominance and Surrender"
+      },
+      "instruction": {
+        "ua": "Протягом вечора один партнер веде гру: визначає сценарій, ініціює пози чи техніки, промовляє бажання. Другий — повністю підкоряється та виконує прохання (у межах домовленостей і безпеки).",
+        "en": "During the evening, one partner leads: defines the scenario, initiates positions or techniques, voices desires. The other fully surrenders and fulfills requests (within prior agreements and safety)."
+      },
+      "duration": "8 min",
+      "example": {
+        "ua": "Партнерка веде гру: визначає ритм, пози, настрій.",
+        "en": "Your partner leads: sets rhythm, positions, mood."
+      },
+      "tips": [
+        {
+          "ua": "Використовуйте слова безпеки, якщо щось виходить за межі комфорту.",
+          "en": "Use safewords if anything goes beyond comfort."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "divided-initiative-step-4",
+      "technique_id": "divided-initiative",
+      "step_number": 4,
+      "title": {
+        "ua": "Зміна ролей",
+        "en": "Switch Roles"
+      },
+      "instruction": {
+        "ua": "Після — ролі міняються, повторіть гру у дзеркальному сценарії або домовтеся, коли спробуєте знову.",
+        "en": "Afterwards, switch roles and repeat the game in a mirrored scenario, or agree when you’ll try again."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Партнерка віддає ініціативу тобі, тепер ти ведеш.",
+        "en": "Your partner gives initiative to you, now you lead."
+      },
+      "tips": [
+        {
+          "ua": "Обговоріть, які емоції виникли під час зміни ролей.",
+          "en": "Discuss the emotions that arose while switching roles."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "divided-initiative-step-5",
+      "technique_id": "divided-initiative",
+      "step_number": 5,
+      "title": {
+        "ua": "Обійми й зворотний зв'язок",
+        "en": "Embrace and Feedback"
+      },
+      "instruction": {
+        "ua": "Завершіть вечір у щирих обіймах, обговоріть: що було найінтимнішим, що хотілося б додати, що хочеться пережити знову.",
+        "en": "End the evening in a sincere embrace, discuss what was most intimate, what you’d like to add, and what you want to experience again."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Ви обговорюєте, які моменти були найбільш чуттєвими.",
+        "en": "You discuss which moments were the most sensual."
+      },
+      "tips": [
+        {
+          "ua": "Щирий діалог — ключ до глибшого зв’язку.",
+          "en": "Honest dialogue is key to a deeper connection."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

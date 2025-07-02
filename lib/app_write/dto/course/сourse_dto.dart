@@ -25,7 +25,7 @@ class CourseDTO {
         slug: json['slug'] as String,
         name: MultiLangStringDTO.fromStringJson(json['name_json'] as String),
         description: MultiLangStringDTO.fromStringJson(json['description_json'] as String),
-        categoryId: json['category_id'] as String,
+        categoryId: (json['category_id'] as Map<String, dynamic>)['id'] as String,
         duration: json['duration'] as int,
         createdAt: DateTime.parse(json['created_at'] as String),
         updatedAt: DateTime.parse(json['updated_at'] as String),

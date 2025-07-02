@@ -1,0 +1,169 @@
+{
+  "technique": {
+    "id": "my-three-desires-game",
+    "title": {
+      "ua": "Гра «Мої три бажання»",
+      "en": "Game 'My Three Desires'"
+    },
+    "description": {
+      "ua": "Відверто озвучте три свої найінтимніші сексуальні бажання чи фантазії, дослідіть реакції та знайдіть, що з цього збуджує і надихає вас разом.",
+      "en": "Honestly voice your three most intimate sexual desires or fantasies, explore each other's reactions, and find what truly excites and inspires you together."
+    },
+    "goal": {
+      "ua": "Посилити відвертість і довіру у стосунках, дати простір для обговорення навіть найбільш особистих фантазій.",
+      "en": "Increase openness and trust, create a safe space to discuss even the most private fantasies."
+    },
+    "category_id": "sexual_closeness",
+    "subcategory_slug": "sexual-openness",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ти вперше зізнався, що мрієш про прелюдію з масажем олією, і партнерка одразу погодилася спробувати це сьогодні ввечері – ви разом створили нову еротичну атмосферу та поділились емоціями після.",
+        "en": "You admitted for the first time that you dream about a sensual oil massage as foreplay. Your partner immediately agreed to try it that very evening — you created a new erotic atmosphere together and shared your emotions afterwards."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Пам’ятайте: бажання — це простір для дослідження, а не обов’язкова дія. Ваша чесність — головний крок до нової довіри.",
+        "en": "Remember: desires are a space for exploration, not an obligation. Your honesty is the main step to new trust."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "my-three-desires-step-1",
+      "technique_id": "my-three-desires-game",
+      "step_number": 1,
+      "title": {
+        "ua": "Запис бажань",
+        "en": "Writing Down Desires"
+      },
+      "instruction": {
+        "ua": "Кожен записує три сексуальні бажання чи еротичні фантазії, які досі залишалися лише у мріях.",
+        "en": "Each partner writes down three sexual desires or erotic fantasies they've only dreamed about so far."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Партнер пише: «Мрію про секс у новому місці», «хочу спробувати новий вид ласк», «цікаво обмінятися ролями».",
+        "en": "Partner writes: 'I dream of sex in a new place,' 'want to try a new type of caress,' 'interested in swapping roles.'"
+      },
+      "tips": [
+        {
+          "ua": "Дайте собі простір для фантазії, не обмежуйте себе.",
+          "en": "Allow yourself to fantasize, don't hold back."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "my-three-desires-step-2",
+      "technique_id": "my-three-desires-game",
+      "step_number": 2,
+      "title": {
+        "ua": "Обмін бажаннями",
+        "en": "Sharing Desires"
+      },
+      "instruction": {
+        "ua": "По черзі зачитуйте або промовляйте бажання. Після кожного бажання партнер ставить уточнююче або підтримуюче питання («Що саме тебе збуджує у цій фантазії?», «Що хотілося б спробувати найперше?»).",
+        "en": "Take turns reading or saying each desire out loud. After each, the partner asks a clarifying or supportive question ('What exactly excites you in this fantasy?', 'What would you like to try first?')."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Партнерка запитує: «Що саме тебе збуджує у цій ролі?»",
+        "en": "Partner asks: 'What exactly excites you in this role?'"
+      },
+      "tips": [
+        {
+          "ua": "Підтримуйте партнера, не засуджуйте — лише цікавтеся.",
+          "en": "Support your partner, don't judge — just be curious."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "my-three-desires-step-3",
+      "technique_id": "my-three-desires-game",
+      "step_number": 3,
+      "title": {
+        "ua": "Обговорення та вибір",
+        "en": "Discuss and Choose"
+      },
+      "instruction": {
+        "ua": "Обговоріть, яке з бажань або фантазій вам хотілося б реалізувати разом найближчим часом.",
+        "en": "Discuss which of the desires or fantasies you would both like to try together soon."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Обрали експеримент із масажем як перший крок.",
+        "en": "Chose to experiment with a massage as the first step."
+      },
+      "tips": [
+        {
+          "ua": "Вибирайте те, що надихає вас обох.",
+          "en": "Choose what inspires you both."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "my-three-desires-step-4",
+      "technique_id": "my-three-desires-game",
+      "step_number": 4,
+      "title": {
+        "ua": "Перший крок до реалізації",
+        "en": "First Step to Fulfillment"
+      },
+      "instruction": {
+        "ua": "Виберіть одне й зробіть перший крок до його втілення: наприклад, розмову про ролі, експеримент з дотиками, нову позу чи місце.",
+        "en": "Choose one and make the first step to fulfill it: talk about roles, try new touches, a new position or place."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Вирішили спробувати нову позу цього вечора.",
+        "en": "Decided to try a new position tonight."
+      },
+      "tips": [
+        {
+          "ua": "Маленький крок краще за очікування ідеальних умов.",
+          "en": "A small step is better than waiting for perfect conditions."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "my-three-desires-step-5",
+      "technique_id": "my-three-desires-game",
+      "step_number": 5,
+      "title": {
+        "ua": "Обійми й відчуття безпеки",
+        "en": "Embrace and Sense of Safety"
+      },
+      "instruction": {
+        "ua": "Після вправи обійміться й збережіть відчуття безпеки й довіри.",
+        "en": "After the exercise, hug each other and preserve the sense of safety and trust."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Обійми стали точкою підсумку й нової близькості.",
+        "en": "A hug becomes a moment of summary and new closeness."
+      },
+      "tips": [
+        {
+          "ua": "Обійми — найкращий спосіб завершити відверту розмову.",
+          "en": "A hug is the best way to finish an honest talk."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

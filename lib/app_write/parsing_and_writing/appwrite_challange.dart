@@ -337,3 +337,41 @@ List<SubcategoryDTO> _updateSubcategoryList(SubcategoryDTO? subcategory, List<Su
 
   return subcategories;
 }
+
+Future<Map<ChallengeDTO, List<ChallengeStepDTO>>> parseChallenges() async {
+  final listOfFilesChallenges = [
+    'assets/content/challanges/challanges_without_subcategory.json',
+    'assets/content/challanges/communication_challenges.json',
+    'assets/content/challanges/conflicts_and_quarrels_challenges.json',
+    'assets/content/challanges/daily_life_routine_challenges.json',
+    'assets/content/challanges/distance_and_coldness_challenges_v2.json',
+    'assets/content/challanges/reconnection_after_breakup_challenges.json',
+    'assets/content/challanges/sexual_closeness_advanced_challenges_final.json',
+    'assets/content/challanges/sexual_closeness_by_subcategory.json',
+    'assets/content/challanges/multy_days/multi_day_arousal_game_3_days.json',
+    'assets/content/challanges/multy_days/multi_day_boundless_fantasies.json',
+    'assets/content/challanges/multy_days/multi_day_everyday_intimacy.json',
+    'assets/content/challanges/multy_days/multi_day_five_nights_of_desire_tips_translated.json',
+    'assets/content/challanges/multy_days/multi_day_game_of_desire.json',
+    'assets/content/challanges/multy_days/multi_day_roleplay_another_me.json',
+    'assets/content/challanges/multy_days/multi_day_safe_intimacy_restart.json',
+  ];
+
+  var challengesWithSteps = <ChallengeDTO, List<ChallengeStepDTO>>{};
+
+  for (final filePath in listOfFilesChallenges) {
+    final content = await _getFileData(filePath);
+
+    final challenges = (content['challenges'] as List<dynamic>)
+        .map((itemDynamic) => ChallengeDTO.fromJson(itemDynamic as Map<String, dynamic>));
+    final steps = (content['challenge_steps'] as List<dynamic>)
+        .map((itemDynamic) => ChallengeStepDTO.fromJson(itemDynamic as Map<String, dynamic>));
+
+    for (final challenge in challenges) {
+      final challengeSteps = steps.where((step) => step.challengeId == challenge.id).toList();
+      challengesWithSteps[challenge] = challengeSteps;
+    }
+  }
+
+  return challengesWithSteps;
+}

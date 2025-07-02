@@ -106,59 +106,6 @@
     "free_or_premium": "premium"
   },
   {
-    "id": "no-criticism-day",
-    "title": {
-      "ua": "День без критики",
-      "en": "No Criticism Day"
-    },
-    "category_slug": "crisis_in_relationships",
-    "description": {
-      "ua": "Це завдання спрямоване на те, щоб партнери намагалися уникати критики один одного протягом цілого дня. Замість цього слід акцентувати увагу на позитивних моментах.",
-      "en": "This task encourages partners to avoid criticizing each other for an entire day, focusing instead on the positives."
-    },
-    "steps": [
-      {
-        "number": 1,
-        "ua": "Визначте день, коли ви обидва не будете критикувати один одного.",
-        "en": "Pick a day when neither of you will criticize each other."
-      },
-      {
-        "number": 2,
-        "ua": "Спробуйте помічати та відзначати позитивні дії партнера.",
-        "en": "Notice and acknowledge your partner’s positive actions."
-      },
-      {
-        "number": 3,
-        "ua": "В кінці дня обговоріть, як ви себе почували та що нового помітили.",
-        "en": "At the end of the day, discuss how you felt and what you noticed."
-      }
-    ],
-    "widget_type": "daily_challenge",
-    "duration": "1 day",
-    "status": "active",
-    "examples": [
-      {
-        "ua": "Сьогодні я помітив/помітила, як ти допомагаєш мені без прохань.",
-        "en": "Today I noticed how you helped me without being asked."
-      },
-      {
-        "ua": "Мені сподобалось, що ти підтримав/підтримала мене у розмові.",
-        "en": "I liked how you supported me in the conversation."
-      }
-    ],
-    "tips": [
-      {
-        "ua": "Під час завдання звертайте увагу на позитивні моменти.",
-        "en": "Pay attention to positive moments during this task."
-      },
-      {
-        "ua": "Обговоріть, як змінилося ваше сприйняття один одного.",
-        "en": "Discuss how your perception of each other has changed."
-      }
-    ],
-    "free_or_premium": "premium"
-  },
-  {
     "id": "exploring-love-languages",
     "title": {
       "ua": "Вивчення любовних мов",
