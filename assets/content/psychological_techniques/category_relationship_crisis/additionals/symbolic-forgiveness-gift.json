@@ -1,0 +1,117 @@
+{
+  "technique": {
+    "id": "symbolic-forgiveness-gift",
+    "title": {
+      "ua": "Символічний подарунок прощення",
+      "en": "Symbolic Forgiveness Gift"
+    },
+    "description": {
+      "ua": "Практика відпускання старих образ через створення символічного подарунку партнеру.",
+      "en": "A practice of letting go of old grudges by creating a symbolic gift for your partner."
+    },
+    "goal": {
+      "ua": "Відпустити образу і створити новий позитивний досвід у парі.",
+      "en": "Let go of a grudge and create a new positive experience in your couple."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "forgiveness",
+    "widget_type": "technique",
+    "duration": "18 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ти подарував партнеру записку з фразою: «Я більше не тримаю зла за ту сварку», і це допомогло обом відчути полегшення.",
+        "en": "You gave your partner a note: 'I don't hold a grudge for that argument anymore,' and it helped both feel relief."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Вибирайте символічний подарунок із серцем, це може бути навіть проста річ.",
+        "en": "Choose a symbolic gift from the heart, it can be a simple thing."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "symbolic-forgiveness-gift-step-1",
+      "technique_id": "symbolic-forgiveness-gift",
+      "step_number": 1,
+      "title": {
+        "ua": "Згадайте й оберіть образу",
+        "en": "Recall and Choose a Grudge"
+      },
+      "instruction": {
+        "ua": "Згадайте образу чи непорозуміння, яке довго тримали у собі. Кожен із вас придумує маленький символічний подарунок партнеру — це може бути лист, малюнок, браслет, камінчик.",
+        "en": "Recall a grudge or misunderstanding you’ve held inside for a long time. Each of you comes up with a small symbolic gift for your partner — it can be a note, drawing, bracelet, stone."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Я обрала камінчик, що знайшла під час нашої сварки.",
+        "en": "I chose a stone I found during our argument."
+      },
+      "tips": [
+        {
+          "ua": "Найцінніше — це сенс, а не вартість подарунка.",
+          "en": "The meaning matters more than the value."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "symbolic-forgiveness-gift-step-2",
+      "technique_id": "symbolic-forgiveness-gift",
+      "step_number": 2,
+      "title": {
+        "ua": "Вручіть подарунок і скажіть прощення",
+        "en": "Give the Gift and Express Forgiveness"
+      },
+      "instruction": {
+        "ua": "Вручіть подарунок і коротко скажіть, яку образу ви цим відпускаєте. Партнер дякує й приймає — не аналізуючи та не виправдовуючись.",
+        "en": "Hand over the gift and briefly say what grudge you are letting go. The partner thanks and accepts it — without analyzing or justifying."
+      },
+      "duration": "6 min",
+      "example": {
+        "ua": "Я сказав: «Я більше не тримаю зла за ту сварку» і подарував записку.",
+        "en": "I said: 'I don't hold a grudge for that argument anymore' and gave a note."
+      },
+      "tips": [
+        {
+          "ua": "Не потрібно пояснювати чи виправдовуватись — просто прийміть момент.",
+          "en": "No need to explain or justify — just accept the moment."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "symbolic-forgiveness-gift-step-3",
+      "technique_id": "symbolic-forgiveness-gift",
+      "step_number": 3,
+      "title": {
+        "ua": "Збережіть подарунок як символ нового етапу",
+        "en": "Keep the Gift as a Symbol of a New Stage"
+      },
+      "instruction": {
+        "ua": "Збережіть ці подарунки як нагадування про новий етап у стосунках.",
+        "en": "Keep these gifts as reminders of a new stage in your relationship."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Ми залишили подарунки у спільній скриньці.",
+        "en": "We left the gifts in a shared box."
+      },
+      "tips": [
+        {
+          "ua": "Поверніться до подарунків, якщо колись з’явиться нова образа.",
+          "en": "Return to these gifts if a new grudge appears in the future."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

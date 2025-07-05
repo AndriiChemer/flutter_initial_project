@@ -1,29 +1,10 @@
-import 'dart:convert';
 import 'dart:developer';
 
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_question_dto.dart';
-
-const databaseId = '68225f7d0027204d0c21';
-
-Future<Map<String, dynamic>> _getFileData(String path) async {
-  final String jsonString = await rootBundle.loadString(path);
-  return jsonDecode(jsonString) as Map<String, dynamic>;
-}
-
-/// API Endpoint: https://fra.cloud.appwrite.io/v1
-/// ProjectId: 68225f5e002dfa8abbab
-Databases _getDataBase() {
-  final client = Client()
-    ..setEndpoint('https://fra.cloud.appwrite.io/v1')
-    ..setProject('68225f5e002dfa8abbab')
-    ..setSelfSigned(status: true);
-
-  return Databases(client);
-}
 
 Future<List<TestDTO>> parseTests() async {
   final listOfFilesTests = [
@@ -77,17 +58,17 @@ Future<List<TestDTO>> parseTests() async {
   var testDTOList = <TestDTO>[];
 
   for (final filePath in listOfFilesTests) {
-    final dataMap = await _getFileData(filePath);
+    final dataMap = await getFileDataMap(filePath);
 
     final testDTO = TestDTO.fromJson(dataMap);
     testDTOList.add(testDTO);
   }
 
-  return testDTOList;
+  return testDTOList.where((item) => item.categoryId == categoryId).toList();
 }
 
 Future<void> writeToDataBaseTests() async {
-  final database = _getDataBase();
+  final database = getDataBase();
 
   const testsCollection = 'tests';
   const testQuestionsCollection = 'test_questions';

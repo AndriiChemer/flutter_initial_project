@@ -3,33 +3,14 @@ import 'dart:convert';
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/category/category_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/category/subcategory_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_step_dto.dart';
 
-//TODO task: compare all challenge models if everything was created with success
-
-const databaseId = '68225f7d0027204d0c21';
-
-Future<Map<String, dynamic>> _getFileData(String path) async {
-  final String jsonString = await rootBundle.loadString(path);
-  return jsonDecode(jsonString) as Map<String, dynamic>;
-}
-
-/// API Endpoint: https://fra.cloud.appwrite.io/v1
-/// ProjectId: 68225f5e002dfa8abbab
-Databases _getDataBase() {
-  final client = Client()
-    ..setEndpoint('https://fra.cloud.appwrite.io/v1')
-    ..setProject('68225f5e002dfa8abbab')
-    ..setSelfSigned(status: true);
-
-  return Databases(client);
-}
-
 Future<void> writeToDataBaseChallenges() async {
-  final database = _getDataBase();
+  final database = getDataBase();
 
   const categoryCollection = 'categories';
   const subcategoryCollection = 'subcategory';
@@ -338,6 +319,11 @@ List<SubcategoryDTO> _updateSubcategoryList(SubcategoryDTO? subcategory, List<Su
   return subcategories;
 }
 
+Future<Map<String, dynamic>> _getFileData(String path) async {
+  final String jsonString = await rootBundle.loadString(path);
+  return jsonDecode(jsonString) as Map<String, dynamic>;
+}
+
 Future<Map<ChallengeDTO, List<ChallengeStepDTO>>> parseChallenges() async {
   final listOfFilesChallenges = [
     'assets/content/challanges/challanges_without_subcategory.json',
@@ -369,7 +355,9 @@ Future<Map<ChallengeDTO, List<ChallengeStepDTO>>> parseChallenges() async {
 
     for (final challenge in challenges) {
       final challengeSteps = steps.where((step) => step.challengeId == challenge.id).toList();
-      challengesWithSteps[challenge] = challengeSteps;
+      if (challenge.categoryId == categoryId) {
+        challengesWithSteps[challenge] = challengeSteps;
+      }
     }
   }
 

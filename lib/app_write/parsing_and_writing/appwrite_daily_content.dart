@@ -1,8 +1,8 @@
-import 'dart:convert';
 import 'dart:developer';
 
 import 'package:appwrite/appwrite.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:collection/collection.dart';
+import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_content/daily_content_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_content/json/daily_content_json_dto.dart';
@@ -10,45 +10,17 @@ import 'package:iteo_libraries_example/app_write/dto/daily_phrase/daily_phrase_d
 import 'package:iteo_libraries_example/app_write/dto/daily_task/daily_task_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/technique/technique_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/test/test_dto.dart';
-import 'package:iteo_libraries_example/app_write/logs/cocntent_logs.dart';
-
-const databaseId = '68225f7d0027204d0c21';
-
-// 1. Fix duplicates
-// 2. Update all challenges description
-Future<List<dynamic>> _getFileData(String path) async {
-  final String jsonString = await rootBundle.loadString(path);
-  return jsonDecode(jsonString) as List<dynamic>;
-}
-
-/// API Endpoint: https://fra.cloud.appwrite.io/v1
-/// ProjectId: 68225f5e002dfa8abbab
-Databases _getDataBase() {
-  final client = Client()
-    ..setEndpoint('https://fra.cloud.appwrite.io/v1')
-    ..setProject('68225f5e002dfa8abbab')
-    ..setSelfSigned(status: true);
-
-  return Databases(client);
-}
 
 Future<List<DailyContentJsonDTO>> parseDailyContentJsonDTO() async {
-  // const courseId = 'towards_each_other';
-  // const courseSlug = 'towards_each_other';
-  // final listOfFilesDailyContents = [
-  //   'assets/content/daily_content/category_relationship_crisis/1-24-days.json',
-  // ];
-
-  const courseId = 'sexual-closeness';
-  const courseSlug = 'sexual-closeness';
   final listOfFilesDailyContents = [
+    'assets/content/daily_content/category_relationship_crisis/1-24-days.json',
     'assets/content/daily_content/category_sexual_closeness/1-25-days.json',
   ];
 
   var dailyContentsJsons = <DailyContentJsonDTO>[];
 
   for (final filePath in listOfFilesDailyContents) {
-    final contentList = await _getFileData(filePath);
+    final contentList = await getFileDataList(filePath);
 
     for (final dynamicData in contentList) {
       final dailyContentJson = DailyContentJsonDTO.fromJson(dynamicData as Map<String, dynamic>);
@@ -60,23 +32,23 @@ Future<List<DailyContentJsonDTO>> parseDailyContentJsonDTO() async {
       );
     }
   }
-  return [];
-  // return dailyContentsJsons;
+  return dailyContentsJsons.where((item) => item.categoryId == categoryId).toList();
 }
 
 Future<void> writeToDataBaseDailyContents() async {
-  final database = _getDataBase();
+  final database = getDataBase();
 
   const dailyContentCollection = 'daily_content';
 
   var dailyContentsJsons = await parseDailyContentJsonDTO();
-  await showLogsFromJson();
 
   final half = (dailyContentsJsons.length / 2).ceil();
   final firstPart = dailyContentsJsons.sublist(0, half);
   final secondPart = dailyContentsJsons.sublist(half);
 
-  final all = [...firstPart, ...secondPart];
+  final newDay = dailyContentsJsons.firstWhereOrNull((item) => item.dayNumber == 3)?.copyWith(dayNumber: 25);
+  // final all = [...firstPart, ...secondPart];
+  final all = [if (newDay != null) newDay];
   for (final item in all) {
     log('${item.courseId} - ${item.dayNumber}');
   }
@@ -158,6 +130,8 @@ Future<DailyContentDTO> _createSingleDailyContent({
       testId: testDTO?.id,
     );
 
+    log('DailyContent: ${dailyContent.toJson()}');
+
     //TODO create DailyContent with ids:
 
     await database.createDocument(
@@ -166,7 +140,20 @@ Future<DailyContentDTO> _createSingleDailyContent({
       documentId: dailyContent.id,
       data: dailyContent.toDataBaseJson(),
     );
-    print('✅ DailyContent created.\n');
+
+    final response = await database.listDocuments(
+      collectionId: collectionId,
+      databaseId: databaseId,
+      queries: [Query.contains('id', dailyContent.id)],
+    );
+
+    final document = response.documents.firstOrNull;
+    if (document != null) {
+      print('✅ DailyContent created.\n');
+      return DailyContentDTO.fromAppWriteJson(document.data);
+    }
+
+    print('DailyContent not created.\n');
     return dailyContent;
   } catch (e) {
     print('ANDRII: _createSingleCourse ${dailyContentJson.id} | ${dailyContentJson.dayNumber} error $e');

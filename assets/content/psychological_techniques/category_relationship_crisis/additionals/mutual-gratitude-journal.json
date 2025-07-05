@@ -1,0 +1,117 @@
+{
+  "technique": {
+    "id": "mutual-gratitude-journal",
+    "title": {
+      "ua": "Щоденник подяки одне одному",
+      "en": "Mutual Gratitude Journal"
+    },
+    "description": {
+      "ua": "Практика для фіксації і підсилення позитивних моментів навіть у період кризи.",
+      "en": "A practice for noticing and strengthening positive moments, even during crisis."
+    },
+    "goal": {
+      "ua": "Посилити позитивну увагу у парі, фіксувати дрібні прояви турботи й любові.",
+      "en": "Enhance positive attention in the couple, notice small acts of care and love."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "gratitude-and-support",
+    "widget_type": "technique",
+    "duration": "15 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Сьогодні я подякувала тобі за те, що ти приготував сніданок, і відчула легкість і тепло.",
+        "en": "Today I thanked you for making breakfast, and felt warmth and lightness."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не аналізуйте свої записи — просто діліться, навіть якщо момент здається дрібним.",
+        "en": "Don't overanalyze your notes — just share, even if the moment seems small."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "mutual-gratitude-journal-step-1",
+      "technique_id": "mutual-gratitude-journal",
+      "step_number": 1,
+      "title": {
+        "ua": "Заведіть щоденник",
+        "en": "Start a Journal"
+      },
+      "instruction": {
+        "ua": "Заведіть спільний або окремий щоденник для подяк. Кожного дня, протягом тижня, записуйте по одному маленькому моменту вдячності партнеру.",
+        "en": "Start a shared or individual gratitude journal. Every day, for a week, write down one small moment of gratitude to your partner."
+      },
+      "duration": "6 min",
+      "example": {
+        "ua": "Запис: 'Дякую за теплий чай сьогодні вранці.'",
+        "en": "Note: 'Thank you for the warm tea this morning.'"
+      },
+      "tips": [
+        {
+          "ua": "Пишіть навіть про найменші вияви турботи.",
+          "en": "Write about even the smallest acts of care."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "mutual-gratitude-journal-step-2",
+      "technique_id": "mutual-gratitude-journal",
+      "step_number": 2,
+      "title": {
+        "ua": "Діліться вдячністю",
+        "en": "Share Your Gratitude"
+      },
+      "instruction": {
+        "ua": "Раз на декілька днів обговорюйте записи — не оцінюючи, а просто дякуючи за дрібниці.",
+        "en": "Every few days, discuss your notes — without judgment, simply thank each other for the little things."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Ми разом перечитали записи і посміхнулися.",
+        "en": "We reread our notes together and smiled."
+      },
+      "tips": [
+        {
+          "ua": "Нехай ці розмови будуть короткими і теплими.",
+          "en": "Keep these talks short and warm."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "mutual-gratitude-journal-step-3",
+      "technique_id": "mutual-gratitude-journal",
+      "step_number": 3,
+      "title": {
+        "ua": "Підсумки тижня",
+        "en": "End-of-Week Reflection"
+      },
+      "instruction": {
+        "ua": "Завершіть тиждень ритуалом: прочитайте один одному найцінніше із написаного. Обговоріть, що відчули під час цієї практики і що хочете додати у спільне життя.",
+        "en": "End the week with a ritual: read the most valuable notes to each other. Discuss how you felt during this practice and what you want to add to your life together."
+      },
+      "duration": "4 min",
+      "example": {
+        "ua": "Ми вголос прочитали записи і зворушилися.",
+        "en": "We read our notes out loud and were touched."
+      },
+      "tips": [
+        {
+          "ua": "Сфокусуйтеся на емоціях, а не на ідеальності фраз.",
+          "en": "Focus on feelings, not perfect wording."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

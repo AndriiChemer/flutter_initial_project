@@ -24,7 +24,16 @@ class TechniqueDTO {
     required this.updatedAt,
   });
 
-  factory TechniqueDTO.fromJson(Map<String, dynamic> json) => _$TechniqueDTOFromJson(json);
+  factory TechniqueDTO.fromJson1(Map<String, dynamic> json) => _$TechniqueDTOFromJson(json);
+
+  factory TechniqueDTO.fromJson(Map<String, dynamic> json) {
+    try {
+      return _$TechniqueDTOFromJson(json);
+    } catch (ex) {
+      print('Error for Technique: ${json['id'] as String}');
+      rethrow;
+    }
+  }
 
   factory TechniqueDTO.fromAppWriteJson(Map<String, dynamic> json) => TechniqueDTO(
         id: json['id'] as String,

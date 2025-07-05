@@ -1,0 +1,117 @@
+{
+  "technique": {
+    "id": "openness-ritual-about-fears",
+    "title": {
+      "ua": "Ритуал відвертості про страхи",
+      "en": "Openness Ritual about Fears"
+    },
+    "description": {
+      "ua": "Практика для зняття напруги і глибшого розуміння через чесне обговорення потаємних страхів щодо стосунків.",
+      "en": "A practice to relieve tension and reach deeper understanding by openly discussing hidden fears about your relationship."
+    },
+    "goal": {
+      "ua": "Відкрити простір для чесного діалогу про страхи та створити спільну фразу підтримки.",
+      "en": "Open a space for honest dialogue about fears and create a shared support phrase."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "emotional-support",
+    "widget_type": "technique",
+    "duration": "18 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Твій страх: «Ми можемо віддалитися, якщо будемо багато працювати». Після обговорення з’явилась фраза підтримки: «Ми завжди зможемо знайти час для нашої розмови».",
+        "en": "Your fear: 'We might drift apart if we work too much.' After talking, a support phrase appeared: 'We’ll always find time for our talk.'"
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Записуйте страхи й фрази підтримки для нагадування.",
+        "en": "Write down fears and support phrases as reminders."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "openness-ritual-about-fears-step-1",
+      "technique_id": "openness-ritual-about-fears",
+      "step_number": 1,
+      "title": {
+        "ua": "Визначте й поділіться страхом",
+        "en": "Identify and Share Your Fear"
+      },
+      "instruction": {
+        "ua": "Кожен пише на листочку один свій страх, пов’язаний із майбутнім пари. Обміняйтесь записками й проговоріть це вголос: що за цим страхом стоїть, як він впливає на стосунки.",
+        "en": "Each writes down one fear about the couple's future. Exchange notes and say them out loud: what's behind this fear, how does it affect your relationship."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Я боюсь, що ми станемо чужими через відстань або роботу.",
+        "en": "I'm afraid we'll become strangers because of distance or work."
+      },
+      "tips": [
+        {
+          "ua": "Говоріть щиро, не стримуйте емоції.",
+          "en": "Speak honestly, don't hold back your feelings."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "openness-ritual-about-fears-step-2",
+      "technique_id": "openness-ritual-about-fears",
+      "step_number": 2,
+      "title": {
+        "ua": "Створіть фразу підтримки",
+        "en": "Create a Support Phrase"
+      },
+      "instruction": {
+        "ua": "Разом придумайте «фразу підтримки», яку хотіли б чути у моменти, коли страх знову з’являється.",
+        "en": "Together, come up with a 'support phrase' you'd like to hear when the fear comes up again."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Фраза підтримки: «Ми завжди зможемо знайти час для нашої розмови».",
+        "en": "Support phrase: 'We’ll always find time for our talk.'"
+      },
+      "tips": [
+        {
+          "ua": "Повторюйте цю фразу у складні моменти.",
+          "en": "Repeat this phrase in difficult moments."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "openness-ritual-about-fears-step-3",
+      "technique_id": "openness-ritual-about-fears",
+      "step_number": 3,
+      "title": {
+        "ua": "Завершіть обіймами або дотиком",
+        "en": "Finish with an Embrace or Touch"
+      },
+      "instruction": {
+        "ua": "Після обговорення обійміться або торкніться руками для заземлення. Поверніться до цієї вправи, коли відчуєте, що старі страхи знову виникають.",
+        "en": "After the talk, hug or touch hands to ground yourselves. Return to this exercise whenever old fears reappear."
+      },
+      "duration": "6 min",
+      "example": {
+        "ua": "Ми обійнялися після розмови про страхи.",
+        "en": "We hugged after talking about our fears."
+      },
+      "tips": [
+        {
+          "ua": "Фізичний контакт допоможе відчути безпеку.",
+          "en": "Physical touch helps restore safety."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

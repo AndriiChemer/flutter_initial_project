@@ -8,8 +8,6 @@ import 'package:iteo_libraries_example/app_write/parsing_and_writing/appwrite_da
 import 'package:iteo_libraries_example/app_write/parsing_and_writing/appwrite_technique.dart';
 import 'package:iteo_libraries_example/app_write/parsing_and_writing/appwrite_tests.dart';
 
-const categoryId = 'sexual_closeness'; // relationship_crisis, sexual_closeness
-
 void showNullableTitles(List<DailyContentJsonDTO> dailyContentDTO) {
   final phrasesNulls = dailyContentDTO.map((item) => item.phraseTitle).where((item) => item == null).toList();
   final dailyTasksNulls = dailyContentDTO.map((item) => item.dailyTaskTitle).where((item) => item == null).toList();
@@ -63,26 +61,23 @@ Future<void> uniqueChallenges(List<String> titles) async {
   final challengesDTOAll = (await parseChallenges())
       .entries
       .map((entry) => entry.key)
-      .where((item) => item.categoryId == categoryId)
       .map((item) => item.title.languages.entries.last.value)
       .toList();
 
   final setB = Set<String>.from(titles);
   final uniqueChallenges = challengesDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE Challenges:\n');
+  log('====== UNIQUE Challenges - JSON:\n');
   log('count all: ${challengesDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueChallenges ]"\n\n');
 }
 
 Future<void> uniqueTests(List<String> titles) async {
-  final testsDTOAll = (await parseTests())
-      .where((item) => item.categoryId == categoryId)
-      .map((item) => item.title.languages.entries.last.value);
+  final testsDTOAll = (await parseTests()).map((item) => item.title.languages.entries.last.value);
 
   final setB = Set<String>.from(titles);
   final uniqueTests = testsDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE tests:\n');
+  log('====== UNIQUE tests - JSON:\n');
   log('count all: ${testsDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueTests ]"\n\n');
 }
 
@@ -90,37 +85,32 @@ Future<void> uniqueTechniques(List<String> titles) async {
   final techniquesDTOAll = (await parseTechniques())
       .entries
       .map((entry) => entry.key)
-      .where((item) => item.categoryId == categoryId)
       .map((item) => item.title.languages.entries.last.value)
       .toList();
 
   final setB = Set<String>.from(titles);
   final uniqueTechniques = techniquesDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE Techniques:\n');
+  log('====== UNIQUE Techniques - JSON:\n');
   log('count all: ${techniquesDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueTechniques ]"\n\n');
 }
 
 Future<void> uniqueDailyTasks(List<String> titles) async {
-  final tasksDTOAll = (await parseDailyTask())
-      .where((item) => item.categoryId == categoryId)
-      .map((item) => item.title.languages.entries.last.value);
+  final tasksDTOAll = (await parseDailyTask()).map((item) => item.title.languages.entries.last.value);
 
   final setB = Set<String>.from(titles);
   final uniqueTasks = tasksDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE DailyTasks:\n');
+  log('====== UNIQUE DailyTasks - JSON:\n');
   log('count all: ${tasksDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueTasks ]"\n\n');
 }
 
 Future<void> uniquePhrases(List<String> titles) async {
-  final phraseDTOAll = (await parseDailyPhrase())
-      .where((item) => item.categoryId == categoryId)
-      .map((item) => item.phrase.languages.entries.last.value);
+  final phraseDTOAll = (await parseDailyPhrase()).map((item) => item.phrase.languages.entries.last.value);
 
   final setB = Set<String>.from(titles);
   final uniquePhrases = phraseDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE Phrases:\n');
+  log('====== UNIQUE Phrases - JSON:\n');
   log('count all: ${phraseDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniquePhrases ]"\n\n');
 }

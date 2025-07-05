@@ -1,0 +1,117 @@
+{
+  "technique": {
+    "id": "shared-future-wish",
+    "title": {
+      "ua": "Відкрите бажання майбутнього",
+      "en": "Open Wish for the Future"
+    },
+    "description": {
+      "ua": "Вправа для створення спільної мрії й прояснення, чого обидва хочуть від стосунків далі.",
+      "en": "An exercise to create a shared dream and clarify what you both want from your relationship in the future."
+    },
+    "goal": {
+      "ua": "Визначити спільну ціль і зробити перший крок для її досягнення.",
+      "en": "Define a shared goal and take the first step to achieve it."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "future-vision",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Обидва написали, що хочуть більше подорожувати разом. Перше маленьке бажання — разом скласти план на найближчий вікенд.",
+        "en": "Both wrote they want to travel more together. The first small wish — make a plan for the nearest weekend."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Регулярно повертайтесь до спільної цілі, щоб не втрачати мотивацію.",
+        "en": "Return to your shared goal regularly to keep motivated."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "shared-future-wish-step-1",
+      "technique_id": "shared-future-wish",
+      "step_number": 1,
+      "title": {
+        "ua": "Озвучте свої бажання",
+        "en": "Share Your Wishes"
+      },
+      "instruction": {
+        "ua": "Обидва подумайте і запишіть по 3 бажання, що хочете отримати у стосунках протягом наступного року. По черзі озвучуйте свої бажання, пояснюйте чому це важливо.",
+        "en": "Both think and write down 3 wishes for your relationship for the next year. Take turns voicing them and explain why they matter."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Я хочу більше часу на спільні подорожі.",
+        "en": "I want more time for traveling together."
+      },
+      "tips": [
+        {
+          "ua": "Пишіть конкретно й щиро.",
+          "en": "Be specific and sincere."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "shared-future-wish-step-2",
+      "technique_id": "shared-future-wish",
+      "step_number": 2,
+      "title": {
+        "ua": "Виберіть спільну ціль",
+        "en": "Choose a Shared Goal"
+      },
+      "instruction": {
+        "ua": "Разом виберіть одне спільне бажання й сформулюйте, як його можна реалізувати першим кроком уже цього місяця.",
+        "en": "Together, choose one shared wish and decide how you can realize it with a first step this month."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Ми домовилися разом спланувати вікенд.",
+        "en": "We agreed to plan a weekend together."
+      },
+      "tips": [
+        {
+          "ua": "Не беріться за все й одразу — маленькі кроки простіше реалізувати.",
+          "en": "Don’t try to do everything at once — small steps are easier to accomplish."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "shared-future-wish-step-3",
+      "technique_id": "shared-future-wish",
+      "step_number": 3,
+      "title": {
+        "ua": "Створіть символ домовленості",
+        "en": "Create a Symbol of Your Agreement"
+      },
+      "instruction": {
+        "ua": "Закріпіть домовленість у вигляді символу (емодзі, малюнка, фото), що нагадуватиме про спільну ціль. Регулярно повертайтесь до цієї вправи, щоб стежити за виконанням бажань.",
+        "en": "Solidify your agreement with a symbol (emoji, drawing, photo) to remind you of your shared goal. Return to this exercise regularly to keep track."
+      },
+      "duration": "6 min",
+      "example": {
+        "ua": "Ми обрали емодзі валізи й додали його до чату як нагадування.",
+        "en": "We chose a suitcase emoji and added it to our chat as a reminder."
+      },
+      "tips": [
+        {
+          "ua": "Повернення до символу допоможе не втрачати фокус на цілі.",
+          "en": "Returning to the symbol will help you keep focus on your goal."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

@@ -1,31 +1,10 @@
-import 'dart:convert';
 import 'dart:developer';
 
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_phrase/daily_phrase_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_task/daily_task_dto.dart';
-
-//TODO task: compare all challenge models if everything was created with success
-
-const databaseId = '68225f7d0027204d0c21';
-
-Future<List<dynamic>> _getFileData(String path) async {
-  final String jsonString = await rootBundle.loadString(path);
-  return jsonDecode(jsonString) as List<dynamic>;
-}
-
-/// API Endpoint: https://fra.cloud.appwrite.io/v1
-/// ProjectId: 68225f5e002dfa8abbab
-Databases _getDataBase() {
-  final client = Client()
-    ..setEndpoint('https://fra.cloud.appwrite.io/v1')
-    ..setProject('68225f5e002dfa8abbab')
-    ..setSelfSigned(status: true);
-
-  return Databases(client);
-}
 
 Future<List<DailyPhraseDTO>> parseDailyPhrase() async {
   final listOfFilesDailyPhrase = [
@@ -36,7 +15,7 @@ Future<List<DailyPhraseDTO>> parseDailyPhrase() async {
   var dailyPhrase = <DailyPhraseDTO>[];
 
   for (final filePath in listOfFilesDailyPhrase) {
-    final content = await _getFileData(filePath);
+    final content = await getFileDataList(filePath);
 
     for (final dynamicData in content) {
       final task = DailyPhraseDTO.fromDynamic(dynamicData);
@@ -44,11 +23,11 @@ Future<List<DailyPhraseDTO>> parseDailyPhrase() async {
     }
   }
 
-  return dailyPhrase;
+  return dailyPhrase.where((item) => item.categoryId == categoryId).toList();
 }
 
 Future<void> writeToDataBaseDailyTasks() async {
-  final database = _getDataBase();
+  final database = getDataBase();
 
   const dailyTaskCollection = 'daily_tasks';
 

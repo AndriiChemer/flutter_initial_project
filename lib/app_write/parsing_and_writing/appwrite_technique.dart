@@ -1,31 +1,10 @@
-import 'dart:convert';
 import 'dart:developer';
 
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/technique/technique_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/technique/technique_step_dto.dart';
-
-//TODO task: compare all challenge models if everything was created with success
-
-const databaseId = '68225f7d0027204d0c21';
-
-Future<Map<String, dynamic>> _getFileData(String path) async {
-  final String jsonString = await rootBundle.loadString(path);
-  return jsonDecode(jsonString) as Map<String, dynamic>;
-}
-
-/// API Endpoint: https://fra.cloud.appwrite.io/v1
-/// ProjectId: 68225f5e002dfa8abbab
-Databases _getDataBase() {
-  final client = Client()
-    ..setEndpoint('https://fra.cloud.appwrite.io/v1')
-    ..setProject('68225f5e002dfa8abbab')
-    ..setSelfSigned(status: true);
-
-  return Databases(client);
-}
 
 Future<Map<TechniqueDTO, List<TechniqueStepDTO>>> parseTechniques() async {
   final listOfFilesDailyTasks = [
@@ -57,26 +36,44 @@ Future<Map<TechniqueDTO, List<TechniqueStepDTO>>> parseTechniques() async {
     'assets/content/psychological_techniques/category_sexual_closeness/sex_001.json',
     'assets/content/psychological_techniques/category_sexual_closeness/sex_free_evening.json',
     'assets/content/psychological_techniques/category_sexual_closeness/touch_cues.json',
+    'assets/content/psychological_techniques/category_sexual_closeness/additionals/desire-scenario.json',
+    'assets/content/psychological_techniques/category_sexual_closeness/additionals/divided-initiative.json',
+    'assets/content/psychological_techniques/category_sexual_closeness/additionals/fantasy-in-detail.json',
+    'assets/content/psychological_techniques/category_sexual_closeness/additionals/forbidden-allowed-game.json',
+    'assets/content/psychological_techniques/category_sexual_closeness/additionals/intimate-memories-game.json',
+    'assets/content/psychological_techniques/category_sexual_closeness/additionals/my-three-desires-game.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/additionals/mutual-gratitude-journal.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/additionals/openness-ritual-about-fears.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/additionals/rewrite-conflict-story.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/additionals/shared-future-wish.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/additionals/shared-list-of-pain-and-joy.json',
+    'assets/content/psychological_techniques/category_relationship_crisis/additionals/symbolic-forgiveness-gift.json',
   ];
 
   var techniquesWithSteps = <TechniqueDTO, List<TechniqueStepDTO>>{};
 
   for (final filePath in listOfFilesDailyTasks) {
-    final content = await _getFileData(filePath);
+    final content = await getFileDataMap(filePath);
 
     final techniqueMap = content['technique'] as Map<String, dynamic>;
     final techniqueStepsDynamicList = content['technique_steps'] as List<dynamic>;
 
-    final techniqueDTO = TechniqueDTO.fromJson(techniqueMap);
+    var techniqueDTO = TechniqueDTO.fromJson(techniqueMap);
+    techniqueDTO = techniqueDTO.categoryId == 'sexual_intimacy'
+        ? techniqueDTO.copyWith(categoryId: 'sexual_closeness')
+        : techniqueDTO;
     final techniqueStepsDTO = techniqueStepsDynamicList.map(TechniqueStepDTO.fromDynamic).toList();
-    techniquesWithSteps[techniqueDTO] = techniqueStepsDTO;
+
+    if (techniqueDTO.categoryId == categoryId) {
+      techniquesWithSteps[techniqueDTO] = techniqueStepsDTO;
+    }
   }
 
   return techniquesWithSteps;
 }
 
 Future<void> writeToDataBaseTechnique() async {
-  final database = _getDataBase();
+  final database = getDataBase();
 
   const techniquesCollection = 'techniques';
   const techniqueStepsCollection = 'technique_steps';

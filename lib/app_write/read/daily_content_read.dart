@@ -1,32 +1,20 @@
 import 'dart:developer';
 
 import 'package:appwrite/appwrite.dart';
+import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_content/daily_content_with_models_dto.dart';
 import 'package:iteo_libraries_example/app_write/logs/cocntent_logs.dart';
 
-const databaseId = '68225f7d0027204d0c21';
-
-Databases _getDataBase() {
-  final client = Client()
-    ..setEndpoint('https://fra.cloud.appwrite.io/v1')
-    ..setProject('68225f5e002dfa8abbab')
-    ..setSelfSigned(status: true);
-
-  return Databases(client);
-}
-
 Future<void> readDataBaseDailyContents() async {
-  final database = _getDataBase();
+  final database = getDataBase();
 
   const dailyContentCollection = 'daily_content';
-  // const categoryId = 'sexual_closeness';
-  const categoryId = 'relationship_crisis';
 
   await showLogsFromJson();
 
   log('\n\n========= SERVER ===========\n\n');
 
-  final dataList = await _getDailyContentsByCategory(
+  final dataList = await _getData(
     database: database,
     collectionId: dailyContentCollection,
     categoryId: categoryId,
@@ -36,7 +24,7 @@ Future<void> readDataBaseDailyContents() async {
   showLogDays(dataList);
 }
 
-Future<List<DailyContentWithModelsDTO>> _getDailyContentsByCategory({
+Future<List<DailyContentWithModelsDTO>> _getData({
   required Databases database,
   required String collectionId,
   required String categoryId,

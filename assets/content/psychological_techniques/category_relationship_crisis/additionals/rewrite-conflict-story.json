@@ -1,0 +1,117 @@
+{
+  "technique": {
+    "id": "rewrite-conflict-story",
+    "title": {
+      "ua": "Переписати історію сварки",
+      "en": "Rewrite the Conflict Story"
+    },
+    "description": {
+      "ua": "Інтерактивна вправа для зміни сприйняття болючого епізоду через переосмислення та спільну фантазію.",
+      "en": "An interactive exercise to shift the perception of a painful episode through reimagining and joint fantasy."
+    },
+    "goal": {
+      "ua": "Переосмислити складну ситуацію у парі, навчитись спільно шукати альтернативні сценарії.",
+      "en": "Reinterpret a difficult situation in the couple and learn to find joint alternative scenarios."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "conflict-reframing",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ми згадали сварку через гроші, а потім уявили, як могли б сказати про свої страхи замість нападати. Це допомогло зрозуміти одне одного глибше.",
+        "en": "We remembered a fight about money and then imagined how we could have expressed our fears instead of attacking. It helped us understand each other deeper."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Сфокусуйтесь на майбутньому та нових словах, а не на минулих помилках.",
+        "en": "Focus on the future and new words, not past mistakes."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "rewrite-conflict-story-step-1",
+      "technique_id": "rewrite-conflict-story",
+      "step_number": 1,
+      "title": {
+        "ua": "Вибір ситуації і обговорення емоцій",
+        "en": "Choose the Situation and Share Emotions"
+      },
+      "instruction": {
+        "ua": "Виберіть один епізод, який залишив неприємний осад. Кожен коротко описує свої емоції та думки під час цього епізоду.",
+        "en": "Choose a situation that left an unpleasant aftertaste. Each partner briefly describes their emotions and thoughts during the episode."
+      },
+      "duration": "6 min",
+      "example": {
+        "ua": "Я злився, що ти пізно повернувся додому — а ти боявся, що я засуджу.",
+        "en": "I was angry that you came home late — and you were afraid I would judge you."
+      },
+      "tips": [
+        {
+          "ua": "Говоріть про свої почуття без звинувачень.",
+          "en": "Talk about your feelings without blaming."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "rewrite-conflict-story-step-2",
+      "technique_id": "rewrite-conflict-story",
+      "step_number": 2,
+      "title": {
+        "ua": "Уявіть альтернативний сценарій",
+        "en": "Imagine an Alternative Scenario"
+      },
+      "instruction": {
+        "ua": "Разом уявіть, як би ви хотіли, щоб ця сварка відбулася. Озвучте одне одному новий сценарій: які слова чи дії змінили би ситуацію.",
+        "en": "Together imagine how you would like this argument to have happened. Share with each other the new scenario: what words or actions would have changed the situation."
+      },
+      "duration": "8 min",
+      "example": {
+        "ua": "Я міг би сказати: «Я хвилююся, коли ти запізнюєшся, а не сварити».",
+        "en": "I could have said: 'I worry when you’re late,' instead of scolding."
+      },
+      "tips": [
+        {
+          "ua": "Фантазуйте разом без осуду.",
+          "en": "Imagine together without judgment."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "rewrite-conflict-story-step-3",
+      "technique_id": "rewrite-conflict-story",
+      "step_number": 3,
+      "title": {
+        "ua": "Винос із досвіду",
+        "en": "Takeaway for the Future"
+      },
+      "instruction": {
+        "ua": "Спробуйте взяти цей досвід у майбутнє: домовтесь про нові слова або сигнали для підтримки у конфліктних моментах.",
+        "en": "Try to use this experience for the future: agree on new words or signals to support each other during conflict moments."
+      },
+      "duration": "6 min",
+      "example": {
+        "ua": "Ми придумали фразу: «Я зараз уразливий/уразлива», щоб не починати сварку.",
+        "en": "We came up with the phrase: 'I feel vulnerable right now,' to avoid starting a fight."
+      },
+      "tips": [
+        {
+          "ua": "Запишіть нові фрази або сигнали — так буде легше згадати.",
+          "en": "Write down new words or signals — it will be easier to remember."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

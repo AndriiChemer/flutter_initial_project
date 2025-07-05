@@ -1,0 +1,117 @@
+{
+  "technique": {
+    "id": "shared-list-of-pain-and-joy",
+    "title": {
+      "ua": "Спільний список болю і радості",
+      "en": "Shared List of Pain and Joy"
+    },
+    "description": {
+      "ua": "Вправа для відкритої розмови про те, що по-справжньому ранить, і що підтримує у стосунках.",
+      "en": "An exercise for honest conversation about what truly hurts and what supports you in your relationship."
+    },
+    "goal": {
+      "ua": "Відкрити простір для емоційного діалогу, фіксувати болючі моменти і підтримку.",
+      "en": "Create a space for emotional dialogue, notice both painful and supportive moments."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "dialogue-and-support",
+    "widget_type": "technique",
+    "duration": "20 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Я сказав, що найбільше ранився, коли ти ігнорувала мої повідомлення, але дуже ціную, що ти підтримала мене на співбесіді.",
+        "en": "I said that I was hurt most when you ignored my messages, but I really appreciate that you supported me at my job interview."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не коментуйте почуте, просто слухайте одне одного й фіксуйте свої емоції.",
+        "en": "Don't comment on what you hear; just listen and notice your own emotions."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z"
+  },
+  "technique_steps": [
+    {
+      "id": "shared-list-of-pain-and-joy-step-1",
+      "technique_id": "shared-list-of-pain-and-joy",
+      "step_number": 1,
+      "title": {
+        "ua": "Підготуйте простір",
+        "en": "Prepare the Space"
+      },
+      "instruction": {
+        "ua": "Виділіть час без гаджетів і зовнішніх подразників. Кожен складає короткий список: три речі, які останнім часом боліли у стосунках, і три речі, які принесли радість або підтримку.",
+        "en": "Set aside time without gadgets or distractions. Each partner makes a short list: three things that have been painful in your relationship recently, and three things that brought joy or support."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Я написав, що мене засмутило, коли ти не повернулася додому на вечерю, але також записав, як важливо для мене було твоє повідомлення про турботу.",
+        "en": "I wrote down that I was upset when you didn't come home for dinner, but also how important your caring message was for me."
+      },
+      "tips": [
+        {
+          "ua": "Пишіть щиро, не аналізуючи, просто фіксуйте емоції.",
+          "en": "Write honestly, without overthinking — just capture your feelings."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "shared-list-of-pain-and-joy-step-2",
+      "technique_id": "shared-list-of-pain-and-joy",
+      "step_number": 2,
+      "title": {
+        "ua": "Обмін списками",
+        "en": "Exchange the Lists"
+      },
+      "instruction": {
+        "ua": "По черзі озвучуйте один одному свої пункти — без коментарів, лише слухайте і фіксуйте почуття.",
+        "en": "Take turns sharing your lists — without comments, just listen and notice your own feelings."
+      },
+      "duration": "8 min",
+      "example": {
+        "ua": "Я розповів про свої болючі моменти, а партнерка — про ті речі, за які вдячна.",
+        "en": "I shared my painful moments, and my partner talked about things she appreciated."
+      },
+      "tips": [
+        {
+          "ua": "Дозвольте собі слухати без аналізу, навіть якщо з’являється захисна реакція.",
+          "en": "Allow yourself to just listen, even if you feel defensive."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "shared-list-of-pain-and-joy-step-3",
+      "technique_id": "shared-list-of-pain-and-joy",
+      "step_number": 3,
+      "title": {
+        "ua": "Підсумки й обійми",
+        "en": "Summary and Embrace"
+      },
+      "instruction": {
+        "ua": "Після обміну — обійміться або дайте собі хвилину тиші. Обговоріть, які теми варто пропрацювати глибше, а що варто культивувати.",
+        "en": "After sharing, embrace or give yourselves a minute of silence. Discuss which topics you want to work on deeper and what you want to cultivate further."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Ми обійнялися і вирішили більше говорити про підтримку.",
+        "en": "We hugged and decided to talk more about support."
+      },
+      "tips": [
+        {
+          "ua": "Фіксуйте відчуття: тілесний контакт допомагає заспокоїти напругу.",
+          "en": "Notice your feelings: physical contact helps relieve tension."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

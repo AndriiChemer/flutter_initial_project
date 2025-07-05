@@ -57,20 +57,20 @@ class DailyContentDTO {
   factory DailyContentDTO.fromAppWriteJson(Map<String, dynamic> json) => DailyContentDTO(
         id: json['id'] as String,
         dayNumber: json['day_number'] as int,
-        courseId: json['course_id'] as String,
+        courseId: (json['course_id'] as Map<String, dynamic>)['id'] as String,
         courseSlug: json['course_slug'] as String,
-        categoryId: json['category_id'] as String,
+        categoryId: (json['category_id'] as Map<String, dynamic>)['id'] as String,
         isDailyTaskRequired: json['is_daily_task_required'] as bool,
         isTechniqueRequired: json['is_technique_required'] as bool,
         isChallengeRequired: json['is_challenge_required'] as bool,
         isTestRequired: json['is_test_required'] as bool,
         status: statusFromString(json['status'] as String),
         createdAt: DateTime.parse(json['created_at'] as String),
-        dailyTaskId: json['daily_task_id'] as String,
-        challengeId: json['challenge_id'] as String,
-        phraseId: json['phrase_id'] as String,
-        techniqueId: json['technique_id'] as String?,
-        testId: json['test_id'] as String?,
+        dailyTaskId: (json['daily_task_id'] as Map<String, dynamic>)['id'] as String,
+        challengeId: (json['challenge_id'] as Map<String, dynamic>)['id'] as String,
+        phraseId: (json['phrase_id'] as Map<String, dynamic>)['id'] as String,
+        techniqueId: (json['technique_id'] as Map<String, dynamic>)['id'] as String,
+        testId: (json['test_id'] as Map<String, dynamic>)['id'] as String,
       );
 
   final String id;
