@@ -5,13 +5,13 @@ import 'package:flutter/services.dart' show rootBundle;
 
 const databaseId = '68225f7d0027204d0c21';
 
-const courseId = 'towards_each_other';
-const courseSlug = 'towards_each_other';
+// const courseId = 'towards_each_other';
+// const courseSlug = 'towards_each_other';
+// const categoryId = 'relationship_crisis';
 
-// const courseId = 'sexual-closeness';
-// const courseSlug = 'sexual-closeness';
-
-const categoryId = 'relationship_crisis'; // sexual_closeness, relationship_crisis
+const courseId = 'sexual-closeness';
+const courseSlug = 'sexual-closeness';
+const categoryId = 'sexual_closeness';
 
 ///========================
 

@@ -43,7 +43,9 @@ class ChallengeDTO {
       subcategorySlug: json['subcategory_slug'] as String?,
       tags: (json['tags'] as List<dynamic>).map((item) => item as String).toList(),
       imageName: json['image'] as String,
-      recommendedFor: MultiLangStringDTO.fromJson(json['recommended_for'] as Map<String, dynamic>),
+      recommendedFor: json.containsKey('recommended_for')
+          ? MultiLangStringDTO.fromJson(json['recommended_for'] as Map<String, dynamic>)
+          : null,
       freeOrPremium: freeOrPremiumFromString(json['free_or_premium'] as String),
       status: StatusDTO.active,
       createdAt: DateTime.parse(json['created_at'] as String),
@@ -79,7 +81,7 @@ class ChallengeDTO {
   final String? subcategorySlug;
   final List<String> tags;
   final String imageName;
-  final MultiLangStringDTO recommendedFor;
+  final MultiLangStringDTO? recommendedFor;
   final FreeOrPremiumDTO freeOrPremium;
   final StatusDTO status;
   final DateTime createdAt;
@@ -96,7 +98,7 @@ class ChallengeDTO {
         'subcategory_slug': subcategorySlug,
         'tags': tags,
         'image_name': imageName,
-        'recommended_for': recommendedFor.toJson(),
+        'recommended_for': recommendedFor?.toJson(),
         'free_or_premium': freeOrPremiumToString(freeOrPremium),
         'status': statusToString(status),
         'created_at': createdAt.toIso8601String(),
@@ -114,7 +116,7 @@ class ChallengeDTO {
         'subcategory_slug': subcategorySlug,
         'tags': tags,
         'image_name': imageName,
-        'recommended_for_json': recommendedFor.toString(),
+        'recommended_for_json': recommendedFor?.toString(),
         'free_or_premium': freeOrPremiumToString(freeOrPremium),
         'status': statusToString(status),
         'created_at': createdAt.toIso8601String(),

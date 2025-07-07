@@ -1,0 +1,36 @@
+{
+  "id": "",
+  "title": {
+    "ua": "",
+    "en": ""
+  },
+  "category_slug": "",
+  "description": {
+    "ua": "",
+    "en": ""
+  },
+  "steps": [
+    {
+      "number": 1,
+      "ua": "",
+      "en": ""
+    }
+  ],
+  "widget_type": "",
+  "duration": "",
+  "status": "",
+  "examples": [
+    {
+      "ua": "",
+      "en": ""
+    }
+  ],
+  "tips": [
+    {
+      "ua": "",
+      "en": ""
+    }
+  ],
+  "free_or_premium": "premium",
+  "image": ""
+}

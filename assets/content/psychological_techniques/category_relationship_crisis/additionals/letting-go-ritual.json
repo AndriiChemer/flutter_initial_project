@@ -1,0 +1,118 @@
+{
+  "technique": {
+    "id": "letting-go-ritual",
+    "title": {
+      "ua": "Ритуал відпускання минулого",
+      "en": "Letting Go Ritual"
+    },
+    "description": {
+      "ua": "Завершіть курс символічною технікою: попрощайтеся з образами, незавершеними емоціями або непотрібними спогадами, щоб звільнити простір для нових спільних етапів.",
+      "en": "End the course with a symbolic technique: say goodbye to resentments, unresolved emotions, or unnecessary memories to make room for new joint chapters."
+    },
+    "goal": {
+      "ua": "Звільнити стосунки від минулого болю та створити простір для нового.",
+      "en": "Release past pain from the relationship and create space for a new chapter."
+    },
+    "category_id": "relationship_crisis",
+    "subcategory_slug": "letting-go",
+    "widget_type": "technique",
+    "duration": "15 min",
+    "status": "active",
+    "free_or_premium": "premium",
+    "examples": [
+      {
+        "ua": "Ти записав на папері: «Відпускаю минулорічну сварку та почуття провини за невдалі слова». Партнерка подякувала за щирість, і ви разом спалили аркуші на балконі.",
+        "en": "You wrote on paper: 'I let go of last year’s argument and the guilt for harsh words.' Your partner thanked you for your honesty, and together you burned the papers on the balcony."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Важливо не аналізувати, а просто відпускати — дайте собі час на нові почуття.",
+        "en": "Don’t analyze, just let go — give yourself time for new feelings."
+      }
+    ],
+    "created_at": "2025-06-14T00:00:00Z",
+    "updated_at": "2025-06-14T00:00:00Z",
+    "image": "letting_go_ritual.svg"
+  },
+  "technique_steps": [
+    {
+      "id": "letting-go-ritual-step-1",
+      "technique_id": "letting-go-ritual",
+      "step_number": 1,
+      "title": {
+        "ua": "Заплануйте розмову та напишіть, що відпускаєте",
+        "en": "Plan the Conversation & Write What You Let Go"
+      },
+      "instruction": {
+        "ua": "Виділіть 15 хвилин на спільну розмову. Кожен із вас на окремому аркуші запише те, що хоче відпустити (старі образи, сварки, невисловлені емоції).",
+        "en": "Set aside 15 minutes for a joint conversation. Each of you writes on a separate sheet what you want to let go of (old resentments, arguments, unspoken emotions)."
+      },
+      "duration": "5 min",
+      "example": {
+        "ua": "Я написав: «Відпускаю невисловлену образу за ту розмову.»",
+        "en": "I wrote: 'I let go of the unspoken resentment about that talk.'"
+      },
+      "tips": [
+        {
+          "ua": "Пишіть чесно, навіть якщо здається дрібницею.",
+          "en": "Be honest, even if it seems like a small thing."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "letting-go-ritual-step-2",
+      "technique_id": "letting-go-ritual",
+      "step_number": 2,
+      "title": {
+        "ua": "Озвучте й знищіть те, що відпускаєте",
+        "en": "Share and Destroy What You Let Go"
+      },
+      "instruction": {
+        "ua": "Озвучте ці пункти одне одному, не перебиваючи й не коментуючи. Після цього знищіть ці аркуші — порвіть, спаліть (якщо безпечно) чи розірвіть, дякуючи собі та партнеру за готовність рухатись далі.",
+        "en": "Read your points to each other without interrupting or commenting. Afterwards, destroy these sheets — tear them up, burn them (if safe), or shred them, thanking yourself and your partner for being ready to move on."
+      },
+      "duration": "7 min",
+      "example": {
+        "ua": "Ми разом спалили аркуші з нашими образами.",
+        "en": "We burned the papers with our resentments together."
+      },
+      "tips": [
+        {
+          "ua": "Головне — не обговорювати, а прожити процес прощання.",
+          "en": "The main thing is not to discuss, but to experience the process of letting go."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "letting-go-ritual-step-3",
+      "technique_id": "letting-go-ritual",
+      "step_number": 3,
+      "title": {
+        "ua": "Завершіть ритуал подякою",
+        "en": "Finish the Ritual with Gratitude"
+      },
+      "instruction": {
+        "ua": "Після ритуалу обійміться й скажіть по одній фразі-подяці партнеру.",
+        "en": "After the ritual, hug and say one phrase of gratitude to your partner."
+      },
+      "duration": "3 min",
+      "example": {
+        "ua": "Я подякував за підтримку, і ми разом почали новий етап.",
+        "en": "I thanked for the support, and together we started a new stage."
+      },
+      "tips": [
+        {
+          "ua": "Навіть одна фраза-подяка здатна відкрити новий рівень довіри.",
+          "en": "Even one phrase of gratitude can open a new level of trust."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

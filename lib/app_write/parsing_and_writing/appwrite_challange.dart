@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer';
 
 import 'package:appwrite/appwrite.dart';
 import 'package:collection/collection.dart';
@@ -17,68 +18,18 @@ Future<void> writeToDataBaseChallenges() async {
   const challengeCollection = 'challenges';
   const stepCollection = 'challenge_steps';
 
-  final listOfFilesChallenges = [
-    'assets/content/challanges/challanges_without_subcategory.json',
-    'assets/content/challanges/communication_challenges.json',
-    'assets/content/challanges/conflicts_and_quarrels_challenges.json',
-    'assets/content/challanges/daily_life_routine_challenges.json',
-    'assets/content/challanges/distance_and_coldness_challenges_v2.json',
-    'assets/content/challanges/reconnection_after_breakup_challenges.json',
-    'assets/content/challanges/sexual_closeness_advanced_challenges_final.json',
-    'assets/content/challanges/sexual_closeness_by_subcategory.json',
-    'assets/content/challanges/multy_days/multi_day_arousal_game_3_days.json',
-    'assets/content/challanges/multy_days/multi_day_boundless_fantasies.json',
-    'assets/content/challanges/multy_days/multi_day_everyday_intimacy.json',
-    'assets/content/challanges/multy_days/multi_day_five_nights_of_desire_tips_translated.json',
-    'assets/content/challanges/multy_days/multi_day_game_of_desire.json',
-    'assets/content/challanges/multy_days/multi_day_roleplay_another_me.json',
-    'assets/content/challanges/multy_days/multi_day_safe_intimacy_restart.json',
-  ];
+  var challengesWithSteps = await parseChallenges();
 
-  var categories = <CategoryDTO>[];
-  var subcategories = <SubcategoryDTO>[];
-  var challengesWithSteps = <ChallengeDTO, List<ChallengeStepDTO>>{};
-
-  for (final filePath in listOfFilesChallenges) {
-    final content = await _getFileData(filePath);
-    final category =
-        content.containsKey('category') ? CategoryDTO.fromJson(content['category'] as Map<String, dynamic>) : null;
-    final subcategory = content.containsKey('subcategory')
-        ? SubcategoryDTO.fromJson(content['subcategory'] as Map<String, dynamic>)
-        : null;
-
-    categories = _updateCategoryList(category, categories);
-    subcategories = _updateSubcategoryList(subcategory, subcategories);
-
-    final challenges = (content['challenges'] as List<dynamic>)
-        .map((itemDynamic) => ChallengeDTO.fromJson(itemDynamic as Map<String, dynamic>));
-    final steps = (content['challenge_steps'] as List<dynamic>)
-        .map((itemDynamic) => ChallengeStepDTO.fromJson(itemDynamic as Map<String, dynamic>));
-
-    for (final challenge in challenges) {
-      final challengeSteps = steps.where((step) => step.challengeId == challenge.id).toList();
-      challengesWithSteps[challenge] = challengeSteps;
-    }
+  for (final item in challengesWithSteps.entries) {
+    log('ANDRII ${item.key.id} - Steps: [${item.value.map((item) => item.stepNumber).toList()}]');
   }
 
-  categories = await _createCategories(
-    categories: categories,
-    database: database,
-    collectionId: categoryCollection,
-  );
-
-  subcategories = await _createSubcategories(
-    database: database,
-    collectionId: subcategoryCollection,
-    subcategories: subcategories,
-  );
-
-  challengesWithSteps = await _createChallenges(
-    database: database,
-    challengeCollectionId: challengeCollection,
-    challengeStepCollectionId: stepCollection,
-    challenges: challengesWithSteps,
-  );
+  // challengesWithSteps = await _createChallenges(
+  //   database: database,
+  //   challengeCollectionId: challengeCollection,
+  //   challengeStepCollectionId: stepCollection,
+  //   challenges: challengesWithSteps,
+  // );
 }
 
 /// generate id: ID.unique()
@@ -326,21 +277,28 @@ Future<Map<String, dynamic>> _getFileData(String path) async {
 
 Future<Map<ChallengeDTO, List<ChallengeStepDTO>>> parseChallenges() async {
   final listOfFilesChallenges = [
-    'assets/content/challanges/challanges_without_subcategory.json',
-    'assets/content/challanges/communication_challenges.json',
-    'assets/content/challanges/conflicts_and_quarrels_challenges.json',
-    'assets/content/challanges/daily_life_routine_challenges.json',
-    'assets/content/challanges/distance_and_coldness_challenges_v2.json',
-    'assets/content/challanges/reconnection_after_breakup_challenges.json',
-    'assets/content/challanges/sexual_closeness_advanced_challenges_final.json',
-    'assets/content/challanges/sexual_closeness_by_subcategory.json',
-    'assets/content/challanges/multy_days/multi_day_arousal_game_3_days.json',
-    'assets/content/challanges/multy_days/multi_day_boundless_fantasies.json',
-    'assets/content/challanges/multy_days/multi_day_everyday_intimacy.json',
-    'assets/content/challanges/multy_days/multi_day_five_nights_of_desire_tips_translated.json',
-    'assets/content/challanges/multy_days/multi_day_game_of_desire.json',
-    'assets/content/challanges/multy_days/multi_day_roleplay_another_me.json',
-    'assets/content/challanges/multy_days/multi_day_safe_intimacy_restart.json',
+    // 'assets/content/challanges/challanges_without_subcategory.json',
+    // 'assets/content/challanges/communication_challenges.json',
+    // 'assets/content/challanges/conflicts_and_quarrels_challenges.json',
+    // 'assets/content/challanges/daily_life_routine_challenges.json',
+    // 'assets/content/challanges/distance_and_coldness_challenges_v2.json',
+    // 'assets/content/challanges/reconnection_after_breakup_challenges.json',
+    // 'assets/content/challanges/sexual_closeness_advanced_challenges_final.json',
+    // 'assets/content/challanges/sexual_closeness_by_subcategory.json',
+    // 'assets/content/challanges/multy_days/multi_day_arousal_game_3_days.json',
+    // 'assets/content/challanges/multy_days/multi_day_boundless_fantasies.json',
+    // 'assets/content/challanges/multy_days/multi_day_everyday_intimacy.json',
+    // 'assets/content/challanges/multy_days/multi_day_five_nights_of_desire_tips_translated.json',
+    // 'assets/content/challanges/multy_days/multi_day_game_of_desire.json',
+    // 'assets/content/challanges/multy_days/multi_day_roleplay_another_me.json',
+    // 'assets/content/challanges/multy_days/multi_day_safe_intimacy_restart.json',
+
+    'assets/content/challanges/category_sexual_closeness/sensual_blindfold.json',
+    'assets/content/challanges/category_sexual_closeness/intimate_dare_public.json',
+    'assets/content/challanges/category_sexual_closeness/toy_shopping.json',
+    'assets/content/challanges/category_sexual_closeness/invite_bedroom_atmosphere.json',
+    'assets/content/challanges/category_sexual_closeness/first_toy_play.json',
+    'assets/content/challanges/category_sexual_closeness/lips_new_places.json',
   ];
 
   var challengesWithSteps = <ChallengeDTO, List<ChallengeStepDTO>>{};

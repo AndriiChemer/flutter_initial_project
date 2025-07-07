@@ -1,0 +1,171 @@
+[
+  {
+    "id": "dailytask_crisis_20",
+    "title": {
+      "ua": "24 години турботи",
+      "en": "24 Hours of Care"
+    },
+    "category_slug": "relationship_crisis",
+    "description": {
+      "ua": "Протягом доби фокусуйтеся на турботі одне про одного у маленьких речах — це допоможе відчути підтримку та близькість навіть у складні часи.",
+      "en": "For 24 hours, focus on caring for each other in small ways — this will help you feel supported and closer, even during tough times."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Поставте собі завдання помічати й виконувати хоча б три маленькі прояви турботи: запитати, як справи, зробити каву, дати обійми без причини.",
+        "en": "Challenge yourself to notice and do at least three small caring actions: ask how your partner is, make coffee, give a hug for no reason."
+      },
+      {
+        "number": 2,
+        "ua": "Наприкінці дня обговоріть, що відчували й чи було це неочікувано приємно.",
+        "en": "At the end of the day, talk about how it felt and if anything was unexpectedly pleasant."
+      }
+    ],
+    "widget_type": "daily_task",
+    "duration": "24 hours",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Ти без нагадування допоміг партнеру із хатньою справою або написав несподіване повідомлення підтримки.",
+        "en": "You helped your partner with a household chore without being asked or sent an unexpected message of support."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Не чекай ідеальної реакції — це про накопичення маленьких проявів, а не про подяку за кожен жест.",
+        "en": "Don’t expect a perfect reaction — it’s about accumulating small gestures, not getting thanked for each one."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "dailycare_challenge.svg"
+  },
+  {
+    "id": "dailytask_crisis_21",
+    "title": {
+      "ua": "Слово підтримки",
+      "en": "Words of Support"
+    },
+    "category_slug": "relationship_crisis",
+    "description": {
+      "ua": "Цей день — про усвідомлену підтримку через слова: кожен має сказати партнеру щось підбадьорливе, навіть якщо на душі важко.",
+      "en": "This day is about mindful support through words: each partner should say something encouraging to the other, even if it’s a tough day."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Знайди хвилину та озвуч партнеру те, що цінуєш у ньому або що хочеш підтримати саме зараз.",
+        "en": "Take a moment and tell your partner what you value in them or what you want to support right now."
+      },
+      {
+        "number": 2,
+        "ua": "Якщо складно говорити напряму — напиши це у повідомленні або на маленькому папірці.",
+        "en": "If it’s hard to say in person — write it in a message or on a small note."
+      }
+    ],
+    "widget_type": "daily_task",
+    "duration": "24 hours",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Ти сказав: «Я бачу, як ти стараєшся, і дуже ціную це» або написав листівку з подякою.",
+        "en": "You said: 'I see how hard you’re trying and I really appreciate it,' or wrote a thank you note."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Навіть коротке речення чи смайлик — це вже прояв уваги та підтримки.",
+        "en": "Even a short sentence or an emoji is already a sign of care and support."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "support_words_challenge.svg"
+  },
+  {
+    "id": "dailytask_crisis_22",
+    "title": {
+      "ua": "Формуємо спільну ціль",
+      "en": "Setting a Shared Goal"
+    },
+    "category_slug": "relationship_crisis",
+    "description": {
+      "ua": "Сфокусуйтеся на тому, чого ви хочете досягти разом найближчим часом. Спільна ціль допомагає відчути себе командою та створити основу для майбутніх досягнень.",
+      "en": "Focus on something you want to achieve together in the near future. A shared goal helps you feel like a team and creates a foundation for future achievements."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Сядьте поруч і згадайте, які цілі чи мрії ви вже втілили разом.",
+        "en": "Sit together and recall which goals or dreams you have already accomplished as a couple."
+      },
+      {
+        "number": 2,
+        "ua": "По черзі запропонуйте одну нову спільну ціль (від побутових до мрійливих — наприклад, разом вивчити нову справу, пробігти марафон, поїхати у подорож, зробити ремонт).",
+        "en": "Take turns proposing a new shared goal (it could be anything from learning a new skill together, running a marathon, traveling, or renovating your home)."
+      },
+      {
+        "number": 3,
+        "ua": "Обговоріть, як кожен із вас може долучитися до її досягнення. Запишіть ціль і перший крок у спільний нотатник.",
+        "en": "Discuss how each of you can contribute to achieving the goal. Write the goal and the first step in a shared notebook."
+      }
+    ],
+    "widget_type": "daily_task",
+    "duration": "20 min",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Ваша спільна ціль — провести вихідні без гаджетів і повністю присвятити час одне одному.",
+        "en": "Your shared goal is to spend a weekend without gadgets and dedicate all your time to each other."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Обирайте ціль, яка справді надихає обох, навіть якщо вона зовсім проста.",
+        "en": "Choose a goal that genuinely inspires both of you, even if it's something very simple."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "shared_goal.svg"
+  },
+  {
+    "id": "dailytask_crisis_23",
+    "title": {
+      "ua": "Спільне прощення",
+      "en": "Mutual Forgiveness"
+    },
+    "category_slug": "relationship_crisis",
+    "description": {
+      "ua": "Знайдіть час для відвертої розмови: кожен поділиться тим, за що хотів би попросити вибачення. Головна мета — слухати одне одного без критики та приймати щирість.",
+      "en": "Take time for an honest talk: each partner shares something they’d like to apologize for. The main goal is to listen without criticism and to accept sincerity."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "ua": "Сядьте разом і по черзі озвучте одну річ, за яку хотіли б вибачитись перед партнером.",
+        "en": "Sit together and take turns sharing one thing you’d like to apologize for."
+      },
+      {
+        "number": 2,
+        "ua": "Подякуйте партнеру за відвертість, не перебивайте й не коментуйте.",
+        "en": "Thank your partner for their honesty, don’t interrupt or comment."
+      }
+    ],
+    "widget_type": "daily_task",
+    "duration": "24 hours",
+    "status": "active",
+    "examples": [
+      {
+        "ua": "Ти сказав: «Мені шкода, що був відсторонений останнім часом», а партнер подякував за щирість.",
+        "en": "You said: 'I’m sorry I’ve been distant lately,' and your partner thanked you for being honest."
+      }
+    ],
+    "tips": [
+      {
+        "ua": "Головне — не шукати виправдання чи пояснення, а просто приймати слова одне одного.",
+        "en": "The key is not to look for excuses or explanations, just accept each other’s words."
+      }
+    ],
+    "free_or_premium": "premium",
+    "image": "mutual_forgiveness.svg"
+  }
+]

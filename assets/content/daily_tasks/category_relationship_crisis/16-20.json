@@ -5,7 +5,7 @@
       "ua": "Компліменти під час конфлікту",
       "en": "Compliments During Conflict"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Це завдання допомагає знизити рівень напруги під час конфлікту, використовуючи позитивні слова та компліменти. Важливо пам’ятати, що навіть під час суперечки можна висловлювати вдячність та похвалу.",
       "en": "This task helps to reduce tension during conflict by using positive words and compliments. Remember, even during disagreements you can express gratitude and appreciation."
@@ -58,7 +58,7 @@
       "ua": "Створення спільного плану",
       "en": "Creating a Shared Plan"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Це завдання допомагає партнерам створити спільний план для подолання кризи у стосунках. Воно сприяє побудові довіри та спільного бачення майбутнього.",
       "en": "This task helps partners create a shared plan to overcome relationship crisis. It builds trust and a shared vision for the future."
@@ -111,7 +111,7 @@
       "ua": "Вивчення любовних мов",
       "en": "Exploring Love Languages"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Це завдання допомагає партнерам краще розуміти мову любові один одного та знаходити способи її вираження.",
       "en": "This task helps partners better understand each other’s love language and find ways to express it."
@@ -164,7 +164,7 @@
       "ua": "Взаємна турбота",
       "en": "Mutual Care"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Це завдання допомагає партнерам розуміти потреби один одного через практику турботи та підтримки.",
       "en": "This task helps partners understand each other’s needs through acts of care and support."
@@ -217,7 +217,7 @@
       "ua": "Маленькі кроки до розуміння",
       "en": "Small Steps to Understanding"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Завдання спрямоване на те, щоб ви щодня робили один маленький крок для покращення ваших стосунків.",
       "en": "This task is designed to help you take one small step every day to improve your relationship."

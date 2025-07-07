@@ -20,7 +20,7 @@ Future<void> readDataBaseDailyContents() async {
     categoryId: categoryId,
   );
 
-  checkForDuplicated(dataList);
+  checkForAppwriteDuplicated(dataList);
   showLogDays(dataList);
 }
 
@@ -56,7 +56,7 @@ void showLogDays(List<DailyContentWithModelsDTO> dataList) {
   }
 }
 
-void checkForDuplicated(List<DailyContentWithModelsDTO> dataList) {
+void checkForAppwriteDuplicated(List<DailyContentWithModelsDTO> dataList) {
   final phrases = dataList.map((item) => item.phrase.phrase.en).toList();
   final dailyTasks = dataList.map((item) => item.dailyTask?.title.en).toList();
   final challenges = dataList.map((item) => item.challenge?.title.en).toList();
@@ -76,9 +76,13 @@ void showDuplicates(String key, List<String?> titles) {
     counts[title] = (counts[title] ?? 0) + 1;
   }
   final duplicates = counts.entries.where((entry) => entry.value > 1).toList();
-  log('====== Duplicates for $key:\n');
+
+  if (duplicates.isEmpty) {
+    return;
+  }
+
+  log('====== Duplicates for $key:');
   for (final entry in duplicates) {
     log('Value: "${entry.key}"  —  Count: ${entry.value}');
   }
-  log('\n\n');
 }

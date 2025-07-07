@@ -1,0 +1,95 @@
+{
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
+    },
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
+  },
+  "challenges": [
+    {
+      "id": "first_toy_play",
+      "title": {
+        "ua": "Випробування іграшки",
+        "en": "First Toy Play"
+      },
+      "description": {
+        "ua": "Виділіть вечір на дослідження нової секс-іграшки. Дотримуйтеся правил безпеки й експериментуйте з різними ролями: хто веде, хто спостерігає.",
+        "en": "Dedicate an evening to exploring your new sex toy. Play safely and experiment with different roles: who leads, who watches."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Дослідити нові відчуття, знайти улюблені ролі й розвинути довіру через спільний експеримент.",
+        "en": "Explore new sensations, find your favorite roles and build trust through a shared experiment."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "",
+      "tags": [
+        "toys",
+        "experiment",
+        "intimacy"
+      ],
+      "image": "first_toy_play.svg",
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "first_toy_play-step-1",
+      "challenge_id": "first_toy_play",
+      "step_number": 1,
+      "content": {
+        "ua": "Разом створіть атмосферу: приглушене світло, музика, затишна постіль.",
+        "en": "Together, set the mood: dim lighting, music, cozy bed."
+      },
+      "tips": [
+        {
+          "ua": "Підготуйте простір заздалегідь, щоб нічого не відволікало.",
+          "en": "Prepare the space in advance so nothing distracts you."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "first_toy_play-step-2",
+      "challenge_id": "first_toy_play",
+      "step_number": 2,
+      "content": {
+        "ua": "Обговоріть правила, кому комфортно бути активним, кому — пасивним.",
+        "en": "Discuss boundaries: who wants to be active, who passive."
+      },
+      "tips": [
+        {
+          "ua": "Чітко домовляйтесь про сигнали «стоп» і що для кожного підходить.",
+          "en": "Agree on clear 'stop' signals and what works for each of you."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "first_toy_play-step-3",
+      "challenge_id": "first_toy_play",
+      "step_number": 3,
+      "content": {
+        "ua": "По черзі використовуйте іграшку одне на одному, фіксуйте реакції.",
+        "en": "Take turns using the toy on each other, notice the reactions."
+      },
+      "tips": [
+        {
+          "ua": "Не поспішайте, досліджуйте, що приносить найбільше задоволення.",
+          "en": "Don’t rush, explore what gives most pleasure."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

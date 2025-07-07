@@ -5,7 +5,7 @@
       "ua": "Переписування історії",
       "en": "Rewrite the Story"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Перегляд конфлікту в письмовій формі та переформулювання негативних моментів.",
       "en": "Reviewing a conflict in written form and reframing negative moments in a positive way."
@@ -59,7 +59,7 @@
       "ua": "День без критики",
       "en": "No Criticism Day"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Завдання, що допомагає партнерам уникнути критики та негативних зауважень протягом дня, зосереджуючись лише на позитивному.",
       "en": "A task that helps partners avoid criticism and negative remarks throughout the day, focusing only on the positive."
@@ -116,7 +116,7 @@
       "ua": "Похвала за прогрес",
       "en": "Praise for Progress"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Завдання спрямоване на те, щоб помічати навіть найменші позитивні зміни у стосунках та відзначати їх разом.",
       "en": "A task focused on noticing even the smallest positive changes in your relationship and celebrating them together."

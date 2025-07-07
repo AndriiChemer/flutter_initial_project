@@ -1,0 +1,96 @@
+{
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
+    },
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
+  },
+  "challenges": [
+    {
+      "id": "toy_shopping",
+      "title": {
+        "ua": "Похід за іграшкою",
+        "en": "Toy Shopping Adventure"
+      },
+      "description": {
+        "ua": "Разом оберіть і придбайте нову секс-іграшку. Гра починається ще з обговорення бажань і мрій, а завершиться — випробуванням новинки.",
+        "en": "Choose and buy a new sex toy together. The game starts with sharing desires and dreams, and ends with trying your new toy."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Поглибити сексуальну відкритість у парі через вибір іграшки, фантазування і спільний експеримент.",
+        "en": "Deepen sexual openness in your couple by choosing a toy, fantasizing, and experimenting together."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "",
+      "tags": [
+        "toys",
+        "openness",
+        "fantasies",
+        "experiment"
+      ],
+      "image": "toy_shopping.svg",
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "toy_shopping-step-1",
+      "challenge_id": "toy_shopping",
+      "step_number": 1,
+      "content": {
+        "ua": "Обговоріть, які іграшки вас цікавлять. Прогляньте онлайн-магазин разом, опишіть фантазії.",
+        "en": "Discuss which toys intrigue you. Browse an online store together, describe your fantasies."
+      },
+      "tips": [
+        {
+          "ua": "Обирайте іграшку за бажанням, не поспішайте, насолоджуйтеся процесом фантазування.",
+          "en": "Choose a toy by desire, don’t rush, enjoy fantasizing together."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "toy_shopping-step-2",
+      "challenge_id": "toy_shopping",
+      "step_number": 2,
+      "content": {
+        "ua": "Замовте (або купіть) одну іграшку, яка збуджує вас обох.",
+        "en": "Order (or buy) a toy that excites you both."
+      },
+      "tips": [
+        {
+          "ua": "Не соромтесь своїх бажань, поважайте вибір та бажання партнера, без насмішки та критики, віднесіться як здійснення сексуальної мрії партнера.",
+          "en": "Don't be ashamed of your desires, respect your partner's choices and desires, without ridicule or criticism, treat them as the fulfillment of your partner's sexual dream."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "toy_shopping-step-3",
+      "challenge_id": "toy_shopping",
+      "step_number": 3,
+      "content": {
+        "ua": "Обговоріть сценарій, як ви використаєте цю іграшку вперше.",
+        "en": "Talk about how you’ll use this toy for the first time."
+      },
+      "tips": [
+        {
+          "ua": "Плануйте, як створити атмосферу для першого досвіду: світло, музика, слова, фрази.",
+          "en": "Plan how to set the mood for the first experience: light, music, words, phrases."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

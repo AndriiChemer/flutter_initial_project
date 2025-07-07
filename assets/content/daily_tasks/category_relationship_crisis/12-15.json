@@ -5,7 +5,7 @@
       "ua": "День пробачення",
       "en": "Day of Forgiveness"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Ця техніка допомагає парам відпустити образи та зробити крок до примирення.",
       "en": "This practice helps couples let go of grudges and take a step towards reconciliation."
@@ -59,7 +59,7 @@
       "ua": "Список пріоритетів",
       "en": "Priority List"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Щоденне завдання, що допомагає парам визначити свої пріоритети та узгодити їх для покращення взаємодії.",
       "en": "A daily task to help couples define and align their priorities to improve interaction."
@@ -113,7 +113,7 @@
       "ua": "День вдячності",
       "en": "Gratitude Day"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Щоденне завдання, яке допомагає зосередитися на позитивних аспектах стосунків та підвищити вдячність один до одного.",
       "en": "A daily task to help you focus on the positive aspects of your relationship and increase gratitude toward each other."
@@ -167,7 +167,7 @@
       "ua": "Емоційний захист",
       "en": "Emotional Safety"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Практика, яка допомагає створити безпечне середовище для обговорення важливих тем без страху критики чи засудження.",
       "en": "A practice that helps create a safe environment for discussing important topics without fear of criticism or judgment."

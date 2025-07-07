@@ -5,7 +5,7 @@
       "ua": "Похвала за дрібниці",
       "en": "Praise for Small Things"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Ця практика допомагає цінувати навіть маленькі позитивні моменти у стосунках, які часто залишаються непоміченими.",
       "en": "This practice helps you appreciate even the smallest positive moments in your relationship that often go unnoticed."
@@ -58,7 +58,7 @@
       "ua": "Щоденник емоцій",
       "en": "Emotion Journal"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Ця техніка допомагає краще розуміти свої емоції та емоції партнера через щоденне рефлексування.",
       "en": "This technique helps you better understand your own emotions and those of your partner through daily reflection."
@@ -111,8 +111,8 @@
       "ua": "Питання для обговорення",
       "en": "Questions for Discussion"
     },
-    "category_id": "crisis_in_relationships",
-    "category_slug": "crisis_in_relationships",
+    "category_id": "relationship_crisis",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Щодня обговорюйте одне запитання для глибшого розуміння один одного.",
       "en": "Every day, discuss one question for a deeper understanding of each other."

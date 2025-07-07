@@ -26,7 +26,7 @@ Future<List<DailyPhraseDTO>> parseDailyPhrase() async {
   return dailyPhrase.where((item) => item.categoryId == categoryId).toList();
 }
 
-Future<void> writeToDataBaseDailyTasks() async {
+Future<void> writeToDataBaseDailyPhrase() async {
   final database = getDataBase();
 
   const dailyTaskCollection = 'daily_tasks';

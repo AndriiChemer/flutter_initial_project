@@ -1,0 +1,78 @@
+{
+  "category": {
+    "id": "sexual_closeness",
+    "name": {
+      "ua": "Сексуальна близькість",
+      "en": "Sexual Closeness"
+    },
+    "slug": "sexual_closeness",
+    "created_at": "2025-05-15T16:56:54.719023Z",
+    "updated_at": "2025-05-15T16:56:54.719023Z"
+  },
+  "challenges": [
+    {
+      "id": "lips_new_places",
+      "title": {
+        "ua": "Губами там, де ще не був(-ла)",
+        "en": "Lips Where You've Never Been"
+      },
+      "description": {
+        "ua": "Влаштуйте гру дослідження: поцілуйте партнера губами там, де ще ніколи не цілували (уникаючи очевидного). Фокус — на несподіваних зонах та реакціях.",
+        "en": "Play an exploration game: kiss your partner with your lips where you’ve never kissed before (avoid the obvious). Focus on unexpected spots and reactions."
+      },
+      "days": 1,
+      "goal": {
+        "ua": "Відкрити нові чуттєві зони тіла, підсилити еротичну довіру та дослідити реакції одне одного.",
+        "en": "Discover new sensual areas, increase erotic trust, and explore each other's reactions."
+      },
+      "category_id": "sexual_closeness",
+      "subcategory_slug": "",
+      "tags": [
+        "kisses",
+        "research",
+        "eroticism"
+      ],
+      "image": "lips_new_places.svg",
+      "free_or_premium": "premium",
+      "status": "active",
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ],
+  "challenge_steps": [
+    {
+      "id": "lips_new_places-step-1",
+      "challenge_id": "lips_new_places",
+      "step_number": 1,
+      "content": {
+        "ua": "По черзі шукайте незвідані зони для поцілунків.",
+        "en": "Take turns finding unexplored spots for kisses."
+      },
+      "tips": [
+        {
+          "ua": "Почніть із неочевидних місць: плече, зап'ястя, підборіддя, вухо.",
+          "en": "Start with less obvious places: shoulder, wrist, chin, ear."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    },
+    {
+      "id": "lips_new_places-step-2",
+      "challenge_id": "lips_new_places",
+      "step_number": 2,
+      "content": {
+        "ua": "Обговоріть, яка зона виявилась найчутливішою чи найнесподіванішою.",
+        "en": "Discuss which spot felt most sensitive or surprising."
+      },
+      "tips": [
+        {
+          "ua": "Використовуйте різні типи поцілунків — легкі, пульсуючі, довгі.",
+          "en": "Try different types of kisses — gentle, pulsing, lingering."
+        }
+      ],
+      "created_at": "2025-06-14T00:00:00Z",
+      "updated_at": "2025-06-14T00:00:00Z"
+    }
+  ]
+}

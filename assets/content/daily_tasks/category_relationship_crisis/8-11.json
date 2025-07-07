@@ -5,7 +5,7 @@
       "ua": "Слова любові",
       "en": "Words of Love"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Щоденна вправа, що допомагає партнерам висловлювати свою любов через слова підтримки та ніжності.",
       "en": "A daily exercise to help partners express their love through supportive and tender words."
@@ -59,7 +59,7 @@
       "ua": "Вивчення конфліктних тригерів",
       "en": "Identifying Conflict Triggers"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Щоденне завдання, що допомагає зрозуміти, які дії або слова викликають конфлікти, і як можна уникнути їх у майбутньому.",
       "en": "A daily task to help you understand what actions or words trigger conflicts and how to avoid them in the future."
@@ -113,7 +113,7 @@
       "ua": "Перегляд дня",
       "en": "Day Review"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Це завдання допомагає аналізувати свій день, визначати позитивні моменти та моменти, що потребують покращення.",
       "en": "This task helps you reflect on your day, identify positive moments and areas for improvement."
@@ -167,7 +167,7 @@
       "ua": "Взаємне слухання",
       "en": "Mutual Listening"
     },
-    "category_slug": "crisis_in_relationships",
+    "category_slug": "relationship_crisis",
     "description": {
       "ua": "Завдання, яке допомагає парам навчитися уважно слухати один одного, не перебиваючи та не оцінюючи.",
       "en": "A task that helps couples learn to listen carefully to each other without interrupting or judging."

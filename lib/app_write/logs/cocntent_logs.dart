@@ -15,9 +15,15 @@ void showNullableTitles(List<DailyContentJsonDTO> dailyContentDTO) {
   final testsNulls = dailyContentDTO.map((item) => item.testTitle).where((item) => item == null).toList();
   final techniquesNulls = dailyContentDTO.map((item) => item.techniqueTitle).where((item) => item == null).toList();
 
-  log('======SHOW NULLABLE TITLE=======');
+  log('\n======SHOW NULLABLE JSON TITLE=======');
   log('phrasesNulls: ${phrasesNulls.length} | dailyTasksNulls: ${dailyTasksNulls.length} | challengesNulls: ${challengesNulls.length} | testsNulls: ${testsNulls.length} | techniquesNulls: ${techniquesNulls.length}');
-  log('\n\n');
+  log('\n');
+
+  for (final data in dailyContentDTO) {
+    if (data.techniqueTitle == null) {
+      log('Day: ${data.dayNumber} - ${data.techniqueTitle}');
+    }
+  }
 }
 
 void showDuplicates(String key, List<String> titles) {
@@ -26,11 +32,14 @@ void showDuplicates(String key, List<String> titles) {
     counts[title] = (counts[title] ?? 0) + 1;
   }
   final duplicates = counts.entries.where((entry) => entry.value > 1).toList();
-  log('====== Duplicates for $key:\n');
+  if (duplicates.isEmpty) {
+    return;
+  }
+
+  log('====== Duplicates for $key');
   for (final entry in duplicates) {
     log('Value: "${entry.key}"  —  Count: ${entry.value}');
   }
-  log('\n\n');
 }
 
 Future<void> showLogsFromJson() async {
@@ -67,8 +76,7 @@ Future<void> uniqueChallenges(List<String> titles) async {
   final setB = Set<String>.from(titles);
   final uniqueChallenges = challengesDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE Challenges - JSON:\n');
-  log('count all: ${challengesDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueChallenges ]"\n\n');
+  log('====== UNIQUE Challenges - JSON: all: ${challengesDTOAll.length} | course: ${titles.length} | Not used: [ $uniqueChallenges ]"\n\n');
 }
 
 Future<void> uniqueTests(List<String> titles) async {
@@ -77,8 +85,7 @@ Future<void> uniqueTests(List<String> titles) async {
   final setB = Set<String>.from(titles);
   final uniqueTests = testsDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE tests - JSON:\n');
-  log('count all: ${testsDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueTests ]"\n\n');
+  log('====== UNIQUE tests - JSON: all: ${testsDTOAll.length} | course: ${titles.length} | Not used: [ $uniqueTests ]"\n\n');
 }
 
 Future<void> uniqueTechniques(List<String> titles) async {
@@ -91,8 +98,7 @@ Future<void> uniqueTechniques(List<String> titles) async {
   final setB = Set<String>.from(titles);
   final uniqueTechniques = techniquesDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE Techniques - JSON:\n');
-  log('count all: ${techniquesDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueTechniques ]"\n\n');
+  log('====== UNIQUE Techniques - JSON: all: ${techniquesDTOAll.length} | course: ${titles.length} | Not used: [ $uniqueTechniques ]"\n\n');
 }
 
 Future<void> uniqueDailyTasks(List<String> titles) async {
@@ -101,8 +107,8 @@ Future<void> uniqueDailyTasks(List<String> titles) async {
   final setB = Set<String>.from(titles);
   final uniqueTasks = tasksDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE DailyTasks - JSON:\n');
-  log('count all: ${tasksDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniqueTasks ]"\n\n');
+  log('\n');
+  log('====== UNIQUE DailyTasks - JSON | all: ${tasksDTOAll.length} | course: ${titles.length} | Not used: [ $uniqueTasks ]"\n\n');
 }
 
 Future<void> uniquePhrases(List<String> titles) async {
@@ -111,6 +117,6 @@ Future<void> uniquePhrases(List<String> titles) async {
   final setB = Set<String>.from(titles);
   final uniquePhrases = phraseDTOAll.where((item) => !setB.contains(item)).toList();
 
-  log('====== UNIQUE Phrases - JSON:\n');
-  log('count all: ${phraseDTOAll.length} | count from course: ${titles.length} | Not used: [ $uniquePhrases ]"\n\n');
+  log('\n');
+  log('====== UNIQUE Phrases - JSON: all: ${phraseDTOAll.length} | course: ${titles.length} | Not used: [ $uniquePhrases ]"\n\n');
 }
