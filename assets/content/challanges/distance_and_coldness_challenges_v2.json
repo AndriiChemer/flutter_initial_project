@@ -18,14 +18,14 @@
   },
   "challenges": [
     {
-      "id": "challenge_5_min_closeness",
+      "id": "5_min_closeness",
       "title": {
         "ua": "5 хвилин поруч",
         "en": "5 Minutes Together"
       },
       "description": {
-        "ua": "Виділіть лише 5 хвилин сьогодні...",
-        "en": "Spend just 5 minutes today being physically and emotionally close..."
+        "ua": "Виділіть лише 5 хвилин сьогодні для тілесної й емоційної близькості: побудьте поруч, тримайтеся за руки чи обійміться. Відчуйте, що ви разом.",
+        "en": "Spend just 5 minutes today being physically and emotionally close: sit together, hold hands or hug. Feel what it’s like to be together."
       },
       "days": 1,
       "goal": {
@@ -50,14 +50,14 @@
       "updated_at": "2025-05-15T16:47:43.428688Z"
     },
     {
-      "id": "challenge_image_of_you",
+      "id": "image_of_you",
       "title": {
         "ua": "Мій образ тебе",
         "en": "The Image I Hold of You"
       },
       "description": {
-        "ua": "Кожен описує, як він бачить свого партнера сьогодні...",
-        "en": "Each partner describes how they see the other today..."
+        "ua": "Кожен описує, як бачить свого партнера зараз — риси, цінності, ролі. Обміняйтесь цими образами й просто прийміть їх, без коментарів.",
+        "en": "Each partner describes how they see the other now — traits, values, roles. Exchange these descriptions and simply receive them, no comments."
       },
       "days": 1,
       "goal": {
@@ -82,14 +82,14 @@
       "updated_at": "2025-05-15T16:47:43.428688Z"
     },
     {
-      "id": "challenge_memory_invite",
+      "id": "memory_invite",
       "title": {
         "ua": "Запрошення до спогадів",
         "en": "Invitation to Memories"
       },
       "description": {
-        "ua": "Згадайте разом приємні моменти з початку стосунків...",
-        "en": "Recall fond moments from the early days of your relationship..."
+        "ua": "Згадайте разом теплі моменти початку ваших стосунків. Поділіться, що викликало щастя і що з того втратили зараз.",
+        "en": "Recall fond moments from the early days of your relationship. Share what made you happy then, and what you feel is missing now."
       },
       "days": 1,
       "goal": {
@@ -114,14 +114,14 @@
       "updated_at": "2025-05-15T16:47:43.428688Z"
     },
     {
-      "id": "challenge_unconditional_letter",
+      "id": "unconditional_letter",
       "title": {
         "ua": "Лист любові без умов",
         "en": "Unconditional Love Letter"
       },
       "description": {
-        "ua": "Напишіть короткий лист або повідомлення, де скажете партнеру...",
-        "en": "Write a short letter or message to your partner expressing your love..."
+        "ua": "Напишіть короткий лист або повідомлення з теплом і вдячністю, не вимагаючи нічого навзаєм. Просто скажіть партнеру, за що цінуєте й любите.",
+        "en": "Write a short note or message with warmth and gratitude, asking for nothing in return. Simply tell your partner what you value and love."
       },
       "days": 1,
       "goal": {
@@ -146,14 +146,14 @@
       "updated_at": "2025-05-15T16:47:43.428688Z"
     },
     {
-      "id": "challenge_new_ritual",
+      "id": "new_ritual",
       "title": {
         "ua": "1 новий ритуал",
         "en": "One New Ritual"
       },
       "description": {
-        "ua": "Створіть нову щоденну або щотижневу звичку...",
-        "en": "Create a new daily or weekly ritual that belongs to just the two of you..."
+        "ua": "Створіть нову спільну звичку — щоденний чи щотижневий ритуал, який допоможе відчути близькість і регулярний контакт.",
+        "en": "Create a new shared habit — a daily or weekly ritual that will help you feel closer and regularly connected."
       },
       "days": 2,
       "goal": {
@@ -181,7 +181,7 @@
   "challenge_steps": [
     {
       "id": "4f7aacd8-06c7-471b-953e-c1239ab3f060",
-      "challenge_id": "challenge_5_min_closeness",
+      "challenge_id": "5_min_closeness",
       "step_number": 1,
       "content": {
         "ua": "Перед початком домовтесь не оцінювати одне одного і не змушувати — робіть лише те, що комфортно.",
@@ -192,7 +192,7 @@
     },
     {
       "id": "e70bfcba-2610-47cd-be93-81848cf8b0fd",
-      "challenge_id": "challenge_5_min_closeness",
+      "challenge_id": "5_min_closeness",
       "step_number": 2,
       "content": {
         "ua": "Сядьте або ляжте поруч, візьміться за руки чи обійміться.",
@@ -203,7 +203,7 @@
     },
     {
       "id": "e8b29ef0-add9-4f08-89b9-45f1f23d5549",
-      "challenge_id": "challenge_5_min_closeness",
+      "challenge_id": "5_min_closeness",
       "step_number": 3,
       "content": {
         "ua": "Закрийте очі або дивіться одне одному в очі.",
@@ -214,7 +214,7 @@
     },
     {
       "id": "28165fce-5fe9-4b5b-ace5-d86d48c837db",
-      "challenge_id": "challenge_5_min_closeness",
+      "challenge_id": "5_min_closeness",
       "step_number": 4,
       "content": {
         "ua": "Не говоріть. Просто дихайте разом і відчувайте близькість.",
@@ -225,7 +225,7 @@
     },
     {
       "id": "8441869f-9ef2-4ab8-91f6-e516afacf8be",
-      "challenge_id": "challenge_5_min_closeness",
+      "challenge_id": "5_min_closeness",
       "step_number": 5,
       "content": {
         "ua": "Після цього скажіть, що відчули. Без оцінок — тільки чесність.",
@@ -236,7 +236,7 @@
     },
     {
       "id": "12eca7fc-8837-4e2a-82bf-4a64c7fbb144",
-      "challenge_id": "challenge_image_of_you",
+      "challenge_id": "image_of_you",
       "step_number": 1,
       "content": {
         "ua": "Кожен окремо пише або проговорює: «Я бачу тебе як...»",
@@ -247,7 +247,7 @@
     },
     {
       "id": "bfefdab1-9e40-4e30-82e9-a8f16602e84c",
-      "challenge_id": "challenge_image_of_you",
+      "challenge_id": "image_of_you",
       "step_number": 2,
       "content": {
         "ua": "Зосередьтесь на цінностях, ролях, рисах, які бачите в партнері.",
@@ -258,7 +258,7 @@
     },
     {
       "id": "086f556c-c77f-43db-ab72-7514d2fcc2aa",
-      "challenge_id": "challenge_image_of_you",
+      "challenge_id": "image_of_you",
       "step_number": 3,
       "content": {
         "ua": "Обміняйтесь цими описами. Не коментуйте — тільки прийміть.",
@@ -269,7 +269,7 @@
     },
     {
       "id": "ba9dd6eb-0456-48e1-8f6e-9fbd75f14766",
-      "challenge_id": "challenge_image_of_you",
+      "challenge_id": "image_of_you",
       "step_number": 4,
       "content": {
         "ua": "Подумайте, які з цих якостей ви давно не помічали.",
@@ -280,7 +280,7 @@
     },
     {
       "id": "5b2eb686-607a-4529-81af-90756fc5c1f2",
-      "challenge_id": "challenge_memory_invite",
+      "challenge_id": "memory_invite",
       "step_number": 1,
       "content": {
         "ua": "Кожен підготує одну спільну пам’ять, яка приносить тепло.",
@@ -291,7 +291,7 @@
     },
     {
       "id": "0c6b9ec4-8695-4ed3-bb85-494cc9debef4",
-      "challenge_id": "challenge_memory_invite",
+      "challenge_id": "memory_invite",
       "step_number": 2,
       "content": {
         "ua": "Розкажіть одне одному цю історію, як ніби вперше.",
@@ -302,7 +302,7 @@
     },
     {
       "id": "c4afde5b-79e8-4026-813a-3250a1d2b100",
-      "challenge_id": "challenge_memory_invite",
+      "challenge_id": "memory_invite",
       "step_number": 3,
       "content": {
         "ua": "Поділіться: що саме тоді викликало у вас щастя? Що з того зникло?",
@@ -313,7 +313,7 @@
     },
     {
       "id": "63f909a1-01ed-4a4f-8c7d-6936ac15d030",
-      "challenge_id": "challenge_memory_invite",
+      "challenge_id": "memory_invite",
       "step_number": 4,
       "content": {
         "ua": "Запишіть або сфотографуйте щось символічне, пов’язане з цією пам’яттю.",
@@ -324,7 +324,7 @@
     },
     {
       "id": "126fdd36-2a58-4421-9d8a-2dd4973a8561",
-      "challenge_id": "challenge_new_ritual",
+      "challenge_id": "new_ritual",
       "step_number": 1,
       "content": {
         "ua": "Обговоріть: які маленькі звички могли б бути вашим новим 'ми'?",
@@ -335,7 +335,7 @@
     },
     {
       "id": "3260a09f-2cb2-4c8b-a49b-7abd61867064",
-      "challenge_id": "challenge_new_ritual",
+      "challenge_id": "new_ritual",
       "step_number": 2,
       "content": {
         "ua": "Виберіть одну й домовтесь спробувати протягом 2 днів.",
@@ -346,7 +346,7 @@
     },
     {
       "id": "8b49024d-ae7b-42b3-8070-53cd4bdb411b",
-      "challenge_id": "challenge_new_ritual",
+      "challenge_id": "new_ritual",
       "step_number": 3,
       "content": {
         "ua": "Виконуйте її разом — стабільно й свідомо.",
@@ -357,7 +357,7 @@
     },
     {
       "id": "83659acb-a7df-4228-a974-8194a169a1c6",
-      "challenge_id": "challenge_new_ritual",
+      "challenge_id": "new_ritual",
       "step_number": 4,
       "content": {
         "ua": "Після обговоріть: як це змінило ваш контакт?",
@@ -368,7 +368,7 @@
     },
     {
       "id": "5d5a4ddf-7698-49fc-8926-fed6516cdd3d",
-      "challenge_id": "challenge_unconditional_letter",
+      "challenge_id": "unconditional_letter",
       "step_number": 1,
       "content": {
         "ua": "Сядьте і подумайте: за що я справді вдячний партнеру, що досі ціную?",
@@ -379,7 +379,7 @@
     },
     {
       "id": "4c411b2a-58fa-4d27-99ca-4b646dc621c6",
-      "challenge_id": "challenge_unconditional_letter",
+      "challenge_id": "unconditional_letter",
       "step_number": 2,
       "content": {
         "ua": "Напишіть 3-5 речень у формі щирого листа або записки.",
@@ -390,7 +390,7 @@
     },
     {
       "id": "f2eaadf1-5e01-47a4-9842-a622ab653388",
-      "challenge_id": "challenge_unconditional_letter",
+      "challenge_id": "unconditional_letter",
       "step_number": 3,
       "content": {
         "ua": "Залишіть її в несподіваному місці — або надішліть у повідомленнях.",
@@ -401,7 +401,7 @@
     },
     {
       "id": "e4e7befd-6812-408b-b626-70137c8b5ee2",
-      "challenge_id": "challenge_unconditional_letter",
+      "challenge_id": "unconditional_letter",
       "step_number": 4,
       "content": {
         "ua": "Нічого не чекайте у відповідь. Просто дайте це.",

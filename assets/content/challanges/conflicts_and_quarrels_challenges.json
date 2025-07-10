@@ -18,14 +18,14 @@
   },
   "challenges": [
     {
-      "id": "challenge_deep_listening",
+      "id": "deep_listening",
       "title": {
         "ua": "День глибокого слухання",
         "en": "Deep Listening Day"
       },
       "description": {
-        "ua": "У цей день практикуйте активне слухання...",
-        "en": "Practice active listening throughout the day..."
+        "ua": "Слухайте партнера уважно й без перебивань. Ваше завдання — зрозуміти, що для нього дійсно важливо.",
+        "en": "Listen to your partner carefully, without interrupting. The goal is to truly understand what matters to them."
       },
       "days": 1,
       "goal": {
@@ -50,14 +50,14 @@
       "updated_at": "2025-05-15T16:35:06.346839Z"
     },
     {
-      "id": "challenge_truth_hour",
+      "id": "truth_hour",
       "title": {
         "ua": "Година правди",
         "en": "Truth Hour"
       },
       "description": {
-        "ua": "Протягом однієї години обговоріть теми, які зазвичай уникаєте...",
-        "en": "Spend one hour discussing avoided topics..."
+        "ua": "Виділіть годину для чесної розмови про те, що зазвичай замовчуєте. Відкритість без страху чи критики.",
+        "en": "Spend an hour talking honestly about what you usually keep silent. Openness without fear or criticism."
       },
       "days": 1,
       "goal": {
@@ -88,8 +88,8 @@
         "en": "My Core, Not Your Fault"
       },
       "description": {
-        "ua": "Часто ми звинувачуємо партнера в своїх емоціях...",
-        "en": "We often blame our partner for our emotions..."
+        "ua": "Часто ми звинувачуємо партнера в своїх емоціях, але справжній крок — помічати, що саме викликає ці почуття, та ділитись ними відкрито й без претензій.",
+        "en": "We often blame our partner for our emotions, but the real step is to notice what triggers these feelings and share them openly, without accusation."
       },
       "days": 1,
       "goal": {
@@ -114,14 +114,14 @@
       "updated_at": "2025-05-15T16:35:06.346839Z"
     },
     {
-      "id": "challenge_conflict_pause",
+      "id": "conflict_pause",
       "title": {
         "ua": "Стоп-код слово",
         "en": "Conflict Pause Word"
       },
       "description": {
-        "ua": "Встановіть спеціальне «стоп-слово» або жест...",
-        "en": "Create a special 'pause word' or gesture..."
+        "ua": "Домовтесь про стоп-слово або жест для паузи під час сварки. Коли напруга зростає — використайте його.",
+        "en": "Agree on a pause word or gesture for conflicts. When tension rises, use it to take a break."
       },
       "days": 1,
       "goal": {
@@ -149,7 +149,7 @@
   "challenge_steps": [
     {
       "id": "b6bc966e-4514-4ffe-9b11-c39ad0332b93",
-      "challenge_id": "challenge_deep_listening",
+      "challenge_id": "deep_listening",
       "step_number": 1,
       "content": {
         "ua": "Перед початком домовтесь, що обоє беруть участь.",
@@ -160,7 +160,7 @@
     },
     {
       "id": "26903df4-fb6f-4ba7-bc13-0c743d7a1fc1",
-      "challenge_id": "challenge_deep_listening",
+      "challenge_id": "deep_listening",
       "step_number": 2,
       "content": {
         "ua": "Кожен виділяє час, щоб вислухати партнера не перебиваючи.",
@@ -171,7 +171,7 @@
     },
     {
       "id": "c44a8aa5-69f9-4c8d-94d6-ee758172772e",
-      "challenge_id": "challenge_deep_listening",
+      "challenge_id": "deep_listening",
       "step_number": 3,
       "content": {
         "ua": "Після цього спробуйте переказати, що почули.",
@@ -182,7 +182,7 @@
     },
     {
       "id": "a379b74a-0814-48c6-808a-8297db58942b",
-      "challenge_id": "challenge_deep_listening",
+      "challenge_id": "deep_listening",
       "step_number": 4,
       "content": {
         "ua": "Завершіть словами: «Я правильно тебе зрозумів(ла)?»",
@@ -193,7 +193,7 @@
     },
     {
       "id": "38a89000-9b01-4d21-8369-59f723a39d4e",
-      "challenge_id": "challenge_truth_hour",
+      "challenge_id": "truth_hour",
       "step_number": 1,
       "content": {
         "ua": "Кожен з вас готує список із 3 запитань...",
@@ -204,7 +204,7 @@
     },
     {
       "id": "aac396a0-4643-4c90-814a-a0cf85524f02",
-      "challenge_id": "challenge_truth_hour",
+      "challenge_id": "truth_hour",
       "step_number": 2,
       "content": {
         "ua": "Встановіть правило: чесність без засудження.",
@@ -215,7 +215,7 @@
     },
     {
       "id": "b23f892d-1108-4b01-a73e-691f850051b5",
-      "challenge_id": "challenge_truth_hour",
+      "challenge_id": "truth_hour",
       "step_number": 3,
       "content": {
         "ua": "Відповідайте по черзі, уважно слухаючи.",
@@ -226,7 +226,7 @@
     },
     {
       "id": "ab2db4c3-32ac-4912-b351-2ae46348deb1",
-      "challenge_id": "challenge_truth_hour",
+      "challenge_id": "truth_hour",
       "step_number": 4,
       "content": {
         "ua": "Після кожної відповіді скажіть: «Дякую, що поділився(лась)»",
@@ -281,7 +281,7 @@
     },
     {
       "id": "14d8aa8b-0c0c-4033-b3e5-b25750dc7236",
-      "challenge_id": "challenge_conflict_pause",
+      "challenge_id": "conflict_pause",
       "step_number": 1,
       "content": {
         "ua": "Разом оберіть слово або жест...",
@@ -292,7 +292,7 @@
     },
     {
       "id": "86485035-a9e3-404b-82fc-dac6ebddb3e0",
-      "challenge_id": "challenge_conflict_pause",
+      "challenge_id": "conflict_pause",
       "step_number": 2,
       "content": {
         "ua": "Домовтесь, що це буде знак: пауза, без криків, на 10 хв.",
@@ -303,7 +303,7 @@
     },
     {
       "id": "a08426ec-d7a3-4461-b02b-d0205eb73d6e",
-      "challenge_id": "challenge_conflict_pause",
+      "challenge_id": "conflict_pause",
       "step_number": 3,
       "content": {
         "ua": "Складіть короткий план: що робити у ці 10 хв? (вихід на повітря, вода, музика).",

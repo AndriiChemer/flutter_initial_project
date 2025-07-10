@@ -18,14 +18,14 @@
   },
   "challenges": [
     {
-      "id": "challenge_active_listening",
+      "id": "active_listening",
       "title": {
         "ua": "Слухаю — не реагую",
         "en": "Listen Without Reacting"
       },
       "description": {
-        "ua": "Сьогодні тренуйте активне слухання...",
-        "en": "Today, practice active listening..."
+        "ua": "Сьогодні тренуйте активне слухання: слухайте партнера уважно, не перебиваючи та не даючи порад. Дайте простір бути почутим.",
+        "en": "Today, practice active listening: listen closely to your partner without interrupting or giving advice. Just let them be heard."
       },
       "days": 1,
       "goal": {
@@ -50,14 +50,14 @@
       "updated_at": "2025-05-15T16:39:27.392992Z"
     },
     {
-      "id": "challenge_i_messages",
+      "id": "i_messages",
       "title": {
         "ua": "Я-повідомлення",
         "en": "I-Statements"
       },
       "description": {
-        "ua": "Навчіться формулювати свої емоції без звинувачень...",
-        "en": "Learn to express your emotions without blame..."
+        "ua": "Навчіться говорити про свої емоції без звинувачень: використовуйте «Я-повідомлення», щоб ділитися почуттями відкрито й без критики.",
+        "en": "Learn to express emotions without blame: use 'I-statements' to share your feelings openly and without criticism."
       },
       "days": 1,
       "goal": {
@@ -82,14 +82,14 @@
       "updated_at": "2025-05-15T16:39:27.392992Z"
     },
     {
-      "id": "challenge_empathy_reflection",
+      "id": "empathy_reflection",
       "title": {
         "ua": "Віддзеркалення емоцій",
         "en": "Emotion Reflection"
       },
       "description": {
-        "ua": "Сьогоднішній фокус — навчитися відображати емоції партнера словами...",
-        "en": "Today’s focus is learning to reflect your partner’s emotions with words..."
+        "ua": "Відображайте емоції партнера словами, щоб показати, що ви його чуєте та розумієте.",
+        "en": "Reflect your partner’s emotions in words to show you hear and understand them."
       },
       "days": 1,
       "goal": {
@@ -114,14 +114,14 @@
       "updated_at": "2025-05-15T16:39:27.392992Z"
     },
     {
-      "id": "challenge_tone_control",
+      "id": "tone_control",
       "title": {
         "ua": "Говоримо — не ображаємо",
         "en": "Speak Without Harm"
       },
       "description": {
-        "ua": "Ваше завдання — контролювати не лише слова, а й *тон*...",
-        "en": "Your task is to control not just words but also *tone*..."
+        "ua": "Контролюйте не лише слова, а й тон. Говоріть м’якше, особливо коли з’являється напруга.",
+        "en": "Watch not just your words but your tone. Speak more gently, especially if you feel tension."
       },
       "days": 1,
       "goal": {
@@ -146,14 +146,14 @@
       "updated_at": "2025-05-15T16:39:27.392992Z"
     },
     {
-      "id": "challenge_safe_space",
+      "id": "safe_space",
       "title": {
         "ua": "Час чесності",
         "en": "Honesty Time"
       },
       "description": {
-        "ua": "Створіть безпечний простір для короткої розмови...",
-        "en": "Create a safe space for a short conversation..."
+        "ua": "Створіть безпечний простір для чесної розмови: вислухайте одне одного без перебивань і коментарів.",
+        "en": "Create a safe space for honest talk: listen to each other without interruptions or comments."
       },
       "days": 1,
       "goal": {
@@ -181,7 +181,7 @@
   "challenge_steps": [
     {
       "id": "a84d61b9-255f-417c-8c7e-418f3b6f3c29",
-      "challenge_id": "challenge_active_listening",
+      "challenge_id": "active_listening",
       "step_number": 1,
       "content": {
         "ua": "Виберіть момент, коли партнер хоче поділитися чимось (навіть побутовим).",
@@ -192,7 +192,7 @@
     },
     {
       "id": "a98bd201-e203-4b4a-a3b8-9c4c00db09e3",
-      "challenge_id": "challenge_active_listening",
+      "challenge_id": "active_listening",
       "step_number": 2,
       "content": {
         "ua": "Слухайте, не перебиваючи й не коментуючи.",
@@ -203,7 +203,7 @@
     },
     {
       "id": "577d2257-388b-465b-bb28-726581786550",
-      "challenge_id": "challenge_active_listening",
+      "challenge_id": "active_listening",
       "step_number": 3,
       "content": {
         "ua": "Після завершення скажіть: «Я почув(ла), що тобі важливо... Це правильно?»",
@@ -214,7 +214,7 @@
     },
     {
       "id": "a651f8a7-a5d9-4b67-8125-8a0fa85e3fef",
-      "challenge_id": "challenge_active_listening",
+      "challenge_id": "active_listening",
       "step_number": 4,
       "content": {
         "ua": "Партнер підтверджує або уточнює. Не переходьте одразу до власної думки.",
@@ -225,7 +225,7 @@
     },
     {
       "id": "e39fa4df-e3a0-492d-9a4c-e5696048603c",
-      "challenge_id": "challenge_i_messages",
+      "challenge_id": "i_messages",
       "step_number": 1,
       "content": {
         "ua": "Підготуйте кілька прикладів ситуацій, які викликали емоції.",
@@ -236,7 +236,7 @@
     },
     {
       "id": "28d4b1a8-9330-402d-985c-6067522e1cae",
-      "challenge_id": "challenge_i_messages",
+      "challenge_id": "i_messages",
       "step_number": 2,
       "content": {
         "ua": "Сформулюйте кожну фразу у стилі: «Я відчуваю ___, коли ___, бо ___.»",
@@ -247,7 +247,7 @@
     },
     {
       "id": "ab268bd3-69dd-4995-8f7f-38570f96fb69",
-      "challenge_id": "challenge_i_messages",
+      "challenge_id": "i_messages",
       "step_number": 3,
       "content": {
         "ua": "Скажіть партнеру 1–2 таких фраз без агресії.",
@@ -258,7 +258,7 @@
     },
     {
       "id": "e72107cf-b85c-4d20-b5d5-336b91904052",
-      "challenge_id": "challenge_i_messages",
+      "challenge_id": "i_messages",
       "step_number": 4,
       "content": {
         "ua": "Попросіть партнера відповісти лише: «Дякую, що поділився(лась).»",
@@ -269,7 +269,7 @@
     },
     {
       "id": "7ebf9498-269f-4fe1-a304-34b585d94a3a",
-      "challenge_id": "challenge_empathy_reflection",
+      "challenge_id": "empathy_reflection",
       "step_number": 1,
       "content": {
         "ua": "Коли партнер щось розповідає, зупиніться на його емоції.",
@@ -280,7 +280,7 @@
     },
     {
       "id": "d7f68570-474d-4107-a6d6-cf0c9b08e147",
-      "challenge_id": "challenge_empathy_reflection",
+      "challenge_id": "empathy_reflection",
       "step_number": 2,
       "content": {
         "ua": "Скажіть: «Здається, ти відчуваєш ___. Це так?»",
@@ -291,7 +291,7 @@
     },
     {
       "id": "d3bcc7f8-6ccb-4c65-906a-4faaade066c4",
-      "challenge_id": "challenge_empathy_reflection",
+      "challenge_id": "empathy_reflection",
       "step_number": 3,
       "content": {
         "ua": "Партнер підтверджує або уточнює. Дайте йому простір.",
@@ -302,7 +302,7 @@
     },
     {
       "id": "ba7c5b28-8ad3-467f-90f9-4d387dfbe87a",
-      "challenge_id": "challenge_empathy_reflection",
+      "challenge_id": "empathy_reflection",
       "step_number": 4,
       "content": {
         "ua": "Не давайте порад, не мінімізуйте почуття, просто визнайте їх.",
@@ -313,7 +313,7 @@
     },
     {
       "id": "fe407404-751a-4553-8c64-1b454c8494c3",
-      "challenge_id": "challenge_tone_control",
+      "challenge_id": "tone_control",
       "step_number": 1,
       "content": {
         "ua": "Сьогодні слідкуйте за інтонацією при кожному зверненні до партнера.",
@@ -324,7 +324,7 @@
     },
     {
       "id": "f59b3cac-c27e-4253-87ff-6f5e8ecde65c",
-      "challenge_id": "challenge_tone_control",
+      "challenge_id": "tone_control",
       "step_number": 2,
       "content": {
         "ua": "Якщо відчуваєте роздратування — зробіть паузу і видихніть.",
@@ -335,7 +335,7 @@
     },
     {
       "id": "6e290108-1ede-47a5-8f9f-8484bcf52655",
-      "challenge_id": "challenge_tone_control",
+      "challenge_id": "tone_control",
       "step_number": 3,
       "content": {
         "ua": "Спробуйте переформулювати фразу у м’якший спосіб.",
@@ -346,7 +346,7 @@
     },
     {
       "id": "c7245375-b710-4f65-b02b-9cc805ebc950",
-      "challenge_id": "challenge_tone_control",
+      "challenge_id": "tone_control",
       "step_number": 4,
       "content": {
         "ua": "В кінці дня обговоріть: чи щось змінилось у спілкуванні?",
@@ -357,7 +357,7 @@
     },
     {
       "id": "f97756ab-762d-421b-95fc-559774d95a0c",
-      "challenge_id": "challenge_safe_space",
+      "challenge_id": "safe_space",
       "step_number": 1,
       "content": {
         "ua": "Сядьте один навпроти одного. Вимкніть телефони.",
@@ -368,7 +368,7 @@
     },
     {
       "id": "7a955d61-6c23-4fe4-a2ad-8f5f6a123b20",
-      "challenge_id": "challenge_safe_space",
+      "challenge_id": "safe_space",
       "step_number": 2,
       "content": {
         "ua": "Кожен говорить 3–5 хвилин про свої невисловлені думки/почуття.",
@@ -379,7 +379,7 @@
     },
     {
       "id": "ff95507e-ccd3-443d-882d-1abdfb2c79fb",
-      "challenge_id": "challenge_safe_space",
+      "challenge_id": "safe_space",
       "step_number": 3,
       "content": {
         "ua": "Інший слухає мовчки, без коментарів.",
@@ -390,7 +390,7 @@
     },
     {
       "id": "c7ed99f2-30cf-4693-bdff-a943627419d8",
-      "challenge_id": "challenge_safe_space",
+      "challenge_id": "safe_space",
       "step_number": 4,
       "content": {
         "ua": "Після — тільки дякуємо. Ніяких дискусій чи виправдань.",

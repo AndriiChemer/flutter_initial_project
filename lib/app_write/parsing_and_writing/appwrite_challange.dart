@@ -10,6 +10,10 @@ import 'package:iteo_libraries_example/app_write/dto/category/subcategory_dto.da
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_step_dto.dart';
 
+//reconnection_after_breakup_challenges.json
+//sexual_closeness_advanced_challenges_final.json
+//sexual_closeness_by_subcategory.json
+
 Future<void> writeToDataBaseChallenges() async {
   final database = getDataBase();
 
@@ -277,22 +281,21 @@ Future<Map<String, dynamic>> _getFileData(String path) async {
 
 Future<Map<ChallengeDTO, List<ChallengeStepDTO>>> parseChallenges() async {
   final listOfFilesChallenges = [
-    // 'assets/content/challanges/challanges_without_subcategory.json',
-    // 'assets/content/challanges/communication_challenges.json',
-    // 'assets/content/challanges/conflicts_and_quarrels_challenges.json',
-    // 'assets/content/challanges/daily_life_routine_challenges.json',
-    // 'assets/content/challanges/distance_and_coldness_challenges_v2.json',
-    // 'assets/content/challanges/reconnection_after_breakup_challenges.json',
-    // 'assets/content/challanges/sexual_closeness_advanced_challenges_final.json',
-    // 'assets/content/challanges/sexual_closeness_by_subcategory.json',
-    // 'assets/content/challanges/multy_days/multi_day_arousal_game_3_days.json',
-    // 'assets/content/challanges/multy_days/multi_day_boundless_fantasies.json',
-    // 'assets/content/challanges/multy_days/multi_day_everyday_intimacy.json',
-    // 'assets/content/challanges/multy_days/multi_day_five_nights_of_desire_tips_translated.json',
-    // 'assets/content/challanges/multy_days/multi_day_game_of_desire.json',
-    // 'assets/content/challanges/multy_days/multi_day_roleplay_another_me.json',
-    // 'assets/content/challanges/multy_days/multi_day_safe_intimacy_restart.json',
-
+    'assets/content/challanges/challanges_without_subcategory.json',
+    'assets/content/challanges/communication_challenges.json',
+    'assets/content/challanges/conflicts_and_quarrels_challenges.json',
+    'assets/content/challanges/daily_life_routine_challenges.json',
+    'assets/content/challanges/distance_and_coldness_challenges_v2.json',
+    'assets/content/challanges/reconnection_after_breakup_challenges.json',
+    'assets/content/challanges/sexual_closeness_advanced_challenges_final.json',
+    'assets/content/challanges/sexual_closeness_by_subcategory.json',
+    'assets/content/challanges/multy_days/multi_day_arousal_game_3_days.json',
+    'assets/content/challanges/multy_days/multi_day_boundless_fantasies.json',
+    'assets/content/challanges/multy_days/multi_day_everyday_intimacy.json',
+    'assets/content/challanges/multy_days/multi_day_five_nights_of_desire_tips_translated.json',
+    'assets/content/challanges/multy_days/multi_day_game_of_desire.json',
+    'assets/content/challanges/multy_days/multi_day_roleplay_another_me.json',
+    'assets/content/challanges/multy_days/multi_day_safe_intimacy_restart.json',
     'assets/content/challanges/category_sexual_closeness/sensual_blindfold.json',
     'assets/content/challanges/category_sexual_closeness/intimate_dare_public.json',
     'assets/content/challanges/category_sexual_closeness/toy_shopping.json',
