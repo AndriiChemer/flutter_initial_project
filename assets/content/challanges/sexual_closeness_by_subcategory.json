@@ -169,14 +169,14 @@
       "updated_at": "2025-05-15T16:56:54.719023Z"
     },
     {
-      "id": "challenge_new_date",
+      "id": "new_date",
       "title": {
         "ua": "Нове побачення",
         "en": "A New Date"
       },
       "description": {
-        "ua": "Заплануйте незвичайне побачення...",
-        "en": "Plan an unusual date — new place, new vibe..."
+        "ua": "Сплануйте нове незвичне побачення, підготуйте маленький сюрприз і сфокусуйтесь на емоціях.",
+        "en": "Plan an unusual new date, prepare a small surprise and focus on emotions."
       },
       "days": 2,
       "goal": {
@@ -201,14 +201,14 @@
       "updated_at": "2025-05-15T16:56:54.719023Z"
     },
     {
-      "id": "challenge_daily_flirt",
+      "id": "daily_flirt",
       "title": {
         "ua": "Флірт на кожен день",
         "en": "Daily Flirt"
       },
       "description": {
-        "ua": "Поверніть легкий флірт у ваші стосунки...",
-        "en": "Bring playful flirtation back into your relationship..."
+        "ua": "Фліртуйте мінімум 3 рази на день: компліменти, грайливі фрази, легкий гумор. Ввечері поділіться враженнями.",
+        "en": "Flirt at least 3 times today: compliments, playful lines, light humor. In the evening, share impressions."
       },
       "days": 1,
       "goal": {
@@ -233,14 +233,14 @@
       "updated_at": "2025-05-15T16:56:54.719023Z"
     },
     {
-      "id": "challenge_secret_desire",
+      "id": "secret_desire",
       "title": {
         "ua": "Таємне бажання",
         "en": "Secret Desire"
       },
       "description": {
-        "ua": "Кожен з вас пише одне своє пікантне бажання або фантазію...",
-        "en": "Each of you writes one spicy desire or fantasy..."
+        "ua": "Напишіть по одній сексуальній фантазії, обміняйтесь і згодом обговоріть без оцінки. Оберіть те, що цікаво обом.",
+        "en": "Each writes one sexual fantasy, exchange notes, discuss later without judgment. Choose what interests you both."
       },
       "days": 1,
       "goal": {
@@ -444,7 +444,7 @@
     },
     {
       "id": "37ed2e1f-d3a8-4226-88bf-063cf93137b7",
-      "challenge_id": "challenge_new_date",
+      "challenge_id": "new_date",
       "step_number": 1,
       "content": {
         "ua": "Разом придумайте ідею для побачення — бажано нову для вас обох.",
@@ -455,7 +455,7 @@
     },
     {
       "id": "5016a591-f3d9-49a2-b014-0964281a151a",
-      "challenge_id": "challenge_new_date",
+      "challenge_id": "new_date",
       "step_number": 2,
       "content": {
         "ua": "Підготуйте міні-сюрприз один для одного: квітка, листівка, музика.",
@@ -466,7 +466,7 @@
     },
     {
       "id": "08ad0070-017a-4764-95b3-a4dd691a5e39",
-      "challenge_id": "challenge_new_date",
+      "challenge_id": "new_date",
       "step_number": 3,
       "content": {
         "ua": "Проведіть побачення з фокусом на присутності й емоціях.",
@@ -477,7 +477,7 @@
     },
     {
       "id": "4ccb2f38-2702-44b5-8241-b8bb7eee5a5a",
-      "challenge_id": "challenge_new_date",
+      "challenge_id": "new_date",
       "step_number": 4,
       "content": {
         "ua": "Після скажіть одне одному: що сподобалось найбільше.",
@@ -488,7 +488,7 @@
     },
     {
       "id": "22cfa56a-4338-4481-b9a2-853984f055dd",
-      "challenge_id": "challenge_daily_flirt",
+      "challenge_id": "daily_flirt",
       "step_number": 1,
       "content": {
         "ua": "Сьогодні мінімум 3 рази надішліть або скажіть щось фліртуюче партнеру.",
@@ -499,7 +499,7 @@
     },
     {
       "id": "eb0242cc-3d1d-47ec-b505-14be3ac70bae",
-      "challenge_id": "challenge_daily_flirt",
+      "challenge_id": "daily_flirt",
       "step_number": 2,
       "content": {
         "ua": "Це можуть бути компліменти, грайливі фрази або жарти.",
@@ -510,7 +510,7 @@
     },
     {
       "id": "89f63a7b-59b0-4c7f-ae32-6ca0005c43a8",
-      "challenge_id": "challenge_daily_flirt",
+      "challenge_id": "daily_flirt",
       "step_number": 3,
       "content": {
         "ua": "Фокус на емоціях, а не на сексуальних натяках (якщо це не доречно зараз).",
@@ -521,7 +521,7 @@
     },
     {
       "id": "60adc64a-f84f-42db-8407-6990aa4c8784",
-      "challenge_id": "challenge_daily_flirt",
+      "challenge_id": "daily_flirt",
       "step_number": 4,
       "content": {
         "ua": "Увечері обговоріть: як це вплинуло на ваш настрій і взаємодію.",
@@ -532,7 +532,7 @@
     },
     {
       "id": "ed19f315-2911-41dc-8c50-ce51f016c900",
-      "challenge_id": "challenge_secret_desire",
+      "challenge_id": "secret_desire",
       "step_number": 1,
       "content": {
         "ua": "Напишіть на папері або в нотатці одну сексуальну фантазію або дію, яку хотіли б втілити.",
@@ -543,7 +543,7 @@
     },
     {
       "id": "bef34b7c-3ab4-429f-aff4-421d315b2cab",
-      "challenge_id": "challenge_secret_desire",
+      "challenge_id": "secret_desire",
       "step_number": 2,
       "content": {
         "ua": "Обміняйтесь записками без обговорення в цей момент.",
@@ -554,7 +554,7 @@
     },
     {
       "id": "521f893a-4b09-4023-a6a5-427f5c4002a3",
-      "challenge_id": "challenge_secret_desire",
+      "challenge_id": "secret_desire",
       "step_number": 3,
       "content": {
         "ua": "Через 1–2 години обговоріть обидва бажання відкрито і без оцінювання.",
@@ -565,7 +565,7 @@
     },
     {
       "id": "21b0d3bc-c0c1-4144-b1c1-648e3e2f7f89",
-      "challenge_id": "challenge_secret_desire",
+      "challenge_id": "secret_desire",
       "step_number": 4,
       "content": {
         "ua": "Разом оберіть одне, яке обом комфортно спробувати найближчим часом.",

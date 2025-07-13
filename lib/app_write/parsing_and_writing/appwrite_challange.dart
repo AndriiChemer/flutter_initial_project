@@ -10,10 +10,6 @@ import 'package:iteo_libraries_example/app_write/dto/category/subcategory_dto.da
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_step_dto.dart';
 
-//reconnection_after_breakup_challenges.json
-//sexual_closeness_advanced_challenges_final.json
-//sexual_closeness_by_subcategory.json
-
 Future<void> writeToDataBaseChallenges() async {
   final database = getDataBase();
 

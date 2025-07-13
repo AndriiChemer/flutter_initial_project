@@ -34,7 +34,7 @@
   ],
   "challenges": [
     {
-      "id": "challenge_playful_submission",
+      "id": "playful_submission",
       "title": {
         "ua": "Грайлива підкореність",
         "en": "Playful Submission"
@@ -68,14 +68,14 @@
       "updated_at": "2025-05-22T15:18:30.979392Z"
     },
     {
-      "id": "challenge_your_pleasure_zone",
+      "id": "your_pleasure_zone",
       "title": {
         "ua": "Твоя зона задоволення",
         "en": "Your Pleasure Zone"
       },
       "description": {
-        "ua": "Цей челендж допоможе вам дослідити ті частини тіла, які найбільше збуджують партнера...",
-        "en": "This challenge helps you explore the body zones that arouse your partner the most – with slowness and honest feedback."
+        "ua": "Разом дослідіть, які дотики й зони тіла найбільше збуджують партнера. Діліться відгуками, рухайтесь повільно й з цікавістю.",
+        "en": "Explore which touches and body zones arouse your partner most. Give feedback, go slow and stay curious."
       },
       "days": 1,
       "goal": {
@@ -101,14 +101,14 @@
       "updated_at": "2025-05-22T15:18:30.979392Z"
     },
     {
-      "id": "challenge_kissing_marathon",
+      "id": "kissing_marathon",
       "title": {
         "ua": "Марафон поцілунків",
         "en": "Kissing Marathon"
       },
       "description": {
-        "ua": "Спробуйте перетворити звичайний поцілунок у справжню гру...",
-        "en": "Turn a kiss into a sensual game. This challenge is designed to awaken physical affection and anticipation."
+        "ua": "Перетворіть поцілунки на гру: експериментуйте з темпом, місцями і чергуйте ролі. Не поспішайте.",
+        "en": "Turn kissing into a game: experiment with pace, places, and switch roles. Take your time."
       },
       "days": 1,
       "goal": {
@@ -133,14 +133,14 @@
       "updated_at": "2025-05-22T15:18:30.979392Z"
     },
     {
-      "id": "challenge_night_without_script",
+      "id": "night_without_script",
       "title": {
         "ua": "Ніч без сценарію",
         "en": "Night Without a Script"
       },
       "description": {
-        "ua": "Цей челендж — для пари, яка готова досліджувати нові сторони інтимності без чітких правил...",
-        "en": "This challenge is for couples ready to explore intimacy without rules – using intuition and emotional connection."
+        "ua": "Досліджуйте інтимність без плану чи очікувань. Покладіться на відчуття й дотики — все має бути природно.",
+        "en": "Explore intimacy with no plan or expectations. Trust sensations and touches — let it flow naturally."
       },
       "days": 1,
       "goal": {
@@ -167,7 +167,7 @@
   "challenge_steps": [
     {
       "id": "d524d913-99b3-49e4-859b-32624cce2e26",
-      "challenge_id": "challenge_playful_submission",
+      "challenge_id": "playful_submission",
       "step_number": 1,
       "content": {
         "ua": "Домовтесь, хто сьогодні бере на себе роль «ведучого»...",
@@ -178,7 +178,7 @@
     },
     {
       "id": "9f10a042-1e4b-42c5-bad4-e781f8c23653",
-      "challenge_id": "challenge_playful_submission",
+      "challenge_id": "playful_submission",
       "step_number": 2,
       "content": {
         "ua": "Ведучий готує 3 інтимні завдання...",
@@ -189,7 +189,7 @@
     },
     {
       "id": "7443b8e1-04d6-4649-a03c-d49d577804b7",
-      "challenge_id": "challenge_playful_submission",
+      "challenge_id": "playful_submission",
       "step_number": 3,
       "content": {
         "ua": "Підкорений має виконувати завдання, але може використати «стоп-слово»...",
@@ -200,7 +200,7 @@
     },
     {
       "id": "b93fa0c8-dd81-44ab-ba41-c4ff317e4376",
-      "challenge_id": "challenge_playful_submission",
+      "challenge_id": "playful_submission",
       "step_number": 4,
       "content": {
         "ua": "Після завершення — обмін ролями (за бажанням).",
@@ -211,7 +211,7 @@
     },
     {
       "id": "05f7b43c-c0d5-40b8-a472-69b8f6183666",
-      "challenge_id": "challenge_playful_submission",
+      "challenge_id": "playful_submission",
       "step_number": 5,
       "content": {
         "ua": "На завершення — обійми, слова вдячності та обговорення відчуттів.",
@@ -222,7 +222,7 @@
     },
     {
       "id": "def61568-63b0-4a8a-8654-f39192e6b572",
-      "challenge_id": "challenge_your_pleasure_zone",
+      "challenge_id": "your_pleasure_zone",
       "step_number": 1,
       "content": {
         "ua": "Погодьте, хто перший буде «дослідником», а хто — «досліджуваним».",
@@ -233,7 +233,7 @@
     },
     {
       "id": "4e63dfca-aa7c-4fb3-843a-36dc8a363ba2",
-      "challenge_id": "challenge_your_pleasure_zone",
+      "challenge_id": "your_pleasure_zone",
       "step_number": 2,
       "content": {
         "ua": "Партнер-дослідник має ніжно доторкатися до різних зон тіла...",
@@ -244,7 +244,7 @@
     },
     {
       "id": "034345b1-d2fc-4806-ba76-bababc1951e1",
-      "challenge_id": "challenge_your_pleasure_zone",
+      "challenge_id": "your_pleasure_zone",
       "step_number": 3,
       "content": {
         "ua": "Сигнал — гарячіше або холодніше...",
@@ -255,7 +255,7 @@
     },
     {
       "id": "dd4caf37-cfa4-473d-b99b-f7f3278ac424",
-      "challenge_id": "challenge_your_pleasure_zone",
+      "challenge_id": "your_pleasure_zone",
       "step_number": 4,
       "content": {
         "ua": "Якщо бажано, доторкніться до інтимних зон...",
@@ -266,7 +266,7 @@
     },
     {
       "id": "7fca0954-3efc-4583-8ea8-c6e50ef8719c",
-      "challenge_id": "challenge_your_pleasure_zone",
+      "challenge_id": "your_pleasure_zone",
       "step_number": 5,
       "content": {
         "ua": "Після цього ролі змінюються.",
@@ -277,7 +277,7 @@
     },
     {
       "id": "8ab776f2-3c75-4669-a490-2186a45b8aa5",
-      "challenge_id": "challenge_your_pleasure_zone",
+      "challenge_id": "your_pleasure_zone",
       "step_number": 6,
       "content": {
         "ua": "Під кінець обговоріть: що найбільше сподобалося?",
@@ -288,7 +288,7 @@
     },
     {
       "id": "9b77d4e4-8f49-4d60-8d49-5b60785d65be",
-      "challenge_id": "challenge_kissing_marathon",
+      "challenge_id": "kissing_marathon",
       "step_number": 1,
       "content": {
         "ua": "Почніть з поцілунків у неочікувані місця...",
@@ -299,7 +299,7 @@
     },
     {
       "id": "46e4faf3-6da5-445f-adec-e562c5c10701",
-      "challenge_id": "challenge_kissing_marathon",
+      "challenge_id": "kissing_marathon",
       "step_number": 2,
       "content": {
         "ua": "Визначте «заборонену зону», до якої можна дістатись лише наприкінці.",
@@ -310,7 +310,7 @@
     },
     {
       "id": "af8f6daf-bfc6-4990-a5d9-25631d0ab58b",
-      "challenge_id": "challenge_kissing_marathon",
+      "challenge_id": "kissing_marathon",
       "step_number": 3,
       "content": {
         "ua": "Один з вас веде, інший приймає. Після 5 хвилин — міняєтесь ролями.",
@@ -321,7 +321,7 @@
     },
     {
       "id": "4ef2e077-039a-4822-8563-2339c5fcbeaf",
-      "challenge_id": "challenge_night_without_script",
+      "challenge_id": "night_without_script",
       "step_number": 1,
       "content": {
         "ua": "Почніть із повільних дотиків, чергуючи ролі...",
@@ -332,7 +332,7 @@
     },
     {
       "id": "ebab98fc-f90c-4f88-a904-e3a4c6847c1b",
-      "challenge_id": "challenge_night_without_script",
+      "challenge_id": "night_without_script",
       "step_number": 2,
       "content": {
         "ua": "Рухайтесь інтуїтивно. Зосередьтеся на відчуттях...",
@@ -343,7 +343,7 @@
     },
     {
       "id": "9d2560ff-3bb3-49db-b3dd-361fe2da0396",
-      "challenge_id": "challenge_night_without_script",
+      "challenge_id": "night_without_script",
       "step_number": 3,
       "content": {
         "ua": "Дозвольте сексу відбутись природно, без сценарію чи очікувань.",
