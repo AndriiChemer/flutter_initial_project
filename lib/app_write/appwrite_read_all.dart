@@ -9,7 +9,7 @@ import 'package:iteo_libraries_example/app_write/dto/technique/technique_dto.dar
 import 'package:iteo_libraries_example/app_write/dto/test/test_dto.dart';
 
 Future<void> readAll() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const testsCollection = 'tests';
   const challengeCollection = 'challenges';
@@ -69,7 +69,7 @@ Future<List<TestDTO>> _readTestByCategory({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('category_id', categoryId)],
     );
 
@@ -97,7 +97,7 @@ Future<List<ChallengeDTO>> _readChallengesByCategory({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('category_id', categoryId)],
     );
 
@@ -131,7 +131,7 @@ Future<List<DailyPhraseDTO>> _readPhraseByCategory({
     do {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [
           Query.equal('category_id', categoryId),
           Query.limit(pageSize),
@@ -193,7 +193,7 @@ Future<List<DailyTaskDTO>> _readDailyTasksByCategory({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('category_id', categoryId)],
     );
 
@@ -222,7 +222,7 @@ Future<List<TechniqueDTO>> _readTechniquesByCategory({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('category_id', categoryId)],
     );
 

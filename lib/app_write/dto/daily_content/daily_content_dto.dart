@@ -66,11 +66,14 @@ class DailyContentDTO {
         isTestRequired: json['is_test_required'] as bool,
         status: statusFromString(json['status'] as String),
         createdAt: DateTime.parse(json['created_at'] as String),
-        dailyTaskId: (json['daily_task_id'] as Map<String, dynamic>)['id'] as String,
-        challengeId: (json['challenge_id'] as Map<String, dynamic>)['id'] as String,
+        dailyTaskId:
+            json['daily_task_id'] != null ? (json['daily_task_id'] as Map<String, dynamic>)['id'] as String : null,
+        challengeId:
+            json['challenge_id'] != null ? (json['challenge_id'] as Map<String, dynamic>)['id'] as String : null,
         phraseId: (json['phrase_id'] as Map<String, dynamic>)['id'] as String,
-        techniqueId: (json['technique_id'] as Map<String, dynamic>)['id'] as String,
-        testId: (json['test_id'] as Map<String, dynamic>)['id'] as String,
+        techniqueId:
+            json['technique_id'] != null ? (json['technique_id'] as Map<String, dynamic>)['id'] as String : null,
+        testId: json['test_id'] != null ? (json['test_id'] as Map<String, dynamic>)['id'] as String : null,
       );
 
   final String id;

@@ -6,7 +6,7 @@ import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/course/%D1%81ourse_dto.dart';
 
 Future<void> writeToDataBaseCourses() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const courseCollection = 'course';
 
@@ -50,7 +50,7 @@ Future<CourseDTO> _createSingleCourse({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('id', course.id)],
     );
 
@@ -63,7 +63,7 @@ Future<CourseDTO> _createSingleCourse({
       print('ANDRII ${course.id} does not exist!');
 
       await database.createDocument(
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         collectionId: collectionId,
         documentId: course.id,
         data: course.toDataBaseJson(),

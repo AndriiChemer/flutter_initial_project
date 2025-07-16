@@ -68,7 +68,7 @@ Future<List<TestDTO>> parseTests() async {
 }
 
 Future<void> writeToDataBaseTests() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const testsCollection = 'tests';
   const testQuestionsCollection = 'test_questions';
@@ -131,7 +131,7 @@ Future<TestDTO> _createSingleTest({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('id', test.id)],
     );
 
@@ -143,7 +143,7 @@ Future<TestDTO> _createSingleTest({
     } else {
       print('ANDRII ${test.id} does not exist!');
       await database.createDocument(
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         collectionId: collectionId,
         documentId: test.id,
         data: test.toDataBaseJson(),
@@ -169,7 +169,7 @@ Future<List<TestQuestionDTO>> _createTestQuestions({
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [Query.equal('test_id', questionBeforeUpdate.testId)],
       );
 
@@ -184,7 +184,7 @@ Future<List<TestQuestionDTO>> _createTestQuestions({
         print('ANDRII ${questionBeforeUpdate.number} does not exist!');
 
         await database.createDocument(
-          databaseId: databaseId,
+          databaseId: prodDatabaseId,
           collectionId: collectionId,
           documentId: questionBeforeUpdate.id,
           data: questionBeforeUpdate.toDataBaseJson(),

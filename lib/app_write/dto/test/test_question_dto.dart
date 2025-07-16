@@ -1,12 +1,13 @@
 import 'dart:convert';
 
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'test_question_dto.g.dart';
 
 @JsonSerializable()
-class TestQuestionDTO {
+class TestQuestionDTO implements AppwriteConverter {
   TestQuestionDTO({
     required this.id,
     required this.number,
@@ -75,6 +76,7 @@ class TestQuestionDTO {
     );
   }
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'number': number,

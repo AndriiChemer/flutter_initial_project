@@ -1,10 +1,11 @@
 import 'dart:convert';
 
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 
-class ChallengeDTO {
+class ChallengeDTO implements AppwriteConverter {
   ChallengeDTO({
     required this.id,
     required this.title,
@@ -25,11 +26,7 @@ class ChallengeDTO {
 
   factory ChallengeDTO.fromJson(Map<String, dynamic> json) {
     final oldId = json['id'] as String;
-    final words = oldId.split('_');
-    final prefix = words.first;
-    words
-      ..removeAt(0)
-      ..add(prefix);
+    final words = oldId.split('_')..removeWhere((word) => word == 'challenge');
     final newId = words.join('_');
 
     return ChallengeDTO(
@@ -64,7 +61,9 @@ class ChallengeDTO {
         subcategorySlug: json['subcategory_slug'] as String?,
         tags: (json['tags'] as List<dynamic>).map((item) => item as String).toList(),
         imageName: json['image_name'] as String,
-        recommendedFor: MultiLangStringDTO.fromStringJson(json['recommended_for_json'] as String),
+        recommendedFor: json['recommended_for_json'] != null
+            ? MultiLangStringDTO.fromStringJson(json['recommended_for_json'] as String)
+            : null,
         freeOrPremium: freeOrPremiumFromString(json['free_or_premium'] as String),
         status: statusFromString(json['status'] as String),
         createdAt: DateTime.parse(json['created_at'] as String),
@@ -105,6 +104,7 @@ class ChallengeDTO {
         'updated_at': updatedAt.toIso8601String(),
       };
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'title_json': title.toString(),

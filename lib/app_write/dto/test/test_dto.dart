@@ -1,4 +1,5 @@
 import 'package:collection/collection.dart';
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
@@ -11,7 +12,7 @@ import 'package:json_annotation/json_annotation.dart';
 part 'test_dto.g.dart';
 
 @JsonSerializable(explicitToJson: true)
-class TestDTO {
+class TestDTO implements AppwriteConverter {
   TestDTO({
     required this.id,
     required this.slug,
@@ -108,6 +109,7 @@ class TestDTO {
 
   Map<String, dynamic> toJson() => _$TestDTOToJson(this);
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'slug': slug,

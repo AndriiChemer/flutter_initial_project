@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -5,7 +6,7 @@ import 'package:json_annotation/json_annotation.dart';
 part 'daily_phrase_dto.g.dart';
 
 @JsonSerializable(explicitToJson: true)
-class DailyPhraseDTO {
+class DailyPhraseDTO implements AppwriteConverter {
   DailyPhraseDTO({
     required this.id,
     required this.phrase,
@@ -54,6 +55,7 @@ class DailyPhraseDTO {
 
   Map<String, dynamic> toJson() => _$DailyPhraseDTOToJson(this);
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'phrase_json': phrase.toString(),

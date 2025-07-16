@@ -74,7 +74,7 @@ Future<Map<TechniqueDTO, List<TechniqueStepDTO>>> parseTechniques() async {
 }
 
 Future<void> writeToDataBaseTechnique() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const techniquesCollection = 'techniques';
   const techniqueStepsCollection = 'technique_steps';
@@ -139,7 +139,7 @@ Future<TechniqueDTO> _createSingleTechnique({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('id', technique.id)],
     );
 
@@ -152,7 +152,7 @@ Future<TechniqueDTO> _createSingleTechnique({
       final updatedTechnique = technique.copyWith(id: ID.unique());
       print('ANDRII ${technique.id} does not exist!');
       await database.createDocument(
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         collectionId: collectionId,
         documentId: technique.id,
         data: technique.toDataBaseJson(),
@@ -183,7 +183,7 @@ Future<List<TechniqueStepDTO>> _createTechniqueSteps({
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [Query.equal('technique_id', stepBeforeUpdate.techniqueId)],
       );
 
@@ -197,7 +197,7 @@ Future<List<TechniqueStepDTO>> _createTechniqueSteps({
       } else {
         print('ANDRII ${stepBeforeUpdate.stepNumber} does not exist!');
         await database.createDocument(
-          databaseId: databaseId,
+          databaseId: prodDatabaseId,
           collectionId: collectionId,
           documentId: stepBeforeUpdate.id,
           data: stepBeforeUpdate.toDataBaseJson(),

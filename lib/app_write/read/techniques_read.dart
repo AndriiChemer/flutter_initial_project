@@ -5,7 +5,7 @@ import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/technique/technique_dto.dart';
 
 Future<void> readTechniques() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const collection = 'techniques';
 
@@ -26,7 +26,7 @@ Future<List<TechniqueDTO>> _getData({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('category_id', categoryId)],
     );
 

@@ -37,7 +37,7 @@ Future<List<DailyTaskDTO>> parseDailyTask() async {
 }
 
 Future<void> writeToDataBaseDailyTasks() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const dailyTaskCollection = 'daily_tasks';
 
@@ -77,7 +77,7 @@ Future<DailyTaskDTO> _createSingleTask({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('id', dailyTask.id)],
     );
 
@@ -89,7 +89,7 @@ Future<DailyTaskDTO> _createSingleTask({
     } else {
       print('ANDRII ${dailyTask.id} does not exist!');
       await database.createDocument(
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         collectionId: collectionId,
         documentId: dailyTask.id,
         data: dailyTask.toDataBaseJson(),

@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_task/task_step_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
@@ -7,7 +8,7 @@ import 'package:json_annotation/json_annotation.dart';
 part 'daily_task_dto.g.dart';
 
 @JsonSerializable(explicitToJson: true)
-class DailyTaskDTO {
+class DailyTaskDTO implements AppwriteConverter {
   DailyTaskDTO({
     required this.id,
     required this.title,
@@ -140,6 +141,7 @@ class DailyTaskDTO {
 
   Map<String, dynamic> toJson() => _$DailyTaskDTOToJson(this);
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'title_json': title.toString(),

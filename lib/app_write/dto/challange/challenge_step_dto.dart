@@ -1,8 +1,9 @@
 import 'dart:convert';
 
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 
-class ChallengeStepDTO {
+class ChallengeStepDTO implements AppwriteConverter {
   ChallengeStepDTO({
     required this.id,
     required this.challengeId,
@@ -15,11 +16,7 @@ class ChallengeStepDTO {
 
   factory ChallengeStepDTO.fromJson(Map<String, dynamic> json) {
     final oldChallengeId = json['challenge_id'] as String;
-    final words = oldChallengeId.split('_');
-    final prefix = words.first;
-    words
-      ..removeAt(0)
-      ..add(prefix);
+    final words = oldChallengeId.split('_')..removeWhere((word) => word == 'challenge');
     final newChallengeId = words.join('_');
 
     return ChallengeStepDTO(
@@ -65,6 +62,7 @@ class ChallengeStepDTO {
         'tips': tips?.map((item) => item.toJson()).toList(),
       };
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'challenge_id': challengeId,

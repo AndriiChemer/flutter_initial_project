@@ -36,7 +36,7 @@ Future<List<DailyContentJsonDTO>> parseDailyContentJsonDTO() async {
 }
 
 Future<void> writeToDataBaseDailyContents() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const dailyContentCollection = 'daily_content';
 
@@ -46,9 +46,9 @@ Future<void> writeToDataBaseDailyContents() async {
   final firstPart = dailyContentsJsons.sublist(0, half);
   final secondPart = dailyContentsJsons.sublist(half);
 
-  final newDay = dailyContentsJsons.firstWhereOrNull((item) => item.dayNumber == 3)?.copyWith(dayNumber: 25);
-  // final all = [...firstPart, ...secondPart];
-  final all = [if (newDay != null) newDay];
+  // final all = [...firstPart];
+  final all = [...secondPart];
+
   for (final item in all) {
     log('${item.courseId} - ${item.dayNumber}');
   }
@@ -135,7 +135,7 @@ Future<DailyContentDTO> _createSingleDailyContent({
     //TODO create DailyContent with ids:
 
     await database.createDocument(
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       collectionId: collectionId,
       documentId: dailyContent.id,
       data: dailyContent.toDataBaseJson(),
@@ -143,7 +143,7 @@ Future<DailyContentDTO> _createSingleDailyContent({
 
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.contains('id', dailyContent.id)],
     );
 
@@ -172,7 +172,7 @@ Future<TestDTO?> _findTest({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.contains('title_json', title)],
     );
 
@@ -203,7 +203,7 @@ Future<TechniqueDTO?> _findTechnique({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.contains('title_json', title)],
     );
 
@@ -235,7 +235,7 @@ Future<DailyTaskDTO?> _findDailyTask({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.contains('title_json', title)],
     );
 
@@ -265,7 +265,7 @@ Future<ChallengeDTO?> _findChallenge({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.contains('title_json', title)],
     );
 
@@ -296,7 +296,7 @@ Future<DailyPhraseDTO> _findPhrase({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.contains('phrase_json', title)],
     );
 

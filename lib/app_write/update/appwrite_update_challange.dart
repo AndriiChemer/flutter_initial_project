@@ -7,7 +7,7 @@ import 'package:iteo_libraries_example/app_write/dto/challange/challenge_dto.dar
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_step_dto.dart';
 
 Future<void> updateToDataBaseChallenges() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const challengeCollection = 'challenges';
   const stepCollection = 'challenge_steps';
@@ -94,7 +94,7 @@ Future<ChallengeDTO> _updateSingleChallenge({
 }) async {
   try {
     await database.updateDocument(
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       collectionId: collectionId,
       documentId: challenge.id,
       data: challenge.toDataBaseJson(),
@@ -119,7 +119,7 @@ Future<List<ChallengeStepDTO>> _createChallengeSteps({
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [Query.equal('challenge_id', stepBeforeUpdate.challengeId)],
       );
 
@@ -128,7 +128,7 @@ Future<List<ChallengeStepDTO>> _createChallengeSteps({
 
       if (document != null) {
         await database.deleteDocument(
-          databaseId: databaseId,
+          databaseId: prodDatabaseId,
           collectionId: collectionId,
           documentId: document.$id,
         );
@@ -141,7 +141,7 @@ Future<List<ChallengeStepDTO>> _createChallengeSteps({
       );
 
       await database.createDocument(
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         collectionId: collectionId,
         documentId: step.id,
         data: step.toDataBaseJson(),

@@ -6,7 +6,7 @@ import 'package:iteo_libraries_example/app_write/dto/daily_content/daily_content
 import 'package:iteo_libraries_example/app_write/logs/cocntent_logs.dart';
 
 Future<void> readDataBaseDailyContents() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const dailyContentCollection = 'daily_content';
 
@@ -32,7 +32,7 @@ Future<List<DailyContentWithModelsDTO>> _getData({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('category_id', categoryId)],
     );
 

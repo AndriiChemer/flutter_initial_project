@@ -19,7 +19,7 @@ class Spacings {
   static const sm = 12.0;
 
   /// 16.0
-  static const md = 16.0;
+  static const double md = 16.0;
 
   /// 20.0
   static const big = 20.0;

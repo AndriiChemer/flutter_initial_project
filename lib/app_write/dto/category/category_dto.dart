@@ -1,9 +1,10 @@
 import 'dart:convert';
 
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 
-class CategoryDTO {
+class CategoryDTO implements AppwriteConverter {
   CategoryDTO({
     required this.id,
     required this.name,
@@ -47,6 +48,7 @@ class CategoryDTO {
         'status': statusToString(status),
       };
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'name_json': name.toString(),
         'slug': slug,

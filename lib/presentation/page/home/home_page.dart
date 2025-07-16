@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:iteo_libraries_example/app_write/appwrite_read_all.dart';
 import 'package:iteo_libraries_example/app_write/compare/daily_content_compare.dart';
-import 'package:iteo_libraries_example/app_write/parsing_and_writing/appwrite_challange.dart';
+import 'package:iteo_libraries_example/app_write/migration/migration.dart';
+import 'package:iteo_libraries_example/app_write/parsing_and_writing/appwrite_daily_content.dart';
 import 'package:iteo_libraries_example/app_write/read/daily_content_read.dart';
 import 'package:iteo_libraries_example/app_write/read/techniques_read.dart';
 import 'package:iteo_libraries_example/app_write/update/appwrite_update_technique.dart';
@@ -24,12 +25,12 @@ class HomePage extends HookWidget {
             title: 'Write',
             // action: readAll,
             // action: writeToDataBaseTests,
-            // action: writeToDataBaseDailyContents,
+            action: writeToDataBaseDailyContents,
             // action: writeToDataBaseDailyTasks,
             // action: writeToDataBaseDailyPhrase,
             // action: writeToDataBaseChallenges,
             // action: writeToDataBaseCourses,
-            action: writeToDataBaseChallenges,
+            // action: writeToDataBaseChallenges,
             // action: updateToDataBaseChallenges,
           ),
           const Divider(),
@@ -54,6 +55,11 @@ class HomePage extends HookWidget {
           CustomButton.fullWidth(
             title: 'Compare',
             action: compareDailyContents,
+          ),
+          const Divider(),
+          CustomButton.fullWidth(
+            title: 'Migrate',
+            action: migrate,
           ),
         ],
       ),

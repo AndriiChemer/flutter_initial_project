@@ -11,10 +11,8 @@ import 'package:iteo_libraries_example/app_write/dto/challange/challenge_dto.dar
 import 'package:iteo_libraries_example/app_write/dto/challange/challenge_step_dto.dart';
 
 Future<void> writeToDataBaseChallenges() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
-  const categoryCollection = 'categories';
-  const subcategoryCollection = 'subcategory';
   const challengeCollection = 'challenges';
   const stepCollection = 'challenge_steps';
 
@@ -24,12 +22,12 @@ Future<void> writeToDataBaseChallenges() async {
     log('ANDRII ${item.key.id} - Steps: [${item.value.map((item) => item.stepNumber).toList()}]');
   }
 
-  // challengesWithSteps = await _createChallenges(
-  //   database: database,
-  //   challengeCollectionId: challengeCollection,
-  //   challengeStepCollectionId: stepCollection,
-  //   challenges: challengesWithSteps,
-  // );
+  challengesWithSteps = await _createChallenges(
+    database: database,
+    challengeCollectionId: challengeCollection,
+    challengeStepCollectionId: stepCollection,
+    challenges: challengesWithSteps,
+  );
 }
 
 /// generate id: ID.unique()
@@ -44,7 +42,7 @@ Future<List<CategoryDTO>> _createCategories({
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [Query.equal('slug', category.slug)],
       );
 
@@ -57,7 +55,7 @@ Future<List<CategoryDTO>> _createCategories({
       } else {
         print('ANDRII ${category.slug} does not exist!');
         await database.createDocument(
-          databaseId: databaseId,
+          databaseId: prodDatabaseId,
           collectionId: collectionId,
           documentId: category.id,
           data: category.toDataBaseJson(),
@@ -88,7 +86,7 @@ Future<List<SubcategoryDTO>> _createSubcategories({
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [Query.equal('slug', subcategory.slug)],
       );
 
@@ -101,7 +99,7 @@ Future<List<SubcategoryDTO>> _createSubcategories({
       } else {
         print('ANDRII ${subcategory.slug} does not exist!');
         await database.createDocument(
-          databaseId: databaseId,
+          databaseId: prodDatabaseId,
           collectionId: collectionId,
           documentId: subcategory.id,
           data: subcategory.toDataBaseJson(),
@@ -133,23 +131,25 @@ Future<Map<ChallengeDTO, List<ChallengeStepDTO>>> _createChallenges({
     final challenge = entry.key;
     final challengeSteps = entry.value;
 
-    try {
-      final createdChallenge = await _createSingleChallenge(
-        database: database,
-        collectionId: challengeCollectionId,
-        challenge: challenge,
-      );
+    if (challenge.categoryId == categoryId) {
+      try {
+        final createdChallenge = await _createSingleChallenge(
+          database: database,
+          collectionId: challengeCollectionId,
+          challenge: challenge,
+        );
 
-      final createdChallengeSteps = await _createChallengeSteps(
-        database: database,
-        collectionId: challengeStepCollectionId,
-        challenge: createdChallenge,
-        steps: challengeSteps,
-      );
+        final createdChallengeSteps = await _createChallengeSteps(
+          database: database,
+          collectionId: challengeStepCollectionId,
+          challenge: createdChallenge,
+          steps: challengeSteps,
+        );
 
-      updatedChallenges[createdChallenge] = createdChallengeSteps;
-    } catch (e) {
-      print('ANDRII: e $e');
+        updatedChallenges[createdChallenge] = createdChallengeSteps;
+      } catch (e) {
+        rethrow;
+      }
     }
   }
 
@@ -164,7 +164,7 @@ Future<ChallengeDTO> _createSingleChallenge({
   try {
     final response = await database.listDocuments(
       collectionId: collectionId,
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       queries: [Query.equal('id', challenge.id)],
     );
 
@@ -176,7 +176,7 @@ Future<ChallengeDTO> _createSingleChallenge({
     } else {
       print('ANDRII ${challenge.id} does not exist!');
       await database.createDocument(
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         collectionId: collectionId,
         documentId: challenge.id,
         data: challenge.toDataBaseJson(),
@@ -202,7 +202,7 @@ Future<List<ChallengeStepDTO>> _createChallengeSteps({
     try {
       final response = await database.listDocuments(
         collectionId: collectionId,
-        databaseId: databaseId,
+        databaseId: prodDatabaseId,
         queries: [Query.equal('challenge_id', stepBeforeUpdate.challengeId)],
       );
 
@@ -221,7 +221,7 @@ Future<List<ChallengeStepDTO>> _createChallengeSteps({
 
         print('ANDRII ${step.stepNumber} does not exist!');
         await database.createDocument(
-          databaseId: databaseId,
+          databaseId: prodDatabaseId,
           collectionId: collectionId,
           documentId: step.id,
           data: step.toDataBaseJson(),

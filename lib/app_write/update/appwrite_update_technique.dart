@@ -1,13 +1,13 @@
 import 'package:iteo_libraries_example/app_write/database_config.dart';
 
 Future<void> updateToDatabaseSingleTechnique() async {
-  final database = getDataBase();
+  final database = getDataBaseProd();
 
   const documentId = 'day-3';
   const techniqueId = 'shared-list-of-pain-and-joy';
   try {
     await database.updateDocument(
-      databaseId: databaseId,
+      databaseId: prodDatabaseId,
       collectionId: 'daily_content',
       documentId: documentId,
       data: {
