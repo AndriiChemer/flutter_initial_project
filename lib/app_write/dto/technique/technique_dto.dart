@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/free_or_premiun_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
@@ -6,7 +7,7 @@ import 'package:json_annotation/json_annotation.dart';
 part 'technique_dto.g.dart';
 
 @JsonSerializable(explicitToJson: true)
-class TechniqueDTO {
+class TechniqueDTO implements AppwriteConverter {
   TechniqueDTO({
     required this.id,
     required this.title,
@@ -113,6 +114,7 @@ class TechniqueDTO {
 
   Map<String, dynamic> toJson() => _$TechniqueDTOToJson(this);
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'title_json': title.toString(),

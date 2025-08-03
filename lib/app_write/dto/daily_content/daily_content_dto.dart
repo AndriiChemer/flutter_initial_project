@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/daily_content/json/daily_content_json_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -5,7 +6,7 @@ import 'package:json_annotation/json_annotation.dart';
 part 'daily_content_dto.g.dart';
 
 @JsonSerializable(explicitToJson: true)
-class DailyContentDTO {
+class DailyContentDTO implements AppwriteConverter {
   const DailyContentDTO({
     required this.id,
     required this.dayNumber,

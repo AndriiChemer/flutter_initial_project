@@ -1,3 +1,4 @@
+import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
 import 'package:iteo_libraries_example/app_write/dto/multi_land_string_dto.dart';
 import 'package:iteo_libraries_example/app_write/dto/status_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -5,7 +6,7 @@ import 'package:json_annotation/json_annotation.dart';
 part 'сourse_dto.g.dart';
 
 @JsonSerializable()
-class CourseDTO {
+class CourseDTO implements AppwriteConverter {
   const CourseDTO({
     required this.id,
     required this.slug,
@@ -47,6 +48,7 @@ class CourseDTO {
 
   Map<String, dynamic> toJson() => _$CourseDTOToJson(this);
 
+  @override
   Map<String, dynamic> toDataBaseJson() => {
         'id': id,
         'slug': slug,

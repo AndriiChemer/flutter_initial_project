@@ -1,6 +1,7 @@
 import 'package:appwrite/appwrite.dart';
 import 'package:iteo_libraries_example/app_write/database_config.dart';
 import 'package:iteo_libraries_example/app_write/dto/appwrite_converter.dart';
+import 'package:iteo_libraries_example/app_write/dto/daily_content/daily_content_dto.dart';
 
 Future<void> migrate() async {
   final dbProd = getDataBaseProd();
@@ -24,7 +25,6 @@ Future<void> migrate() async {
   //   convert: SubcategoryDTO.fromAppWriteJson,
   // );
 
-  //TODO rewrite
   // await migrateCollection(
   //   databaseDataFrom: dbProd,
   //   databaseDataTo: dbDev,
@@ -34,7 +34,6 @@ Future<void> migrate() async {
   //   convert: ChallengeDTO.fromAppWriteJson,
   // );
 
-  //TODO rewrite
   // await migrateCollection(
   //   databaseDataFrom: dbProd,
   //   databaseDataTo: dbDev,
@@ -70,7 +69,7 @@ Future<void> migrate() async {
   //   collectionId: 'tests',
   //   convert: TestDTO.fromAppWriteJson,
   // );
-  //TODO: start from here
+  //
   // await migrateCollection(
   //   databaseDataFrom: dbProd,
   //   databaseDataTo: dbDev,
@@ -86,6 +85,7 @@ Future<void> migrate() async {
   //   dateFromDatabaseId: prodDatabaseId,
   //   dateToDatabaseId: devDatabaseId,
   //   collectionId: 'techniques',
+  //   convert: TechniqueDTO.fromAppWriteJson,
   // );
   //
   // await migrateCollection(
@@ -94,31 +94,25 @@ Future<void> migrate() async {
   //   dateFromDatabaseId: prodDatabaseId,
   //   dateToDatabaseId: devDatabaseId,
   //   collectionId: 'technique_steps',
+  //   convert: TechniqueStepDTO.fromAppWriteJson,
   // );
-  //
-  // await migrateCollection(
-  //   databaseDataFrom: dbProd,
-  //   databaseDataTo: dbDev,
-  //   dateFromDatabaseId: prodDatabaseId,
-  //   dateToDatabaseId: devDatabaseId,
-  //   collectionId: 'user',
-  // );
-  //
   // await migrateCollection(
   //   databaseDataFrom: dbProd,
   //   databaseDataTo: dbDev,
   //   dateFromDatabaseId: prodDatabaseId,
   //   dateToDatabaseId: devDatabaseId,
   //   collectionId: 'course',
+  //   convert: CourseDTO.fromAppWriteJson,
   // );
   //
-  // await migrateCollection(
-  //   databaseDataFrom: dbProd,
-  //   databaseDataTo: dbDev,
-  //   dateFromDatabaseId: prodDatabaseId,
-  //   dateToDatabaseId: devDatabaseId,
-  //   collectionId: 'daily_content',
-  // );
+  await migrateCollection(
+    databaseDataFrom: dbProd,
+    databaseDataTo: dbDev,
+    dateFromDatabaseId: prodDatabaseId,
+    dateToDatabaseId: devDatabaseId,
+    collectionId: 'daily_content',
+    convert: DailyContentDTO.fromAppWriteJson,
+  );
 }
 
 Future<void> migrateCollection({
@@ -129,8 +123,8 @@ Future<void> migrateCollection({
   required String collectionId,
   required AppwriteConverter Function(Map<String, dynamic> json) convert,
 }) async {
-  // final pageSize = 50;
-  // final page = 50;
+  // var pageSize = 60;
+  // var page = 0; //2
 
   final docs = await databaseDataFrom.listDocuments(
     databaseId: dateFromDatabaseId,
@@ -142,7 +136,10 @@ Future<void> migrateCollection({
     ],
   );
 
+  final items = <String>[];
+
   for (final doc in docs.documents) {
+    items.add(doc.$id);
     print('ANDRII doc: ${doc.$id}');
 
     final data = convert(doc.data);
@@ -154,10 +151,10 @@ Future<void> migrateCollection({
         data: data.toDataBaseJson(),
       );
     } catch (ex) {
-      print('Failed to create document for collectionId $collectionId.');
+      print('Failed to create document for collectionId $collectionId. - Size: ${items.length}');
       rethrow;
     }
   }
 
-  print('✅ Finish for collection $collectionId.');
+  print('✅ Finish for collection $collectionId. - Size: ${items.length}');
 }

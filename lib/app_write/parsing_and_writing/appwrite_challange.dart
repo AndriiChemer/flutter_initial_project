@@ -28,6 +28,7 @@ Future<void> writeToDataBaseChallenges() async {
     challengeStepCollectionId: stepCollection,
     challenges: challengesWithSteps,
   );
+  print('ANDRII ====== ✅ Finish ======');
 }
 
 /// generate id: ID.unique()

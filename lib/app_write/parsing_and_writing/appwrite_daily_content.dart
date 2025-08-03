@@ -46,8 +46,8 @@ Future<void> writeToDataBaseDailyContents() async {
   final firstPart = dailyContentsJsons.sublist(0, half);
   final secondPart = dailyContentsJsons.sublist(half);
 
-  // final all = [...firstPart];
-  final all = [...secondPart];
+  final all = [...firstPart];
+  // final all = [...secondPart];
 
   for (final item in all) {
     log('${item.courseId} - ${item.dayNumber}');
